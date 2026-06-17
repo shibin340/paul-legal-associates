@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AnimateIn from "../components/ui/AnimateIn";
 import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { CONTACT_INFO, OFFICE_HOURS, PRACTICE_AREA_OPTIONS } from "../data";
+import { CONTACT_INFO, OFFICE_HOURS } from "../data";
 import type { ContactForm } from "../types";
 
 type Errors = Partial<Record<keyof ContactForm, string>>;
@@ -20,32 +20,22 @@ function validate(f: ContactForm): Errors {
 
 const FAQ = [
   // { q: "Is the initial consultation free?", a: "Yes — your first consultation is complimentary. We believe you should be able to discuss your matter freely before deciding to engage us." },
-  { q: "Which courts do your advocates practice in?", a: "Our advocates practice before the Bombay High Court, Supreme Court of India, and various tribunals and regulatory authorities including SRA, BMC and RERA." },
+  { q: "Which courts do your advocates practice in?", a: "Our advocates practice before the Bombay High Court, Supreme Court of India, and various tribunals and regulatory authorities including SR[...]" },
   { q: "Do you handle urgent legal matters?", a: "Absolutely. Please indicate urgency when you contact us and we will prioritise your matter immediately." },
-  { q: "What areas of Maharashtra do you serve?", a: "Our primary practice is in Navi Mumbai and the surrounding districts, but we handle matters across Maharashtra and before national-level courts and tribunals." },
+  { q: "What areas of Maharashtra do you serve?", a: "Our primary practice is in Navi Mumbai and the surrounding districts, but we handle matters across Maharashtra and before national-level court[...]" },
   { q: "How are your fees structured?", a: "We offer matter-specific fee arrangements — fixed fees, retainer-based or time-based billing — discussed transparently at your first consultation." },
-  { q: "How do you maintain confidentiality?", a: "All communications are protected by attorney-client privilege from the moment of first contact. We maintain strict data security and confidentiality protocols." },
+  { q: "How do you maintain confidentiality?", a: "All communications are protected by attorney-client privilege from the moment of first contact. We maintain strict data security and confidential[...]" },
 ];
 
 const Contact: React.FC = () => {
   const [form, setForm] = useState<ContactForm>(INIT);
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);
-  const [loading, setLoading] = useState(false);
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
     setForm(p => ({ ...p, [name]: value }));
     if (errors[name as keyof ContactForm]) setErrors(p => ({ ...p, [name]: undefined }));
-  };
-
-  const handleSubmit = async (e: React.MouseEvent) => {
-    e.preventDefault();
-    const errs = validate(form);
-    if (Object.keys(errs).length) { setErrors(errs); return; }
-    setLoading(true);
-    await new Promise(r => setTimeout(r, 1200));
-    setLoading(false); setSubmitted(true); setForm(INIT);
   };
 
   const handleWhatsAppBooking = () => {
@@ -177,12 +167,12 @@ ${form.message}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1.5">
                       <label className="form-label" htmlFor="name">Full Name *</label>
-                      <input id="name" name="name" type="text" className={`${inputBase} ${errors.name ? inputErr : inputOk}`} placeholder="Your full name" value={form.name} onChange={handleChange} aria-required="true" />
+                      <input id="name" name="name" type="text" className={`${inputBase} ${errors.name ? inputErr : inputOk}`} placeholder="Your full name" value={form.name} onChange={handleChange} />
                       {errors.name && <span className="text-[0.75rem] text-red-500" role="alert">{errors.name}</span>}
                     </div>
                     <div className="flex flex-col gap-1.5">
                       <label className="form-label" htmlFor="email">Email Address *</label>
-                      <input id="email" name="email" type="email" className={`${inputBase} ${errors.email ? inputErr : inputOk}`} placeholder="your@email.com" value={form.email} onChange={handleChange} aria-required="true" />
+                      <input id="email" name="email" type="email" className={`${inputBase} ${errors.email ? inputErr : inputOk}`} placeholder="your@email.com" value={form.email} onChange={handleChange} />
                       {errors.email && <span className="text-[0.75rem] text-red-500" role="alert">{errors.email}</span>}
                     </div>
                   </div>
@@ -190,14 +180,14 @@ ${form.message}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1.5">
                       <label className="form-label" htmlFor="phone">Phone Number *</label>
-                      <input id="phone" name="phone" type="tel" className={`${inputBase} ${errors.phone ? inputErr : inputOk}`} placeholder="+91 79770 63567" value={form.phone} onChange={handleChange} aria-required="true" />
+                      <input id="phone" name="phone" type="tel" className={`${inputBase} ${errors.phone ? inputErr : inputOk}`} placeholder="+91 79770 63567" value={form.phone} onChange={handleChange} />
                       {errors.phone && <span className="text-[0.75rem] text-red-500" role="alert">{errors.phone}</span>}
                     </div>
                   </div>
 
                   <div className="flex flex-col gap-1.5">
                     <label className="form-label" htmlFor="message">Your Message *</label>
-                    <textarea id="message" name="message" className={`${inputBase} ${errors.message ? inputErr : inputOk} min-h-[140px] resize-y`} placeholder="Please describe your legal matter briefly…" value={form.message} onChange={handleChange} aria-required="true" />
+                    <textarea id="message" name="message" className={`${inputBase} ${errors.message ? inputErr : inputOk} min-h-[140px] resize-y`} placeholder="Please describe your legal matter briefly..." value={form.message} onChange={handleChange} />
                     {errors.message && <span className="text-[0.75rem] text-red-500" role="alert">{errors.message}</span>}
                   </div>
 
