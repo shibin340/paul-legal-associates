@@ -30,7 +30,7 @@ const Home: React.FC = () => (
 
         {/* Logo mark */}
         <div className="mb-6 animate-heroFadeUp animation-delay-200">
-          <img src="/logo.png" alt="Paul Legal Associates" className="h-16 w-auto contrast-50 object-contain" />
+          <img src="/logo.png" alt="Paul Legal Associates" className="h-16 w-auto object-contain" />
         </div>
 
         {/* Main headline */}

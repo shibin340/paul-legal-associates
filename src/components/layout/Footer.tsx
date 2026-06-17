@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
 
           {/* Brand */}
           <div className="xl:col-span-1">
-            <img src="/logo.png" alt="Paul Legal Associates" className="h-12 contrast-50 w-auto object-contain mb-4"
+            <img src="/logo.png" alt="Paul Legal Associates" className="h-12 w-auto object-contain mb-4"
             //  style={{ filter: "brightness(0) invert(1)" }} 
              />
             <p className="text-[0.72rem] tracking-[0.12em] text-gold italic mb-5">{TAGLINE}</p>

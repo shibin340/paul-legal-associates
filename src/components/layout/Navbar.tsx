@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
           {/* Logo */}
           <div className="flex items-center gap-2 p-3">
             <NavLink to="/" className="flex items-center gap-3 no-underline flex-shrink-0" onClick={() => setOpen(false)} aria-label="Paul Legal Associates Home">
-              <img src="/logo.png" alt="Paul Legal Associates" className={`h-16 w-auto object-contain ${scrolled ? "brightness-50" : "contrast-50"}`} />
+              <img src="/logo.png" alt="Paul Legal Associates" className={`h-16 w-auto object-contain`} />
             </NavLink>
 
             {/* Tagline — desktop only */}
@@ -60,7 +60,7 @@ const Navbar: React.FC = () => {
 
       {/* Mobile menu */}
       <div className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`} role="dialog" aria-modal="true">
-        <img src="/logo.png" alt="Paul Legal Associates" className="h-14 w-auto contrast-50 object-contain mb-2" />
+        <img src="/logo.png" alt="Paul Legal Associates" className="h-14 w-auto object-contain mb-2" />
         <p className="text-[0.65rem] tracking-[0.2em] uppercase text-gold/70 italic mb-4">{TAGLINE}</p>
         <ul className="list-none flex flex-col items-center gap-6 mb-6">
           {NAV_LINKS.map(({ label, path }) => (
