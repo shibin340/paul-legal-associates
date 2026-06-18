@@ -40,7 +40,10 @@
     "minifyHtml": {
       "collapseWhitespace": true,
       "removeComments": true
-    }
+    },
+    "inlineCss": true,
+    "removeStyles": false,
+    "skipQuietPreload": true
   },
   "browserslist": {
     "production": [

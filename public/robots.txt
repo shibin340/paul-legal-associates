@@ -2,6 +2,9 @@
 # Robots.txt for Paul Legal Associates (https://www.paullegalassociates.com)
 # ====================================================================
 
+# This line fixes the error by applying the following rules to ALL search engine crawlers
+User-agent: *
+
 # Public presentation routes - Explicitly allowed for safe indexing
 Allow: /
 Allow: /about

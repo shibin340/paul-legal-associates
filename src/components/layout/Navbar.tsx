@@ -1,36 +1,19 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import { NAV_LINKS, TAGLINE } from "../../data";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
   const scrollPos = useScrollPosition();
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  // Structural Fallback: If we are pre-rendering (react-snap) or hydratation is occurring,
-  // we render a clean, standard matching layout container shell. This completely avoids 
-  // class string dynamic mismatches caused by react-router-dom links.
-  if (!isMounted) {
-    return (
-      <header className="fixed top-0 left-0 right-0 h-[72px] z-50 bg-transparent" role="banner">
-        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-full" />
-      </header>
-    );
-  }
 
   const scrolled = scrollPos > 60;
 
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
-          scrolled ? "bg-navy/95 backdrop-blur-md shadow-[0_1px_0_rgba(200,169,81,0.2)]" : ""
-        }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-navy/95 backdrop-blur-md shadow-[0_1px_0_rgba(200,169,81,0.2)]" : ""
+          }`}
         role="banner"
       >
         <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-[72px] flex items-center justify-between gap-4 md:gap-6">
@@ -46,6 +29,8 @@ const Navbar: React.FC = () => {
                 src="/logo.png"
                 alt="Paul Legal Associates"
                 className="h-11 sm:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-none object-contain"
+                fetchPriority="high"
+                decoding="sync"
               />
             </NavLink>
 
@@ -95,9 +80,8 @@ const Navbar: React.FC = () => {
 
       {/* Mobile menu Overlay */}
       <div
-        className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${
-          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-        }`}
+        className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="mobile-menu-title"
