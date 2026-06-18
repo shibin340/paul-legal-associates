@@ -14,11 +14,22 @@ const Navbar: React.FC = () => {
           }`}
         role="banner"
       >
-        <div className="max-w-8xl mx-auto px-[5vw] h-[72px] flex items-center justify-between gap-6">
-          {/* Logo */}
-          <div className="flex items-center gap-2 p-3">
-            <NavLink to="/" className="flex items-center gap-3 no-underline flex-shrink-0" onClick={() => setOpen(false)} aria-label="Paul Legal Associates Home">
-              <img src="/logo.png" alt="Paul Legal Associates" className={`h-16 w-auto object-contain`} />
+        {/* Adjusted mobile gap and horizontal paddings safely */}
+        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-[72px] flex items-center justify-between gap-4 md:gap-6">
+          {/* Logo Container - Removed aggressive mobile padding */}
+          <div className="flex items-center gap-2 py-1 min-w-0">
+            <NavLink
+              to="/"
+              className="flex items-center gap-3 no-underline flex-shrink-0"
+              onClick={() => setOpen(false)}
+              aria-label="Paul Legal Associates Home"
+            >
+              {/* Scaled height dynamically for responsive viewports */}
+              <img
+                src="/logo.png"
+                alt="Paul Legal Associates"
+                className="h-11 sm:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-none object-contain"
+              />
             </NavLink>
 
             {/* Tagline — desktop only */}
@@ -29,10 +40,12 @@ const Navbar: React.FC = () => {
 
           {/* Desktop nav */}
           <nav className="hidden lg:block" aria-label="Main navigation">
-            <ul className="flex items-center gap-8 list-none">
+            <ul className="flex items-center gap-8 list-none m-0 p-0">
               {NAV_LINKS.map(({ label, path }) => (
                 <li key={path}>
-                  <NavLink to={path} end={path === "/"}
+                  <NavLink
+                    to={path}
+                    end={path === "/"}
                     className={({ isActive }) =>
                       `text-[0.74rem] font-medium tracking-[0.12em] uppercase no-underline relative pb-0.5 transition-colors duration-300
                        after:absolute after:bottom-[-4px] after:left-0 after:right-0 after:h-px after:bg-gold after:transition-transform after:duration-300 after:origin-left
@@ -50,7 +63,12 @@ const Navbar: React.FC = () => {
           </NavLink>
 
           {/* Hamburger */}
-          <button className="lg:hidden flex flex-col gap-[5px] bg-transparent border-0 p-1.5 cursor-pointer" onClick={() => setOpen(!open)} aria-label={open ? "Close menu" : "Open menu"} aria-expanded={open}>
+          <button
+            className="lg:hidden flex flex-col gap-[5px] bg-transparent border-0 p-2 cursor-pointer flex-shrink-0 select-none"
+            onClick={() => setOpen(!open)}
+            aria-label={open ? "Close menu" : "Open menu"}
+            aria-expanded={open}
+          >
             <span className={`block w-6 h-[1.5px] bg-gold transition-all duration-300 ${open ? "rotate-45 translate-y-[6.5px]" : ""}`} />
             <span className={`block w-6 h-[1.5px] bg-gold transition-all duration-300 ${open ? "opacity-0 scale-x-0" : ""}`} />
             <span className={`block w-6 h-[1.5px] bg-gold transition-all duration-300 ${open ? "-rotate-45 -translate-y-[6.5px]" : ""}`} />
@@ -58,15 +76,22 @@ const Navbar: React.FC = () => {
         </div>
       </header>
 
-      {/* Mobile menu */}
-      <div className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"}`} role="dialog" aria-modal="true">
-        <img src="/logo.png" alt="Paul Legal Associates" className="h-14 w-auto object-contain mb-2" />
-        <p className="text-[0.65rem] tracking-[0.2em] uppercase text-gold/70 italic mb-4">{TAGLINE}</p>
-        <ul className="list-none flex flex-col items-center gap-6 mb-6">
+      {/* Mobile menu Overlay */}
+      <div
+        className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+          }`}
+        role="dialog"
+        aria-modal="true"
+        style={{ backgroundColor: "rgba(13, 39, 67, 0.5)" }}
+      >
+        <ul className="list-none flex flex-col items-center gap-6 mb-6 m-0 p-0">
           {NAV_LINKS.map(({ label, path }) => (
             <li key={path}>
-              <NavLink to={path} end={path === "/"} onClick={() => setOpen(false)}
-                className={({ isActive }) => `font-serif text-[2rem] font-normal no-underline transition-colors duration-300 ${isActive ? "text-gold" : "text-cream hover:text-gold"}`}
+              <NavLink
+                to={path}
+                end={path === "/"}
+                onClick={() => setOpen(false)}
+                className={({ isActive }) => `font-serif text-[1.75rem] sm:text-[2rem] font-normal no-underline transition-colors duration-300 ${isActive ? "text-gold" : "text-cream hover:text-gold"}`}
               >{label}</NavLink>
             </li>
           ))}

@@ -107,3 +107,8 @@
   }
   .text-shadow-navy { text-shadow: 0 2px 20px rgba(13,39,67,0.4); }
 }
+
+html, body {
+  max-width: 100%;
+  overflow-x: hidden;
+}

@@ -20,18 +20,6 @@ const Home: React.FC = () => (
         style={{ fontSize: "clamp(200px,28vw,420px)" }} aria-hidden="true">⚖</div>
 
       <div className="relative z-10 max-w-[720px]">
-        {/* Eyebrow */}
-        <div className="flex items-center gap-4 mb-5 animate-heroFadeUp animation-delay-200">
-          <div className="w-10 h-px bg-gold flex-shrink-0" />
-          <span className="text-2xs font-semibold tracking-[0.22em] uppercase text-gold">
-            Advocates, High Court of Bombay
-          </span>
-        </div>
-
-        {/* Logo mark */}
-        <div className="mb-6 animate-heroFadeUp animation-delay-200">
-          <img src="/logo.png" alt="Paul Legal Associates" className="h-16 w-auto object-contain" />
-        </div>
 
         {/* Main headline */}
         <h1 className="font-serif font-bold text-cream leading-[1.12] mb-4 animate-heroFadeUp animation-delay-350"
