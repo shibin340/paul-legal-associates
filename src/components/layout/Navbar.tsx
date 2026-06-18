@@ -1,11 +1,27 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import { NAV_LINKS, TAGLINE } from "../../data";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
+  const [isMounted, setIsMounted] = useState(false);
   const scrollPos = useScrollPosition();
+
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // Structural Fallback: If we are pre-rendering (react-snap) or hydratation is occurring,
+  // we render a clean, standard matching layout container shell. This completely avoids 
+  // class string dynamic mismatches caused by react-router-dom links.
+  if (!isMounted) {
+    return (
+      <header className="fixed top-0 left-0 right-0 h-[72px] z-50 bg-transparent" role="banner">
+        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-full" />
+      </header>
+    );
+  }
 
   const scrolled = scrollPos > 60;
 
@@ -25,6 +41,7 @@ const Navbar: React.FC = () => {
               onClick={() => setOpen(false)}
               aria-label="Paul Legal Associates Home"
             >
+
               <img
                 src="/logo.png"
                 alt="Paul Legal Associates"
