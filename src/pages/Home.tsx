@@ -113,7 +113,7 @@ const Home: React.FC = () => (
                 {TEAM_MEMBERS.map(m => (
                   <div key={m.id} className="flex flex-col items-center gap-2">
                     <div className="w-full aspect-[3/4] overflow-hidden border-2 border-gold/30">
-                      <img src={m.photo} alt={m.name} className="w-full h-full object-cover" />
+                      <img src={m.photo} alt={m.name} loading="lazy" className="w-full h-full object-cover" />
                     </div>
                     <div className="text-center">
                       <div className="text-[0.7rem] font-semibold text-cream leading-tight">{m.name}</div>

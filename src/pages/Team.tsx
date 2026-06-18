@@ -21,7 +21,7 @@ const TeamCard: React.FC<{ member: TeamMember; delay: number; onSelect: (m: Team
     >
       {/* Photo */}
       <div className="relative overflow-hidden" style={{ height: "320px" }}>
-        <img src={member.photo} alt={member.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
+        <img src={member.photo} loading="lazy" alt={member.name} className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105" />
         <div className={`absolute inset-0 bg-navy/60 flex items-end p-6 transition-opacity duration-300 opacity-0 group-hover:opacity-100`}>
           <p className="font-serif-alt italic text-gold text-[0.9rem] leading-snug">"{member.tagline}"</p>
         </div>
@@ -85,7 +85,7 @@ const Team: React.FC = () => {
             {/* Photo + name block */}
             <AnimateIn key={selected.id}>
               <div className="border-2 border-gold/30 overflow-hidden" style={{ maxHeight: "480px" }}>
-                <img src={selected.photo} alt={selected.name} className="w-full h-full object-cover object-top" style={{ maxHeight: "400px" }} />
+                <img src={selected.photo} loading="lazy" alt={selected.name} className="w-full h-full object-cover object-top" style={{ maxHeight: "400px" }} />
                 <div className="bg-navy-deep p-5 border-t border-gold/20">
                   <div className="text-2xs tracking-[0.15em] uppercase text-gold mb-1">{selected.title}</div>
                   <div className="font-serif text-[1.15rem] font-semibold text-cream">{selected.name}</div>
