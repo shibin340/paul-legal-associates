@@ -12,9 +12,9 @@ if (container.hasChildNodes()) {
     </React.StrictMode>,
     {
       onRecoverableError: (error, errorInfo) => {
-        console.error("--- HYDRATION MISMATCH FOUND ---");
-        console.error(error);
-        console.error("Component stack trace:", errorInfo.componentStack);
+        // console.error("--- HYDRATION MISMATCH FOUND ---");
+        // console.error(error);
+        // console.error("Component stack trace:", errorInfo.componentStack);
       }
     }
   );
