@@ -4,12 +4,19 @@ import Layout from "./components/layout/Layout";
 import "./index.css";
 import ScrollToTop from "hooks/ScrollToTop";
 
-const Home = lazy(() => import("./pages/Home"));
-const About = lazy(() => import("./pages/About"));
-const Expertise = lazy(() => import("./pages/Expertise"));
-const Team = lazy(() => import("./pages/Team"));
-const Contact = lazy(() => import("./pages/Contact"));
-const NotFound = lazy(() => import("./pages/NotFound"));
+// const Home = lazy(() => import("./pages/Home"));
+// const About = lazy(() => import("./pages/About"));
+// const Expertise = lazy(() => import("./pages/Expertise"));
+// const Team = lazy(() => import("./pages/Team"));
+// const Contact = lazy(() => import("./pages/Contact"));
+// const NotFound = lazy(() => import("./pages/NotFound"));
+
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Expertise from "./pages/Expertise";
+import Team from "./pages/Team";
+import Contact from "./pages/Contact";
+import NotFound from "pages/NotFound";
 
 // console.error = () => { };
 // console.warn = () => { };
