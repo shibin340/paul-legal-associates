@@ -5,7 +5,6 @@ import App from "./App";
 
 const container = document.getElementById("root") as HTMLElement;
 
-// Check if react-snap has already pre-baked the static HTML elements into the DOM
 if (container.hasChildNodes()) {
   hydrateRoot(
     container,
@@ -13,10 +12,17 @@ if (container.hasChildNodes()) {
       <HelmetProvider>
         <App />
       </HelmetProvider>
-    </React.StrictMode>
+    </React.StrictMode>,
+    {
+      // This hidden configuration switch forces React 18 to show you exactly what text/tag broke
+      onRecoverableError: (error, errorInfo) => {
+        console.error("--- HYDRATION MISMATCH FOUND ---");
+        console.error(error);
+        console.error("Component stack trace:", errorInfo.componentStack);
+      }
+    }
   );
 } else {
-  // Fallback to standard client-side rendering for local development (npm start)
   const root = createRoot(container);
   root.render(
     <React.StrictMode>

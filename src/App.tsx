@@ -11,9 +11,9 @@ const Team = lazy(() => import("./pages/Team"));
 const Contact = lazy(() => import("./pages/Contact"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 
-console.error = () => { };
-console.warn = () => { };
-console.log = () => { };
+// console.error = () => { };
+// console.warn = () => { };
+// console.log = () => { };
 
 const Loader: React.FC = () => (
   <div className="min-h-screen bg-navy flex items-center justify-center" role="status" aria-label="Loading">
