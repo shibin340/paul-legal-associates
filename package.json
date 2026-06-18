@@ -35,11 +35,13 @@
     "source": "build",
     "puppeteerArgs": [
       "--no-sandbox",
-      "--disable-setuid-sandbox"
+      "--disable-setuid-sandbox",
+      "--disable-dev-shm-usage"
     ],
     "minifyHtml": {
       "collapseWhitespace": true,
-      "removeComments": true
+      "removeComments": true,
+      "minifyCSS": true
     },
     "inlineCss": true,
     "removeStyles": false,
