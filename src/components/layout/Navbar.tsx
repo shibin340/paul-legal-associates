@@ -8,25 +8,33 @@ const Navbar: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
   const scrollPos = useScrollPosition();
 
-  // Handle client-side mounting safely
   useEffect(() => {
     setIsMounted(true);
   }, []);
 
-  // If we aren't mounted in the real browser yet, default strictly to false
-  // This completely ensures the first browser paint perfectly mirrors the react-snap HTML file
-  const scrolled = isMounted ? scrollPos > 60 : false;
+  // Structural Fallback: If we are pre-rendering (react-snap) or hydratation is occurring,
+  // we render a clean, standard matching layout container shell. This completely avoids 
+  // class string dynamic mismatches caused by react-router-dom links.
+  if (!isMounted) {
+    return (
+      <header className="fixed top-0 left-0 right-0 h-[72px] z-50 bg-transparent" role="banner">
+        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-full" />
+      </header>
+    );
+  }
+
+  const scrolled = scrollPos > 60;
 
   return (
     <>
       <header
-        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${scrolled ? "bg-navy/95 backdrop-blur-md shadow-[0_1px_0_rgba(200,169,81,0.2)]" : ""
-          }`}
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-500 ${
+          scrolled ? "bg-navy/95 backdrop-blur-md shadow-[0_1px_0_rgba(200,169,81,0.2)]" : ""
+        }`}
         role="banner"
       >
-        {/* Adjusted mobile gap and horizontal paddings safely */}
         <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-[72px] flex items-center justify-between gap-4 md:gap-6">
-          {/* Logo Container - Removed aggressive mobile padding */}
+          {/* Logo Container */}
           <div className="flex items-center gap-2 py-1 min-w-0">
             <NavLink
               to="/"
@@ -34,7 +42,6 @@ const Navbar: React.FC = () => {
               onClick={() => setOpen(false)}
               aria-label="Paul Legal Associates Home"
             >
-              {/* Scaled height dynamically for responsive viewports */}
               <img
                 src="/logo.png"
                 alt="Paul Legal Associates"
@@ -88,8 +95,9 @@ const Navbar: React.FC = () => {
 
       {/* Mobile menu Overlay */}
       <div
-        className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
-          }`}
+        className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-center gap-6 transition-all duration-300 ${
+          open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
+        }`}
         role="dialog"
         aria-modal="true"
         aria-labelledby="mobile-menu-title"
@@ -118,4 +126,5 @@ const Navbar: React.FC = () => {
     </>
   );
 };
+
 export default Navbar;
