@@ -12,24 +12,26 @@ const Layout: React.FC = () => {
     setIsMounted(true);
   }, []);
 
-  // Structural Core Layout Content
+  // Hydration Safe Key: Default to a stable static string during initial match.
+  // This guarantees the client HTML perfectly mirrors react-snap's layout structures.
+  // Once mounted, it safely switches to pathname to handle dynamic page animations.
+  const activeKey = isMounted ? pathname : "hydration-fallback";
+
   const layoutContent = (
     <>
       <Navbar />
-      <main id="main-content" key={pathname} className="animate-pageFadeIn">
+      {/* Updated to use the stable activeKey variable */}
+      <main id="main-content" key={activeKey} className="animate-pageFadeIn">
         <Outlet />
       </main>
       <Footer />
     </>
   );
 
-  // During pre-rendering (react-snap) and initial client hydration,
-  // return the clean layout shell directly to avoid head element conflicts.
   if (!isMounted) {
     return layoutContent;
   }
 
-  // Once safely mounted in the browser, wrap with HelmetProvider to handle dynamic meta transitions
   return (
     <HelmetProvider>
       {layoutContent}
