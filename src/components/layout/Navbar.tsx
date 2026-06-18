@@ -1,11 +1,21 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import { NAV_LINKS, TAGLINE } from "../../data";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
-  const scrolled = useScrollPosition() > 60;
+  const [isMounted, setIsMounted] = useState(false);
+  const scrollPos = useScrollPosition();
+
+  // Handle client-side mounting safely
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
+
+  // If we aren't mounted in the real browser yet, default strictly to false
+  // This completely ensures the first browser paint perfectly mirrors the react-snap HTML file
+  const scrolled = isMounted ? scrollPos > 60 : false;
 
   return (
     <>
@@ -82,8 +92,15 @@ const Navbar: React.FC = () => {
           }`}
         role="dialog"
         aria-modal="true"
+        aria-labelledby="mobile-menu-title"
         style={{ backgroundColor: "rgba(13, 39, 67, 0.5)" }}
       >
+        <p
+          id="mobile-menu-title"
+          className="text-[0.65rem] tracking-[0.2em] uppercase text-gold/70 italic mb-4 px-6 text-center"
+        >
+          {TAGLINE}
+        </p>
         <ul className="list-none flex flex-col items-center gap-6 mb-6 m-0 p-0">
           {NAV_LINKS.map(({ label, path }) => (
             <li key={path}>

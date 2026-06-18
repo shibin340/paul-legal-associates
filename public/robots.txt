@@ -1,0 +1,13 @@
+# ====================================================================
+# Robots.txt for Paul Legal Associates (https://www.paullegalassociates.com)
+# ====================================================================
+
+# Public presentation routes - Explicitly allowed for safe indexing
+Allow: /
+Allow: /about
+Allow: /expertise
+Allow: /team
+Allow: /contact
+
+# Point all crawlers to the auto-generated site architecture map
+Sitemap: https://www.paullegalassociates.com/sitemap.xml
