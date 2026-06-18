@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
 
           {/* Brand */}
           <div className="xl:col-span-1">
-            <img src="/logo.png" alt="Paul Legal Associates" className="h-12 w-auto object-contain mb-4" />
+            <img src="/logo.webp" alt="Paul Legal Associates" className="h-12 w-auto object-contain mb-4" />
             <p className="text-[0.72rem] tracking-[0.12em] text-gold italic mb-5">{TAGLINE}</p>
             <p className="text-[0.85rem] text-cream/60 leading-[1.75] mb-5">A full-service law firm based in Navi Mumbai serving a dynamic legal and business environment.</p>
             <div className="flex flex-wrap gap-2">

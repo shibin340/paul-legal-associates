@@ -74,7 +74,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
 export const TEAM_MEMBERS: TeamMember[] = [
   {
     id: "polachan",
-    photo: "/images/polachan.jpg",
+    photo: "/images/polachan.webp",
     name: "Adv. P. P. Polachan",
     title: "Partner",
     role: "Partner | Property Lawyer Expert",
@@ -91,7 +91,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     id: "sojan",
-    photo: "/images/sojan.jpg",
+    photo: "/images/sojan.webp",
     name: "Adv. Sojan Paul",
     title: "Managing Partner",
     role: "Managing Partner | Property Lawyer Expert",
@@ -110,7 +110,7 @@ export const TEAM_MEMBERS: TeamMember[] = [
   },
   {
     id: "sonam",
-    photo: "/images/sonam.jpg",
+    photo: "/images/sonam.webp",
     name: "Adv. Sonam Paul",
     title: "Partner",
     role: "Partner | Legal Compliance & Audit Expert",

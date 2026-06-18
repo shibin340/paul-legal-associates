@@ -43,7 +43,7 @@ const Navbar: React.FC = () => {
             >
 
               <img
-                src="/logo.png"
+                src="/logo.webp"
                 alt="Paul Legal Associates"
                 className="h-11 sm:h-14 lg:h-16 w-auto max-w-[180px] sm:max-w-none object-contain"
                 fetchPriority="high"
