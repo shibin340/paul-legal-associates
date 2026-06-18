@@ -71,7 +71,7 @@ const Navbar: React.FC = () => {
             </li>
           ))}
         </ul>
-        <NavLink to="/contact" className="btn-primary no-underline" onClick={() => setOpen(false)}>Free Consultation</NavLink>
+        <NavLink to="/contact" className="btn-primary no-underline" onClick={() => setOpen(false)}>Book a Consultation</NavLink>
       </div>
     </>
   );
