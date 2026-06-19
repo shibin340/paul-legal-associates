@@ -102,7 +102,7 @@ const Navbar: React.FC = () => {
         role="dialog"
         aria-modal="true"
         aria-labelledby="mobile-menu-title"
-        style={{ backgroundColor: "rgba(13, 39, 67, 0.5)" }}
+        style={{ backgroundColor: "rgb(13, 39, 67)" }}
       >
         <p
           id="mobile-menu-title"
