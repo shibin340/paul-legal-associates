@@ -1,25 +1,25 @@
 {
-    "name": "Paul Legal Associates",
-    "short_name": "Paul Legal",
-    "start_url": "/",
-    "display": "standalone",
-    "background_color": "#0d2743",
-    "theme_color": "#174171",
-    "icons": [
-        {
-            "src": "/favicon-144x144.png",
-            "sizes": "144x144",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-192x192.png",
-            "sizes": "192x192",
-            "type": "image/png"
-        },
-        {
-            "src": "/android-chrome-512x512.png",
-            "sizes": "512x512",
-            "type": "image/png"
-        }
-    ]
+  "id": "/",
+  "name": "Paul Legal Associates",
+  "short_name": "Paul Legal",
+  "description": "Full-service law firm in Navi Mumbai specialising in Property Law, Legal Compliance, and Commercial Litigation.",
+  "start_url": "/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0d2743",
+  "theme_color": "#174171",
+  "icons": [
+    {
+      "src": "/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
 }
