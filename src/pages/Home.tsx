@@ -269,7 +269,7 @@ const Home: React.FC = () => (
         </p>
         <div className="flex gap-5 justify-center flex-wrap">
           <Link to="/contact" className="btn-primary">Schedule Consultation</Link>
-          <Link to="/team" className="btn-secondary">Meet Our Advocates</Link>
+          <Link to="/partners" className="btn-secondary">Meet Our Partners</Link>
         </div>
       </AnimateIn>
     </section>

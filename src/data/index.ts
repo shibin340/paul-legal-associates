@@ -4,7 +4,7 @@ export const NAV_LINKS: NavLink[] = [
   { label: "Home",       path: "/" },
   { label: "About Us",   path: "/about" },
   { label: "Expertise",  path: "/expertise" },
-  { label: "Our Team",   path: "/team" },
+  { label: "Our Partners",   path: "/partners" },
   { label: "Contact",    path: "/contact" },
 ];
 

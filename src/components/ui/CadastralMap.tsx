@@ -1,11 +1,9 @@
-import React from "react";
+import React from 'react';
 
-/**
- * CadastralMap — a stylised land-survey / cadastral map visualization
- * for the hero section. Built entirely in SVG so it's crisp at any size,
- * lightweight, and animates in cheaply (opacity/stroke-dashoffset only).
- */
 const CadastralMap: React.FC = () => {
+  // We extract the exact path string from your highway to use for the animation guide
+  const highwayPathD = "M380,860 C420,760 380,680 460,580 C520,500 480,420 540,340 C590,270 700,230 760,170";
+
   return (
     <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
       <svg
@@ -52,7 +50,7 @@ const CadastralMap: React.FC = () => {
           <path d="M660,260 L760,240 L800,320 L700,350 Z" />
         </g>
 
-        {/* ── Parcel labels (faint plot numbers) ── */}
+        {/* ── Parcel labels ── */}
         <g fill="#c8a951" fillOpacity="0.32" fontSize="10" fontFamily="DM Sans, sans-serif" textAnchor="middle">
           <text x="130" y="180">38/1</text>
           <text x="300" y="120">29/2</text>
@@ -84,13 +82,14 @@ const CadastralMap: React.FC = () => {
 
         {/* ── Main highway / development corridor ── */}
         <path
-          d="M380,860 C420,760 380,680 460,580 C520,500 480,420 540,340 C590,270 700,230 760,170"
+          d={highwayPathD}
           fill="none"
           stroke="url(#roadGradient)"
           strokeWidth="2.5"
           strokeDasharray="3,5"
           className="animate-dashMove"
         />
+
         {/* Secondary road */}
         <path
           d="M540,340 C600,300 650,280 700,250"
@@ -115,39 +114,36 @@ const CadastralMap: React.FC = () => {
           </g>
         ))}
 
-        {/* ── City skyline silhouette (top) ── */}
-        {/* <g fill="#0d2743" fillOpacity="0.5">
-          <rect x="300" y="60" width="14" height="60" />
-          <rect x="320" y="40" width="18" height="80" />
-          <rect x="345" y="70" width="12" height="50" />
-          <rect x="365" y="30" width="20" height="90" />
-          <rect x="392" y="55" width="14" height="65" />
-          <rect x="412" y="20" width="22" height="100" />
-          <rect x="440" y="65" width="16" height="55" />
-        </g> */}
-        {/* <g stroke="#c8a951" strokeOpacity="0.2" strokeWidth="0.75" fill="none">
-          <rect x="300" y="60" width="14" height="60" />
-          <rect x="320" y="40" width="18" height="80" />
-          <rect x="365" y="30" width="20" height="90" />
-          <rect x="412" y="20" width="22" height="100" />
-        </g> */}
-
         {/* ── Airport runway cluster ── */}
         <g transform="translate(505,280) rotate(-44)">
           <rect x="0" y="40" width="160" height="14" fill="#c8a951" fillOpacity="0.18" transform="rotate(8 80 47)" />
           <rect x="0" y="90" width="160" height="14" fill="#c8a951" fillOpacity="0.14" transform="rotate(8 90 95)" />
-          <text x="40" y="75" fill="#f3e6c0" fontSize="22" fontFamily="DM Sans, sans-serif">✈</text>
         </g>
 
-        {/* ── Topographic contour lines (bottom right — "strategic land zone") ── */}
-        {/* <g stroke="#c8a951" strokeOpacity="0.18" strokeWidth="1" fill="none">
-          <path d="M600,700 Q680,680 760,720 T880,710" />
-          <path d="M590,730 Q670,715 750,745 T880,740" />
-          <path d="M580,760 Q660,748 740,772 T880,768" />
-          <path d="M575,790 Q655,780 735,800 T880,796" />
-        </g> */}
+        {/* ── ✅ ANIMATED HIGHWAY AIRPLANE NODE ── */}
+        <g>
+          {/* Text grouping handles base rotation normalization so the plane flies nose-forward */}
+          <text 
+            fill="#f3e6c0" 
+            fontSize="22" 
+            fontFamily="DM Sans, sans-serif"
+            textAnchor="middle" 
+            dominantBaseline="central"
+            opacity="0.85"
+            style={{ filter: "drop-shadow(0px 0px 4px #c8a951)" }}
+          >
+            ✈
+            {/* The animation path engine */}
+            <animateMotion 
+              dur="15s" 
+              repeatCount="indefinite" 
+              path={highwayPathD}
+              rotate="auto"
+            />
+          </text>
+        </g>
 
-        {/* ── Faint vertical grid lines (full bg texture) ── */}
+        {/* ── Faint vertical grid lines ── */}
         <g stroke="#c8a951" strokeOpacity="0.04" strokeWidth="1">
           {Array.from({ length: 12 }).map((_, i) => (
             <line key={i} x1={i * 80} y1="0" x2={i * 80} y2="900" />
@@ -155,7 +151,7 @@ const CadastralMap: React.FC = () => {
         </g>
       </svg>
 
-      {/* ── Text labels overlay (HTML for crisp typography) ── */}
+      {/* ── Text labels overlay ── */}
       <div className="absolute" style={{ top: "29%", left: "32%" }}>
         <p className="text-2xs tracking-[0.15em] uppercase text-cream/70 font-semibold leading-tight whitespace-nowrap">
           Navi Mumbai<br />International Airport
