@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
-import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
 import { ARTICLES, ARTICLE_CATEGORIES } from "../data";
 
