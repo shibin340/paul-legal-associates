@@ -143,7 +143,7 @@ const Team: React.FC = () => {
             Speak Directly with an <em>Expert Advocate</em>
           </h2>
           <p className="section-subtitle mx-auto mb-10">
-            Schedule a confidential consultation — no obligation, first meeting complimentary.
+            Schedule a confidential consultation — review your case and define your strategic legal roadmap.
           </p>
           <div className="flex gap-5 justify-center flex-wrap">
             <Link to="/contact" className="btn-primary">Schedule Consultation</Link>

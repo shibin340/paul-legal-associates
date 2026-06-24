@@ -140,7 +140,7 @@ const ArticleDetail: React.FC = () => {
                   Have a question about {article.category.toLowerCase()}?
                 </h3>
                 <p className="text-[0.9rem] text-muted mb-6 max-w-md mx-auto">
-                  Schedule a confidential, complimentary consultation with our advocates.
+                  Schedule a confidential consultation with our advocates to discuss your legal options.
                 </p>
                 <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
               </div>

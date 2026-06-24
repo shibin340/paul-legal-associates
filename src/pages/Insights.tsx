@@ -146,7 +146,7 @@ const Insights: React.FC = () => {
             Have a Legal Question <em>Not Covered Here?</em>
           </h2>
           <p className="section-subtitle text-cream/70 mx-auto mb-10">
-            Our advocates are happy to discuss your specific situation — the first consultation is complimentary.
+            Our advocates are ready to analyze your specific situation — contact our office to schedule your consultation.
           </p>
           <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
         </AnimateIn>

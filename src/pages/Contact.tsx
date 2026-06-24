@@ -80,7 +80,7 @@ ${form.message}
             Let's Build a <em className="not-italic italic text-gold">Stronger Legal Position</em>
           </h1>
           <p className="font-serif-alt font-light text-cream/70 leading-[1.8] text-[1.15rem] max-w-[600px]">
-            Connect with Paul Legal Associates for strategic legal support. Your first consultation is complimentary and confidential.
+            Connect with Paul Legal Associates for strategic legal support. Schedule a confidential consultation with our legal experts to discuss your objectives.
           </p>
         </div>
       </section>
