@@ -32,7 +32,7 @@ const Navbar: React.FC = () => {
           }`}
         role="banner"
       >
-        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-[72px] flex items-center justify-between gap-4 md:gap-6">
+        <div className="max-w-8xl mx-auto px-4 sm:px-[1vw] h-[72px] flex items-center justify-between gap-4 md:gap-6">
           {/* Logo Container */}
           <div className="flex items-center gap-2 py-1 min-w-0">
             <NavLink
