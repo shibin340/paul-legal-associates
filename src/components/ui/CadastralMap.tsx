@@ -1,0 +1,183 @@
+import React from "react";
+
+/**
+ * CadastralMap — a stylised land-survey / cadastral map visualization
+ * for the hero section. Built entirely in SVG so it's crisp at any size,
+ * lightweight, and animates in cheaply (opacity/stroke-dashoffset only).
+ */
+const CadastralMap: React.FC = () => {
+  return (
+    <div className="absolute inset-0 overflow-hidden" aria-hidden="true">
+      <svg
+        viewBox="0 0 900 900"
+        preserveAspectRatio="xMidYMid slice"
+        className="w-full h-full"
+      >
+        <defs>
+          <radialGradient id="nodeGlow" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stopColor="#f3e6c0" stopOpacity="1" />
+            <stop offset="100%" stopColor="#c8a951" stopOpacity="0" />
+          </radialGradient>
+          <linearGradient id="roadGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stopColor="#c8a951" stopOpacity="0.9" />
+            <stop offset="100%" stopColor="#c8a951" stopOpacity="0.3" />
+          </linearGradient>
+        </defs>
+
+        {/* ── Irregular cadastral parcel grid ── */}
+        <g stroke="#c8a951" strokeOpacity="0.16" strokeWidth="1" fill="none">
+          <path d="M40,120 L180,90 L260,150 L230,260 L120,300 L20,230 Z" />
+          <path d="M180,90 L320,60 L380,140 L260,150 Z" />
+          <path d="M260,150 L380,140 L420,250 L230,260 Z" />
+          <path d="M420,250 L520,210 L560,310 L460,360 L380,330 Z" />
+          <path d="M230,260 L420,250 L460,360 L380,420 L290,400 L180,360 Z" />
+          <path d="M120,300 L230,260 L180,360 L80,400 Z" />
+          <path d="M380,420 L460,360 L560,310 L620,400 L540,480 L450,470 Z" />
+          <path d="M290,400 L380,420 L450,470 L390,540 L260,500 Z" />
+          <path d="M80,400 L180,360 L290,400 L260,500 L150,520 L60,470 Z" />
+          <path d="M540,480 L620,400 L700,440 L680,540 L580,560 Z" />
+          <path d="M450,470 L540,480 L580,560 L480,610 L390,540 Z" />
+          <path d="M260,500 L390,540 L480,610 L400,680 L290,650 L200,600 Z" />
+          <path d="M150,520 L260,500 L200,600 L100,610 L40,560 Z" />
+          <path d="M580,560 L680,540 L740,610 L660,680 L580,650 Z" />
+          <path d="M480,610 L580,650 L580,650 L500,720 L400,680 Z" />
+          <path d="M290,650 L400,680 L380,760 L260,740 Z" />
+          <path d="M200,600 L290,650 L260,740 L150,720 L100,610 Z" />
+          <path d="M500,720 L580,650 L660,680 L640,760 L540,790 Z" />
+          <path d="M380,760 L500,720 L540,790 L440,830 L340,810 Z" />
+          <path d="M260,740 L380,760 L340,810 L230,800 Z" />
+          <path d="M520,210 L620,180 L660,260 L560,310 Z" />
+          <path d="M620,180 L720,160 L760,240 L660,260 Z" />
+          <path d="M560,310 L660,260 L700,350 L620,400 Z" />
+          <path d="M660,260 L760,240 L800,320 L700,350 Z" />
+        </g>
+
+        {/* ── Parcel labels (faint plot numbers) ── */}
+        <g fill="#c8a951" fillOpacity="0.32" fontSize="10" fontFamily="DM Sans, sans-serif" textAnchor="middle">
+          <text x="130" y="180">38/1</text>
+          <text x="300" y="120">29/2</text>
+          <text x="340" y="200">28/2</text>
+          <text x="330" y="300">29/2</text>
+          <text x="490" y="280">28/2</text>
+          <text x="200" y="340">27/3</text>
+          <text x="150" y="420">29/2</text>
+          <text x="320" y="380">39/2</text>
+          <text x="490" y="400">38/2</text>
+          <text x="600" y="340">35/2</text>
+          <text x="680" y="290">33/2</text>
+          <text x="730" y="200">35/2</text>
+          <text x="240" y="480">23/1</text>
+          <text x="420" y="500">33/2</text>
+          <text x="560" y="520">38/2</text>
+          <text x="620" y="460">33/2</text>
+          <text x="150" y="560">39/2</text>
+          <text x="330" y="580">39/2</text>
+          <text x="470" y="600">33/2</text>
+          <text x="610" y="600">33/2</text>
+          <text x="220" y="660">35/2</text>
+          <text x="350" y="680">39/1</text>
+          <text x="500" y="700">43/1</text>
+          <text x="170" y="700">37/1</text>
+          <text x="300" y="760">37/1</text>
+          <text x="440" y="770">34/2</text>
+        </g>
+
+        {/* ── Main highway / development corridor ── */}
+        <path
+          d="M380,860 C420,760 380,680 460,580 C520,500 480,420 540,340 C590,270 700,230 760,170"
+          fill="none"
+          stroke="url(#roadGradient)"
+          strokeWidth="2.5"
+          strokeDasharray="3,5"
+          className="animate-dashMove"
+        />
+        {/* Secondary road */}
+        <path
+          d="M540,340 C600,300 650,280 700,250"
+          fill="none"
+          stroke="#c8a951"
+          strokeOpacity="0.4"
+          strokeWidth="1.5"
+          strokeDasharray="2,4"
+        />
+
+        {/* ── Glowing intersection nodes ── */}
+        {[
+          { cx: 760, cy: 170, r: 14 },
+          { cx: 540, cy: 340, r: 8 },
+          { cx: 660, cy: 500, r: 8 },
+          { cx: 280, cy: 570, r: 8 },
+          { cx: 540, cy: 675, r: 8 },
+        ].map((n, i) => (
+          <g key={i}>
+            <circle cx={n.cx} cy={n.cy} r={n.r * 2.2} fill="url(#nodeGlow)" opacity="0.6" />
+            <circle cx={n.cx} cy={n.cy} r={n.r * 0.35} fill="#f3e6c0" />
+          </g>
+        ))}
+
+        {/* ── City skyline silhouette (top) ── */}
+        {/* <g fill="#0d2743" fillOpacity="0.5">
+          <rect x="300" y="60" width="14" height="60" />
+          <rect x="320" y="40" width="18" height="80" />
+          <rect x="345" y="70" width="12" height="50" />
+          <rect x="365" y="30" width="20" height="90" />
+          <rect x="392" y="55" width="14" height="65" />
+          <rect x="412" y="20" width="22" height="100" />
+          <rect x="440" y="65" width="16" height="55" />
+        </g> */}
+        {/* <g stroke="#c8a951" strokeOpacity="0.2" strokeWidth="0.75" fill="none">
+          <rect x="300" y="60" width="14" height="60" />
+          <rect x="320" y="40" width="18" height="80" />
+          <rect x="365" y="30" width="20" height="90" />
+          <rect x="412" y="20" width="22" height="100" />
+        </g> */}
+
+        {/* ── Airport runway cluster ── */}
+        <g transform="translate(505,280) rotate(-44)">
+          <rect x="0" y="40" width="160" height="14" fill="#c8a951" fillOpacity="0.18" transform="rotate(8 80 47)" />
+          <rect x="0" y="90" width="160" height="14" fill="#c8a951" fillOpacity="0.14" transform="rotate(8 90 95)" />
+          <text x="40" y="75" fill="#f3e6c0" fontSize="22" fontFamily="DM Sans, sans-serif">✈</text>
+        </g>
+
+        {/* ── Topographic contour lines (bottom right — "strategic land zone") ── */}
+        {/* <g stroke="#c8a951" strokeOpacity="0.18" strokeWidth="1" fill="none">
+          <path d="M600,700 Q680,680 760,720 T880,710" />
+          <path d="M590,730 Q670,715 750,745 T880,740" />
+          <path d="M580,760 Q660,748 740,772 T880,768" />
+          <path d="M575,790 Q655,780 735,800 T880,796" />
+        </g> */}
+
+        {/* ── Faint vertical grid lines (full bg texture) ── */}
+        <g stroke="#c8a951" strokeOpacity="0.04" strokeWidth="1">
+          {Array.from({ length: 12 }).map((_, i) => (
+            <line key={i} x1={i * 80} y1="0" x2={i * 80} y2="900" />
+          ))}
+        </g>
+      </svg>
+
+      {/* ── Text labels overlay (HTML for crisp typography) ── */}
+      <div className="absolute" style={{ top: "29%", left: "32%" }}>
+        <p className="text-2xs tracking-[0.15em] uppercase text-cream/70 font-semibold leading-tight whitespace-nowrap">
+          Navi Mumbai<br />International Airport
+        </p>
+      </div>
+      <div className="absolute" style={{ top: "50%", left: "75%" }}>
+        <p className="text-2xs tracking-[0.15em] uppercase text-cream/70 font-semibold leading-tight whitespace-nowrap">
+          Property Law<br />Expertise
+        </p>
+      </div>
+      <div className="absolute" style={{ top: "57%", left: "16%" }}>
+        <p className="text-2xs tracking-[0.15em] uppercase text-cream/70 font-semibold leading-tight whitespace-nowrap">
+          Infrastructure<br />Growth Corridor
+        </p>
+      </div>
+      <div className="absolute" style={{ top: "77%", left: "63%" }}>
+        <p className="text-2xs tracking-[0.15em] uppercase text-cream/70 font-semibold leading-tight whitespace-nowrap">
+          Land Acquisition<br />& Development
+        </p>
+      </div>
+    </div>
+  );
+};
+
+export default CadastralMap;

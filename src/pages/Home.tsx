@@ -7,23 +7,37 @@ import {
   STATS, PRACTICE_AREAS, TESTIMONIALS, TEAM_MEMBERS,
   ABOUT_HIGHLIGHTS, VALUES, TAGLINE, FIRM_HEADLINE, FIRM_DESC
 } from "../data";
+import CadastralMap from "components/ui/CadastralMap";
 
 const Home: React.FC = () => (
   <>
     {/* ══ HERO ══ */}
-    <section className="relative min-h-screen flex items-center overflow-hidden px-[5vw]" aria-label="Hero">
-      <div className="absolute inset-0 bg-hero-radial z-0" aria-hidden="true" />
-      <div className="absolute inset-0 bg-grid-lines z-0 animate-gridDrift" aria-hidden="true" />
+    <section className="relative min-h-screen flex items-center overflow-hidden px-[5vw] bg-hero-radial" aria-label="Hero">
 
-      {/* Decorative scales glyph */}
-      <div className="absolute right-[4vw] top-1/2 -translate-y-1/2 font-serif font-bold select-none leading-none z-0 animate-glyphPulse pointer-events-none text-white/[0.03]"
-        style={{ fontSize: "clamp(200px,28vw,420px)" }} aria-hidden="true">⚖</div>
+      {/* Global grid line texture spanning 100% of the screen width */}
+      <div className="absolute inset-0 bg-grid-lines z-0 animate-gridDrift pointer-events-none" aria-hidden="true" />
 
-      <div className="relative z-10 max-w-[720px]">
+      {/* Right-side map panel — Visible on tablet, automatically optimized */}
+      <div
+        className="hidden lg:block absolute top-0 right-0 bottom-0 w-[48%] xl:w-[52%] z-0"
+        style={{
+          // Fades out slightly tighter (starting at 15%) to make room for the tablet text column
+          maskImage: "linear-gradient(to right, transparent 15%, black 55%)",
+          WebkitMaskImage: "linear-gradient(to right, transparent 15%, black 55%)"
+        }}
+      >
+        {/* The map component */}
+        <CadastralMap />
 
+        {/* Unified grid overlay */}
+        <div className="absolute inset-0 bg-grid-lines opacity-30 z-10 animate-gridDrift pointer-events-none" aria-hidden="true" />
+      </div>
+
+      {/* Left Content Column */}
+      <div className="relative z-10 max-w-[500px] xl:max-w-[720px]">
         {/* Main headline */}
         <h1 className="font-serif font-bold text-cream leading-[1.12] mb-4 animate-heroFadeUp animation-delay-350"
-          style={{ fontSize: "clamp(1.6rem,3.5vw,3rem)" }}>
+          style={{ fontSize: "clamp(1.6rem, 3.5vw, 3rem)" }}>
           {FIRM_HEADLINE.split("•").map((part, i, arr) => (
             <span key={i}>
               <span className={i === 1 ? "text-gold" : ""}>{part.trim()}</span>
@@ -36,10 +50,13 @@ const Home: React.FC = () => (
         <p className="font-serif-alt text-[1.35rem] font-light text-gold/90 italic mb-3 animate-heroFadeUp animation-delay-500">
           {TAGLINE}
         </p>
+
+        {/* Description */}
         <p className="font-sans text-[1rem] text-cream/70 mb-10 animate-heroFadeUp animation-delay-500">
           {FIRM_DESC}
         </p>
 
+        {/* Call to Actions */}
         <div className="flex gap-5 flex-wrap animate-heroFadeUp animation-delay-650">
           <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
           <Link to="/expertise" className="btn-secondary">Our Practice Areas →</Link>
