@@ -120,25 +120,33 @@ const CadastralMap: React.FC = () => {
           <rect x="0" y="90" width="160" height="14" fill="#c8a951" fillOpacity="0.14" transform="rotate(8 90 95)" />
         </g>
 
-        {/* ── ✅ ANIMATED HIGHWAY AIRPLANE NODE ── */}
+        {/* ── ✅ ANIMATED HIGHWAY AIRPLANE NODE WITH SMOOTH LOOP FADE ── */}
         <g>
-          {/* Text grouping handles base rotation normalization so the plane flies nose-forward */}
-          <text 
-            fill="#f3e6c0" 
-            fontSize="22" 
+          <text
+            fill="#f3e6c0"
+            fontSize="50"
             fontFamily="DM Sans, sans-serif"
-            textAnchor="middle" 
+            textAnchor="middle"
             dominantBaseline="central"
-            opacity="0.85"
             style={{ filter: "drop-shadow(0px 0px 4px #c8a951)" }}
           >
             ✈
-            {/* The animation path engine */}
-            <animateMotion 
-              dur="15s" 
-              repeatCount="indefinite" 
+
+            {/* 1. The animation path engine */}
+            <animateMotion
+              dur="15s"
+              repeatCount="indefinite"
               path={highwayPathD}
               rotate="auto"
+            />
+
+            {/* 2. Synced Opacity Timeline: Fades out at the end, resets at 0%, fades in */}
+            <animate
+              attributeName="opacity"
+              dur="15s"
+              repeatCount="indefinite"
+              values="0; 0.85; 0.85; 0"
+              keyTimes="0; 0.05; 0.95; 1"
             />
           </text>
         </g>
