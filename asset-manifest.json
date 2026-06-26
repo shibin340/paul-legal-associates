@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.d6d061eb.css",
-    "main.js": "/static/js/main.a1ba1c80.js",
+    "main.js": "/static/js/main.4c541858.js",
     "static/media/playfair-display-v40-latin-500.woff2": "/static/media/playfair-display-v40-latin-500.d3e40468b43818e6bac7.woff2",
     "static/media/cormorant-garamond-v21-latin-regular.woff2": "/static/media/cormorant-garamond-v21-latin-regular.84e9a5b72c0af5af297a.woff2",
     "static/media/dm-sans-v17-latin-regular.woff2": "/static/media/dm-sans-v17-latin-regular.97def203da337e26d827.woff2",
     "static/media/dm-sans-v17-latin-600.woff2": "/static/media/dm-sans-v17-latin-600.734311c3c530f3ad138e.woff2",
     "index.html": "/index.html",
     "main.d6d061eb.css.map": "/static/css/main.d6d061eb.css.map",
-    "main.a1ba1c80.js.map": "/static/js/main.a1ba1c80.js.map"
+    "main.4c541858.js.map": "/static/js/main.4c541858.js.map"
   },
   "entrypoints": [
     "static/css/main.d6d061eb.css",
-    "static/js/main.a1ba1c80.js"
+    "static/js/main.4c541858.js"
   ]
 }
