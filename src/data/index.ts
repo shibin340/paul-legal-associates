@@ -234,8 +234,8 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const OFFICE_HOURS: OfficeHour[] = [
-  { day: "Monday – Friday", time: "10:00 AM – 6:30 PM" },
-  { day: "Saturday", time: "10:00 AM – 2:00 PM" },
+  { day: "Monday – Friday", time: "10:00 AM – 8:00 PM" },
+  { day: "Saturday", time: "10:00 AM – 6:00 PM" },
   { day: "Sunday", time: "By Appointment Only" },
 ];
 
