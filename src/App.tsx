@@ -1,5 +1,5 @@
 import React from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import "./index.css";
 import ScrollToTop from "hooks/ScrollToTop";
@@ -14,7 +14,7 @@ import Insights from "pages/Insights";
 import ArticleDetail from "pages/ArticleDetail";
 
 const App: React.FC = () => (
-  <BrowserRouter>
+  <HashRouter>
     <ScrollToTop />
     {/* ✅ Removed <Suspense> wrapper completely to eliminate the hydration mismatch */}
     <Routes>
@@ -29,7 +29,7 @@ const App: React.FC = () => (
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </HashRouter>
 );
 
 export default App;
