@@ -162,17 +162,24 @@ const Home: React.FC = () => (
           subtitle="Integrated legal support across disputes, transactions and compliance."
           centered light
         />
+
+        {/* Optimized to only preview the top 6 flagship fields */}
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 mt-14 border border-gold/20 divide-x divide-y divide-gold/10">
-          {PRACTICE_AREAS.map((area, i) => (
-            <AnimateIn key={area.id} delay={i * 0.07}>
-              <Link to={`/expertise#${area.id}`}
-                className="group block bg-navy-deep p-8 no-underline relative overflow-hidden transition-colors duration-300 hover:bg-navy-mid h-full">
+          {PRACTICE_AREAS.slice(0, 9).map((area, i) => (
+            <AnimateIn key={area.id} delay={i * 0.05}>
+              <Link
+                to={`/expertise#${area.id}`}
+                className="group block bg-navy-deep p-8 no-underline relative overflow-hidden transition-colors duration-300 hover:bg-navy-mid h-full"
+              >
                 <div className="absolute left-0 top-0 w-[3px] h-full bg-gold scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-400" aria-hidden="true" />
                 <div className="flex items-center gap-3 mb-4">
                   <div className="w-10 h-10 rounded-full bg-gold/10 border border-gold/30 flex items-center justify-center text-lg flex-shrink-0">
                     {area.icon}
                   </div>
-                  <div className="text-2xs font-semibold tracking-[0.1em] uppercase text-gold">{`0${i + 1}`}</div>
+                  {/* Clean incremental formatting guard for text labels */}
+                  <div className="text-2xs font-semibold tracking-[0.1em] uppercase text-gold">
+                    {(i + 1) < 10 ? `0${i + 1}` : i + 1}
+                  </div>
                 </div>
                 <h3 className="font-serif text-[1.15rem] font-semibold text-cream mb-3">{area.title}</h3>
                 <p className="text-[0.85rem] text-cream/60 leading-[1.7]">{area.shortDesc}</p>
@@ -181,8 +188,12 @@ const Home: React.FC = () => (
             </AnimateIn>
           ))}
         </div>
-        <AnimateIn className="text-center mt-10">
-          <Link to="/expertise" className="btn-secondary">View All Practice Areas</Link>
+
+        {/* Call to action linking out to the full index board */}
+        <AnimateIn className="text-center mt-12">
+          <Link to="/expertise" className="btn-secondary inline-block">
+            View All Practice Areas ({PRACTICE_AREAS.length})
+          </Link>
         </AnimateIn>
       </div>
     </section>

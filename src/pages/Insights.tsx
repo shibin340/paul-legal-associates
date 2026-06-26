@@ -1,19 +1,53 @@
+import AnimateIn from "components/ui/AnimateIn";
+import CredentialsBar from "components/ui/CredentialsBar";
+import { ARTICLE_CATEGORIES, ARTICLES } from "data";
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
-import AnimateIn from "../components/ui/AnimateIn";
-import CredentialsBar from "../components/ui/CredentialsBar";
-import { ARTICLES, ARTICLE_CATEGORIES } from "../data";
+
+// Standard pagination boundaries
+const INITIAL_ITEMS_PER_PAGE = 6;
+const ITEMS_TO_LOAD_MORE = 6;
 
 const Insights: React.FC = () => {
   const [activeCategory, setActiveCategory] = useState<string>("All");
+  const [visibleCount, setVisibleCount] = useState<number>(INITIAL_ITEMS_PER_PAGE);
 
-  const filtered = useMemo(
-    () => (activeCategory === "All" ? ARTICLES : ARTICLES.filter(a => a.category === activeCategory)),
-    [activeCategory]
-  );
+  // 1. Optimize category counters out of the direct render loop
+  const categoryCounts = useMemo(() => {
+    const counts: Record<string, number> = { All: ARTICLES.length };
+    ARTICLES.forEach((art) => {
+      counts[art.category] = (counts[art.category] || 0) + 1;
+    });
+    return counts;
+  }, []);
 
+  // 2. Clear visible limits on tab category toggles
+  const handleCategoryChange = (category: string) => {
+    setActiveCategory(category);
+    setVisibleCount(INITIAL_ITEMS_PER_PAGE); // Reset window track cleanly
+  };
+
+  // 3. Memoized Filter step
+  const filtered = useMemo(() => {
+    return activeCategory === "All"
+      ? ARTICLES
+      : ARTICLES.filter((a) => a.category === activeCategory);
+  }, [activeCategory]);
+
+  // 4. Extract layout pieces safely
   const featured = filtered[0];
-  const rest = filtered.slice(1);
+  const rest = useMemo(() => filtered.slice(1), [filtered]);
+
+  // 5. Paginate chunk calculations
+  const paginatedRest = useMemo(() => {
+    return rest.slice(0, visibleCount);
+  }, [rest, visibleCount]);
+
+  const hasMore = rest.length > visibleCount;
+
+  const handleLoadMore = () => {
+    setVisibleCount((prev) => prev + ITEMS_TO_LOAD_MORE);
+  };
 
   return (
     <>
@@ -43,16 +77,18 @@ const Insights: React.FC = () => {
           {/* Category pills */}
           <AnimateIn>
             <div className="flex flex-wrap gap-3 mb-14" role="tablist" aria-label="Filter articles by category">
-              {ARTICLE_CATEGORIES.map(cat => {
+              {ARTICLE_CATEGORIES.map((cat) => {
                 const active = activeCategory === cat;
-                const count = cat === "All" ? ARTICLES.length : ARTICLES.filter(a => a.category === cat).length;
+                const count = categoryCounts[cat] || 0;
+
                 if (cat !== "All" && count === 0) return null;
+
                 return (
                   <button
                     key={cat}
                     role="tab"
                     aria-selected={active}
-                    onClick={() => setActiveCategory(cat)}
+                    onClick={() => handleCategoryChange(cat)}
                     className={`px-5 py-2.5 text-[0.78rem] font-medium tracking-[0.05em] border transition-all duration-300 cursor-pointer
                       ${active ? "bg-navy text-cream border-navy" : "bg-white text-muted border-navy/15 hover:border-navy/40 hover:text-navy"}`}
                   >
@@ -105,8 +141,8 @@ const Insights: React.FC = () => {
 
               {/* ── Remaining articles grid ── */}
               <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-7">
-                {rest.map((article, i) => (
-                  <AnimateIn key={article.id} delay={i * 0.07}>
+                {paginatedRest.map((article, i) => (
+                  <AnimateIn key={article.id} delay={i * 0.04}>
                     <Link
                       to={`/insights/${article.slug}`}
                       className="group flex flex-col h-full no-underline border border-navy/10 bg-white overflow-hidden hover:border-gold/40 hover:-translate-y-1 hover:shadow-card-hover transition-all duration-300"
@@ -127,13 +163,25 @@ const Insights: React.FC = () => {
                         <p className="text-[0.84rem] text-muted leading-[1.65] mb-5 line-clamp-3">{article.excerpt}</p>
                         <div className="flex items-center justify-between pt-4 border-t border-navy/8 mt-auto">
                           <div className="text-[0.78rem] text-navy font-medium">{article.author}</div>
-                          <span className="text-gold text-sm opacity-0 group-hover:opacity-100 group-hover:translate-x-1 transition-all duration-300" aria-hidden="true">→</span>
+                          <span className="text-gold text-sm group-hover:translate-x-1 transition-all duration-300" aria-hidden="true">→</span>
                         </div>
                       </div>
                     </Link>
                   </AnimateIn>
                 ))}
               </div>
+
+              {/* ── Load More Controls Trigger ── */}
+              {hasMore && (
+                <div className="flex justify-center mt-16">
+                  <button
+                    onClick={handleLoadMore}
+                    className="px-8 py-3.5 bg-navy text-cream text-[0.8rem] font-semibold tracking-wider uppercase border border-navy hover:bg-white hover:text-navy transition-all duration-300 cursor-pointer"
+                  >
+                    Load More Articles
+                  </button>
+                </div>
+              )}
             </>
           )}
         </div>

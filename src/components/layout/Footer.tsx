@@ -48,13 +48,31 @@ const Footer: React.FC = () => {
             </ul>
           </div>
 
-          {/* Practice Areas */}
+          {/* ✅ Practice Areas Column — Sliced & Clean */}
           <div>
             <h3 className="text-[0.68rem] font-semibold tracking-[0.22em] uppercase text-gold mb-4">Practice Areas</h3>
             <ul className="list-none flex flex-col gap-2.5 m-0 p-0">
-              {PRACTICE_AREAS.map(p => (
-                <li key={p.id}><NavLink to={`/expertise#${p.id}`} className="text-[0.85rem] text-cream/60 no-underline hover:text-gold transition-colors duration-300">{p.title}</NavLink></li>
+              {PRACTICE_AREAS.slice(0, 6).map(p => (
+                <li key={p.id}>
+                  <NavLink 
+                    to={`/expertise#${p.id}`} 
+                    className="text-[0.85rem] text-cream/60 no-underline hover:text-gold transition-colors duration-300"
+                  >
+                    {p.title}
+                  </NavLink>
+                </li>
               ))}
+              {/* Dynamic Action Catch-All */}
+              {PRACTICE_AREAS.length > 6 && (
+                <li className="pt-1.5">
+                  <NavLink 
+                    to="/expertise" 
+                    className="text-[0.82rem] font-medium tracking-wide text-gold/90 no-underline hover:text-gold hover:underline decoration-gold/40 underline-offset-4 transition-all duration-300 flex items-center gap-1"
+                  >
+                    View All Services ({PRACTICE_AREAS.length}) <span>→</span>
+                  </NavLink>
+                </li>
+              )}
             </ul>
           </div>
 
