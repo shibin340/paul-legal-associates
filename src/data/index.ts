@@ -62,14 +62,14 @@ export const PRACTICE_AREAS: PracticeArea[] = [
     fullDesc: "We support businesses at every stage of their legal journey — from structuring transactions and drafting contracts to corporate governance and mergers & acquisitions. Our commercial advisory practice delivers practical, commercially sound legal solutions.",
     highlights: ["Contract Drafting & Review", "Mergers & Acquisitions", "Corporate Governance", "Joint Ventures", "Commercial Transactions", "Legal Documentation", "Private Equity Related Work"],
   },
-  {
-    id: "land",
-    icon: "🌿",
-    title: "Land Acquisitions",
-    shortDesc: "Advisory on land acquisition matters, compensation, title issues and related proceedings.",
-    fullDesc: "We advise on all aspects of land acquisition — from initial title investigations and compensation negotiations to representation before the Land Acquisition Authority and appellate forums. We serve both landowners and acquiring bodies.",
-    highlights: ["Land Acquisition Proceedings", "Compensation Claims", "Title Investigation", "LA Authority Representations", "Appellate Proceedings", "Regulatory & Compliance Issues"],
-  },
+  // {
+  //   id: "land",
+  //   icon: "🌿",
+  //   title: "Land Acquisitions",
+  //   shortDesc: "Advisory on land acquisition matters, compensation, title issues and related proceedings.",
+  //   fullDesc: "We advise on all aspects of land acquisition — from initial title investigations and compensation negotiations to representation before the Land Acquisition Authority and appellate forums. We serve both landowners and acquiring bodies.",
+  //   highlights: ["Land Acquisition Proceedings", "Compensation Claims", "Title Investigation", "LA Authority Representations", "Appellate Proceedings", "Regulatory & Compliance Issues"],
+  // },
   {
     id: "naina-tps",
     icon: "📐",
