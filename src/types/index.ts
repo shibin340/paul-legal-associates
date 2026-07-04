@@ -10,7 +10,7 @@ export interface Milestone { year: string; event: string; }
 
 export interface ArticleSection {
     heading?: string;
-    paragraphs: string[];
+    paragraphs?: string[];
     list?: string[];
 }
 

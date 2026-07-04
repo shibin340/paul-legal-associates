@@ -92,7 +92,7 @@ const ArticleDetail: React.FC = () => {
                     {section.heading}
                   </h2>
                 )}
-                {section.paragraphs.map((p, pi) => (
+                {section.paragraphs && section.paragraphs.map((p, pi) => (
                   <p key={pi} className="text-[1rem] text-navy/75 leading-[1.85] mb-4">
                     {p}
                   </p>
