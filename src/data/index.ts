@@ -24,6 +24,7 @@ export const STATS: Stat[] = [
 export const PRACTICE_AREAS: PracticeArea[] = [
   {
     id: "property",
+    slug: "property-real-estate",
     icon: "🏢",
     title: "Property & Real Estate",
     shortDesc: "Title diligence, conveyancing, redevelopment, RERA and registrations.",
@@ -32,6 +33,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "litigation",
+    slug: "commercial-litigation-arbitration",
     icon: "⚖️",
     title: "Commercial Litigation & Arbitration",
     shortDesc: "Representation before courts, tribunals and authorities.",
@@ -40,6 +42,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "compliance",
+    slug: "legal-compliance-audit",
     icon: "📋",
     title: "Legal Compliance & Audit",
     shortDesc: "Compliance reviews, labour law audits, due diligence and governance frameworks.",
@@ -48,6 +51,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "banking",
+    slug: "banking-laws",
     icon: "🏛️",
     title: "Banking Laws",
     shortDesc: "Advisory on banking transactions, lending matters, recovery support and regulatory issues.",
@@ -56,22 +60,16 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "corporate",
+    slug: "corporate-commercial-advisory",
     icon: "💼",
     title: "Corporate & Commercial Advisory",
     shortDesc: "Contracts, transactions, corporate support and legal documentation.",
     fullDesc: "We support businesses at every stage of their legal journey — from structuring transactions and drafting contracts to corporate governance and mergers & acquisitions. Our commercial advisory practice delivers practical, commercially sound legal solutions.",
     highlights: ["Contract Drafting & Review", "Mergers & Acquisitions", "Corporate Governance", "Joint Ventures", "Commercial Transactions", "Legal Documentation", "Private Equity Related Work"],
   },
-  // {
-  //   id: "land",
-  //   icon: "🌿",
-  //   title: "Land Acquisitions",
-  //   shortDesc: "Advisory on land acquisition matters, compensation, title issues and related proceedings.",
-  //   fullDesc: "We advise on all aspects of land acquisition — from initial title investigations and compensation negotiations to representation before the Land Acquisition Authority and appellate forums. We serve both landowners and acquiring bodies.",
-  //   highlights: ["Land Acquisition Proceedings", "Compensation Claims", "Title Investigation", "LA Authority Representations", "Appellate Proceedings", "Regulatory & Compliance Issues"],
-  // },
   {
     id: "naina-tps",
+    slug: "naina-town-planning-scheme-services",
     icon: "📐",
     title: "NAINA Town Planning Scheme Legal Services",
     shortDesc: "Advisory and claims representation for original and final plot reconstitutions within NAINA TPS.",
@@ -89,6 +87,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "land-purchase-due-diligence",
+    slug: "agricultural-non-agricultural-land-purchase",
     icon: "🗺️",
     title: "Purchase and Acquisition of Agricultural and Non-Agricultural Land",
     shortDesc: "End-to-end title verification, revenue record analysis, and conveyancing for multi-region land purchases.",
@@ -106,6 +105,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "acquisition-compensation-matters",
+    slug: "land-acquisition-compensation-matters",
     icon: "🏛️",
     title: "Land Acquisition and Compensation Matters",
     shortDesc: "Legal protection, enhanced compensation claims, and resettlement advisory against compulsory acquisition.",
@@ -123,6 +123,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "airport-growth-corridors",
+    slug: "navi-mumbai-airport-land-transactions",
     icon: "✈️",
     title: "Land Transactions Near Navi Mumbai International Airport",
     shortDesc: "Specialised real estate due diligence and zoning verification for airport-influence growth sectors.",
@@ -140,6 +141,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "testamentary-succession-high-court",
+    slug: "testamentary-succession-bombay-high-court",
     icon: "📜",
     title: "Testamentary and Succession Matters Before the Bombay High Court",
     shortDesc: "High Court representation for Wills, Probates, Succession Certificates, and estate administration.",
@@ -157,6 +159,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "maharera-advisory-litigation",
+    slug: "maharera-advisory-compliance-litigation",
     icon: "🏢",
     title: "MahaRERA Advisory, Compliance and Litigation",
     shortDesc: "MahaRERA registry setups, structural developer defenses, and delayed possession litigation.",
@@ -174,6 +177,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "supreme-court-property-litigation",
+    slug: "supreme-court-civil-property-litigation",
     icon: "🏛️",
     title: "Civil and Property Litigation Before the Supreme Court of India",
     shortDesc: "Strategic SLP design, case briefs, and structural coordination before the apex court.",
@@ -191,6 +195,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "property-registration-mumbai-navimumbai",
+    slug: "property-registration-services-mumbai-navi-mumbai",
     icon: "✍️",
     title: "Property Registration Services Across Mumbai and Navi Mumbai",
     shortDesc: "End-to-end stamp duty calculations, document scanning, and biometric sub-registrar support.",
@@ -208,6 +213,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "revenue-authority-municipal-services",
+    slug: "revenue-authority-municipal-legal-services",
     icon: "📋",
     title: "Revenue Authority and Municipal Legal Services",
     shortDesc: "Representation before revenue collectors and municipalities for mutations and boundary entries.",
@@ -225,6 +231,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "property-permissions-approvals-compliance",
+    slug: "property-permissions-approvals-regulatory-compliance",
     icon: "🏗️",
     title: "Property Permissions, Approvals and Regulatory Compliance",
     shortDesc: "Integrated legal support for layout checks, CC/OC extractions, and fire/airport NOCs.",
@@ -242,6 +249,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "property-transactions-conveyancing",
+    slug: "property-transactions-conveyancing",
     icon: "💼",
     title: "Property Transactions and Conveyancing",
     shortDesc: "Comprehensive drafting, structural transfers, and absolute deeds management for all real estate assets.",
@@ -259,6 +267,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "property-title-verification",
+    slug: "property-title-verification-due-diligence",
     icon: "🔍",
     title: "Property Title Verification and Legal Due Diligence",
     shortDesc: "30-year deep title history investigations, encumbrance tracks, and bank vetting reports.",
@@ -276,6 +285,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "land-laws-revenue-agricultural",
+    slug: "land-laws-revenue-records-agricultural-matters",
     icon: "🌿",
     title: "Land Laws, Revenue Records and Agricultural Land Matters",
     shortDesc: "Technical handling of land conversions, extraction audits, and easementary right protection.",
@@ -293,6 +303,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "cidco-naina-airport-land",
+    slug: "cidco-naina-navi-mumbai-airport-land",
     icon: "📐",
     title: "CIDCO, NAINA and Navi Mumbai Airport Land Matters",
     shortDesc: "Focused lease extensions, transfer setups, and aeronautical safety clearance support.",
@@ -310,6 +321,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "land-acquisition-infrastructure-projects",
+    slug: "land-acquisition-compensation-infrastructure-projects",
     icon: "⚖️",
     title: "Land Acquisition, Compensation and Infrastructure Projects",
     shortDesc: "Aggressive valuation defenses, enhancement claims, and PPP contract structural balancing.",
@@ -327,6 +339,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "realestate-development-redevelopment",
+    slug: "real-estate-development-construction-redevelopment",
     icon: "🏗️",
     title: "Real Estate Development, Construction and Redevelopment",
     shortDesc: "End-to-end structural documentation for societies, builders, JDAs, and alternate housing items.",
@@ -344,6 +357,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "rera-maharera-services",
+    slug: "rera-maharera-legal-services",
     icon: "⚖️",
     title: "RERA and MahaRERA Legal Services",
     shortDesc: "promoter registry controls, delay filings, and appellate enforcement routines under RERA.",
@@ -361,6 +375,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "cooperative-society-apartment-law",
+    slug: "cooperative-housing-society-apartment-law",
     icon: "🏢",
     title: "Co-operative Housing Society and Apartment Law",
     shortDesc: "Society registry mechanics, default assessments, and deemed conveyance title transfers.",
@@ -378,6 +393,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "property-tenancy-litigation",
+    slug: "property-tenancy-real-estate-litigation",
     icon: "🏛️",
     title: "Property, Tenancy and Real Estate Litigation",
     shortDesc: "Specific performance assertions, partition tracks, and recovery actions for landlords and tenants.",
@@ -395,6 +411,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "civil-commercial-litigation",
+    slug: "civil-commercial-litigation",
     icon: "⚖️",
     title: "Civil and Commercial Litigation",
     shortDesc: "Aggressive monetary recoveries, partnership asset separations, and court execution routines.",
@@ -412,6 +429,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "arbitration-mediation-adr",
+    slug: "arbitration-mediation-adr",
     icon: "⚖️",
     title: "Arbitration, Mediation and Alternative Dispute Resolution",
     shortDesc: "Domestic/international commercial arbitrations, tribunal setup routines, and consent terms management.",
@@ -429,6 +447,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "corporate-commercial-ma-startup",
+    slug: "corporate-commercial-ma-startup-law",
     icon: "💼",
     title: "Corporate, Commercial, M&A and Startup Law",
     shortDesc: "Strategic entity formations, cross-border structuring, shareholder controls, and exit maps.",
@@ -446,6 +465,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "contract-drafting-vetting-documentation",
+    slug: "contract-drafting-vetting-transaction-documentation",
     icon: "📝",
     title: "Contract Drafting, Vetting and Transaction Documentation",
     shortDesc: "Meticulous design for master services, technology frameworks, and outsourcing covenants.",
@@ -463,6 +483,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "corporate-compliance-governance-retainership",
+    slug: "corporate-compliance-governance-legal-retainership",
     icon: "📋",
     title: "Corporate Compliance, Governance and Legal Retainership",
     shortDesc: "Corporate diagnostic checkups, legal calendars, board resolutions, and active retainers.",
@@ -480,6 +501,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "labour-employment-hr-compliance",
+    slug: "labour-employment-hr-workplace-compliance",
     icon: "📋",
     title: "Labour, Employment, HR and Workplace Compliance",
     shortDesc: "Employment manual audits, social security alignments, and domestic enquiry setups.",
@@ -497,6 +519,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "banking-finance-securities-restructuring",
+    slug: "banking-finance-securities-debt-restructuring",
     icon: "🏛️",
     title: "Banking, Finance, Securities and Debt Restructuring",
     shortDesc: "Security hypothecations, DRT routines, SARFAESI enforcement management, and structured lending sets.",
@@ -514,6 +537,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "insolvency-bankruptcy-nclt-proceedings",
+    slug: "insolvency-bankruptcy-nclt-nclat-proceedings",
     icon: "🏛️",
     title: "Insolvency, Bankruptcy and NCLT/NCLAT Proceedings",
     shortDesc: "Creditor filing strategies, debtor resolution defenses, and company recovery appeals.",
@@ -531,6 +555,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "debt-recovery-cheque-bounce-msme",
+    slug: "debt-recovery-cheque-bounce-msme-disputes",
     icon: "💼",
     title: "Debt Recovery, Cheque Bounce and MSME Disputes",
     shortDesc: "Summary suits, commercial invoice collections, and MSEFC representation protocols.",
@@ -548,6 +573,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "criminal-defence-bail-whitecollar",
+    slug: "criminal-defence-bail-cybercrime-white-collar",
     icon: "⚖️",
     title: "Criminal Defence, Bail, Cybercrime and White-Collar Offences",
     shortDesc: "Anticipatory/regular bails, trial advocacy, economic crime shields, and asset return requests.",
@@ -565,6 +591,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "family-matrimonial-law",
+    slug: "family-matrimonial-law",
     icon: "⚖️",
     title: "Family and Matrimonial Law",
     shortDesc: "Discreet divorce proceedings, financial maintenance structures, custody tracking, and mediation.",
@@ -582,6 +609,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "wills-succession-probate-estateplanning",
+    slug: "wills-succession-probate-trusts-estate-planning",
     icon: "📜",
     title: "Wills, Succession, Probate, Trusts and Estate Planning",
     shortDesc: "Will drafting, probate filings, trust creations, and intestate heritage transmissions.",
@@ -599,6 +627,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "consumer-protection-insurance-negligence",
+    slug: "consumer-protection-insurance-professional-negligence",
     icon: "⚖️",
     title: "Consumer Protection, Insurance and Professional Negligence",
     shortDesc: "District/State commission representation for policy rejections, builder defaults, and services errors.",
@@ -616,6 +645,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "constitutional-administrative-publiclaw",
+    slug: "constitutional-administrative-public-law",
     icon: "🏛️",
     title: "Constitutional, Administrative and Public Law",
     shortDesc: "High Court writs, public interest litigation, and judicial reviews against statutory actions.",
@@ -633,6 +663,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "ip-technology-ai-dataprotection",
+    slug: "intellectual-property-technology-ai-data-protection",
     icon: "💻",
     title: "Intellectual Property, Technology, AI and Data Protection",
     shortDesc: "IP mappings, SaaS contracts, privacy audits, and responsible AI system structures.",
@@ -650,6 +681,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "maritime-shipping-admiralty",
+    slug: "maritime-shipping-admiralty-law",
     icon: "⚓",
     title: "Maritime, Shipping and Admiralty Law",
     shortDesc: "Vessel arrest tracks, charterparty actions, cargo cargo damages, and marine insurance recoveries.",
@@ -667,6 +699,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "international-trade-fema-crossborder",
+    slug: "international-trade-fema-cross-border-business",
     icon: "🌐",
     title: "International Trade, FEMA and Cross-Border Business",
     shortDesc: "FEMA compliance checkups, overseas layout routing, customs vetting, and entry structures.",
@@ -684,6 +717,7 @@ export const PRACTICE_AREAS: PracticeArea[] = [
   },
   {
     id: "personal-documentation-procedural-services",
+    slug: "personal-documentation-certificates-procedural-services",
     icon: "📝",
     title: "Personal Documentation, Certificates and Procedural Legal Services",
     shortDesc: "Handling of indemnity bonds, identity name changes, passport issues, and legal notices.",

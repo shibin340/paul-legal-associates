@@ -12,6 +12,7 @@ import Contact from "./pages/Contact";
 import NotFound from "pages/NotFound";
 import Insights from "pages/Insights";
 import ArticleDetail from "pages/ArticleDetail";
+import ExpertiseDetail from "pages/ExpertiseDetail";
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -21,6 +22,7 @@ const App: React.FC = () => (
         <Route index element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="expertise" element={<Expertise />} />
+        <Route path="expertise/:slug" element={<ExpertiseDetail />} />
         <Route path="partners" element={<Team />} />
         <Route path="insights" element={<Insights />} />
         <Route path="insights/:slug" element={<ArticleDetail />} />
