@@ -1,7 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { PRACTICE_AREAS } from 'data';
-import AnimateIn from 'components/ui/AnimateIn';
 import CredentialsBar from 'components/ui/CredentialsBar';
 
 const ExpertiseDetail: React.FC = () => {
