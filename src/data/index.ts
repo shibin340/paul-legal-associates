@@ -732,6 +732,901 @@ export const PRACTICE_AREAS: PracticeArea[] = [
       "E-filing, court fees, judicial stamps and refund applications",
       "Legal notices, replies, public notices and online consultations"
     ]
+  },
+
+  {
+    id: "aviation-airport-aeronautical-law",
+    slug: "aviation-airport-aeronautical-law",
+    icon: "✈️",
+    title: "Aviation, Airport and Aeronautical Law",
+    shortDesc: "Advisory on airport concession agreements, ground handling, regulatory compliance, and aviation disputes.",
+    fullDesc: "We provide legal advisory and representation to aviation businesses, airport service providers, cargo operators, contractors and allied stakeholders. Our services include airport-related contracts, regulatory compliance, passenger and cargo claims, ground-handling arrangements, aviation insurance, drone regulations and commercial disputes connected with airport operations.",
+    highlights: [
+      "Airport concession and service agreements",
+      "Ground-handling and airport-vendor contracts",
+      "Airline, cargo and logistics agreements",
+      "Airport retail, lounge, parking and commercial-space agreements",
+      "Passenger, baggage and cargo claims",
+      "Aviation insurance and liability disputes",
+      "DGCA, BCAS and AERA regulatory advisory",
+      "Drone and unmanned-aircraft regulatory matters",
+      "Airport land, height-clearance and obstacle-limitation matters",
+      "Contracts involving caterers, transporters, freight operators and airport service providers"
+    ]
+  },
+  {
+    id: "logistics-warehousing-supply-chain-law",
+    slug: "logistics-warehousing-supply-chain-law",
+    icon: "🚛",
+    title: "Logistics, Warehousing, Cold-Chain and Supply-Chain Law",
+    shortDesc: "Legal services for warehousing, freight forwarding, cold storage, cargo claims, and 3PL/4PL contracts.",
+    fullDesc: "We advise logistics companies, warehouse operators, transporters, manufacturers and commercial enterprises on warehousing, freight, transportation and supply-chain arrangements. Our practice covers logistics agreements, cargo claims, storage disputes, transporter liability, cold-chain operations, freight recovery and regulatory compliance.",
+    highlights: [
+      "Warehouse lease and leave-and-licence agreements",
+      "Logistics service agreements",
+      "Third-party logistics and fourth-party logistics contracts",
+      "Freight-forwarding and transportation contracts",
+      "Cold-storage and pharmaceutical logistics agreements",
+      "Multimodal transportation documentation",
+      "Cargo loss, shortage, delay and damage disputes",
+      "Detention, demurrage and freight-recovery disputes",
+      "Warehouse-development due diligence",
+      "Logistics-park regulatory and land documentation",
+      "Vendor, transporter and manpower contracts",
+      "E-way bill, delivery, indemnity and risk-allocation disputes"
+    ]
+  },
+  {
+    id: "public-procurement-tender-government-contracts",
+    slug: "public-procurement-tender-government-contracts",
+    icon: "📋",
+    title: "Public Procurement, Tender and Government Contracts",
+    shortDesc: "Representation and advisory in government tenders, bid disputes, GeM procurement, and debarment actions.",
+    fullDesc: "We assist contractors, suppliers, service providers and companies participating in government and public-sector tenders. Our services include tender-document review, bid eligibility disputes, blacklisting proceedings, cancellation of tenders, performance-security disputes, government contracts and writ proceedings arising from public procurement.",
+    highlights: [
+      "Tender-document review",
+      "Pre-bid clarification and representation",
+      "Bid qualification and eligibility advisory",
+      "Technical and financial bid disputes",
+      "Earnest-money deposit and performance-bank-guarantee disputes",
+      "Government contract drafting and review",
+      "Public-sector undertaking contracts",
+      "GeM procurement disputes",
+      "Cancellation and rejection of bids",
+      "Debarment and blacklisting proceedings",
+      "Challenge to arbitrary tender conditions",
+      "Writ petitions arising from government procurement",
+      "Contract termination, price escalation and delay claims",
+      "Infrastructure and public-works contracts"
+    ]
+  },
+  {
+    id: "healthcare-hospital-clinical-establishment-law",
+    slug: "healthcare-hospital-clinical-establishment-law",
+    icon: "⚕️",
+    title: "Healthcare, Hospital and Clinical Establishment Law",
+    shortDesc: "Legal compliance, medical defense, professional contracts, and clinical documentation for healthcare providers.",
+    fullDesc: "We provide legal support to hospitals, clinics, diagnostic centres, laboratories, healthcare institutions and medical professionals. Our services include regulatory compliance, hospital contracts, patient-consent documentation, medical negligence defence, employment matters, biomedical-waste compliance and representation in consumer and regulatory proceedings.",
+    highlights: [
+      "Hospital and nursing-home regulatory compliance",
+      "Clinical establishment documentation",
+      "Doctor, consultant and visiting-professional agreements",
+      "Hospital employment and disciplinary matters",
+      "Patient-consent and treatment documentation",
+      "Medical-record retention and confidentiality",
+      "Biomedical-waste compliance",
+      "Diagnostic laboratory agreements",
+      "Pharmacy and medical-device contracts",
+      "Medical negligence defence",
+      "Consumer complaints against hospitals and doctors",
+      "Insurance and cashless-treatment disputes",
+      "Hospital management and vendor contracts",
+      "Internal investigations involving treatment or patient complaints",
+      "Telemedicine and digital-health documentation"
+    ]
+  },
+  {
+    id: "food-restaurant-hotel-hospitality-law",
+    slug: "food-restaurant-hotel-hospitality-law",
+    icon: "🍽️",
+    title: "Food, Restaurant, Hotel and Hospitality Regulatory Law",
+    shortDesc: "FSSAI compliance, hotel operating agreements, commercial leases, and food safety litigation.",
+    fullDesc: "We advise restaurants, hotels, cloud kitchens, food businesses and hospitality establishments on operational and regulatory matters. Our practice includes FSSAI compliance, franchise and management agreements, commercial leases, vendor contracts, food-safety proceedings, licensing matters, consumer disputes and employment compliance.",
+    highlights: [
+      "FSSAI licensing and regulatory advisory",
+      "Restaurant and cloud-kitchen agreements",
+      "Hotel management and operating agreements",
+      "Franchise and brand-licensing agreements",
+      "Excise and establishment-related legal coordination",
+      "Food-safety notices and enforcement proceedings",
+      "Vendor and food-supply agreements",
+      "Aggregator agreements with delivery platforms",
+      "Commercial leases for restaurants and hotels",
+      "Guest liability and consumer disputes",
+      "Employment and contractor compliance",
+      "Fire, health, municipal and operational compliance",
+      "Food recall and contamination-response advisory",
+      "Advertising, menu-description and labelling compliance"
+    ]
+  },
+  {
+    id: "education-institutional-law",
+    slug: "education-institutional-law",
+    icon: "🎓",
+    title: "Education and Institutional Law",
+    shortDesc: "Advisory for schools, trusts, and universities on recognition, fee disputes, child protection, and employment.",
+    fullDesc: "We provide legal advisory to schools, colleges, coaching institutes, educational trusts and training institutions. Our services cover affiliation and recognition matters, employment disputes, student discipline, fee-related issues, institutional policies, child-safety compliance, contracts and proceedings before education authorities.",
+    highlights: [
+      "School and educational-institution establishment advisory",
+      "Trust and society documentation",
+      "Affiliation and recognition matters",
+      "Student admission and fee disputes",
+      "Teacher and staff employment matters",
+      "Disciplinary proceedings",
+      "Student safety and child-protection policies",
+      "POSH and workplace compliance",
+      "Parent complaints and consumer proceedings",
+      "Education-department notices",
+      "Land, lease and infrastructure documentation",
+      "Vendor, transport and canteen agreements",
+      "Internal policies and institutional governance",
+      "Writ petitions involving educational authorities"
+    ]
+  },
+  {
+    id: "cooperative-credit-society-multistate-law",
+    slug: "cooperative-credit-society-multistate-law",
+    icon: "🏛️",
+    title: "Co-operative Credit Society and Multi-State Co-operative Law",
+    shortDesc: "Legal guidance on credit society registration, bye-law drafting, loan recovery, and arbitration.",
+    fullDesc: "We advise co-operative credit societies, co-operative banks, members, borrowers, guarantors and office bearers on matters arising under co-operative laws. Our practice includes registration, bye-law amendments, management disputes, recovery proceedings, arbitration, election disputes, audit inquiries and regulatory compliance.",
+    highlights: [
+      "Formation and registration of credit societies",
+      "Bye-law drafting and amendment",
+      "Membership and management disputes",
+      "Recovery proceedings",
+      "Loan and guarantor disputes",
+      "Arbitration under co-operative legislation",
+      "Election disputes",
+      "Audit and inquiry proceedings",
+      "Supersession and administrator-related matters",
+      "Disputes involving directors and office bearers",
+      "Multi-State Co-operative Societies Act proceedings",
+      "Disputes involving co-operative banks",
+      "Regulatory and governance advisory"
+    ]
+  },
+  {
+    id: "competition-antitrust-unfair-market-practices",
+    slug: "competition-antitrust-unfair-market-practices",
+    icon: "⚖️",
+    title: "Competition, Antitrust and Unfair Market Practices",
+    shortDesc: "Cartel risk advisory, abuse-of-dominance defence, merger controls, and CCI representation.",
+    fullDesc: "We assist businesses in complying with competition law and avoiding anti-competitive commercial practices. Our services include review of distribution arrangements, exclusivity clauses, cartel risks, abuse-of-dominance issues, bid-rigging allegations, merger assessments and representation before competition authorities.",
+    highlights: [
+      "Anti-competitive agreement review",
+      "Cartel-risk advisory",
+      "Abuse-of-dominance matters",
+      "Exclusive supply and distribution arrangements",
+      "Resale-price-maintenance concerns",
+      "Bid-rigging and tender-collusion matters",
+      "Competition clauses in franchise and dealership agreements",
+      "Merger-control assessment",
+      "Competition Commission complaints",
+      "Internal competition-law audits",
+      "Dawn-raid and investigation preparedness",
+      "Competition-law training for management and sales teams"
+    ]
+  },
+  {
+    id: "technology-transactions-saas-ai-digital-platform-law",
+    slug: "technology-transactions-saas-ai-digital-platform-law",
+    icon: "💻",
+    title: "Technology Transactions, SaaS, AI and Digital Platform Law",
+    shortDesc: "Drafting software licensing, SaaS agreements, AI policies, platform terms, and data clauses.",
+    fullDesc: "We provide legal support to technology companies, startups, software developers, digital platforms and online businesses. Our services include SaaS agreements, software-development contracts, cloud-service arrangements, artificial-intelligence policies, technology licensing, platform terms, data-related clauses and digital-content disputes.",
+    highlights: [
+      "Software-development agreements",
+      "SaaS subscription agreements",
+      "Cloud-service and hosting agreements",
+      "Technology-licensing agreements",
+      "App and website terms of use",
+      "Platform and marketplace agreements",
+      "AI procurement and deployment contracts",
+      "AI-generated-content ownership",
+      "Algorithmic decision-making policies",
+      "Software escrow and source-code arrangements",
+      "IT outsourcing and managed-service agreements",
+      "Technology vendor due diligence",
+      "Limitation-of-liability and service-level agreements",
+      "Online intermediary compliance",
+      "Digital-content takedown and platform disputes"
+    ]
+  },
+  {
+    id: "renewable-energy-electric-mobility-infrastructure",
+    slug: "renewable-energy-electric-mobility-infrastructure",
+    icon: "⚡",
+    title: "Renewable Energy, Electric Mobility and Energy Infrastructure",
+    shortDesc: "Solar PPAs, EV charging station contracts, battery recycling agreements, and energy EPC disputes.",
+    fullDesc: "We advise businesses engaged in renewable energy, electric mobility, battery technology and energy infrastructure. Our practice covers solar and power-purchase agreements, EV charging arrangements, battery supply and warranty disputes, project land due diligence, EPC contracts, regulatory compliance and energy-related commercial disputes.",
+    highlights: [
+      "Solar-power purchase agreements",
+      "Rooftop-solar agreements",
+      "EV charging-station agreements",
+      "Charging-infrastructure leases and licences",
+      "Battery supply, warranty and recycling contracts",
+      "Renewable-energy project land due diligence",
+      "EPC and operation-and-maintenance agreements",
+      "Open-access and captive-power arrangements",
+      "Energy regulatory disputes",
+      "Electrical contractor and infrastructure agreements",
+      "Product-defect and battery claims",
+      "Environmental and waste-management compliance",
+      "Green-energy procurement and commercial disputes"
+    ]
+  },
+  {
+    id: "construction-contracts-epc-infrastructure-claims",
+    slug: "construction-contracts-epc-infrastructure-claims",
+    icon: "🏗️",
+    title: "Construction Contracts, EPC and Infrastructure Claims",
+    shortDesc: "EPC contract review, disruption claims, liquidated damages, and construction arbitration.",
+    fullDesc: "We represent developers, contractors, subcontractors, consultants and project owners in construction and infrastructure matters. Our services include drafting and reviewing EPC contracts, delay and disruption claims, variation disputes, price escalation, retention-money recovery, bank-guarantee disputes and construction arbitration.",
+    highlights: [
+      "EPC and turnkey agreements",
+      "Construction and works contracts",
+      "Architect and consultant agreements",
+      "Subcontractor agreements",
+      "Measurement and certification disputes",
+      "Variation and additional-work claims",
+      "Extension-of-time claims",
+      "Liquidated damages disputes",
+      "Retention-money and bank-guarantee disputes",
+      "Price-escalation claims",
+      "Delay and disruption claims",
+      "Defect-liability disputes",
+      "Construction arbitration",
+      "Project documentation and claim preparation"
+    ]
+  },
+  {
+    id: "franchise-dealership-distribution-law",
+    slug: "franchise-dealership-distribution-law",
+    icon: "🤝",
+    title: "Franchise, Dealership and Distribution Law",
+    shortDesc: "Franchise agreement drafting, master-franchise deals, territorial exclusivity, and fee recoveries.",
+    fullDesc: "We advise franchisors, franchisees, manufacturers, distributors, dealers and retail businesses on commercial expansion arrangements. Our services include franchise agreements, dealership contracts, distribution arrangements, brand licensing, territorial rights, termination disputes, payment recovery and protection of confidential business information.",
+    highlights: [
+      "Franchise agreements",
+      "Master-franchise arrangements",
+      "Dealership and distributorship agreements",
+      "Area-development agreements",
+      "Brand and trademark licensing",
+      "Territory and exclusivity clauses",
+      "Minimum-purchase obligations",
+      "Pricing and competition-law review",
+      "Termination and exit disputes",
+      "Recovery of franchise fees and outstanding dues",
+      "Misuse of brand and confidential information",
+      "Retail and outlet lease coordination",
+      "Vendor and supply-chain agreements"
+    ]
+  },
+  {
+    id: "trusts-charities-ngos-section-8",
+    slug: "trusts-charities-ngos-section-8",
+    icon: "📜",
+    title: "Trusts, Charities, NGOs and Section 8 Companies",
+    shortDesc: "Formation of public trusts, Charity Commissioner compliance, CSR agreements, and FCRA coordination.",
+    fullDesc: "We provide legal assistance in the formation, governance and operation of charitable trusts, societies, NGOs and Section 8 companies. Our services include registration, trust deeds, constitutional documents, trustee changes, Charity Commissioner proceedings, property transactions, CSR arrangements and regulatory compliance.",
+    highlights: [
+      "Formation of public charitable trusts",
+      "Society and Section 8 company registration",
+      "Trust-deed and constitutional-document drafting",
+      "Charity Commissioner proceedings",
+      "Change reports and trustee appointments",
+      "Property transactions by charitable institutions",
+      "CSR implementation agreements",
+      "Grant and donor agreements",
+      "FCRA-related legal coordination",
+      "Governance and conflict-of-interest policies",
+      "Employment and volunteer documentation",
+      "Internal investigations and misuse-of-funds disputes",
+      "Dissolution, merger and restructuring of charitable entities"
+    ]
+  },
+  {
+    id: "white-collar-crime-corporate-fraud-investigations",
+    slug: "white-collar-crime-corporate-fraud-investigations",
+    icon: "🛡️",
+    title: "White-Collar Crime, Corporate Fraud and Internal Investigations",
+    shortDesc: "Internal fact-finding, employee embezzlement investigations, whistleblower protection, and EOW defence.",
+    fullDesc: "We advise companies, directors and senior management on allegations of corporate fraud, financial misconduct, forgery, data theft, bribery and employee wrongdoing. Our practice includes internal investigations, evidence preservation, whistleblower complaints, police representations, economic-offence proceedings and recovery of losses caused by fraudulent conduct.",
+    highlights: [
+      "Employee fraud and embezzlement investigations",
+      "Procurement and vendor fraud",
+      "Forgery and falsification of records",
+      "Bribery and conflict-of-interest investigations",
+      "Financial and accounting irregularities",
+      "Whistleblower complaints",
+      "Data theft and confidential-information misuse",
+      "Internal fact-finding exercises",
+      "Evidence-preservation protocols",
+      "Police and economic-offence representations",
+      "Director and officer liability",
+      "Fraud-response legal strategy",
+      "Recovery proceedings following internal fraud"
+    ]
+  },
+  {
+    id: "media-entertainment-sports-influencer-law",
+    slug: "media-entertainment-sports-influencer-law",
+    icon: "🎬",
+    title: "Media, Entertainment, Sports and Influencer Law",
+    shortDesc: "Artist contracts, influencer brand deals, content production licensing, and publicity rights protection.",
+    fullDesc: "We provide legal advisory to artists, influencers, athletes, production houses, agencies, event organisers and digital-content creators. Our services include talent agreements, sponsorship contracts, endorsement arrangements, content licensing, personality rights, copyright matters, social-media disputes and defamation proceedings.",
+    highlights: [
+      "Artist and talent agreements",
+      "Film, music and content-production contracts",
+      "Influencer and brand-collaboration agreements",
+      "Sponsorship and endorsement agreements",
+      "Event-management contracts",
+      "Image, personality and publicity rights",
+      "Copyright and content-licensing agreements",
+      "Defamation and reputation matters",
+      "Social-media takedown disputes",
+      "Sports-management and athlete agreements",
+      "Production, location and vendor agreements",
+      "Digital-content ownership disputes"
+    ]
+  },
+  {
+    id: "data-centre-cloud-infrastructure-telecom-law",
+    slug: "data-centre-cloud-infrastructure-telecom-law",
+    icon: "📡",
+    title: "Data Centre, Cloud Infrastructure and Telecom Law",
+    shortDesc: "Colocation agreements, cloud hosting, right-of-way contracts, and telecom infrastructure leases.",
+    fullDesc: "We advise data-centre operators, cloud-service providers, telecom businesses, infrastructure companies and technology vendors. Our practice covers colocation and hosting agreements, fibre and right-of-way arrangements, equipment procurement, service-level agreements, infrastructure leases, data-security obligations and project-related commercial disputes.",
+    highlights: [
+      "Data-centre land and facility transactions",
+      "Colocation and hosting agreements",
+      "Cloud-infrastructure contracts",
+      "Fibre and right-of-way agreements",
+      "Power-supply and backup-energy contracts",
+      "Equipment-procurement agreements",
+      "Service-level and uptime agreements",
+      "Telecom infrastructure leases",
+      "Vendor and facility-management agreements",
+      "Data-centre construction and EPC contracts",
+      "Security, confidentiality and incident-response clauses"
+    ]
+  },
+  {
+    id: "airport-port-logistics-infrastructure-services",
+    slug: "airport-port-logistics-infrastructure-services",
+    icon: "⚓",
+    title: "Airport, Port, Logistics and Infrastructure Legal Services",
+    shortDesc: "Integrated legal support for operations around NMIA, JNPA, Panvel, Uran, and Raigad growth hubs.",
+    fullDesc: "We provide integrated legal services to businesses operating within airport, port, logistics, warehousing and infrastructure ecosystems. Our practice includes commercial contracts, regulatory compliance, cargo and transportation disputes, government tenders, project documentation, EPC arrangements and legal advisory for businesses operating around NMIA, JNPA, Panvel, Uran and Raigad.",
+    highlights: [
+      "Drafting and reviewing commercial contracts for logistics, port and airport operations",
+      "Advising on regulatory compliance and licensing requirements",
+      "Handling cargo, freight and transportation disputes",
+      "Assisting with government tenders and public procurement processes",
+      "Preparing and reviewing project documentation and concession agreements",
+      "Advising on EPC contracts and infrastructure project risks",
+      "Representing clients in commercial disputes and arbitration",
+      "Providing legal support for businesses operating around NMIA, JNPA, Panvel, Uran and Raigad",
+      "Structuring joint ventures, partnerships and infrastructure collaborations",
+      "Advising on land acquisition, leasing and development for infrastructure projects"
+    ]
+  },
+  {
+    id: "customs-foreign-trade-import-export-law",
+    slug: "customs-foreign-trade-import-export-law",
+    icon: "🌐",
+    title: "Customs, Foreign Trade and Import–Export Law",
+    shortDesc: "Advisory on customs classification, duty demands, seizure of goods, and DGFT representations.",
+    fullDesc: "We advise importers, exporters, manufacturers, logistics companies and trading businesses on customs regulations, import and export documentation, classification disputes, valuation matters, duty demands, confiscation proceedings, foreign trade restrictions and representation before customs and appellate authorities.",
+    highlights: [
+      "Advising importers, exporters, manufacturers and traders on customs and foreign-trade regulations",
+      "Reviewing import–export contracts, purchase orders and international supply agreements",
+      "Advising on customs classification, valuation, applicable duties and exemptions",
+      "Assisting in matters involving detention, seizure, confiscation or provisional release of goods",
+      "Preparing replies to show-cause notices and customs duty demands",
+      "Handling disputes concerning misdeclaration, under-valuation and prohibited or restricted goods",
+      "Advising on export incentives, duty remission schemes and foreign-trade benefits",
+      "Assisting with Importer Exporter Code, licensing and regulatory documentation",
+      "Representing clients before customs authorities and appellate forums",
+      "Advising on freight-forwarding, shipping and customs-clearance disputes",
+      "Handling disputes relating to bills of entry, shipping bills and certificates of origin",
+      "Coordinating legal strategy in matters involving the Directorate General of Foreign Trade and allied authorities"
+    ]
+  },
+  {
+    id: "fintech-digital-lending-payment-systems-law",
+    slug: "fintech-digital-lending-payment-systems-law",
+    icon: "💳",
+    title: "FinTech, Digital Lending and Payment Systems Law",
+    shortDesc: "Legal solutions for digital lenders, payment gateways, BNPL, co-lending, and e-KYC compliance.",
+    fullDesc: "We provide legal advisory to financial technology companies, digital lenders, payment aggregators, technology platforms and financial service providers. Our services include digital lending agreements, platform documentation, regulatory compliance, customer grievance frameworks, outsourcing arrangements, data-sharing terms and financial technology disputes.",
+    highlights: [
+      "Advising fintech companies, digital lenders, payment platforms and financial-service providers",
+      "Drafting and reviewing digital lending, loan-facilitation and platform-service agreements",
+      "Preparing customer terms, privacy notices, consent documents and grievance policies",
+      "Reviewing agreements between regulated entities, lending service providers and technology vendors",
+      "Advising on outsourcing, data-sharing and customer-acquisition arrangements",
+      "Drafting payment gateway, merchant-acquisition and payment-processing agreements",
+      "Advising on digital KYC, customer onboarding and electronic execution of documents",
+      "Reviewing recovery practices, communication protocols and customer grievance mechanisms",
+      "Advising on co-lending, embedded finance and buy-now-pay-later arrangements",
+      "Handling disputes involving unauthorised transactions, digital fraud and payment failures",
+      "Preparing internal regulatory-compliance frameworks and operational policies",
+      "Representing clients in contractual, consumer and regulatory disputes involving digital financial services"
+    ]
+  },
+  {
+    id: "pharmaceutical-drugs-cosmetics-medical-devices-law",
+    slug: "pharmaceutical-drugs-cosmetics-medical-devices-law",
+    icon: "💊",
+    title: "Pharmaceutical, Drugs, Cosmetics and Medical Devices Law",
+    shortDesc: "Licensing compliance, contract manufacturing deals, labelling rules, and drug control defense.",
+    fullDesc: "We advise pharmaceutical companies, manufacturers, distributors, pharmacies, laboratories and medical-device businesses on licensing, manufacturing, distribution, advertising, product compliance, contractual arrangements, regulatory inspections, statutory notices, recalls and proceedings before competent authorities.",
+    highlights: [
+      "Advising pharmaceutical, cosmetic and medical-device businesses on regulatory compliance",
+      "Assisting with manufacturing, distribution, sale and storage licences",
+      "Drafting and reviewing manufacturing, loan-licence and contract-manufacturing agreements",
+      "Preparing distribution, stockist, dealership and supply agreements",
+      "Advising on product labelling, packaging, advertising and promotional claims",
+      "Assisting with regulatory inspections, notices, suspension and cancellation proceedings",
+      "Advising on quality-control failures, adverse events and product recalls",
+      "Handling disputes relating to spurious, misbranded, adulterated or substandard products",
+      "Drafting research, clinical-support, confidentiality and technology-transfer agreements",
+      "Advising pharmacies, hospitals, laboratories and distributors on procurement arrangements",
+      "Assisting with medical-device registration and commercialisation documentation",
+      "Representing clients before drug-control, licensing and appellate authorities"
+    ]
+  },
+  {
+    id: "product-liability-recall-consumer-safety-law",
+    slug: "product-liability-recall-consumer-safety-law",
+    icon: "⚠️",
+    title: "Product Liability, Product Recall and Consumer Safety Law",
+    shortDesc: "Risk management for manufacturing defects, product recall strategies, disclaimers, and claims defence.",
+    fullDesc: "We assist manufacturers, importers, distributors, retailers and consumers in matters involving defective or unsafe products. Our practice covers product-liability claims, warranty disputes, product recalls, safety investigations, compensation claims, consumer proceedings and preparation of product warnings, disclaimers and risk-management documentation.",
+    highlights: [
+      "Advising manufacturers, importers, distributors and sellers on product-safety obligations",
+      "Handling claims involving defective, unsafe or inadequately labelled products",
+      "Advising on manufacturing defects, design defects and failure-to-warn allegations",
+      "Drafting product warranties, guarantees, instructions, disclaimers and safety warnings",
+      "Preparing product-recall strategies, customer communications and corrective-action plans",
+      "Conducting legal-risk reviews following accidents, complaints or reported product failures",
+      "Representing businesses and consumers in product-liability and compensation proceedings",
+      "Advising on liability allocation between manufacturers, suppliers and distributors",
+      "Handling warranty, replacement, refund and after-sales service disputes",
+      "Reviewing advertising and promotional claims concerning product performance",
+      "Advising on evidence preservation and technical-expert coordination",
+      "Drafting settlement, indemnity and risk-allocation documentation"
+    ]
+  },
+  {
+    id: "advertising-marketing-brand-communications-law",
+    slug: "advertising-marketing-brand-communications-law",
+    icon: "📢",
+    title: "Advertising, Marketing and Brand Communications Law",
+    shortDesc: "Legal review of promotional campaigns, influencer disclaimers, comparative ads, and disparagement claims.",
+    fullDesc: "We advise businesses, advertising agencies, influencers and digital platforms on the legal aspects of marketing and promotional communications. Our services include review of advertisements, promotional campaigns, comparative advertising, endorsements, misleading-claim disputes, brand usage, contests, disclaimers and consumer-law compliance.",
+    highlights: [
+      "Reviewing advertisements, promotional campaigns and marketing communications",
+      "Advising on misleading, exaggerated or unsubstantiated advertising claims",
+      "Reviewing comparative advertisements involving competing products or services",
+      "Drafting influencer, celebrity endorsement and brand-collaboration agreements",
+      "Advising on disclosure requirements for sponsored and paid promotional content",
+      "Reviewing promotional contests, prize schemes, discounts and customer offers",
+      "Drafting agency, media-buying, creative-services and campaign-management agreements",
+      "Advising on trademark, copyright and personality-right issues in advertisements",
+      "Handling complaints concerning disparagement, imitation and unfair marketing practices",
+      "Preparing disclaimers, terms and conditions and promotional offer rules",
+      "Advising on marketing communications directed at children or vulnerable consumers",
+      "Representing clients in consumer, intellectual-property and advertising-related disputes"
+    ]
+  },
+  {
+    id: "defence-aerospace-security-contracts",
+    slug: "defence-aerospace-security-contracts",
+    icon: "🛡️",
+    title: "Defence, Aerospace Manufacturing and Security Contracts",
+    shortDesc: "Defence procurement documentation, offset obligations, tech transfer deals, and government supply arbitration.",
+    fullDesc: "We provide legal support to businesses engaged in defence manufacturing, aerospace components, security services and government supply arrangements. Our practice includes procurement contracts, industrial collaborations, technology-transfer agreements, confidentiality obligations, vendor contracts, licensing coordination and contractual disputes.",
+    highlights: [
+      "Advising defence, aerospace, security and specialised manufacturing businesses",
+      "Drafting and reviewing supply, procurement and manufacturing agreements",
+      "Advising on government and public-sector tender documentation",
+      "Preparing technology-transfer, licensing and technical-collaboration agreements",
+      "Drafting confidentiality, non-disclosure and restricted-information agreements",
+      "Advising on offset, localisation and domestic manufacturing arrangements",
+      "Reviewing vendor, subcontractor and component-supply agreements",
+      "Advising on quality assurance, testing, inspection and acceptance provisions",
+      "Drafting maintenance, repair, overhaul and lifecycle-support agreements",
+      "Advising on intellectual-property ownership in technical designs and specifications",
+      "Handling payment, delay, rejection, termination and performance-security disputes",
+      "Representing clients in contractual proceedings and commercial arbitration"
+    ]
+  },
+  {
+    id: "mining-minerals-quarrying-royalty-law",
+    slug: "mining-minerals-quarrying-royalty-law",
+    icon: "⛏️",
+    title: "Mining, Minerals, Quarrying and Royalty Law",
+    shortDesc: "Mining leases, quarry permissions, royalty demand defense, and transit permit representation.",
+    fullDesc: "We advise mine owners, quarry operators, landowners, contractors and mineral-based industries on leases, permissions, royalty demands, transportation permits, environmental compliance, regulatory notices, land-use concerns and disputes before mining, revenue and environmental authorities.",
+    highlights: [
+      "Advising mine owners, quarry operators, contractors and mineral-based industries",
+      "Assisting with mining leases, quarry permissions and operational approvals",
+      "Reviewing land-title and access documentation for mining and quarrying activities",
+      "Advising on royalty, dead-rent, premium and penalty demands",
+      "Preparing replies to notices alleging illegal extraction or transportation",
+      "Handling seizure and confiscation matters involving minerals, machinery and vehicles",
+      "Advising on transit permits, transportation passes and mineral documentation",
+      "Assisting with environmental, pollution-control and forest-related compliance",
+      "Drafting excavation, extraction, transportation and contractor agreements",
+      "Advising landowners on royalty-sharing and mineral-development arrangements",
+      "Handling disputes involving measurement, quantity, grade and mineral classification",
+      "Representing clients before mining, revenue, environmental and appellate authorities"
+    ]
+  },
+  {
+    id: "agricultural-business-food-processing-commodity-trade",
+    slug: "agricultural-business-food-processing-commodity-trade",
+    icon: "🌾",
+    title: "Agricultural Business, Food Processing and Commodity Trade Law",
+    shortDesc: "Contract farming deals, warehousing agreements, commodity trade disputes, and produce export contracts.",
+    fullDesc: "We assist agricultural enterprises, food processors, traders, exporters, warehouses and commodity businesses with supply contracts, procurement arrangements, processing agreements, storage documentation, regulatory compliance, payment recovery, quality disputes and commercial transactions involving agricultural produce.",
+    highlights: [
+      "Advising agricultural enterprises, processors, traders, exporters and commodity businesses",
+      "Drafting agricultural-produce procurement and supply agreements",
+      "Preparing contract-farming, cultivation-support and buy-back arrangements",
+      "Advising on food-processing, packaging, storage and distribution contracts",
+      "Drafting warehousing, cold-storage and commodity-handling agreements",
+      "Handling disputes concerning quality, quantity, grading, moisture and rejection of goods",
+      "Advising on delayed payments, price adjustments and commodity-market disputes",
+      "Preparing dealership, distributorship and commission-agent agreements",
+      "Advising on transport, insurance and risk of loss during movement of produce",
+      "Reviewing export, import and international commodity-trading documentation",
+      "Assisting with food-safety, labelling and processing-related compliance",
+      "Representing clients in recovery, contractual and commercial arbitration proceedings"
+    ]
+  },
+  {
+    id: "startup-venture-capital-founder-advisory",
+    slug: "startup-venture-capital-founder-advisory",
+    icon: "🚀",
+    title: "Startup, Venture Capital and Founder Advisory",
+    shortDesc: "End-to-end founder agreements, ESOP structures, fundraising rounds, and exit strategies.",
+    fullDesc: "We provide end-to-end legal support to startups, entrepreneurs, founders, investors and emerging businesses. Our services include entity structuring, founders’ agreements, investment documentation, employee stock options, intellectual-property protection, commercial contracts, funding rounds, founder exits and corporate-governance advisory.",
+    highlights: [
+      "Advising founders on selection and incorporation of the appropriate business structure",
+      "Drafting founders’ agreements and documenting roles, responsibilities and equity ownership",
+      "Preparing shareholders’ agreements, subscription agreements and investment documentation",
+      "Advising on seed, angel, venture-capital and strategic investment transactions",
+      "Conducting legal due diligence for fundraising and investment rounds",
+      "Drafting employee stock-option plans, incentive arrangements and vesting provisions",
+      "Advising on intellectual-property ownership and assignment by founders and employees",
+      "Preparing employment, consultant, vendor and customer contracts",
+      "Drafting confidentiality, non-solicitation and restrictive-covenant arrangements",
+      "Advising on founder exits, deadlocks, dilution and transfer of shares",
+      "Assisting with corporate governance, board processes and statutory documentation",
+      "Advising on mergers, acquisitions, restructuring and startup exit transactions"
+    ]
+  },
+  {
+    id: "family-business-promoter-shareholder-advisory",
+    slug: "family-business-promoter-shareholder-advisory",
+    icon: "👔",
+    title: "Family Business, Promoter and Shareholder Advisory",
+    shortDesc: "Family constitutions, promoter restructuring, shareholder oppression disputes, and buyouts.",
+    fullDesc: "We advise family-owned businesses, promoters, shareholders and partners on business succession, governance, ownership restructuring and internal disputes. Our practice covers shareholders’ agreements, family arrangements, partnership disputes, minority protection, management deadlocks, separation of business interests and negotiated settlements.",
+    highlights: [
+      "Advising family-owned businesses, promoters, shareholders and business partners",
+      "Preparing family business constitutions and governance frameworks",
+      "Drafting shareholders’ agreements and promoter arrangements",
+      "Advising on succession of management, ownership and voting control",
+      "Structuring family settlements and division of business interests",
+      "Handling shareholder oppression, minority-rights and management disputes",
+      "Advising on deadlocks, exclusion from management and access to company records",
+      "Preparing share-transfer, buyout and exit documentation",
+      "Advising on partnership and limited liability partnership disputes",
+      "Structuring holding entities and ownership arrangements for family businesses",
+      "Facilitating negotiated settlements and mediation between family members",
+      "Representing clients in company, commercial and arbitration proceedings"
+    ]
+  },
+  {
+    id: "taxation-gst-fiscal-litigation",
+    slug: "taxation-gst-fiscal-litigation",
+    icon: "📊",
+    title: "Taxation, GST and Fiscal Litigation",
+    shortDesc: "Litigation support for GST notices, Input Tax Credit claims, demand notices, and tax audits.",
+    fullDesc: "We assist businesses and individuals with legal issues arising from taxation, GST assessments, statutory notices, input-tax-credit disputes, classification matters, penalties, recovery proceedings and appellate remedies. Where necessary, we work alongside qualified tax and accounting professionals to provide coordinated legal support.",
+    highlights: [
+      "Advising businesses and individuals on legal issues arising under taxation and GST laws",
+      "Preparing replies to show-cause notices, assessment notices and demand communications",
+      "Advising on classification, valuation, place of supply and taxability disputes",
+      "Handling matters relating to input tax credit, refunds and blocked credits",
+      "Advising on registration, cancellation, suspension and restoration proceedings",
+      "Representing clients in search, inspection, seizure and investigation matters",
+      "Handling penalty, interest, recovery and provisional attachment proceedings",
+      "Preparing appeals, written submissions and applications for interim relief",
+      "Advising on contractual allocation of taxes, duties and fiscal liabilities",
+      "Reviewing commercial agreements from a taxation-risk perspective",
+      "Coordinating legal strategy with chartered accountants and tax professionals",
+      "Representing clients before adjudicating and appellate authorities"
+    ]
+  },
+  {
+    id: "municipal-licensing-trade-permissions-local-authority",
+    slug: "municipal-licensing-trade-permissions-local-authority",
+    icon: "🏛️",
+    title: "Municipal Licensing, Trade Permissions and Local Authority Compliance",
+    shortDesc: "Trade permits, fire NOCs, municipal demolition notices, and property tax assessment appeals.",
+    fullDesc: "We advise commercial establishments, factories, restaurants, hospitals, warehouses and property owners on municipal licences, trade permissions, signage approvals, fire compliance, health permissions, statutory notices, sealing or demolition action and proceedings before municipal and local authorities.",
+    highlights: [
+      "Advising commercial and industrial establishments on municipal permissions and licences",
+      "Assisting with trade, health, establishment and operational licences",
+      "Advising on signage, advertisement and display permissions",
+      "Assisting with fire-safety approvals and compliance documentation",
+      "Preparing replies to municipal show-cause, sealing and closure notices",
+      "Handling demolition, removal and unauthorised-construction proceedings",
+      "Advising on change of user, occupancy and commercial-use permissions",
+      "Assisting with property-tax, assessment and municipal levy disputes",
+      "Advising restaurants, hotels, hospitals, warehouses and factories on local permissions",
+      "Handling renewal, suspension and cancellation of licences",
+      "Filing representations and appeals before municipal and local authorities",
+      "Challenging arbitrary municipal action before appropriate judicial forums"
+    ]
+  },
+  {
+    id: "anti-bribery-anti-corruption-business-ethics",
+    slug: "anti-bribery-anti-corruption-business-ethics",
+    icon: "⚖️",
+    title: "Anti-Bribery, Anti-Corruption and Business Ethics Compliance",
+    shortDesc: "Ethics policy design, whistleblower setups, vendor integrity checks, and internal fraud investigations.",
+    fullDesc: "We assist companies in developing policies and compliance systems intended to prevent bribery, corruption, conflicts of interest and unethical business conduct. Our services include policy drafting, vendor-integrity reviews, whistleblower mechanisms, employee training, internal investigations and advisory on suspected misconduct.",
+    highlights: [
+      "Drafting anti-bribery, anti-corruption and business-ethics policies",
+      "Preparing conflict-of-interest, gifts, hospitality and donations policies",
+      "Developing whistleblower and protected-disclosure mechanisms",
+      "Conducting compliance-risk assessments and internal policy reviews",
+      "Reviewing relationships with agents, consultants, distributors and government-facing intermediaries",
+      "Preparing contractual anti-corruption representations, warranties and audit clauses",
+      "Conducting vendor-integrity and third-party compliance reviews",
+      "Advising management on suspected bribery, kickbacks or unethical conduct",
+      "Conducting internal investigations and preparing investigation reports",
+      "Assisting with evidence preservation, interviews and disciplinary action",
+      "Delivering management and employee awareness programmes",
+      "Advising on remediation, corrective measures and compliance monitoring"
+    ]
+  },
+  {
+    id: "esg-sustainability-business-responsibility-advisory",
+    slug: "esg-sustainability-business-responsibility-advisory",
+    icon: "🌱",
+    title: "ESG, Sustainability and Business Responsibility Advisory",
+    shortDesc: "ESG compliance frameworks, supply-chain sustainability audits, and green contract commitments.",
+    fullDesc: "We advise companies on environmental, social and governance considerations affecting business operations, investments and corporate decision-making. Our services include ESG policy frameworks, sustainability-related disclosures, supply-chain compliance, environmental risk reviews, workplace governance and responsible-business practices.",
+    highlights: [
+      "Advising businesses on environmental, social and governance risk management",
+      "Drafting ESG, sustainability and responsible-business policies",
+      "Reviewing environmental and social obligations within supply chains",
+      "Advising on workplace welfare, diversity, safety and human-rights policies",
+      "Conducting legal reviews of sustainability claims and public disclosures",
+      "Advising on governance, board oversight and accountability mechanisms",
+      "Preparing supplier codes of conduct and responsible-procurement standards",
+      "Reviewing green, sustainable and climate-related contractual commitments",
+      "Advising on waste management, resource conservation and operational compliance",
+      "Assisting with business-responsibility and sustainability reporting frameworks",
+      "Conducting ESG-related legal due diligence for investments and transactions",
+      "Advising on complaints, investigations and reputational risks arising from ESG issues"
+    ]
+  },
+  {
+    id: "sanctions-export-controls-international-trade-compliance",
+    slug: "sanctions-export-controls-international-trade-compliance",
+    icon: "🌐",
+    title: "Sanctions, Export Controls and International Trade Compliance",
+    shortDesc: "Restricted-party screenings, cross-border supply chain risks, and trade sanctions clauses.",
+    fullDesc: "We assist businesses involved in international transactions with contractual and compliance risks arising from export controls, restricted-party dealings, cross-border supply arrangements and international trade restrictions. Our services include transaction reviews, contractual safeguards, counterparty checks and risk-management documentation.",
+    highlights: [
+      "Advising businesses on international trade restrictions and cross-border transaction risks",
+      "Reviewing transactions involving restricted countries, entities or products",
+      "Conducting legal reviews of counterparties and international supply arrangements",
+      "Drafting sanctions, export-control and compliance clauses in commercial contracts",
+      "Advising on end-user, end-use and destination-related documentation",
+      "Reviewing technology-transfer and dual-use product arrangements",
+      "Advising on payment restrictions and banking-related cross-border risks",
+      "Preparing internal international-trade compliance policies",
+      "Advising on suspension, termination and force-majeure rights arising from restrictions",
+      "Conducting contractual risk assessments for global distributors and suppliers",
+      "Assisting with responses to compliance inquiries from banks and counterparties",
+      "Coordinating with foreign counsel and trade specialists in multi-jurisdictional matters"
+    ]
+  },
+  {
+    id: "industrial-licensing-manufacturing-regulatory-law",
+    slug: "industrial-licensing-manufacturing-regulatory-law",
+    icon: "🏭",
+    title: "Industrial Licensing and Manufacturing Regulatory Law",
+    shortDesc: "Factory licences, environmental pollution controls, safety audits, and operational approvals.",
+    fullDesc: "We provide legal advisory to manufacturers, factories, industrial units and project operators on establishment-related permissions, industrial licences, operational approvals, contractor arrangements, statutory inspections, regulatory notices and compliance obligations affecting manufacturing activities.",
+    highlights: [
+      "Advising manufacturers and industrial units on establishment and operational approvals",
+      "Assisting with factory, industrial and trade-related licences",
+      "Reviewing land-use, zoning and non-agricultural permissions for industrial projects",
+      "Advising on pollution-control, environmental and waste-management requirements",
+      "Assisting with boiler, electrical, fire and occupational-safety compliance",
+      "Preparing replies to statutory inspection reports and show-cause notices",
+      "Advising on suspension, cancellation and renewal of operational licences",
+      "Drafting manufacturing, processing and contract-production agreements",
+      "Preparing contractor, manpower, maintenance and facility-management contracts",
+      "Conducting legal-compliance audits for factories and manufacturing units",
+      "Advising on workplace accidents, regulatory investigations and corrective action",
+      "Representing clients before industrial, factory, environmental and appellate authorities"
+    ]
+  },
+  {
+    id: "immigration-citizenship-corporate-global-mobility",
+    slug: "immigration-citizenship-corporate-global-mobility",
+    icon: "🛂",
+    title: "Immigration, Citizenship and Corporate Global Mobility Law",
+    shortDesc: "Expat employment contracts, global secondment agreements, and citizenship representations.",
+    fullDesc: "We assist individuals, employers and businesses with immigration-related documentation, employment mobility, overseas assignments, citizenship-related representations, visa disputes, foreign-employee documentation and legal issues involving the movement of professionals across jurisdictions.",
+    highlights: [
+      "Advising individuals and businesses on immigration and global-mobility documentation",
+      "Assisting employers with foreign-employee engagement and assignment documentation",
+      "Drafting employment, secondment and overseas-deputation agreements",
+      "Advising on visa-related contractual and employment issues",
+      "Preparing representations concerning immigration or citizenship documentation",
+      "Assisting with overseas employment and relocation documentation",
+      "Advising on compliance obligations for foreign nationals working in India",
+      "Reviewing invitation letters, sponsorship documents and employer declarations",
+      "Advising on termination, repatriation and relocation-related employment concerns",
+      "Assisting families with citizenship, nationality and status-related representations",
+      "Coordinating with authorised immigration professionals and foreign counsel",
+      "Handling disputes involving fraudulent recruitment, overseas employment and mobility arrangements"
+    ]
+  },
+  {
+    id: "senior-citizens-elder-law-maintenance-tribunal",
+    slug: "senior-citizens-elder-law-maintenance-tribunal",
+    icon: "👵",
+    title: "Senior Citizens, Elder Law and Maintenance Tribunal Matters",
+    shortDesc: "Protection of elder property rights, maintenance claims, cancellation of coercive gifts, and wills.",
+    fullDesc: "We provide legal assistance to senior citizens and their families in matters concerning maintenance, protection of property, cancellation of transfers obtained through coercion or neglect, succession planning, caregiver arrangements and proceedings before the Maintenance Tribunal and other competent authorities.",
+    highlights: [
+      "Advising senior citizens on protection of their legal, financial and property rights",
+      "Filing and defending maintenance applications before the competent tribunal",
+      "Seeking cancellation of property transfers made subject to care and maintenance obligations",
+      "Handling matters involving neglect, coercion, financial exploitation or abandonment",
+      "Advising on recovery of possession from children, relatives or unauthorised occupants",
+      "Preparing wills, family arrangements, gift deeds and succession documentation",
+      "Advising on nominations, joint ownership and transmission of assets",
+      "Drafting caregiver, residence and family-support arrangements",
+      "Preparing legal notices concerning maintenance and protection of property",
+      "Assisting with police and administrative representations",
+      "Advising families on lawful management of an elderly person’s affairs",
+      "Representing senior citizens before tribunals, civil courts and appropriate authorities"
+    ]
+  },
+  {
+    id: "luxury-goods-art-antiquities-cultural-property-law",
+    slug: "luxury-goods-art-antiquities-cultural-property-law",
+    icon: "🖼️",
+    title: "Luxury Goods, Art, Antiquities and Cultural Property Law",
+    shortDesc: "Art provenance verification, gallery contracts, copyright licensing, and antiquities trade advice.",
+    fullDesc: "We advise collectors, galleries, dealers, artists, auction businesses and purchasers on the acquisition, sale, ownership and authenticity of art, antiques and valuable collectibles. Our practice covers sale agreements, provenance documentation, ownership disputes, authenticity claims, inheritance and transportation of valuable objects.",
+    highlights: [
+      "Advising artists, collectors, galleries, dealers, auction houses and purchasers",
+      "Drafting agreements for sale, consignment, loan and exhibition of artworks",
+      "Advising on ownership, title, provenance and authenticity documentation",
+      "Handling disputes involving forged, misattributed or defective works",
+      "Drafting artist representation and gallery-management agreements",
+      "Advising on copyright, reproduction and commercial-use rights",
+      "Preparing storage, transportation, insurance and risk-allocation agreements",
+      "Advising on inheritance, gifts and family division of valuable collections",
+      "Handling payment, commission and auction-related disputes",
+      "Advising on import, export and movement of art and cultural property",
+      "Conducting legal due diligence before acquisition or sale",
+      "Representing clients in ownership, authenticity and contractual proceedings"
+    ]
+  },
+  {
+    id: "private-wealth-family-office-asset-holding",
+    slug: "private-wealth-family-office-asset-holding",
+    icon: "💎",
+    title: "Private Wealth, Family Office and Asset-Holding Advisory",
+    shortDesc: "Family office asset-holding structures, intergenerational wealth transfers, and private governance.",
+    fullDesc: "We advise high-net-worth individuals, business families and family offices on lawful ownership and management structures for personal and family assets. Our services include family settlements, asset-holding arrangements, succession coordination, private agreements, governance documentation and intergenerational transfer planning.",
+    highlights: [
+      "Advising individuals, business families and family offices on asset-holding structures",
+      "Preparing family settlements, private agreements and governance documentation",
+      "Advising on succession, inheritance and intergenerational transfer of assets",
+      "Structuring lawful ownership of immovable property, shares and investments",
+      "Reviewing joint ownership, nomination and beneficial-interest arrangements",
+      "Advising on family investment entities and holding structures",
+      "Drafting management, administration and family-office service agreements",
+      "Advising on confidentiality and information-sharing within family structures",
+      "Coordinating wills, trusts, succession and corporate documentation",
+      "Conducting legal due diligence on family-owned assets and investments",
+      "Assisting with division, transfer and restructuring of family wealth",
+      "Coordinating with tax, accounting, investment and estate-planning professionals"
+    ]
+  },
+  {
+    id: "professional-disciplinary-regulatory-proceedings",
+    slug: "professional-disciplinary-regulatory-proceedings",
+    icon: "⚖️",
+    title: "Professional Disciplinary and Regulatory Proceedings",
+    shortDesc: "Defence against professional misconduct allegations, statutory inquiries, and debarment notices.",
+    fullDesc: "We represent professionals, directors, employees and regulated persons in disciplinary inquiries and proceedings before professional bodies, employers and statutory authorities. Our services include responding to show-cause notices, preparing written explanations, participating in inquiries, challenging adverse action and pursuing appellate remedies.",
+    highlights: [
+      "Representing professionals, employees, directors and regulated persons in disciplinary matters",
+      "Reviewing charge sheets, show-cause notices and allegations of professional misconduct",
+      "Drafting replies, written explanations and statements of defence",
+      "Advising on disciplinary procedure, natural justice and evidentiary issues",
+      "Assisting clients during internal and statutory inquiries",
+      "Preparing questions, submissions and documentary evidence",
+      "Challenging suspension, termination, debarment or adverse disciplinary findings",
+      "Advising on registration, licence and professional-membership disputes",
+      "Filing appeals, review applications and writ petitions",
+      "Representing clients before professional councils and regulatory bodies",
+      "Advising employers and institutions on conducting lawful disciplinary proceedings",
+      "Negotiating settlements and corrective outcomes where appropriate"
+    ]
+  },
+  {
+    id: "international-commercial-transactions-cross-border",
+    slug: "international-commercial-transactions-cross-border",
+    icon: "🌐",
+    title: "International Commercial Transactions and Cross-Border Advisory",
+    shortDesc: "Cross-border JV agreements, international supply deals, cross-border technology licensing, and dispute clauses.",
+    fullDesc: "We advise Indian and overseas businesses on cross-border contracts, international supply arrangements, distribution agreements, joint ventures, service agreements, foreign counterparties and dispute-resolution clauses. Our practice also includes contractual risk allocation, governing-law provisions and international commercial arbitration support.",
+    highlights: [
+      "Drafting and reviewing international sale, supply and service agreements",
+      "Advising on cross-border joint ventures, collaborations and strategic alliances",
+      "Preparing international distribution, agency and franchise agreements",
+      "Advising on governing law, jurisdiction and dispute-resolution clauses",
+      "Drafting international confidentiality, licensing and technology-transfer agreements",
+      "Advising on payment security, letters of credit and commercial guarantees",
+      "Reviewing foreign-currency, tax and regulatory risk allocation",
+      "Advising on import–export, delivery, title and risk-transfer provisions",
+      "Conducting legal due diligence on international counterparties and transactions",
+      "Advising on termination, force majeure, sanctions and political-risk clauses",
+      "Assisting with international commercial arbitration and enforcement strategy",
+      "Coordinating multi-jurisdictional transactions with foreign counsel and professional advisers"
+    ]
+  },
+  {
+    id: "reputation-protection-crisis-response-law",
+    slug: "reputation-protection-crisis-response-law",
+    icon: "🛡️",
+    title: "Reputation Protection and Crisis-Response Law",
+    shortDesc: "Defamation notices, digital content removal requests, online review disputes, and crisis management.",
+    fullDesc: "We provide strategic legal support to businesses, professionals and individuals facing defamatory publications, false allegations, adverse digital content or reputational crises. Our services include legal notices, platform representations, content-removal requests, defamation proceedings, evidence preservation and coordinated crisis-response advisory.",
+    highlights: [
+      "Advising businesses, professionals and individuals facing reputational threats",
+      "Preparing legal notices against defamatory, false or malicious publications",
+      "Seeking removal or correction of unlawful digital and social-media content",
+      "Filing complaints with online platforms, intermediaries and publishers",
+      "Advising on preservation of electronic evidence, screenshots and digital records",
+      "Handling allegations involving online reviews, social-media posts and messaging platforms",
+      "Preparing cease-and-desist notices and public clarification strategies",
+      "Advising companies on employee, customer and competitor-related reputation disputes",
+      "Handling claims involving business disparagement and malicious falsehood",
+      "Advising on confidentiality breaches and unauthorised disclosure of information",
+      "Representing clients in civil and criminal defamation proceedings",
+      "Coordinating legal, internal and communication responses during reputational crises"
+    ]
   }
 ];
 
@@ -21236,6 +22131,2011 @@ export const ARTICLES: Article[] = [
           "Can every NRI matter be handled entirely without travel to India?",
           "Many steps can be managed through properly executed authority and remote coordination, but personal appearance may be required for evidence, identity, settlement, registration or a specific court or authority direction.",
           "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a100",
+    slug: "aviation-airport-law-navi-mumbai",
+    title: "Aviation and Airport Law",
+    category: "Corporate Advisory",
+    excerpt: "Legal and commercial frameworks governing aviation businesses, airport service providers, cargo operators, and regulatory compliance.",
+    coverIcon: "✈️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Aviation Law", "Airport Concessions", "DGCA Regulations", "Air Cargo Disputes"],
+    content: [
+      {
+        heading: "Overview of Aviation and Airport Law",
+        paragraphs: [
+          "Aviation and airport law in Navi Mumbai concerns the legal and commercial framework governing aviation businesses, airport service providers, cargo operators, contractors and allied stakeholders. The opening of new airport capacity and the expansion of air-cargo, ground-handling, retail and service ecosystems create contracts and regulatory interfaces that require careful legal review.",
+          "We provide legal advisory and representation to aviation businesses, airport service providers, cargo operators, contractors and allied stakeholders. Our services include airport-related contracts, regulatory compliance, passenger and cargo claims, ground-handling arrangements, aviation insurance, drone regulations and commercial disputes connected with airport operations."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Airport concession and service agreements;",
+          "Ground-handling and airport-vendor contracts;",
+          "Airline, cargo and logistics agreements;",
+          "Airport retail, lounge, parking and commercial-space agreements;",
+          "Passenger, baggage and cargo claims;",
+          "Aviation insurance and liability disputes;",
+          "DGCA, BCAS and AERA regulatory advisory;",
+          "Drone and unmanned-aircraft regulatory matters;",
+          "Airport land, height-clearance and obstacle-limitation matters;",
+          "Contracts involving caterers, transporters, freight operators and airport service providers."
+        ]
+      },
+      {
+        heading: "Why Timely Legal Review Matters",
+        paragraphs: [
+          "The opening of new airport capacity and the expansion of air-cargo, ground-handling, retail and service ecosystems create contracts and regulatory interfaces that require careful legal review. Without clear allocation of approvals, interfaces, delays, performance standards, payment and termination rights, projects may face cost escalation, stalled work, encashment of security or complex multi-party disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Bharatiya Vayuyan Adhiniyam, 2024;",
+          "Civil Aviation Requirements and directions issued by DGCA;",
+          "Drone Rules, 2021;",
+          "Airports Economic Regulatory Authority of India Act, 2008;",
+          "Carriage by Air Act, 1972."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "What matters are included in aviation and airport law?",
+          "This practice generally covers airport concession and service agreements, ground-handling and airport-vendor contracts, airline, cargo and logistics agreements, airport retail, lounge, parking and commercial-space agreements, and related compliance or dispute work.",
+          "When should legal advice be taken?",
+          "Legal review is useful before signing a material contract, responding to a statutory or contractual notice, making a regulatory filing, changing an operational structure, terminating a relationship or commencing proceedings."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a101",
+    slug: "logistics-warehousing-law-navi-mumbai",
+    title: "Logistics and Warehousing Law",
+    category: "Corporate Advisory",
+    excerpt: "Assistance with warehousing leases, 3PL/4PL contracts, cargo claims, cold-chain liability, and supply-chain governance.",
+    coverIcon: "🚛",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Logistics Law", "Warehousing Leases", "Freight Forwarding", "Cargo Claims"],
+    content: [
+      {
+        heading: "Overview of Logistics and Warehousing Law",
+        paragraphs: [
+          "Businesses and individuals searching for logistics and warehousing law in Navi Mumbai commonly need assistance before a transaction is signed, when a regulator raises a concern, or after a dispute has emerged. Logistics contracts allocate responsibility for custody, delay, damage, storage, temperature control, documentation and payment.",
+          "We advise logistics companies, warehouse operators, transporters, manufacturers and commercial enterprises on warehousing, freight, transportation and supply-chain arrangements. Our practice covers logistics agreements, cargo claims, storage disputes, transporter liability, cold-chain operations, freight recovery and regulatory compliance."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Warehouse lease and leave-and-licence agreements;",
+          "Logistics service agreements;",
+          "Third-party logistics and fourth-party logistics contracts;",
+          "Freight-forwarding and transportation contracts;",
+          "Cold-storage and pharmaceutical logistics agreements;",
+          "Multimodal transportation documentation;",
+          "Cargo loss, shortage, delay and damage disputes;",
+          "Detention, demurrage and freight-recovery disputes;",
+          "Warehouse-development due diligence;",
+          "Logistics-park regulatory and land documentation;",
+          "Vendor, transporter and manpower contracts;",
+          "E-way bill, delivery, indemnity and risk-allocation disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Warehousing (Development and Regulation) Act, 2007;",
+          "Carriage by Road Act, 2007;",
+          "Multimodal Transportation of Goods Act, 1993;",
+          "GST and e-way bill requirements."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "What matters are included in logistics and warehousing law?",
+          "This practice generally covers warehouse lease and leave-and-licence agreements, logistics service agreements, third-party logistics and fourth-party logistics contracts, freight-forwarding and transportation contracts, and related compliance or dispute work.",
+          "When should legal advice be taken?",
+          "Legal review is useful before signing a material contract, responding to a statutory or contractual notice, making a regulatory filing, changing an operational structure, terminating a relationship or commencing proceedings."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a102",
+    slug: "government-tender-procurement-law",
+    title: "Government Tender and Procurement Law",
+    category: "General Litigation",
+    excerpt: "Advisory and litigation support for public procurement, tender challenges, GeM disputes, and debarment proceedings.",
+    coverIcon: "📋",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Public Procurement", "Government Tenders", "GeM Disputes", "Blacklisting Challenges"],
+    content: [
+      {
+        heading: "Overview of Government Tender and Procurement Law",
+        paragraphs: [
+          "Government procurement combines contractual rules with public-law duties of fairness, transparency and equal treatment. Bid conditions and strict timelines often make early review important. The objective is to identify legal exposure early and document responsibilities clearly.",
+          "We assist contractors, suppliers, service providers and companies participating in government and public-sector tenders. Our services include tender-document review, bid eligibility disputes, blacklisting proceedings, cancellation of tenders, performance-security disputes, government contracts and writ proceedings arising from public procurement."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Tender-document review;",
+          "Pre-bid clarification and representation;",
+          "Bid qualification and eligibility advisory;",
+          "Technical and financial bid disputes;",
+          "Earnest-money deposit and performance-bank-guarantee disputes;",
+          "Government contract drafting and review;",
+          "Public-sector undertaking contracts;",
+          "GeM procurement disputes;",
+          "Cancellation and rejection of bids;",
+          "Debarment and blacklisting proceedings;",
+          "Challenge to arbitrary tender conditions;",
+          "Writ petitions arising from government procurement;",
+          "Contract termination, price escalation and delay claims;",
+          "Infrastructure and public-works contracts."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Constitutional principles governing fairness in State action;",
+          "General Financial Rules and applicable procurement manuals;",
+          "Government e-Marketplace terms and bid conditions;",
+          "Indian Contract Act, 1872;",
+          "Arbitration and Conciliation Act, 1996."
+        ]
+      },
+      {
+        heading: "Frequently Asked Questions",
+        paragraphs: [
+          "What matters are included in government tender and procurement law?",
+          "This practice generally covers tender-document review, pre-bid clarification and representation, bid qualification and eligibility advisory, technical and financial bid disputes, and related compliance or dispute work."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a103",
+    slug: "healthcare-hospital-law-navi-mumbai",
+    title: "Healthcare and Hospital Law",
+    category: "Legal Compliance",
+    excerpt: "Comprehensive legal support for clinical establishments, medical negligence defence, doctor agreements, and regulatory compliance.",
+    coverIcon: "⚕️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Healthcare Law", "Clinical Compliance", "Medical Negligence", "Hospital Governance"],
+    content: [
+      {
+        heading: "Overview of Healthcare and Hospital Law",
+        paragraphs: [
+          "Healthcare providers must balance patient care, professional standards, regulatory permissions, employment obligations, records, consent and consumer-facing responsibilities. Each matter requires analysis of the governing documents, applicable law, factual record and commercial objective.",
+          "We provide legal support to hospitals, clinics, diagnostic centres, laboratories, healthcare institutions and medical professionals. Our services include regulatory compliance, hospital contracts, patient-consent documentation, medical negligence defence, employment matters, biomedical-waste compliance and representation in consumer and regulatory proceedings."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Hospital and nursing-home regulatory compliance;",
+          "Clinical establishment documentation;",
+          "Doctor, consultant and visiting-professional agreements;",
+          "Hospital employment and disciplinary matters;",
+          "Patient-consent and treatment documentation;",
+          "Medical-record retention and confidentiality;",
+          "Biomedical-waste compliance;",
+          "Diagnostic laboratory agreements;",
+          "Pharmacy and medical-device contracts;",
+          "Medical negligence defence;",
+          "Consumer complaints against hospitals and doctors;",
+          "Insurance and cashless-treatment disputes;",
+          "Hospital management and vendor contracts;",
+          "Internal investigations involving treatment or patient complaints;",
+          "Telemedicine and digital-health documentation."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Maharashtra Nursing Homes Registration Act, 1949;",
+          "Consumer Protection Act, 2019;",
+          "Clinical-establishment requirements, where applicable;",
+          "Bio-Medical Waste Management Rules, 2016;",
+          "Data-protection and professional-conduct requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a104",
+    slug: "food-hospitality-law-navi-mumbai",
+    title: "Food and Hospitality Law",
+    category: "Legal Compliance",
+    excerpt: "FSSAI compliance, restaurant leases, hotel management agreements, franchise licensing, and food safety defence.",
+    coverIcon: "🍽️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["FSSAI Licensing", "Hospitality Law", "Restaurant Contracts", "Food Safety"],
+    content: [
+      {
+        heading: "Overview of Food and Hospitality Law",
+        paragraphs: [
+          "Food and hospitality businesses operate through multiple licences, supply relationships, consumer representations and workplace obligations, making legal coordination essential to daily operations.",
+          "We advise restaurants, hotels, cloud kitchens, food businesses and hospitality establishments on operational and regulatory matters. Our practice includes FSSAI compliance, franchise and management agreements, commercial leases, vendor contracts, food-safety proceedings, licensing matters, consumer disputes and employment compliance."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "FSSAI licensing and regulatory advisory;",
+          "Restaurant and cloud-kitchen agreements;",
+          "Hotel management and operating agreements;",
+          "Franchise and brand-licensing agreements;",
+          "Excise and establishment-related legal coordination;",
+          "Food-safety notices and enforcement proceedings;",
+          "Vendor and food-supply agreements;",
+          "Aggregator agreements with delivery platforms;",
+          "Commercial leases for restaurants and hotels;",
+          "Guest liability and consumer disputes;",
+          "Employment and contractor compliance;",
+          "Fire, health, municipal and operational compliance;",
+          "Food recall and contamination-response advisory;",
+          "Advertising, menu-description and labelling compliance."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Food Safety and Standards Act, 2006 and regulations;",
+          "Consumer Protection Act, 2019;",
+          "Legal Metrology Act, 2009 and packaged-commodity rules;",
+          "Municipal, fire, health and establishment permissions;",
+          "Advertising and labelling standards."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a105",
+    slug: "education-law-institutional-advisory",
+    title: "Education Law",
+    category: "Legal Compliance",
+    excerpt: "Institutional legal advisory for educational trusts, schools, universities, recognition, fee disputes, and POSH compliance.",
+    coverIcon: "🎓",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Education Law", "Trust Governance", "Student Fee Disputes", "POCSO & POSH"],
+    content: [
+      {
+        heading: "Overview of Education Law",
+        paragraphs: [
+          "Educational institutions face simultaneous obligations to students, parents, employees, regulators, affiliating bodies and safeguarding authorities.",
+          "We provide legal advisory to schools, colleges, coaching institutes, educational trusts and training institutions. Our services cover affiliation and recognition matters, employment disputes, student discipline, fee-related issues, institutional policies, child-safety compliance, contracts and proceedings before education authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "School and educational-institution establishment advisory;",
+          "Trust and society documentation;",
+          "Affiliation and recognition matters;",
+          "Student admission and fee disputes;",
+          "Teacher and staff employment matters;",
+          "Disciplinary proceedings;",
+          "Student safety and child-protection policies;",
+          "POSH and workplace compliance;",
+          "Parent complaints and consumer proceedings;",
+          "Education-department notices;",
+          "Land, lease and infrastructure documentation;",
+          "Vendor, transport and canteen agreements;",
+          "Internal policies and institutional governance;",
+          "Writ petitions involving educational authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Right of Children to Free and Compulsory Education Act, 2009;",
+          "Applicable Maharashtra education laws and departmental rules;",
+          "UGC, AICTE, CBSE or other affiliating-body requirements;",
+          "POCSO Act, 2012 and child-safeguarding duties;",
+          "POSH Act, 2013 and employment laws."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a106",
+    slug: "cooperative-credit-society-law",
+    title: "Co-operative Credit Society Law",
+    category: "Banking Laws",
+    excerpt: "Legal management of co-operative credit societies, recovery arbitration, bye-law amendments, and multi-state compliance.",
+    coverIcon: "🏛️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Credit Society Law", "Cooperative Recovery", "Multi-State Cooperatives", "Bye-law Amendments"],
+    content: [
+      {
+        heading: "Overview of Co-operative Credit Society Law",
+        paragraphs: [
+          "Credit societies and co-operative banks involve specialised statutory remedies, governance duties, member rights, recovery processes and regulatory oversight.",
+          "We advise co-operative credit societies, co-operative banks, members, borrowers, guarantors and office bearers on matters arising under co-operative laws. Our practice includes registration, bye-law amendments, management disputes, recovery proceedings, arbitration, election disputes, audit inquiries and regulatory compliance."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Formation and registration of credit societies;",
+          "Bye-law drafting and amendment;",
+          "Membership and management disputes;",
+          "Recovery proceedings;",
+          "Loan and guarantor disputes;",
+          "Arbitration under co-operative legislation;",
+          "Election disputes;",
+          "Audit and inquiry proceedings;",
+          "Supersession and administrator-related matters;",
+          "Disputes involving directors and office bearers;",
+          "Multi-State Co-operative Societies Act proceedings;",
+          "Disputes involving co-operative banks;",
+          "Regulatory and governance advisory."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Maharashtra Co-operative Societies Act, 1960;",
+          "Multi-State Co-operative Societies Act, 2002;",
+          "Applicable banking and regulatory directions;",
+          "Arbitration and recovery mechanisms under co-operative law;",
+          "Principles of natural justice and administrative law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a107",
+    slug: "competition-and-antitrust-law",
+    title: "Competition and Antitrust Law",
+    category: "Corporate Advisory",
+    excerpt: "Antitrust compliance, cartel risk reviews, abuse of dominance defence, and Competition Commission representation.",
+    coverIcon: "⚖️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Antitrust Law", "CCI Complaints", "Cartel Compliance", "Abuse of Dominance"],
+    content: [
+      {
+        heading: "Overview of Competition and Antitrust Law",
+        paragraphs: [
+          "Competition concerns can arise from ordinary business arrangements such as exclusivity, pricing, distribution, information exchange, tenders and acquisitions.",
+          "We assist businesses in complying with competition law and avoiding anti-competitive commercial practices. Our services include review of distribution arrangements, exclusivity clauses, cartel risks, abuse-of-dominance issues, bid-rigging allegations, merger assessments and representation before competition authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Anti-competitive agreement review;",
+          "Cartel-risk advisory;",
+          "Abuse-of-dominance matters;",
+          "Exclusive supply and distribution arrangements;",
+          "Resale-price-maintenance concerns;",
+          "Bid-rigging and tender-collusion matters;",
+          "Competition clauses in franchise and dealership agreements;",
+          "Merger-control assessment;",
+          "Competition Commission complaints;",
+          "Internal competition-law audits;",
+          "Dawn-raid and investigation preparedness;",
+          "Competition-law training for management and sales teams."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Competition Act, 2002, as amended;",
+          "Competition Commission of India regulations;",
+          "Combination and merger-control framework;",
+          "Rules concerning anti-competitive agreements;",
+          "Rules concerning abuse of dominant position."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a108",
+    slug: "technology-saas-ai-law-advisory",
+    title: "Technology, SaaS and AI Law",
+    category: "Technology and IP Law",
+    excerpt: "Legal contracts for software licensing, SaaS platforms, AI governance, cloud hosting, and data protection compliance.",
+    coverIcon: "💻",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["SaaS Agreements", "AI Governance", "Technology Contracts", "Data Protection DPDP"],
+    content: [
+      {
+        heading: "Overview of Technology, SaaS and AI Law",
+        paragraphs: [
+          "Technology products depend on contracts that define intellectual-property ownership, service levels, data use, security, payment, liability and exit rights.",
+          "We provide legal support to technology companies, startups, software developers, digital platforms and online businesses. Our services include SaaS agreements, software-development contracts, cloud-service arrangements, artificial-intelligence policies, technology licensing, platform terms, data-related clauses and digital-content disputes."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Software-development agreements;",
+          "SaaS subscription agreements;",
+          "Cloud-service and hosting agreements;",
+          "Technology-licensing agreements;",
+          "App and website terms of use;",
+          "Platform and marketplace agreements;",
+          "AI procurement and deployment contracts;",
+          "AI-generated-content ownership;",
+          "Algorithmic decision-making policies;",
+          "Software escrow and source-code arrangements;",
+          "IT outsourcing and managed-service agreements;",
+          "Technology vendor due diligence;",
+          "Limitation-of-liability and service-level agreements;",
+          "Online intermediary compliance;",
+          "Digital-content takedown and platform disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Information Technology Act, 2000;",
+          "Digital Personal Data Protection Act, 2023 and Rules, 2025;",
+          "Information Technology Rules, 2021, as amended;",
+          "Copyright Act, 1957 and Trade Marks Act, 1999."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a109",
+    slug: "renewable-energy-ev-law-advisory",
+    title: "Renewable Energy and EV Law",
+    category: "Corporate Advisory",
+    excerpt: "Advisory on solar PPAs, EV charging station infrastructure, battery recycling contracts, and energy project EPCs.",
+    coverIcon: "⚡",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Solar PPA", "EV Infrastructure", "Renewable Energy", "Battery Recycling"],
+    content: [
+      {
+        heading: "Overview of Renewable Energy and EV Law",
+        paragraphs: [
+          "Energy and electric-mobility projects combine land, infrastructure, power regulation, technology, environmental responsibility and long-term commercial contracts.",
+          "We advise businesses engaged in renewable energy, electric mobility, battery technology and energy infrastructure. Our practice covers solar and power-purchase agreements, EV charging arrangements, battery supply and warranty disputes, project land due diligence, EPC contracts, regulatory compliance and energy-related commercial disputes."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Solar-power purchase agreements;",
+          "Rooftop-solar agreements;",
+          "EV charging-station agreements;",
+          "Charging-infrastructure leases and licences;",
+          "Battery supply, warranty and recycling contracts;",
+          "Renewable-energy project land due diligence;",
+          "EPC and operation-and-maintenance agreements;",
+          "Open-access and captive-power arrangements;",
+          "Energy regulatory disputes;",
+          "Electrical contractor and infrastructure agreements;",
+          "Product-defect and battery claims;",
+          "Environmental and waste-management compliance;",
+          "Green-energy procurement and commercial disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Electricity Act, 2003;",
+          "Energy Conservation Act, 2001;",
+          "CERC and MERC regulations;",
+          "Battery Waste Management Rules, 2022;",
+          "E-Waste Management Rules, 2022 and EV charging guidelines."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a110",
+    slug: "construction-epc-law-claims",
+    title: "Construction and EPC Law",
+    category: "General Litigation",
+    excerpt: "Legal management of turnkey EPC contracts, extension-of-time claims, price escalation, and construction arbitration.",
+    coverIcon: "🏗️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["EPC Contracts", "Construction Arbitration", "Disruption Claims", "Bank Guarantees"],
+    content: [
+      {
+        heading: "Overview of Construction and EPC Law",
+        paragraphs: [
+          "Construction disputes are usually document-driven. Notices, measurements, certifications, programmes, correspondence and contractual timelines can determine the strength of a claim.",
+          "We represent developers, contractors, subcontractors, consultants and project owners in construction and infrastructure matters. Our services include drafting and reviewing EPC contracts, delay and disruption claims, variation disputes, price escalation, retention-money recovery, bank-guarantee disputes and construction arbitration."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "EPC and turnkey agreements;",
+          "Construction and works contracts;",
+          "Architect and consultant agreements;",
+          "Subcontractor agreements;",
+          "Measurement and certification disputes;",
+          "Variation and additional-work claims;",
+          "Extension-of-time claims;",
+          "Liquidated damages disputes;",
+          "Retention-money and bank-guarantee disputes;",
+          "Price-escalation claims;",
+          "Delay and disruption claims;",
+          "Defect-liability disputes;",
+          "Construction arbitration;",
+          "Project documentation and claim preparation."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Specific Relief Act, 1963;",
+          "Arbitration and Conciliation Act, 1996;",
+          "Real Estate (Regulation and Development) Act, 2016, where applicable;",
+          "Micro, Small and Medium Enterprises Development Act, 2006."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a111",
+    slug: "franchise-distribution-law-advisory",
+    title: "Franchise and Distribution Law",
+    category: "Corporate Advisory",
+    excerpt: "Structuring master franchise deals, dealership agreements, brand licensing, and resolving territorial exit disputes.",
+    coverIcon: "🤝",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Franchise Contracts", "Distribution Law", "Brand Licensing", "Exclusivity Clauses"],
+    content: [
+      {
+        heading: "Overview of Franchise and Distribution Law",
+        paragraphs: [
+          "Franchise and distribution networks require clear rules on territory, brand use, pricing, performance, supply, confidentiality, termination and post-exit obligations.",
+          "We advise franchisors, franchisees, manufacturers, distributors, dealers and retail businesses on commercial expansion arrangements. Our services include franchise agreements, dealership contracts, distribution arrangements, brand licensing, territorial rights, termination disputes, payment recovery and protection of confidential business information."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Franchise agreements;",
+          "Master-franchise arrangements;",
+          "Dealership and distributorship agreements;",
+          "Area-development agreements;",
+          "Brand and trademark licensing;",
+          "Territory and exclusivity clauses;",
+          "Minimum-purchase obligations;",
+          "Pricing and competition-law review;",
+          "Termination and exit disputes;",
+          "Recovery of franchise fees and outstanding dues;",
+          "Misuse of brand and confidential information;",
+          "Retail and outlet lease coordination;",
+          "Vendor and supply-chain agreements."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Competition Act, 2002;",
+          "Trade Marks Act, 1999;",
+          "Copyright Act, 1957;",
+          "Consumer Protection Act, 2019 and FEMA requirements where relevant."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a112",
+    slug: "trust-ngo-section-8-law",
+    title: "Trust, NGO and Section 8 Law",
+    category: "Corporate Advisory",
+    excerpt: "Formation, governance, Charity Commissioner compliance, FCRA regulation, and CSR implementation for non-profits.",
+    coverIcon: "📜",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Public Trusts", "Section 8 Companies", "Charity Commissioner", "FCRA & CSR"],
+    content: [
+      {
+        heading: "Overview of Trust, NGO and Section 8 Law",
+        paragraphs: [
+          "Charitable entities need governance structures that protect their objects, assets, donor confidence and regulatory standing.",
+          "We provide legal assistance in the formation, governance and operation of charitable trusts, societies, NGOs and Section 8 companies. Our services include registration, trust deeds, constitutional documents, trustee changes, Charity Commissioner proceedings, property transactions, CSR arrangements and regulatory compliance."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Formation of public charitable trusts;",
+          "Society and Section 8 company registration;",
+          "Trust-deed and constitutional-document drafting;",
+          "Charity Commissioner proceedings;",
+          "Change reports and trustee appointments;",
+          "Property transactions by charitable institutions;",
+          "CSR implementation agreements;",
+          "Grant and donor agreements;",
+          "FCRA-related legal coordination;",
+          "Governance and conflict-of-interest policies;",
+          "Employment and volunteer documentation;",
+          "Internal investigations and misuse-of-funds disputes;",
+          "Dissolution, merger and restructuring of charitable entities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Maharashtra Public Trusts Act, 1950;",
+          "Societies Registration Act, 1860;",
+          "Companies Act, 2013;",
+          "Foreign Contribution (Regulation) Act, 2010;",
+          "Income-tax and CSR requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a113",
+    slug: "white-collar-crime-corporate-investigations-law",
+    title: "White-Collar Crime and Corporate Investigations",
+    category: "Criminal Law",
+    excerpt: "Internal fraud fact-finding, embezzlement reviews, whistleblower defense, and representations before economic offence units.",
+    coverIcon: "🛡️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Corporate Fraud", "Internal Investigations", "Whistleblower Complaints", "EOW Defence"],
+    content: [
+      {
+        heading: "Overview of White-Collar Crime and Corporate Investigations",
+        paragraphs: [
+          "Corporate misconduct allegations demand a disciplined response that preserves evidence, protects procedural fairness and coordinates employment, civil, criminal and regulatory exposure.",
+          "We advise companies, directors and senior management on allegations of corporate fraud, financial misconduct, forgery, data theft, bribery and employee wrongdoing. Our practice includes internal investigations, evidence preservation, whistleblower complaints, police representations, economic-offence proceedings and recovery of losses caused by fraudulent conduct."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Employee fraud and embezzlement investigations;",
+          "Procurement and vendor fraud;",
+          "Forgery and falsification of records;",
+          "Bribery and conflict-of-interest investigations;",
+          "Financial and accounting irregularities;",
+          "Whistleblower complaints;",
+          "Data theft and confidential-information misuse;",
+          "Internal fact-finding exercises;",
+          "Evidence-preservation protocols;",
+          "Police and economic-offence representations;",
+          "Director and officer liability;",
+          "Fraud-response legal strategy;",
+          "Recovery proceedings following internal fraud."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Bharatiya Nyaya Sanhita, 2023;",
+          "Bharatiya Nagarik Suraksha Sanhita, 2023;",
+          "Bharatiya Sakshya Adhiniyam, 2023;",
+          "Companies Act, 2013;",
+          "Prevention of Corruption Act, 1988, PMLA and IT law where applicable."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a114",
+    slug: "media-sports-influencer-law-advisory",
+    title: "Media, Sports and Influencer Law",
+    category: "Corporate Advisory",
+    excerpt: "Contracts for digital creators, talent management, production licensing, sponsorship deals, and publicity rights protection.",
+    coverIcon: "🎬",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Influencer Contracts", "Media Law", "Publicity Rights", "Content Licensing"],
+    content: [
+      {
+        heading: "Overview of Media, Sports and Influencer Law",
+        paragraphs: [
+          "Creative and sports businesses rely on rights, reputation, exclusivity, deliverables and revenue-sharing arrangements that should be documented before content or events are launched.",
+          "We provide legal advisory to artists, influencers, athletes, production houses, agencies, event organisers and digital-content creators. Our services include talent agreements, sponsorship contracts, endorsement arrangements, content licensing, personality rights, copyright matters, social-media disputes and defamation proceedings."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Artist and talent agreements;",
+          "Film, music and content-production contracts;",
+          "Influencer and brand-collaboration agreements;",
+          "Sponsorship and endorsement agreements;",
+          "Event-management contracts;",
+          "Image, personality and publicity rights;",
+          "Copyright and content-licensing agreements;",
+          "Defamation and reputation matters;",
+          "Social-media takedown disputes;",
+          "Sports-management and athlete agreements;",
+          "Production, location and vendor agreements;",
+          "Digital-content ownership disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Copyright Act, 1957;",
+          "Trade Marks Act, 1999;",
+          "Indian Contract Act, 1872;",
+          "Information Technology Act, 2000 and platform rules;",
+          "Defamation, consumer-protection and advertising law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a115",
+    slug: "data-centre-telecom-law",
+    title: "Data Centre and Telecom Law",
+    category: "Technology and IP Law",
+    excerpt: "Advisory on colocation agreements, cloud hosting, telecom leases, right-of-way permissions, and SLA uptime commitments.",
+    coverIcon: "📡",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Data Centre Law", "Telecom Leases", "Colocation Contracts", "Right of Way"],
+    content: [
+      {
+        heading: "Overview of Data Centre and Telecom Law",
+        paragraphs: [
+          "Data-centre and telecom projects involve high-value infrastructure, uptime commitments, power dependencies, security obligations and complex vendor chains.",
+          "We advise data-centre operators, cloud-service providers, telecom businesses, infrastructure companies and technology vendors. Our practice covers colocation and hosting agreements, fibre and right-of-way arrangements, equipment procurement, service-level agreements, infrastructure leases, data-security obligations and project-related commercial disputes."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Data-centre land and facility transactions;",
+          "Colocation and hosting agreements;",
+          "Cloud-infrastructure contracts;",
+          "Fibre and right-of-way agreements;",
+          "Power-supply and backup-energy contracts;",
+          "Equipment-procurement agreements;",
+          "Service-level and uptime agreements;",
+          "Telecom infrastructure leases;",
+          "Vendor and facility-management agreements;",
+          "Data-centre construction and EPC contracts;",
+          "Security, confidentiality and incident-response clauses."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Telecommunications Act, 2023;",
+          "Information Technology Act, 2000;",
+          "Digital Personal Data Protection Act, 2023 and Rules, 2025;",
+          "CERT-In directions and cybersecurity requirements;",
+          "Electricity, property and infrastructure laws."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a116",
+    slug: "airport-port-infrastructure-law-navi-mumbai",
+    title: "Airport, Port and Infrastructure Law",
+    category: "Land Acquisition",
+    excerpt: "Legal support for logistics ecosystems, port concessions, cargo claims, and government tender execution around NMIA and JNPA.",
+    coverIcon: "⚓",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Airport Infrastructure", "JNPA Port Contracts", "NMIA Corridors", "Public Concessions"],
+    content: [
+      {
+        heading: "Overview of Airport, Port and Infrastructure Law",
+        paragraphs: [
+          "Airport, port and logistics projects sit at the intersection of regulated infrastructure, land, public procurement, transport and commercial dispute resolution.",
+          "We provide integrated legal services to businesses operating within airport, port, logistics, warehousing and infrastructure ecosystems. Our practice includes commercial contracts, regulatory compliance, cargo and transportation disputes, government tenders, project documentation, EPC arrangements and legal advisory for businesses operating around NMIA, JNPA, Panvel, Uran and Raigad."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Drafting and reviewing commercial contracts for logistics, port and airport operations;",
+          "Advising on regulatory compliance and licensing requirements;",
+          "Handling cargo, freight and transportation disputes;",
+          "Assisting with government tenders and public procurement processes;",
+          "Preparing and reviewing project documentation and concession agreements;",
+          "Advising on EPC contracts and infrastructure project risks;",
+          "Representing clients in commercial disputes and arbitration;",
+          "Providing legal support for businesses operating around NMIA, JNPA, Panvel, Uran and Raigad;",
+          "Structuring joint ventures, partnerships and infrastructure collaborations;",
+          "Advising on land acquisition, leasing and development for infrastructure projects."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Bharatiya Vayuyan Adhiniyam, 2024 and aviation directions;",
+          "Major Port Authorities Act, 2021 and port regulations;",
+          "Multimodal transportation and carriage laws;",
+          "Public-procurement and government-contract rules;",
+          "Contract, arbitration and infrastructure laws."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a117",
+    slug: "customs-import-export-law-advisory",
+    title: "Customs and Import-Export Law",
+    category: "Banking and Finance",
+    excerpt: "Advising traders on customs classification, valuation, duty demands, seizure release, and DGFT compliance.",
+    coverIcon: "🌐",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Customs Act", "Import Export Code", "Duty Demands", "DGFT Compliance"],
+    content: [
+      {
+        heading: "Overview of Customs and Import-Export Law",
+        paragraphs: [
+          "Customs disputes often turn on classification, valuation, origin, licensing and documentary consistency across purchase, transport and clearance records.",
+          "We advise importers, exporters, manufacturers, logistics companies and trading businesses on customs regulations, import and export documentation, classification disputes, valuation matters, duty demands, confiscation proceedings, foreign trade restrictions and representation before customs and appellate authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising importers, exporters, manufacturers and traders on customs and foreign-trade regulations;",
+          "Reviewing import–export contracts, purchase orders and international supply agreements;",
+          "Advising on customs classification, valuation, applicable duties and exemptions;",
+          "Assisting in matters involving detention, seizure, confiscation or provisional release of goods;",
+          "Preparing replies to show-cause notices and customs duty demands;",
+          "Handling disputes concerning misdeclaration, under-valuation and prohibited or restricted goods;",
+          "Advising on export incentives, duty remission schemes and foreign-trade benefits;",
+          "Assisting with Importer Exporter Code, licensing and regulatory documentation;",
+          "Representing clients before customs authorities and appellate forums;",
+          "Advising on freight-forwarding, shipping and customs-clearance disputes;",
+          "Handling disputes relating to bills of entry, shipping bills and certificates of origin;",
+          "Coordinating legal strategy in matters involving the Directorate General of Foreign Trade and allied authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Customs Act, 1962;",
+          "Customs Tariff Act, 1975;",
+          "Foreign Trade (Development and Regulation) Act, 1992;",
+          "Foreign Exchange Management Act, 1999;",
+          "DGFT Foreign Trade Policy and GST requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a118",
+    slug: "fintech-digital-lending-law",
+    title: "FinTech and Digital Lending Law",
+    category: "Banking Laws",
+    excerpt: "Regulatory compliance for digital lending platforms, RBI outsourcing directions, payment aggregators, and BNPL models.",
+    coverIcon: "💳",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Digital Lending", "FinTech Regulation", "RBI Guidelines", "Payment Gateways"],
+    content: [
+      {
+        heading: "Overview of FinTech and Digital Lending Law",
+        paragraphs: [
+          "FinTech arrangements place regulated entities, technology providers, customers and data processors within a tightly controlled contractual and compliance framework.",
+          "We provide legal advisory to financial technology companies, digital lenders, payment aggregators, technology platforms and financial service providers. Our services include digital lending agreements, platform documentation, regulatory compliance, customer grievance frameworks, outsourcing arrangements, data-sharing terms and financial technology disputes."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising fintech companies, digital lenders, payment platforms and financial-service providers;",
+          "Drafting and reviewing digital lending, loan-facilitation and platform-service agreements;",
+          "Preparing customer terms, privacy notices, consent documents and grievance policies;",
+          "Reviewing agreements between regulated entities, lending service providers and technology vendors;",
+          "Advising on outsourcing, data-sharing and customer-acquisition arrangements;",
+          "Drafting payment gateway, merchant-acquisition and payment-processing agreements;",
+          "Advising on digital KYC, customer onboarding and electronic execution of documents;",
+          "Reviewing recovery practices, communication protocols and customer grievance mechanisms;",
+          "Advising on co-lending, embedded finance and buy-now-pay-later arrangements;",
+          "Handling disputes involving unauthorised transactions, digital fraud and payment failures;",
+          "Preparing internal regulatory-compliance frameworks and operational policies;",
+          "Representing clients in contractual, consumer and regulatory disputes involving digital financial services."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Payment and Settlement Systems Act, 2007;",
+          "RBI digital-lending and outsourcing directions;",
+          "RBI payment-aggregator, PPI and KYC directions;",
+          "Information Technology Act, 2000;",
+          "Digital Personal Data Protection Act, 2023 and Rules, 2025."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a119",
+    slug: "pharma-medical-devices-law",
+    title: "Pharma and Medical Devices Law",
+    category: "Legal Compliance",
+    excerpt: "Regulatory licensing, contract manufacturing agreements, drug recall management, and compliance under Medical Devices Rules.",
+    coverIcon: "💊",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Pharma Regulations", "Medical Devices", "Drug Licensing", "Product Recalls"],
+    content: [
+      {
+        heading: "Overview of Pharma and Medical Devices Law",
+        paragraphs: [
+          "Pharmaceutical and medical-device businesses must align licensing, quality, manufacturing, distribution, labelling and promotional practices with evolving regulatory requirements.",
+          "We advise pharmaceutical companies, manufacturers, distributors, pharmacies, laboratories and medical-device businesses on licensing, manufacturing, distribution, advertising, product compliance, contractual arrangements, regulatory inspections, statutory notices, recalls and proceedings before competent authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising pharmaceutical, cosmetic and medical-device businesses on regulatory compliance;",
+          "Assisting with manufacturing, distribution, sale and storage licences;",
+          "Drafting and reviewing manufacturing, loan-licence and contract-manufacturing agreements;",
+          "Preparing distribution, stockist, dealership and supply agreements;",
+          "Advising on product labelling, packaging, advertising and promotional claims;",
+          "Assisting with regulatory inspections, notices, suspension and cancellation proceedings;",
+          "Advising on quality-control failures, adverse events and product recalls;",
+          "Handling disputes relating to spurious, misbranded, adulterated or substandard products;",
+          "Drafting research, clinical-support, confidentiality and technology-transfer agreements;",
+          "Advising pharmacies, hospitals, laboratories and distributors on procurement arrangements;",
+          "Assisting with medical-device registration and commercialisation documentation;",
+          "Representing clients before drug-control, licensing and appellate authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Drugs and Cosmetics Act, 1940 and Rules, 1945;",
+          "Medical Devices Rules, 2017;",
+          "Cosmetics Rules, 2020;",
+          "New Drugs and Clinical Trials Rules, 2019;",
+          "Consumer-protection, labelling and advertising requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a120",
+    slug: "product-liability-law-advisory",
+    title: "Product Liability Law",
+    category: "General Litigation",
+    excerpt: "Defense and prosecution of product defect claims, consumer safety compliance, product recalls, and warranty disputes.",
+    coverIcon: "⚠️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Product Liability", "Consumer Safety", "Product Recalls", "Warranty Disputes"],
+    content: [
+      {
+        heading: "Overview of Product Liability Law",
+        paragraphs: [
+          "Product-liability risk may arise from design, manufacture, warnings, instructions, marketing, distribution or after-sales response.",
+          "We assist manufacturers, importers, distributors, retailers and consumers in matters involving defective or unsafe products. Our practice covers product-liability claims, warranty disputes, product recalls, safety investigations, compensation claims, consumer proceedings and preparation of product warnings, disclaimers and risk-management documentation."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising manufacturers, importers, distributors and sellers on product-safety obligations;",
+          "Handling claims involving defective, unsafe or inadequately labelled products;",
+          "Advising on manufacturing defects, design defects and failure-to-warn allegations;",
+          "Drafting product warranties, guarantees, instructions, disclaimers and safety warnings;",
+          "Preparing product-recall strategies, customer communications and corrective-action plans;",
+          "Conducting legal-risk reviews following accidents, complaints or reported product failures;",
+          "Representing businesses and consumers in product-liability and compensation proceedings;",
+          "Advising on liability allocation between manufacturers, suppliers and distributors;",
+          "Handling warranty, replacement, refund and after-sales service disputes;",
+          "Reviewing advertising and promotional claims concerning product performance;",
+          "Advising on evidence preservation and technical-expert coordination;",
+          "Drafting settlement, indemnity and risk-allocation documentation."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Consumer Protection Act, 2019, including product liability;",
+          "Legal Metrology Act, 2009;",
+          "Bureau of Indian Standards Act, 2016;",
+          "Applicable sector-specific safety standards;",
+          "Contract, warranty and indemnity law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a121",
+    slug: "advertising-marketing-law-compliance",
+    title: "Advertising and Marketing Law",
+    category: "Legal Compliance",
+    excerpt: "Review of marketing communications, ASCI code compliance, influencer disclosure rules, and comparative ad disputes.",
+    coverIcon: "📢",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Advertising Law", "ASCI Compliance", "Influencer Disclosures", "Misleading Claims"],
+    content: [
+      {
+        heading: "Overview of Advertising and Marketing Law",
+        paragraphs: [
+          "Advertising law requires claims to be truthful, supportable and presented without misleading consumers, while influencer and digital campaigns require clear disclosures.",
+          "We advise businesses, advertising agencies, influencers and digital platforms on the legal aspects of marketing and promotional communications. Our services include review of advertisements, promotional campaigns, comparative advertising, endorsements, misleading-claim disputes, brand usage, contests, disclaimers and consumer-law compliance."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Reviewing advertisements, promotional campaigns and marketing communications;",
+          "Advising on misleading, exaggerated or unsubstantiated advertising claims;",
+          "Reviewing comparative advertisements involving competing products or services;",
+          "Drafting influencer, celebrity endorsement and brand-collaboration agreements;",
+          "Advising on disclosure requirements for sponsored and paid promotional content;",
+          "Reviewing promotional contests, prize schemes, discounts and customer offers;",
+          "Drafting agency, media-buying, creative-services and campaign-management agreements;",
+          "Advising on trademark, copyright and personality-right issues in advertisements;",
+          "Handling complaints concerning disparagement, imitation and unfair marketing practices;",
+          "Preparing disclaimers, terms and conditions and promotional offer rules;",
+          "Advising on marketing communications directed at children or vulnerable consumers;",
+          "Representing clients in consumer, intellectual-property and advertising-related disputes."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Consumer Protection Act, 2019;",
+          "Guidelines for Prevention of Misleading Advertisements, 2022;",
+          "ASCI Code and influencer-advertising guidelines;",
+          "Trade Marks Act, 1999 and Copyright Act, 1957;",
+          "Information Technology and platform rules."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a122",
+    slug: "defence-aerospace-contracts-law",
+    title: "Defence and Aerospace Contracts",
+    category: "Corporate Advisory",
+    excerpt: "Procurement support for defence manufacturers, tech transfer deals, offset obligations, and SCOMET controls.",
+    coverIcon: "🛡️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Defence Contracts", "Aerospace Manufacturing", "Offset Obligations", "SCOMET Controls"],
+    content: [
+      {
+        heading: "Overview of Defence and Aerospace Contracts",
+        paragraphs: [
+          "Defence and aerospace contracts combine public procurement, technical specifications, confidentiality, quality assurance, export controls and long-term support obligations.",
+          "We provide legal support to businesses engaged in defence manufacturing, aerospace components, security services and government supply arrangements. Our practice includes procurement contracts, industrial collaborations, technology-transfer agreements, confidentiality obligations, vendor contracts, licensing coordination and contractual disputes."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising defence, aerospace, security and specialised manufacturing businesses;",
+          "Drafting and reviewing supply, procurement and manufacturing agreements;",
+          "Advising on government and public-sector tender documentation;",
+          "Preparing technology-transfer, licensing and technical-collaboration agreements;",
+          "Drafting confidentiality, non-disclosure and restricted-information agreements;",
+          "Advising on offset, localisation and domestic manufacturing arrangements;",
+          "Reviewing vendor, subcontractor and component-supply agreements;",
+          "Advising on quality assurance, testing, inspection and acceptance provisions;",
+          "Drafting maintenance, repair, overhaul and lifecycle-support agreements;",
+          "Advising on intellectual-property ownership in technical designs and specifications;",
+          "Handling payment, delay, rejection, termination and performance-security disputes;",
+          "Representing clients in contractual proceedings and commercial arbitration."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Defence Acquisition Procedure and procurement conditions;",
+          "Indian Contract Act, 1872;",
+          "Official-secrecy and information-security requirements;",
+          "SCOMET and export-control framework;",
+          "Intellectual-property and arbitration law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a123",
+    slug: "mining-quarrying-law-advisory",
+    title: "Mining and Quarrying Law",
+    category: "Land Acquisition",
+    excerpt: "Advisory on mining leases, quarry permissions, royalty demand disputes, and environmental clearances.",
+    coverIcon: "⛏️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Mining Leases", "Quarry Permissions", "Royalty Disputes", "Mineral Transit"],
+    content: [
+      {
+        heading: "Overview of Mining and Quarrying Law",
+        paragraphs: [
+          "Mining and quarrying activities involve land rights, operational permissions, royalty obligations, environmental controls and transportation documentation.",
+          "We advise mine owners, quarry operators, landowners, contractors and mineral-based industries on leases, permissions, royalty demands, transportation permits, environmental compliance, regulatory notices, land-use concerns and disputes before mining, revenue and environmental authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising mine owners, quarry operators, contractors and mineral-based industries;",
+          "Assisting with mining leases, quarry permissions and operational approvals;",
+          "Reviewing land-title and access documentation for mining and quarrying activities;",
+          "Advising on royalty, dead-rent, premium and penalty demands;",
+          "Preparing replies to notices alleging illegal extraction or transportation;",
+          "Handling seizure and confiscation matters involving minerals, machinery and vehicles;",
+          "Advising on transit permits, transportation passes and mineral documentation;",
+          "Assisting with environmental, pollution-control and forest-related compliance;",
+          "Drafting excavation, extraction, transportation and contractor agreements;",
+          "Advising landowners on royalty-sharing and mineral-development arrangements;",
+          "Handling disputes involving measurement, quantity, grade and mineral classification;",
+          "Representing clients before mining, revenue, environmental and appellate authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Mines and Minerals (Development and Regulation) Act, 1957;",
+          "Applicable Maharashtra minor-mineral and revenue rules;",
+          "Environment (Protection) Act, 1986;",
+          "Forest and pollution-control requirements;",
+          "Contract, land and transportation laws."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a124",
+    slug: "agribusiness-commodity-law",
+    title: "Agribusiness and Commodity Law",
+    category: "Corporate Advisory",
+    excerpt: "Contract farming agreements, agricultural produce procurement, cold-storage contracts, and commodity trade disputes.",
+    coverIcon: "🌾",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Agribusiness Law", "Contract Farming", "Commodity Trade", "Produce Procurement"],
+    content: [
+      {
+        heading: "Overview of Agribusiness and Commodity Law",
+        paragraphs: [
+          "Agricultural and commodity transactions are sensitive to quality, seasonality, storage, price, delivery, rejection and payment mechanisms.",
+          "We assist agricultural enterprises, food processors, traders, exporters, warehouses and commodity businesses with supply contracts, procurement arrangements, processing agreements, storage documentation, regulatory compliance, payment recovery, quality disputes and commercial transactions involving agricultural produce."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising agricultural enterprises, processors, traders, exporters and commodity businesses;",
+          "Drafting agricultural-produce procurement and supply agreements;",
+          "Preparing contract-farming, cultivation-support and buy-back arrangements;",
+          "Advising on food-processing, packaging, storage and distribution contracts;",
+          "Drafting warehousing, cold-storage and commodity-handling agreements;",
+          "Handling disputes concerning quality, quantity, grading, moisture and rejection of goods;",
+          "Advising on delayed payments, price adjustments and commodity-market disputes;",
+          "Preparing dealership, distributorship and commission-agent agreements;",
+          "Advising on transport, insurance and risk of loss during movement of produce;",
+          "Reviewing export, import and international commodity-trading documentation;",
+          "Assisting with food-safety, labelling and processing-related compliance;",
+          "Representing clients in recovery, contractual and commercial arbitration proceedings."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Food Safety and Standards Act, 2006;",
+          "Applicable agricultural-market and commodity laws;",
+          "Warehousing (Development and Regulation) Act, 2007;",
+          "Legal-metrology, GST and export requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a125",
+    slug: "startup-venture-capital-law-advisory",
+    title: "Startup and Venture Capital Law",
+    category: "Corporate Retainership",
+    excerpt: "Founder agreements, ESOP design, term sheets, angel/VC investment rounds, and startup exit governance.",
+    coverIcon: "🚀",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Startup Advisory", "Venture Capital", "Founders Agreement", "ESOP Plans"],
+    content: [
+      {
+        heading: "Overview of Startup and Venture Capital Law",
+        paragraphs: [
+          "Startup legal work should support growth without leaving avoidable gaps in ownership, founder rights, investment terms, employment, intellectual property or customer contracts.",
+          "We provide end-to-end legal support to startups, entrepreneurs, founders, investors and emerging businesses. Our services include entity structuring, founders’ agreements, investment documentation, employee stock options, intellectual-property protection, commercial contracts, funding rounds, founder exits and corporate-governance advisory."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising founders on selection and incorporation of the appropriate business structure;",
+          "Drafting founders’ agreements and documenting roles, responsibilities and equity ownership;",
+          "Preparing shareholders’ agreements, subscription agreements and investment documentation;",
+          "Advising on seed, angel, venture-capital and strategic investment transactions;",
+          "Conducting legal due diligence for fundraising and investment rounds;",
+          "Drafting employee stock-option plans, incentive arrangements and vesting provisions;",
+          "Advising on intellectual-property ownership and assignment by founders and employees;",
+          "Preparing employment, consultant, vendor and customer contracts;",
+          "Drafting confidentiality, non-solicitation and restrictive-covenant arrangements;",
+          "Advising on founder exits, deadlocks, dilution and transfer of shares;",
+          "Assisting with corporate governance, board processes and statutory documentation;",
+          "Advising on mergers, acquisitions, restructuring and startup exit transactions."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Companies Act, 2013;",
+          "Limited Liability Partnership Act, 2008;",
+          "Indian Contract Act, 1872;",
+          "FEMA and foreign-investment rules;",
+          "SEBI, tax, intellectual-property and data-protection requirements."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a126",
+    slug: "family-business-shareholder-law",
+    title: "Family Business and Shareholder Law",
+    category: "Corporate Retainership",
+    excerpt: "Family constitutions, promoter restructuring, shareholder oppression disputes, buyouts, and succession frameworks.",
+    coverIcon: "👔",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Family Business", "Shareholder Disputes", "Promoter Governance", "Business Succession"],
+    content: [
+      {
+        heading: "Overview of Family Business and Shareholder Law",
+        paragraphs: [
+          "Family businesses need legal structures that separate personal relationships from governance, ownership, management and succession decisions.",
+          "We advise family-owned businesses, promoters, shareholders and partners on business succession, governance, ownership restructuring and internal disputes. Our practice covers shareholders’ agreements, family arrangements, partnership disputes, minority protection, management deadlocks, separation of business interests and negotiated settlements."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising family-owned businesses, promoters, shareholders and business partners;",
+          "Preparing family business constitutions and governance frameworks;",
+          "Drafting shareholders’ agreements and promoter arrangements;",
+          "Advising on succession of management, ownership and voting control;",
+          "Structuring family settlements and division of business interests;",
+          "Handling shareholder oppression, minority-rights and management disputes;",
+          "Advising on deadlocks, exclusion from management and access to company records;",
+          "Preparing share-transfer, buyout and exit documentation;",
+          "Advising on partnership and limited liability partnership disputes;",
+          "Structuring holding entities and ownership arrangements for family businesses;",
+          "Facilitating negotiated settlements and mediation between family members;",
+          "Representing clients in company, commercial and arbitration proceedings."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Companies Act, 2013;",
+          "Limited Liability Partnership Act, 2008;",
+          "Indian Partnership Act, 1932;",
+          "Indian Contract Act, 1872;",
+          "Arbitration, succession and trust law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a127",
+    slug: "gst-tax-litigation-advisory",
+    title: "GST and Tax Litigation",
+    category: "Banking and Finance",
+    excerpt: "Legal defence for GST show-cause notices, Input Tax Credit disputes, assessment appeals, and tax investigations.",
+    coverIcon: "📊",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["GST Litigation", "Tax Appeals", "Input Tax Credit", "Show Cause Replies"],
+    content: [
+      {
+        heading: "Overview of GST and Tax Litigation",
+        paragraphs: [
+          "Tax disputes are deadline-sensitive and document-intensive, requiring coordination between legal interpretation, accounting records and procedural remedies.",
+          "We assist businesses and individuals with legal issues arising from taxation, GST assessments, statutory notices, input-tax-credit disputes, classification matters, penalties, recovery proceedings and appellate remedies. Where necessary, we work alongside qualified tax and accounting professionals to provide coordinated legal support."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising businesses and individuals on legal issues arising under taxation and GST laws;",
+          "Preparing replies to show-cause notices, assessment notices and demand communications;",
+          "Advising on classification, valuation, place of supply and taxability disputes;",
+          "Handling matters relating to input tax credit, refunds and blocked credits;",
+          "Advising on registration, cancellation, suspension and restoration proceedings;",
+          "Representing clients in search, inspection, seizure and investigation matters;",
+          "Handling penalty, interest, recovery and provisional attachment proceedings;",
+          "Preparing appeals, written submissions and applications for interim relief;",
+          "Advising on contractual allocation of taxes, duties and fiscal liabilities;",
+          "Reviewing commercial agreements from a taxation-risk perspective;",
+          "Coordinating legal strategy with chartered accountants and tax professionals;",
+          "Representing clients before adjudicating and appellate authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Central, State and Integrated GST enactments;",
+          "Income-tax Act, 1961;",
+          "Customs and allied fiscal laws;",
+          "Applicable Finance Acts and notifications;",
+          "Appellate and recovery procedures."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a128",
+    slug: "municipal-licensing-law-compliance",
+    title: "Municipal Licensing Law",
+    category: "Legal Compliance",
+    excerpt: "Handling municipal trade licenses, health permissions, fire compliance, signage approvals, and sealing notices.",
+    coverIcon: "🏛️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Municipal Licensing", "Trade Permissions", "Demolition Notices", "Fire Safety NOC"],
+    content: [
+      {
+        heading: "Overview of Municipal Licensing Law",
+        paragraphs: [
+          "Local-authority action can directly affect business continuity, occupation and use of property, making licence records and timely responses important.",
+          "We advise commercial establishments, factories, restaurants, hospitals, warehouses and property owners on municipal licences, trade permissions, signage approvals, fire compliance, health permissions, statutory notices, sealing or demolition action and proceedings before municipal and local authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising commercial and industrial establishments on municipal permissions and licences;",
+          "Assisting with trade, health, establishment and operational licences;",
+          "Advising on signage, advertisement and display permissions;",
+          "Assisting with fire-safety approvals and compliance documentation;",
+          "Preparing replies to municipal show-cause, sealing and closure notices;",
+          "Handling demolition, removal and unauthorised-construction proceedings;",
+          "Advising on change of user, occupancy and commercial-use permissions;",
+          "Assisting with property-tax, assessment and municipal levy disputes;",
+          "Advising restaurants, hotels, hospitals, warehouses and factories on local permissions;",
+          "Handling renewal, suspension and cancellation of licences;",
+          "Filing representations and appeals before municipal and local authorities;",
+          "Challenging arbitrary municipal action before appropriate judicial forums."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Maharashtra Municipal Corporations Act, 1949;",
+          "Maharashtra Regional and Town Planning Act, 1966;",
+          "Maharashtra Fire Prevention and Life Safety Measures Act, 2006;",
+          "Maharashtra Shops and Establishments Act, 2017;",
+          "Local municipal bye-laws, licence conditions and tax rules."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a129",
+    slug: "anti-bribery-ethics-compliance-law",
+    title: "Anti-Bribery and Ethics Compliance",
+    category: "Corporate Retainership",
+    excerpt: "Anti-corruption policy drafting, whistleblower channels, vendor integrity checks, and internal misconduct reviews.",
+    coverIcon: "⚖️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Anti Bribery", "Ethics Compliance", "Whistleblower Framework", "Vendor Due Diligence"],
+    content: [
+      {
+        heading: "Overview of Anti-Bribery and Ethics Compliance",
+        paragraphs: [
+          "An anti-bribery framework is effective only when policies, third-party controls, reporting channels, investigations and disciplinary processes work together.",
+          "We assist companies in developing policies and compliance systems intended to prevent bribery, corruption, conflicts of interest and unethical business conduct. Our services include policy drafting, vendor-integrity reviews, whistleblower mechanisms, employee training, internal investigations and advisory on suspected misconduct."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Drafting anti-bribery, anti-corruption and business-ethics policies;",
+          "Preparing conflict-of-interest, gifts, hospitality and donations policies;",
+          "Developing whistleblower and protected-disclosure mechanisms;",
+          "Conducting compliance-risk assessments and internal policy reviews;",
+          "Reviewing relationships with agents, consultants, distributors and government-facing intermediaries;",
+          "Preparing contractual anti-corruption representations, warranties and audit clauses;",
+          "Conducting vendor-integrity and third-party compliance reviews;",
+          "Advising management on suspected bribery, kickbacks or unethical conduct;",
+          "Conducting internal investigations and preparing investigation reports;",
+          "Assisting with evidence preservation, interviews and disciplinary action;",
+          "Delivering management and employee awareness programmes;",
+          "Advising on remediation, corrective measures and compliance monitoring."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Prevention of Corruption Act, 1988;",
+          "Companies Act, 2013;",
+          "SEBI governance requirements, where applicable;",
+          "Whistleblower and protected-disclosure frameworks;",
+          "PMLA, contractual controls and internal policies."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a130",
+    slug: "esg-sustainability-law-advisory",
+    title: "ESG and Sustainability Law",
+    category: "Corporate Retainership",
+    excerpt: "Legal risk management for environmental, social, and governance reporting, supply-chain compliance, and BRSR standards.",
+    coverIcon: "🌱",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["ESG Advisory", "BRSR Reporting", "Supply Chain ESG", "Environmental Risk"],
+    content: [
+      {
+        heading: "Overview of ESG and Sustainability Law",
+        paragraphs: [
+          "ESG legal risk increasingly affects disclosures, supply chains, funding, procurement, reputation and board oversight, not merely environmental compliance.",
+          "We advise companies on environmental, social and governance considerations affecting business operations, investments and corporate decision-making. Our services include ESG policy frameworks, sustainability-related disclosures, supply-chain compliance, environmental risk reviews, workplace governance and responsible-business practices."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising businesses on environmental, social and governance risk management;",
+          "Drafting ESG, sustainability and responsible-business policies;",
+          "Reviewing environmental and social obligations within supply chains;",
+          "Advising on workplace welfare, diversity, safety and human-rights policies;",
+          "Conducting legal reviews of sustainability claims and public disclosures;",
+          "Advising on governance, board oversight and accountability mechanisms;",
+          "Preparing supplier codes of conduct and responsible-procurement standards;",
+          "Reviewing green, sustainable and climate-related contractual commitments;",
+          "Advising on waste management, resource conservation and operational compliance;",
+          "Assisting with business-responsibility and sustainability reporting frameworks;",
+          "Conducting ESG-related legal due diligence for investments and transactions;",
+          "Advising on complaints, investigations and reputational risks arising from ESG issues."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Companies Act, 2013 and CSR framework;",
+          "SEBI LODR and BRSR requirements, where applicable;",
+          "Environment (Protection) Act, 1986 and allied rules;",
+          "Labour, workplace-safety and human-rights requirements;",
+          "Consumer, advertising and supply-chain standards."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a131",
+    slug: "sanctions-export-control-law",
+    title: "Sanctions and Export Control Law",
+    category: "Banking and Finance",
+    excerpt: "Advisory on international sanctions, SCOMET export controls, restricted party checks, and cross-border supply contracts.",
+    coverIcon: "🌐",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Trade Sanctions", "Export Controls", "SCOMET Compliance", "Cross-Border Contracts"],
+    content: [
+      {
+        heading: "Overview of Sanctions and Export Control Law",
+        paragraphs: [
+          "International trade restrictions can affect whether goods, technology, services, payments or counterparties may lawfully be involved in a transaction.",
+          "We assist businesses involved in international transactions with contractual and compliance risks arising from export controls, restricted-party dealings, cross-border supply arrangements and international trade restrictions. Our services include transaction reviews, contractual safeguards, counterparty checks and risk-management documentation."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising businesses on international trade restrictions and cross-border transaction risks;",
+          "Reviewing transactions involving restricted countries, entities or products;",
+          "Conducting legal reviews of counterparties and international supply arrangements;",
+          "Drafting sanctions, export-control and compliance clauses in commercial contracts;",
+          "Advising on end-user, end-use and destination-related documentation;",
+          "Reviewing technology-transfer and dual-use product arrangements;",
+          "Advising on payment restrictions and banking-related cross-border risks;",
+          "Preparing internal international-trade compliance policies;",
+          "Advising on suspension, termination and force-majeure rights arising from restrictions;",
+          "Conducting contractual risk assessments for global distributors and suppliers;",
+          "Assisting with responses to compliance inquiries from banks and counterparties;",
+          "Coordinating with foreign counsel and trade specialists in multi-jurisdictional matters."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Foreign Trade (Development and Regulation) Act, 1992;",
+          "Customs Act, 1962;",
+          "Foreign Exchange Management Act, 1999;",
+          "SCOMET and other export-control requirements;",
+          "Domestic implementation of sanctions and contractual compliance."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a132",
+    slug: "manufacturing-industrial-licensing-law",
+    title: "Manufacturing and Industrial Licensing Law",
+    category: "Legal Compliance",
+    excerpt: "Factory establishment permissions, environmental pollution controls, occupational safety compliance, and industrial licenses.",
+    coverIcon: "🏭",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Factories Act", "Industrial Licensing", "Pollution Control", "Workplace Safety"],
+    content: [
+      {
+        heading: "Overview of Manufacturing and Industrial Licensing Law",
+        paragraphs: [
+          "Manufacturing units depend on a network of operational approvals and continuing compliance obligations across safety, environment, labour and technical regulation.",
+          "We provide legal advisory to manufacturers, factories, industrial units and project operators on establishment-related permissions, industrial licences, operational approvals, contractor arrangements, statutory inspections, regulatory notices and compliance obligations affecting manufacturing activities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising manufacturers and industrial units on establishment and operational approvals;",
+          "Assisting with factory, industrial and trade-related licences;",
+          "Reviewing land-use, zoning and non-agricultural permissions for industrial projects;",
+          "Advising on pollution-control, environmental and waste-management requirements;",
+          "Assisting with boiler, electrical, fire and occupational-safety compliance;",
+          "Preparing replies to statutory inspection reports and show-cause notices;",
+          "Advising on suspension, cancellation and renewal of operational licences;",
+          "Drafting manufacturing, processing and contract-production agreements;",
+          "Preparing contractor, manpower, maintenance and facility-management contracts;",
+          "Conducting legal-compliance audits for factories and manufacturing units;",
+          "Advising on workplace accidents, regulatory investigations and corrective action;",
+          "Representing clients before industrial, factory, environmental and appellate authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Factories Act, 1948 and applicable Maharashtra factory rules;",
+          "Applicable labour codes when brought into force;",
+          "Boilers Act, 2025 and technical safety requirements;",
+          "Environment, pollution-control and waste-management laws;",
+          "Fire, electrical and industrial licensing rules."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a133",
+    slug: "immigration-global-mobility-law",
+    title: "Immigration and Global Mobility Law",
+    category: "Legal Compliance",
+    excerpt: "Advisory on foreign employee engagement, secondment contracts, visa compliance, and corporate global mobility.",
+    coverIcon: "🛂",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Immigration Law", "Global Mobility", "Expat Secondment", "FRRO Compliance"],
+    content: [
+      {
+        heading: "Overview of Immigration and Global Mobility Law",
+        paragraphs: [
+          "Cross-border mobility requires alignment between immigration status, employment documentation, tax, reporting and family circumstances.",
+          "We assist individuals, employers and businesses with immigration-related documentation, employment mobility, overseas assignments, citizenship-related representations, visa disputes, foreign-employee documentation and legal issues involving the movement of professionals across jurisdictions."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising individuals and businesses on immigration and global-mobility documentation;",
+          "Assisting employers with foreign-employee engagement and assignment documentation;",
+          "Drafting employment, secondment and overseas-deputation agreements;",
+          "Advising on visa-related contractual and employment issues;",
+          "Preparing representations concerning immigration or citizenship documentation;",
+          "Assisting with overseas employment and relocation documentation;",
+          "Advising on compliance obligations for foreign nationals working in India;",
+          "Reviewing invitation letters, sponsorship documents and employer declarations;",
+          "Advising on termination, repatriation and relocation-related employment concerns;",
+          "Assisting families with citizenship, nationality and status-related representations;",
+          "Coordinating with authorised immigration professionals and foreign counsel;",
+          "Handling disputes involving fraudulent recruitment, overseas employment and mobility arrangements."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Immigration and Foreigners Act, 2025;",
+          "Citizenship Act, 1955;",
+          "Passports Act, 1967;",
+          "Visa, FRRO and employment requirements;",
+          "FEMA and cross-border employment documentation."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a134",
+    slug: "senior-citizens-elder-law-tribunal-matters",
+    title: "Senior Citizens and Elder Law",
+    category: "Family Law",
+    excerpt: "Filing and defending maintenance applications, setting aside coercive property transfers, and protecting elder rights.",
+    coverIcon: "👵",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Elder Law", "Senior Citizens Act", "Maintenance Tribunal", "Coercive Transfer Cancellation"],
+    content: [
+      {
+        heading: "Overview of Senior Citizens and Elder Law",
+        paragraphs: [
+          "Elder-law matters often combine maintenance, residence, property ownership, caregiving, coercion, succession and urgent protective relief.",
+          "We provide legal assistance to senior citizens and their families in matters concerning maintenance, protection of property, cancellation of transfers obtained through coercion or neglect, succession planning, caregiver arrangements and proceedings before the Maintenance Tribunal and other competent authorities."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising senior citizens on protection of their legal, financial and property rights;",
+          "Filing and defending maintenance applications before the competent tribunal;",
+          "Seeking cancellation of property transfers made subject to care and maintenance obligations;",
+          "Handling matters involving neglect, coercion, financial exploitation or abandonment;",
+          "Advising on recovery of possession from children, relatives or unauthorised occupants;",
+          "Preparing wills, family arrangements, gift deeds and succession documentation;",
+          "Advising on nominations, joint ownership and transmission of assets;",
+          "Drafting caregiver, residence and family-support arrangements;",
+          "Preparing legal notices concerning maintenance and protection of property;",
+          "Assisting with police and administrative representations;",
+          "Advising families on lawful management of an elderly person’s affairs;",
+          "Representing senior citizens before tribunals, civil courts and appropriate authorities."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Maintenance and Welfare of Parents and Senior Citizens Act, 2007;",
+          "Applicable Maharashtra rules and tribunal procedure;",
+          "Transfer of Property Act, 1882;",
+          "Indian Succession Act, 1925 and applicable personal laws;",
+          "Civil, criminal and protective remedies where required."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a135",
+    slug: "art-antiquities-luxury-goods-law",
+    title: "Art, Antiquities and Luxury Goods Law",
+    category: "Corporate Advisory",
+    excerpt: "Legal documentation for acquisition, sale, provenance verification, authenticity claims, and cultural property movement.",
+    coverIcon: "🖼️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Art Law", "Antiquities Act", "Provenance Due Diligence", "Cultural Property"],
+    content: [
+      {
+        heading: "Overview of Art, Antiquities and Luxury Goods Law",
+        paragraphs: [
+          "Transactions involving art, antiquities and collectibles require attention to title, provenance, authenticity, copyright, insurance, movement and succession.",
+          "We advise collectors, galleries, dealers, artists, auction businesses and purchasers on the acquisition, sale, ownership and authenticity of art, antiques and valuable collectibles. Our practice covers sale agreements, provenance documentation, ownership disputes, authenticity claims, inheritance and transportation of valuable objects."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising artists, collectors, galleries, dealers, auction houses and purchasers;",
+          "Drafting agreements for sale, consignment, loan and exhibition of artworks;",
+          "Advising on ownership, title, provenance and authenticity documentation;",
+          "Handling disputes involving forged, misattributed or defective works;",
+          "Drafting artist representation and gallery-management agreements;",
+          "Advising on copyright, reproduction and commercial-use rights;",
+          "Preparing storage, transportation, insurance and risk-allocation agreements;",
+          "Advising on inheritance, gifts and family division of valuable collections;",
+          "Handling payment, commission and auction-related disputes;",
+          "Advising on import, export and movement of art and cultural property;",
+          "Conducting legal due diligence before acquisition or sale;",
+          "Representing clients in ownership, authenticity and contractual proceedings."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Antiquities and Art Treasures Act, 1972;",
+          "Copyright Act, 1957;",
+          "Customs and foreign-trade requirements;",
+          "Indian Contract Act, 1872;",
+          "Succession, consumer and insurance law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a136",
+    slug: "private-wealth-family-office-law",
+    title: "Private Wealth and Family Office Law",
+    category: "Estate Planning",
+    excerpt: "Structuring private family wealth holding entities, intergenerational asset transfers, and governance agreements.",
+    coverIcon: "💎",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Family Office", "Private Wealth", "Estate Planning", "Asset Structures"],
+    content: [
+      {
+        heading: "Overview of Private Wealth and Family Office Law",
+        paragraphs: [
+          "Private wealth planning requires coordinated documentation so that ownership, control, succession, confidentiality and compliance remain aligned.",
+          "We advise high-net-worth individuals, business families and family offices on lawful ownership and management structures for personal and family assets. Our services include family settlements, asset-holding arrangements, succession coordination, private agreements, governance documentation and intergenerational transfer planning."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising individuals, business families and family offices on asset-holding structures;",
+          "Preparing family settlements, private agreements and governance documentation;",
+          "Advising on succession, inheritance and intergenerational transfer of assets;",
+          "Structuring lawful ownership of immovable property, shares and investments;",
+          "Reviewing joint ownership, nomination and beneficial-interest arrangements;",
+          "Advising on family investment entities and holding structures;",
+          "Drafting management, administration and family-office service agreements;",
+          "Advising on confidentiality and information-sharing within family structures;",
+          "Coordinating wills, trusts, succession and corporate documentation;",
+          "Conducting legal due diligence on family-owned assets and investments;",
+          "Assisting with division, transfer and restructuring of family wealth;",
+          "Coordinating with tax, accounting, investment and estate-planning professionals."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Succession Act, 1925 and applicable personal laws;",
+          "Indian Trusts Act, 1882;",
+          "Companies Act, 2013 and LLP Act, 2008;",
+          "FEMA and tax requirements;",
+          "Property, nomination and beneficial-ownership law."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a137",
+    slug: "professional-disciplinary-proceedings-law",
+    title: "Professional Disciplinary Proceedings",
+    category: "General Litigation",
+    excerpt: "Defence of professionals, directors, and regulated persons in misconduct inquiries and show-cause proceedings.",
+    coverIcon: "⚖️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Disciplinary Inquiries", "Show Cause Notices", "Professional Misconduct", "Regulatory Defence"],
+    content: [
+      {
+        heading: "Overview of Professional Disciplinary Proceedings",
+        paragraphs: [
+          "Disciplinary proceedings can affect livelihood, licence, office and reputation, and must comply with the applicable procedure and principles of natural justice.",
+          "We represent professionals, directors, employees and regulated persons in disciplinary inquiries and proceedings before professional bodies, employers and statutory authorities. Our services include responding to show-cause notices, preparing written explanations, participating in inquiries, challenging adverse action and pursuing appellate remedies."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Representing professionals, employees, directors and regulated persons in disciplinary matters;",
+          "Reviewing charge sheets, show-cause notices and allegations of professional misconduct;",
+          "Drafting replies, written explanations and statements of defence;",
+          "Advising on disciplinary procedure, natural justice and evidentiary issues;",
+          "Assisting clients during internal and statutory inquiries;",
+          "Preparing questions, submissions and documentary evidence;",
+          "Challenging suspension, termination, debarment or adverse disciplinary findings;",
+          "Advising on registration, licence and professional-membership disputes;",
+          "Filing appeals, review applications and writ petitions;",
+          "Representing clients before professional councils and regulatory bodies;",
+          "Advising employers and institutions on conducting lawful disciplinary proceedings;",
+          "Negotiating settlements and corrective outcomes where appropriate."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Applicable professional statutes, regulations and codes of conduct;",
+          "Employment and service rules;",
+          "Principles of natural justice;",
+          "Constitutional and administrative law remedies;",
+          "Current criminal and evidence law where misconduct is alleged."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a138",
+    slug: "international-commercial-transactions-law",
+    title: "International Commercial Transactions",
+    category: "Corporate Advisory",
+    excerpt: "Drafting cross-border contracts, joint ventures, global supply deals, and managing international arbitration clauses.",
+    coverIcon: "🌐",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Cross Border Contracts", "International Supply", "Joint Ventures", "International Arbitration"],
+    content: [
+      {
+        heading: "Overview of International Commercial Transactions",
+        paragraphs: [
+          "Cross-border contracts must anticipate differences in law, payment, tax, delivery, dispute forums and enforcement across jurisdictions.",
+          "We advise Indian and overseas businesses on cross-border contracts, international supply arrangements, distribution agreements, joint ventures, service agreements, foreign counterparties and dispute-resolution clauses. Our practice also includes contractual risk allocation, governing-law provisions and international commercial arbitration support."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Drafting and reviewing international sale, supply and service agreements;",
+          "Advising on cross-border joint ventures, collaborations and strategic alliances;",
+          "Preparing international distribution, agency and franchise agreements;",
+          "Advising on governing law, jurisdiction and dispute-resolution clauses;",
+          "Drafting international confidentiality, licensing and technology-transfer agreements;",
+          "Advising on payment security, letters of credit and commercial guarantees;",
+          "Reviewing foreign-currency, tax and regulatory risk allocation;",
+          "Advising on import–export, delivery, title and risk-transfer provisions;",
+          "Conducting legal due diligence on international counterparties and transactions;",
+          "Advising on termination, force majeure, sanctions and political-risk clauses;",
+          "Assisting with international commercial arbitration and enforcement strategy;",
+          "Coordinating multi-jurisdictional transactions with foreign counsel and professional advisers."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Indian Contract Act, 1872;",
+          "Foreign Exchange Management Act, 1999;",
+          "Foreign Trade and customs framework;",
+          "Arbitration and Conciliation Act, 1996;",
+          "Companies, tax and intellectual-property laws."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a139",
+    slug: "reputation-protection-crisis-law",
+    title: "Reputation Protection and Crisis Law",
+    category: "General Litigation",
+    excerpt: "Strategic legal defence against defamatory publications, social media vilification, content takedowns, and crisis response.",
+    coverIcon: "🛡️",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "August 1, 2026",
+    readTime: "6 min read",
+    tags: ["Reputation Protection", "Defamation Notices", "Content Takedowns", "Crisis Response"],
+    content: [
+      {
+        heading: "Overview of Reputation Protection and Crisis Law",
+        paragraphs: [
+          "A reputational crisis develops quickly online. Early evidence preservation and a proportionate legal response can be more effective than an unplanned public reaction.",
+          "We provide strategic legal support to businesses, professionals and individuals facing defamatory publications, false allegations, adverse digital content or reputational crises. Our services include legal notices, platform representations, content-removal requests, defamation proceedings, evidence preservation and coordinated crisis-response advisory."
+        ]
+      },
+      {
+        heading: "What This Practice Area Covers",
+        list: [
+          "Advising businesses, professionals and individuals facing reputational threats;",
+          "Preparing legal notices against defamatory, false or malicious publications;",
+          "Seeking removal or correction of unlawful digital and social-media content;",
+          "Filing complaints with online platforms, intermediaries and publishers;",
+          "Advising on preservation of electronic evidence, screenshots and digital records;",
+          "Handling allegations involving online reviews, social-media posts and messaging platforms;",
+          "Preparing cease-and-desist notices and public clarification strategies;",
+          "Advising companies on employee, customer and competitor-related reputation disputes;",
+          "Handling claims involving business disparagement and malicious falsehood;",
+          "Advising on confidentiality breaches and unauthorised disclosure of information;",
+          "Representing clients in civil and criminal defamation proceedings;",
+          "Coordinating legal, internal and communication responses during reputational crises."
+        ]
+      },
+      {
+        heading: "Relevant Legal and Regulatory Framework",
+        list: [
+          "Bharatiya Nyaya Sanhita, 2023 provisions on defamation;",
+          "Information Technology Act, 2000 and platform rules;",
+          "Bharatiya Sakshya Adhiniyam, 2023 for electronic evidence;",
+          "Copyright, trademark and confidentiality law;",
+          "Civil remedies including injunctions and damages."
         ]
       }
     ]
