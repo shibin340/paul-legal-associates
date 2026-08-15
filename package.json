@@ -24,12 +24,12 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "react-snap && node generate-sitemap.js",
+    "postbuild": "react-snap && node generate-sitemap.js && node scripts/generate-routes.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
-  },
+},
   "reactSnap": {
     "source": "build",
     "puppeteerArgs": [
