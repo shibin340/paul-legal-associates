@@ -1479,4 +1479,81 @@
     <changefreq>monthly</changefreq>
     <priority>0.64</priority>
   </url>
+
+  <!-- 1. POSH Compliance for Employers in Mumbai & Navi Mumbai -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 2. Starting a Business in India -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/starting-business-india-legal-compliance-checklist</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 3. Builder Not Complying With a MahaRERA Order -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/maharera-order-non-compliance-execution-recovery</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 4. MSME Payments Delayed -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/msme-delayed-payment-recovery-msefc</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 5. Commercial Leave & Licence Disputes -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/commercial-leave-license-security-deposit-repair-disputes</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 6. Contract Labour Compliance in Maharashtra -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/contract-labour-compliance-principal-employer-maharashtra</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 7. Legal & EHS Compliance Audits for Warehouses and Manufacturing Facilities -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/legal-ehs-compliance-audit-warehouse-manufacturing</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+  <!-- 8. India's DPDP Compliance -->
+  <url>
+    <loc>https://www.paullegalassociates.com/insights/dpdp-compliance-businesses-india-2026</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.64</priority>
+  </url>
+
+  <!-- Partner Profiles -->
+  <url>
+    <loc>https://www.paullegalassociates.com/partners/pp-polachan</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.paullegalassociates.com/partners/sojan-paul</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
+  <url>
+    <loc>https://www.paullegalassociates.com/partners/sonam-paul</loc>
+    <lastmod>2026-08-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.80</priority>
+  </url>
 </urlset>
