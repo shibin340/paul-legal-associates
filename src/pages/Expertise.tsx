@@ -4,10 +4,12 @@ import AnimateIn from 'components/ui/AnimateIn';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import SectionHeader from 'components/ui/SectionHeader';
 import { PRACTICE_AREAS } from 'data';
+import { useDocumentTitle } from 'hooks/useDocumentTitle';
 
 const ITEMS_PER_PAGE = 9;
 
 const Expertise: React.FC = () => {
+  useDocumentTitle("Legal Practice Areas | Paul Legal Associates, Navi Mumbai");
   const [visibleGridCount, setVisibleGridCount] = useState(ITEMS_PER_PAGE);
 
   return (

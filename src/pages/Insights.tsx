@@ -1,6 +1,7 @@
 import AnimateIn from "components/ui/AnimateIn";
 import CredentialsBar from "components/ui/CredentialsBar";
 import { ARTICLE_CATEGORIES, ARTICLES } from "data";
+import { useDocumentTitle } from "hooks/useDocumentTitle";
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";
 
@@ -9,6 +10,7 @@ const INITIAL_ITEMS_PER_PAGE = 6;
 const ITEMS_TO_LOAD_MORE = 6;
 
 const Insights: React.FC = () => {
+  useDocumentTitle("Legal Insights & Articles | Paul Legal Associates");
   const [activeCategory, setActiveCategory] = useState<string>("All");
   const [visibleCount, setVisibleCount] = useState<number>(INITIAL_ITEMS_PER_PAGE);
 

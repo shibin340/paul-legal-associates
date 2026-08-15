@@ -4,6 +4,7 @@ import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
 import { CONTACT_INFO, OFFICE_HOURS } from "../data";
 import type { ContactForm } from "../types";
+import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 type Errors = Partial<Record<keyof ContactForm, string>>;
 const INIT: ContactForm = { name: "", email: "", phone: "", message: "" };
@@ -28,6 +29,7 @@ const FAQ = [
 ];
 
 const Contact: React.FC = () => {
+  useDocumentTitle("Contact Our Law Firm in Panvel | Paul Legal Associates");
   const [form, setForm] = useState<ContactForm>(INIT);
   const [errors, setErrors] = useState<Errors>({});
   const [submitted, setSubmitted] = useState(false);

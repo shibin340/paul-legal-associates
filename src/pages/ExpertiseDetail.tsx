@@ -2,6 +2,7 @@ import React, { useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { PRACTICE_AREAS } from 'data';
 import CredentialsBar from 'components/ui/CredentialsBar';
+import { useDocumentTitle } from 'hooks/useDocumentTitle';
 
 const ExpertiseDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -11,6 +12,7 @@ const ExpertiseDetail: React.FC = () => {
   const area = PRACTICE_AREAS.find(
     (p) => p.slug === slug || p.id === slug
   );
+  useDocumentTitle(`${area?.title} Lawyers in Navi Mumbai`);
 
   // Filter sidebar areas for UX
   const filteredSidebarAreas = useMemo(() => {

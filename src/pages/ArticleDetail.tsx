@@ -3,10 +3,12 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
 import { getArticleBySlug, getRelatedArticles } from "../data";
+import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const ArticleDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = slug ? getArticleBySlug(slug) : undefined;
+  useDocumentTitle(`${article ? article.title : "Article"} | Paul Legal Associates`);
 
   // Scroll to top whenever a new article is opened
   useEffect(() => {

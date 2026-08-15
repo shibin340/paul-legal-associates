@@ -4,8 +4,11 @@ import AnimateIn from "../components/ui/AnimateIn";
 import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
 import { STATS, VALUES, MILESTONES, PHILOSOPHY, ABOUT_HIGHLIGHTS } from "../data";
+import { useDocumentTitle } from "hooks/useDocumentTitle";
 
-const About: React.FC = () => (
+const About: React.FC = () => {
+  useDocumentTitle("About Our Law Firm | Paul Legal Associates, Navi Mumbai");
+  return(
   <>
     {/* ══ PAGE HERO ══ */}
     <section className="page-hero-wrapper" aria-label="About page hero">
@@ -187,6 +190,6 @@ const About: React.FC = () => (
 
     <CredentialsBar />
   </>
-);
+)};
 
 export default About;
