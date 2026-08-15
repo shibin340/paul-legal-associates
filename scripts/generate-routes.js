@@ -1,5 +1,5 @@
-import fs from 'fs';
-import path from 'path';
+const fs = require('fs');
+const path = require('path');
 
 /**
  * ══ STATIC / CORE PAGES ══
@@ -305,7 +305,7 @@ if (fs.existsSync(sourceIndex)) {
     createdCount++;
   });
 
-  console.log(`✅ Successfully generated ${createdCount} static route directories in /dist.`);
+  console.log(`✅ Successfully generated ${createdCount} static route directories in /build.`);
   console.log(`🔒 GitHub Pages will now return 200 OK headers for all deep URLs.\n`);
 } else {
   console.error(`❌ Error: Source file not found at ${sourceIndex}. Please ensure you run build before this script.`);
