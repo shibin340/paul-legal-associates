@@ -1747,6 +1747,8 @@ export const CREDENTIALS = [
   { icon: "📅", label: "30+ Years of Expertise" },
   { icon: "🏛️", label: "Bombay High Court & Supreme Court of India" },
   { icon: "🏢", label: "Property Law Experts" },
+  { icon: "⚓", label: "Experts in Admiralty & Maritime Law" },
+  { icon: "📊", label: "Finance, Tax & Regulatory Advisory" },
   { icon: "🛡️", label: "Compliance & Audit Advisory" },
 ];
 
@@ -24668,6 +24670,484 @@ export const ARTICLES: Article[] = [
           "The sensible approach is therefore phased: determine applicability, map personal data, identify legal bases and notices, review vendors and contracts, establish retention practices, create breach-response procedures and allocate internal responsibility.",
           "Organisations that begin this exercise before a regulatory problem arises are likely to find implementation considerably easier.",
           "Paul Legal Associates advises businesses on legal compliance, corporate governance, contractual risk, technology-law matters and regulatory readiness, including the development of practical compliance frameworks suited to the organisation's operations."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a148",
+    slug: "commercial-vessel-acquisition-legal-due-diligence",
+    title: "Buying a Commercial Vessel: Why Legal Due Diligence Must Continue Until Closing",
+    category: "Maritime Law",
+    excerpt: "A commercial vessel acquisition involves far more than signing an MOA. Understand the legal checks relating to title, seller authority, payment, delivery, registry and closing.",
+    coverIcon: "🚢",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "January 15, 2026",
+    readTime: "7 min read",
+    tags: ["Vessel Acquisition", "Maritime Due Diligence", "Ship Sale MOA", "Admiralty Law"],
+    content: [
+      {
+        heading: "Commercial Vessel Acquisition: Why Legal Due Diligence Must Continue Until Closing",
+        paragraphs: [
+          "The acquisition of a commercial vessel is fundamentally different from an ordinary asset purchase.",
+          "Although the transaction may begin with the negotiation and execution of a Memorandum of Agreement, signing the contract is only the beginning of the legal process. Between signing and delivery, numerous matters have to converge correctly: the Seller must possess legal authority to sell, the Vessel must be capable of being transferred with clean title, payment arrangements must be properly documented, closing documents must be complete, and the transfer must ultimately be capable of recognition by the relevant flag and registry authorities.",
+          "For a Buyer, the real objective is therefore not merely to obtain physical possession of the Vessel. It is to obtain clean, documented and registrable ownership."
+        ]
+      },
+      {
+        heading: "The Contract Is Only One Part of the Transaction",
+        paragraphs: [
+          "Ship sale transactions are frequently documented using established industry forms such as SALEFORM. Standard documentation, however, does not eliminate transaction-specific risk.",
+          "Every vessel has its own ownership history, registration position, class status, financing arrangements, technical condition and documentary trail. Similarly, every Seller has its own corporate structure, authorised signatories and internal approvals.",
+          "The legal review must therefore extend beyond the wording of the MOA to the documents and circumstances that will actually enable the transaction to close.",
+          "This normally involves examining subsequent amendments, addenda, side letters, undertakings, payment instructions, closing correspondence and other documents generated during the course of the transaction."
+        ]
+      },
+      {
+        heading: "Seller Authority Must Be Established",
+        paragraphs: [
+          "One of the first questions in any vessel acquisition should be deceptively simple: Does the person purporting to sell the Vessel actually have authority to do so?",
+          "Where the Seller is a corporate entity, the answer ordinarily requires examination of its corporate status and the authority of those acting on its behalf.",
+          "Depending upon the transaction, the Buyer may need to review corporate-registration records, board or shareholder approvals, powers of attorney, authorised signatory documents and the authority under which the MOA and eventual Bill of Sale are being executed. The assignment itself specifically contemplates verification of incorporation records, corporate standing, directors, resolutions, powers of attorney and authority to execute the transaction documents.",
+          "An inconsistency discovered after the purchase consideration has been released can create complications that are significantly harder to resolve."
+        ]
+      },
+      {
+        heading: "Title Must Be Examined, Not Assumed",
+        paragraphs: [
+          "A commercial vessel may be subject to mortgages, registered charges, maritime claims, detention issues or other encumbrances.",
+          "The Buyer should therefore obtain and examine available ownership and encumbrance documentation and ensure that the Seller's contractual obligation to deliver the Vessel free of mortgages, encumbrances and claims is capable of being fulfilled.",
+          "Legal due diligence in this area is not merely a search exercise. The findings must be linked directly to the closing conditions.",
+          "If a mortgage exists, for example, the legal question is not simply whether it exists. The transaction must address how and when it will be discharged and what evidence of discharge will be available before or at closing.",
+          "The buyer-side review contemplated in a properly structured transaction therefore considers registered ownership, mortgages, charges, disclosed maritime liens and other restrictions affecting title."
+        ]
+      },
+      {
+        heading: "Payment Arrangements Require Independent Legal Attention",
+        paragraphs: [
+          "Payment can be one of the highest-risk stages of an international vessel acquisition.",
+          "The account into which the Buyer is instructed to remit funds must be properly verified. Where the beneficiary is different from the contractual Seller, additional safeguards become particularly important.",
+          "The documentation should establish why the beneficiary is entitled to receive the money and, importantly, confirm that payment into the authorised account constitutes complete discharge of the Buyer's payment obligation.",
+          "A Buyer should never reach a position where substantial consideration has been transferred but the Seller is subsequently able to contend that payment was made to an unauthorised person."
+        ]
+      },
+      {
+        heading: "Flag and Registry Requirements Must Be Addressed Before Closing",
+        paragraphs: [
+          "The legal transfer of a vessel also has to work from a registration perspective.",
+          "Where the Vessel is registered under a foreign flag, transaction counsel should coordinate with the relevant registry, flag administration and local professionals where required.",
+          "Typical issues include the form and execution of the Bill of Sale, ownership and encumbrance certificates, authentication or legalisation requirements, recordation of the new ownership and consequential updating of registry documentation.",
+          "For Panama-flagged vessels, for example, the underlying assignment requires transaction-specific verification of transfer, Bill of Sale, authentication, encumbrance and registration requirements rather than assumptions about registry procedure."
+        ]
+      },
+      {
+        heading: "Closing Should Be Managed as a Controlled Process",
+        paragraphs: [
+          "A well-managed vessel closing should not depend upon informal assurances that documents will follow later.",
+          "A transaction-specific closing checklist can be used to track Seller deliverables, Buyer deliverables, registry requirements, banking requirements, corporate approvals and the conditions that must be satisfied before purchase consideration is released.",
+          "Physical delivery and legal ownership are not the same thing. The Protocol of Delivery and Acceptance is an important closing document, but delivery must be properly coordinated with payment, title transfer and documentary completion.",
+          "A commercially successful purchase is not simply one where the Buyer receives the Vessel. It is one where the Buyer receives the Vessel with the legal authority, title documents, payment discharge, closing evidence and registry pathway necessary to establish unquestionable ownership."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a149",
+    slug: "vessel-sale-moa-legal-review",
+    title: "The Memorandum of Agreement in a Vessel Sale: Why Contract Review Goes Beyond Standard Clauses",
+    category: "Maritime Law",
+    excerpt: "The MOA is the contractual backbone of a vessel sale. Learn why careful legal review of payment, title, delivery, defaults, inspections and closing obligations is essential.",
+    coverIcon: "📜",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "January 28, 2026",
+    readTime: "7 min read",
+    tags: ["MOA Review", "SALEFORM", "Ship Purchase Contract", "Maritime Contracts"],
+    content: [
+      {
+        heading: "The Memorandum of Agreement in a Vessel Sale: Why Contract Review Goes Beyond Standard Clauses",
+        paragraphs: [
+          "Commercial ship sale transactions frequently begin with a familiar proposition: the parties have agreed on the Vessel, the commercial price has been negotiated, and a standard-form Memorandum of Agreement is circulated for signature.",
+          "Because widely recognised forms are used across the shipping industry, there can sometimes be an assumption that legal review is largely procedural. That assumption can be costly.",
+          "A standard form provides the framework for the transaction. It does not eliminate the need to analyse how the particular transaction actually works."
+        ]
+      },
+      {
+        heading: "The MOA Is the Transaction's Legal Architecture",
+        paragraphs: [
+          "The Memorandum of Agreement determines the respective rights and obligations of the Buyer and Seller from signing through completion.",
+          "Among other matters, it generally interacts with questions relating to payment, inspections, delivery, documentary requirements, title, default and closing.",
+          "The legal exercise is therefore not merely to identify whether a particular clause is standard. The more important question is: Does the contract accurately reflect the commercial arrangement actually agreed between the parties?",
+          "Where commercial arrangements change after signing, the documentation must move with them. This is where amendments, addenda, confirmations, side letters and supplemental documentation become particularly important."
+        ]
+      },
+      {
+        heading: "Commercial Understandings Should Not Remain Outside the Contract",
+        paragraphs: [
+          "Shipping transactions often move quickly. Negotiations may take place through brokers, email exchanges, calls or messaging platforms.",
+          "A problem arises when the parties proceed on the basis of an important commercial understanding that is not adequately reflected in the signed documents.",
+          "For example, the parties may subsequently agree upon a different payment route, additional documentary requirements, treatment of certain Vessel defects, delivery of additional machinery or spares, or specific pre-payment confirmations.",
+          "If these arrangements materially affect the transaction, they should ordinarily be documented through a carefully drafted addendum to avoid ambiguity."
+        ]
+      },
+      {
+        heading: "Payment Clauses and Delivery Obligations",
+        paragraphs: [
+          "The payment provisions must work not only contractually but operationally.",
+          "The legal documentation should identify who is entitled to receive the funds, the account into which the money is to be transferred, any conditions that must be satisfied before payment and what constitutes valid discharge of the Buyer's obligation.",
+          "Delivery is not merely the moment when the Buyer takes possession of the Vessel. It is a contractual event.",
+          "Typical closing documentation can include the Bill of Sale, corporate resolutions, powers of attorney, ownership and encumbrance certificates, class documentation, payment confirmations, registry papers, undertakings and the Protocol of Delivery and Acceptance."
+        ]
+      },
+      {
+        heading: "Inspection Findings and Asset Spares",
+        paragraphs: [
+          "Where an inspection identifies damage, defects or recommendations, transaction counsel should examine how those findings interact with the contractual provisions governing delivery.",
+          "The lawyer does not determine whether machinery is technically seaworthy; the lawyer determines the contractual consequences of the technical findings.",
+          "Commercial negotiations often include equipment in addition to the Vessel itself — such as spare engines, gearboxes, propellers or other machinery.",
+          "If spares form part of the sale, they should be adequately identified in the transaction documentation via inventories, serial numbers and ownership confirmations."
+        ]
+      },
+      {
+        heading: "Closing Is Where Contract Drafting Is Tested",
+        paragraphs: [
+          "The true quality of an MOA often becomes apparent only during closing.",
+          "A strong agreement gives the parties a clear answer to practical questions: What documents must the Seller produce? Who determines whether closing requirements have been fulfilled? When must payment occur? When does possession transfer? When does title pass? What happens if an expected document is unavailable?",
+          "The function of transaction counsel is not to rewrite industry documentation unnecessarily, but to ensure that the documentation actually works when the transaction reaches payment, delivery and transfer of ownership."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a150",
+    slug: "third-party-payment-vessel-acquisition",
+    title: "Paying a Third-Party Beneficiary in a Vessel Acquisition: Legal Safeguards Buyers Should Insist Upon",
+    category: "Maritime Law",
+    excerpt: "When vessel purchase consideration is paid to an account other than the contractual Seller's account, carefully documented authority and payment discharge become essential.",
+    coverIcon: "💳",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "February 14, 2026",
+    readTime: "6 min read",
+    tags: ["Vessel Financing", "Payment Security", "Escrow & Remittance", "Maritime Transactions"],
+    content: [
+      {
+        heading: "Paying a Third-Party Beneficiary in a Vessel Acquisition: Legal Safeguards Buyers Should Insist Upon",
+        paragraphs: [
+          "International vessel acquisitions frequently involve brokers, ship managers, group companies, agents and other commercial intermediaries.",
+          "It is therefore possible for a Buyer to receive instructions requiring the purchase consideration to be transferred to a bank account that is not maintained in the exact name of the contractual Seller.",
+          "Such an arrangement may have a perfectly legitimate commercial explanation. From a legal perspective, however, it creates an important question: If the Buyer pays the nominated third party, has the Buyer legally paid the Seller?",
+          "That question should be conclusively answered before funds are transferred."
+        ]
+      },
+      {
+        heading: "The Contractual Seller and Bank Beneficiary Should Be Reconciled",
+        paragraphs: [
+          "The starting point is the MOA.",
+          "If Entity A is identified as the Seller but the Buyer is subsequently instructed to remit the consideration to Entity B, the documentary record must establish the connection between the two.",
+          "The Buyer should not be required to infer authority merely because the payment instructions were transmitted through a familiar commercial channel.",
+          "The underlying assignment specifically requires examination of the relationship between the contractual Seller and a nominated third-party beneficiary, including written payment instructions, authority to receive monies, acknowledgments, bank verification and appropriate representations and indemnities."
+        ]
+      },
+      {
+        heading: "Written Payment Instructions and Recipient Authority",
+        paragraphs: [
+          "The Seller should provide clear and appropriately authorised written instructions identifying the account into which payment is to be made.",
+          "Those instructions should correspond with the corporate authority of the person issuing them, backed by board authority, powers of attorney or signatory confirmation.",
+          "The purpose is to establish a clear evidentiary chain showing that the Seller knowingly and validly directed the Buyer to make payment in a particular manner.",
+          "The Buyer may additionally require an acknowledgment from the nominated beneficiary confirming its authority to receive the money on behalf of the Seller."
+        ]
+      },
+      {
+        heading: "The Most Important Protection: Full and Complete Discharge",
+        paragraphs: [
+          "Even valid payment instructions may not be enough.",
+          "The transaction documents should expressly state the legal consequence of complying with those instructions.",
+          "The Buyer should seek wording confirming that payment of the purchase consideration into the properly verified nominated account constitutes full and complete discharge of the Buyer's payment obligation under the sale transaction.",
+          "Without such language, a theoretical risk remains that a later dispute between the Seller and recipient could be redirected towards the Buyer."
+        ]
+      },
+      {
+        heading: "Independent Bank Verification and Contractual Addenda",
+        paragraphs: [
+          "Bank-account fraud represents a serious risk in high-value cross-border transactions. A convincing email containing replacement payment instructions may still be fraudulent.",
+          "Verification procedures should be agreed in advance, involving independent communication through verified contact channels, corporate confirmations and bank verification protocols.",
+          "Where the payment mechanism differs materially from the arrangement recorded in the signed MOA, an addendum should record the agreed mechanism, nominated beneficiary, Seller direction, discharge terms, and indemnities into one coherent contractual record.",
+          "Before substantial purchase consideration is transferred, the documentary chain must clearly show who authorised the payment, why the recipient is entitled to receive it, and that payment fully discharges the Buyer."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a151",
+    slug: "vessel-title-mortgages-maritime-liens",
+    title: "Clean Title at Sea: Mortgages, Maritime Liens and Encumbrances in Vessel Sale Transactions",
+    category: "Maritime Law",
+    excerpt: "A Buyer must obtain more than possession of a ship. This article examines ownership, mortgages, liens, encumbrances and clean-title protections in vessel acquisitions.",
+    coverIcon: "⚓",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "March 02, 2026",
+    readTime: "7 min read",
+    tags: ["Maritime Liens", "Ship Mortgages", "Title Due Diligence", "Clean Title"],
+    content: [
+      {
+        heading: "Clean Title at Sea: Mortgages, Maritime Liens and Encumbrances in Vessel Sale Transactions",
+        paragraphs: [
+          "When acquiring a commercial vessel, one of the Buyer's most important objectives can be expressed in two words: clean title.",
+          "The Vessel may be physically inspected, commercially attractive and ready for delivery, but none of those factors independently establishes that ownership can pass free from competing legal interests.",
+          "Title due diligence is therefore a core component of a ship sale transaction."
+        ]
+      },
+      {
+        heading: "Registered Ownership Is the Starting Point",
+        paragraphs: [
+          "The Buyer should first establish who appears as the registered owner of the Vessel.",
+          "That information must correspond with the Seller identified in the transaction documentation or otherwise be satisfactorily reconciled.",
+          "Any inconsistency should be investigated before closing through official ownership documentation, registry records and certificates of ownership and encumbrances."
+        ]
+      },
+      {
+        heading: "Mortgages Require Closing Solutions",
+        paragraphs: [
+          "Commercial vessels are frequently financed assets. The existence of a registered mortgage does not necessarily prevent a sale, but it must be dealt with properly.",
+          "A Buyer should understand who holds the mortgage, what documentation is required for its discharge, when the discharge will occur, and what evidence will be available to the Buyer at closing.",
+          "The transaction should not simply assume that a mortgage will disappear after payment. The mechanism for obtaining clean title should be built directly into the closing sequence."
+        ]
+      },
+      {
+        heading: "Maritime Liens and Administrative Restrictions",
+        paragraphs: [
+          "Maritime liens present particular complexity because maritime claims do not always operate in the same manner as ordinary registered security interests.",
+          "The nature, recognition and enforceability of such claims may depend upon applicable law and jurisdiction.",
+          "The Buyer should seek appropriate Seller representations, contractual protections, available searches and documentary assurances regarding liabilities affecting the Vessel.",
+          "Title review should also consider any detention, administrative restriction or arrest threat that may affect the Buyer's ability to operate, move or register the Vessel after delivery."
+        ]
+      },
+      {
+        heading: "The Bill of Sale and Clean Title as Closing Conditions",
+        paragraphs: [
+          "The Bill of Sale is central to the transfer of ownership. Its form, execution, authentication and supporting documents must be compatible with the requirements of the applicable registry.",
+          "In an international transaction, notarisation, apostille, legalisation, recordation or other formalities must be verified with local registry professionals.",
+          "The Buyer's protections become strongest when title requirements are linked directly to payment as conditions precedent.",
+          "Commercial vessel acquisitions must deliberately sequence physical delivery, passing of risk, passing of title, release of consideration, and registry recordation so that clean, legally defensible title is achieved."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a152",
+    slug: "panama-flag-vessel-ownership-transfer",
+    title: "Flag-State and Registry Due Diligence in Vessel Ownership Transfers: A Panama-Flag Perspective",
+    category: "Maritime Law",
+    excerpt: "Foreign-flag vessel acquisitions require careful coordination with the flag administration and registry. We examine ownership transfer and registration issues using Panama-flag transactions as a practical example.",
+    coverIcon: "🇵🇦",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "March 18, 2026",
+    readTime: "7 min read",
+    tags: ["Panama Flag", "Ship Registration", "Flag State Administration", "Bill of Sale"],
+    content: [
+      {
+        heading: "Flag-State and Registry Due Diligence in Vessel Ownership Transfers: A Panama-Flag Perspective",
+        paragraphs: [
+          "A vessel acquisition does not conclude merely because the Buyer and Seller execute a contract and exchange consideration.",
+          "Commercial vessels exist within an international registration framework.",
+          "Accordingly, ownership documentation that is commercially acceptable to the parties must also be capable of satisfying the requirements of the relevant flag administration and registry.",
+          "This becomes particularly important in acquisitions involving Panama-flagged vessels."
+        ]
+      },
+      {
+        heading: "Why the Flag Registry Matters",
+        paragraphs: [
+          "The registry records the Vessel's ownership and other relevant particulars under the applicable flag-state regime.",
+          "The Buyer therefore needs to understand, before closing, what will be required for the new ownership to be recognised and recorded.",
+          "A transaction that closes contractually but leaves unresolved registration issues may create avoidable post-closing uncertainty."
+        ]
+      },
+      {
+        heading: "Registry Requirements and Authentication Formalities",
+        paragraphs: [
+          "The Buyer or its counsel should verify transaction-specific requirements relating to registered ownership, transfer documentation, Bill of Sale forms, encumbrance certificates, corporate standing, and recordation requirements.",
+          "In Panama-flag transactions, the workstream specifically requires verification of current registered ownership, Bill of Sale protocols, encumbrance certificates, and continued registration under the Panama flag.",
+          "Cross-border transactions frequently involve notarisation, authentication, apostille, or consular legalisation depending upon the registry.",
+          "Because authentication formalities take time, counsel should work backwards from the proposed closing date to prevent delays."
+        ]
+      },
+      {
+        heading: "Corporate Documents and Local Counsel Coordination",
+        paragraphs: [
+          "The Buyer must also produce its own incorporation documents, board resolutions, powers of attorney and signatory authorisations in registry-ready format.",
+          "Where the purchasing entity is an offshore company or special-purpose vehicle, corporate approvals must accurately identify the Vessel and authorised signatories.",
+          "Where Panamanian law or registry practice requires filings to be handled through local counsel, a resident agent or authorised representatives, transaction counsel must coordinate closely.",
+          "Local requirements should be integrated into the closing checklist so the Buyer knows what must precede fund release and what can safely follow after closing."
+        ]
+      },
+      {
+        heading: "Registry-Focused Closing Checklists and Post-Closing Follow-Up",
+        paragraphs: [
+          "A Panama or flag-specific checklist converts abstract legal issues into an operational closing tool by tracking document forms, authentication needs, and verification status.",
+          "Even after physical delivery, post-closing legal support is required to track registration filings, confirm ownership recordation, review updated certificates, and rectify transaction records.",
+          "Flag-state and registry due diligence should never be treated as an afterthought; it is an essential part of acquiring defensible vessel ownership."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a153",
+    slug: "vessel-purchase-payment-escrow-direct-payment",
+    title: "Escrow or Direct Payment? Protecting Purchase Consideration in Cross-Border Vessel Acquisitions",
+    category: "Maritime Law",
+    excerpt: "Whether a vessel transaction uses escrow or direct remittance, the Buyer should control beneficiary verification, release conditions, bank instructions and documentary safeguards.",
+    coverIcon: "💰",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "April 05, 2026",
+    readTime: "7 min read",
+    tags: ["Escrow Agreements", "Cross Border Payments", "Direct Remittance", "Cyber Fraud Prevention"],
+    content: [
+      {
+        heading: "Escrow or Direct Payment? Protecting Purchase Consideration in Cross-Border Vessel Acquisitions",
+        paragraphs: [
+          "In a commercial vessel acquisition, the transfer of purchase consideration is usually the point at which transactional risk becomes most concentrated.",
+          "Until payment, many legal and documentary issues can still be corrected. Once substantial funds have been irrevocably transferred, the Buyer's negotiating position can change dramatically.",
+          "For this reason, the payment mechanism deserves the same legal attention as title and delivery."
+        ]
+      },
+      {
+        heading: "Escrow Structures: Separating Funding From Release",
+        paragraphs: [
+          "An escrow structure enables the Buyer to deposit money with an agreed escrow agent while preventing the Seller from receiving the funds until specified release conditions have been fulfilled.",
+          "When properly structured, an escrow agreement should address the authority and duties of the escrow agent, segregation of funds, release instructions, authorised signatories, refund mechanisms and consequences of a failed closing.",
+          "However, escrow is not automatically risk-free. The Buyer must examine who holds the account, whether liens or set-offs apply, what evidence triggers release, and what happens upon Seller default."
+        ]
+      },
+      {
+        heading: "Direct Payment Controls and Cyber-Fraud Prevention",
+        paragraphs: [
+          "Where parties agree on direct payment to simplify mechanics, the legal focus shifts towards beneficiary authority, bank account verification, conditional remittance rules, and full legal discharge.",
+          "High-value international transactions are particularly vulnerable to payment-redirection fraud where bad actors issue fraudulent replacement banking instructions.",
+          "The Buyer should establish independent verification protocols using previously verified telephone or corporate channels rather than relying solely on email communications.",
+          "KYC, AML, and sanctions compliance requirements must also be addressed in advance with participating banks."
+        ]
+      },
+      {
+        heading: "Coordinating Simultaneous Exchange of Consideration and Title",
+        paragraphs: [
+          "Payment should form part of a coordinated closing process governed by a live checklist covering Seller deliverables, title evidence, discharge papers, and delivery protocols.",
+          "In an ideal closing sequence, the Buyer avoids a large time gap between transferring funds and receiving closing documents and possession.",
+          "The closing sequence should achieve a coordinated exchange of consideration release, document delivery, Protocol of Delivery and Acceptance execution, and title transfer.",
+          "A well-structured payment process ensures that fund remittance is backed by documented closing conditions rather than assumptions."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a154",
+    slug: "vessel-sale-closing-checklist-conditions-precedent",
+    title: "Closing a Vessel Sale: Conditions Precedent, Delivery Documents and the Importance of a Closing Checklist",
+    category: "Maritime Law",
+    excerpt: "A vessel closing involves coordinated payment, title documents, registry requirements and physical delivery. A transaction-specific closing checklist helps control the process.",
+    coverIcon: "📋",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "April 22, 2026",
+    readTime: "7 min read",
+    tags: ["Conditions Precedent", "Closing Checklist", "Protocol of Delivery", "Ship Delivery"],
+    content: [
+      {
+        heading: "Closing a Vessel Sale: Conditions Precedent, Delivery Documents and the Importance of a Closing Checklist",
+        paragraphs: [
+          "A commercial vessel closing can involve multiple organisations operating across different jurisdictions and time zones.",
+          "The Buyer, Seller, brokers, banks, lawyers, registry representatives, surveyors and the Vessel itself may all be located in different places.",
+          "Without disciplined coordination, even a commercially agreed transaction can become difficult during the final stages.",
+          "This is why one of the most useful documents in a vessel acquisition is the transaction closing checklist."
+        ]
+      },
+      {
+        heading: "What Is a Closing Checklist?",
+        paragraphs: [
+          "A closing checklist is a transaction-control document that identifies the documents, approvals, confirmations and actions required before the purchase can be completed and records responsibility for each item.",
+          "In a vessel sale it covers Seller deliverables, Buyer deliverables, title documents, corporate approvals, banking requirements, registry requirements, payment conditions, class documentation, spares records, and delivery papers.",
+          "Maintaining a live Conditions Precedent / Closing Checklist ensures that outstanding items are identified and resolved before closing day."
+        ]
+      },
+      {
+        heading: "Conditions Precedent and Advance Document Review",
+        paragraphs: [
+          "A condition precedent is something that must occur or be satisfactorily addressed before a particular contractual step becomes due.",
+          "Certain documents and confirmations must be resolved before purchase consideration is released.",
+          "One of the most effective ways to reduce closing risk is to obtain and review draft closing documents in advance rather than on closing day.",
+          "Advance review allows counsel to identify incorrect vessel particulars, execution defects, missing corporate powers, contradictory language, and registry authentication flaws."
+        ]
+      },
+      {
+        heading: "Differentiating Legal Review from Technical Survey Records",
+        paragraphs: [
+          "Commercial vessels carry classification and statutory documentation.",
+          "Transaction counsel reviews such records from a contractual standpoint — ensuring required certificates are delivered and reviewing the legal impact of class recommendations on delivery obligations.",
+          "The lawyer does not replace the marine surveyor or technical superintendent; the legal team evaluates the contractual consequences of the technical findings.",
+          "The Protocol of Delivery and Acceptance formally records delivery and acceptance, and its execution must be carefully aligned with fund release and title transfer."
+        ]
+      },
+      {
+        heading: "Documenting Spares and Controlled Closings",
+        paragraphs: [
+          "Where the sale includes spare engines, gearboxes, propellers, or other machinery, the checklist should track inventories, serial numbers, locations, and handover protocols.",
+          "The role of transaction counsel is to distinguish between minor administrative items that can follow closing and material conditions that must be resolved prior to payment.",
+          "When corporate documents, title evidence, payment arrangements, registry filings, and delivery records are systematically verified, closing becomes an orderly sequence rather than a scramble."
+        ]
+      }
+    ]
+  },
+  {
+    id: "a155",
+    slug: "vessel-acquisition-post-closing-registration",
+    title: "After Delivery: Why Post-Closing Legal Work Matters in a Vessel Acquisition",
+    category: "Maritime Law",
+    excerpt: "Physical delivery of a vessel does not always conclude the legal transaction. Registry recordation, outstanding undertakings and post-closing documentation may still require attention.",
+    coverIcon: "✅",
+    author: "Adv. Sojan Paul",
+    authorRole: "Managing Partner",
+    date: "May 10, 2026",
+    readTime: "7 min read",
+    tags: ["Post-Closing", "Ship Recordation", "Seller Undertakings", "Vessel Title Transfer"],
+    content: [
+      {
+        heading: "After Delivery: Why Post-Closing Legal Work Matters in a Vessel Acquisition",
+        paragraphs: [
+          "The signing of the Protocol of Delivery and Acceptance is often treated as the natural conclusion of a vessel sale.",
+          "Commercially, it is certainly an important milestone. Legally, however, there may still be work to complete.",
+          "International vessel acquisitions can leave post-closing items outstanding, particularly where registration documents, certifications or Seller undertakings follow the delivery sequence.",
+          "A properly structured legal engagement must extend beyond the moment the Vessel changes hands."
+        ]
+      },
+      {
+        heading: "Delivery and Registration Are Different Stages",
+        paragraphs: [
+          "Physical delivery transfers operational control of the Vessel.",
+          "Registry recordation establishes the Buyer's ownership within the applicable flag-state registration system.",
+          "These events may occur close together but not necessarily at the exact same moment.",
+          "Transaction counsel must track the registration process after delivery and obtain formal confirmation once the Buyer's title has been officially recorded in the registry."
+        ]
+      },
+      {
+        heading: "Tracking Outstanding Undertakings and Certificates",
+        paragraphs: [
+          "Where a Buyer agrees to close against Seller undertakings to furnish specific documents post-closing, those obligations must be tracked against strict deadlines.",
+          "Post-closing certificates and registry records should be scrutinized to confirm that vessel names, official numbers, corporate particulars, and ownership percentages are accurate.",
+          "Uncorrected errors can cause severe complications during subsequent vessel financing, chartering, insurance coverage, or onward resale.",
+          "Where typographical errors or omissions arise, counsel should prepare corrective confirmations, execute addenda, or coordinate with registry authorities."
+        ]
+      },
+      {
+        heading: "Handover of Spares and Final Transaction Records",
+        paragraphs: [
+          "Where spare engines, propellers, or ancillary machinery are located away from the Vessel, post-closing tracking is essential to ensure complete physical handover.",
+          "The final transaction file should contain an organized, complete record of all MOA addenda, resolutions, powers of attorney, Bills of Sale, payment confirmations, discharge certificates, and registry title deeds.",
+          "This closing record is vital for corporate audits, banking relationships, tax compliance, and defending against pre-delivery claims.",
+          "A vessel acquisition is complete only when the Buyer possesses clean title documents, registry recordation is finalised, all undertakings are discharged, and the closing record is formally closed."
         ]
       }
     ]
