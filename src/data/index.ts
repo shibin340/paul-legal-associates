@@ -3,6 +3,7 @@ import type { NavLink, PracticeArea, TeamMember, Stat, Testimonial, OfficeHour, 
 export const NAV_LINKS: NavLink[] = [
   { label: "Home", path: "/" },
   { label: "About Us", path: "/about" },
+  { label: "Finance & Tax", path: "/finance-tax-regulatory-advisory" },
   { label: "Expertise", path: "/expertise" },
   { label: "Our Partners", path: "/partners" },
   { label: "Insights", path: "/insights" },

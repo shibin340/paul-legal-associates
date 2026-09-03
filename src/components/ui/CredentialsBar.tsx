@@ -9,7 +9,7 @@ const CredentialsBar: React.FC = () => (
           <span className="text-gold text-lg" aria-hidden="true">
             {c.icon}
           </span>
-          <span className="text-2xs font-semibold tracking-[0.15em] uppercase text-cream/70">
+          <span className="text-2xs font-semibold tracking-[0.15em] uppercase text-cream/70 text-center">
             {c.label}
           </span>
         </div>

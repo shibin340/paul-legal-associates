@@ -14,6 +14,7 @@ import Insights from "pages/Insights";
 import ArticleDetail from "pages/ArticleDetail";
 import ExpertiseDetail from "pages/ExpertiseDetail";
 import PartnerDetail from "pages/PartnerDetail";
+import FinanceTaxRegulatoryAdvisory from "pages/FinanceTaxRegulatoryAdvisory";
 
 const App: React.FC = () => (
   <BrowserRouter>
@@ -29,6 +30,7 @@ const App: React.FC = () => (
         <Route path="insights" element={<Insights />} />
         <Route path="insights/:slug" element={<ArticleDetail />} />
         <Route path="contact" element={<Contact />} />
+        <Route path="finance-tax-regulatory-advisory" element={<FinanceTaxRegulatoryAdvisory />} />
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>

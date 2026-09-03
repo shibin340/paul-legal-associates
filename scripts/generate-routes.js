@@ -9,7 +9,8 @@ const CORE_ROUTES = [
   '/expertise',
   '/partners',
   '/insights',
-  '/contact'
+  '/contact',
+  '/finance-tax-regulatory-advisory'
 ];
 
 /**

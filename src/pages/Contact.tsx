@@ -110,7 +110,6 @@ ${form.message}
                 { icon: "📍", label: "Office Address", value: CONTACT_INFO.address, href: undefined, multi: true },
                 { icon: "📞", label: "Mobile", value: CONTACT_INFO.phone, href: `tel:${CONTACT_INFO.phone}`, multi: false },
                 { icon: "✉️", label: "Email", value: CONTACT_INFO.email, href: `mailto:${CONTACT_INFO.email}`, multi: false },
-                { icon: "🌐", label: "Website", value: CONTACT_INFO.website, href: `https://${CONTACT_INFO.website}`, multi: false },
               ].map(item => (
                 <div key={item.label} className="flex items-start gap-4">
                   <div className="w-10 h-10 flex-shrink-0 bg-navy flex items-center justify-center text-base" aria-hidden="true">{item.icon}</div>
@@ -182,7 +181,7 @@ ${form.message}
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1.5">
                       <label className="form-label" htmlFor="phone">Phone Number *</label>
-                      <input id="phone" name="phone" type="tel" className={`${inputBase} ${errors.phone ? inputErr : inputOk}`} placeholder="+91 79770 63567" value={form.phone} onChange={handleChange} />
+                      <input id="phone" name="phone" type="tel" className={`${inputBase} ${errors.phone ? inputErr : inputOk}`} placeholder="+91 99999 99999" value={form.phone} onChange={handleChange} />
                       {errors.phone && <span className="text-[0.75rem] text-red-500" role="alert">{errors.phone}</span>}
                     </div>
                   </div>
