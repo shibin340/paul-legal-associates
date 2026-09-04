@@ -65,43 +65,58 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
   return (
     <>
       {/* ══ HERO SECTION ══ */}
-      <section className="page-hero-wrapper" aria-label="Finance, Tax and Regulatory Advisory hero">
+      <section className="page-hero-wrapper relative overflow-hidden" aria-label="Finance, Tax and Regulatory Advisory hero">
         <div className="absolute inset-0 bg-page-hero-radial z-0" aria-hidden="true" />
         <div className="absolute inset-0 bg-page-grid-lines z-0" aria-hidden="true" />
-        <div className="relative z-10 max-w-[850px] animate-pageFadeIn">
-          <div className="eyebrow-row">
-            <div className="eyebrow-line" />
-            <span className="eyebrow-text">Practice Vertical</span>
-          </div>
-          <h1 className="font-serif font-bold text-cream leading-[1.1] mt-3 mb-4" style={{ fontSize: "clamp(2.3rem,4.8vw,3.8rem)" }}>
-            Finance, Tax & Regulatory Advisory
-          </h1>
-          <p className="text-gold font-serif-alt italic text-[1.15rem] sm:text-[1.3rem] mb-6">
-            Integrated Finance, Tax, Compliance & Cross-Border Solutions for Businesses
-          </p>
-          <div className="font-serif-alt font-light text-cream/80 leading-[1.8] text-[1.05rem] space-y-4">
-            <p>
-              Business decisions increasingly sit at the intersection of law, finance, taxation, accounting and regulation. A company may be commercially ready to transact, yet still face delays or exposure because its financial records, tax position, FEMA requirements, banking documentation or statutory filings have not been aligned.
-            </p>
-            <p>
-              Paul Legal Associates provides a coordinated advisory platform covering finance, accounting, taxation, payroll, audit coordination, corporate compliance, transfer pricing, FEMA/RBI matters, foreign investment and cross-border transactions.
-            </p>
-            <p>
-              We work in collaboration with a network of Chartered Accountants, Company Secretaries, tax professionals, valuation professionals, banking specialists and other regulatory advisors, where required, to provide clients with a practical and coordinated solution.
-            </p>
-            <p>
-              Whether you are an Indian company managing recurring financial compliances, a growing business requiring stronger reporting and controls, a foreign subsidiary operating in India, or an overseas investor implementing an India transaction, our objective is to support the complete business and regulatory lifecycle.
-            </p>
-          </div>
 
-          <div className="mt-8 pt-6 border-t border-gold/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-            <div className="text-cream text-[0.95rem] font-medium">
-              Looking for an integrated Finance, Tax & Regulatory Partner?
+        <div className="relative z-10 max-w-8xl mx-auto w-full px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+
+            {/* Left Column: Content (7 cols) */}
+            <div className="lg:col-span-7 animate-pageFadeIn">
+              <div className="eyebrow-row">
+                <div className="eyebrow-line" />
+                <span className="eyebrow-text">Practice Vertical</span>
+              </div>
+              <h1 className="font-serif font-bold text-cream leading-[1.1] mt-3 mb-4" style={{ fontSize: "clamp(2.1rem,4.2vw,3.6rem)" }}>
+                Finance, Tax & Regulatory Advisory
+              </h1>
+              <p className="text-gold font-serif-alt italic text-[1.1rem] sm:text-[1.25rem] mb-5">
+                Integrated Finance, Tax, Compliance & Cross-Border Solutions for Businesses
+              </p>
+              <div className="font-serif-alt font-light text-cream/80 leading-[1.75] text-[0.98rem] space-y-3.5">
+                <p>
+                  Business decisions increasingly sit at the intersection of law, finance, taxation, accounting and regulation. A company may be commercially ready to transact, yet still face delays or exposure because its financial records, tax position, FEMA requirements, banking documentation or statutory filings have not been aligned.
+                </p>
+                <p>
+                  Paul Legal Associates provides a coordinated advisory platform covering finance, accounting, taxation, payroll, audit coordination, corporate compliance, transfer pricing, FEMA/RBI matters, foreign investment and cross-border transactions.
+                </p>
+                <p>
+                  We work in collaboration with a network of Chartered Accountants, Company Secretaries, tax professionals, valuation professionals, banking specialists and other regulatory advisors, where required, to provide clients with a practical and coordinated solution.
+                </p>
+                <p>
+                  Whether you are an Indian company managing recurring financial compliances, a growing business requiring stronger reporting and controls, a foreign subsidiary operating in India, or an overseas investor implementing an India transaction, our objective is to support the complete business and regulatory lifecycle.
+                </p>
+              </div>
+
+              <div className="mt-8 pt-6 border-t border-gold/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
+                <div className="text-cream text-[0.92rem] font-medium">
+                  Looking for an integrated Finance, Tax & Regulatory Partner?
+                </div>
+                <div className="flex gap-4 flex-wrap">
+                  <Link to="/contact" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
+                    Send Us Your Requirement
+                  </Link>
+                </div>
+              </div>
             </div>
-            <div className="flex gap-4 flex-wrap">
-              {/* <Link to="/contact" className="btn-primary">Book a Consultation</Link> */}
-              <Link to="/contact" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">Send Us Your Requirement</Link>
+
+            {/* Right Column: 3D Spiral Orbit Visual (5 cols) */}
+            <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative">
+              {/* <PlaFinance3DOrbit /> */}
+              <img src='/images/ChatGPT.webp' alt='Finance, tax, regulatory compliance and growth represented as a connected advisory orbit' className='object-contain pointer-events-none' />
             </div>
+
           </div>
         </div>
       </section>
@@ -461,7 +476,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
       <section className="bg-white py-24 px-[5vw] border-b border-navy/10">
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-14 items-start">
-            
+
             {/* Who We Assist */}
             <div>
               <div className="eyebrow-row mb-2">
