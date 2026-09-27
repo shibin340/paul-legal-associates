@@ -1,5 +1,5 @@
 # ====================================================================
-# Robots.txt for Paul Legal Associates (https://www.paullegalassociates.com)
+# Robots.txt for Paul Legal Associates (https://paullegalassociates.com)
 # ====================================================================
 
 User-agent: *
@@ -13,4 +13,4 @@ Allow: /insights
 Allow: /contact
 
 # Point all crawlers to the static site architecture map
-Sitemap: https://www.paullegalassociates.com/sitemap.xml
+Sitemap: https://paullegalassociates.com/sitemap.xml

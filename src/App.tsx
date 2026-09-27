@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
 import "./index.css";
 import ScrollToTop from "hooks/ScrollToTop";
+import RouteMetadata from "./components/layout/RouteMetadata";
 
 import Home from "./pages/Home";
 import About from "./pages/About";
@@ -19,6 +20,7 @@ import FinanceTaxRegulatoryAdvisory from "pages/FinanceTaxRegulatoryAdvisory";
 const App: React.FC = () => (
   <BrowserRouter>
     <ScrollToTop />
+    <RouteMetadata />
     <Routes>
       <Route element={<Layout />}>
         <Route index element={<Home />} />

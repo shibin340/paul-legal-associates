@@ -1,0 +1,59 @@
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+import { ARTICLES, PRACTICE_AREAS, TEAM_MEMBERS } from "../../data";
+import core from "../../seo-core.json";
+
+const ORIGIN = "https://paullegalassociates.com";
+const BRAND = "Paul Legal Associates";
+
+// Keep head tags in step when React Router changes pages without a full reload.
+// Initial HTTP responses receive the same metadata from generate-routes.js.
+const RouteMetadata = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    const route = pathname.replace(/\/+$/, "") || "/";
+    const area = route.startsWith("/expertise/")
+      ? PRACTICE_AREAS.find(item => route === `/expertise/${item.slug}`)
+      : undefined;
+    const member = route.startsWith("/partners/")
+      ? TEAM_MEMBERS.find(item => route === `/partners/${item.slug}`)
+      : undefined;
+    const article = route.startsWith("/insights/")
+      ? ARTICLES.find(item => route === `/insights/${item.slug}`)
+      : undefined;
+    const page = core.find(item => item.route === route)
+      || (area && {
+        title: `${area.title} Lawyers in Navi Mumbai | ${BRAND}`,
+        description: `${area.title}: ${area.shortDesc} Paul Legal Associates, Navi Mumbai.`
+      })
+      || (member && {
+        title: `${member.name} - ${member.specialisation} | ${BRAND}`,
+        description: `${member.name}, ${member.title} at ${BRAND}. ${member.specialisation}.`
+      })
+      || (article && {
+        title: `${article.title} | ${BRAND}`,
+        description: article.excerpt
+      });
+    if (!page) return;
+
+    const url = ORIGIN + (route === "/" ? "/" : route + "/");
+    const description = page.description.replace(/\s+/g, " ").trim();
+    document.title = page.title;
+    const set = (selector: string, attribute: string, value: string) => {
+      document.querySelector(selector)?.setAttribute(attribute, value);
+    };
+    set('link[rel="canonical"]', "href", url);
+    set('meta[name="description"]', "content", description);
+    set('meta[property="og:type"]', "content", article ? "article" : "website");
+    set('meta[property="og:url"]', "content", url);
+    set('meta[property="og:title"]', "content", page.title);
+    set('meta[property="og:description"]', "content", description);
+    set('meta[name="twitter:title"]', "content", page.title);
+    set('meta[name="twitter:description"]', "content", description);
+  }, [pathname]);
+
+  return null;
+};
+
+export default RouteMetadata;

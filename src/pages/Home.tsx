@@ -178,7 +178,7 @@ const Home: React.FC = () => {
             {PRACTICE_AREAS.slice(0, 9).map((area, i) => (
               <AnimateIn key={area.id} delay={i * 0.05}>
                 <Link
-                  to={`/expertise#${area.id}`}
+                  to={`/expertise/${area.slug}/`}
                   className="group block bg-navy-deep p-8 no-underline relative overflow-hidden transition-colors duration-300 hover:bg-navy-mid h-full"
                 >
                   <div className="absolute left-0 top-0 w-[3px] h-full bg-gold scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-400" aria-hidden="true" />
