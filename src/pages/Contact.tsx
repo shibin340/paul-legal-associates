@@ -108,7 +108,7 @@ ${form.message}
             <div className="flex flex-col gap-5 mb-8">
               {[
                 { icon: "📍", label: "Office Address", value: CONTACT_INFO.address, href: undefined, multi: true },
-                { icon: "📞", label: "Mobile", value: CONTACT_INFO.phone, href: `tel:${CONTACT_INFO.phone}`, multi: false },
+                { icon: "📞", label: "Mobile", value: CONTACT_INFO.phone, href: "tel:+917977063567", multi: false },
                 { icon: "✉️", label: "Email", value: CONTACT_INFO.email, href: `mailto:${CONTACT_INFO.email}`, multi: false },
               ].map(item => (
                 <div key={item.label} className="flex items-start gap-4">
