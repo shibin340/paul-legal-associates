@@ -1741,7 +1741,7 @@ export const CONTACT_INFO = {
   address: "Office No. 301, 3rd Floor, Om Sai Building,\nPlot No.101/3, Swami Nityanand Road,\nNear Garden Hotel, Panvel,\nNavi Mumbai, Maharashtra 410 206.",
   phone: "+91 7977063567",
   email: "info@paullegalassociates.com",
-  website: "www.paullegalassociates.com",
+  website: "paullegalassociates.com",
 };
 
 export const CREDENTIALS = [
