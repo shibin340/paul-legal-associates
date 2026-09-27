@@ -55,7 +55,7 @@ const Footer: React.FC = () => {
               {PRACTICE_AREAS.slice(0, 6).map(p => (
                 <li key={p.id}>
                   <NavLink 
-                    to={`/expertise#${p.id}`} 
+                    to={`/expertise/${p.slug}/`}
                     className="text-[0.85rem] text-cream/60 no-underline hover:text-gold transition-colors duration-300"
                   >
                     {p.title}
@@ -86,7 +86,7 @@ const Footer: React.FC = () => {
               </li>
               <li className="flex gap-3 items-center">
                 <span className="text-gold" aria-hidden="true">📞</span>
-                <a href={`tel:${CONTACT_INFO.phone}`} className="text-[0.82rem] text-cream/60 no-underline hover:text-gold transition-colors">{CONTACT_INFO.phone}</a>
+                <a href="tel:+917977063567" className="text-[0.82rem] text-cream/60 no-underline hover:text-gold transition-colors">{CONTACT_INFO.phone}</a>
               </li>
               <li className="flex gap-3 items-center">
                 <span className="text-gold" aria-hidden="true">✉️</span>
