@@ -17,13 +17,12 @@
     "autoprefixer": "^10.4.17",
     "gh-pages": "^4.0.0",
     "postcss": "^8.4.35",
-    "sitemap-generator": "^8.5.1",
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "node generate-sitemap.js && node scripts/generate-routes.js",
+    "postbuild": "node scripts/generate-routes.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
