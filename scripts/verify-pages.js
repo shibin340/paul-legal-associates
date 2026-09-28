@@ -59,6 +59,13 @@ for (const route of pagePaths) {
     assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
     assert.equal(d.title, 'Property Title Verification in Panvel | Paul Legal Associates');
   }
+  if (route === '/insights/') {
+    assert.equal(d.querySelectorAll('nav[aria-label="Property and land guides"] a').length, 8);
+    assert.equal(d.querySelectorAll('nav[aria-label="Workplace and business guides"] a').length, 4);
+  }
+  if (route.startsWith('/insights/') && route !== '/insights/') {
+    assert(d.querySelector('main a[href="tel:+917977063567"]'), `${route}: article call path`);
+  }
   if (route === '/contact/') assert(!d.querySelector('main').textContent.includes('[...]'), 'Truncated FAQ still visible');
   dom.window.close();
 }
