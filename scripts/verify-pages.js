@@ -21,7 +21,7 @@ walk(build);
 const routes = new Set(pagePaths);
 const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
 assert.equal(sitemap.length, new Set(sitemap).size, 'Duplicate sitemap URLs');
-assert.equal(sitemap.length, 238, 'Unexpected change to the reviewed sitemap inventory');
+assert.equal(sitemap.length, 239, 'Unexpected change to the reviewed sitemap inventory');
 let links = 0;
 const titles = new Map();
 for (const route of pagePaths) {
@@ -53,7 +53,7 @@ for (const route of pagePaths) {
       links++;
     }
   }
-  if (route === '/expertise/') assert.equal(d.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 82);
+  if (route === '/expertise/') assert.equal(d.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 83);
   if (route === '/expertise/property-title-verification-due-diligence/') {
     assert(d.getElementById('title-review-guide'), 'Title review guide missing');
     assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
@@ -70,9 +70,22 @@ for (const route of pagePaths) {
     assert(d.querySelector('a[href="https://raigad.gov.in/en/land-acquisition-department/"]'), 'Raigad source missing');
     assert.equal(d.title, 'Land Acquisition and Compensation in Raigad | Paul Legal Associates');
   }
+  if (route === '/expertise/posh-compliance-internal-committee/') {
+    assert(d.getElementById('posh-preparation-guide'), 'POSH preparation guide missing');
+    assert.equal(d.querySelectorAll('nav[aria-label="Related POSH guidance"] a').length, 3);
+    assert(d.querySelector('a[href="https://www.indiacode.nic.in/handle/123456789/2104"]'), 'India Code source missing');
+    assert.equal(d.title, 'POSH Compliance for Employers in Navi Mumbai | Paul Legal Associates');
+  }
+  if (route === '/expertise/labour-employment-hr-workplace-compliance/') {
+    assert(d.querySelector('nav[aria-label="Related workplace service"] a[href="/expertise/posh-compliance-internal-committee/"]'), 'Workplace service cross-link missing');
+  }
   if (route === '/insights/') {
     assert.equal(d.querySelectorAll('nav[aria-label="Property and land guides"] a').length, 8);
     assert.equal(d.querySelectorAll('nav[aria-label="Workplace and business guides"] a').length, 4);
+    assert(d.querySelector('nav[aria-label="Workplace and business guides"] a[href="/insights/posh-compliance-employers-mumbai-navi-mumbai/"]'), 'Employer POSH guide missing');
+  }
+  if (route === '/insights/posh-compliance-employers-mumbai-navi-mumbai/') {
+    assert(d.querySelector('nav[aria-label="Related POSH service"] a[href="/expertise/posh-compliance-internal-committee/"]'), 'POSH article service link missing');
   }
   if (route.startsWith('/insights/') && route !== '/insights/') {
     assert(d.querySelector('main a[href="tel:+917977063567"]'), `${route}: article call path`);
@@ -118,8 +131,8 @@ async function verifyHydration(route) {
     const btn = [...w.document.querySelectorAll('button')].find(b => b.textContent.includes('Show More Practice Areas'));
     btn.click();
     await new Promise(resolve => setTimeout(resolve, 40));
-    assert(w.document.body.textContent.includes('64 Remaining'), 'Practice expansion did not hydrate');
-    assert.equal(w.document.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 82);
+    assert(w.document.body.textContent.includes('65 Remaining'), 'Practice expansion did not hydrate');
+    assert.equal(w.document.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 83);
   }
   if (route === '/contact/') {
     const btn = [...w.document.querySelectorAll('button')].find(b => b.textContent.includes('Continue on WhatsApp'));
@@ -140,8 +153,8 @@ async function verifyHydration(route) {
 }
 
 (async () => {
-  for (const route of ['/', '/about/', '/expertise/', '/contact/', '/insights/', '/partners/', '/finance-tax-regulatory-advisory/', '/expertise/property-title-verification-due-diligence/', '/insights/naina-town-planning-scheme-rights/', '/partners/sojan-paul/']) {
+  for (const route of ['/', '/about/', '/expertise/', '/contact/', '/insights/', '/partners/', '/finance-tax-regulatory-advisory/', '/expertise/property-title-verification-due-diligence/', '/expertise/posh-compliance-internal-committee/', '/insights/naina-town-planning-scheme-rights/', '/insights/posh-compliance-employers-mumbai-navi-mumbai/', '/partners/sojan-paul/']) {
     await verifyHydration(route);
   }
-  console.log(`PASS: ${pagePaths.length} initial HTML pages, ${links} internal link occurrences, ${sitemap.length} sitemap URLs; 10 hydration/navigation checks and contact validation.`);
+  console.log(`PASS: ${pagePaths.length} initial HTML pages, ${links} internal link occurrences, ${sitemap.length} sitemap URLs; 12 hydration/navigation checks and contact validation.`);
 })().catch(error => { console.error(error); process.exitCode = 1; });

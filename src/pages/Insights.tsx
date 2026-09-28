@@ -29,7 +29,7 @@ const GUIDE_GROUPS = [
     title: "Workplace and business",
     slugs: [
       "labour-employment-law-services",
-      "posh-compliance-internal-committee-services",
+      "posh-compliance-employers-mumbai-navi-mumbai",
       "pf-esic-factory-contract-labour-compliance",
       "corporate-legal-retainership-general-counsel"
     ]

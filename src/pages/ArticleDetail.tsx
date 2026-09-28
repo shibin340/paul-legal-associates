@@ -112,6 +112,13 @@ const ArticleDetail: React.FC = () => {
               </AnimateIn>
             ))}
 
+            {article.slug === "posh-compliance-employers-mumbai-navi-mumbai" && (
+              <nav aria-label="Related POSH service" className="border border-navy/10 bg-white p-6 text-[0.95rem] text-navy leading-[1.7]">
+                <p className="mb-2">Reviewing your organisation's policy, Internal Committee or training arrangements?</p>
+                <Link to="/expertise/posh-compliance-internal-committee/" className="text-navy underline hover:text-gold">See the POSH compliance preparation guide</Link>
+              </nav>
+            )}
+
             {/* Tags */}
             <AnimateIn className="mt-12 pt-8 border-t border-navy/10">
               <div className="flex flex-wrap gap-2 mb-10">

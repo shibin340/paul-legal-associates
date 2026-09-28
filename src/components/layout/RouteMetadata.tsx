@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { ARTICLES, PRACTICE_AREAS, TEAM_MEMBERS } from "../../data";
+import { ARTICLES, TEAM_MEMBERS } from "../../data";
+import { PRACTICE_AREAS } from "../../practiceAreas";
 import core from "../../seo-core.json";
 import { getServiceMetadata } from "../../serviceMetadata";
 
