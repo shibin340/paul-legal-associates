@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
           <p>© {year} Paul Legal Associates (Advocates). All rights reserved.</p>
           <div className="flex gap-6">
             {["Privacy Policy", "Terms of Use", "Disclaimer"].map(l => (
-              <a key={l} href="#!" className="no-underline hover:text-gold transition-colors">{l}</a>
+              <span key={l}>{l}</span>
             ))}
           </div>
         </div>
