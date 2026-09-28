@@ -9,6 +9,33 @@ import { Link } from "react-router-dom";
 const INITIAL_ITEMS_PER_PAGE = 6;
 const ITEMS_TO_LOAD_MORE = 6;
 
+// A small, useful starting point among the existing articles. These links
+// render in HTML while the full listing still supports interactive filtering.
+const GUIDE_GROUPS = [
+  {
+    title: "Property and land",
+    slugs: [
+      "property-lawyer-panvel-flats-plots-land",
+      "property-title-search-legal-due-diligence",
+      "property-registration-stamp-duty-guidance",
+      "cidco-transfer-noc-leasehold-services",
+      "naina-town-planning-scheme-rights",
+      "rera-builder-dispute-lawyer-maharashtra",
+      "agricultural-land-purchase-vetting",
+      "land-acquisition-compensation-proceedings"
+    ]
+  },
+  {
+    title: "Workplace and business",
+    slugs: [
+      "labour-employment-law-services",
+      "posh-compliance-internal-committee-services",
+      "pf-esic-factory-contract-labour-compliance",
+      "corporate-legal-retainership-general-counsel"
+    ]
+  }
+];
+
 const Insights: React.FC = () => {
   useDocumentTitle("Legal Insights & Articles | Paul Legal Associates");
   const [activeCategory, setActiveCategory] = useState<string>("All");
@@ -88,6 +115,7 @@ const Insights: React.FC = () => {
                 return (
                   <button
                     key={cat}
+                    data-requires-js
                     role="tab"
                     aria-selected={active}
                     onClick={() => handleCategoryChange(cat)}
@@ -177,6 +205,7 @@ const Insights: React.FC = () => {
               {hasMore && (
                 <div className="flex justify-center mt-16">
                   <button
+                    data-requires-js
                     onClick={handleLoadMore}
                     className="px-8 py-3.5 bg-navy text-cream text-[0.8rem] font-semibold tracking-wider uppercase border border-navy hover:bg-white hover:text-navy transition-all duration-300 cursor-pointer"
                   >
@@ -186,6 +215,35 @@ const Insights: React.FC = () => {
               )}
             </>
           )}
+        </div>
+      </section>
+
+      <section className="bg-white py-20 px-[5vw]" aria-labelledby="insights-guides-heading">
+        <div className="max-w-8xl mx-auto">
+          <h2 id="insights-guides-heading" className="section-title mb-4">Browse Articles by Topic</h2>
+          <p className="text-[0.95rem] text-muted leading-[1.75] mb-10 max-w-2xl">
+            These links are a starting point for articles on property, workplace and business matters.
+          </p>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            {GUIDE_GROUPS.map(group => (
+              <nav key={group.title} aria-label={`${group.title} guides`} className="border border-navy/10 p-7 bg-cream">
+                <h3 className="font-serif text-[1.3rem] font-semibold text-navy mb-5">{group.title}</h3>
+                <ul className="list-none m-0 p-0 flex flex-col gap-4">
+                  {group.slugs.map(slug => {
+                    const article = ARTICLES.find(item => item.slug === slug);
+                    if (!article) return null;
+                    return (
+                      <li key={slug}>
+                        <Link to={`/insights/${slug}/`} className="text-[0.9rem] text-navy no-underline underline-offset-4 hover:underline hover:text-gold leading-[1.6]">
+                          {article.title} <span aria-hidden="true">→</span>
+                        </Link>
+                      </li>
+                    );
+                  })}
+                </ul>
+              </nav>
+            ))}
+          </div>
         </div>
       </section>
 

@@ -144,7 +144,10 @@ const ArticleDetail: React.FC = () => {
                 <p className="text-[0.9rem] text-muted mb-6 max-w-md mx-auto">
                   Schedule a confidential consultation with our advocates to discuss your legal options.
                 </p>
-                <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
+                <div className="flex flex-wrap justify-center gap-4">
+                  <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
+                  <a href="tel:+917977063567" className="btn-outline-navy">Call +91 7977063567</a>
+                </div>
               </div>
             </AnimateIn>
 
