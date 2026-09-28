@@ -11,7 +11,8 @@ const BRAND = 'Paul Legal Associates';
 const buildDir = path.resolve(__dirname, '../build');
 const indexPath = path.join(buildDir, 'index.html');
 
-const { PRACTICE_AREAS, TEAM_MEMBERS, ARTICLES } = loadSource(path.resolve(__dirname, '../src/data/index.ts'));
+const { TEAM_MEMBERS, ARTICLES } = loadSource(path.resolve(__dirname, '../src/data/index.ts'));
+const { PRACTICE_AREAS } = loadSource(path.resolve(__dirname, '../src/practiceAreas.ts'));
 const { AppRoutes } = loadSource(path.resolve(__dirname, '../src/App.tsx'));
 const { getServiceMetadata } = loadSource(path.resolve(__dirname, '../src/serviceMetadata.ts'));
 

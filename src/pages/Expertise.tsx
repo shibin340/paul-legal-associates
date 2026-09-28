@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import AnimateIn from 'components/ui/AnimateIn';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import SectionHeader from 'components/ui/SectionHeader';
-import { PRACTICE_AREAS } from 'data';
+import { PRACTICE_AREAS } from '../practiceAreas';
 import { useDocumentTitle } from 'hooks/useDocumentTitle';
 
 const ITEMS_PER_PAGE = 9;

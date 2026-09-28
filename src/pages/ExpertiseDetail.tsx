@@ -1,6 +1,6 @@
 import React, { useState, useMemo } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { PRACTICE_AREAS } from 'data';
+import { PRACTICE_AREAS } from '../practiceAreas';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import { useDocumentTitle } from 'hooks/useDocumentTitle';
 import { getServiceMetadata } from '../serviceMetadata';
@@ -226,6 +226,49 @@ const ExpertiseDetail: React.FC = () => {
                     </ul>
                   </nav>
                 </section>
+              )}
+
+              {area.slug === 'posh-compliance-internal-committee' && (
+                <section className="border-t border-navy/10 pt-8 mb-10" aria-labelledby="posh-preparation-guide">
+                  <h3 id="posh-preparation-guide" className="font-serif text-[1.45rem] font-semibold text-navy mb-4">
+                    Preparing for a workplace POSH compliance review
+                  </h3>
+                  <p className="text-[0.95rem] text-navy/80 leading-[1.8] mb-5">
+                    An employer's existing policy, committee order and workplace arrangements are useful starting points. A review can identify which documents or process steps need attention for that organisation, without assuming that one template fits every workplace.
+                  </p>
+                  <h4 className="font-semibold text-navy mb-3">Information to keep ready</h4>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+                    <li>Organisation and workplace locations, with approximate workforce numbers for each location.</li>
+                    <li>The current POSH policy and any communication or training materials used with staff.</li>
+                    <li>Written Internal Committee order, member list and external-member appointment details, if available.</li>
+                    <li>Recent committee orientation, awareness and reporting records, if available.</li>
+                    <li>Any immediate procedural question or deadline that needs to be discussed.</li>
+                  </ul>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-5">
+                    If an active complaint is involved, first tell us that there is a live matter and any approaching date. Please do not put names, evidence or sensitive allegations in the website's enquiry form; we can discuss a suitable way to share relevant records after initial contact.
+                  </p>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-6">
+                    The <a href="https://www.indiacode.nic.in/handle/123456789/2104" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">official India Code text of the 2013 Act</a> is a starting point for the statutory framework. The applicable arrangement should be checked against the organisation's facts and current rules.
+                  </p>
+                  <nav aria-label="Related POSH guidance" className="bg-cream p-5 border border-navy/10">
+                    <h4 className="font-semibold text-navy mb-3">Related workplace guidance</h4>
+                    <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+                      <li><Link to="/insights/posh-compliance-employers-mumbai-navi-mumbai/" className="text-navy underline hover:text-gold">Read the employer POSH compliance guide</Link></li>
+                      <li><Link to="/expertise/labour-employment-hr-workplace-compliance/" className="text-navy underline hover:text-gold">Employment and HR compliance support</Link></li>
+                      <li><Link to="/partners/sonam-paul/" className="text-navy underline hover:text-gold">Meet Adv. Sonam Paul, author of the employer guide</Link></li>
+                    </ul>
+                  </nav>
+                </section>
+              )}
+
+              {area.slug === 'labour-employment-hr-workplace-compliance' && (
+                <nav aria-label="Related workplace service" className="bg-cream p-5 border border-navy/10 mb-10">
+                  <h3 className="font-serif text-[1.2rem] font-semibold text-navy mb-2">Workplace POSH arrangements</h3>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-2">
+                    For policy, Internal Committee or training questions, see our focused employer preparation guide.
+                  </p>
+                  <Link to="/expertise/posh-compliance-internal-committee/" className="text-navy underline hover:text-gold">Explore POSH compliance support</Link>
+                </nav>
               )}
               
               <div className="flex flex-wrap gap-4 items-center">

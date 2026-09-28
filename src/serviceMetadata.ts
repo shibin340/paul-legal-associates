@@ -29,6 +29,10 @@ const priority: Record<string, ServiceMetadata> = {
     title: "Employment Law and HR Compliance | Paul Legal Associates",
     description: "Explore employment contracts, workplace policies, PF and ESI support, and statutory compliance work in Navi Mumbai."
   },
+  "posh-compliance-internal-committee": {
+    title: "POSH Compliance for Employers in Navi Mumbai | Paul Legal Associates",
+    description: "Review POSH policy, Internal Committee arrangements, external-member support, workplace awareness and reporting records with Paul Legal Associates."
+  },
   "commercial-litigation-arbitration": {
     title: "Commercial Litigation and Arbitration | Paul Legal Associates",
     description: "Dispute resolution and representation before courts, tribunals and authorities, including commercial arbitration."
