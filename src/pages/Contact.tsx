@@ -60,7 +60,7 @@ ${form.message}
       message
     )}`;
 
-    window.open(whatsappUrl, "_blank");
+    window.open(whatsappUrl, "_blank", "noopener,noreferrer");
   };
 
   const inputBase = "w-full bg-navy/[0.03] border text-navy font-sans text-sm px-4 py-3.5 outline-none transition-all duration-300 placeholder-muted/50 focus:bg-navy/[0.06]";
@@ -199,7 +199,7 @@ ${form.message}
                       onClick={handleWhatsAppBooking}
                     >
                       <span>📱</span>
-                      Book Consultation
+                      Continue on WhatsApp
                     </button>
                     <p className="text-[0.74rem] text-muted italic">* Required. All details kept strictly confidential.</p>
                   </div>
