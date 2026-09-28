@@ -1,7 +1,6 @@
 import React from "react";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/layout/Layout";
-import "./index.css";
 import ScrollToTop from "hooks/ScrollToTop";
 import RouteMetadata from "./components/layout/RouteMetadata";
 
@@ -17,8 +16,9 @@ import ExpertiseDetail from "pages/ExpertiseDetail";
 import PartnerDetail from "pages/PartnerDetail";
 import FinanceTaxRegulatoryAdvisory from "pages/FinanceTaxRegulatoryAdvisory";
 
-const App: React.FC = () => (
-  <BrowserRouter>
+// Shared by the browser router and the build-time static router.
+export const AppRoutes: React.FC = () => (
+  <>
     <ScrollToTop />
     <RouteMetadata />
     <Routes>
@@ -36,7 +36,9 @@ const App: React.FC = () => (
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-  </BrowserRouter>
+  </>
 );
+
+const App: React.FC = () => <BrowserRouter><AppRoutes /></BrowserRouter>;
 
 export default App;

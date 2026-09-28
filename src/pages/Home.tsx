@@ -1,3 +1,4 @@
+import SiteImage from "../components/ui/SiteImage";
 import React from "react";
 import { Link } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
@@ -61,8 +62,8 @@ const Home: React.FC = () => {
 
           {/* Call to Actions */}
           <div className="flex gap-5 flex-wrap animate-heroFadeUp animation-delay-650">
-            <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
-            <Link to="/expertise" className="btn-secondary">Our Practice Areas →</Link>
+            <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
+            <Link to="/expertise/" className="btn-secondary">Our Practice Areas →</Link>
           </div>
         </div>
 
@@ -122,8 +123,8 @@ const Home: React.FC = () => {
               ))}
             </div>
             <div className="flex gap-5 flex-wrap mt-8">
-              <Link to="/about" className="btn-outline-navy">Learn More About Us</Link>
-              <Link to="/contact" className="btn-primary">Get in Touch</Link>
+              <Link to="/about/" className="btn-outline-navy">Learn More About Us</Link>
+              <Link to="/contact/" className="btn-primary">Get in Touch</Link>
             </div>
           </AnimateIn>
 
@@ -140,7 +141,7 @@ const Home: React.FC = () => {
                   {TEAM_MEMBERS.map(m => (
                     <div key={m.id} className="flex flex-col items-center gap-2">
                       <div className="w-full aspect-[3/4] overflow-hidden border-2 border-gold/30">
-                        <img src={m.photo} alt={m.name} loading="lazy" className="w-full h-full object-cover" />
+                        <SiteImage src={m.photo} alt={m.name} loading="lazy" decoding="async" className="w-full h-full object-cover" />
                       </div>
                       <div className="text-center">
                         <div className="text-[0.7rem] font-semibold text-cream leading-tight">{m.name}</div>
@@ -201,7 +202,7 @@ const Home: React.FC = () => {
 
           {/* Call to action linking out to the full index board */}
           <AnimateIn className="text-center mt-12">
-            <Link to="/expertise" className="btn-secondary inline-block">
+            <Link to="/expertise/" className="btn-secondary inline-block">
               View All Practice Areas ({PRACTICE_AREAS.length})
             </Link>
           </AnimateIn>
@@ -289,8 +290,8 @@ const Home: React.FC = () => {
             Precision in Law. Clarity in Counsel. Confidence in Outcomes.
           </p>
           <div className="flex gap-5 justify-center flex-wrap">
-            <Link to="/contact" className="btn-primary">Schedule Consultation</Link>
-            <Link to="/partners" className="btn-secondary">Meet Our Partners</Link>
+            <Link to="/contact/" className="btn-primary">Schedule Consultation</Link>
+            <Link to="/partners/" className="btn-secondary">Meet Our Partners</Link>
           </div>
         </AnimateIn>
       </section>

@@ -16,13 +16,15 @@
   "devDependencies": {
     "autoprefixer": "^10.4.17",
     "gh-pages": "^4.0.0",
+    "jsdom": "16.7.0",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "postbuild": "node scripts/generate-routes.js",
+    "postbuild": "node scripts/generate-routes.js && node scripts/verify-pages.js",
+    "verify:seo": "node scripts/verify-pages.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",

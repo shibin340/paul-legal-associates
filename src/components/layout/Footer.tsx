@@ -1,3 +1,4 @@
+import SiteImage from "../ui/SiteImage";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { TAGLINE, CREDENTIALS, NAV_LINKS, PRACTICE_AREAS, CONTACT_INFO } from "../../data";
@@ -20,7 +21,7 @@ const Footer: React.FC = () => {
 
           {/* Brand */}
           <div className="xl:col-span-1">
-            <img src="/logo.webp" alt="Paul Legal Associates" className="h-12 w-auto object-contain mb-4" />
+            <SiteImage src="/logo.webp" loading="lazy" decoding="async" alt="Paul Legal Associates" className="h-12 w-auto object-contain mb-4" />
             <p className="text-[0.72rem] tracking-[0.12em] text-gold italic mb-5">{TAGLINE}</p>
             <p className="text-[0.85rem] text-cream/60 leading-[1.75] mb-5">A full-service law firm based in Navi Mumbai serving a dynamic legal and business environment.</p>
             <div className="flex flex-wrap gap-2">
@@ -37,7 +38,7 @@ const Footer: React.FC = () => {
               {NAV_LINKS.map(({ label, path }) => (
                 <li key={path}>
                   <NavLink 
-                    to={path} 
+                    to={path.endsWith("/") ? path : path + "/"}
                     end={path === "/"} 
                     className={({ isActive }) => `text-[0.85rem] no-underline transition-colors duration-300 ${isActive ? "text-gold" : "text-cream/60 hover:text-gold"}`}
                   >
@@ -66,7 +67,7 @@ const Footer: React.FC = () => {
               {PRACTICE_AREAS.length > 6 && (
                 <li className="pt-1.5">
                   <NavLink 
-                    to="/expertise" 
+                    to="/expertise/"
                     className="text-[0.82rem] font-medium tracking-wide text-gold/90 no-underline hover:text-gold hover:underline decoration-gold/40 underline-offset-4 transition-all duration-300 flex items-center gap-1"
                   >
                     View All Services ({PRACTICE_AREAS.length}) <span>→</span>

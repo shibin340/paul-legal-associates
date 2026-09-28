@@ -1,3 +1,4 @@
+import SiteImage from "../components/ui/SiteImage";
 import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
@@ -12,7 +13,7 @@ const PartnerDetail: React.FC = () => {
   useDocumentTitle(`${member ? member.name : "Advocate Profile"} - ${member?.specialisation || "Legal Expert"} | Paul Legal Associates`);
 
   if (!member) {
-    return <Navigate to="/partners" replace />;
+    return <Navigate to="/partners/" replace />;
   }
 
   const otherMembers = TEAM_MEMBERS.filter((m) => m.id !== member.id);
@@ -25,7 +26,7 @@ const PartnerDetail: React.FC = () => {
         <div className="absolute inset-0 bg-page-grid-lines z-0" aria-hidden="true" />
         <div className="relative z-10 max-w-[800px] animate-pageFadeIn">
           <div className="eyebrow-row">
-            <Link to="/partners" className="eyebrow-text hover:underline text-gold">
+            <Link to="/partners/" className="eyebrow-text hover:underline text-gold">
               ← All Advocates
             </Link>
           </div>
@@ -48,8 +49,9 @@ const PartnerDetail: React.FC = () => {
             <div>
               <AnimateIn>
                 <div className="border-2 border-gold/30 overflow-hidden shadow-deep">
-                  <img
+                  <SiteImage
                     src={member.photo}
+                    decoding="async"
                     alt={member.name}
                     className="w-full h-[420px] object-cover object-top"
                   />
@@ -100,10 +102,10 @@ const PartnerDetail: React.FC = () => {
               </div>
 
               <div className="flex flex-wrap gap-4 items-center">
-                <Link to="/contact" className="btn-primary">
+                <Link to="/contact/" className="btn-primary">
                   Consult {member.name.split(" ")[1]}
                 </Link>
-                <Link to="/expertise" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
+                <Link to="/expertise/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
                   Explore Practice Areas
                 </Link>
               </div>
@@ -120,11 +122,13 @@ const PartnerDetail: React.FC = () => {
               {otherMembers.map((other) => (
                 <Link
                   key={other.id}
-                  to={`/partners/${other.slug}`}
+                  to={`/partners/${other.slug}/`}
                   className="group flex items-center gap-5 p-5 bg-navy-deep border border-gold/15 hover:border-gold/50 transition-all duration-300 no-underline"
                 >
-                  <img
+                  <SiteImage
                     src={other.photo}
+                    loading="lazy"
+                    decoding="async"
                     alt={other.name}
                     className="w-16 h-16 rounded-full object-cover border border-gold/30 flex-shrink-0"
                   />

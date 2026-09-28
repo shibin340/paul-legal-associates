@@ -1,3 +1,4 @@
+import SiteImage from "../components/ui/SiteImage";
 import React from "react";
 import { Link } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
@@ -10,14 +11,15 @@ import { useDocumentTitle } from "hooks/useDocumentTitle";
 const TeamCard: React.FC<{ member: TeamMember; delay: number }> = ({ member, delay }) => (
   <AnimateIn delay={delay}>
     <Link
-      to={`/partners/${member.slug}`}
+      to={`/partners/${member.slug}/`}
       className="group block w-full text-left border transition-all duration-300 bg-white no-underline border-navy/10 hover:border-gold hover:shadow-gold hover:scale-[1.02]"
     >
       {/* Photo */}
       <div className="relative overflow-hidden" style={{ height: "320px" }}>
-        <img
+        <SiteImage
           src={member.photo}
           loading="lazy"
+          decoding="async"
           alt={member.name}
           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
         />
@@ -95,8 +97,8 @@ const Team: React.FC = () => {
             Schedule a confidential consultation — review your case and define your strategic legal roadmap.
           </p>
           <div className="flex gap-5 justify-center flex-wrap">
-            <Link to="/contact" className="btn-primary">Schedule Consultation</Link>
-            <Link to="/expertise" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">Our Practice Areas</Link>
+            <Link to="/contact/" className="btn-primary">Schedule Consultation</Link>
+            <Link to="/expertise/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">Our Practice Areas</Link>
           </div>
         </AnimateIn>
       </section>

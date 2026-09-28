@@ -33,7 +33,7 @@ const Expertise: React.FC = () => {
       </section>
 
       {/* ══ ALL AREAS GRID WITH SEO-FRIENDLY LINKS ══ */}
-      <section className="bg-navy py-28 px-[5vw]" aria-labelledby="all-areas-heading">
+      <section id="all-areas-heading" className="bg-navy py-28 px-[5vw]" aria-label="All practice areas">
         <div className="max-w-8xl mx-auto">
           <SectionHeader
             eyebrow="Full Overview"
@@ -47,7 +47,7 @@ const Expertise: React.FC = () => {
             {PRACTICE_AREAS.slice(0, visibleGridCount).map((area, i) => (
               <AnimateIn key={area.id} delay={(i % ITEMS_PER_PAGE) * 0.05}>
                 <Link
-                  to={`/expertise/${area.slug || area.id}`}
+                  to={`/expertise/${area.slug || area.id}/`}
                   className="group flex flex-col text-left bg-navy-deep p-8 w-full no-underline relative overflow-hidden transition-colors duration-300 hover:bg-navy-mid h-full block"
                 >
                   <div className="absolute left-0 top-0 w-[3px] h-full bg-gold scale-y-0 group-hover:scale-y-100 origin-bottom transition-transform duration-400" aria-hidden="true" />
@@ -67,6 +67,7 @@ const Expertise: React.FC = () => {
           <div className="mt-12 text-center flex justify-center gap-4">
             {visibleGridCount < PRACTICE_AREAS.length && (
               <button
+                data-requires-js
                 onClick={() => setVisibleGridCount((prev) => Math.min(prev + ITEMS_PER_PAGE, PRACTICE_AREAS.length))}
                 className="btn-primary cursor-pointer"
               >
@@ -85,6 +86,23 @@ const Expertise: React.FC = () => {
               </button>
             )}
           </div>
+
+          <details className="mt-10 border border-gold/20 bg-navy-deep p-6">
+            <summary className="cursor-pointer font-serif text-lg text-gold">
+              Browse all practice areas ({PRACTICE_AREAS.length})
+            </summary>
+            <nav aria-label="Complete practice areas index" className="mt-6">
+              <ul className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-x-8 gap-y-3 list-none p-0 m-0">
+                {PRACTICE_AREAS.map(area => (
+                  <li key={area.id}>
+                    <Link to={`/expertise/${area.slug}/`} className="text-sm text-cream/80 hover:text-gold underline underline-offset-4">
+                      {area.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          </details>
         </div>
       </section>
 
@@ -97,7 +115,7 @@ const Expertise: React.FC = () => {
           <p className="section-subtitle mb-10">
             Our team will assess your situation and connect you with the right advocate.
           </p>
-          <Link to="/contact" className="btn-primary inline-block">Book a Consultation</Link>
+          <Link to="/contact/" className="btn-primary inline-block">Book a Consultation</Link>
         </div>
       </section>
 

@@ -163,6 +163,9 @@ ${form.message}
                   <span className="eyebrow-text">Send a Message</span>
                 </div>
                 <p className="text-[0.88rem] text-muted mb-7">We'll respond within one business day.</p>
+                <noscript>
+                  <p className="text-sm text-navy mb-6">Use the phone or email links on this page to contact our office. JavaScript is needed for the WhatsApp form.</p>
+                </noscript>
 
                 <form className="flex flex-col gap-5" noValidate aria-label="Contact form">
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
@@ -195,6 +198,7 @@ ${form.message}
                   <div className="flex items-center gap-5 flex-wrap pt-1">
                     <button
                       type="button"
+                      data-requires-js
                       className="btn-primary flex items-center gap-2 min-w-[220px] justify-center"
                       onClick={handleWhatsAppBooking}
                     >

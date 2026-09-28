@@ -1,3 +1,4 @@
+import SiteImage from "../components/ui/SiteImage";
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import CredentialsBar from "../components/ui/CredentialsBar";
@@ -104,7 +105,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
                   Looking for an integrated Finance, Tax & Regulatory Partner?
                 </div>
                 <div className="flex gap-4 flex-wrap">
-                  <Link to="/contact" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
+                  <Link to="/contact/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
                     Send Us Your Requirement
                   </Link>
                 </div>
@@ -114,7 +115,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
             {/* Right Column: 3D Spiral Orbit Visual (5 cols) */}
             <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative">
               {/* <PlaFinance3DOrbit /> */}
-              <img src='/images/ChatGPT.webp' alt='Finance, tax, regulatory compliance and growth represented as a connected advisory orbit' className='object-contain pointer-events-none' />
+              <SiteImage src='/images/ChatGPT.webp' decoding="async" alt='Finance, tax, regulatory compliance and growth represented as a connected advisory orbit' className='object-contain pointer-events-none' />
             </div>
 
           </div>
@@ -338,7 +339,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
               <h4 className="font-serif text-xl font-bold text-gold mb-1">Need stronger financial visibility and control?</h4>
               <p className="text-cream/70 text-sm">We can help establish a structured accounting, MIS and financial-review framework tailored to your business.</p>
             </div>
-            <Link to="/contact" className="btn-primary flex-shrink-0">Discuss Finance & CFO Support</Link>
+            <Link to="/contact/" className="btn-primary flex-shrink-0">Discuss Finance & CFO Support</Link>
           </div>
         </div>
       </section>
@@ -467,7 +468,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
               <h4 className="font-serif text-xl font-bold text-gold mb-1">Planning an FDI, ODI, ECB or cross-border transaction?</h4>
               <p className="text-cream/70 text-sm">Early review of FEMA, tax, banking, and reporting requirements eliminates regulatory bottlenecks.</p>
             </div>
-            <Link to="/contact" className="btn-primary flex-shrink-0">Discuss a Cross-Border Transaction</Link>
+            <Link to="/contact/" className="btn-primary flex-shrink-0">Discuss a Cross-Border Transaction</Link>
           </div>
         </div>
       </section>
@@ -622,10 +623,10 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
           </p>
 
           <div className="flex justify-center gap-4 flex-wrap mb-10">
-            <Link to="/contact" className="btn-primary">
+            <Link to="/contact/" className="btn-primary">
               Book a Consultation
             </Link>
-            {/* <Link to="/contact" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
+            {/* <Link to="/contact/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
               Contact Paul Legal Associates
             </Link> */}
           </div>

@@ -15,7 +15,7 @@ const NotFound: React.FC = () => (
       </p>
       <div className="flex gap-5 justify-center flex-wrap">
         <Link to="/" className="btn-primary">Return Home</Link>
-        <Link to="/contact" className="btn-outline-navy">Contact Us</Link>
+        <Link to="/contact/" className="btn-outline-navy">Contact Us</Link>
       </div>
     </div>
   </div>
