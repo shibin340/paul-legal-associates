@@ -169,6 +169,64 @@ const ExpertiseDetail: React.FC = () => {
                   </nav>
                 </section>
               )}
+
+              {area.slug === 'naina-town-planning-scheme-services' && (
+                <section className="border-t border-navy/10 pt-8 mb-10" aria-labelledby="naina-preparation-guide">
+                  <h3 id="naina-preparation-guide" className="font-serif text-[1.45rem] font-semibold text-navy mb-4">
+                    Check the scheme and plot records before discussing a NAINA matter
+                  </h3>
+                  <p className="text-[0.95rem] text-navy/80 leading-[1.8] mb-5">
+                    CIDCO publishes separate plans, notices and plot tables for different NAINA town planning schemes. Identifying the relevant scheme and its current stage helps us compare the land records with the correct original and final plot material.
+                  </p>
+                  <h4 className="font-semibold text-navy mb-3">Details to keep ready</h4>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+                    <li>Village, taluka, survey and hissa numbers, land area and any known TPS or original plot number.</li>
+                    <li>Available 7/12 extracts, mutation entries, title documents and earlier scheme correspondence.</li>
+                    <li>Any CIDCO notice, hearing date, plot plan, valuation statement or proposed final plot particulars.</li>
+                    <li>The question you need resolved: plot identity, area, access, contribution, compensation or a pending response.</li>
+                  </ul>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-6">
+                    <a href="https://cidco.maharashtra.gov.in/Page?Token=D4AAA8D3366" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">CIDCO's NAINA information hub</a> lists scheme-specific documents. Match the scheme number and notice date to your property; a plan from a different scheme may not answer your question.
+                  </p>
+                  <nav aria-label="Related NAINA guidance" className="bg-cream p-5 border border-navy/10">
+                    <h4 className="font-semibold text-navy mb-3">Related guidance</h4>
+                    <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+                      <li><Link to="/insights/naina-town-planning-scheme-rights/" className="text-navy underline hover:text-gold">Read about original and final plots</Link></li>
+                      <li><Link to="/expertise/property-title-verification-due-diligence/" className="text-navy underline hover:text-gold">Property title and document review</Link></li>
+                      <li><Link to="/expertise/navi-mumbai-airport-land-transactions/" className="text-navy underline hover:text-gold">Airport corridor land transactions</Link></li>
+                    </ul>
+                  </nav>
+                </section>
+              )}
+
+              {area.slug === 'land-acquisition-compensation-matters' && (
+                <section className="border-t border-navy/10 pt-8 mb-10" aria-labelledby="acquisition-preparation-guide">
+                  <h3 id="acquisition-preparation-guide" className="font-serif text-[1.45rem] font-semibold text-navy mb-4">
+                    Received a land acquisition notice in Panvel or Raigad?
+                  </h3>
+                  <p className="text-[0.95rem] text-navy/80 leading-[1.8] mb-5">
+                    The notice, issuing authority and stage of the process determine which records need review. Keep the notice and its dates available when describing the matter; the next step depends on the particular project and papers.
+                  </p>
+                  <h4 className="font-semibold text-navy mb-3">Information for an initial review</h4>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+                    <li>The complete notice, notification or award, including its date, authority and any response deadline.</li>
+                    <li>Village and survey or hissa numbers, total land area and the area stated to be affected.</li>
+                    <li>Available title deeds, 7/12 extracts, mutation entries, measurement plans and correspondence.</li>
+                    <li>Records of structures, crops, trees, tenancy or other interests that may be relevant to your enquiry.</li>
+                  </ul>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-6">
+                    The <a href="https://raigad.gov.in/en/land-acquisition-department/" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">Raigad District Land Acquisition Department</a> publishes project and notification information. Check any public record against the exact notice received; a listing alone does not establish your entitlement or the applicable deadline.
+                  </p>
+                  <nav aria-label="Related land acquisition guidance" className="bg-cream p-5 border border-navy/10">
+                    <h4 className="font-semibold text-navy mb-3">Related guidance</h4>
+                    <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+                      <li><Link to="/insights/land-acquisition-compensation-proceedings/" className="text-navy underline hover:text-gold">Read the Raigad acquisition overview</Link></li>
+                      <li><Link to="/expertise/naina-town-planning-scheme-services/" className="text-navy underline hover:text-gold">NAINA town planning matters</Link></li>
+                      <li><Link to="/expertise/agricultural-non-agricultural-land-purchase/" className="text-navy underline hover:text-gold">Agricultural and non-agricultural land purchases</Link></li>
+                    </ul>
+                  </nav>
+                </section>
+              )}
               
               <div className="flex flex-wrap gap-4 items-center">
                 <Link to="/contact/" className="btn-primary inline-block">

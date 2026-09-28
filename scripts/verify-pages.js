@@ -59,6 +59,17 @@ for (const route of pagePaths) {
     assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
     assert.equal(d.title, 'Property Title Verification in Panvel | Paul Legal Associates');
   }
+  if (route === '/expertise/naina-town-planning-scheme-services/') {
+    assert(d.getElementById('naina-preparation-guide'), 'NAINA preparation guide missing');
+    assert.equal(d.querySelectorAll('nav[aria-label="Related NAINA guidance"] a').length, 3);
+    assert(d.querySelector('a[href="https://cidco.maharashtra.gov.in/Page?Token=D4AAA8D3366"]'), 'CIDCO source missing');
+  }
+  if (route === '/expertise/land-acquisition-compensation-matters/') {
+    assert(d.getElementById('acquisition-preparation-guide'), 'Land acquisition preparation guide missing');
+    assert.equal(d.querySelectorAll('nav[aria-label="Related land acquisition guidance"] a').length, 3);
+    assert(d.querySelector('a[href="https://raigad.gov.in/en/land-acquisition-department/"]'), 'Raigad source missing');
+    assert.equal(d.title, 'Land Acquisition and Compensation in Raigad | Paul Legal Associates');
+  }
   if (route === '/insights/') {
     assert.equal(d.querySelectorAll('nav[aria-label="Property and land guides"] a').length, 8);
     assert.equal(d.querySelectorAll('nav[aria-label="Workplace and business guides"] a').length, 4);
