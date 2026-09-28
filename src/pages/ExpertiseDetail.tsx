@@ -3,6 +3,7 @@ import { useParams, Link, Navigate } from 'react-router-dom';
 import { PRACTICE_AREAS } from 'data';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import { useDocumentTitle } from 'hooks/useDocumentTitle';
+import { getServiceMetadata } from '../serviceMetadata';
 
 const ExpertiseDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -12,7 +13,7 @@ const ExpertiseDetail: React.FC = () => {
   const area = PRACTICE_AREAS.find(
     (p) => p.slug === slug || p.id === slug
   );
-  useDocumentTitle(`${area?.title} Lawyers in Navi Mumbai`);
+  useDocumentTitle(area ? getServiceMetadata(area).title : 'Practice Areas | Paul Legal Associates');
 
   // Filter sidebar areas for UX
   const filteredSidebarAreas = useMemo(() => {
@@ -132,10 +133,49 @@ const ExpertiseDetail: React.FC = () => {
                   </li>
                 ))}
               </ul>
+
+              {area.slug === 'property-title-verification-due-diligence' && (
+                <section className="border-t border-navy/10 pt-8 mb-10" aria-labelledby="title-review-guide">
+                  <h3 id="title-review-guide" className="font-serif text-[1.45rem] font-semibold text-navy mb-4">
+                    Starting a property title review in Panvel or Navi Mumbai
+                  </h3>
+                  <p className="text-[0.95rem] text-navy/80 leading-[1.8] mb-5">
+                    A flat, a CIDCO leasehold property and agricultural land can call for different ownership, registration and authority records. The first step is to identify the exact asset and the proposed transaction before deciding which records need checking.
+                  </p>
+                  <h4 className="font-semibold text-navy mb-3">Information to keep ready for an initial discussion</h4>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+                    <li>Property location and identifier, such as a flat number, survey number or CTS number.</li>
+                    <li>Available earlier deeds, agreements, allotment papers and the seller's present title document.</li>
+                    <li>Relevant revenue or property-card extracts, society or CIDCO records, and project details if applicable.</li>
+                    <li>Your transaction stage and any date by which you need the review.</li>
+                  </ul>
+                  <h4 className="font-semibold text-navy mb-3">Where public records can be checked</h4>
+                  <p className="text-[0.9rem] text-navy/80 leading-[1.7] mb-3">
+                    Maharashtra's official land-records, registration and project portals provide useful starting points. A portal result should be read with the other documents and the particular transaction.
+                  </p>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+                    <li><a href="https://bhulekh.mahabhumi.gov.in/" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">Maharashtra land records (Mahabhulekh)</a> for available 7/12 or property-card information.</li>
+                    <li><a href="https://igrmaharashtra.gov.in/Home" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">Department of Registration and Stamps</a> for registered-document search services.</li>
+                    <li><a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" className="text-navy underline hover:text-gold">MahaRERA</a> for relevant registered-project information.</li>
+                  </ul>
+                  <nav aria-label="Related property guidance" className="bg-cream p-5 border border-navy/10">
+                    <h4 className="font-semibold text-navy mb-3">Explore related matters</h4>
+                    <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+                      <li><Link to="/expertise/property-transactions-conveyancing/" className="text-navy underline hover:text-gold">Property transactions and conveyancing</Link></li>
+                      <li><Link to="/expertise/naina-town-planning-scheme-services/" className="text-navy underline hover:text-gold">NAINA town planning matters</Link></li>
+                      <li><Link to="/expertise/rera-maharera-legal-services/" className="text-navy underline hover:text-gold">RERA and MahaRERA matters</Link></li>
+                      <li><Link to="/insights/property-title-search-legal-due-diligence/" className="text-navy underline hover:text-gold">Read the property title due diligence guide</Link></li>
+                    </ul>
+                  </nav>
+                </section>
+              )}
               
-              <Link to="/contact/" className="btn-primary inline-block">
-                Discuss Your {area.title} Matter
-              </Link>
+              <div className="flex flex-wrap gap-4 items-center">
+                <Link to="/contact/" className="btn-primary inline-block">
+                  Discuss Your {area.title} Matter
+                </Link>
+                <a href="tel:+917977063567" className="btn-outline-navy inline-block">Call +91 7977063567</a>
+              </div>
             </article>
 
           </div>

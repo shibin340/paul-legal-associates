@@ -23,12 +23,17 @@ const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').mat
 assert.equal(sitemap.length, new Set(sitemap).size, 'Duplicate sitemap URLs');
 assert.equal(sitemap.length, 238, 'Unexpected change to the reviewed sitemap inventory');
 let links = 0;
+const titles = new Map();
 for (const route of pagePaths) {
   const dom = new JSDOM(readPage(route), { url: origin + route });
   const d = dom.window.document;
+  assert(d.title.trim(), `${route}: missing title`);
+  assert(!titles.has(d.title), `${route}: duplicate title shared with ${titles.get(d.title)}`);
+  titles.set(d.title, route);
   assert.equal(d.querySelectorAll('h1').length, 1, `${route}: H1`);
   assert(d.querySelector('main').textContent.trim().length > 100, `${route}: empty main`);
   assert(d.querySelector('header a[href="/"]'), `${route}: missing initial navigation`);
+  assert(d.querySelector('header a[aria-label="Call Paul Legal Associates"][href="tel:+917977063567"]'), `${route}: missing mobile call path`);
   assert.equal(d.querySelectorAll('link[rel="canonical"]').length, 1, `${route}: canonical count`);
   assert.equal(d.querySelector('link[rel="canonical"]').href, origin + route, `${route}: canonical URL`);
   assert.equal(d.querySelector('meta[property="og:url"]').content, origin + route, `${route}: og:url`);
@@ -49,6 +54,12 @@ for (const route of pagePaths) {
     }
   }
   if (route === '/expertise/') assert.equal(d.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 82);
+  if (route === '/expertise/property-title-verification-due-diligence/') {
+    assert(d.getElementById('title-review-guide'), 'Title review guide missing');
+    assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
+    assert.equal(d.title, 'Property Title Verification in Panvel | Paul Legal Associates');
+  }
+  if (route === '/contact/') assert(!d.querySelector('main').textContent.includes('[...]'), 'Truncated FAQ still visible');
   dom.window.close();
 }
 for (const url of sitemap) assert(routes.has(new URL(url).pathname) && url.startsWith(origin + '/'), `Missing sitemap page ${url}`);

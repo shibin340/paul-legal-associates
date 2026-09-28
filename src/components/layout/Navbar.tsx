@@ -62,6 +62,15 @@ const Navbar: React.FC = () => {
             </ul>
           </nav>
 
+          {/* Immediate call path on smaller screens, including without JavaScript. */}
+          <a
+            href="tel:+917977063567"
+            className="lg:hidden inline-flex items-center justify-center gap-1.5 px-3 py-2 border border-gold/60 text-gold text-xs font-semibold no-underline whitespace-nowrap flex-shrink-0"
+            aria-label="Call Paul Legal Associates"
+          >
+            <span aria-hidden="true">☎</span> Call
+          </a>
+
           {/* CTA Button */}
           <NavLink
             to="/contact/"

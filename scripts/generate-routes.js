@@ -13,13 +13,13 @@ const indexPath = path.join(buildDir, 'index.html');
 
 const { PRACTICE_AREAS, TEAM_MEMBERS, ARTICLES } = loadSource(path.resolve(__dirname, '../src/data/index.ts'));
 const { AppRoutes } = loadSource(path.resolve(__dirname, '../src/App.tsx'));
+const { getServiceMetadata } = loadSource(path.resolve(__dirname, '../src/serviceMetadata.ts'));
 
 const core = require('../src/seo-core.json');
 
 const servicePages = PRACTICE_AREAS.map(area => ({
   route: `/expertise/${area.slug}`,
-  title: `${area.title} Lawyers in Navi Mumbai | ${BRAND}`,
-  description: `${area.title}: ${area.shortDesc} Paul Legal Associates, Navi Mumbai.`
+  ...getServiceMetadata(area)
 }));
 const partnerPages = TEAM_MEMBERS.map(member => ({
   route: `/partners/${member.slug}`,
