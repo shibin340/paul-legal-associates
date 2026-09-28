@@ -17,6 +17,10 @@ const priority: Record<string, ServiceMetadata> = {
     title: "NAINA Town Planning Scheme Legal Support | Paul Legal Associates",
     description: "Review original and proposed final plot records, scheme documents and representations concerning land within a NAINA town planning scheme."
   },
+  "land-acquisition-compensation-matters": {
+    title: "Land Acquisition and Compensation in Raigad | Paul Legal Associates",
+    description: "Received an acquisition notice affecting land in Panvel or Raigad? Prepare the notice, plot records and key dates for a case-specific review."
+  },
   "rera-maharera-legal-services": {
     title: "MahaRERA Complaints and Compliance | Paul Legal Associates",
     description: "Information on MahaRERA project compliance, agreements, homebuyer complaints and developer responses from Paul Legal Associates."
