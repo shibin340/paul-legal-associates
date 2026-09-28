@@ -164,7 +164,7 @@ ${form.message}
                 </div>
                 <p className="text-[0.88rem] text-muted mb-7">We'll respond within one business day.</p>
                 <noscript>
-                  <p className="text-sm text-navy mb-6">Use the phone or email links on this page to contact our office. JavaScript is needed for the WhatsApp form.</p>
+                  <p className="text-sm text-navy mb-6">Call our office using the phone link on this page. JavaScript is needed for the WhatsApp form and may be needed to display the email link.</p>
                 </noscript>
 
                 <form className="flex flex-col gap-5" noValidate aria-label="Contact form">
