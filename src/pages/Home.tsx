@@ -64,6 +64,7 @@ const Home: React.FC = () => {
           <div className="flex gap-5 flex-wrap animate-heroFadeUp animation-delay-650">
             <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
             <Link to="/expertise/" className="btn-secondary">Our Practice Areas →</Link>
+            <a href="tel:+917977063567" className="btn-secondary">Call +91 7977063567</a>
           </div>
         </div>
 

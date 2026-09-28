@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import { ARTICLES, PRACTICE_AREAS, TEAM_MEMBERS } from "../../data";
 import core from "../../seo-core.json";
+import { getServiceMetadata } from "../../serviceMetadata";
 
 const ORIGIN = "https://paullegalassociates.com";
 const BRAND = "Paul Legal Associates";
@@ -23,10 +24,7 @@ const RouteMetadata = () => {
       ? ARTICLES.find(item => route === `/insights/${item.slug}`)
       : undefined;
     const page = core.find(item => item.route === route)
-      || (area && {
-        title: `${area.title} Lawyers in Navi Mumbai | ${BRAND}`,
-        description: `${area.title}: ${area.shortDesc} Paul Legal Associates, Navi Mumbai.`
-      })
+      || (area && getServiceMetadata(area))
       || (member && {
         title: `${member.name} - ${member.specialisation} | ${BRAND}`,
         description: `${member.name}, ${member.title} at ${BRAND}. ${member.specialisation}.`

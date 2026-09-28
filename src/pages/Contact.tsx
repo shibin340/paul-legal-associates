@@ -21,11 +21,11 @@ function validate(f: ContactForm): Errors {
 
 const FAQ = [
   // { q: "Is the initial consultation free?", a: "Yes — your first consultation is complimentary. We believe you should be able to discuss your matter freely before deciding to engage us." },
-  { q: "Which courts do your advocates practice in?", a: "Our advocates practice before the Bombay High Court, Supreme Court of India, and various tribunals and regulatory authorities including SR[...]" },
-  { q: "Do you handle urgent legal matters?", a: "Absolutely. Please indicate urgency when you contact us and we will prioritise your matter immediately." },
-  { q: "What areas of Maharashtra do you serve?", a: "Our primary practice is in Navi Mumbai and the surrounding districts, but we handle matters across Maharashtra and before national-level court[...]" },
+  { q: "Which courts do your advocates practice in?", a: "Our advocates appear before courts and tribunals relevant to their matters. Tell us the forum and share the case number or notice if one has been issued, so we can assess the next step." },
+  { q: "Do you handle urgent legal matters?", a: "If you have a hearing or filing deadline, mention the date when you contact us. Our team can then confirm availability and the documents needed for an initial review." },
+  { q: "What areas of Maharashtra do you serve?", a: "Our office is in Panvel, Navi Mumbai. We assist with matters in Raigad, Mumbai and other parts of Maharashtra depending on the forum and the nature of the work." },
   { q: "How are your fees structured?", a: "We offer matter-specific fee arrangements — fixed fees, retainer-based or time-based billing — discussed transparently at your first consultation." },
-  { q: "How do you maintain confidentiality?", a: "All communications are protected by attorney-client privilege from the moment of first contact. We maintain strict data security and confidential[...]" },
+  { q: "How should I share documents?", a: "Begin with a brief description of your matter and any deadline. Our team can then explain which documents are relevant and how to share them for review." },
 ];
 
 const Contact: React.FC = () => {
