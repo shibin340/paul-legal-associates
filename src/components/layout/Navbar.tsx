@@ -1,24 +1,12 @@
-import React, { useEffect, useState } from "react";
+import SiteImage from "../ui/SiteImage";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
 import { NAV_LINKS, TAGLINE } from "../../data";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);
-  const [isMounted, setIsMounted] = useState(false);
   const scrollPos = useScrollPosition();
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
-
-  if (!isMounted) {
-    return (
-      <header className="fixed top-0 left-0 right-0 h-[72px] z-50 bg-transparent" role="banner">
-        <div className="max-w-8xl mx-auto px-4 sm:px-[5vw] h-full" />
-      </header>
-    );
-  }
 
   const scrolled = scrollPos > 60;
 
@@ -38,7 +26,7 @@ const Navbar: React.FC = () => {
               onClick={() => setOpen(false)}
               aria-label="Paul Legal Associates Home"
             >
-              <img
+              <SiteImage
                 src="/logo.webp"
                 alt="Paul Legal Associates"
                 className="h-11 sm:h-12 lg:h-14 w-auto object-contain"
@@ -59,7 +47,7 @@ const Navbar: React.FC = () => {
               {NAV_LINKS.map(({ label, path }) => (
                 <li key={path} className="flex-shrink-0">
                   <NavLink
-                    to={path}
+                    to={path.endsWith("/") ? path : path + "/"}
                     end={path === "/"}
                     className={({ isActive }) =>
                       `text-[0.72rem] xl:text-[0.75rem] font-medium tracking-[0.08em] xl:tracking-[0.12em] uppercase no-underline whitespace-nowrap relative pb-0.5 transition-colors duration-300
@@ -76,7 +64,7 @@ const Navbar: React.FC = () => {
 
           {/* CTA Button */}
           <NavLink
-            to="/contact"
+            to="/contact/"
             className="hidden lg:inline-flex btn-primary text-[0.68rem] xl:text-[0.72rem] py-2.5 px-4 flex-shrink-0 whitespace-nowrap"
           >
             Book a Consultation
@@ -84,10 +72,12 @@ const Navbar: React.FC = () => {
 
           {/* Hamburger */}
           <button
+            data-requires-js
             className="lg:hidden flex flex-col gap-[5px] bg-transparent border-0 p-2 cursor-pointer flex-shrink-0 select-none"
             onClick={() => setOpen(!open)}
             aria-label={open ? "Close menu" : "Open menu"}
             aria-expanded={open}
+            aria-controls="mobile-navigation"
           >
             <span className={`block w-6 h-[1.5px] bg-gold transition-all duration-300 ${open ? "rotate-45 translate-y-[6.5px]" : ""}`} />
             <span className={`block w-6 h-[1.5px] bg-gold transition-all duration-300 ${open ? "opacity-0 scale-x-0" : ""}`} />
@@ -97,7 +87,9 @@ const Navbar: React.FC = () => {
       </header>
 
       {/* Mobile menu Overlay */}
+      {open && (
       <div
+        id="mobile-navigation"
         className={`fixed inset-0 z-40 bg-navy/98 backdrop-blur-xl flex flex-col items-center justify-between pt-24 pb-8 px-6 overflow-y-auto transition-all duration-300 ${open ? "opacity-100 pointer-events-auto" : "opacity-0 pointer-events-none"
           }`}
         role="dialog"
@@ -118,7 +110,7 @@ const Navbar: React.FC = () => {
           {NAV_LINKS.map(({ label, path }) => (
             <li key={path}>
               <NavLink
-                to={path}
+                to={path.endsWith("/") ? path : path + "/"}
                 end={path === "/"}
                 onClick={() => setOpen(false)}
                 className={({ isActive }) =>
@@ -135,7 +127,7 @@ const Navbar: React.FC = () => {
         {/* Bottom Action */}
         <div className="w-full max-w-[260px] pt-3">
           <NavLink
-            to="/contact"
+            to="/contact/"
             className="btn-primary no-underline block text-center py-3 text-[0.72rem] tracking-wider uppercase"
             onClick={() => setOpen(false)}
           >
@@ -143,6 +135,7 @@ const Navbar: React.FC = () => {
           </NavLink>
         </div>
       </div>
+      )}
     </>
   );
 };

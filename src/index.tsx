@@ -1,6 +1,7 @@
 import React from "react";
 import { hydrateRoot, createRoot } from "react-dom/client";
 import App from "./App";
+import "./index.css";
 
 const container = document.getElementById("root") as HTMLElement;
 
@@ -11,10 +12,8 @@ if (container.hasChildNodes()) {
       <App />
     </React.StrictMode>,
     {
-      onRecoverableError: (error, errorInfo) => {
-        // console.error("--- HYDRATION MISMATCH FOUND ---");
-        // console.error(error);
-        // console.error("Component stack trace:", errorInfo.componentStack);
+      onRecoverableError: (error) => {
+        console.error("Page hydration recovered from an error:", error);
       }
     }
   );

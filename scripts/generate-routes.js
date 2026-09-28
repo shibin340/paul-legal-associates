@@ -1,24 +1,18 @@
 const fs = require('fs');
 const path = require('path');
-const Module = require('module');
-const ts = require('typescript');
+process.env.NODE_ENV = 'production';
+const React = require('react');
+const { renderToString } = require('react-dom/server');
+const { StaticRouter } = require('react-router-dom/server');
+const { loadSource } = require('./load-source');
 
 const ORIGIN = 'https://paullegalassociates.com';
 const BRAND = 'Paul Legal Associates';
 const buildDir = path.resolve(__dirname, '../build');
 const indexPath = path.join(buildDir, 'index.html');
 
-// The application data is TypeScript, but it contains only data and type imports.
-// Compile it in memory so the route inventory cannot drift from the live UI.
-const dataPath = path.resolve(__dirname, '../src/data/index.ts');
-const compiled = ts.transpileModule(fs.readFileSync(dataPath, 'utf8'), {
-  compilerOptions: { module: ts.ModuleKind.CommonJS, target: ts.ScriptTarget.ES2020 }
-}).outputText;
-const dataModule = new Module(dataPath, module);
-dataModule.filename = dataPath;
-dataModule.paths = Module._nodeModulePaths(path.dirname(dataPath));
-dataModule._compile(compiled, dataPath);
-const { PRACTICE_AREAS, TEAM_MEMBERS, ARTICLES } = dataModule.exports;
+const { PRACTICE_AREAS, TEAM_MEMBERS, ARTICLES } = loadSource(path.resolve(__dirname, '../src/data/index.ts'));
+const { AppRoutes } = loadSource(path.resolve(__dirname, '../src/App.tsx'));
 
 const core = require('../src/seo-core.json');
 
@@ -64,7 +58,7 @@ function replaceOne(html, pattern, replacement, label) {
   if (matches.length !== 1) {
     throw new Error(`Expected one ${label} in the HTML template, found ${matches.length}`);
   }
-  return html.replace(pattern, replacement);
+  return html.replace(pattern, () => replacement);
 }
 
 function renderHead(template, page) {
@@ -101,7 +95,18 @@ for (const page of pages) {
     ? indexPath
     : path.join(buildDir, page.route.slice(1), 'index.html');
   fs.mkdirSync(path.dirname(destination), { recursive: true });
-  fs.writeFileSync(destination, renderHead(template, page));
+  const location = page.route === '/' ? '/' : page.route + '/';
+  const body = renderToString(React.createElement(
+    StaticRouter, { location }, React.createElement(AppRoutes)
+  ));
+  if ((body.match(/<h1(?:\s|>)/g) || []).length !== 1 ||
+      !body.includes('<main') || !body.includes('tel:+917977063567')) {
+    throw new Error(`Missing main content, unique H1 or contact link on ${page.route}`);
+  }
+  fs.writeFileSync(destination, replaceOne(
+    renderHead(template, page), /<div id="root"><\/div>/g,
+    `<div id="root">${body}</div>`, 'React root'
+  ));
 }
 
 const sitemapPages = pages.filter(page => !awaitingArticleReview.has(page.route));
@@ -113,4 +118,4 @@ const sitemap = [
   ''
 ].join('\n');
 fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), sitemap);
-console.log(`Generated ${pages.length} route files and ${sitemapPages.length} apex sitemap URLs.`);
+console.log(`Pre-rendered ${pages.length} complete pages and ${sitemapPages.length} apex sitemap URLs.`);

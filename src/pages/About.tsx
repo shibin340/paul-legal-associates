@@ -47,8 +47,8 @@ const About: React.FC = () => {
             We serve individuals, businesses, developers and institutions across Maharashtra, with deep expertise in property law, legal compliance, commercial litigation, banking laws and land acquisitions. Our advocates practice before the Bombay High Court and Supreme Court of India.
           </p>
           <div className="flex gap-5 flex-wrap">
-            <Link to="/partners" className="btn-primary">Meet Our Partners</Link>
-            <Link to="/contact" className="btn-outline-navy">Get in Touch</Link>
+            <Link to="/partners/" className="btn-primary">Meet Our Partners</Link>
+            <Link to="/contact/" className="btn-outline-navy">Get in Touch</Link>
           </div>
         </AnimateIn>
 
@@ -182,8 +182,8 @@ const About: React.FC = () => {
           Schedule a confidential consultation with one of our senior advocates today.
         </p>
         <div className="flex gap-5 flex-wrap">
-          <Link to="/contact" className="btn-primary">Schedule Consultation</Link>
-          <Link to="/expertise" className="btn-outline-navy">Our Practice Areas</Link>
+          <Link to="/contact/" className="btn-primary">Schedule Consultation</Link>
+          <Link to="/expertise/" className="btn-outline-navy">Our Practice Areas</Link>
         </div>
       </AnimateIn>
     </section>

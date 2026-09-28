@@ -24,7 +24,7 @@ const ExpertiseDetail: React.FC = () => {
 
   // If slug doesn't match any practice area, redirect cleanly
   if (!area) {
-    return <Navigate to="/expertise" replace />;
+    return <Navigate to="/expertise/" replace />;
   }
 
   return (
@@ -35,7 +35,7 @@ const ExpertiseDetail: React.FC = () => {
         <div className="absolute inset-0 bg-page-grid-lines z-0" aria-hidden="true" />
         <div className="relative z-10 max-w-[800px] animate-pageFadeIn">
           <div className="eyebrow-row">
-            <Link to="/expertise" className="eyebrow-text hover:underline text-gold">
+            <Link to="/expertise/" className="eyebrow-text hover:underline text-gold">
               ← All Practice Areas
             </Link>
           </div>
@@ -86,7 +86,7 @@ const ExpertiseDetail: React.FC = () => {
                   return (
                     <li key={item.id}>
                       <Link
-                        to={`/expertise/${item.slug || item.id}`}
+                        to={`/expertise/${item.slug || item.id}/`}
                         className={`group flex items-center gap-3 w-full text-left px-3 py-2.5 text-[0.82rem] border transition-all duration-200 font-sans rounded-xs no-underline
                           ${active ? "bg-navy text-cream border-navy font-semibold" : "bg-transparent text-muted border-transparent hover:bg-navy/5 hover:text-navy"}`}
                       >
@@ -133,7 +133,7 @@ const ExpertiseDetail: React.FC = () => {
                 ))}
               </ul>
               
-              <Link to="/contact" className="btn-primary inline-block">
+              <Link to="/contact/" className="btn-primary inline-block">
                 Discuss Your {area.title} Matter
               </Link>
             </article>

@@ -16,7 +16,7 @@ const ArticleDetail: React.FC = () => {
   }, [slug]);
 
   if (!article) {
-    return <Navigate to="/insights" replace />;
+    return <Navigate to="/insights/" replace />;
   }
 
   const related = getRelatedArticles(article, 3);
@@ -32,7 +32,7 @@ const ArticleDetail: React.FC = () => {
           <div className="flex items-center gap-2 text-2xs text-cream/50 mb-6 flex-wrap">
             <Link to="/" className="hover:text-gold transition-colors no-underline text-cream/50">Home</Link>
             <span aria-hidden="true">/</span>
-            <Link to="/insights" className="hover:text-gold transition-colors no-underline text-cream/50">Insights</Link>
+            <Link to="/insights/" className="hover:text-gold transition-colors no-underline text-cream/50">Insights</Link>
             <span aria-hidden="true">/</span>
             <span className="text-gold">{article.category}</span>
           </div>
@@ -144,13 +144,13 @@ const ArticleDetail: React.FC = () => {
                 <p className="text-[0.9rem] text-muted mb-6 max-w-md mx-auto">
                   Schedule a confidential consultation with our advocates to discuss your legal options.
                 </p>
-                <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
+                <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
               </div>
             </AnimateIn>
 
             {/* Back link */}
             <div className="mt-10">
-              <Link to="/insights" className="btn-ghost text-navy">← Back to All Insights</Link>
+              <Link to="/insights/" className="btn-ghost text-navy">← Back to All Insights</Link>
             </div>
           </article>
 
@@ -182,7 +182,7 @@ const ArticleDetail: React.FC = () => {
                   <h3 className="text-2xs font-semibold tracking-[0.2em] uppercase text-gold mb-4">Related Insights</h3>
                   <div className="flex flex-col gap-4">
                     {related.map(r => (
-                      <Link key={r.id} to={`/insights/${r.slug}`} className="group block no-underline pb-4 border-b border-navy/8 last:border-0 last:pb-0">
+                      <Link key={r.id} to={`/insights/${r.slug}/`} className="group block no-underline pb-4 border-b border-navy/8 last:border-0 last:pb-0">
                         <div className="text-2xs text-gold mb-1.5">{r.category}</div>
                         <div className="text-[0.85rem] text-navy font-medium leading-snug group-hover:text-navy-light transition-colors">
                           {r.title}

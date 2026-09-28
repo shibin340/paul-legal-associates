@@ -109,7 +109,7 @@ const Insights: React.FC = () => {
               {featured && (
                 <AnimateIn key={featured.id} className="mb-12">
                   <Link
-                    to={`/insights/${featured.slug}`}
+                    to={`/insights/${featured.slug}/`}
                     className="group grid grid-cols-1 lg:grid-cols-[1fr_1.2fr] gap-0 no-underline border border-navy/10 bg-white overflow-hidden hover:shadow-deep transition-shadow duration-300"
                   >
                     <div className="bg-navy flex items-center justify-center p-12 relative overflow-hidden min-h-[260px]">
@@ -146,7 +146,7 @@ const Insights: React.FC = () => {
                 {paginatedRest.map((article, i) => (
                   <AnimateIn key={article.id} delay={i * 0.04}>
                     <Link
-                      to={`/insights/${article.slug}`}
+                      to={`/insights/${article.slug}/`}
                       className="group flex flex-col h-full no-underline border border-navy/10 bg-white overflow-hidden hover:border-gold/40 hover:-translate-y-1 hover:shadow-card-hover transition-all duration-300"
                     >
                       <div className="bg-navy-deep flex items-center justify-center p-8 relative overflow-hidden h-[140px]">
@@ -198,7 +198,7 @@ const Insights: React.FC = () => {
           <p className="section-subtitle text-cream/70 mx-auto mb-10">
             Our advocates are ready to analyze your specific situation — contact our office to schedule your consultation.
           </p>
-          <Link to="/contact" className="btn-primary">Schedule a Consultation</Link>
+          <Link to="/contact/" className="btn-primary">Schedule a Consultation</Link>
         </AnimateIn>
       </section>
 
