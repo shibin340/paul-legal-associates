@@ -30,5 +30,6 @@ Google indexing, real-device layout, WhatsApp delivery or enquiry conversions.
 
 The complete practice index uses native `details`/`summary` and works without
 JavaScript. Intro animations leave initial content visible; only off-screen
-sections gain scroll-triggered animation after hydration. Phone and email links
-remain available if JavaScript cannot run.
+sections gain scroll-triggered animation after hydration. Phone links remain
+available if JavaScript cannot run; Cloudflare may mask email links until its
+email decoder runs in the browser.
