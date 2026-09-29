@@ -1,32 +1,30 @@
-import React, { useState, useMemo } from 'react';
+import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { PRACTICE_AREAS } from '../practiceAreas';
+import { ARTICLES } from '../data';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import { useDocumentTitle } from 'hooks/useDocumentTitle';
 import { getServiceMetadata } from '../serviceMetadata';
+import { getRelatedServices, getServiceTopic } from '../serviceTopics';
+import { serviceReading } from '../serviceReading';
 
 const ExpertiseDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
-  const [sidebarSearch, setSidebarSearch] = useState("");
-
   // Find the selected practice area based on the URL slug or ID
   const area = PRACTICE_AREAS.find(
     (p) => p.slug === slug || p.id === slug
   );
   useDocumentTitle(area ? getServiceMetadata(area).title : 'Practice Areas | Paul Legal Associates');
 
-  // Filter sidebar areas for UX
-  const filteredSidebarAreas = useMemo(() => {
-    return PRACTICE_AREAS.filter((a) =>
-      a.title.toLowerCase().includes(sidebarSearch.toLowerCase()) ||
-      a.shortDesc.toLowerCase().includes(sidebarSearch.toLowerCase())
-    );
-  }, [sidebarSearch]);
-
   // If slug doesn't match any practice area, redirect cleanly
   if (!area) {
     return <Navigate to="/expertise/" replace />;
   }
+  const topic = getServiceTopic(area.slug);
+  const relatedServices = getRelatedServices(area, PRACTICE_AREAS);
+  const relatedArticles = (serviceReading[area.slug] || [])
+    .map(articleSlug => ARTICLES.find(item => item.slug === articleSlug))
+    .filter((item): item is (typeof ARTICLES)[number] => Boolean(item));
 
   return (
     <>
@@ -35,11 +33,13 @@ const ExpertiseDetail: React.FC = () => {
         <div className="absolute inset-0 bg-page-hero-radial z-0" aria-hidden="true" />
         <div className="absolute inset-0 bg-page-grid-lines z-0" aria-hidden="true" />
         <div className="relative z-10 max-w-[800px] animate-pageFadeIn">
-          <div className="eyebrow-row">
-            <Link to="/expertise/" className="eyebrow-text hover:underline text-gold">
-              ← All Practice Areas
-            </Link>
-          </div>
+          <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-x-2 gap-y-1 text-[0.75rem] tracking-[0.06em] text-cream/70">
+            <Link to="/" className="hover:text-gold">Home</Link>
+            <span aria-hidden="true">/</span>
+            <Link to="/expertise/" className="hover:text-gold">Practice Areas</Link>
+            <span aria-hidden="true">/</span>
+            <span className="text-gold" aria-current="page">{area.title}</span>
+          </nav>
           <h1 className="font-serif font-bold text-cream leading-[1.1] mt-3 mb-5" style={{ fontSize: "clamp(2.2rem,4.5vw,3.8rem)" }}>
             {area.title}
           </h1>
@@ -54,57 +54,37 @@ const ExpertiseDetail: React.FC = () => {
         <div className="max-w-8xl mx-auto">
           <div className="grid grid-cols-1 lg:grid-cols-[300px_1fr] gap-10 items-start">
             
-            {/* Sidebar Navigation with Semantic Internal Links for Crawlers */}
-            <nav className="lg:sticky lg:top-[calc(72px+2rem)] bg-white border border-navy/10 p-5 rounded-sm shadow-2xs" aria-label="Practice areas index">
-              <div className="text-2xs font-semibold tracking-[0.22em] uppercase text-navy mb-3 pb-2 border-b border-navy/15 flex justify-between items-center">
-                <span>Services Index</span>
-                <span className="text-gold font-sans font-bold text-[0.75rem]">({PRACTICE_AREAS.length})</span>
-              </div>
-
-              {/* Sidebar Search */}
-              <div className="relative mb-4">
-                <input
-                  type="text"
-                  placeholder="Filter practice areas..."
-                  value={sidebarSearch}
-                  onChange={(e) => setSidebarSearch(e.target.value)}
-                  className="w-full text-[0.82rem] px-3 py-2 bg-cream/50 text-navy border border-navy/10 rounded-xs focus:outline-hidden focus:border-gold/50 font-sans"
-                />
-                {sidebarSearch && (
-                  <button
-                    onClick={() => setSidebarSearch("")}
-                    className="absolute right-2.5 top-2.5 text-navy/40 hover:text-navy text-xs cursor-pointer border-none bg-transparent"
-                  >
-                    ✕
-                  </button>
-                )}
-              </div>
-
-              {/* Crawlable Sidebar Links */}
-              <ul className="list-none flex flex-col gap-0.5 m-0 p-0 max-h-[460px] overflow-y-auto pr-1 subtle-scrollbar">
-                {filteredSidebarAreas.map((item) => {
-                  const active = item.id === area.id || item.slug === slug;
-                  return (
-                    <li key={item.id}>
-                      <Link
-                        to={`/expertise/${item.slug || item.id}/`}
-                        className={`group flex items-center gap-3 w-full text-left px-3 py-2.5 text-[0.82rem] border transition-all duration-200 font-sans rounded-xs no-underline
-                          ${active ? "bg-navy text-cream border-navy font-semibold" : "bg-transparent text-muted border-transparent hover:bg-navy/5 hover:text-navy"}`}
-                      >
-                        <div className={`w-6 h-6 rounded-full flex items-center justify-center text-xs flex-shrink-0 transition-colors duration-200 ${active ? "bg-gold text-navy" : "bg-navy/5 text-navy/70 group-hover:bg-navy/10"}`}>
-                          {item.icon}
-                        </div>
-                        <span className="flex-1 truncate">{item.title}</span>
-                        <span className={`text-gold text-xs transition-all duration-200 ${active ? "translate-x-0 opacity-100" : "-translate-x-1 opacity-0 group-hover:translate-x-0 group-hover:opacity-100"}`} aria-hidden="true">→</span>
-                      </Link>
-                    </li>
-                  );
-                })}
+            {/* The complete 83-service directory stays on /expertise/. */}
+            <nav className="order-2 lg:order-1 lg:sticky lg:top-[calc(72px+2rem)] bg-white border border-navy/10 p-5 sm:p-6 rounded-sm shadow-2xs" aria-label="Related practice areas">
+              <div className="text-2xs font-semibold tracking-[0.18em] uppercase text-gold mb-2">Explore connected work</div>
+              <h2 className="font-serif text-[1.25rem] font-semibold text-navy leading-snug mb-5">{topic?.label || 'Practice areas'}</h2>
+              {topic && topic.hub !== area.slug && (
+                <Link to={`/expertise/${topic.hub}/`} className="block mb-5 text-[0.88rem] font-semibold text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold">
+                  View the {topic.label.toLowerCase()} overview →
+                </Link>
+              )}
+              <ul className="list-none flex flex-col gap-1 m-0 p-0">
+                {relatedServices.map(item => (
+                  <li key={item.slug}>
+                    <Link to={`/expertise/${item.slug}/`} className="group flex items-start gap-2 px-3 py-2.5 text-[0.84rem] leading-[1.5] text-navy border-l-2 border-gold/25 hover:border-gold hover:bg-cream transition-colors no-underline">
+                      <span className="text-gold" aria-hidden="true">↗</span>
+                      <span>{item.title}</span>
+                    </Link>
+                  </li>
+                ))}
               </ul>
+              {topic?.id === 'finance-crossborder' && (
+                <Link to="/finance-tax-regulatory-advisory/" className="block mt-4 text-[0.85rem] font-semibold text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold">
+                  Finance, Tax &amp; Regulatory Advisory →
+                </Link>
+              )}
+              <Link to="/expertise/" className="block mt-6 pt-4 border-t border-navy/10 text-[0.85rem] font-semibold text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold">
+                Browse all {PRACTICE_AREAS.length} practice areas →
+              </Link>
             </nav>
 
             {/* Main Area Content Panel */}
-            <article className="bg-white border border-navy/10 p-10 min-h-[560px] shadow-sm">
+            <article className="order-1 lg:order-2 bg-white border border-navy/10 p-6 sm:p-10 min-h-[560px] shadow-sm">
               <div className="flex items-start gap-5 mb-6">
                 <div className="w-14 h-14 rounded-full bg-navy flex items-center justify-center text-2xl flex-shrink-0 text-cream">
                   {area.icon}
@@ -268,6 +248,19 @@ const ExpertiseDetail: React.FC = () => {
                     For policy, Internal Committee or training questions, see our focused employer preparation guide.
                   </p>
                   <Link to="/expertise/posh-compliance-internal-committee/" className="text-navy underline hover:text-gold">Explore POSH compliance support</Link>
+                </nav>
+              )}
+
+              {relatedArticles.length > 0 && (
+                <nav aria-label="Related insights" className="border-t border-navy/10 pt-7 mb-8">
+                  <h3 className="font-serif text-[1.2rem] font-semibold text-navy mb-3">Related insights</h3>
+                  <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+                    {relatedArticles.map(item => (
+                      <li key={item.slug}>
+                        <Link to={`/insights/${item.slug}/`} className="text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold">{item.title}</Link>
+                      </li>
+                    ))}
+                  </ul>
                 </nav>
               )}
               

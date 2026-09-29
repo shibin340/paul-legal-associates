@@ -3,6 +3,8 @@ import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
 import { getArticleBySlug, getRelatedArticles } from "../data";
+import { PRACTICE_AREAS } from "../practiceAreas";
+import { insightServiceLinks } from "../serviceReading";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const ArticleDetail: React.FC = () => {
@@ -20,6 +22,7 @@ const ArticleDetail: React.FC = () => {
   }
 
   const related = getRelatedArticles(article, 3);
+  const linkedService = PRACTICE_AREAS.find(area => area.slug === insightServiceLinks[article.slug]);
 
   return (
     <>
@@ -116,6 +119,15 @@ const ArticleDetail: React.FC = () => {
               <nav aria-label="Related POSH service" className="border border-navy/10 bg-white p-6 text-[0.95rem] text-navy leading-[1.7]">
                 <p className="mb-2">Reviewing your organisation's policy, Internal Committee or training arrangements?</p>
                 <Link to="/expertise/posh-compliance-internal-committee/" className="text-navy underline hover:text-gold">See the POSH compliance preparation guide</Link>
+              </nav>
+            )}
+
+            {linkedService && (
+              <nav aria-label="Related legal service" className="border border-navy/10 bg-white p-6 mt-8 text-[0.95rem] text-navy leading-[1.7]">
+                <p className="mb-2">Need help with a matter covered in this guide?</p>
+                <Link to={`/expertise/${linkedService.slug}/`} className="text-navy underline decoration-gold/60 underline-offset-4 hover:text-gold">
+                  Explore {linkedService.title}
+                </Link>
               </nav>
             )}
 
