@@ -33,7 +33,7 @@ for (const route of pagePaths) {
   assert.equal(d.querySelectorAll('h1').length, 1, `${route}: H1`);
   assert(d.querySelector('main').textContent.trim().length > 100, `${route}: empty main`);
   assert(d.querySelector('header a[href="/"]'), `${route}: missing initial navigation`);
-  assert(d.querySelector('header a[aria-label="Call Paul Legal Associates"][href="tel:+917977063567"]'), `${route}: missing mobile call path`);
+  assert(d.querySelector('header a[href="/contact/"]'), `${route}: missing header contact path`);
   assert.equal(d.querySelectorAll('link[rel="canonical"]').length, 1, `${route}: canonical count`);
   assert.equal(d.querySelector('link[rel="canonical"]').href, origin + route, `${route}: canonical URL`);
   assert.equal(d.querySelector('meta[property="og:url"]').content, origin + route, `${route}: og:url`);
