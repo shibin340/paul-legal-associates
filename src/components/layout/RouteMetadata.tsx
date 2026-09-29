@@ -5,6 +5,7 @@ import { PRACTICE_AREAS } from "../../practiceAreas";
 import core from "../../seo-core.json";
 import awaitingArticleReview from "../../seo-awaiting-review.json";
 import { getServiceMetadata } from "../../serviceMetadata";
+import { createSeoGraph } from "../../seoGraph";
 
 const ORIGIN = "https://paullegalassociates.com";
 const BRAND = "Paul Legal Associates";
@@ -53,6 +54,16 @@ const RouteMetadata = () => {
     set('meta[property="og:description"]', "content", description);
     set('meta[name="twitter:title"]', "content", page.title);
     set('meta[name="twitter:description"]', "content", description);
+    const graph = createSeoGraph(route, {
+      title: page.title,
+      description: page.description,
+      area,
+      member,
+      article,
+      heldForReview: pendingReviewRoutes.has(route)
+    });
+    const script = document.querySelector<HTMLScriptElement>('#seo-graph');
+    if (script) script.textContent = JSON.stringify(graph).replace(/</g, '\\u003c');
   }, [pathname]);
 
   return null;

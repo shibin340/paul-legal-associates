@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { getArticleBySlug, getRelatedArticles } from "../data";
+import { getArticleBySlug, getRelatedArticles, TEAM_MEMBERS } from "../data";
 import { PRACTICE_AREAS } from "../practiceAreas";
 import { insightServiceLinks } from "../serviceReading";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
@@ -23,6 +23,7 @@ const ArticleDetail: React.FC = () => {
 
   const related = getRelatedArticles(article, 3);
   const linkedService = PRACTICE_AREAS.find(area => area.slug === insightServiceLinks[article.slug]);
+  const authorProfile = TEAM_MEMBERS.find(member => member.name === article.author);
 
   return (
     <>
@@ -56,7 +57,7 @@ const ArticleDetail: React.FC = () => {
                 {article.author.replace("Adv. ", "").split(" ").map(n => n[0]).join("")}
               </div>
               <div>
-                <div className="text-cream font-medium">{article.author}</div>
+                {authorProfile ? <Link to={`/partners/${authorProfile.slug}/`} className="text-cream font-medium underline decoration-gold/60 underline-offset-4 hover:text-gold">{article.author}</Link> : <div className="text-cream font-medium">{article.author}</div>}
                 <div className="text-2xs text-cream/50">{article.authorRole}</div>
               </div>
             </div>
@@ -148,7 +149,9 @@ const ArticleDetail: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-2xs tracking-[0.15em] uppercase text-gold mb-1">Written By</div>
-                  <div className="font-serif text-[1.1rem] font-semibold text-cream mb-1">{article.author}</div>
+                  <div className="font-serif text-[1.1rem] font-semibold text-cream mb-1">
+                    {authorProfile ? <Link to={`/partners/${authorProfile.slug}/`} className="text-cream underline decoration-gold/60 underline-offset-4 hover:text-gold">{article.author}</Link> : article.author}
+                  </div>
                   <div className="text-[0.85rem] text-cream/60">{article.authorRole}, Paul Legal Associates</div>
                 </div>
               </div>

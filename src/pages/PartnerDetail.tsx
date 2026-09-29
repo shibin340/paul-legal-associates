@@ -3,7 +3,8 @@ import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { TEAM_MEMBERS } from "../data";
+import { ARTICLES, TEAM_MEMBERS } from "../data";
+import awaitingReview from "../seo-awaiting-review.json";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const PartnerDetail: React.FC = () => {
@@ -17,6 +18,14 @@ const PartnerDetail: React.FC = () => {
   }
 
   const otherMembers = TEAM_MEMBERS.filter((m) => m.id !== member.id);
+  const selectedInsightSlugs: Record<string, string[]> = {
+    'pp-polachan': ['land-acquisition-compensation-rights', 'commercial-arbitration-vs-litigation'],
+    'sojan-paul': ['property-title-search-legal-due-diligence', 'naina-town-planning-scheme-rights', 'property-registration-services', 'contract-drafting-agreement-review-mou-nda'],
+    'sonam-paul': ['labour-code-readiness-2026', 'starting-business-india-legal-compliance-checklist', 'maharera-order-non-compliance-execution-recovery']
+  };
+  const selectedInsights = (selectedInsightSlugs[member.slug] || [])
+    .map(articleSlug => ARTICLES.find(article => article.slug === articleSlug && article.author === member.name && !awaitingReview.includes(article.slug)))
+    .filter((article): article is (typeof ARTICLES)[number] => Boolean(article));
 
   return (
     <>
@@ -112,6 +121,21 @@ const PartnerDetail: React.FC = () => {
             </div>
 
           </div>
+
+          {selectedInsights.length > 0 && (
+            <nav className="mt-20 pt-12 border-t border-gold/15" aria-label={`Selected insights by ${member.name}`}>
+              <h3 className="font-serif text-[1.4rem] font-semibold text-cream mb-6">Selected insights by {member.name}</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {selectedInsights.map(article => (
+                  <li key={article.slug}>
+                    <Link to={`/insights/${article.slug}/`} className="block h-full p-5 bg-navy-deep border border-gold/15 hover:border-gold/50 text-cream/90 hover:text-gold transition-colors">
+                      {article.title}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </nav>
+          )}
 
           {/* ══ OTHER PARTNERS (INTERNAL CROSS-LINKING) ══ */}
           <div className="mt-24 pt-16 border-t border-gold/15">
