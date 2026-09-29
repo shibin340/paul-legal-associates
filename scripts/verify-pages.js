@@ -23,6 +23,7 @@ const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').mat
 assert.equal(sitemap.length, new Set(sitemap).size, 'Duplicate sitemap URLs');
 assert.equal(sitemap.length, 239, 'Unexpected change to the reviewed sitemap inventory');
 const serviceTopics = require('../src/serviceTopics.json');
+const heldArticleRoutes = new Set(require('../src/seo-awaiting-review.json').map(slug => `/insights/${slug}/`));
 const serviceSlugs = serviceTopics.flatMap(topic => topic.members);
 assert.equal(serviceSlugs.length, 83, 'Topic map must cover all 83 practices');
 assert.equal(new Set(serviceSlugs).size, 83, 'Practice assigned to multiple topics');
@@ -46,6 +47,67 @@ for (const route of pagePaths) {
   assert.equal(d.querySelector('link[rel="canonical"]').href, origin + route, `${route}: canonical URL`);
   assert.equal(d.querySelector('meta[property="og:url"]').content, origin + route, `${route}: og:url`);
   assert.equal(d.querySelectorAll('meta[name="description"]').length, 1, `${route}: description count`);
+  const graphScript = d.querySelector('#seo-graph[type="application/ld+json"]');
+  assert.equal(d.querySelectorAll('script[type="application/ld+json"]').length, 1, `${route}: structured-data script count`);
+  assert(graphScript, `${route}: structured-data graph missing`);
+  const graphDocument = JSON.parse(graphScript.textContent);
+  assert.equal(graphDocument['@context'], 'https://schema.org', `${route}: schema context`);
+  const graph = graphDocument['@graph'];
+  assert(Array.isArray(graph), `${route}: @graph missing`);
+  const findType = type => graph.filter(node => node['@type'] === type);
+  const firm = findType('LegalService');
+  const website = findType('WebSite');
+  const webPage = findType('WebPage');
+  assert.equal(firm.length, 1, `${route}: LegalService count`);
+  assert.equal(website.length, 1, `${route}: WebSite count`);
+  assert.equal(webPage.length, 1, `${route}: WebPage count`);
+  assert.equal(firm[0]['@id'], origin + '/#firm', `${route}: firm entity ID`);
+  assert.equal(website[0].publisher['@id'], firm[0]['@id'], `${route}: website publisher`);
+  assert.equal(webPage[0].url, origin + route, `${route}: WebPage canonical mismatch`);
+  assert.equal(webPage[0].isPartOf['@id'], website[0]['@id'], `${route}: website relationship`);
+  assert.equal(new Set(graph.map(node => node['@id'])).size, graph.length, `${route}: duplicate entity IDs`);
+  assert(!graphScript.textContent.includes('AggregateRating') && !graphScript.textContent.includes('sameAs'), `${route}: unverified ratings or profiles`);
+  if (route.startsWith('/expertise/') && route !== '/expertise/' || route === '/finance-tax-regulatory-advisory/') {
+    const service = findType('Service');
+    assert.equal(service.length, 1, `${route}: Service count`);
+    assert.equal(service[0].name, d.querySelector('h1').textContent.trim(), `${route}: service differs from visible H1`);
+    assert.equal(service[0].provider['@id'], firm[0]['@id'], `${route}: service provider`);
+    assert.equal(webPage[0].mainEntity['@id'], service[0]['@id'], `${route}: Service mainEntity`);
+  }
+  if (route.startsWith('/expertise/') && route !== '/expertise/') {
+    const breadcrumb = findType('BreadcrumbList');
+    assert.equal(breadcrumb.length, 1, `${route}: service breadcrumb count`);
+    assert.deepEqual(breadcrumb[0].itemListElement.map(item => item.item), [origin + '/', origin + '/expertise/', origin + route], `${route}: breadcrumb URLs`);
+    assert.equal(webPage[0].breadcrumb['@id'], breadcrumb[0]['@id']);
+  }
+  if (route.startsWith('/partners/') && route !== '/partners/') {
+    const person = findType('Person');
+    assert.equal(person.length, 1, `${route}: profile Person count`);
+    assert.equal(person[0].name, d.querySelector('h1').textContent.trim(), `${route}: Person name`);
+    assert.equal(person[0].url, origin + route, `${route}: Person profile URL`);
+    assert.equal(webPage[0].mainEntity['@id'], person[0]['@id']);
+    for (const a of d.querySelectorAll('nav[aria-label^="Selected insights by"] a')) {
+      assert(sitemap.includes(origin + a.getAttribute('href')), `${route}: linked held article`);
+    }
+  }
+  if (route.startsWith('/insights/') && route !== '/insights/') {
+    const article = findType('BlogPosting');
+    if (heldArticleRoutes.has(route)) {
+      assert.equal(article.length, 0, `${route}: held article should not have BlogPosting schema`);
+      assert(d.querySelector('meta[name="robots"]').content.includes('noindex'), `${route}: held article missing noindex`);
+      assert(!sitemap.includes(origin + route), `${route}: held article in sitemap`);
+    } else {
+      assert.equal(article.length, 1, `${route}: BlogPosting count`);
+      assert.equal(article[0].headline, d.querySelector('h1').textContent.trim(), `${route}: article headline`);
+      assert.equal(article[0].publisher['@id'], firm[0]['@id'], `${route}: article publisher`);
+      assert.equal(webPage[0].mainEntity['@id'], article[0]['@id'], `${route}: Article mainEntity`);
+      const author = findType('Person');
+      assert.equal(author.length, 1, `${route}: article author Person count`);
+      assert.equal(article[0].author['@id'], author[0]['@id'], `${route}: article author relationship`);
+      assert(d.querySelector(`main a[href="${new URL(author[0].url).pathname}"]`), `${route}: visible author profile link`);
+      assert.equal(findType('BreadcrumbList').length, 1, `${route}: Insights breadcrumb count`);
+    }
+  }
   assert(d.querySelector('a[href="tel:+917977063567"]'), `${route}: call path`);
   assert(d.querySelector('a[href="mailto:info@paullegalassociates.com"]'), `${route}: email path`);
   assert(!d.querySelector('[style*="opacity:0"]'), `${route}: initially hidden content`);
@@ -160,6 +222,7 @@ async function verifyHydration(route) {
   const w = dom.window;
   const initialHeading = w.document.querySelector('h1');
   const initialTitle = w.document.title;
+  const initialGraph = JSON.parse(w.document.querySelector('#seo-graph').textContent);
   const opened = [];
   w.scrollTo = () => {};
   w.HTMLElement.prototype.scrollIntoView = () => {};
@@ -170,6 +233,7 @@ async function verifyHydration(route) {
   await new Promise(resolve => setTimeout(resolve, 120));
   assert.equal(w.document.querySelector('h1'), initialHeading, `${route}: React replaced the pre-rendered page`);
   assert.equal(w.document.title, initialTitle, `${route}: title drift after hydration`);
+  assert.deepEqual(JSON.parse(w.document.querySelector('#seo-graph').textContent), initialGraph, `${route}: schema drift after hydration`);
   assert.equal(errors.length, 0, `${route}: ${errors.join('; ')}`);
   if (route === '/') {
     const menu = w.document.querySelector('button[aria-label="Open menu"]');
@@ -201,6 +265,7 @@ async function verifyHydration(route) {
   await new Promise(resolve => setTimeout(resolve, 60));
   assert.equal(w.location.pathname, target, `${route}: client navigation`);
   assert.equal(w.document.querySelector('link[rel="canonical"]').href, origin + target, `${route}: navigation canonical`);
+  assert.equal(JSON.parse(w.document.querySelector('#seo-graph').textContent)['@graph'].find(node => node['@type'] === 'WebPage').url, origin + target, `${route}: navigation schema URL`);
   assert.equal(w.document.querySelectorAll('h1').length, 1);
   assert.equal(errors.length, 0, `${route}: ${errors.join('; ')}`);
   dom.window.close();

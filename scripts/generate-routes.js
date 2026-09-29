@@ -15,6 +15,7 @@ const { TEAM_MEMBERS, ARTICLES } = loadSource(path.resolve(__dirname, '../src/da
 const { PRACTICE_AREAS } = loadSource(path.resolve(__dirname, '../src/practiceAreas.ts'));
 const { AppRoutes } = loadSource(path.resolve(__dirname, '../src/App.tsx'));
 const { getServiceMetadata } = loadSource(path.resolve(__dirname, '../src/serviceMetadata.ts'));
+const { createSeoGraph } = loadSource(path.resolve(__dirname, '../src/seoGraph.ts'));
 
 const core = require('../src/seo-core.json');
 
@@ -34,6 +35,9 @@ const articlePages = ARTICLES.map(article => ({
   type: 'article'
 }));
 const pages = [...core, ...servicePages, ...partnerPages, ...articlePages];
+const areasByRoute = new Map(PRACTICE_AREAS.map(area => [`/expertise/${area.slug}`, area]));
+const membersByRoute = new Map(TEAM_MEMBERS.map(member => [`/partners/${member.slug}`, member]));
+const articlesByRoute = new Map(ARTICLES.map(article => [`/insights/${article.slug}`, article]));
 
 // Pending legal review: omit from the sitemap and prevent indexing until approved.
 const awaitingArticleReview = new Set(
@@ -70,10 +74,21 @@ function renderHead(template, page) {
     [/<meta name="twitter:title"[^>]*>/g, `<meta name="twitter:title" content="${title}" />`, 'twitter:title'],
     [/<meta name="twitter:description"[^>]*>/g, `<meta name="twitter:description" content="${description}" />`, 'twitter:description']
   ];
-  return replacements.reduce(
+  const head = replacements.reduce(
     (html, [pattern, replacement, label]) => replaceOne(html, pattern, replacement, label),
     template
   );
+  const graph = createSeoGraph(page.route, {
+    title: page.title,
+    description: page.description,
+    area: areasByRoute.get(page.route),
+    member: membersByRoute.get(page.route),
+    article: articlesByRoute.get(page.route),
+    heldForReview: awaitingArticleReview.has(page.route)
+  });
+  const json = JSON.stringify(graph).replace(/</g, '\\u003c');
+  return replaceOne(head, /<script id="seo-graph" type="application\/ld\+json">[\s\S]*?<\/script>/g,
+    `<script id="seo-graph" type="application/ld+json">${json}</script>`, 'structured data');
 }
 
 if (!fs.existsSync(indexPath)) throw new Error('Run the React build before generating routes.');
