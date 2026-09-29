@@ -54,6 +54,14 @@ for (const route of pagePaths) {
     }
   }
   if (route === '/expertise/') assert.equal(d.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 83);
+  if (route === '/expertise/') assert(d.querySelector('main a[href="/finance-tax-regulatory-advisory/"]'), 'Finance advisory contextual link missing');
+  if (route === '/finance-tax-regulatory-advisory/') {
+    assert(d.querySelector('main .finance-hero a[href="tel:+917977063567"]'), 'Finance hero call path missing');
+    assert(d.querySelector('main .finance-hero a[href="/contact/"]'), 'Finance hero enquiry path missing');
+    assert.equal(d.querySelectorAll('#finance-faq details').length, 10, 'Finance FAQ answers missing from initial HTML');
+    assert(d.querySelector('#finance-faq').textContent.includes('Panvel office'), 'Local finance FAQ answer missing');
+    assert(d.querySelector('meta[name="description"]').content.includes('Virtual CFO'), 'Finance description missing service intent');
+  }
   if (route === '/expertise/property-title-verification-due-diligence/') {
     assert(d.getElementById('title-review-guide'), 'Title review guide missing');
     assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
