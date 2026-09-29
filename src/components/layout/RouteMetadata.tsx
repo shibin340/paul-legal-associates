@@ -3,10 +3,12 @@ import { useLocation } from "react-router-dom";
 import { ARTICLES, TEAM_MEMBERS } from "../../data";
 import { PRACTICE_AREAS } from "../../practiceAreas";
 import core from "../../seo-core.json";
+import awaitingArticleReview from "../../seo-awaiting-review.json";
 import { getServiceMetadata } from "../../serviceMetadata";
 
 const ORIGIN = "https://paullegalassociates.com";
 const BRAND = "Paul Legal Associates";
+const pendingReviewRoutes = new Set(awaitingArticleReview.map(slug => `/insights/${slug}`));
 
 // Keep head tags in step when React Router changes pages without a full reload.
 // Initial HTTP responses receive the same metadata from generate-routes.js.
@@ -44,6 +46,7 @@ const RouteMetadata = () => {
     };
     set('link[rel="canonical"]', "href", url);
     set('meta[name="description"]', "content", description);
+    set('meta[name="robots"]', "content", pendingReviewRoutes.has(route) ? "noindex, follow" : "index, follow");
     set('meta[property="og:type"]', "content", article ? "article" : "website");
     set('meta[property="og:url"]', "content", url);
     set('meta[property="og:title"]', "content", page.title);
