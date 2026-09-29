@@ -1,0 +1,199 @@
+[
+  {
+    "id": "property-land",
+    "label": "Property and land",
+    "hub": "property-real-estate",
+    "featured": [
+      "property-real-estate",
+      "property-title-verification-due-diligence",
+      "property-transactions-conveyancing",
+      "rera-maharera-legal-services",
+      "naina-town-planning-scheme-services",
+      "land-acquisition-compensation-matters"
+    ],
+    "members": [
+      "property-real-estate",
+      "naina-town-planning-scheme-services",
+      "agricultural-non-agricultural-land-purchase",
+      "land-acquisition-compensation-matters",
+      "navi-mumbai-airport-land-transactions",
+      "maharera-advisory-compliance-litigation",
+      "supreme-court-civil-property-litigation",
+      "property-registration-services-mumbai-navi-mumbai",
+      "revenue-authority-municipal-legal-services",
+      "property-permissions-approvals-regulatory-compliance",
+      "property-transactions-conveyancing",
+      "property-title-verification-due-diligence",
+      "land-laws-revenue-records-agricultural-matters",
+      "cidco-naina-navi-mumbai-airport-land",
+      "land-acquisition-compensation-infrastructure-projects",
+      "real-estate-development-construction-redevelopment",
+      "rera-maharera-legal-services",
+      "cooperative-housing-society-apartment-law",
+      "property-tenancy-real-estate-litigation"
+    ]
+  },
+  {
+    "id": "workplace-compliance",
+    "label": "Workplace and compliance",
+    "hub": "labour-employment-hr-workplace-compliance",
+    "featured": [
+      "labour-employment-hr-workplace-compliance",
+      "posh-compliance-internal-committee",
+      "legal-compliance-audit",
+      "industrial-licensing-manufacturing-regulatory-law",
+      "anti-bribery-anti-corruption-business-ethics",
+      "professional-disciplinary-regulatory-proceedings"
+    ],
+    "members": [
+      "legal-compliance-audit",
+      "labour-employment-hr-workplace-compliance",
+      "posh-compliance-internal-committee",
+      "anti-bribery-anti-corruption-business-ethics",
+      "industrial-licensing-manufacturing-regulatory-law",
+      "professional-disciplinary-regulatory-proceedings"
+    ]
+  },
+  {
+    "id": "corporate-commercial",
+    "label": "Corporate and commercial",
+    "hub": "corporate-commercial-advisory",
+    "featured": [
+      "corporate-commercial-advisory",
+      "contract-drafting-vetting-transaction-documentation",
+      "corporate-commercial-ma-startup-law",
+      "corporate-compliance-governance-legal-retainership",
+      "startup-venture-capital-founder-advisory"
+    ],
+    "members": [
+      "corporate-commercial-advisory",
+      "corporate-commercial-ma-startup-law",
+      "contract-drafting-vetting-transaction-documentation",
+      "corporate-compliance-governance-legal-retainership",
+      "public-procurement-tender-government-contracts",
+      "competition-antitrust-unfair-market-practices",
+      "franchise-dealership-distribution-law",
+      "trusts-charities-ngos-section-8",
+      "startup-venture-capital-founder-advisory",
+      "family-business-promoter-shareholder-advisory",
+      "esg-sustainability-business-responsibility-advisory",
+      "international-commercial-transactions-cross-border"
+    ]
+  },
+  {
+    "id": "finance-crossborder",
+    "label": "Finance and cross-border",
+    "hub": "banking-finance-securities-debt-restructuring",
+    "featured": [
+      "banking-finance-securities-debt-restructuring",
+      "taxation-gst-fiscal-litigation",
+      "international-trade-fema-cross-border-business",
+      "banking-laws",
+      "fintech-digital-lending-payment-systems-law"
+    ],
+    "members": [
+      "banking-laws",
+      "banking-finance-securities-debt-restructuring",
+      "international-trade-fema-cross-border-business",
+      "cooperative-credit-society-multistate-law",
+      "customs-foreign-trade-import-export-law",
+      "fintech-digital-lending-payment-systems-law",
+      "taxation-gst-fiscal-litigation",
+      "sanctions-export-controls-international-trade-compliance",
+      "private-wealth-family-office-asset-holding"
+    ]
+  },
+  {
+    "id": "maritime-infrastructure",
+    "label": "Maritime and infrastructure",
+    "hub": "maritime-shipping-admiralty-law",
+    "featured": [
+      "maritime-shipping-admiralty-law",
+      "logistics-warehousing-supply-chain-law",
+      "construction-contracts-epc-infrastructure-claims",
+      "airport-port-logistics-infrastructure-services",
+      "aviation-airport-aeronautical-law"
+    ],
+    "members": [
+      "maritime-shipping-admiralty-law",
+      "aviation-airport-aeronautical-law",
+      "logistics-warehousing-supply-chain-law",
+      "renewable-energy-electric-mobility-infrastructure",
+      "construction-contracts-epc-infrastructure-claims",
+      "data-centre-cloud-infrastructure-telecom-law",
+      "airport-port-logistics-infrastructure-services",
+      "defence-aerospace-security-contracts",
+      "mining-minerals-quarrying-royalty-law",
+      "agricultural-business-food-processing-commodity-trade"
+    ]
+  },
+  {
+    "id": "disputes-resolution",
+    "label": "Disputes and resolution",
+    "hub": "commercial-litigation-arbitration",
+    "featured": [
+      "commercial-litigation-arbitration",
+      "civil-commercial-litigation",
+      "arbitration-mediation-adr",
+      "insolvency-bankruptcy-nclt-nclat-proceedings",
+      "debt-recovery-cheque-bounce-msme-disputes"
+    ],
+    "members": [
+      "commercial-litigation-arbitration",
+      "civil-commercial-litigation",
+      "arbitration-mediation-adr",
+      "insolvency-bankruptcy-nclt-nclat-proceedings",
+      "debt-recovery-cheque-bounce-msme-disputes",
+      "criminal-defence-bail-cybercrime-white-collar",
+      "consumer-protection-insurance-professional-negligence",
+      "constitutional-administrative-public-law",
+      "white-collar-crime-corporate-fraud-investigations",
+      "reputation-protection-crisis-response-law"
+    ]
+  },
+  {
+    "id": "family-succession",
+    "label": "Family and succession",
+    "hub": "wills-succession-probate-trusts-estate-planning",
+    "featured": [
+      "wills-succession-probate-trusts-estate-planning",
+      "testamentary-succession-bombay-high-court",
+      "family-matrimonial-law",
+      "personal-documentation-certificates-procedural-services",
+      "senior-citizens-elder-law-maintenance-tribunal"
+    ],
+    "members": [
+      "testamentary-succession-bombay-high-court",
+      "family-matrimonial-law",
+      "wills-succession-probate-trusts-estate-planning",
+      "personal-documentation-certificates-procedural-services",
+      "senior-citizens-elder-law-maintenance-tribunal",
+      "luxury-goods-art-antiquities-cultural-property-law"
+    ]
+  },
+  {
+    "id": "sector-technology",
+    "label": "Sector and technology",
+    "hub": "intellectual-property-technology-ai-data-protection",
+    "featured": [
+      "intellectual-property-technology-ai-data-protection",
+      "technology-transactions-saas-ai-digital-platform-law",
+      "healthcare-hospital-clinical-establishment-law",
+      "food-restaurant-hotel-hospitality-law",
+      "education-institutional-law"
+    ],
+    "members": [
+      "intellectual-property-technology-ai-data-protection",
+      "healthcare-hospital-clinical-establishment-law",
+      "food-restaurant-hotel-hospitality-law",
+      "education-institutional-law",
+      "technology-transactions-saas-ai-digital-platform-law",
+      "media-entertainment-sports-influencer-law",
+      "pharmaceutical-drugs-cosmetics-medical-devices-law",
+      "product-liability-recall-consumer-safety-law",
+      "advertising-marketing-brand-communications-law",
+      "municipal-licensing-trade-permissions-local-authority",
+      "immigration-citizenship-corporate-global-mobility"
+    ]
+  }
+]
