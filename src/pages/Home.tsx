@@ -12,6 +12,29 @@ import { PRACTICE_AREAS } from "../practiceAreas";
 import CadastralMap from "components/ui/CadastralMap";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
+const priorityMatterGroups = [
+  {
+    title: "Property and land",
+    description: "Explore records, transactions and planning matters around Panvel, Navi Mumbai and Raigad.",
+    links: [
+      { label: "Property title verification", path: "/expertise/property-title-verification-due-diligence/" },
+      { label: "MahaRERA matters", path: "/expertise/rera-maharera-legal-services/" },
+      { label: "NAINA town planning", path: "/expertise/naina-town-planning-scheme-services/" },
+      { label: "Land acquisition and compensation", path: "/expertise/land-acquisition-compensation-matters/" },
+    ],
+  },
+  {
+    title: "Business and workplace",
+    description: "Find support for commercial documents, employment, regulatory and financial matters.",
+    links: [
+      { label: "Corporate contracts and advisory", path: "/expertise/corporate-commercial-advisory/" },
+      { label: "Employment and HR compliance", path: "/expertise/labour-employment-hr-workplace-compliance/" },
+      { label: "POSH compliance for employers", path: "/expertise/posh-compliance-internal-committee/" },
+      { label: "Finance, tax and regulatory advisory", path: "/finance-tax-regulatory-advisory/" },
+    ],
+  },
+];
+
 const Home: React.FC = () => {
   useDocumentTitle("Property Lawyers in Panvel & Navi Mumbai | Paul Legal Associates");
   return (
@@ -199,6 +222,25 @@ const Home: React.FC = () => {
                   <span className="btn-ghost mt-5 opacity-0 group-hover:opacity-100 transition-opacity duration-300 text-[0.72rem]">Explore →</span>
                 </Link>
               </AnimateIn>
+            ))}
+          </div>
+
+          <div className="mt-12 grid grid-cols-1 lg:grid-cols-2 gap-5" aria-label="Explore common legal matters">
+            {priorityMatterGroups.map((group) => (
+              <nav key={group.title} className="border border-gold/25 bg-navy-deep/70 p-6 sm:p-8" aria-label={group.title}>
+                <h3 className="font-serif text-[1.35rem] font-semibold text-cream mb-2">{group.title}</h3>
+                <p className="text-[0.88rem] leading-[1.7] text-cream/65 mb-5">{group.description}</p>
+                <ul className="grid grid-cols-1 sm:grid-cols-2 gap-x-5 gap-y-2.5">
+                  {group.links.map((link) => (
+                    <li key={link.path}>
+                      <Link to={link.path} className="group flex items-start gap-2 py-1 text-[0.9rem] leading-[1.5] text-cream hover:text-gold focus-visible:text-gold underline decoration-gold/40 underline-offset-4 transition-colors">
+                        <span className="text-gold" aria-hidden="true">↗</span>
+                        <span>{link.label}</span>
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </nav>
             ))}
           </div>
 

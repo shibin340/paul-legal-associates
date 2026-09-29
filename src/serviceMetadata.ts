@@ -5,6 +5,10 @@ type ServiceMetadata = { title: string; description: string };
 // Editors can refine priority pages without duplicating title logic across
 // the static build, client navigation and page components.
 const priority: Record<string, ServiceMetadata> = {
+  "property-real-estate": {
+    title: "Property Law Services in Panvel | Paul Legal Associates",
+    description: "Property law support in Panvel and Navi Mumbai, including title diligence, conveyancing, MahaRERA matters, redevelopment and registrations. Explore the relevant service."
+  },
   "property-title-verification-due-diligence": {
     title: "Property Title Verification in Panvel | Paul Legal Associates",
     description: "Review ownership documents, title history and property records before a transaction. Contact Paul Legal Associates in Panvel about a title review."
@@ -22,12 +26,12 @@ const priority: Record<string, ServiceMetadata> = {
     description: "Received an acquisition notice affecting land in Panvel or Raigad? Prepare the notice, plot records and key dates for a case-specific review."
   },
   "rera-maharera-legal-services": {
-    title: "MahaRERA Complaints and Compliance | Paul Legal Associates",
-    description: "Information on MahaRERA project compliance, agreements, homebuyer complaints and developer responses from Paul Legal Associates."
+    title: "MahaRERA Legal Services in Navi Mumbai | Paul Legal Associates",
+    description: "Explore MahaRERA project compliance, agreements, homebuyer complaints and developer responses with Paul Legal Associates in Navi Mumbai."
   },
   "labour-employment-hr-workplace-compliance": {
-    title: "Employment Law and HR Compliance | Paul Legal Associates",
-    description: "Explore employment contracts, workplace policies, PF and ESI support, and statutory compliance work in Navi Mumbai."
+    title: "Employment and Labour Law in Navi Mumbai | Paul Legal Associates",
+    description: "Employment contracts, workplace policies, PF and ESI matters, and statutory HR compliance support for businesses in Navi Mumbai."
   },
   "posh-compliance-internal-committee": {
     title: "POSH Compliance for Employers in Navi Mumbai | Paul Legal Associates",
@@ -38,8 +42,8 @@ const priority: Record<string, ServiceMetadata> = {
     description: "Dispute resolution and representation before courts, tribunals and authorities, including commercial arbitration."
   },
   "corporate-commercial-advisory": {
-    title: "Corporate Contracts and Advisory | Paul Legal Associates",
-    description: "Commercial contracts, transaction documents, corporate governance and ongoing legal support for businesses."
+    title: "Corporate Law and Contracts in Navi Mumbai | Paul Legal Associates",
+    description: "Explore commercial contracts, transaction documents, corporate governance and ongoing legal advisory for businesses in Navi Mumbai."
   },
   "arbitration-mediation-adr": {
     title: "Arbitration and Mediation Legal Support | Paul Legal Associates",
