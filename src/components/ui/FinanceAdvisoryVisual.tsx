@@ -1,24 +1,49 @@
 import React from "react";
-import SiteImage from "./SiteImage";
 
-/** A lightweight, decorative depth treatment for the finance practice page. */
+const streams = [
+  { number: "01", title: "Finance", detail: "Reporting · Controls · CFO", mark: "F" },
+  { number: "02", title: "Tax", detail: "GST · TDS · Transfer pricing", mark: "T" },
+  { number: "03", title: "Regulation", detail: "FEMA · RBI · Cross-border", mark: "R" }
+];
+
+/** A purpose-built visual map of the three advisory workstreams. */
 const FinanceAdvisoryVisual: React.FC = () => (
-  <div className="finance-visual" aria-hidden="true">
-    <div className="finance-visual__glow" />
-    <div className="finance-visual__ring finance-visual__ring--outer" />
-    <div className="finance-visual__ring finance-visual__ring--inner" />
-    <div className="finance-visual__art">
-      <SiteImage
-        src="/images/ChatGPT.webp"
-        alt=""
-        decoding="async"
-        className="w-full h-full object-contain"
-      />
+  <div
+    className="finance-visual"
+    role="img"
+    aria-label="Finance, tax and regulatory workstreams brought together in one coordinated advisory view"
+  >
+    <div className="finance-visual__topline" aria-hidden="true">
+      <span className="finance-visual__monogram">P<span>·</span>L<span>·</span>A</span>
+      <span className="finance-visual__top-label">Advisory / Connected view</span>
+      <span className="finance-visual__top-index">01 — 03</span>
     </div>
-    <span className="finance-visual__label finance-visual__label--one">Finance</span>
-    <span className="finance-visual__label finance-visual__label--two">Tax</span>
-    <span className="finance-visual__label finance-visual__label--three">Regulation</span>
-    <span className="finance-visual__caption">Connected advisory / India & cross-border</span>
+
+    <div className="finance-visual__intro" aria-hidden="true">
+      <span className="finance-visual__kicker">One coordinated perspective</span>
+      <span className="finance-visual__heading">Three disciplines.<br /><em>One direction.</em></span>
+    </div>
+
+    <div className="finance-visual__workstreams" aria-hidden="true">
+      <div className="finance-visual__spine" />
+      {streams.map((stream) => (
+        <div className="finance-visual__stream" key={stream.number}>
+          <span className="finance-visual__number">{stream.number}</span>
+          <span className="finance-visual__copy">
+            <strong>{stream.title}</strong>
+            <small>{stream.detail}</small>
+          </span>
+          <span className="finance-visual__mark">{stream.mark}</span>
+          <span className="finance-visual__node" />
+        </div>
+      ))}
+    </div>
+
+    <div className="finance-visual__outcome" aria-hidden="true">
+      <span className="finance-visual__outcome-icon">↗</span>
+      <span><strong>Connected decisions</strong><small>From the first conversation onward</small></span>
+      <span className="finance-visual__outcome-line" />
+    </div>
   </div>
 );
 
