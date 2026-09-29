@@ -22,6 +22,14 @@ const routes = new Set(pagePaths);
 const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
 assert.equal(sitemap.length, new Set(sitemap).size, 'Duplicate sitemap URLs');
 assert.equal(sitemap.length, 239, 'Unexpected change to the reviewed sitemap inventory');
+const serviceTopics = require('../src/serviceTopics.json');
+const serviceSlugs = serviceTopics.flatMap(topic => topic.members);
+assert.equal(serviceSlugs.length, 83, 'Topic map must cover all 83 practices');
+assert.equal(new Set(serviceSlugs).size, 83, 'Practice assigned to multiple topics');
+for (const topic of serviceTopics) {
+  assert(topic.members.includes(topic.hub), `${topic.id}: missing topic hub`);
+  assert(topic.featured.every(slug => topic.members.includes(slug)), `${topic.id}: featured service outside topic`);
+}
 let links = 0;
 const titles = new Map();
 for (const route of pagePaths) {
@@ -55,6 +63,29 @@ for (const route of pagePaths) {
   }
   if (route === '/expertise/') assert.equal(d.querySelectorAll('nav[aria-label="Complete practice areas index"] a').length, 83);
   if (route === '/expertise/') assert(d.querySelector('main a[href="/finance-tax-regulatory-advisory/"]'), 'Finance advisory contextual link missing');
+  if (route === '/insights/property-title-search-legal-due-diligence/') {
+    assert(d.querySelector('nav[aria-label="Related legal service"] a[href="/expertise/property-title-verification-due-diligence/"]'), 'Title guide should point to its service');
+  }
+  if (route === '/insights/labour-code-readiness-2026/') {
+    assert(d.querySelector('nav[aria-label="Related legal service"] a[href="/expertise/labour-employment-hr-workplace-compliance/"]'), 'Labour guide should point to its service');
+  }
+  if (route.startsWith('/expertise/') && route !== '/expertise/') {
+    const slug = route.split('/')[2];
+    assert(serviceSlugs.includes(slug), `${route}: practice omitted from topic map`);
+    const breadcrumb = d.querySelector('nav[aria-label="Breadcrumb"]');
+    assert(breadcrumb?.querySelector('a[href="/"]') && breadcrumb?.querySelector('a[href="/expertise/"]'), `${route}: breadcrumb path`);
+    const related = d.querySelector('nav[aria-label="Related practice areas"]');
+    assert(related, `${route}: related service navigation missing`);
+    const siblingLinks = related.querySelectorAll('li a[href^="/expertise/"]');
+    assert(siblingLinks.length >= 4 && siblingLinks.length <= 7, `${route}: unfocused related links (${siblingLinks.length})`);
+    assert(related.querySelector('a[href="/expertise/"]'), `${route}: catalogue route missing`);
+    const topic = serviceTopics.find(group => group.members.includes(slug));
+    if (slug !== topic.hub) assert(related.querySelector(`a[href="/expertise/${topic.hub}/"]`), `${route}: parent hub missing`);
+    const reading = d.querySelector('nav[aria-label="Related insights"]');
+    if (reading) for (const link of reading.querySelectorAll('a')) {
+      assert(sitemap.includes(origin + link.getAttribute('href')), `${route}: related reading held from indexing`);
+    }
+  }
   if (route === '/finance-tax-regulatory-advisory/') {
     assert(d.querySelector('main .finance-hero a[href="tel:+917977063567"]'), 'Finance hero call path missing');
     assert(d.querySelector('main .finance-hero a[href="/contact/"]'), 'Finance hero enquiry path missing');
