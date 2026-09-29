@@ -7,6 +7,7 @@ import { useDocumentTitle } from 'hooks/useDocumentTitle';
 import { getServiceMetadata } from '../serviceMetadata';
 import { getRelatedServices, getServiceTopic } from '../serviceTopics';
 import { serviceReading } from '../serviceReading';
+import ServiceDecisionGuides from './ServiceDecisionGuides';
 
 const ExpertiseDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
@@ -113,6 +114,8 @@ const ExpertiseDetail: React.FC = () => {
                   </li>
                 ))}
               </ul>
+
+              <ServiceDecisionGuides slug={area.slug} />
 
               {area.slug === 'property-title-verification-due-diligence' && (
                 <section className="border-t border-navy/10 pt-8 mb-10" aria-labelledby="title-review-guide">

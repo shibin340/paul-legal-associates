@@ -98,6 +98,21 @@ for (const route of pagePaths) {
     assert.equal(d.querySelectorAll('nav[aria-label="Related property guidance"] a').length, 4);
     assert.equal(d.title, 'Property Title Verification in Panvel | Paul Legal Associates');
   }
+  if (route === '/expertise/property-real-estate/') {
+    const guide = d.getElementById('property-service-guide');
+    assert(guide, 'Property decision guide missing from initial HTML');
+    assert(guide.parentElement.querySelector('a[href="/expertise/rera-maharera-legal-services/"]'), 'Property route to RERA missing');
+  }
+  if (route === '/expertise/corporate-commercial-advisory/') {
+    const guide = d.getElementById('corporate-service-guide');
+    assert(guide, 'Corporate decision guide missing from initial HTML');
+    assert(guide.parentElement.querySelector('a[href="/expertise/contract-drafting-vetting-transaction-documentation/"]'), 'Corporate contract route missing');
+  }
+  if (route === '/expertise/commercial-litigation-arbitration/') {
+    const guide = d.getElementById('commercial-dispute-guide');
+    assert(guide, 'Dispute preparation guide missing from initial HTML');
+    assert(guide.parentElement.querySelector('a[href="/expertise/arbitration-mediation-adr/"]'), 'Arbitration route missing');
+  }
   if (route === '/expertise/naina-town-planning-scheme-services/') {
     assert(d.getElementById('naina-preparation-guide'), 'NAINA preparation guide missing');
     assert.equal(d.querySelectorAll('nav[aria-label="Related NAINA guidance"] a').length, 3);
