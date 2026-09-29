@@ -36,14 +36,14 @@ const Navbar: React.FC = () => {
             </NavLink>
 
             {/* Tagline — visible only on ultra-wide screens (2xl) so it doesn't crush 1366px/1440px laptop navbars */}
-            <span className="hidden 2xl:block text-[0.6rem] tracking-[0.16em] uppercase text-gold/70 italic flex-shrink-0 max-w-[200px] leading-tight">
+            <span className="hidden 2xl:block text-[0.6rem] tracking-[0.16em] uppercase text-gold/70 italic flex-shrink-0 whitespace-nowrap leading-tight">
               {TAGLINE}
             </span>
           </div>
 
           {/* Desktop nav */}
           <nav className="hidden lg:block min-w-0" aria-label="Main navigation">
-            <ul className="flex items-center gap-3.5 xl:gap-5 2xl:gap-7 list-none m-0 p-0">
+            <ul className="flex items-center gap-3.5 xl:gap-5 list-none m-0 p-0">
               {NAV_LINKS.map(({ label, path }) => (
                 <li key={path} className="flex-shrink-0">
                   <NavLink
