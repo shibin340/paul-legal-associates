@@ -106,6 +106,17 @@ const Expertise: React.FC = () => {
         </div>
       </section>
 
+      <section className="bg-navy-deep px-[5vw] py-14 border-t border-gold/20" aria-labelledby="finance-practice-link">
+        <div className="max-w-8xl mx-auto flex flex-col md:flex-row md:items-center md:justify-between gap-6">
+          <div className="max-w-2xl">
+            <p className="eyebrow-text mb-2">Business advisory</p>
+            <h2 id="finance-practice-link" className="font-serif text-2xl sm:text-3xl text-cream font-semibold mb-2">Finance, Tax & Regulatory Advisory</h2>
+            <p className="text-cream/70 text-sm leading-relaxed">Explore coordinated accounting, GST, tax, Virtual CFO and FEMA/RBI support for Indian businesses and cross-border transactions.</p>
+          </div>
+          <Link to="/finance-tax-regulatory-advisory/" className="btn-secondary self-start md:self-auto flex-shrink-0">Explore finance & tax →</Link>
+        </div>
+      </section>
+
       {/* ══ CTA ══ */}
       <section className="bg-cream border-t border-navy/10 py-24 px-[5vw]" aria-labelledby="expertise-cta">
         <div className="max-w-8xl mx-auto max-w-[640px] text-center">
