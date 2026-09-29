@@ -1,7 +1,7 @@
-import SiteImage from "../components/ui/SiteImage";
-import React, { useState } from "react";
+import React from "react";
 import { Link } from "react-router-dom";
 import CredentialsBar from "../components/ui/CredentialsBar";
+import FinanceAdvisoryVisual from "../components/ui/FinanceAdvisoryVisual";
 import { useDocumentTitle } from "../hooks/useDocumentTitle";
 
 const FAQS = [
@@ -36,6 +36,14 @@ const FAQS = [
   {
     q: "Can recurring monthly compliances be covered under one engagement?",
     a: "Yes. Depending on the business, a coordinated monthly or annual engagement can cover accounting, payroll, GST, TDS, tax, ROC and other recurring financial and regulatory requirements."
+  },
+  {
+    q: "Can a business in Navi Mumbai or Mumbai discuss a GST, TDS or FEMA notice with you?",
+    a: "Yes. Tell us the nature of the notice and its response deadline when you contact our Panvel office. We can review the matter and explain the relevant legal, tax and regulatory workstreams, with qualified professionals involved where required."
+  },
+  {
+    q: "What should I share before a finance, tax or regulatory consultation?",
+    a: "A short description of the business, the issue or proposed transaction, any applicable deadline and the documents already available are a useful starting point. We will then identify what else is needed for an initial review."
   }
 ];
 
@@ -55,72 +63,63 @@ const ENGAGEMENT_MODELS = [
 ];
 
 const FinanceTaxRegulatoryAdvisory: React.FC = () => {
-  useDocumentTitle("Finance, Tax & Regulatory Advisory in India | Paul Legal Associates", true);
-
-  const [openFaq, setOpenFaq] = useState<number | null>(null);
-
-  const toggleFaq = (index: number) => {
-    setOpenFaq(openFaq === index ? null : index);
-  };
+  useDocumentTitle("Finance, Tax & Regulatory Advisory | Paul Legal Associates", true);
 
   return (
     <>
       {/* ══ HERO SECTION ══ */}
-      <section className="page-hero-wrapper relative overflow-hidden" aria-label="Finance, Tax and Regulatory Advisory hero">
+      <section className="page-hero-wrapper finance-hero relative overflow-hidden" aria-label="Finance, Tax and Regulatory Advisory hero">
         <div className="absolute inset-0 bg-page-hero-radial z-0" aria-hidden="true" />
         <div className="absolute inset-0 bg-page-grid-lines z-0" aria-hidden="true" />
 
         <div className="relative z-10 max-w-8xl mx-auto w-full px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-10 items-center">
+          <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-6 items-center">
 
             {/* Left Column: Content (7 cols) */}
-            <div className="lg:col-span-7 animate-pageFadeIn">
+            <div className="lg:col-span-7 animate-pageFadeIn max-w-3xl">
               <div className="eyebrow-row">
                 <div className="eyebrow-line" />
-                <span className="eyebrow-text">Practice Vertical</span>
+                <span className="eyebrow-text">Business advisory · Panvel & Navi Mumbai</span>
               </div>
               <h1 className="font-serif font-bold text-cream leading-[1.1] mt-3 mb-4" style={{ fontSize: "clamp(2.1rem,4.2vw,3.6rem)" }}>
                 Finance, Tax & Regulatory Advisory
               </h1>
-              <p className="text-gold font-serif-alt italic text-[1.1rem] sm:text-[1.25rem] mb-5">
-                Integrated Finance, Tax, Compliance & Cross-Border Solutions for Businesses
+              <p className="text-gold font-serif-alt italic text-[1.2rem] sm:text-[1.45rem] leading-snug mb-5">
+                Clarity across finance, tax and cross-border decisions.
               </p>
-              <div className="font-serif-alt font-light text-cream/80 leading-[1.75] text-[0.98rem] space-y-3.5">
+              <div className="text-cream/80 leading-[1.7] text-[0.95rem] sm:text-base space-y-4 max-w-[620px]">
                 <p>
-                  Business decisions increasingly sit at the intersection of law, finance, taxation, accounting and regulation. A company may be commercially ready to transact, yet still face delays or exposure because its financial records, tax position, FEMA requirements, banking documentation or statutory filings have not been aligned.
+                  From recurring GST, TDS and corporate compliance to Virtual CFO support, transfer pricing and FEMA/RBI matters, business requirements rarely sit in one silo. We help identify the connected legal, financial and regulatory workstreams.
                 </p>
                 <p>
-                  Paul Legal Associates provides a coordinated advisory platform covering finance, accounting, taxation, payroll, audit coordination, corporate compliance, transfer pricing, FEMA/RBI matters, foreign investment and cross-border transactions.
-                </p>
-                <p>
-                  We work in collaboration with a network of Chartered Accountants, Company Secretaries, tax professionals, valuation professionals, banking specialists and other regulatory advisors, where required, to provide clients with a practical and coordinated solution.
-                </p>
-                <p>
-                  Whether you are an Indian company managing recurring financial compliances, a growing business requiring stronger reporting and controls, a foreign subsidiary operating in India, or an overseas investor implementing an India transaction, our objective is to support the complete business and regulatory lifecycle.
+                  Paul Legal Associates coordinates advice for Indian businesses, foreign investors and overseas groups, working with appropriately qualified Chartered Accountants, Company Secretaries and other specialists where the assignment requires them.
                 </p>
               </div>
 
-              <div className="mt-8 pt-6 border-t border-gold/20 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-                <div className="text-cream text-[0.92rem] font-medium">
-                  Looking for an integrated Finance, Tax & Regulatory Partner?
-                </div>
-                <div className="flex gap-4 flex-wrap">
-                  <Link to="/contact/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
-                    Send Us Your Requirement
-                  </Link>
-                </div>
+              <div className="mt-7 flex flex-col sm:flex-row gap-3 sm:items-center">
+                <a href="tel:+917977063567" className="btn-primary justify-center text-center">Call +91 7977063567</a>
+                <Link to="/contact/" className="btn-secondary justify-center text-center">Discuss your requirement →</Link>
               </div>
+              <p className="text-cream/50 text-xs mt-4">Have a filing or notice deadline? Mention the date when you contact us.</p>
             </div>
 
-            {/* Right Column: 3D Spiral Orbit Visual (5 cols) */}
-            <div className="hidden lg:flex lg:col-span-5 items-center justify-center relative">
-              {/* <PlaFinance3DOrbit /> */}
-              <SiteImage src='/images/ChatGPT.webp' decoding="async" alt='Finance, tax, regulatory compliance and growth represented as a connected advisory orbit' className='object-contain pointer-events-none' />
+            {/* Lightweight layered depth and motion, including a compact mobile composition. */}
+            <div className="lg:col-span-5 w-full min-w-0">
+              <FinanceAdvisoryVisual />
             </div>
 
           </div>
         </div>
       </section>
+
+      <nav className="finance-section-nav" aria-label="On this page">
+        <div className="max-w-8xl mx-auto flex items-center gap-3 sm:gap-7 overflow-x-auto px-[5vw] py-4 text-sm whitespace-nowrap">
+          <span className="text-gold font-semibold uppercase tracking-widest text-[0.65rem] flex-shrink-0">Explore</span>
+          <a href="#finance-services">Accounting, GST & tax</a>
+          <a href="#cross-border-services">FEMA & cross-border</a>
+          <a href="#finance-faq">Common questions</a>
+        </div>
+      </nav>
 
       {/* ══ FOUR PILLARS ══ */}
       <section className="bg-cream py-20 px-[5vw] border-b border-navy/10">
@@ -130,37 +129,37 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
               One Advisory Platform. Multiple Business Requirements.
             </h2>
             <p className="text-muted leading-[1.8] text-[0.95rem]">
-              Businesses often engage separate providers for accounting, payroll, taxation, corporate filings, FEMA, transfer pricing and banking-related matters. Without coordination, this can result in duplication, inconsistent positions and missed dependencies. Our model brings relevant workstreams together under a single coordinated framework.
+              Accounting, tax, filings and cross-border transactions can affect one another. We bring the relevant workstreams into one coordinated discussion so you can see what needs attention and who needs to be involved.
             </p>
           </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-            <div className="bg-white p-6 border border-navy/10 shadow-xs hover:border-gold transition-colors">
-              <div className="w-10 h-10 rounded-full bg-gold/10 text-gold flex items-center justify-center text-xl mb-4">📊</div>
+            <div className="finance-pillar">
+              <div className="finance-pillar__number">01 / CONTROL</div>
               <h3 className="font-serif font-bold text-navy text-[1.1rem] mb-2">Finance & Financial Control</h3>
               <p className="text-[0.88rem] text-muted leading-relaxed">
                 Accounting, bookkeeping, MIS, payroll, financial reporting, forecasting and business finance support.
               </p>
             </div>
 
-            <div className="bg-white p-6 border border-navy/10 shadow-xs hover:border-gold transition-colors">
-              <div className="w-10 h-10 rounded-full bg-gold/10 text-gold flex items-center justify-center text-xl mb-4">📑</div>
+            <div className="finance-pillar">
+              <div className="finance-pillar__number">02 / TAX</div>
               <h3 className="font-serif font-bold text-navy text-[1.1rem] mb-2">Tax & Transfer Pricing</h3>
               <p className="text-[0.88rem] text-muted leading-relaxed">
                 Corporate tax, GST, TDS, advance tax, transfer pricing, annual tax compliance and international taxation.
               </p>
             </div>
 
-            <div className="bg-white p-6 border border-navy/10 shadow-xs hover:border-gold transition-colors">
-              <div className="w-10 h-10 rounded-full bg-gold/10 text-gold flex items-center justify-center text-xl mb-4">📋</div>
+            <div className="finance-pillar">
+              <div className="finance-pillar__number">03 / COMPLIANCE</div>
               <h3 className="font-serif font-bold text-navy text-[1.1rem] mb-2">Regulatory Compliance</h3>
               <p className="text-[0.88rem] text-muted leading-relaxed">
                 ROC, annual corporate filings, FLA, FEMA/RBI reporting and transaction-related regulatory support.
               </p>
             </div>
 
-            <div className="bg-white p-6 border border-navy/10 shadow-xs hover:border-gold transition-colors">
-              <div className="w-10 h-10 rounded-full bg-gold/10 text-gold flex items-center justify-center text-xl mb-4">🌐</div>
+            <div className="finance-pillar">
+              <div className="finance-pillar__number">04 / GLOBAL</div>
               <h3 className="font-serif font-bold text-navy text-[1.1rem] mb-2">Cross-Border Advisory</h3>
               <p className="text-[0.88rem] text-muted leading-relaxed">
                 FDI, ODI, ECB, foreign remittances, banking documentation, India entry, repatriation and international transactions.
@@ -171,17 +170,18 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
       </section>
 
       {/* ══ CORE SERVICES (01 - 10) ══ */}
-      <section className="bg-white py-24 px-[5vw]">
+      <section id="finance-services" className="bg-white py-16 sm:py-24 px-[5vw] scroll-mt-24">
         <div className="max-w-8xl mx-auto">
           <div className="eyebrow-row mb-2">
             <div className="eyebrow-line" />
             <span className="eyebrow-text">Comprehensive Service Index</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl font-bold text-navy mb-14">
-            Our Finance & Tax Services
+            Accounting, GST, Tax & CFO Support
           </h2>
+          <p className="text-muted max-w-3xl -mt-9 mb-12 leading-relaxed">Explore the workstreams most relevant to your business. We can discuss a focused assignment or coordinate recurring finance and compliance support.</p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
+          <div className="finance-service-grid grid grid-cols-1 md:grid-cols-2 gap-6 lg:gap-8">
             {/* 01 */}
             <div className="border border-navy/10 p-7 bg-cream/30">
               <h3 className="font-serif text-[1.25rem] font-bold text-navy mb-3">Accounting, Bookkeeping, MIS & Financial Reporting</h3>
@@ -339,13 +339,16 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
               <h4 className="font-serif text-xl font-bold text-gold mb-1">Need stronger financial visibility and control?</h4>
               <p className="text-cream/70 text-sm">We can help establish a structured accounting, MIS and financial-review framework tailored to your business.</p>
             </div>
-            <Link to="/contact/" className="btn-primary flex-shrink-0">Discuss Finance & CFO Support</Link>
+            <div className="flex flex-wrap gap-3 flex-shrink-0">
+              <a href="tel:+917977063567" className="btn-primary">Call about finance & tax</a>
+              <Link to="/contact/" className="btn-secondary">Send an enquiry</Link>
+            </div>
           </div>
         </div>
       </section>
 
       {/* ══ CROSS-BORDER, FEMA & REGULATORY ADVISORY (11 - 19) ══ */}
-      <section className="bg-cream py-24 px-[5vw]">
+      <section id="cross-border-services" className="bg-cream py-16 sm:py-24 px-[5vw] scroll-mt-24">
         <div className="max-w-8xl mx-auto">
           <div className="eyebrow-row mb-2">
             <div className="eyebrow-line" />
@@ -358,7 +361,7 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
             Cross-border transactions require alignment between commercial documentation, tax treatment, foreign-exchange regulations, banking processes and post-transaction reporting. We assist Indian companies, foreign investors, multinational groups and overseas entities under India's FEMA/RBI framework.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          <div className="finance-service-grid finance-service-grid--continuation grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8">
             {/* 11 */}
             <div className="bg-white p-6 border border-navy/10 shadow-xs">
               <h3 className="font-serif text-[1.15rem] font-bold text-navy mb-2">FDI, ODI, ECB & Trade Forex</h3>
@@ -466,9 +469,12 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
           <div className="mt-14 p-8 bg-navy text-cream flex flex-col md:flex-row items-center justify-between gap-6 border border-gold/30">
             <div>
               <h4 className="font-serif text-xl font-bold text-gold mb-1">Planning an FDI, ODI, ECB or cross-border transaction?</h4>
-              <p className="text-cream/70 text-sm">Early review of FEMA, tax, banking, and reporting requirements eliminates regulatory bottlenecks.</p>
+              <p className="text-cream/70 text-sm">Discuss the proposed transaction early so the relevant FEMA, tax, banking and reporting questions can be identified.</p>
             </div>
-            <Link to="/contact/" className="btn-primary flex-shrink-0">Discuss a Cross-Border Transaction</Link>
+            <div className="flex flex-wrap gap-3 flex-shrink-0">
+              <a href="tel:+917977063567" className="btn-primary">Call about cross-border work</a>
+              <Link to="/contact/" className="btn-secondary">Send an enquiry</Link>
+            </div>
           </div>
         </div>
       </section>
@@ -570,8 +576,8 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
         </div>
       </section>
 
-      {/* ══ FREQUENTLY ASKED QUESTIONS (ACCORDION) ══ */}
-      <section className="bg-white py-24 px-[5vw] border-b border-navy/10">
+      {/* Native disclosures keep every answer available in the initial HTML. */}
+      <section id="finance-faq" className="bg-white py-16 sm:py-24 px-[5vw] border-b border-navy/10 scroll-mt-24">
         <div className="max-w-4xl mx-auto">
           <div className="text-center mb-12">
             <div className="eyebrow-row justify-center mb-2">
@@ -583,22 +589,13 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
           </div>
 
           <div className="divide-y divide-navy/10 border-y border-navy/10">
-            {FAQS.map((faq, i) => (
-              <div key={i} className="py-5">
-                <button
-                  onClick={() => toggleFaq(i)}
-                  className="w-full flex justify-between items-center text-left font-serif text-[1.1rem] font-semibold text-navy hover:text-gold transition-colors cursor-pointer"
-                  aria-expanded={openFaq === i}
-                >
-                  <span>{faq.q}</span>
-                  <span className="text-gold text-xl font-mono ml-4">{openFaq === i ? "−" : "+"}</span>
-                </button>
-                {openFaq === i && (
-                  <div className="mt-3 text-[0.92rem] text-muted leading-[1.8] pr-8 animate-pageFadeIn">
-                    {faq.a}
-                  </div>
-                )}
-              </div>
+            {FAQS.map((faq) => (
+              <details key={faq.q} className="finance-faq group py-5">
+                <summary className="flex justify-between items-center gap-4 cursor-pointer font-serif text-[1.05rem] sm:text-[1.1rem] font-semibold text-navy hover:text-gold transition-colors">
+                  <span>{faq.q}</span><span className="finance-faq__mark" aria-hidden="true">+</span>
+                </summary>
+                <p className="mt-3 text-[0.92rem] text-muted leading-[1.8] pr-5 sm:pr-8">{faq.a}</p>
+              </details>
             ))}
           </div>
         </div>
@@ -622,17 +619,15 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
             Tell us what your business needs. Connect with our team to identify the relevant workstreams and proposed engagement structure.
           </p>
 
-          <div className="flex justify-center gap-4 flex-wrap mb-10">
-            <Link to="/contact/" className="btn-primary">
-              Book a Consultation
+          <div className="flex justify-center gap-3 flex-wrap mb-10">
+            <a href="tel:+917977063567" className="btn-primary">Call +91 7977063567</a>
+            <Link to="/contact/" className="btn-secondary">
+              Send an Enquiry
             </Link>
-            {/* <Link to="/contact/" className="btn-outline-navy !text-cream !border-cream/30 hover:!border-gold">
-              Contact Paul Legal Associates
-            </Link> */}
           </div>
 
-          <div className="text-2xs uppercase tracking-widest text-gold/80 mb-12">
-            Accounting | Payroll | GST | Corporate Tax | Audit | Transfer Pricing | Virtual CFO | FEMA | FDI | ODI | ECB | RBI Compliance | India Entry | International Tax | M&A
+          <div className="border-t border-gold/20 pt-7 mb-12 text-cream/70 text-sm leading-relaxed">
+            For related legal work, explore our <Link to="/expertise/" className="text-gold hover:underline">practice areas</Link> or visit our <Link to="/contact/" className="text-gold hover:underline">Panvel office contact page</Link>.
           </div>
 
           {/* ══ REGULATORY DISCLAIMER ══ */}
