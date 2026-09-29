@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
+        with:
+          fetch-depth: 2
 
       - name: Setup Node.js
         uses: actions/setup-node@v3
@@ -35,3 +37,20 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./build
           cname: paullegalassociates.com
+
+      - name: Check whether the reviewed URL list changed
+        id: changes
+        shell: bash
+        run: |
+          changed=$(git diff --name-only HEAD^ HEAD -- indexnow/changed-urls.json)
+          if [[ -n "$changed" ]]; then
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No reviewed IndexNow URLs changed; no submission."
+          fi
+
+      - name: Validate and notify IndexNow after production is reachable
+        if: steps.changes.outputs.changed == 'true'
+        continue-on-error: true
+        run: node scripts/submit-indexnow.js --submit
