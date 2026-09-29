@@ -35,18 +35,10 @@ const articlePages = ARTICLES.map(article => ({
 }));
 const pages = [...core, ...servicePages, ...partnerPages, ...articlePages];
 
-// These eight newer maritime articles were not in the submitted sitemap.
-// Keep them out of sitemap discovery until their legal text is reviewed.
-const awaitingArticleReview = new Set([
-  'commercial-vessel-acquisition-legal-due-diligence',
-  'vessel-sale-moa-legal-review',
-  'third-party-payment-vessel-acquisition',
-  'vessel-title-mortgages-maritime-liens',
-  'panama-flag-vessel-ownership-transfer',
-  'vessel-purchase-payment-escrow-direct-payment',
-  'vessel-sale-closing-checklist-conditions-precedent',
-  'vessel-acquisition-post-closing-registration'
-].map(slug => `/insights/${slug}`));
+// Pending legal review: omit from the sitemap and prevent indexing until approved.
+const awaitingArticleReview = new Set(
+  require('../src/seo-awaiting-review.json').map(slug => `/insights/${slug}`)
+);
 
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -70,6 +62,7 @@ function renderHead(template, page) {
     [/<link rel="canonical"[^>]*>/g, `<link rel="canonical" href="${url}" />`, 'canonical'],
     [/<title>[^<]*<\/title>/g, `<title>${title}</title>`, 'title'],
     [/<meta name="description"[^>]*>/g, `<meta name="description" content="${description}" />`, 'description'],
+    [/<meta name="robots"[^>]*>/g, `<meta name="robots" content="${awaitingArticleReview.has(page.route) ? 'noindex, follow' : 'index, follow'}" />`, 'robots'],
     [/<meta property="og:type"[^>]*>/g, `<meta property="og:type" content="${page.type || 'website'}" />`, 'og:type'],
     [/<meta property="og:url"[^>]*>/g, `<meta property="og:url" content="${url}" />`, 'og:url'],
     [/<meta property="og:title"[^>]*>/g, `<meta property="og:title" content="${title}" />`, 'og:title'],
