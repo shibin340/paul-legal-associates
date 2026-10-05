@@ -5,6 +5,7 @@ import CredentialsBar from "../components/ui/CredentialsBar";
 import { CONTACT_INFO, OFFICE_HOURS } from "../data/site";
 import type { ContactForm } from "../types";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
+import { trackEnquiryAction } from '../enquiryEvents';
 
 type Errors = Partial<Record<keyof ContactForm, string>>;
 const INIT: ContactForm = { name: "", email: "", phone: "", message: "" };
@@ -61,6 +62,7 @@ ${form.message}
     )}`;
 
     window.open(whatsappUrl, "_blank", "noopener,noreferrer");
+    trackEnquiryAction('contact_form_handoff', 'contact_form');
   };
 
   const inputBase = "w-full bg-navy/[0.03] border text-navy font-sans text-sm px-4 py-3.5 outline-none transition-all duration-300 placeholder-muted/50 focus:bg-navy/[0.06]";
@@ -97,6 +99,7 @@ ${form.message}
               <div className="eyebrow-line" />
               <span className="eyebrow-text">Our Office</span>
             </div>
+
             <h2 id="contact-main" className="font-serif font-semibold text-navy leading-tight mb-5" style={{ fontSize: "1.8rem" }}>
               Let's Start a <em className="not-italic italic text-gold">Conversation</em>
             </h2>
@@ -124,6 +127,8 @@ ${form.message}
                 </div>
               ))}
             </div>
+
+            <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURIComponent(CONTACT_INFO.address.replace(/\n/g, ', '))}`} target="_blank" rel="noopener noreferrer" className="btn-outline-navy mb-8 inline-flex">Directions to our Panvel office ↗</a>
 
             {/* Hours */}
             <div className="p-6 border border-navy/10 bg-white mb-5">
@@ -167,7 +172,7 @@ ${form.message}
                   <p className="text-sm text-navy mb-6">Call our office using the phone link on this page. JavaScript is needed for the WhatsApp form and may be needed to display the email link.</p>
                 </noscript>
 
-                <form className="flex flex-col gap-5" noValidate aria-label="Contact form">
+                <form className="flex flex-col gap-5" noValidate aria-label="Contact form" onSubmit={event => { event.preventDefault(); handleWhatsAppBooking(); }}>
                   <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
                     <div className="flex flex-col gap-1.5">
                       <label className="form-label" htmlFor="name">Full Name *</label>
@@ -197,10 +202,9 @@ ${form.message}
 
                   <div className="flex items-center gap-5 flex-wrap pt-1">
                     <button
-                      type="button"
+                      type="submit"
                       data-requires-js
                       className="btn-primary flex items-center gap-2 min-w-[220px] justify-center"
-                      onClick={handleWhatsAppBooking}
                     >
                       <span>📱</span>
                       Continue on WhatsApp

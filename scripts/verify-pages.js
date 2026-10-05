@@ -271,6 +271,14 @@ async function verifyHydration(route) {
   assert.deepEqual(JSON.parse(w.document.querySelector('#seo-graph').textContent), initialGraph, `${route}: schema drift after hydration`);
   assert.equal(errors.length, 0, `${route}: ${errors.join('; ')}`);
   assert.equal(fetched.length, 0, `${route}: unnecessary initial article request`);
+  const phone = w.document.querySelector('main a[href="tel:+917977063567"]') || w.document.querySelector('a[href="tel:+917977063567"]');
+  phone.addEventListener('click', event => event.preventDefault(), { once: true });
+  phone.click();
+  const phoneEvents = w.dataLayer.filter(item => item.event === 'phone_click');
+  assert.equal(phoneEvents.length, 1, `${route}: phone event missing or duplicated`);
+  assert.equal(phoneEvents[0].page_path, route, `${route}: phone event path`);
+  assert.equal(phoneEvents[0].landing_page_path, route, `${route}: landing event path`);
+  assert(!JSON.stringify(w.dataLayer).includes('7977063567'), `${route}: telephone leaked into analytics`);
   if (route === '/') {
     const menu = w.document.querySelector('button[aria-label="Open menu"]');
     assert(!w.document.querySelector('[role="dialog"]'), 'Closed mobile menu exposed as a dialog');
@@ -294,6 +302,26 @@ async function verifyHydration(route) {
     await new Promise(resolve => setTimeout(resolve, 40));
     assert.equal(w.document.querySelectorAll('[role="alert"]').length, 4, 'Contact validation did not hydrate');
     assert.equal(opened.length, 0, 'Empty form opened an external destination');
+    assert(!w.dataLayer.some(item => item.event === 'contact_form_handoff'), 'Invalid form recorded a handoff');
+    for (const [name, value] of Object.entries({ name: 'Private Test Person', email: 'private-test@example.invalid', phone: '9876543210', message: 'Private matter text' })) {
+      const input = w.document.querySelector(`[name="${name}"]`);
+      const prototype = input.tagName === 'TEXTAREA' ? w.HTMLTextAreaElement.prototype : w.HTMLInputElement.prototype;
+      Object.getOwnPropertyDescriptor(prototype, 'value').set.call(input, value);
+      input.dispatchEvent(new w.Event('input', { bubbles: true }));
+    }
+    await new Promise(resolve => setTimeout(resolve, 40));
+    const submit = new w.Event('submit', { bubbles: true, cancelable: true });
+    w.document.querySelector('form').dispatchEvent(submit);
+    await new Promise(resolve => setTimeout(resolve, 40));
+    assert(submit.defaultPrevented, 'Form could send personal data into a GET URL');
+    assert.equal(opened.length, 1, 'Valid form did not hand off to WhatsApp');
+    assert.equal(w.dataLayer.filter(item => item.event === 'contact_form_handoff').length, 1, 'Valid form event missing or duplicated');
+    assert(!JSON.stringify(w.dataLayer).match(/Private Test Person|private-test@|9876543210|Private matter text/), 'Personal form data leaked into analytics');
+    const directions = w.document.querySelector('main a[href^="https://www.google.com/maps/dir/"]');
+    assert(directions, 'Directions CTA missing');
+    directions.addEventListener('click', event => event.preventDefault(), { once: true });
+    directions.click();
+    assert.equal(w.dataLayer.filter(item => item.event === 'directions_click').length, 1, 'Directions event missing');
   }
   // Exercise client-side navigation using an existing, canonical internal link.
   const target = route === '/contact/' ? '/expertise/' : '/contact/';

@@ -17,10 +17,12 @@ import PartnerDetail from "pages/PartnerDetail";
 import FinanceTaxRegulatoryAdvisory from "pages/FinanceTaxRegulatoryAdvisory";
 import { ArticleContentProvider } from './components/ArticleContent';
 import type { Article } from './types';
+import EnquiryMeasurement from './components/EnquiryMeasurement';
 
 // Shared by the browser router and the build-time static router.
 export const AppRoutes: React.FC<{ initialArticle?: Article }> = ({ initialArticle }) => (
   <ArticleContentProvider initialArticle={initialArticle}>
+    <EnquiryMeasurement />
     <ScrollToTop />
     <RouteMetadata />
     <Routes>
