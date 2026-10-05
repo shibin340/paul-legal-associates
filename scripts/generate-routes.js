@@ -43,6 +43,18 @@ const articlesByRoute = new Map(ARTICLES.map(article => [`/insights/${article.sl
 const awaitingArticleReview = new Set(
   require('../src/seo-awaiting-review.json').map(slug => `/insights/${slug}`)
 );
+// Editorial dates are explicitly maintained after substantive content/link
+// changes. A build or deployment does not advance undated pages.
+const pageUpdates = require('../src/pageUpdates.json');
+for (const [route, date] of Object.entries(pageUpdates)) {
+  const normalized = route === '/' ? '/' : route.slice(0, -1);
+  if (!route.endsWith('/') || !pages.some(page => page.route === normalized) || awaitingArticleReview.has(normalized)) {
+    throw new Error(`Meaningful update date has an invalid or held route: ${route}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(date) || new Date(date).toISOString().slice(0, 10) !== date || date > new Date().toISOString().slice(0, 10)) {
+    throw new Error(`Invalid meaningful update date for ${route}: ${date}`);
+  }
+}
 
 const escapeHtml = value => String(value).replace(/[&<>"']/g, c => ({
   '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;'
@@ -124,7 +136,11 @@ const sitemapPages = pages.filter(page => !awaitingArticleReview.has(page.route)
 const sitemap = [
   '<?xml version="1.0" encoding="UTF-8"?>',
   '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
-  ...sitemapPages.map(page => `  <url><loc>${canonical(page.route)}</loc></url>`),
+  ...sitemapPages.map(page => {
+    const route = page.route === '/' ? '/' : `${page.route}/`;
+    const date = pageUpdates[route];
+    return `  <url><loc>${canonical(page.route)}</loc>${date ? `<lastmod>${date}</lastmod>` : ''}</url>`;
+  }),
   '</urlset>',
   ''
 ].join('\n');

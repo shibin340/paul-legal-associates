@@ -1,5 +1,6 @@
 import type { Article, PracticeArea, TeamMember } from './types';
 import { insightServiceLinks } from './serviceReading';
+import pageUpdates from './pageUpdates.json';
 
 const origin = 'https://paullegalassociates.com';
 const firmId = `${origin}/#firm`;
@@ -92,6 +93,7 @@ export function createSeoGraph(route: string, input: PageInput): { '@context': s
   const url = `${origin}${route === '/' ? '/' : `${route}/`}`;
   const webPageId = `${url}#webpage`;
   const graph: Node[] = [firm, website];
+  const modified = (pageUpdates as Record<string, string>)[route === '/' ? '/' : `${route}/`];
   const webPage: Node = {
     '@type': 'WebPage',
     '@id': webPageId,
@@ -99,7 +101,8 @@ export function createSeoGraph(route: string, input: PageInput): { '@context': s
     name: input.title,
     description: input.description.replace(/\s+/g, ' ').trim(),
     inLanguage: 'en-IN',
-    isPartOf: ref(websiteId)
+    isPartOf: ref(websiteId),
+    ...(modified ? { dateModified: modified } : {})
   };
 
   if (input.area || route === '/finance-tax-regulatory-advisory') {
@@ -134,6 +137,7 @@ export function createSeoGraph(route: string, input: PageInput): { '@context': s
       author,
       publisher: ref(firmId),
       mainEntityOfPage: ref(webPageId),
+      ...(modified ? { dateModified: modified } : {}),
       ...(linkedService ? { about: ref(serviceId(`/expertise/${linkedService}`)) } : {})
     });
     if (authorSlug) graph.push(person(input.article.author, authorSlug));
