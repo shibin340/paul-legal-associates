@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
 import { PRACTICE_AREAS } from '../practiceAreas';
-import { ARTICLES } from '../data';
+import { ARTICLES } from '../data/articles';
 import CredentialsBar from 'components/ui/CredentialsBar';
 import { useDocumentTitle } from 'hooks/useDocumentTitle';
 import { getServiceMetadata } from '../serviceMetadata';

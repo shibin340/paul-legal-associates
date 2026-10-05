@@ -7,7 +7,7 @@ import CredentialsBar from "../components/ui/CredentialsBar";
 import {
   STATS, TESTIMONIALS, TEAM_MEMBERS,
   ABOUT_HIGHLIGHTS, VALUES, TAGLINE, FIRM_HEADLINE, FIRM_DESC
-} from "../data";
+} from "../data/site";
 import { PRACTICE_AREAS } from "../practiceAreas";
 import CadastralMap from "components/ui/CadastralMap";
 import { useDocumentTitle } from "hooks/useDocumentTitle";

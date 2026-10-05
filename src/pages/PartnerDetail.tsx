@@ -3,7 +3,8 @@ import React from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { ARTICLES, TEAM_MEMBERS } from "../data";
+import { ARTICLES } from "../data/articles";
+import { TEAM_MEMBERS } from "../data/site";
 import awaitingReview from "../seo-awaiting-review.json";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 

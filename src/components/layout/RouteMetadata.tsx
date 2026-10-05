@@ -1,6 +1,7 @@
 import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
-import { ARTICLES, TEAM_MEMBERS } from "../../data";
+import { ARTICLES } from "../../data/articles";
+import { TEAM_MEMBERS } from "../../data/site";
 import { PRACTICE_AREAS } from "../../practiceAreas";
 import core from "../../seo-core.json";
 import awaitingArticleReview from "../../seo-awaiting-review.json";

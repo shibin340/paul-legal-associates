@@ -1,4 +1,4 @@
-import { PRACTICE_AREAS as existingAreas } from "./data";
+import { PRACTICE_AREAS as existingAreas } from "./data/site";
 import type { PracticeArea } from "./types";
 
 // Keep this focused service alongside the existing areas without rewriting

@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { STATS, VALUES, MILESTONES, PHILOSOPHY, ABOUT_HIGHLIGHTS } from "../data";
+import { STATS, VALUES, MILESTONES, PHILOSOPHY, ABOUT_HIGHLIGHTS } from "../data/site";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const About: React.FC = () => {

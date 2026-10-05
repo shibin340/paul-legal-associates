@@ -1,5 +1,5 @@
 import React from "react";
-import { CREDENTIALS } from "../../data";
+import { CREDENTIALS } from "../../data/site";
 
 const CredentialsBar: React.FC = () => (
   <section

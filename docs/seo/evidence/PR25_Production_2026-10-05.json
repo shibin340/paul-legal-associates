@@ -1,0 +1,128 @@
+[
+  {
+    "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  },
+  {
+    "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+    "checks": {
+      "http": true,
+      "h1": true,
+      "canonical": true,
+      "indexable": true,
+      "guide": true,
+      "phone": true,
+      "contact": true,
+      "schema": true,
+      "breadcrumb": true
+    }
+  }
+]
