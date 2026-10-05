@@ -1,0 +1,881 @@
+[
+  {
+    "family": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+    "preferredURL": "https://paullegalassociates.com/",
+    "intentBoundary": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "law firm navi mumbai"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "law firms in navi mumbai"
+        ],
+        "clicks": 1,
+        "impressions": 22,
+        "ctr": 4.545454545454546,
+        "position": 14.363636363636363
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "advocate in panvel"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 8.444444444444445
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "advocate panvel"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "advocates in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 61
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "best advocate in panvel"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 18.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "law firm in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 13.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "lawyer in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "lawyer in panvel"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "lawyer panvel"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "lawyers in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 45
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "law firm navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 23
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "law firms in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 21.333333333333332
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "lawyers in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 29
+      }
+    ],
+    "currentTitle": "Property Lawyers in Panvel & Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Paul Legal Associates is a Navi Mumbai law firm with practices in property law, compliance and commercial litigation."
+  },
+  {
+    "family": "Property lawyer Panvel / Navi Mumbai",
+    "preferredURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+    "intentBoundary": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "best property lawyer in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "commercial property law firm"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "legal property lawyers"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 10.333333333333334
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property lawyer in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property lawyer navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 16.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 16,
+        "ctr": 0,
+        "position": 5.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property lawyers near me"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 4.2
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "property lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "Property Law Services in Panvel | Paul Legal Associates",
+    "currentDescription": "Property law support in Panvel and Navi Mumbai, including title diligence, conveyancing, MahaRERA matters, redevelopment and registrations. Explore the relevant service."
+  },
+  {
+    "family": "Property title verification / title search / due diligence",
+    "preferredURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+    "intentBoundary": "Ownership/record-review intent.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property documents verification lawyers near me"
+        ],
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0,
+        "position": 1.4285714285714286
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property verification lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property verification lawyers near me"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "Property Title Verification in Panvel | Paul Legal Associates",
+    "currentDescription": "Review ownership documents, title history and property records before a transaction. Contact Paul Legal Associates in Panvel about a title review."
+  },
+  {
+    "family": "Property transactions / conveyancing lawyer",
+    "preferredURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+    "intentBoundary": "Transaction preparation and completion, distinct from the title report.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "best conveyancing solicitors"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 10
+      }
+    ],
+    "currentTitle": "Property Conveyancing in Panvel | Paul Legal Associates",
+    "currentDescription": "Agreements for sale, conveyances, registration and property transfer support for transactions in Panvel and Navi Mumbai."
+  },
+  {
+    "family": "Property registration lawyer",
+    "preferredURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+    "intentBoundary": "Registration-stage documents and authority process.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property registration lawyers near me"
+        ],
+        "clicks": 1,
+        "impressions": 2,
+        "ctr": 50,
+        "position": 7
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property registration advocates near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      }
+    ],
+    "currentTitle": "Property Registration Assistance in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Property document registration and related support for transactions in Mumbai and Navi Mumbai."
+  },
+  {
+    "family": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+    "preferredURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+    "intentBoundary": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "rera lawyers in mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 52
+      }
+    ],
+    "currentTitle": "MahaRERA Legal Services in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Explore MahaRERA project compliance, agreements, homebuyer complaints and developer responses with Paul Legal Associates in Navi Mumbai."
+  },
+  {
+    "family": "NAINA lawyer / town planning scheme / NAINA land issues",
+    "preferredURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+    "intentBoundary": "Town-planning scheme records and asset facts.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+          "cidco naina"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "NAINA Town Planning Scheme Legal Support | Paul Legal Associates",
+    "currentDescription": "Review original and proposed final plot records, scheme documents and representations concerning land within a NAINA town planning scheme."
+  },
+  {
+    "family": "Land acquisition lawyer / compensation Raigad or Panvel",
+    "preferredURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+    "intentBoundary": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Land Acquisition and Compensation in Raigad | Paul Legal Associates",
+    "currentDescription": "Received an acquisition notice affecting land in Panvel or Raigad? Prepare the notice, plot records and key dates for a case-specific review."
+  },
+  {
+    "family": "Navi Mumbai Airport land transactions / affected land matter",
+    "preferredURL": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+    "intentBoundary": "Specific airport-area land facts; identify notification/authority before promoting an acquisition remedy.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Land Transactions Near Navi Mumbai International Airport | Paul Legal Associates",
+    "currentDescription": "Land Transactions Near Navi Mumbai International Airport: Specialised real estate due diligence and zoning verification for airport-influence growth sectors. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Agricultural / non-agricultural land purchase due diligence",
+    "preferredURL": "https://paullegalassociates.com/expertise/agricultural-non-agricultural-land-purchase/",
+    "intentBoundary": "Land-use and purchase eligibility/document decision.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Purchase and Acquisition of Agricultural and Non-Agricultural Land | Paul Legal Associates",
+    "currentDescription": "Purchase and Acquisition of Agricultural and Non-Agricultural Land: End-to-end title verification, revenue record analysis, and conveyancing for multi-region land purchases. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Property tenancy / eviction / property litigation",
+    "preferredURL": "https://paullegalassociates.com/expertise/property-tenancy-real-estate-litigation/",
+    "intentBoundary": "Existing occupation or property dispute.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "commercial property litigation solicitors"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 25
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "property litigation lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "Property, Tenancy and Real Estate Litigation | Paul Legal Associates",
+    "currentDescription": "Property, Tenancy and Real Estate Litigation: Specific performance assertions, partition tracks, and recovery actions for landlords and tenants. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Redevelopment / construction real-estate legal support",
+    "preferredURL": "https://paullegalassociates.com/expertise/real-estate-development-construction-redevelopment/",
+    "intentBoundary": "Project/document rights; separate from registration/title review.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Real Estate Development, Construction and Redevelopment | Paul Legal Associates",
+    "currentDescription": "Real Estate Development, Construction and Redevelopment: End-to-end structural documentation for societies, builders, JDAs, and alternate housing items. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Corporate lawyer / commercial advisory Navi Mumbai",
+    "preferredURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+    "intentBoundary": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "business and commercial lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 3
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "corporate law companies"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "corporate law firm"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "corporate law firms in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 14.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "corporate lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "corporate lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0,
+        "position": 3.4
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "corporate law firms in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 20
+      }
+    ],
+    "currentTitle": "Corporate Law and Contracts in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Explore commercial contracts, transaction documents, corporate governance and ongoing legal advisory for businesses in Navi Mumbai."
+  },
+  {
+    "family": "Commercial contracts / contract drafting / review / NDA",
+    "preferredURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+    "intentBoundary": "Specific document work; broad generic contract lawyer impressions alone are not a local-demand signal.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Contract Drafting, Vetting and Transaction Documentation | Paul Legal Associates",
+    "currentDescription": "Contract Drafting, Vetting and Transaction Documentation: Meticulous design for master services, technology frameworks, and outsourcing covenants. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "M&A / investment / startup legal structuring",
+    "preferredURL": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+    "intentBoundary": "Transaction/entity structuring intent; distinguish recurring legal support and land acquisition.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Corporate, Commercial, M&A and Startup Law | Paul Legal Associates",
+    "currentDescription": "Corporate, Commercial, M&A and Startup Law: Strategic entity formations, cross-border structuring, shareholder controls, and exit maps. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Governance / general counsel / legal retainership",
+    "preferredURL": "https://paullegalassociates.com/expertise/corporate-compliance-governance-legal-retainership/",
+    "intentBoundary": "Continuing business support.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Corporate Compliance, Governance and Legal Retainership | Paul Legal Associates",
+    "currentDescription": "Corporate Compliance, Governance and Legal Retainership: Corporate diagnostic checkups, legal calendars, board resolutions, and active retainers. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Commercial litigation lawyer / business dispute",
+    "preferredURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+    "intentBoundary": "Dispute diagnosis and forum options.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Commercial Litigation and Arbitration | Paul Legal Associates",
+    "currentDescription": "Dispute resolution and representation before courts, tribunals and authorities, including commercial arbitration."
+  },
+  {
+    "family": "Arbitration / mediation / ADR lawyer",
+    "preferredURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+    "intentBoundary": "Chosen dispute-resolution process.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Arbitration and Mediation Legal Support | Paul Legal Associates",
+    "currentDescription": "Explore arbitration, mediation and alternative dispute resolution services from Paul Legal Associates."
+  },
+  {
+    "family": "Labour law compliance / employment lawyer / HR records",
+    "preferredURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+    "intentBoundary": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "employment lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 1579,
+        "ctr": 0,
+        "position": 1.6839772007599747
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "labour law advocate near me"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 2.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "labour law near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "labour lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "labour lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "labour law advocate near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "Employment and Labour Law in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Employment contracts, workplace policies, PF and ESI matters, and statutory HR compliance support for businesses in Navi Mumbai."
+  },
+  {
+    "family": "PF / ESI / payroll / contractor compliance",
+    "preferredURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+    "intentBoundary": "Same workforce service; no duplicate PF/ESI URL is created.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Employment and Labour Law in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Employment contracts, workplace policies, PF and ESI matters, and statutory HR compliance support for businesses in Navi Mumbai."
+  },
+  {
+    "family": "POSH compliance / Internal Committee / external-member support",
+    "preferredURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+    "intentBoundary": "Employer policy/committee/process support; not generic employment dispute intent.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "posh lawyer near me"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      }
+    ],
+    "currentTitle": "POSH Compliance for Employers in Navi Mumbai | Paul Legal Associates",
+    "currentDescription": "Review POSH policy, Internal Committee arrangements, external-member support, workplace awareness and reporting records with Paul Legal Associates."
+  },
+  {
+    "family": "GST notices / tax litigation / fiscal appeal lawyer",
+    "preferredURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+    "intentBoundary": "Legal notice/dispute route, distinct from routine operational tax/finance work.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Taxation, GST and Fiscal Litigation | Paul Legal Associates",
+    "currentDescription": "Taxation, GST and Fiscal Litigation: Litigation support for GST notices, Input Tax Credit claims, demand notices, and tax audits. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Tax / GST advisory for finance operations",
+    "preferredURL": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+    "intentBoundary": "Operating finance/tax coordination; the dispute service is preferred for a live legal notice.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Finance, Tax & Regulatory Advisory | Paul Legal Associates",
+    "currentDescription": "Finance, tax and regulatory advisory for businesses in Navi Mumbai and beyond: GST, TDS, Virtual CFO, FEMA, FDI and cross-border work. Call +91 7977063567."
+  },
+  {
+    "family": "Virtual CFO / finance advisory",
+    "preferredURL": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+    "intentBoundary": "Existing finance service capability; no new variant landing.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Finance, Tax & Regulatory Advisory | Paul Legal Associates",
+    "currentDescription": "Finance, tax and regulatory advisory for businesses in Navi Mumbai and beyond: GST, TDS, Virtual CFO, FEMA, FDI and cross-border work. Call +91 7977063567."
+  },
+  {
+    "family": "TDS / accounting compliance advisory",
+    "preferredURL": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+    "intentBoundary": "Operational preparation/reporting intent.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Finance, Tax & Regulatory Advisory | Paul Legal Associates",
+    "currentDescription": "Finance, tax and regulatory advisory for businesses in Navi Mumbai and beyond: GST, TDS, Virtual CFO, FEMA, FDI and cross-border work. Call +91 7977063567."
+  },
+  {
+    "family": "FEMA legal / international trade regulatory advisory",
+    "preferredURL": "https://paullegalassociates.com/expertise/international-trade-fema-cross-border-business/",
+    "intentBoundary": "Legal-regulatory transaction issue.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "International Trade, FEMA and Cross-Border Business | Paul Legal Associates",
+    "currentDescription": "International Trade, FEMA and Cross-Border Business: FEMA compliance checkups, overseas layout routing, customs vetting, and entry structures. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "FDI / ODI / ECB finance-regulatory process",
+    "preferredURL": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+    "intentBoundary": "Operational/regulatory coordination; FEMA legal dispute/transaction intent goes to the distinct legal service.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Finance, Tax & Regulatory Advisory | Paul Legal Associates",
+    "currentDescription": "Finance, tax and regulatory advisory for businesses in Navi Mumbai and beyond: GST, TDS, Virtual CFO, FEMA, FDI and cross-border work. Call +91 7977063567."
+  },
+  {
+    "family": "Cross-border commercial agreements / transaction advisory",
+    "preferredURL": "https://paullegalassociates.com/expertise/international-commercial-transactions-cross-border/",
+    "intentBoundary": "Commercial transaction documents; no duplicate broad FEMA targeting.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "International Commercial Transactions and Cross-Border Advisory | Paul Legal Associates",
+    "currentDescription": "International Commercial Transactions and Cross-Border Advisory: Cross-border JV agreements, international supply deals, cross-border technology licensing, and dispute clauses. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Banking lawyer / debt restructuring / DRT / SARFAESI",
+    "preferredURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+    "intentBoundary": "Financing/security/enforcement facts.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Banking, Finance, Securities and Debt Restructuring | Paul Legal Associates",
+    "currentDescription": "Banking, Finance, Securities and Debt Restructuring: Security hypothecations, DRT routines, SARFAESI enforcement management, and structured lending sets. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Corporate insolvency / NCLT / NCLAT / bankruptcy",
+    "preferredURL": "https://paullegalassociates.com/expertise/insolvency-bankruptcy-nclt-nclat-proceedings/",
+    "intentBoundary": "Genuine corporate insolvency intent; irrelevant generic impressions are not evidence of qualified demand.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "bankruptcy"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "bankruptcy attorney"
+        ],
+        "clicks": 0,
+        "impressions": 50,
+        "ctr": 0,
+        "position": 1.72
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "bankruptcy lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 2131,
+        "ctr": 0,
+        "position": 1.9267949319568278
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "nclt advocate near me"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "nclt near me"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "personal insolvency lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 1.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "bankruptcy attorney"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 15
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact",
+          "bankruptcy lawyer"
+        ],
+        "clicks": 0,
+        "impressions": 164,
+        "ctr": 0,
+        "position": 15
+      }
+    ],
+    "currentTitle": "Insolvency, Bankruptcy and NCLT/NCLAT Proceedings | Paul Legal Associates",
+    "currentDescription": "Insolvency, Bankruptcy and NCLT/NCLAT Proceedings: Creditor filing strategies, debtor resolution defenses, and company recovery appeals. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Debt recovery / unpaid invoices / MSME / cheque bounce",
+    "preferredURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+    "intentBoundary": "Commercial receivables and statutory notice/process.",
+    "demandEvidence": "Observed disclosed matches listed; generic matches still require commercial/local filtering",
+    "observedRows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/",
+          "debt collection attorney in navi mumbai"
+        ],
+        "clicks": 0,
+        "impressions": 6,
+        "ctr": 0,
+        "position": 17
+      }
+    ],
+    "currentTitle": "Debt Recovery, Cheque Bounce and MSME Disputes | Paul Legal Associates",
+    "currentDescription": "Debt Recovery, Cheque Bounce and MSME Disputes: Summary suits, commercial invoice collections, and MSEFC representation protocols. Paul Legal Associates, Navi Mumbai."
+  },
+  {
+    "family": "Maritime / shipping / admiralty / vessel acquisition",
+    "preferredURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+    "intentBoundary": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Maritime and Admiralty Legal Services | Paul Legal Associates",
+    "currentDescription": "Information on maritime, shipping and admiralty matters handled by Paul Legal Associates."
+  },
+  {
+    "family": "Wills / succession / probate / property inheritance",
+    "preferredURL": "https://paullegalassociates.com/expertise/wills-succession-probate-trusts-estate-planning/",
+    "intentBoundary": "Succession planning/process affecting assets; court-specific litigation can require a distinct supporting page.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Wills, Probate and Estate Planning Services | Paul Legal Associates",
+    "currentDescription": "Explore wills, succession, probate, trusts and estate planning matters handled by Paul Legal Associates."
+  },
+  {
+    "family": "Legal compliance audit",
+    "preferredURL": "https://paullegalassociates.com/expertise/legal-compliance-audit/",
+    "intentBoundary": "Cross-cutting audit intent; employment-specific intent remains on the workforce landing.",
+    "demandEvidence": "No disclosed matching query; current service-capability hypothesis, not measured search volume",
+    "observedRows": [],
+    "currentTitle": "Legal Compliance & Audit | Paul Legal Associates",
+    "currentDescription": "Legal Compliance & Audit: Compliance reviews, labour law audits, due diligence and governance frameworks. Paul Legal Associates, Navi Mumbai."
+  }
+]

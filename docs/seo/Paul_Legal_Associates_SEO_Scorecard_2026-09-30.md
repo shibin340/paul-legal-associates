@@ -2,6 +2,44 @@
 
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 2 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
+## Execution checkpoint — 5 October 2026
+
+The performance period remains settled through **2 October**; today's releases cannot explain that earlier data. The 83-practice ledger and 34-family query map are now complete execution records. All 154 Insights are inventoried but current-law review is still in progress. First Google crawl/indexing and real conversion collection remain the most consequential outstanding outcomes.
+
+| Dimension | Verified current value | Source / limitation |
+|---|---|---|
+| Indexable URLs / static routes | 239 /247 | Build and production sitemap; eight held articles excluded |
+| Tier-A practices / commercial landings | 17 /18 | Finance is additional |
+| Commercial indexed / discovered / unknown | 3 /4 /11 | Fresh 5Oct tracker; 16.7% indexed; 0 recorded crawled-not-indexed in this cohort snapshot |
+| Indexed Home / Contact | Both | Google crawl3Oct /17Sep respectively |
+| 28d clicks /impressions /CTR | 41 /18,210 /0.225% | 5Sep–2Oct2026 Web property data |
+| 90d clicks /impressions | 142 /50,001 | 5Jul–2Oct; no service clicks in returned page rows |
+| 180d clicks /impressions | 232 /66,478 | 6Apr–2Oct; no service clicks in returned page rows |
+| Brand /other clicks and impressions | 20/67;21/18,143 | Five saved firm/partner patterns;16 other clicks anonymised, qualification unknown |
+| Home dependence /service clicks | 40/41=97.6%;0 service clicks in returned28-day rows | Aggregate average position2.394 is not service success |
+| Qualified local disclosed clicks | 3, all Home | Firm NaviMumbai and registration intent; not complete/local-lead census |
+| Mobile /desktop /tablet | 26/1,018; 15/17,188; 0/4 clicks/impressions | MobileCTR2.554%, desktop0.0873%; desktop generic impressions dominate |
+| India | 40clicks /18,152impressions | UAE1click/1impression; country is not town-level lead qualification |
+| Search appearance /AI reporting | No returned appearance rows | No separate AI attribution exposed; not proof of zero AI visibility |
+| Commercial top10/top20 query coverage | Baseline candidate rows recorded; mature service cohort unestablished | Tiny Home/local samples are not reliable service ranking coverage |
+| GBP calls/website/directions/messages | Unknown | GBP manager/performance connection absent |
+| Website phone/WhatsApp/email/form/CTA/directions | Source events verified; collected totals unknown | PR27; no GA4/GTM collector; handoff is not proof a message was sent/received |
+| Organic/local lead rate /retained matters | Unknown | Requires collector and actual firm-side lead qualification; no invented lead counts |
+| Shared JS /controlled lab UX | About60% gzip reduction; mobile medianLCP2,304→2,076ms in PR26 controlled test | Current patches keep small entry; lab protocol/report separate from field CWV |
+| FieldLCP /INP /CLS | Unknown | No usable real-user field dataset obtained; lab does not supply fieldINP |
+| Crawl/security issues | Public200; runner403 | Cloudflare verified-bot events unavailable; client403 is not confirmed outage/searchbotblock |
+| Schema /links /hydration | Full247-route check passes | Canonical, H1, entity graph, held exclusions, navigation and contact/event checks |
+| Sitemap modification signals | 18 actual significant dates;221 URLs undated | PR28/29; no build-wide date stamping |
+| Bing /Copilot | Crawl/index/click state unknown | Bing Webmaster not configured; IndexNow200 acceptance is not indexing |
+| IndexNow | Actual reviewed batches accepted; unchanged PR26 skipped | PR23:1, PR25:9, PR27:1, PR28:7; PR29:1Finance breadcrumb HTTP200 |
+| Verified OAI/Google/Bing crawler treatment | Unknown at WAF/log layer; permitted in robots | Official identity methods documented; no security weakened |
+| Relevant citations /referring domains | Existing inconsistencies identified;0 new acquired citations this cycle | No backlink-count feed, paid links or directory blast |
+| Author/service trust paths | Three profiles with11 factual focused service links | Existing credentials retained; no fabricated review status |
+
+[Segments and90/180-day page rows](evidence/GSC_Segments_2026-10-05.json), [query×page evidence](evidence/GSC_Query_Pages_2026-10-05.json), [fresh tracker](evidence/Tier_A_Inspection_2026-10-05.json), [remaining work](Paul_Legal_Associates_SEO_Remaining_Work_2026-10-05.md). Page-row aggregates can differ from property totals; do not force them to reconcile or treat hidden queries as zero.
+
+Weekly/monthly process: append settled same-range snapshots and release dates; separate brand/generic/local/service intent; verify fresh crawl/index state; attach actual collected lead actions and fieldUX when available. Measure service-page enquiry performance before another metadata experiment.
+
 ## Current settled snapshot — 2 October 2026
 
 | Metric | Current evidence | Interpretation |
@@ -10,7 +48,7 @@
 | Google Web clicks / impressions, 90 days | 142 / 50,001 | Different time mix; compare matching periods later. |
 | Google Web clicks / impressions, 180 days | 232 / 66,478 | Different time mix; historical context only. |
 | Home share of observed page clicks | 40/41 = 97.6% | One other click went to legacy hash Contact; no service-page clicks appeared in returned page rows. |
-| Tier-A commercial landings indexed | 3/18 | Connected 20-URL tracker checks through 5 Oct: Finance, older corporate M&A and NAINA indexed; three discovered without indexing, twelve unknown. NAINA last Google crawl recorded 30 Sep. |
+| Tier-A commercial landings indexed | 3/18 | Connected 20-URL tracker checks through 5 Oct: Finance, older corporate M&A and NAINA indexed; four discovered without indexing, eleven unknown. NAINA last Google crawl recorded 30 Sep. |
 | Branded / other clicks | 20 / 21 | Saved five-pattern branded grouping: 20 branded clicks / 67 impressions, 21 other clicks / 18,143 impressions. Sixteen other clicks have anonymised queries and cannot be assessed for qualification. |
 | Qualified local query observations | Three disclosed clicks, all Home | `law firm navi mumbai`, `law firms in navi mumbai`, `property registration lawyers near me`; this is a disclosed subset, not a complete local-click total. |
 | Service-page calls / WhatsApp / forms | Unknown | GA4 conversion reporting is unavailable; do not infer lead counts from page clicks. |
@@ -41,6 +79,11 @@
 | 30 Sep | [PR #20](https://github.com/shibin340/paul-legal-associates/pull/20): route entity graph and connected authorship | 247-page build plus seven live graph samples | Better entity clarity after crawl; no rich-result or ranking promise. |
 | 30 Sep | [PR #21](https://github.com/shibin340/paul-legal-associates/pull/21) / [#22](https://github.com/shibin340/paul-legal-associates/pull/22): verified IndexNow key and change-list workflow | Three live pages 200/self canonical from independent network; one batch HTTP 202, key validation pending | Participating engines may recrawl updated pages. No Bing indexing evidence yet. |
 | 5 Oct | [PR #23](https://github.com/shibin340/paul-legal-associates/pull/23): distinct MahaRERA buyer/promoter/agent decision guidance, official source and related paths | Build: 247 routes, 239 sitemap URLs, twelve hydration checks; [deployment](https://github.com/shibin340/paul-legal-associates/actions/runs/37257540246) succeeded; public HTML 200/self canonical/indexable and cloud-browser guide visible; one changed URL IndexNow HTTP 200 | Better answer match and contextual discovery may support first Google crawl/indexing, service-page clicks and qualified contact actions. No immediate ranking claim. |
+| 5 Oct | [PR #25](https://github.com/shibin340/paul-legal-associates/pull/25): nine remaining priority preparation guides | Nine public guides and mobile rendering verified; one nine-URL IndexNow batch accepted | Improve first commercial crawl/indexing and qualified service enquiries. |
+| 5 Oct | [PR #26](https://github.com/shibin340/paul-legal-associates/pull/26): article-body delivery split | All 247 main-body hashes preserved; shared gzip reduced about 60%; controlled lab and production verified | Lower hydration work and payload while preserving crawlable content. |
+| 5 Oct | [PR #27](https://github.com/shibin340/paul-legal-associates/pull/27): enquiry events and Contact keyboard/directions paths | Validated local dispatch; matched production bundle; one Contact notification accepted | Measure actual enquiry actions once a collector is connected; improve contact usability. |
+| 5 Oct | [PR #28](https://github.com/shibin340/paul-legal-associates/pull/28): two current-law updates, authority paths and real lastmod dates | 37 independent public fetches passed; article/profile paths and held exclusions verified; seven changed URLs notified | Improve useful current support and contextual service discovery. |
+| 5 Oct | [PR #29](https://github.com/shibin340/paul-legal-associates/pull/29): focused article recommendations and Finance breadcrumb | Full build and seven mobile routes passed; live content/bundle matched; Finance-only notification accepted | Keep readers and crawlers within relevant service topics. |
 
 ## Weekly check
 
@@ -59,4 +102,6 @@ On the next complete reporting period, append one row here using the same Search
 
 **Definitions:** Tier-A is 17 selected practice pages plus `/finance-tax-regulatory-advisory/`. “New crawl” means a new verified Google crawl/inspection date, not a sitemap submission or manual request. Count branded queries using the same documented firm-name pattern each cycle, and report query-row disclosure separately from site totals. “Qualified local” should be reviewed from actual query intent and landing page, excluding irrelevant generic impressions. Enquiry events should record action, page and source without client matter details. Track first crawl, indexed count, service clicks and actual leads before changing titles again.
 
-**Outstanding access/evidence:** Cloudflare WAF/security-event and verified-bot logs, GBP management/performance, Bing Webmaster data, GA4 conversion scope and CrUX field data. On 5 Oct, a Python client and GitHub Actions runner received Cloudflare HTML 403; independent public `curl` and a cloud browser received 200. The runner Ray ID was `a4592dec1f7038b3-IAD`; inspect it when security events are available. Neither result establishes verified search-bot blocking or a public outage. The code bundle is about 379 KB gzip and central data source about 1.4 MB, so mobile field/lab performance and route data weight remain an audit item rather than a claimed regression.
+**Outstanding access/evidence:** Cloudflare WAF/security-event and verified-bot logs, GBP management/performance, Bing Webmaster data, GA4 conversion scope and CrUX field data. On 5 Oct, a Python client and GitHub Actions runner received Cloudflare HTML 403; independent public `curl` and a cloud browser received 200. The runner Ray ID was `a4592dec1f7038b3-IAD`; inspect it when security events are available. Neither result establishes verified search-bot blocking or a public outage. PR #26 removed unrelated article bodies from the shared browser entry; before/after controlled evidence and verified production are in the Performance register. Field metrics and CDN configuration remain unverified.
+
+**Final PR #29 production check (5 October):** live Finance and employment article returned HTTP 200. The focused sidebar and Finance BreadcrumbList were visible. Current shared JS: 579,794 raw / 152,831 gzip bytes (60.51% below the original 386,981-byte gzip payload); SHA matched the tested local bundle. Sitemap: 239 URLs / 18 maintained dates; robots permission and held exclusions verified. Seven 390px mobile routes had no overflow or page errors. See [production evidence](evidence/PR29_Production_2026-10-05.json). Existing ongoing/monthly/health checks now read the current repository registers; schedules and alert conditions were preserved, and no duplicate task was created.

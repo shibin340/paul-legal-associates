@@ -1,0 +1,615 @@
+{
+  "date": "2026-10-05",
+  "pr": 28,
+  "merge": "93e91e413d97264862b2b57acd683f7bc01b0455",
+  "deploymentRun": 37302030413,
+  "fetches": 37,
+  "sitemapCount": 239,
+  "datedURLs": 17,
+  "heldArticles": 8,
+  "indexNow": {
+    "batch": 7,
+    "response": 200
+  },
+  "checks": [
+    {
+      "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3663,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 4088,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3488,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3866,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3809,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 4179,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3483,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3720,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 2515,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 2877,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3088,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 16348,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3279,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 2796,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 2750,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3163,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3150,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/contact/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 2363,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 4932,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 3783,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Service",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": true,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/labour-code-readiness-2026/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 5216,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BlogPosting",
+        "Person",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/gst-tax-litigation-advisory/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 4909,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BlogPosting",
+        "Person",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/contract-drafting-agreement-review-mou-nda/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 4608,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BlogPosting",
+        "Person",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/partners/pp-polachan/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 1470,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Person",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/partners/sojan-paul/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 1884,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Person",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/partners/sonam-paul/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": true,
+      "sitemap": true,
+      "mainCharacters": 1837,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "Person",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": "2026-10-05"
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 7349,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/vessel-sale-moa-legal-review/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 5446,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/third-party-payment-vessel-acquisition/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 4849,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/vessel-title-mortgages-maritime-liens/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 4075,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/panama-flag-vessel-ownership-transfer/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 4261,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/vessel-purchase-payment-escrow-direct-payment/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 3795,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/vessel-sale-closing-checklist-conditions-precedent/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 4243,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/vessel-acquisition-post-closing-registration/",
+      "http": 200,
+      "canonical": true,
+      "h1": 1,
+      "indexable": false,
+      "sitemap": false,
+      "mainCharacters": 3688,
+      "schema": [
+        "LegalService",
+        "WebSite",
+        "BreadcrumbList",
+        "WebPage"
+      ],
+      "breadcrumb": false,
+      "modified": null
+    }
+  ]
+}

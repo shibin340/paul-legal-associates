@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-05",
+  "pr": 27,
+  "merge": "361c5ceb2830dabc112444d113b77e9d1397f809",
+  "deploymentRun": 37289525328,
+  "http": 200,
+  "canonical": "https://paullegalassociates.com/contact/",
+  "h1Count": 1,
+  "directions": "https://www.google.com/maps/dir/?api=1&destination=Office%20No.%20301%2C%203rd%20Floor%2C%20Om%20Sai%20Building%2C%2C%20Plot%20No.101%2F3%2C%20Swami%20Nityanand%20Road%2C%2C%20Near%20Garden%20Hotel%2C%20Panvel%2C%2C%20Navi%20Mumbai%2C%20Maharashtra%20410%20206.",
+  "phone": true,
+  "robots": "index, follow",
+  "bundleMatchedLocalSha256": "332c108cb9902f5af4710a994a9ca9df7afb2c3ea9d6db6a31fd291d6bb5941e",
+  "indexNow": {
+    "batch": 1,
+    "response": 200
+  },
+  "runnerPageCheck": {
+    "status": 403,
+    "ray": "a45b5e6ea915f27a-IAD",
+    "independentFetch": 200
+  },
+  "analyticsCollector": "Unconfigured; tested local event dispatch and matched production bundle. Received leads not measured."
+}
