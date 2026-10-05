@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { remainingDecisionGuides } from '../serviceDecisionGuideData';
 
 const sectionClass = 'border-t border-navy/10 pt-8 mb-10';
 const headingClass = 'font-serif text-[1.45rem] font-semibold text-navy mb-4';
@@ -98,7 +99,33 @@ const ServiceDecisionGuides: React.FC<{ slug: string }> = ({ slug }) => {
     );
   }
 
-  return null;
+  const guide = remainingDecisionGuides[slug];
+  if (!guide) return null;
+  const headingId = `${slug}-decision-guide`;
+  return (
+    <section className={sectionClass} aria-labelledby={headingId}>
+      <h3 id={headingId} className={headingClass}>{guide.heading}</h3>
+      <p className={copyClass}>{guide.introduction}</p>
+      <h4 className="font-semibold text-navy mb-3">Information to prepare for the first discussion</h4>
+      <ul className={listClass}>{guide.documents.map(item => <li key={item}>{item}</li>)}</ul>
+      <h4 className="font-semibold text-navy mb-3">How the initial review can proceed</h4>
+      <ol className="list-decimal pl-5 space-y-2 text-[0.9rem] text-navy/80 leading-[1.7] mb-7">
+        {guide.steps.map(item => <li key={item}>{item}</li>)}
+      </ol>
+      <p className={copyClass}>{guide.consideration}</p>
+      <h4 className="font-semibold text-navy mb-3">Official resources</h4>
+      <ul className={listClass}>
+        {guide.sources.map(item => <li key={item.href}><a href={item.href} target="_blank" rel="noopener noreferrer" className={linkClass}>{item.label}</a></li>)}
+      </ul>
+      <nav aria-label="Related preparation and practice information" className="bg-cream p-5 border border-navy/10">
+        <h4 className="font-semibold text-navy mb-3">Related preparation and practice information</h4>
+        <ul className="list-disc pl-5 space-y-2 text-[0.9rem]">
+          {guide.related.map(item => <li key={item.href}><Link to={item.href} className={linkClass}>{item.label}</Link></li>)}
+        </ul>
+      </nav>
+      <p className="mt-5 text-[0.78rem] text-muted">Preparation guidance updated <time dateTime="2026-10-05">5 October 2026</time>.</p>
+    </section>
+  );
 };
 
 export default ServiceDecisionGuides;

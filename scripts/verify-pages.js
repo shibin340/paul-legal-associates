@@ -2,6 +2,7 @@ const assert = require('assert/strict');
 const fs = require('fs');
 const path = require('path');
 const { JSDOM, VirtualConsole } = require('jsdom');
+const { loadSource } = require('./load-source');
 
 const build = path.resolve(__dirname, '../build');
 const origin = 'https://paullegalassociates.com';
@@ -25,6 +26,7 @@ assert.equal(sitemap.length, 239, 'Unexpected change to the reviewed sitemap inv
 const serviceTopics = require('../src/serviceTopics.json');
 const heldArticleRoutes = new Set(require('../src/seo-awaiting-review.json').map(slug => `/insights/${slug}/`));
 const serviceSlugs = serviceTopics.flatMap(topic => topic.members);
+const decisionGuides = loadSource(path.resolve(__dirname, '../src/serviceDecisionGuideData.ts')).remainingDecisionGuides;
 assert.equal(serviceSlugs.length, 83, 'Topic map must cover all 83 practices');
 assert.equal(new Set(serviceSlugs).size, 83, 'Practice assigned to multiple topics');
 for (const topic of serviceTopics) {
@@ -200,6 +202,15 @@ for (const route of pagePaths) {
   }
   if (route === '/expertise/labour-employment-hr-workplace-compliance/') {
     assert(d.querySelector('nav[aria-label="Related workplace service"] a[href="/expertise/posh-compliance-internal-committee/"]'), 'Workplace service cross-link missing');
+  }
+  const guideSlug = route.startsWith('/expertise/') ? route.split('/')[2] : '';
+  if (decisionGuides[guideSlug]) {
+    const heading = d.getElementById(`${guideSlug}-decision-guide`);
+    assert(heading, `${route}: practical decision guide missing from initial HTML`);
+    const section = heading.closest('section');
+    assert(section.querySelector('ol li'), `${route}: initial next steps missing`);
+    assert(section.querySelector('a[href^="https://"]'), `${route}: official resource missing`);
+    assert(section.querySelector('time[datetime="2026-10-05"]'), `${route}: meaningful update date missing`);
   }
   if (route === '/insights/') {
     assert.equal(d.querySelectorAll('nav[aria-label="Property and land guides"] a').length, 8);
