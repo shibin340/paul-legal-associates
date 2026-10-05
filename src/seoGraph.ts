@@ -11,7 +11,7 @@ type PageInput = {
   description: string;
   area?: PracticeArea;
   member?: TeamMember;
-  article?: Article;
+  article?: Omit<Article, 'content'>;
   heldForReview?: boolean;
 };
 
@@ -74,7 +74,7 @@ function person(name: string, slug: string, jobTitle?: string, image?: string): 
   };
 }
 
-function breadcrumbs(route: string, label: string, article?: Article): Node | undefined {
+function breadcrumbs(route: string, label: string, article?: Omit<Article, 'content'>): Node | undefined {
   const isService = route.startsWith('/expertise/');
   if (!isService && !article) return undefined;
   const parent = isService ? 'expertise' : 'insights';

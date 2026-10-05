@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-05T08:58:51.035Z",
+  "method": "Local gzip server; Chrome 153; cold cache; 150ms latency, 1.6Mbps; mobile CPU4x/desktop1x; same external fonts blocked; 3 home-page runs each; lab, not CrUX/INP",
+  "files": [
+    {
+      "file": "main.adac90a5.js",
+      "raw": 1540360,
+      "gzip": 386981
+    }
+  ],
+  "runs": [
+    {
+      "device": "mobile",
+      "run": 1,
+      "lcp": 2304,
+      "cls": 0.021617626768900184,
+      "longTaskBlocking": 859,
+      "fcp": 1468,
+      "ttfb": 11.599999999860302,
+      "domReady": 2927.6999999999534,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2596.8000000000466
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "run": 2,
+      "lcp": 2388,
+      "cls": 0.021617626768900184,
+      "longTaskBlocking": 820,
+      "fcp": 1488,
+      "ttfb": 4.7000000001862645,
+      "domReady": 2887,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2619.8000000000466
+        }
+      ]
+    },
+    {
+      "device": "mobile",
+      "run": 3,
+      "lcp": 2240,
+      "cls": 0.021617626768900184,
+      "longTaskBlocking": 700,
+      "fcp": 1340,
+      "ttfb": 5.2999999998137355,
+      "domReady": 2841.5,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 2615.0999999998603
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "run": 1,
+      "lcp": 2332,
+      "cls": 0.005450165674029063,
+      "longTaskBlocking": 113,
+      "fcp": 764,
+      "ttfb": 3.6000000000931323,
+      "domReady": 3491.4000000001397,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 3286.4000000001397
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "run": 2,
+      "lcp": 2264,
+      "cls": 0.005437506530510545,
+      "longTaskBlocking": 108,
+      "fcp": 804,
+      "ttfb": 3.4000000001396984,
+      "domReady": 3488.1999999999534,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 3284.6999999999534
+        }
+      ]
+    },
+    {
+      "device": "desktop",
+      "run": 3,
+      "lcp": 2288,
+      "cls": 0.005450165674029063,
+      "longTaskBlocking": 109,
+      "fcp": 760,
+      "ttfb": 3.8999999999068677,
+      "domReady": 3489.6999999999534,
+      "js": [
+        {
+          "encoded": 0,
+          "decoded": 0,
+          "duration": 3285.5
+        }
+      ]
+    }
+  ]
+}

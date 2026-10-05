@@ -106,15 +106,17 @@ for (const page of pages) {
   fs.mkdirSync(path.dirname(destination), { recursive: true });
   const location = page.route === '/' ? '/' : page.route + '/';
   const body = renderToString(React.createElement(
-    StaticRouter, { location }, React.createElement(AppRoutes)
+    StaticRouter, { location }, React.createElement(AppRoutes, { initialArticle: articlesByRoute.get(page.route) })
   ));
   if ((body.match(/<h1(?:\s|>)/g) || []).length !== 1 ||
       !body.includes('<main') || !body.includes('tel:+917977063567')) {
     throw new Error(`Missing main content, unique H1 or contact link on ${page.route}`);
   }
+  const article = articlesByRoute.get(page.route);
+  const routeContent = article ? `<script id="route-content" type="application/json">${JSON.stringify(article).replace(/</g, '\\u003c')}</script>` : '';
   fs.writeFileSync(destination, replaceOne(
     renderHead(template, page), /<div id="root"><\/div>/g,
-    `<div id="root">${body}</div>`, 'React root'
+    `<div id="root">${body}</div>${routeContent}`, 'React root'
   ));
 }
 

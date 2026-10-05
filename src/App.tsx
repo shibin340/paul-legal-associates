@@ -15,10 +15,12 @@ import ArticleDetail from "pages/ArticleDetail";
 import ExpertiseDetail from "pages/ExpertiseDetail";
 import PartnerDetail from "pages/PartnerDetail";
 import FinanceTaxRegulatoryAdvisory from "pages/FinanceTaxRegulatoryAdvisory";
+import { ArticleContentProvider } from './components/ArticleContent';
+import type { Article } from './types';
 
 // Shared by the browser router and the build-time static router.
-export const AppRoutes: React.FC = () => (
-  <>
+export const AppRoutes: React.FC<{ initialArticle?: Article }> = ({ initialArticle }) => (
+  <ArticleContentProvider initialArticle={initialArticle}>
     <ScrollToTop />
     <RouteMetadata />
     <Routes>
@@ -36,7 +38,7 @@ export const AppRoutes: React.FC = () => (
         <Route path="*" element={<NotFound />} />
       </Route>
     </Routes>
-  </>
+  </ArticleContentProvider>
 );
 
 const App: React.FC = () => <BrowserRouter><AppRoutes /></BrowserRouter>;

@@ -1,7 +1,7 @@
 import SiteImage from "../ui/SiteImage";
 import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
-import { TAGLINE, CREDENTIALS, NAV_LINKS, CONTACT_INFO } from "../../data";
+import { TAGLINE, CREDENTIALS, NAV_LINKS, CONTACT_INFO } from "../../data/site";
 import { PRACTICE_AREAS } from "../../practiceAreas";
 
 const Footer: React.FC = () => {

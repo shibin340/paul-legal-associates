@@ -1,6 +1,7 @@
 import AnimateIn from "components/ui/AnimateIn";
 import CredentialsBar from "components/ui/CredentialsBar";
-import { ARTICLE_CATEGORIES, ARTICLES } from "data";
+import { ARTICLE_CATEGORIES } from "data/site";
+import { ARTICLES } from "data/articles";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 import React, { useState, useMemo } from "react";
 import { Link } from "react-router-dom";

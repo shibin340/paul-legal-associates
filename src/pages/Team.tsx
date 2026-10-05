@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { TEAM_MEMBERS } from "../data";
+import { TEAM_MEMBERS } from "../data/site";
 import type { TeamMember } from "../types";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 

@@ -3,4 +3,7 @@ node_modules/
 
 # Build output
 build/
-    
+src/data/site.ts
+src/data/articleIndex.json
+src/data/articleContentPaths.json
+public/content/insights/

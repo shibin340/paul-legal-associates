@@ -27,6 +27,10 @@ const serviceTopics = require('../src/serviceTopics.json');
 const heldArticleRoutes = new Set(require('../src/seo-awaiting-review.json').map(slug => `/insights/${slug}/`));
 const serviceSlugs = serviceTopics.flatMap(topic => topic.members);
 const decisionGuides = loadSource(path.resolve(__dirname, '../src/serviceDecisionGuideData.ts')).remainingDecisionGuides;
+const articleContentPaths = require('../src/data/articleContentPaths.json');
+const articleSummaries = require('../src/data/articleIndex.json');
+assert.equal(articleSummaries.length, 154, 'Unexpected article inventory');
+assert(articleSummaries.every(article => !('content' in article)), 'Article bodies leaked into shared metadata');
 assert.equal(serviceSlugs.length, 83, 'Topic map must cover all 83 practices');
 assert.equal(new Set(serviceSlugs).size, 83, 'Practice assigned to multiple topics');
 for (const topic of serviceTopics) {
@@ -38,6 +42,15 @@ const titles = new Map();
 for (const route of pagePaths) {
   const dom = new JSDOM(readPage(route), { url: origin + route });
   const d = dom.window.document;
+  const payload = d.querySelector('#route-content');
+  if (route.startsWith('/insights/') && route !== '/insights/') {
+    const slug = route.split('/')[2];
+    assert(payload, `${route}: missing hydration article body`);
+    const article = JSON.parse(payload.textContent);
+    assert.equal(article.slug, slug, `${route}: unrelated article payload`);
+    assert.deepEqual(JSON.parse(fs.readFileSync(path.join(build, articleContentPaths[slug].slice(1)), 'utf8')), article, `${route}: fetched article differs from static payload`);
+    assert(article.content.some(section => section.paragraphs?.some(text => d.querySelector('main').textContent.includes(text))), `${route}: article text missing from initial HTML`);
+  } else assert(!payload, `${route}: unrelated article body shipped`);
   assert(d.title.trim(), `${route}: missing title`);
   assert(!titles.has(d.title), `${route}: duplicate title shared with ${titles.get(d.title)}`);
   titles.set(d.title, route);
@@ -241,6 +254,11 @@ async function verifyHydration(route) {
   const initialTitle = w.document.title;
   const initialGraph = JSON.parse(w.document.querySelector('#seo-graph').textContent);
   const opened = [];
+  const fetched = [];
+  w.fetch = async url => {
+    fetched.push(url);
+    return { ok: true, json: async () => JSON.parse(fs.readFileSync(path.join(build, url.slice(1)), 'utf8')) };
+  };
   w.scrollTo = () => {};
   w.HTMLElement.prototype.scrollIntoView = () => {};
   w.matchMedia = () => ({ matches: false });
@@ -252,6 +270,7 @@ async function verifyHydration(route) {
   assert.equal(w.document.title, initialTitle, `${route}: title drift after hydration`);
   assert.deepEqual(JSON.parse(w.document.querySelector('#seo-graph').textContent), initialGraph, `${route}: schema drift after hydration`);
   assert.equal(errors.length, 0, `${route}: ${errors.join('; ')}`);
+  assert.equal(fetched.length, 0, `${route}: unnecessary initial article request`);
   if (route === '/') {
     const menu = w.document.querySelector('button[aria-label="Open menu"]');
     assert(!w.document.querySelector('[role="dialog"]'), 'Closed mobile menu exposed as a dialog');
@@ -284,6 +303,22 @@ async function verifyHydration(route) {
   assert.equal(w.document.querySelector('link[rel="canonical"]').href, origin + target, `${route}: navigation canonical`);
   assert.equal(JSON.parse(w.document.querySelector('#seo-graph').textContent)['@graph'].find(node => node['@type'] === 'WebPage').url, origin + target, `${route}: navigation schema URL`);
   assert.equal(w.document.querySelectorAll('h1').length, 1);
+  if (route === '/insights/naina-town-planning-scheme-rights/') {
+    const article = articleSummaries.find(item => item.slug === 'property-title-search-legal-due-diligence');
+    // Use the site's actual React Router links by navigating through Insights.
+    w.document.querySelector('a[href="/insights/"]').click();
+    await new Promise(resolve => setTimeout(resolve, 60));
+    const articleLink = w.document.querySelector(`a[href="/insights/${article.slug}/"]`);
+    assert(articleLink, 'Article navigation link missing');
+    articleLink.click();
+    await new Promise(resolve => setTimeout(resolve, 80));
+    assert.equal(w.location.pathname, `/insights/${article.slug}/`, 'SPA article navigation failed');
+    assert.equal(fetched.length, 1, 'SPA should request just the selected article');
+    assert.equal(fetched[0], articleContentPaths[article.slug], 'Wrong article requested');
+    const full = JSON.parse(fs.readFileSync(path.join(build, articleContentPaths[article.slug].slice(1)), 'utf8'));
+    assert(w.document.querySelector('article').textContent.includes(full.content.find(section => section.paragraphs?.length).paragraphs[0]), 'SPA article body did not load');
+    assert.equal(w.document.querySelector('link[rel="canonical"]').href, `${origin}/insights/${article.slug}/`, 'SPA article canonical');
+  }
   assert.equal(errors.length, 0, `${route}: ${errors.join('; ')}`);
   dom.window.close();
 }

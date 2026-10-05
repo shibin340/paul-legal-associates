@@ -2,7 +2,7 @@ import SiteImage from "../ui/SiteImage";
 import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import { useScrollPosition } from "../../hooks/useScrollPosition";
-import { NAV_LINKS, TAGLINE } from "../../data";
+import { NAV_LINKS, TAGLINE } from "../../data/site";
 
 const Navbar: React.FC = () => {
   const [open, setOpen] = useState(false);

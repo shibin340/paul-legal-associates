@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import AnimateIn from "../components/ui/AnimateIn";
 import SectionHeader from "../components/ui/SectionHeader";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { CONTACT_INFO, OFFICE_HOURS } from "../data";
+import { CONTACT_INFO, OFFICE_HOURS } from "../data/site";
 import type { ContactForm } from "../types";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 

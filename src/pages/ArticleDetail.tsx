@@ -2,7 +2,9 @@ import React, { useEffect } from "react";
 import { useParams, Link, Navigate } from "react-router-dom";
 import AnimateIn from "../components/ui/AnimateIn";
 import CredentialsBar from "../components/ui/CredentialsBar";
-import { getArticleBySlug, getRelatedArticles, TEAM_MEMBERS } from "../data";
+import { getArticleBySlug, getRelatedArticles } from "../data/articles";
+import { TEAM_MEMBERS } from "../data/site";
+import { useArticleContent } from '../components/ArticleContent';
 import { PRACTICE_AREAS } from "../practiceAreas";
 import { insightServiceLinks } from "../serviceReading";
 import { useDocumentTitle } from "hooks/useDocumentTitle";
@@ -10,6 +12,7 @@ import { useDocumentTitle } from "hooks/useDocumentTitle";
 const ArticleDetail: React.FC = () => {
   const { slug } = useParams<{ slug: string }>();
   const article = slug ? getArticleBySlug(slug) : undefined;
+  const { article: contentArticle, error: contentError } = useArticleContent(article?.slug);
   useDocumentTitle(`${article ? article.title : "Article"} | Paul Legal Associates`);
 
   // Scroll to top whenever a new article is opened
@@ -91,7 +94,8 @@ const ArticleDetail: React.FC = () => {
             </AnimateIn>
 
             {/* Sections */}
-            {article.content.map((section, i) => (
+            {!contentArticle && <p role="status" className="text-navy mb-8">{contentError ? <>The article could not be loaded. <a href={`/insights/${article.slug}/`} className="underline">Reload this article</a> or <Link to="/contact/" className="underline">contact our office</Link>.</> : 'Loading article…'}</p>}
+            {contentArticle?.content.map((section, i) => (
               <AnimateIn key={i} delay={Math.min(i * 0.04, 0.3)} className="mb-10">
                 {section.heading && (
                   <h2 className="font-serif text-[1.5rem] font-semibold text-navy mb-4 mt-2">
