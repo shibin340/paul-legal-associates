@@ -1,0 +1,796 @@
+{
+  "device": {
+    "siteUrl": "https://paullegalassociates.com/",
+    "startDate": "2026-09-05",
+    "endDate": "2026-10-02",
+    "dimensions": [
+      "device"
+    ],
+    "searchType": "web",
+    "rowCount": 3,
+    "rows": [
+      {
+        "keys": [
+          "MOBILE"
+        ],
+        "clicks": 26,
+        "impressions": 1018,
+        "ctr": 2.5540275049115913,
+        "position": 7.457760314341847
+      },
+      {
+        "keys": [
+          "DESKTOP"
+        ],
+        "clicks": 15,
+        "impressions": 17188,
+        "ctr": 0.08727018850360717,
+        "position": 2.0926809401908306
+      },
+      {
+        "keys": [
+          "TABLET"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 7.75
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 3,
+      "hasMore": false,
+      "note": "Showing all 3 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-02",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-03",
+      "settledThrough": "2026-10-02",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-26",
+        "endDate": "2026-10-05",
+        "dataState": "all"
+      }
+    }
+  },
+  "country": {
+    "siteUrl": "https://paullegalassociates.com/",
+    "startDate": "2026-09-05",
+    "endDate": "2026-10-02",
+    "dimensions": [
+      "country"
+    ],
+    "searchType": "web",
+    "rowCount": 21,
+    "rows": [
+      {
+        "keys": [
+          "ind"
+        ],
+        "clicks": 40,
+        "impressions": 18152,
+        "ctr": 0.22036139268400176,
+        "position": 2.374834728955487
+      },
+      {
+        "keys": [
+          "are"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 1
+      },
+      {
+        "keys": [
+          "aus"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 17
+      },
+      {
+        "keys": [
+          "blr"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 26
+      },
+      {
+        "keys": [
+          "bra"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 3.6666666666666665
+      },
+      {
+        "keys": [
+          "cyp"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "deu"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "esp"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "gbr"
+        ],
+        "clicks": 0,
+        "impressions": 9,
+        "ctr": 0,
+        "position": 13.88888888888889
+      },
+      {
+        "keys": [
+          "hkg"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "idn"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "isr"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 21
+      },
+      {
+        "keys": [
+          "kwt"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "mex"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 11
+      },
+      {
+        "keys": [
+          "nld"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4.5
+      },
+      {
+        "keys": [
+          "nzl"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "pak"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "per"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "sgp"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 1
+      },
+      {
+        "keys": [
+          "ukr"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "usa"
+        ],
+        "clicks": 0,
+        "impressions": 28,
+        "ctr": 0,
+        "position": 8.428571428571429
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 21,
+      "hasMore": false,
+      "note": "Showing all 21 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-02",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-03",
+      "settledThrough": "2026-10-02",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-26",
+        "endDate": "2026-10-05",
+        "dataState": "all"
+      }
+    }
+  },
+  "searchAppearance": {
+    "siteUrl": "https://paullegalassociates.com/",
+    "startDate": "2026-09-05",
+    "endDate": "2026-10-02",
+    "dimensions": [
+      "searchAppearance"
+    ],
+    "searchType": "web",
+    "rowCount": 0,
+    "rows": [],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 0,
+      "hasMore": false,
+      "note": "No rows matched."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-02",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-03",
+      "settledThrough": "2026-10-02",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-26",
+        "endDate": "2026-10-05",
+        "dataState": "all"
+      }
+    }
+  },
+  "page90": {
+    "siteUrl": "https://paullegalassociates.com/",
+    "startDate": "2026-07-05",
+    "endDate": "2026-10-02",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 22,
+    "rows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/"
+        ],
+        "clicks": 134,
+        "impressions": 49909,
+        "ctr": 0.2684886493418021,
+        "position": 2.516279628924643
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact"
+        ],
+        "clicks": 5,
+        "impressions": 872,
+        "ctr": 0.573394495412844,
+        "position": 12.727064220183486
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/about/"
+        ],
+        "clicks": 2,
+        "impressions": 152,
+        "ctr": 1.3157894736842104,
+        "position": 8.348684210526315
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/partners/"
+        ],
+        "clicks": 2,
+        "impressions": 76,
+        "ctr": 2.631578947368421,
+        "position": 17.276315789473685
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/contact/"
+        ],
+        "clicks": 0,
+        "impressions": 87,
+        "ctr": 0,
+        "position": 11.655172413793103
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 10.6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/finance-tax-regulatory-advisory/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 2
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/sanctions-export-control-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 1.5
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 22,
+      "hasMore": false,
+      "note": "Showing all 22 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-02",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-03",
+      "settledThrough": "2026-10-02",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-26",
+        "endDate": "2026-10-05",
+        "dataState": "all"
+      }
+    }
+  },
+  "page180": {
+    "siteUrl": "https://paullegalassociates.com/",
+    "startDate": "2026-04-06",
+    "endDate": "2026-10-02",
+    "dimensions": [
+      "page"
+    ],
+    "searchType": "web",
+    "rowCount": 24,
+    "rows": [
+      {
+        "keys": [
+          "https://paullegalassociates.com/"
+        ],
+        "clicks": 217,
+        "impressions": 66369,
+        "ctr": 0.32695987584565084,
+        "position": 2.473112447076195
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/about/"
+        ],
+        "clicks": 6,
+        "impressions": 217,
+        "ctr": 2.7649769585253456,
+        "position": 8.271889400921658
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/#/contact"
+        ],
+        "clicks": 5,
+        "impressions": 872,
+        "ctr": 0.573394495412844,
+        "position": 12.727064220183486
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/team/"
+        ],
+        "clicks": 3,
+        "impressions": 55,
+        "ctr": 5.454545454545454,
+        "position": 7.672727272727273
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/partners/"
+        ],
+        "clicks": 2,
+        "impressions": 76,
+        "ctr": 2.631578947368421,
+        "position": 17.276315789473685
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise"
+        ],
+        "clicks": 1,
+        "impressions": 1,
+        "ctr": 100,
+        "position": 1
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/"
+        ],
+        "clicks": 1,
+        "impressions": 7,
+        "ctr": 14.285714285714285,
+        "position": 3.5714285714285716
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/contact/"
+        ],
+        "clicks": 0,
+        "impressions": 102,
+        "ctr": 0,
+        "position": 10.92156862745098
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 4.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 6.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 4
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 9
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 5.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal"
+        ],
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0,
+        "position": 8.666666666666668
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/"
+        ],
+        "clicks": 0,
+        "impressions": 15,
+        "ctr": 0,
+        "position": 10.6
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/finance-tax-regulatory-advisory/"
+        ],
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0,
+        "position": 7.5
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/"
+        ],
+        "clicks": 0,
+        "impressions": 8,
+        "ctr": 0,
+        "position": 4.75
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/"
+        ],
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0,
+        "position": 8
+      },
+      {
+        "keys": [
+          "https://paullegalassociates.com/insights/sanctions-export-control-law/"
+        ],
+        "clicks": 0,
+        "impressions": 4,
+        "ctr": 0,
+        "position": 1.5
+      }
+    ],
+    "pagination": {
+      "limit": 500,
+      "offset": 0,
+      "returned": 24,
+      "hasMore": false,
+      "note": "Showing all 24 rows."
+    },
+    "dataSource": "api",
+    "settledThrough": "2026-10-02",
+    "dataMaturity": {
+      "firstIncompleteDate": "2026-10-03",
+      "settledThrough": "2026-10-02",
+      "dateBasis": "America/Los_Angeles",
+      "source": "gsc-api-metadata",
+      "probe": {
+        "searchType": "web",
+        "startDate": "2026-09-26",
+        "endDate": "2026-10-05",
+        "dataState": "all"
+      }
+    }
+  }
+}

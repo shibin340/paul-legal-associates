@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-05",
+  "pr": 29,
+  "merge": "bc166319e5881960422a87574ae98e59165ff8dd",
+  "deploymentRun": 37304537097,
+  "indexNow": {
+    "urls": 1,
+    "response": 200
+  },
+  "publicFinance": 200,
+  "publicArticle": 200,
+  "financeBreadcrumb": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://paullegalassociates.com/"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Finance, Tax & Regulatory Advisory",
+      "item": "https://paullegalassociates.com/finance-tax-regulatory-advisory/"
+    }
+  ],
+  "related": [
+    "/insights/pf-esic-factory-contract-labour-compliance/",
+    "/insights/posh-compliance-internal-committee-services/",
+    "/insights/contract-labour-compliance-principal-employer-maharashtra/"
+  ],
+  "matchedBundleSha256": "947dfdb092d447fc44c0b31f6bae6e5879b3284ea67f604fe2739cd2875f7919",
+  "currentBundle": {
+    "raw": 579794,
+    "gzip": 152831,
+    "originalGzip": 386981,
+    "reductionPercent": 60.51
+  },
+  "mobile": {
+    "testedRoutes": 7,
+    "width": 390,
+    "overflow": false,
+    "pageErrors": 0
+  },
+  "runner": {
+    "http": 403,
+    "ray": "a45c2ae6deddd300-ORD",
+    "publicClient": 200
+  },
+  "sitemapCount": 239,
+  "maintainedDates": 18,
+  "undated": 221,
+  "sitemapLiveVerified": true,
+  "robotsLiveAllowed": true,
+  "cloudBrowserFinanceBreadcrumb": true
+}
