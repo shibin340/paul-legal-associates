@@ -165,6 +165,12 @@ for (const route of pagePaths) {
     assert(guide, 'Property decision guide missing from initial HTML');
     assert(guide.parentElement.querySelector('a[href="/expertise/rera-maharera-legal-services/"]'), 'Property route to RERA missing');
   }
+  if (route === '/expertise/rera-maharera-legal-services/') {
+    const guide = d.getElementById('rera-service-guide');
+    assert(guide, 'RERA decision guide missing from initial HTML');
+    assert(guide.parentElement.querySelector('a[href="https://maharera.maharashtra.gov.in/"]'), 'Official MahaRERA source missing');
+    assert(guide.parentElement.querySelector('a[href="/expertise/property-title-verification-due-diligence/"]'), 'Related title-review path missing');
+  }
   if (route === '/expertise/corporate-commercial-advisory/') {
     const guide = d.getElementById('corporate-service-guide');
     assert(guide, 'Corporate decision guide missing from initial HTML');
