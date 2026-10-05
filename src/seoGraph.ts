@@ -76,6 +76,12 @@ function person(name: string, slug: string, jobTitle?: string, image?: string): 
 }
 
 function breadcrumbs(route: string, label: string, article?: Omit<Article, 'content'>): Node | undefined {
+  if (route === '/finance-tax-regulatory-advisory') return {
+    '@type': 'BreadcrumbList', '@id': `${origin}${route}/#breadcrumb`, itemListElement: [
+      { '@type': 'ListItem', position: 1, name: 'Home', item: `${origin}/` },
+      { '@type': 'ListItem', position: 2, name: 'Finance, Tax & Regulatory Advisory', item: `${origin}${route}/` }
+    ]
+  };
   const isService = route.startsWith('/expertise/');
   if (!isService && !article) return undefined;
   const parent = isService ? 'expertise' : 'insights';
