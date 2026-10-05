@@ -32,6 +32,30 @@ const ServiceDecisionGuides: React.FC<{ slug: string }> = ({ slug }) => {
     );
   }
 
+  if (slug === 'rera-maharera-legal-services') {
+    return (
+      <section className={sectionClass} aria-labelledby="rera-service-guide">
+        <h3 id="rera-service-guide" className={headingClass}>Start with the project and the decision you need to make</h3>
+        <p className={copyClass}>
+          A homebuyer questioning a possession date, a promoter reviewing project disclosures and an agent dealing with registration have different records and next steps. Tell us which role you have, the project involved and whether a complaint or order already exists.
+        </p>
+        <h4 className="font-semibold text-navy mb-3">Information to keep ready</h4>
+        <ul className={listClass}>
+          <li>Project name, location and MahaRERA registration number, if available.</li>
+          <li>Booking or allotment papers, agreement, payment record and the possession or completion date communicated to you.</li>
+          <li>Material correspondence, notices, revised plans or disclosures relevant to the question.</li>
+          <li>Any existing complaint number, order, appeal or approaching response date.</li>
+        </ul>
+        <p className={copyClass}>
+          The <a href="https://maharera.maharashtra.gov.in/" target="_blank" rel="noopener noreferrer" className={linkClass}>official MahaRERA portal</a> is a starting point for checking public project and complaint information. Match any portal record to your own documents; the appropriate response depends on the actual papers and stage of the matter.
+        </p>
+        <p className="text-[0.9rem] text-navy/80 leading-[1.7]">
+          If the immediate question is ownership or a proposed purchase, see our <Link to="/expertise/property-title-verification-due-diligence/" className={linkClass}>property title-review guide</Link>. For a project-compliance question, the <Link to="/insights/rera-compliance-checklist-developers/" className={linkClass}>MahaRERA developer checklist</Link> provides a separate starting point.
+        </p>
+      </section>
+    );
+  }
+
   if (slug === 'corporate-commercial-advisory') {
     return (
       <section className={sectionClass} aria-labelledby="corporate-service-guide">
