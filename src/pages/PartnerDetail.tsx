@@ -6,6 +6,7 @@ import CredentialsBar from "../components/ui/CredentialsBar";
 import { ARTICLES } from "../data/articles";
 import { TEAM_MEMBERS } from "../data/site";
 import awaitingReview from "../seo-awaiting-review.json";
+import { PRACTICE_AREAS } from '../practiceAreas';
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const PartnerDetail: React.FC = () => {
@@ -27,6 +28,12 @@ const PartnerDetail: React.FC = () => {
   const selectedInsights = (selectedInsightSlugs[member.slug] || [])
     .map(articleSlug => ARTICLES.find(article => article.slug === articleSlug && article.author === member.name && !awaitingReview.includes(article.slug)))
     .filter((article): article is (typeof ARTICLES)[number] => Boolean(article));
+  const practiceLinks: Record<string, string[]> = {
+    'pp-polachan': ['property-real-estate', 'corporate-commercial-advisory', 'banking-finance-securities-debt-restructuring', 'corporate-commercial-ma-startup-law'],
+    'sojan-paul': ['property-title-verification-due-diligence', 'property-registration-services-mumbai-navi-mumbai', 'rera-maharera-legal-services', 'land-acquisition-compensation-matters'],
+    'sonam-paul': ['labour-employment-hr-workplace-compliance', 'legal-compliance-audit', 'corporate-compliance-governance-legal-retainership']
+  };
+  const relevantPractices = (practiceLinks[member.slug] || []).map(serviceSlug => PRACTICE_AREAS.find(area => area.slug === serviceSlug)).filter((area): area is (typeof PRACTICE_AREAS)[number] => Boolean(area));
 
   return (
     <>
@@ -122,6 +129,15 @@ const PartnerDetail: React.FC = () => {
             </div>
 
           </div>
+
+          {relevantPractices.length > 0 && (
+            <nav className="mt-16 pt-10 border-t border-gold/15" aria-label={`Practice areas of ${member.name}`}>
+              <h3 className="font-serif text-[1.4rem] font-semibold text-cream mb-6">Related practice areas</h3>
+              <ul className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                {relevantPractices.map(area => <li key={area.slug}><Link to={`/expertise/${area.slug}/`} className="block h-full p-5 bg-navy-deep border border-gold/15 hover:border-gold/50 text-cream/90 hover:text-gold transition-colors">{area.title}</Link></li>)}
+              </ul>
+            </nav>
+          )}
 
           {selectedInsights.length > 0 && (
             <nav className="mt-20 pt-12 border-t border-gold/15" aria-label={`Selected insights by ${member.name}`}>

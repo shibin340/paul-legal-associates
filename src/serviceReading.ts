@@ -1,4 +1,5 @@
-// Existing, reviewed guides that answer questions adjacent to these services.
+// Selected existing guides that answer questions adjacent to these services.
+// Selection is not a claim of substantive legal approval for the whole library.
 // The eight maritime articles awaiting review are deliberately absent here.
 export const serviceReading: Record<string, string[]> = {
   'property-real-estate': ['due-diligence-property-transactions', 'property-title-search-legal-due-diligence'],
@@ -15,6 +16,7 @@ export const serviceReading: Record<string, string[]> = {
   'posh-compliance-internal-committee': ['posh-compliance-employers-mumbai-navi-mumbai', 'posh-compliance-internal-committee-services'],
   'corporate-commercial-ma-startup-law': ['mergers-acquisitions-legal-essentials', 'starting-business-india-legal-compliance-checklist'],
   'arbitration-mediation-adr': ['commercial-arbitration-vs-litigation', 'commercial-arbitration-contract-disputes'],
+  'taxation-gst-fiscal-litigation': ['gst-tax-litigation-advisory'],
 };
 
 // One preferred service destination per selected article. This avoids a
@@ -31,11 +33,12 @@ export const insightServiceLinks: Record<string, string> = {
   'land-acquisition-compensation-guide': 'land-acquisition-compensation-matters',
   'due-diligence-agricultural-non-agricultural-land': 'agricultural-non-agricultural-land-purchase',
   'starting-business-india-legal-compliance-checklist': 'corporate-commercial-advisory',
-  'contract-drafting-agreement-review-mou-nda': 'corporate-commercial-advisory',
+  'contract-drafting-agreement-review-mou-nda': 'contract-drafting-vetting-transaction-documentation',
   'mergers-acquisitions-legal-essentials': 'corporate-commercial-ma-startup-law',
   'commercial-arbitration-vs-litigation': 'commercial-litigation-arbitration',
   'commercial-arbitration-contract-disputes': 'arbitration-mediation-adr',
   'labour-code-readiness-2026': 'labour-employment-hr-workplace-compliance',
   'pf-esic-factory-contract-labour-compliance': 'labour-employment-hr-workplace-compliance',
-  'posh-compliance-internal-committee-services': 'posh-compliance-internal-committee'
+  'posh-compliance-internal-committee-services': 'posh-compliance-internal-committee',
+  'gst-tax-litigation-advisory': 'taxation-gst-fiscal-litigation'
 };

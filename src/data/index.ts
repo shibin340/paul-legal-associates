@@ -1836,59 +1836,92 @@ export const ARTICLES: Article[] = [
     ],
   },
   {
-    id: "a2",
-    slug: "labour-code-readiness-2026",
-    title: "Labour Code Readiness: What Every Employer Needs to Know in 2026",
-    category: "Legal Compliance",
-    excerpt: "With the consolidated Labour Codes reshaping employment compliance, organisations need a structured readiness plan. Here's how we advise our compliance clients.",
-    coverIcon: "📋",
-    author: "Adv. Sonam Paul",
-    authorRole: "Partner, Legal Compliance & Audit",
-    date: "February 27, 2023",
-    readTime: "17 min read",
-    tags: ["Labour Law", "Compliance", "HR Advisory", "Audit"],
-    content: [
-      {
-        paragraphs: [
-          "The consolidation of 29 central labour laws into four Labour Codes — Wages, Industrial Relations, Social Security, and Occupational Safety, Health & Working Conditions — represents the most significant overhaul of India's employment law framework in decades.",
-          "Drawing on my prior experience in risk advisory at Ernst & Young and BBSR & Associates, and now advising clients directly on Labour Code readiness, I want to share the practical framework we use to assess organisational preparedness.",
-        ],
-      },
-      {
-        heading: "Why 'Wait and See' Is No Longer Viable",
-        paragraphs: [
-          "Many organisations adopted a wait-and-see posture given the staggered state-wise implementation timelines. That posture is increasingly risky. Several states have already notified rules under the Codes, and the definitional changes — particularly around 'wages' and 'fixed term employment' — have immediate payroll and contractual implications regardless of full notification.",
-        ],
-      },
-      {
-        heading: "The Five-Point Readiness Framework",
-        paragraphs: [
-          "We assess every compliance client against five dimensions before recommending a remediation roadmap:",
-        ],
-        list: [
-          "Wage structuring — Does your CTC breakdown align with the new 50% basic wage threshold for allowances?",
-          "Contract & fixed-term employment — Are FTE contracts compliant with parity-in-benefits requirements?",
-          "Social security coverage — Is your PF/ESI applicability assessment current given expanded gig and platform worker coverage?",
-          "Working conditions documentation — Are appointment letters, leave registers and working-hour records audit-ready?",
-          "Industrial relations protocol — Is your grievance redressal and standing orders framework updated for the consolidated IR Code?",
-        ],
-      },
-      {
-        heading: "Common Gaps We Find in Compliance Audits",
-        paragraphs: [
-          "In our compliance audit engagements, the most frequent gap is not malicious non-compliance but simply outdated documentation that hasn't kept pace with regulatory drafting. Appointment letters drafted under the old Factories Act framework, gratuity calculations that haven't accounted for wage code redefinitions, and contractor compliance certificates that are years out of date.",
-          "We strongly recommend a structured compliance audit — not a generic HR review, but a clause-by-clause mapping against the four Codes — before the remaining state notifications come into force.",
-        ],
-      },
-      {
-        heading: "Practical Next Steps",
-        paragraphs: [
-          "If your organisation operates across multiple states, prioritise a jurisdiction-wise gap analysis rather than a single national policy update — implementation timelines and state-specific rules still vary materially.",
-          "Our legal compliance and audit practice works with both domestic and multinational clients to build this readiness systematically, combining legal expertise with the practical business advisory lens that comes from a Big Four risk advisory background.",
-        ],
-      },
+    "id": "a2",
+    "slug": "labour-code-readiness-2026",
+    "title": "Labour Code Readiness: What Every Employer Needs to Know in 2026",
+    "category": "Legal Compliance",
+    "excerpt": "With the consolidated Labour Codes reshaping employment compliance, organisations need a structured readiness plan. Here's how we advise our compliance clients.",
+    "coverIcon": "📋",
+    "author": "Adv. Sonam Paul",
+    "authorRole": "Partner, Legal Compliance & Audit",
+    "date": "February 27, 2023",
+    "readTime": "4 min read",
+    "tags": [
+      "Labour Law",
+      "Compliance",
+      "HR Advisory",
+      "Audit"
     ],
+    "content": [
+      {
+        "paragraphs": [
+          "The four Labour Codes covering wages, industrial relations, social security and occupational safety took effect on 21 November 2025. Employers now need to review their existing payroll and workforce documents against the applicable Codes and rules, rather than treat implementation as a future event.",
+          "Drawing on my prior experience in risk advisory at Ernst & Young and BBSR & Associates, and now advising clients directly on Labour Code readiness, I want to share the practical framework we use to assess organisational preparedness."
+        ]
+      },
+      {
+        "heading": "Start With Your Establishment and Applicable Rules",
+        "paragraphs": [
+          "Identify the legal entity, each workplace, workforce categories and the appropriate government before changing a policy. Central and state rule-making should be checked separately; a draft rule should not be described as a final obligation. The Maharashtra Labour Department publishes Codes, rules and implementation material for local establishments.",
+          "A Panvel office, a factory and a contractor workforce can raise different applicability questions. Record which provisions and notifications support each proposed change instead of applying one generic checklist to every location."
+        ]
+      },
+      {
+        "heading": "The Five-Point Readiness Framework",
+        "paragraphs": [
+          "We assess every compliance client against five dimensions before recommending a remediation roadmap:"
+        ],
+        "list": [
+          "Wage calculations — Map basic pay, dearness allowance, retaining allowance and excluded components to the statutory definition. Section 2(y) of the Code on Wages adds back specified exclusions above half of the relevant remuneration; this is not a blanket rule that basic salary must equal 50% of CTC.",
+          "Employment terms — Review appointment letters, direct fixed-term contracts and contractor arrangements separately. Do not treat employees engaged through a contractor as the employer's own fixed-term employees.",
+          "Social security — Check PF, ESI and gratuity applicability against workforce facts and current provisions. Gig/platform-worker schemes are distinct; their recognition does not automatically make every such worker PF/ESI-covered.",
+          "Workplace records — Reconcile working hours, leave, overtime, payroll, contractor records and the rules applicable to each establishment.",
+          "Industrial relations — Check the applicable grievance, standing-order and disciplinary framework, including workforce thresholds and any current dispute."
+        ]
+      },
+      {
+        "heading": "Documents to Prepare for a Compliance Review",
+        "list": [
+          "Entity and workplace details, existing registrations and a category-wise employee/contractor headcount.",
+          "Sample appointment letters, fixed-term agreements, contractor contracts and current HR policies.",
+          "A payroll component schedule, recent payslips, contribution records and gratuity calculation workings.",
+          "Working-hour, overtime and leave records, inspection reports and any live notice or dispute."
+        ],
+        "paragraphs": [
+          "Start with a scoped document review and record gaps by workplace, responsible person and due date. Preserve existing records before changing formats; advice on a live notice or dispute should address its own response deadline."
+        ]
+      },
+      {
+        "heading": "Practical Next Steps",
+        "paragraphs": [
+          "Ask for an applicability assessment, a prioritised remediation list and a documented basis for each payroll or contract change. For operations across Maharashtra and other states, verify the rules for each location rather than assume one national template settles every issue.",
+          "Our legal compliance and audit practice combines employment-law review with the practical business advisory background described in the author's profile. The linked employment service explains the information to prepare for an initial discussion."
+        ]
+      },
+      {
+        "heading": "Official Sources for the Update",
+        "resources": [
+          {
+            "label": "Ministry of Labour & Employment: implementation from 21 November 2025",
+            "href": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209767&lang=1&reg=6"
+          },
+          {
+            "label": "Code on Wages, 2019: statutory text, section 2(y)",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-code-on-wages-2019-no-29-of-2019_0.pdf"
+          },
+          {
+            "label": "Ministry of Labour: additional Labour Code FAQs, 16 March 2026",
+            "href": "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf"
+          },
+          {
+            "label": "Maharashtra Labour Department: current Codes, rules and notices",
+            "href": "https://labour.maharashtra.gov.in/en/publication/new-labour-code"
+          }
+        ]
+      }
+    ]
   },
+
   {
     id: "a3",
     slug: "land-acquisition-compensation-rights",
@@ -23510,28 +23543,33 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a127",
-    slug: "gst-tax-litigation-advisory",
-    title: "GST and Tax Litigation",
-    category: "Banking and Finance",
-    excerpt: "Legal defence for GST show-cause notices, Input Tax Credit disputes, assessment appeals, and tax investigations.",
-    coverIcon: "📊",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "August 1, 2026",
-    readTime: "6 min read",
-    tags: ["GST Litigation", "Tax Appeals", "Input Tax Credit", "Show Cause Replies"],
-    content: [
+    "id": "a127",
+    "slug": "gst-tax-litigation-advisory",
+    "title": "GST and Tax Litigation",
+    "category": "Banking and Finance",
+    "excerpt": "Legal defence for GST show-cause notices, Input Tax Credit disputes, assessment appeals, and tax investigations.",
+    "coverIcon": "📊",
+    "author": "Adv. Sojan Paul",
+    "authorRole": "Managing Partner",
+    "date": "August 1, 2026",
+    "readTime": "3 min read",
+    "tags": [
+      "GST Litigation",
+      "Tax Appeals",
+      "Input Tax Credit",
+      "Show Cause Replies"
+    ],
+    "content": [
       {
-        heading: "Overview of GST and Tax Litigation",
-        paragraphs: [
+        "heading": "Overview of GST and Tax Litigation",
+        "paragraphs": [
           "Tax disputes are deadline-sensitive and document-intensive, requiring coordination between legal interpretation, accounting records and procedural remedies.",
           "We assist businesses and individuals with legal issues arising from taxation, GST assessments, statutory notices, input-tax-credit disputes, classification matters, penalties, recovery proceedings and appellate remedies. Where necessary, we work alongside qualified tax and accounting professionals to provide coordinated legal support."
         ]
       },
       {
-        heading: "What This Practice Area Covers",
-        list: [
+        "heading": "What This Practice Area Covers",
+        "list": [
           "Advising businesses and individuals on legal issues arising under taxation and GST laws;",
           "Preparing replies to show-cause notices, assessment notices and demand communications;",
           "Advising on classification, valuation, place of supply and taxability disputes;",
@@ -23547,17 +23585,53 @@ export const ARTICLES: Article[] = [
         ]
       },
       {
-        heading: "Relevant Legal and Regulatory Framework",
-        list: [
+        "heading": "Relevant Legal and Regulatory Framework",
+        "list": [
           "Central, State and Integrated GST enactments;",
-          "Income-tax Act, 1961;",
+          "Income-tax Act, 2025 for the current framework, with the Income-tax Act, 1961 continuing where the repeal-and-savings provisions govern earlier years and proceedings;",
           "Customs and allied fiscal laws;",
           "Applicable Finance Acts and notifications;",
           "Appellate and recovery procedures."
         ]
+      },
+      {
+        "heading": "Which Income-tax Framework Applies?",
+        "paragraphs": [
+          "The Income-tax Act, 2025 came into force on 1 April 2026. Earlier-year and pending matters do not simply move to the new Act: section 536 preserves the old framework for specified proceedings and tax years beginning before that date. The relevant year, notice, order and procedural history should be identified before selecting a reply or appeal route.",
+          "The Income-tax Department's transition FAQs explain the coexistence of the two frameworks. GST disputes arise under the applicable GST legislation and should not be confused with this income-tax transition."
+        ]
+      },
+      {
+        "heading": "What to Prepare After a Tax or GST Notice",
+        "list": [
+          "The complete notice or order, annexures, portal reference, date of service and the tax period concerned.",
+          "Relevant returns, ledgers, invoices, reconciliation workings and payment records; for an ITC issue, the underlying supply and credit documentation.",
+          "Earlier replies, hearing communications, assessment orders and any recovery or attachment communication.",
+          "A brief chronology identifying the disputed amount, issue and next stated hearing or response date."
+        ],
+        "paragraphs": [
+          "Keep the original documents and coordinate the accounting record with the legal response. Do not assume a generic appeal deadline applies to every notice or forum. If a deadline or recovery step is imminent, call the office and identify it at the outset."
+        ]
+      },
+      {
+        "heading": "Two Common Questions",
+        "paragraphs": [
+          "Does an income-tax notice issued after April 2026 always use the new Act? No. A proceeding relating to an earlier tax year may still be governed by the 1961 Act under the transition provisions.",
+          "Can a GST notice be answered from a summary alone? The complete notice, alleged discrepancy and supporting records are needed to identify the response route. A notice, final demand and appealable order can require different steps."
+        ]
+      },
+      {
+        "heading": "Official Source",
+        "resources": [
+          {
+            "label": "Income-tax Department: scope and transition FAQs for the Income-tax Act, 2025",
+            "href": "https://www.incometax.gov.in/iec/foportal/help/all-topics/e-filing-services/objective-and-scope-new-act-faq"
+          }
+        ]
       }
     ]
   },
+
   {
     id: "a128",
     slug: "municipal-licensing-law-compliance",

@@ -24,6 +24,7 @@ export interface ArticleSection {
     heading?: string;
     paragraphs?: string[];
     list?: string[];
+    resources?: { label: string; href: string }[];
 }
 
 export interface Article {

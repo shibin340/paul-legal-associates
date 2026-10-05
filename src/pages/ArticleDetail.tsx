@@ -7,6 +7,7 @@ import { TEAM_MEMBERS } from "../data/site";
 import { useArticleContent } from '../components/ArticleContent';
 import { PRACTICE_AREAS } from "../practiceAreas";
 import { insightServiceLinks } from "../serviceReading";
+import pageUpdates from '../pageUpdates.json';
 import { useDocumentTitle } from "hooks/useDocumentTitle";
 
 const ArticleDetail: React.FC = () => {
@@ -27,6 +28,7 @@ const ArticleDetail: React.FC = () => {
   const related = getRelatedArticles(article, 3);
   const linkedService = PRACTICE_AREAS.find(area => area.slug === insightServiceLinks[article.slug]);
   const authorProfile = TEAM_MEMBERS.find(member => member.name === article.author);
+  const updated = (pageUpdates as Record<string, string>)[`/insights/${article.slug}/`];
 
   return (
     <>
@@ -68,6 +70,7 @@ const ArticleDetail: React.FC = () => {
             <span>{article.date}</span>
             <span className="text-cream/30" aria-hidden="true">|</span>
             <span>{article.readTime}</span>
+            {updated && <span>Content updated <time dateTime={updated}>{new Date(`${updated}T00:00:00Z`).toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' })}</time></span>}
           </div>
         </div>
       </section>
@@ -115,6 +118,11 @@ const ArticleDetail: React.FC = () => {
                         {item}
                       </li>
                     ))}
+                  </ul>
+                )}
+                {section.resources && (
+                  <ul className="flex flex-col gap-3 mt-5 text-[0.95rem] leading-[1.7]">
+                    {section.resources.map(resource => <li key={resource.href}><a href={resource.href} target="_blank" rel="noopener noreferrer" className="text-navy underline decoration-gold underline-offset-4 hover:text-gold">{resource.label} ↗</a></li>)}
                   </ul>
                 )}
               </AnimateIn>

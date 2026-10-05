@@ -21,6 +21,10 @@ function walk(dir) {
 walk(build);
 const routes = new Set(pagePaths);
 const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
+const pageUpdates = require('../src/pageUpdates.json');
+const datedSitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<url><loc>(.*?)<\/loc><lastmod>(.*?)<\/lastmod><\/url>/g)];
+assert.equal(datedSitemap.length, Object.keys(pageUpdates).length, 'Missing or manufactured sitemap dates');
+for (const [, url, date] of datedSitemap) assert.equal(date, pageUpdates[new URL(url).pathname], `Unmaintained sitemap date: ${url}`);
 assert.equal(sitemap.length, new Set(sitemap).size, 'Duplicate sitemap URLs');
 assert.equal(sitemap.length, 239, 'Unexpected change to the reviewed sitemap inventory');
 const serviceTopics = require('../src/serviceTopics.json');
@@ -79,6 +83,7 @@ for (const route of pagePaths) {
   assert.equal(firm[0]['@id'], origin + '/#firm', `${route}: firm entity ID`);
   assert.equal(website[0].publisher['@id'], firm[0]['@id'], `${route}: website publisher`);
   assert.equal(webPage[0].url, origin + route, `${route}: WebPage canonical mismatch`);
+  assert.equal(webPage[0].dateModified, pageUpdates[route], `${route}: misleading modification date`);
   assert.equal(webPage[0].isPartOf['@id'], website[0]['@id'], `${route}: website relationship`);
   assert.equal(new Set(graph.map(node => node['@id'])).size, graph.length, `${route}: duplicate entity IDs`);
   assert(!graphScript.textContent.includes('AggregateRating') && !graphScript.textContent.includes('sameAs'), `${route}: unverified ratings or profiles`);
@@ -114,6 +119,8 @@ for (const route of pagePaths) {
     } else {
       assert.equal(article.length, 1, `${route}: BlogPosting count`);
       assert.equal(article[0].headline, d.querySelector('h1').textContent.trim(), `${route}: article headline`);
+      assert.equal(article[0].dateModified, pageUpdates[route], `${route}: Article date differs from maintained update`);
+      if (pageUpdates[route]) assert.equal(d.querySelector('main time[datetime]').getAttribute('datetime'), pageUpdates[route], `${route}: modification date not visible`);
       assert.equal(article[0].publisher['@id'], firm[0]['@id'], `${route}: article publisher`);
       assert.equal(webPage[0].mainEntity['@id'], article[0]['@id'], `${route}: Article mainEntity`);
       const author = findType('Person');
