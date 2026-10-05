@@ -77,6 +77,11 @@ const FinanceTaxRegulatoryAdvisory: React.FC = () => {
 
             {/* Left Column: Content (7 cols) */}
             <div className="lg:col-span-7 animate-pageFadeIn max-w-3xl">
+              <nav aria-label="Breadcrumb" className="flex flex-wrap items-center gap-2 text-2xs text-cream/60 mb-5">
+                <Link to="/" className="hover:text-gold underline underline-offset-4">Home</Link>
+                <span aria-hidden="true">/</span>
+                <span aria-current="page" className="text-gold">Finance, Tax &amp; Regulatory Advisory</span>
+              </nav>
               <div className="eyebrow-row">
                 <div className="eyebrow-line" />
                 <span className="eyebrow-text">Business advisory · Panvel & Navi Mumbai</span>

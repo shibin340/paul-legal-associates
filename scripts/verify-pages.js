@@ -33,6 +33,15 @@ const serviceSlugs = serviceTopics.flatMap(topic => topic.members);
 const decisionGuides = loadSource(path.resolve(__dirname, '../src/serviceDecisionGuideData.ts')).remainingDecisionGuides;
 const articleContentPaths = require('../src/data/articleContentPaths.json');
 const articleSummaries = require('../src/data/articleIndex.json');
+const { getRelatedArticles } = loadSource(path.resolve(__dirname, '../src/data/articles.ts'));
+const heldSlugs = new Set(require('../src/seo-awaiting-review.json'));
+for (const article of articleSummaries) {
+  const related = getRelatedArticles(article);
+  assert(related.every(item => !heldSlugs.has(item.slug) && item.slug !== article.slug), `${article.slug}: held/self article recommendation`);
+}
+const employmentRelated = getRelatedArticles(articleSummaries.find(article => article.slug === 'labour-code-readiness-2026'));
+assert(employmentRelated.some(article => article.slug === 'pf-esic-factory-contract-labour-compliance'), 'Employment recommendation lost relevant workforce support');
+assert(employmentRelated.every(article => !article.slug.startsWith('property-')), 'Employment sidebar contains unrelated property recommendations');
 assert.equal(articleSummaries.length, 154, 'Unexpected article inventory');
 assert(articleSummaries.every(article => !('content' in article)), 'Article bodies leaked into shared metadata');
 assert.equal(serviceSlugs.length, 83, 'Topic map must cover all 83 practices');
@@ -99,6 +108,12 @@ for (const route of pagePaths) {
     assert.equal(breadcrumb.length, 1, `${route}: service breadcrumb count`);
     assert.deepEqual(breadcrumb[0].itemListElement.map(item => item.item), [origin + '/', origin + '/expertise/', origin + route], `${route}: breadcrumb URLs`);
     assert.equal(webPage[0].breadcrumb['@id'], breadcrumb[0]['@id']);
+  }
+  if (route === '/finance-tax-regulatory-advisory/') {
+    const breadcrumb = findType('BreadcrumbList');
+    assert.equal(breadcrumb.length, 1, 'Finance breadcrumb missing');
+    assert.deepEqual(breadcrumb[0].itemListElement.map(item => item.item), [origin + '/', origin + route]);
+    assert(d.querySelector('nav[aria-label="Breadcrumb"] a[href="/"]'), 'Finance breadcrumb not visible');
   }
   if (route.startsWith('/partners/') && route !== '/partners/') {
     const person = findType('Person');
