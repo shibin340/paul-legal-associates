@@ -3097,9 +3097,1272 @@
         }
       ],
       "release": {
-        "status": "Local validation complete; remote merge and production verification pending"
+        "sourceReleases": [
+          {
+            "pr": 33,
+            "url": "https://github.com/shibin340/paul-legal-associates/pull/33",
+            "mergeSHA": "87b0d6e5ff9f54d3b1b34837ef6f921d5ef71c25",
+            "testedTree": "b39bf3d6f71cc75249f218bb164289ca198c0f88"
+          },
+          {
+            "pr": 34,
+            "url": "https://github.com/shibin340/paul-legal-associates/pull/34",
+            "mergeSHA": "2403906fff8778702c9ee5f70d832428dd1ca911",
+            "testedTree": "5d8962c39a357e23ccd5b13d159aae88b5bcaefe"
+          }
+        ],
+        "deployment": {
+          "source33": {
+            "run": 37525087038,
+            "job": 112479936070,
+            "conclusion": "success",
+            "pagesRun": 37525311522,
+            "pagesHead": "0e657ad0a3da298f09e2595880bb2ebfa74c3287",
+            "pagesConclusion": "success"
+          },
+          "source34": {
+            "run": 37525701463,
+            "job": 112482026254,
+            "conclusion": "success",
+            "pagesRun": 37525949121,
+            "pagesHead": "c6d7f2e6081db8f06f1514b12746a0eddc9d468e",
+            "pagesConclusion": "success"
+          }
+        },
+        "indexNow": {
+          "pr33": {
+            "status": 200,
+            "urls": 2,
+            "acceptedAtUTC": "2026-10-06T20:17:24.1007274Z",
+            "runnerRays": [
+              "a467596979c81f56-LAX",
+              "a46759699afc34b4-LAX"
+            ],
+            "verifiedRootKey": true,
+            "manualRepeat": false
+          },
+          "pr34": {
+            "submitted": false,
+            "reason": "Reviewed manifest unchanged; workflow skipped notification"
+          }
+        },
+        "browser": {
+          "status": "passed",
+          "surface": "Cloud Chrome desktop",
+          "paths": [
+            {
+              "guide": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+              "service": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+              "contact": "https://paullegalassociates.com/contact/",
+              "onePreferredPrompt": true,
+              "sourcesVisible": 4
+            },
+            {
+              "guide": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+              "service": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+              "contact": "https://paullegalassociates.com/contact/",
+              "onePreferredPrompt": true,
+              "sourcesVisible": 3
+            }
+          ],
+          "contactPhone": "tel:+917977063567",
+          "contactEmail": "mailto:info@paullegalassociates.com",
+          "formSubmitted": false,
+          "mobile": "No new mobile browser evidence claimed"
+        },
+        "google": {
+          "currentTierAIndexed": null,
+          "currentPerformance": null,
+          "blocker": "GSC Wizard payment_required"
+        },
+        "status": "PR33 and PR34 merged, deployed and publicly verified"
       },
-      "measurementPlan": "Once access resumes, inspect existing Tier-A tracker and the two changed articles without automatic requests. Record new crawl/index transitions, POSH query→preferred landing, first qualified click and confirmed enquiry action separately. Hold metadata until indexed/mature evidence. Use existing collector hooks; do not count click actions as clients."
+      "measurementPlan": "Once access resumes, inspect existing Tier-A tracker and the two changed articles without automatic requests. Record new crawl/index transitions, POSH query→preferred landing, first qualified click and confirmed enquiry action separately. Hold metadata until indexed/mature evidence. Use existing collector hooks; do not count click actions as clients.",
+      "finalValidation": {
+        "changed": [
+          {
+            "file": "insights/labour-code-readiness-2026/index.html",
+            "sha256": "25958273b293ee72b8f328abc631e500fa34842310140afa32ad4beef09846f5"
+          },
+          {
+            "file": "insights/pf-esic-factory-contract-labour-compliance/index.html",
+            "sha256": "9fab0400506ecbb893d3f52f3430817e04c376a806f6264ff3d9a61e17ebd153"
+          },
+          {
+            "file": "insights/posh-compliance-employers-mumbai-navi-mumbai/index.html",
+            "sha256": "f312b0d17a66b0ec666dbb1abd66668c911687df843f439a369dcc5148d51e27"
+          },
+          {
+            "file": "insights/posh-compliance-internal-committee-services/index.html",
+            "sha256": "9dd804ba2bc8ad2f9686c624089610b1a7eadf6b6c3c486317a28cbff3aca195"
+          }
+        ],
+        "unchanged": 243,
+        "sitemap": {
+          "urls": 239,
+          "dated": 22,
+          "sha256": "38ae591b7a165985c236f50ea3fe19184fa291be8e41fc701a40607f075974a0"
+        },
+        "bundle": {
+          "path": "/static/js/main.31cd47e3.js",
+          "bytes": 579634,
+          "gzipBytes": 153273,
+          "sha256": "0f4c1eb4e64baa3e4d8c99509876b8dd63bf412abfc9328e3b26e666c29b9b7a"
+        },
+        "build": "PASS:247 static routes,239 sitemap,8101 links,12 hydration/navigation and Contact checks",
+        "onePreferredPOSHPrompt": true
+      },
+      "postReleaseProduction": {
+        "checkedAt": "2026-10-06T20:24:01.883Z",
+        "sourceMain": "2403906fff8778702c9ee5f70d832428dd1ca911",
+        "client": "public curl; not verified search-bot identity",
+        "googleIndexation": "Refresh blocked by GSC Wizard payment_required; production fetch is not indexation",
+        "pages": [
+          {
+            "url": "https://paullegalassociates.com/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 519,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/commercial-litigation-arbitration/",
+              "/expertise/legal-compliance-audit/",
+              "/expertise/banking-laws/",
+              "/expertise/corporate-commercial-advisory/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/agricultural-non-agricultural-land-purchase/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/navi-mumbai-airport-land-transactions/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/labour-employment-hr-workplace-compliance/",
+              "/expertise/posh-compliance-internal-committee/"
+            ],
+            "updateDate": null,
+            "mainSha256": "80d6afc029a9d55f89459cf48aa1fa4ca1137304e25d921afc013e4236968ccd"
+          },
+          {
+            "url": "https://paullegalassociates.com/contact/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/contact/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 338,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "13dbf666bcff390b27190d0b97d6fc0372edfa5a231dc443870db18d05fe0ce2"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 415,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/commercial-litigation-arbitration/",
+              "/expertise/civil-commercial-litigation/",
+              "/expertise/insolvency-bankruptcy-nclt-nclat-proceedings/",
+              "/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+              "/expertise/criminal-defence-bail-cybercrime-white-collar/",
+              "/expertise/consumer-protection-insurance-professional-negligence/",
+              "/expertise/constitutional-administrative-public-law/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "9649f0c03de9acbeeeaf97d8e0ccc825587315a17f95d37b9ba7805f69a584e7"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 407,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/taxation-gst-fiscal-litigation/",
+              "/expertise/international-trade-fema-cross-border-business/",
+              "/expertise/banking-laws/",
+              "/expertise/fintech-digital-lending-payment-systems-law/",
+              "/expertise/cooperative-credit-society-multistate-law/",
+              "/expertise/customs-foreign-trade-import-export-law/",
+              "/expertise/commercial-litigation-arbitration/",
+              "/expertise/property-title-verification-due-diligence/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "8ff65da8090d8f37712d7eb934221cb46908be95c89d87d1db394d1201845e46"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 295,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/civil-commercial-litigation/",
+              "/expertise/arbitration-mediation-adr/",
+              "/expertise/insolvency-bankruptcy-nclt-nclat-proceedings/",
+              "/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+              "/expertise/criminal-defence-bail-cybercrime-white-collar/",
+              "/expertise/consumer-protection-insurance-professional-negligence/"
+            ],
+            "updateDate": null,
+            "mainSha256": "f5e58cc7c0515c321c7009e69901463e13255ae29558123f694ff24d2a5a52ef"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 332,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/contract-drafting-vetting-transaction-documentation/",
+              "/expertise/corporate-commercial-ma-startup-law/",
+              "/expertise/corporate-compliance-governance-legal-retainership/",
+              "/expertise/startup-venture-capital-founder-advisory/",
+              "/expertise/public-procurement-tender-government-contracts/",
+              "/expertise/competition-antitrust-unfair-market-practices/",
+              "/expertise/commercial-litigation-arbitration/"
+            ],
+            "updateDate": null,
+            "mainSha256": "a115c3319f2e211ac8288e4f1685495609ece897f9e09d0fe552e282c8a06c55"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 418,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/corporate-commercial-advisory/",
+              "/expertise/contract-drafting-vetting-transaction-documentation/",
+              "/expertise/corporate-compliance-governance-legal-retainership/",
+              "/expertise/startup-venture-capital-founder-advisory/",
+              "/expertise/public-procurement-tender-government-contracts/",
+              "/expertise/competition-antitrust-unfair-market-practices/",
+              "/expertise/franchise-dealership-distribution-law/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "e00a16dd921dd45ba163903df90d395a29e8a7bb0d3c62883dddd320d257ecba"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 433,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/posh-compliance-internal-committee/",
+              "/expertise/legal-compliance-audit/",
+              "/expertise/contract-drafting-vetting-transaction-documentation/",
+              "/expertise/corporate-compliance-governance-legal-retainership/",
+              "/expertise/professional-disciplinary-regulatory-proceedings/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "2b7c0d5fa46ec7addc3f3db6e55c3d61470955ef3e5023c44afab75f83678f1d"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 358,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/navi-mumbai-airport-land-transactions/",
+              "/expertise/maharera-advisory-compliance-litigation/",
+              "/expertise/agricultural-non-agricultural-land-purchase/"
+            ],
+            "updateDate": null,
+            "mainSha256": "01523368eebc994c37b0f20848046691f0722c45e6c000ceba0538050f5188d6"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 410,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/logistics-warehousing-supply-chain-law/",
+              "/expertise/construction-contracts-epc-infrastructure-claims/",
+              "/expertise/airport-port-logistics-infrastructure-services/",
+              "/expertise/aviation-airport-aeronautical-law/",
+              "/expertise/renewable-energy-electric-mobility-infrastructure/",
+              "/expertise/data-centre-cloud-infrastructure-telecom-law/",
+              "/expertise/contract-drafting-vetting-transaction-documentation/",
+              "/expertise/commercial-litigation-arbitration/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "6c7e03063840f0d7529a0ceef88815024bfec5fd7239c97c6f9739d37f8b513f"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 409,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/agricultural-non-agricultural-land-purchase/",
+              "/expertise/navi-mumbai-airport-land-transactions/"
+            ],
+            "updateDate": null,
+            "mainSha256": "cdf69ed94bf5e0101b9a291e2065f0c05d10e77ac1d220056b06e0358beacaf0"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 488,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/maharera-advisory-compliance-litigation/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "55ac4eb1ae8bef9bb052a87033d9876aa11be40f9dec62f953a39b366bd34bfd"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 385,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/labour-employment-hr-workplace-compliance/",
+              "/expertise/legal-compliance-audit/",
+              "/expertise/corporate-compliance-governance-legal-retainership/",
+              "/expertise/white-collar-crime-corporate-fraud-investigations/",
+              "/expertise/professional-disciplinary-regulatory-proceedings/"
+            ],
+            "updateDate": null,
+            "mainSha256": "1fce10284489d4f965015c29df932a0ca0238e16944a8178840cf392f09010e7"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 360,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/agricultural-non-agricultural-land-purchase/"
+            ],
+            "updateDate": null,
+            "mainSha256": "d8d4a44c5dc95d1053763a85a5948081b967ff29f65dcdea9122342bf903b8c1"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 467,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/revenue-authority-municipal-legal-services/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "6f11eeb1b875506df8924b6d4bea7dfd03d03099427ecfd1ef4284f7b65f7cf5"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 385,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/land-laws-revenue-records-agricultural-matters/",
+              "/expertise/cidco-naina-navi-mumbai-airport-land/"
+            ],
+            "updateDate": null,
+            "mainSha256": "2d5a5ff248a0abbb6bcd79fbb339ae845e1f88e7e2a362d0a15a59d3a7e721cb"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 466,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/land-laws-revenue-records-agricultural-matters/",
+              "/expertise/cidco-naina-navi-mumbai-airport-land/",
+              "/expertise/property-registration-services-mumbai-navi-mumbai/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "a062921755663a17ff36ae99679d6b798b4aae33f9695bd97a00e2c19c28b28d"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 357,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/property-transactions-conveyancing/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/cooperative-housing-society-apartment-law/",
+              "/expertise/property-tenancy-real-estate-litigation/"
+            ],
+            "updateDate": null,
+            "mainSha256": "729593a1dc7226f91e29a9d423821b14cc30261de6eefb696a7dfdafe112b76d"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 508,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/",
+              "/expertise/banking-finance-securities-debt-restructuring/",
+              "/expertise/international-trade-fema-cross-border-business/",
+              "/expertise/banking-laws/",
+              "/expertise/fintech-digital-lending-payment-systems-law/",
+              "/expertise/sanctions-export-controls-international-trade-compliance/",
+              "/expertise/private-wealth-family-office-asset-holding/",
+              "/expertise/cooperative-credit-society-multistate-law/",
+              "/expertise/corporate-commercial-advisory/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "e00574f1e484d168c9a7f7aeae6d86e0f14aa9f776b3babc1e1f9e0c57520386"
+          },
+          {
+            "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 1894,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "Service",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/"
+            ],
+            "updateDate": null,
+            "mainSha256": "5b7a323235534e2871669c46d0466b490b2ca9ac59dfb2653fee6594fa6d87f7"
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 964,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "11fcc2c399854f6e686f518850a58b094cc6267ae7475cb3dad956cf69908c74",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 781,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/property-title-verification-due-diligence/"
+            ],
+            "updateDate": "2026-10-06",
+            "mainSha256": "114506e5a985f04bb1b4f18e6f591bf8dbd98060fb1c755c86d3b95509571534",
+            "sourceLinks": [
+              "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+              "https://mahabhumi.gov.in/mahabhumilink/",
+              "https://igrmaharashtra.gov.in/Home",
+              "https://www.maharera.maharashtra.gov.in/"
+            ],
+            "preferredServicePrompts": [
+              "/expertise/property-title-verification-due-diligence/"
+            ],
+            "visibleDateTimes": [
+              {
+                "datetime": "2026-10-06",
+                "label": "6 October 2026"
+              }
+            ],
+            "schemaModificationDates": [
+              {
+                "type": "BlogPosting",
+                "date": "2026-10-06"
+              },
+              {
+                "type": "WebPage",
+                "date": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/labour-code-readiness-2026/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/labour-code-readiness-2026/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 670,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/labour-employment-hr-workplace-compliance/"
+            ],
+            "updateDate": "2026-10-05",
+            "mainSha256": "25958273b293ee72b8f328abc631e500fa34842310140afa32ad4beef09846f5",
+            "sourceLinks": [
+              "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2209767&lang=1&reg=6",
+              "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-code-on-wages-2019-no-29-of-2019_0.pdf",
+              "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf",
+              "https://labour.maharashtra.gov.in/en/publication/new-labour-code"
+            ],
+            "preferredServicePrompts": [
+              "/expertise/labour-employment-hr-workplace-compliance/"
+            ],
+            "visibleDateTimes": [
+              {
+                "datetime": "2026-10-05",
+                "label": "5 October 2026"
+              }
+            ],
+            "schemaModificationDates": [
+              {
+                "type": "BlogPosting",
+                "date": "2026-10-05"
+              },
+              {
+                "type": "WebPage",
+                "date": "2026-10-05"
+              }
+            ]
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/panama-flag-vessel-ownership-transfer/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/panama-flag-vessel-ownership-transfer/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 505,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "3c20473f6939b5ef6eb9518c7b8aa748bd7d5afb4048aae9e894bc18b33fadf2",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/pf-esic-factory-contract-labour-compliance/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/pf-esic-factory-contract-labour-compliance/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 531,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/labour-employment-hr-workplace-compliance/"
+            ],
+            "updateDate": null,
+            "mainSha256": "9fab0400506ecbb893d3f52f3430817e04c376a806f6264ff3d9a61e17ebd153",
+            "sourceLinks": [],
+            "preferredServicePrompts": [
+              "/expertise/labour-employment-hr-workplace-compliance/"
+            ],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 1021,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/posh-compliance-internal-committee/"
+            ],
+            "updateDate": "2026-10-06",
+            "mainSha256": "f312b0d17a66b0ec666dbb1abd66668c911687df843f439a369dcc5148d51e27",
+            "sourceLinks": [
+              "https://www.patnahighcourt.gov.in/POSH/pdf/posh%20act.pdf",
+              "https://wcd.gujarat.gov.in/uploads/pdf/CircularNotificationWtBoVX5NlXzOw_gPu0vs0NGS3_PUvCep.pdf",
+              "https://egazette.gov.in/WriteReadData/2025/263619.pdf",
+              "https://wcd.gov.in/women/legislations"
+            ],
+            "preferredServicePrompts": [
+              "/expertise/posh-compliance-internal-committee/"
+            ],
+            "visibleDateTimes": [
+              {
+                "datetime": "2026-10-06",
+                "label": "6 October 2026"
+              }
+            ],
+            "schemaModificationDates": [
+              {
+                "type": "BlogPosting",
+                "date": "2026-10-06"
+              },
+              {
+                "type": "WebPage",
+                "date": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 1005,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/posh-compliance-internal-committee/"
+            ],
+            "updateDate": "2026-10-06",
+            "mainSha256": "9dd804ba2bc8ad2f9686c624089610b1a7eadf6b6c3c486317a28cbff3aca195",
+            "sourceLinks": [
+              "https://www.patnahighcourt.gov.in/POSH/pdf/posh%20act.pdf",
+              "https://wcd.gujarat.gov.in/uploads/pdf/CircularNotificationWtBoVX5NlXzOw_gPu0vs0NGS3_PUvCep.pdf",
+              "https://wcd.gov.in/women/legislations"
+            ],
+            "preferredServicePrompts": [
+              "/expertise/posh-compliance-internal-committee/"
+            ],
+            "visibleDateTimes": [
+              {
+                "datetime": "2026-10-06",
+                "label": "6 October 2026"
+              }
+            ],
+            "schemaModificationDates": [
+              {
+                "type": "BlogPosting",
+                "date": "2026-10-06"
+              },
+              {
+                "type": "WebPage",
+                "date": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/",
+            "robots": "index, follow",
+            "h1Count": 1,
+            "staticMainWords": 715,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BlogPosting",
+              "Person",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [
+              "/expertise/rera-maharera-legal-services/"
+            ],
+            "updateDate": "2026-10-06",
+            "mainSha256": "e03523532ffc26d243eb07c7a39495f05b19be268975f69dfb33c248f0334971",
+            "sourceLinks": [
+              "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2158/1/A201616.pdf",
+              "https://www.maharera.maharashtra.gov.in/sites/default/files/notice_board_files/Order_No_56_2024_compressed.pdf",
+              "https://www.maharera.maharashtra.gov.in/order",
+              "https://www.maharera.maharashtra.gov.in/"
+            ],
+            "preferredServicePrompts": [
+              "/expertise/rera-maharera-legal-services/"
+            ],
+            "visibleDateTimes": [
+              {
+                "datetime": "2026-10-06",
+                "label": "6 October 2026"
+              }
+            ],
+            "schemaModificationDates": [
+              {
+                "type": "BlogPosting",
+                "date": "2026-10-06"
+              },
+              {
+                "type": "WebPage",
+                "date": "2026-10-06"
+              }
+            ]
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/third-party-payment-vessel-acquisition/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/third-party-payment-vessel-acquisition/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 586,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "f64539bdae87537e04b2dadf67e48e7719c34851bc9072fe1d0d12c888a04eaf",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-acquisition-post-closing-registration/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/vessel-acquisition-post-closing-registration/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 449,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "8527b2b1c1da4b4dbdf9c037b37d2e99eb164ad33a291c9386e0e5f5c20208f5",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-purchase-payment-escrow-direct-payment/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/vessel-purchase-payment-escrow-direct-payment/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 453,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "6a864d86478fa0ab24cc33fba3db4b69144f4c92c7d4570f5c59e5483d2f65a3",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-sale-closing-checklist-conditions-precedent/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/vessel-sale-closing-checklist-conditions-precedent/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 492,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "6b34861b28516179e23a94311b199fae17d1796b9f3d825d9ba1753878a59a46",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-sale-moa-legal-review/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/vessel-sale-moa-legal-review/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 700,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "8e77c0c4856d5a3a9a41dfd4a9e924fa9e223850788ac7da0a89245d2f96db0b",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-title-mortgages-maritime-liens/",
+            "status": 200,
+            "canonical": "https://paullegalassociates.com/insights/vessel-title-mortgages-maritime-liens/",
+            "robots": "noindex, follow",
+            "h1Count": 1,
+            "staticMainWords": 518,
+            "schemaTypes": [
+              "LegalService",
+              "WebSite",
+              "BreadcrumbList",
+              "WebPage"
+            ],
+            "phonePath": true,
+            "serviceLinks": [],
+            "updateDate": null,
+            "mainSha256": "8bd01579e6d110735d4a6afcd8e4be9d60ec4e4e2c980180b39f52939a78a44b",
+            "sourceLinks": [],
+            "preferredServicePrompts": [],
+            "visibleDateTimes": [],
+            "schemaModificationDates": []
+          }
+        ],
+        "robots": {
+          "status": 200,
+          "content": "# ====================================================================\n# Robots.txt for Paul Legal Associates (https://paullegalassociates.com)\n# ====================================================================\n\nUser-agent: *\n\n# Public presentation routes - Explicitly allowed for safe indexing\nAllow: /\nAllow: /about\nAllow: /expertise\nAllow: /partners\nAllow: /insights\nAllow: /contact\n\n# Point all crawlers to the static site architecture map\nSitemap: https://paullegalassociates.com/sitemap.xml"
+        },
+        "sitemap": {
+          "status": 200,
+          "urls": 239,
+          "dated": 22,
+          "sha256": "38ae591b7a165985c236f50ea3fe19184fa291be8e41fc701a40607f075974a0"
+        },
+        "indexNowKey": {
+          "status": 200,
+          "content": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb"
+        },
+        "bundle": {
+          "path": "/static/js/main.31cd47e3.js",
+          "status": 200,
+          "bytes": 579634,
+          "gzipBytes": 153273,
+          "sha256": "0f4c1eb4e64baa3e4d8c99509876b8dd63bf412abfc9328e3b26e666c29b9b7a"
+        }
+      },
+      "productionComparison": {
+        "checkedAtUTC": "2026-10-06T20:27:38.148Z",
+        "exactMainMatches": [
+          "/",
+          "/expertise/arbitration-mediation-adr/",
+          "/expertise/banking-finance-securities-debt-restructuring/",
+          "/expertise/commercial-litigation-arbitration/",
+          "/expertise/corporate-commercial-advisory/",
+          "/expertise/corporate-commercial-ma-startup-law/",
+          "/expertise/labour-employment-hr-workplace-compliance/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/maritime-shipping-admiralty-law/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/navi-mumbai-airport-land-transactions/",
+          "/expertise/posh-compliance-internal-committee/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-registration-services-mumbai-navi-mumbai/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/taxation-gst-fiscal-litigation/",
+          "/finance-tax-regulatory-advisory/",
+          "/insights/commercial-vessel-acquisition-legal-due-diligence/",
+          "/insights/due-diligence-property-transactions/",
+          "/insights/labour-code-readiness-2026/",
+          "/insights/panama-flag-vessel-ownership-transfer/",
+          "/insights/pf-esic-factory-contract-labour-compliance/",
+          "/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+          "/insights/posh-compliance-internal-committee-services/",
+          "/insights/rera-compliance-checklist-developers/",
+          "/insights/third-party-payment-vessel-acquisition/",
+          "/insights/vessel-acquisition-post-closing-registration/",
+          "/insights/vessel-purchase-payment-escrow-direct-payment/",
+          "/insights/vessel-sale-closing-checklist-conditions-precedent/",
+          "/insights/vessel-sale-moa-legal-review/",
+          "/insights/vessel-title-mortgages-maritime-liens/"
+        ],
+        "contactRawEmailRewriteExpected": true,
+        "held": [
+          {
+            "url": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/panama-flag-vessel-ownership-transfer/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/third-party-payment-vessel-acquisition/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-acquisition-post-closing-registration/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-purchase-payment-escrow-direct-payment/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-sale-closing-checklist-conditions-precedent/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-sale-moa-legal-review/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/vessel-title-mortgages-maritime-liens/",
+            "status": 200,
+            "robots": "noindex, follow",
+            "sitemapExcluded": true,
+            "mainMatches": true
+          }
+        ],
+        "changedGuides": [
+          {
+            "url": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+            "mainMatches": true,
+            "sources": 4,
+            "onePreferredServicePrompt": true,
+            "updatedDate": "2026-10-06",
+            "canonical": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+            "robots": "index, follow"
+          },
+          {
+            "url": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+            "mainMatches": true,
+            "sources": 3,
+            "onePreferredServicePrompt": true,
+            "updatedDate": "2026-10-06",
+            "canonical": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+            "robots": "index, follow"
+          }
+        ],
+        "bundleMatches": true,
+        "sitemapMatches": true,
+        "commercialPages": 18,
+        "pageChecks": 34,
+        "phonePaths": true
+      },
+      "consolidationCorrection": {
+        "evidence": "The employer guide already had a useful article-specific service prompt. Adding the shared mapping in PR33 temporarily duplicated it.",
+        "change": "PR34 removes only the redundant bespoke prompt. The existing service destination is preserved by the shared map; the existing verifier now requires exactly one preferred prompt.",
+        "validation": "First local check failed against the obsolete aria-label assertion; the destination-count check and complete build pass. Public static HTML and browser confirm one prompt. No unchanged batch was resubmitted."
+      },
+      "nextExecution": "Continue the existing property-registration/title, PF/ESI and NAINA/acquisition review queue; restore actual GSC/collector/profile/zone reporting for measured commercial progression. Do not reopen reviewed guides or repeat unchanged submissions.",
+      "assetHeaderObservation": {
+        "observedAtUTC": "2026-10-06T20:27:17Z",
+        "url": "https://paullegalassociates.com/static/js/main.31cd47e3.js",
+        "status": 200,
+        "contentEncoding": "gzip",
+        "wireContentLength": 155551,
+        "cacheControl": "max-age=14400",
+        "cloudflareCacheStatus": "HIT",
+        "cfRay": "a46767ec0d5e35c0-ORD",
+        "limitation": "One public requested-gzip asset response. Computed Node24 gzip is153273bytes; different from wire compression. This is not zone configuration, genuine-bot evidence or field CWV."
+      }
     }
   ]
 }
