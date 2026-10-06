@@ -1,8 +1,14 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
-**Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 2 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
+**Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Last successfully retrieved complete Search Console date (historical):** 2 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
-## Execution checkpoint — 5 October 2026
+## Current measurement availability — 7 October 2026 IST
+
+The fresh Google read is blocked by GSC Wizard payment_required. Current Tier-A indexed percentage, new crawls and search performance are **unknown**. The 3/18 inspection result from 5 October and performance through 2 October below remain historical baselines. Public HTTP 200, canonical checks and a successful build do not refresh Google indexation. Existing tracker identity/configuration is preserved; no unchanged indexing request was made.
+
+This cycle verifies public access to all 18 commercial landings, corrects two existing property-support articles, records claim-evidence gaps and resumes the three original recurring tasks. Actual GBP actions, collected conversions/qualified enquiries, Bing indexation, verified AI crawler events and field CWV remain unavailable. See [cycle evidence](evidence/Cycle_2026-10-07.json) and [remaining work](Paul_Legal_Associates_SEO_Remaining_Work_2026-10-05.md).
+
+## Historical execution checkpoint — 5 October 2026
 
 The performance period remains settled through **2 October**; today's releases cannot explain that earlier data. The 83-practice ledger and 34-family query map are now complete execution records. All 154 Insights are inventoried but current-law review is still in progress. First Google crawl/indexing and real conversion collection remain the most consequential outstanding outcomes.
 
@@ -40,7 +46,7 @@ The performance period remains settled through **2 October**; today's releases c
 
 Weekly/monthly process: append settled same-range snapshots and release dates; separate brand/generic/local/service intent; verify fresh crawl/index state; attach actual collected lead actions and fieldUX when available. Measure service-page enquiry performance before another metadata experiment.
 
-## Current settled snapshot — 2 October 2026
+## Last successfully retrieved settled snapshot — 2 October 2026
 
 | Metric | Current evidence | Interpretation |
 |---|---:|---|
@@ -93,6 +99,8 @@ On the next complete reporting period, append one row here using the same Search
 |---|---|---|---|---|---|---|---|---|
 | 27 Sep 2026 | 46 / 18,265 | 2/18 (29 Sep inspection) | Unknown | 44/46 | 0 in returned rows | Not classified completely | Unmeasured | Pre-PR18–22 baseline; tracker first check pending. |
 | 2 Oct 2026 | 41 / 18,210 | 3/18 (tracker through 5 Oct) | NAINA: Google crawl 30 Sep; other new crawls unknown | 40/41 | 0 in returned rows | Three disclosed, all Home; total unknown | Unmeasured | PR18–22 still maturing; PR23 shipped 5 Oct after this settled performance period. No causal conclusion. |
+
+| Refresh attempted 7 Oct IST | Unavailable: payment_required | Current unknown; 5 Oct 3/18 remains historical | Unknown | Unknown | Unknown | Unknown | Unknown | Restore access; continue safe public/source work. |
 
 ## Monthly commercial check
 

@@ -1,0 +1,1209 @@
+{
+  "dateIST": "2026-10-07",
+  "editorialDateUTC": "2026-10-06",
+  "sourceMain": "98b258f67960ae4b93c557b0733646e588f784d3",
+  "googleRefresh": {
+    "attemptAtUTC": "2026-10-06T18:58:00Z",
+    "result": "payment_required",
+    "message": "GSC Wizard trial ended or no active subscription",
+    "currentIndexedCount": null,
+    "currentPerformance": null,
+    "unblock": "Restore existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription and rerun the existing tracker and mature reports; no purchase made. An authorised alternative GSC integration/export may also supply the data."
+  },
+  "cohort": [
+    {
+      "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "historicalGoogleCoverage": "Discovered - currently not indexed",
+      "historicalCheckedAt": "2026-10-05T08:28:50.574+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "incomingMainPages": 11,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/commercial-arbitration-contract-disputes/"
+      ],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T01:36:44.972+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+      "incomingMainPages": 6,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/cidco-naina-airport-land-acquisition-services/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T04:44:51.749+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "incomingMainPages": 10,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T02:00:15.868+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "incomingMainPages": 5,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/property-registration-services/"
+      ],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:28:30.683+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "incomingMainPages": 19,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:28:37.328+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "incomingMainPages": 10,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/gst-tax-litigation-advisory/"
+      ],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:28:43.896+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "incomingMainPages": 10,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+      "historicalGoogleCoverage": "Submitted and indexed",
+      "historicalCheckedAt": "2026-10-05T09:16:11.243+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+      "incomingMainPages": 14,
+      "homeLink": false,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/mergers-acquisitions-legal-essentials/"
+      ],
+      "crawlDepthFromHome": 2,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T00:34:13.925+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "incomingMainPages": 15,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/commercial-arbitration-vs-litigation/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:28:57.261+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "incomingMainPages": 23,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/maharera-order-non-compliance-execution-recovery/",
+        "/insights/rera-compliance-checklist-developers/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:29:04.095+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "incomingMainPages": 23,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/land-acquisition-compensation-guide/",
+        "/insights/land-acquisition-compensation-rights/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+      "historicalGoogleCoverage": "Submitted and indexed",
+      "historicalCheckedAt": "2026-10-05T04:47:28.901+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+      "incomingMainPages": 12,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "historicalGoogleCoverage": "Submitted and indexed",
+      "historicalCheckedAt": "2026-10-05T00:43:16.137+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "incomingMainPages": 21,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/naina-town-planning-scheme-rights/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "historicalGoogleCoverage": "Discovered - currently not indexed",
+      "historicalCheckedAt": "2026-10-05T08:29:17.617+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "incomingMainPages": 21,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T08:29:24.297+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "incomingMainPages": 16,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/starting-business-india-legal-compliance-checklist/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "historicalGoogleCoverage": "Discovered - currently not indexed",
+      "historicalCheckedAt": "2026-10-05T02:45:03.763+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "incomingMainPages": 9,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+        "/insights/posh-compliance-internal-committee-services/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "historicalGoogleCoverage": "URL is unknown to Google",
+      "historicalCheckedAt": "2026-10-05T02:51:47.461+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "incomingMainPages": 24,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/due-diligence-property-transactions/",
+        "/insights/property-title-search-legal-due-diligence/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "historicalGoogleCoverage": "Discovered - currently not indexed",
+      "historicalCheckedAt": "2026-10-05T08:29:10.894+00:00",
+      "currentGoogleVerdict": null,
+      "currentGoogleState": "UNAVAILABLE: expired GSC Wizard access",
+      "sitemapPresent": true,
+      "currentCanonical": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "incomingMainPages": 10,
+      "homeLink": true,
+      "expertiseHubLink": true,
+      "supportingInsightPages": [
+        "/insights/labour-code-readiness-2026/",
+        "/insights/pf-esic-factory-contract-labour-compliance/"
+      ],
+      "crawlDepthFromHome": 1,
+      "firstImpression": null,
+      "firstQualifiedClick": null,
+      "firstEnquiryAction": null,
+      "outcomeEvidence": "Unavailable without fresh GSC/collector; do not substitute old counts."
+    }
+  ],
+  "diagnosis": "All 18 existing commercial routes have initial content, canonical/sitemap and hub discovery paths. The old UNKNOWN/DISCOVERED states cannot be refreshed. No proven crawl-path regression; no additional content or URL submission justified solely by the old inspection state.",
+  "changedArticles": [
+    {
+      "url": "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/",
+      "slug": "rera-compliance-checklist-developers",
+      "title": "RERA Compliance: A Practical Checklist for Developers in Maharashtra",
+      "author": "Adv. Sojan Paul",
+      "publicationDate": "March 18, 2022",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain existing intent and URL after targeted primary-source accuracy corrections; no merger/redirect justified.",
+      "currentLawReview": "Targeted passages reviewed 7 October IST; source text/index evidence and retrieval limits recorded in Cycle_2026-10-07.json. Not a complete statutory/project opinion or named-advocate approval.",
+      "originality": {
+        "exactDuplicateBodyWith": [],
+        "externalOriginality": "Not established by automated inventory"
+      },
+      "wordEvidence": 555,
+      "sections": 7,
+      "primarySources": [
+        "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2158/1/A201616.pdf",
+        "https://www.maharera.maharashtra.gov.in/sites/default/files/notice_board_files/Order_No_56_2024_compressed.pdf",
+        "https://www.maharera.maharashtra.gov.in/order",
+        "https://www.maharera.maharashtra.gov.in/"
+      ],
+      "overlapCandidates": [],
+      "indexable": true,
+      "sitemap": true,
+      "indexStatus": "Current refresh blocked 7 October IST by GSC Wizard payment_required; do not infer indexing from public HTTP 200.",
+      "gsc": [],
+      "preferredService": "/expertise/rera-maharera-legal-services/",
+      "tierASupport": [
+        "/expertise/rera-maharera-legal-services/"
+      ],
+      "internalIn": [
+        "/expertise/rera-maharera-legal-services/",
+        "/insights/cidco-naina-airport-land-acquisition-services/",
+        "/insights/",
+        "/insights/maharera-order-non-compliance-execution-recovery/",
+        "/insights/naina-town-planning-scheme-rights/",
+        "/insights/property-registration-services/",
+        "/insights/property-title-search-legal-due-diligence/"
+      ],
+      "internalOut": [
+        "/",
+        "/insights/",
+        "/partners/sojan-paul/",
+        "/expertise/rera-maharera-legal-services/",
+        "/contact/",
+        "/insights/maharera-order-non-compliance-execution-recovery/",
+        "/insights/cidco-naina-airport-land-acquisition-services/",
+        "/insights/land-acquisition-compensation-rights/"
+      ],
+      "cta": {
+        "phone": true,
+        "contact": true
+      },
+      "authorProfile": [
+        "/partners/sojan-paul/"
+      ],
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "March 18, 2022",
+        "preservedAuthor": "Adv. Sojan Paul"
+      }
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+      "slug": "due-diligence-property-transactions",
+      "title": "Title Due Diligence: The Non-Negotiables Before Any Property Purchase",
+      "author": "Adv. Sojan Paul",
+      "publicationDate": "December 8, 2025",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain existing intent and URL after targeted primary-source accuracy corrections; no merger/redirect justified.",
+      "currentLawReview": "Targeted passages reviewed 7 October IST; source text/index evidence and retrieval limits recorded in Cycle_2026-10-07.json. Not a complete statutory/project opinion or named-advocate approval.",
+      "originality": {
+        "exactDuplicateBodyWith": [],
+        "externalOriginality": "Not established by automated inventory"
+      },
+      "wordEvidence": 615,
+      "sections": 7,
+      "primarySources": [
+        "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+        "https://mahabhumi.gov.in/mahabhumilink/",
+        "https://igrmaharashtra.gov.in/Home",
+        "https://www.maharera.maharashtra.gov.in/"
+      ],
+      "overlapCandidates": [],
+      "indexable": true,
+      "sitemap": true,
+      "indexStatus": "Current refresh blocked 7 October IST by GSC Wizard payment_required; do not infer indexing from public HTTP 200.",
+      "gsc": [],
+      "preferredService": "/expertise/property-title-verification-due-diligence/",
+      "tierASupport": [
+        "/expertise/property-real-estate/",
+        "/expertise/property-registration-services-mumbai-navi-mumbai/",
+        "/expertise/property-transactions-conveyancing/",
+        "/expertise/property-title-verification-due-diligence/"
+      ],
+      "internalIn": [
+        "/expertise/property-real-estate/",
+        "/expertise/property-registration-services-mumbai-navi-mumbai/",
+        "/expertise/property-title-verification-due-diligence/",
+        "/expertise/property-transactions-conveyancing/",
+        "/insights/agricultural-land-purchase-vetting/",
+        "/insights/anti-bribery-ethics-compliance-law/",
+        "/insights/art-antiquities-luxury-goods-law/",
+        "/insights/commercial-vessel-acquisition-legal-due-diligence/",
+        "/insights/due-diligence-agricultural-non-agricultural-land/",
+        "/insights/",
+        "/insights/maharera-order-non-compliance-execution-recovery/",
+        "/insights/mergers-acquisitions-legal-essentials/",
+        "/insights/panama-flag-vessel-ownership-transfer/",
+        "/insights/property-notices-title-disputes/",
+        "/insights/property-permissions-approvals-regulatory-compliance/",
+        "/insights/property-registration-services/",
+        "/insights/property-title-search-legal-due-diligence/",
+        "/insights/resale-flat-verification-purchase-mumbai/",
+        "/insights/vessel-title-mortgages-maritime-liens/"
+      ],
+      "internalOut": [
+        "/",
+        "/insights/",
+        "/partners/sojan-paul/",
+        "/expertise/property-title-verification-due-diligence/",
+        "/contact/",
+        "/insights/property-title-search-legal-due-diligence/",
+        "/insights/due-diligence-agricultural-non-agricultural-land/",
+        "/insights/property-registration-services/"
+      ],
+      "cta": {
+        "phone": true,
+        "contact": true
+      },
+      "authorProfile": [
+        "/partners/sojan-paul/"
+      ],
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "December 8, 2025",
+        "preservedAuthor": "Adv. Sojan Paul"
+      }
+    }
+  ],
+  "sourceEvidence": [
+    {
+      "url": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+      "method": "Official PDF downloaded and pdftotext read; paragraph 16 verified",
+      "claim": "Mutation entries do not confer title; fiscal purpose",
+      "sha256": "c6cf970690fe0d9eef28fa604ac667b976c65696e3abf1efb67af8d8981af8fd"
+    },
+    {
+      "url": "https://mahabhumi.gov.in/mahabhumilink/",
+      "method": "Official live portal read",
+      "claim": "Signed land records and view-only services are separate; mutation and measurement services available"
+    },
+    {
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2158/1/A201616.pdf",
+      "method": "Official India Code PDF downloaded, pdftotext read and sections 3,4,11 independently checked in search-service full text",
+      "claim": "Registration exemptions, 70% separate-account/certified proportionate withdrawal and quarterly reporting",
+      "sha256": "de667f409ba9a77e3361140a51523c3165d3b868b9881eeba397c2a9cbef45a9"
+    },
+    {
+      "url": "https://www.maharera.maharashtra.gov.in/sites/default/files/notice_board_files/Order_No_56_2024_compressed.pdf",
+      "method": "Official indexed PDF and primary indexed text; full file retrieval timed out",
+      "claim": "Order 56/2024 provides designated accounts; separate account is not escrow. Applicability is expressly qualified and readers referred to project/promoter-specific current directions."
+    },
+    {
+      "url": "https://www.maharera.maharashtra.gov.in/circular",
+      "method": "Official current circular register read on 6 Oct UTC /7 Oct IST",
+      "claim": "Current circulars available; no blanket assertion that every subsequent rule or project condition was audited."
+    }
+  ],
+  "automation": {
+    "growth": "resumed original Monday/Friday schedule",
+    "monthly": "resumed original first-of-month schedule",
+    "health": "resumed original daily schedule",
+    "duplicatesCreated": 0
+  },
+  "validation": {
+    "build": "npm ci and npm run build pass;247 static routes,239 sitemap URLs,8101 internal link occurrences,12 hydration/navigation and Contact checks",
+    "production": "Pre-release public cohort verified; post-deployment verification pending",
+    "mobile": "Local Chromium download unavailable/corrupt; no new mobile result claimed; full existing jsdom hydration/navigation checks passed. Live cloud-browser user path verification follows deployment."
+  },
+  "platformBlockers": [
+    {
+      "platform": "GBP",
+      "blocker": "No manager/performance connector available",
+      "unblock": "Connect manager access to the existing genuine listing and confirm office hours before edits."
+    },
+    {
+      "platform": "GA4/GTM",
+      "blocker": "No authorised collector ID/configuration or account; GSC Wizard reads also payment-blocked",
+      "unblock": "Provide/connect the existing actual GA4 property and GTM container or direct collector configuration; verify one collector and collect/DebugView before counts."
+    },
+    {
+      "platform": "Cloudflare",
+      "blocker": "No zone security/WAF event access",
+      "unblock": "Connect zone read access for verified-bot events and narrow rule review."
+    },
+    {
+      "platform": "Bing",
+      "blocker": "GSC Wizard unavailable; no independent Webmaster connection",
+      "unblock": "Restore reporting access and connect the verified Bing property/API key."
+    },
+    {
+      "platform": "Field CWV",
+      "blocker": "No accessible field-data dataset",
+      "unblock": "Connect GSC CWV or authorised CrUX field reporting; lab results do not establish field INP."
+    }
+  ],
+  "preReleaseProduction": {
+    "checkedAt": "2026-10-06T19:03:19.396Z",
+    "sourceMain": "98b258f67960ae4b93c557b0733646e588f784d3",
+    "client": "public curl; not verified search-bot identity",
+    "googleIndexation": "Refresh blocked by GSC Wizard payment_required; production fetch is not indexation",
+    "pages": [
+      {
+        "url": "https://paullegalassociates.com/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 519,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/commercial-litigation-arbitration/",
+          "/expertise/legal-compliance-audit/",
+          "/expertise/banking-laws/",
+          "/expertise/corporate-commercial-advisory/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/agricultural-non-agricultural-land-purchase/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/navi-mumbai-airport-land-transactions/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/labour-employment-hr-workplace-compliance/",
+          "/expertise/posh-compliance-internal-committee/"
+        ],
+        "updateDate": null,
+        "mainSha256": "80d6afc029a9d55f89459cf48aa1fa4ca1137304e25d921afc013e4236968ccd"
+      },
+      {
+        "url": "https://paullegalassociates.com/contact/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/contact/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 338,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [],
+        "updateDate": null,
+        "mainSha256": "a438e680bf08d1f45350bd5481bda9434af3f3d5841ccd904787babec45fbaf1"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 415,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/commercial-litigation-arbitration/",
+          "/expertise/civil-commercial-litigation/",
+          "/expertise/insolvency-bankruptcy-nclt-nclat-proceedings/",
+          "/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+          "/expertise/criminal-defence-bail-cybercrime-white-collar/",
+          "/expertise/consumer-protection-insurance-professional-negligence/",
+          "/expertise/constitutional-administrative-public-law/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "9649f0c03de9acbeeeaf97d8e0ccc825587315a17f95d37b9ba7805f69a584e7"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 407,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/taxation-gst-fiscal-litigation/",
+          "/expertise/international-trade-fema-cross-border-business/",
+          "/expertise/banking-laws/",
+          "/expertise/fintech-digital-lending-payment-systems-law/",
+          "/expertise/cooperative-credit-society-multistate-law/",
+          "/expertise/customs-foreign-trade-import-export-law/",
+          "/expertise/commercial-litigation-arbitration/",
+          "/expertise/property-title-verification-due-diligence/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "8ff65da8090d8f37712d7eb934221cb46908be95c89d87d1db394d1201845e46"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 295,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/civil-commercial-litigation/",
+          "/expertise/arbitration-mediation-adr/",
+          "/expertise/insolvency-bankruptcy-nclt-nclat-proceedings/",
+          "/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+          "/expertise/criminal-defence-bail-cybercrime-white-collar/",
+          "/expertise/consumer-protection-insurance-professional-negligence/"
+        ],
+        "updateDate": null,
+        "mainSha256": "f5e58cc7c0515c321c7009e69901463e13255ae29558123f694ff24d2a5a52ef"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 332,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/contract-drafting-vetting-transaction-documentation/",
+          "/expertise/corporate-commercial-ma-startup-law/",
+          "/expertise/corporate-compliance-governance-legal-retainership/",
+          "/expertise/startup-venture-capital-founder-advisory/",
+          "/expertise/public-procurement-tender-government-contracts/",
+          "/expertise/competition-antitrust-unfair-market-practices/",
+          "/expertise/commercial-litigation-arbitration/"
+        ],
+        "updateDate": null,
+        "mainSha256": "a115c3319f2e211ac8288e4f1685495609ece897f9e09d0fe552e282c8a06c55"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 418,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/corporate-commercial-advisory/",
+          "/expertise/contract-drafting-vetting-transaction-documentation/",
+          "/expertise/corporate-compliance-governance-legal-retainership/",
+          "/expertise/startup-venture-capital-founder-advisory/",
+          "/expertise/public-procurement-tender-government-contracts/",
+          "/expertise/competition-antitrust-unfair-market-practices/",
+          "/expertise/franchise-dealership-distribution-law/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "e00a16dd921dd45ba163903df90d395a29e8a7bb0d3c62883dddd320d257ecba"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 433,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/posh-compliance-internal-committee/",
+          "/expertise/legal-compliance-audit/",
+          "/expertise/contract-drafting-vetting-transaction-documentation/",
+          "/expertise/corporate-compliance-governance-legal-retainership/",
+          "/expertise/professional-disciplinary-regulatory-proceedings/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "2b7c0d5fa46ec7addc3f3db6e55c3d61470955ef3e5023c44afab75f83678f1d"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 358,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/navi-mumbai-airport-land-transactions/",
+          "/expertise/maharera-advisory-compliance-litigation/",
+          "/expertise/agricultural-non-agricultural-land-purchase/"
+        ],
+        "updateDate": null,
+        "mainSha256": "01523368eebc994c37b0f20848046691f0722c45e6c000ceba0538050f5188d6"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 410,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/logistics-warehousing-supply-chain-law/",
+          "/expertise/construction-contracts-epc-infrastructure-claims/",
+          "/expertise/airport-port-logistics-infrastructure-services/",
+          "/expertise/aviation-airport-aeronautical-law/",
+          "/expertise/renewable-energy-electric-mobility-infrastructure/",
+          "/expertise/data-centre-cloud-infrastructure-telecom-law/",
+          "/expertise/contract-drafting-vetting-transaction-documentation/",
+          "/expertise/commercial-litigation-arbitration/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "6c7e03063840f0d7529a0ceef88815024bfec5fd7239c97c6f9739d37f8b513f"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 409,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/agricultural-non-agricultural-land-purchase/",
+          "/expertise/navi-mumbai-airport-land-transactions/"
+        ],
+        "updateDate": null,
+        "mainSha256": "cdf69ed94bf5e0101b9a291e2065f0c05d10e77ac1d220056b06e0358beacaf0"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 488,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/maharera-advisory-compliance-litigation/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "55ac4eb1ae8bef9bb052a87033d9876aa11be40f9dec62f953a39b366bd34bfd"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 385,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/labour-employment-hr-workplace-compliance/",
+          "/expertise/legal-compliance-audit/",
+          "/expertise/corporate-compliance-governance-legal-retainership/",
+          "/expertise/white-collar-crime-corporate-fraud-investigations/",
+          "/expertise/professional-disciplinary-regulatory-proceedings/"
+        ],
+        "updateDate": null,
+        "mainSha256": "1fce10284489d4f965015c29df932a0ca0238e16944a8178840cf392f09010e7"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/property-real-estate/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 360,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/agricultural-non-agricultural-land-purchase/"
+        ],
+        "updateDate": null,
+        "mainSha256": "d8d4a44c5dc95d1053763a85a5948081b967ff29f65dcdea9122342bf903b8c1"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 467,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/revenue-authority-municipal-legal-services/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "6f11eeb1b875506df8924b6d4bea7dfd03d03099427ecfd1ef4284f7b65f7cf5"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 385,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/land-laws-revenue-records-agricultural-matters/",
+          "/expertise/cidco-naina-navi-mumbai-airport-land/"
+        ],
+        "updateDate": null,
+        "mainSha256": "2d5a5ff248a0abbb6bcd79fbb339ae845e1f88e7e2a362d0a15a59d3a7e721cb"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 466,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/rera-maharera-legal-services/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/land-laws-revenue-records-agricultural-matters/",
+          "/expertise/cidco-naina-navi-mumbai-airport-land/",
+          "/expertise/property-registration-services-mumbai-navi-mumbai/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "a062921755663a17ff36ae99679d6b798b4aae33f9695bd97a00e2c19c28b28d"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 357,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/property-real-estate/",
+          "/expertise/property-title-verification-due-diligence/",
+          "/expertise/property-transactions-conveyancing/",
+          "/expertise/naina-town-planning-scheme-services/",
+          "/expertise/land-acquisition-compensation-matters/",
+          "/expertise/cooperative-housing-society-apartment-law/",
+          "/expertise/property-tenancy-real-estate-litigation/"
+        ],
+        "updateDate": null,
+        "mainSha256": "729593a1dc7226f91e29a9d423821b14cc30261de6eefb696a7dfdafe112b76d"
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 508,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/",
+          "/expertise/banking-finance-securities-debt-restructuring/",
+          "/expertise/international-trade-fema-cross-border-business/",
+          "/expertise/banking-laws/",
+          "/expertise/fintech-digital-lending-payment-systems-law/",
+          "/expertise/sanctions-export-controls-international-trade-compliance/",
+          "/expertise/private-wealth-family-office-asset-holding/",
+          "/expertise/cooperative-credit-society-multistate-law/",
+          "/expertise/corporate-commercial-advisory/"
+        ],
+        "updateDate": "2026-10-05",
+        "mainSha256": "e00574f1e484d168c9a7f7aeae6d86e0f14aa9f776b3babc1e1f9e0c57520386"
+      },
+      {
+        "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 1894,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "Service",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/"
+        ],
+        "updateDate": null,
+        "mainSha256": "5b7a323235534e2871669c46d0466b490b2ca9ac59dfb2653fee6594fa6d87f7"
+      },
+      {
+        "url": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 522,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "BlogPosting",
+          "Person",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/property-title-verification-due-diligence/"
+        ],
+        "updateDate": null,
+        "mainSha256": "53f5865801bbf888bb54050139841699d0f7f10a759c8924b31a46db46d892af",
+        "articleText": "🏛️Whether you're an individual buyer or an institutional investor, certain due diligence steps simply cannot be skipped. We outline the essential checklist.In our property law practice, the disputes we are called to resolve almost always trace back to inadequate due diligence at the time of purchase. A clean, marketable title is the foundation of every property transaction — and verifying it properly requires more than a cursory document check.The 30-Year Title ChainMaharashtra practice generally requires examining the chain of title for a minimum of 30 years, tracing every transfer — sale, gift, inheritance, partition — to confirm an unbroken and legally valid chain of ownership. Gaps or ambiguities in this chain are the single most common source of future litigation.Essential Document VerificationBeyond the sale deed itself, a thorough due diligence exercise must verify several supporting documents, each of which can reveal encumbrances or defects not apparent from the title deed alone.7/12 extract (or Property Card for urban areas) — confirms current revenue record ownershipSearch report from the Sub-Registrar's office — reveals any registered encumbrances, mortgages or chargesProperty tax receipts — confirms no outstanding municipal dues that could attach to the propertyNA (Non-Agricultural) conversion order — essential where agricultural land is being purchased for non-agricultural useSociety NOC and share certificate — for apartment purchases, confirms the seller's standing with the societyPending litigation search — confirms no civil suits, injunctions or attachment orders affect the propertyRERA-Specific Diligence for Under-Construction PropertyFor under-construction purchases, diligence must extend to the project's RERA registration status, the developer's track record on the RERA portal, and critically, confirmation that the specific unit being purchased is reflected accurately in the registered project plan. We have seen disputes arise where carpet area calculations or unit numbering changed between booking and registration.Redevelopment and Society PropertiesWhere a property is part of a society undergoing or contemplating redevelopment, additional diligence is essential — confirming the society's conveyance status, any existing development agreement terms, and whether the specific unit carries any redevelopment-related restrictions on transfer.Why Professional Diligence Pays for ItselfThe cost of professional title due diligence is a small fraction of the property's value — yet it is the single most effective safeguard against the disputes, encumbrances and litigation that can otherwise consume years and far exceed that initial cost. We recommend engaging legal counsel before signing any agreement to sell, not merely before the final registration.Need help with a matter covered in this guide?Explore Property Title Verification and Legal Due Diligence#DueDiligence#PropertyLaw#ConveyancingSPWritten ByAdv. Sojan PaulManaging Partner, Paul Legal AssociatesHave a question about property law?Schedule a confidential consultation with our advocates to discuss your legal options.Schedule a ConsultationCall +91 7977063567← Back to All Insights"
+      },
+      {
+        "url": "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/",
+        "robots": "index, follow",
+        "h1Count": 1,
+        "staticMainWords": 582,
+        "schemaTypes": [
+          "LegalService",
+          "WebSite",
+          "BlogPosting",
+          "Person",
+          "BreadcrumbList",
+          "WebPage"
+        ],
+        "phonePath": true,
+        "serviceLinks": [
+          "/expertise/rera-maharera-legal-services/"
+        ],
+        "updateDate": null,
+        "mainSha256": "d9ab0c1dda627963becd19fc50a51b209b83613b2759efe2c3862560ec4d4bba",
+        "articleText": "🏢Navigating RERA registration and ongoing compliance can be daunting for developers. Here's a practical, field-tested checklist drawn from our redevelopment practice.The Real Estate (Regulation and Development) Act, 2016 fundamentally changed how developers in Maharashtra structure, market and execute residential and commercial projects. Yet, more than seven years after MahaRERA became operational, we continue to see avoidable compliance lapses derail otherwise sound projects.Having represented developers and builders before MahaRERA and the Bombay High Court & Supreme Court of India for over a decade, our redevelopment practice has distilled the most common pitfalls into a practical checklist. This is not an exhaustive legal treatise — it is the set of questions we ask every client before a single brick is laid.1. Registration Before AdvertisementThe single most litigated issue we encounter is developers advertising, marketing or accepting bookings before obtaining a valid RERA registration number. Section 3 of the Act makes registration mandatory for any project where the land exceeds 500 square metres or involves more than eight apartments.Before any marketing collateral is printed — brochures, hoardings, digital ads — confirm the registration certificate is in hand. Retrofitting compliance after the fact invites penalties under Section 59 and can taint otherwise valid sale agreements.2. The 70% Escrow RequirementSeventy percent of amounts realised from allottees must be deposited in a separate RERA escrow account, to be used only for land and construction costs of that specific project. We routinely see developers commingle funds across projects — a practice that exposes promoters to both regulatory action and personal liability.Maintain project-wise separate bank accounts from day oneEngage a chartered engineer, architect and CA to certify withdrawal requestsReconcile escrow withdrawals against the percentage of construction completed3. Quarterly Disclosures and the QPRThe Quarterly Progress Report is not a formality — MahaRERA actively cross-references QPR filings against complaint data and site inspections. Delayed or inaccurate QPRs are now one of the most common grounds for show-cause notices we handle.4. Redevelopment-Specific ConsiderationsFor societies undergoing redevelopment, RERA registration is required even where existing members are merely being rehoused, if any portion of the project is sold to third parties. We've represented several developers where this nuance was overlooked, leading to costly remediation.Our recommendation: treat every redevelopment project as RERA-applicable unless your legal counsel has specifically confirmed an exemption applies.Final WordRERA compliance is not a one-time exercise — it is a discipline that must be embedded into a developer's operational rhythm. The cost of a compliance lapse, in penalties, reputational damage and allottee litigation, dwarfs the cost of proper legal structuring at the outset.If you are planning a new project or redevelopment in Navi Mumbai or the wider MMR region, our property law team would be glad to walk through your specific structure before you proceed.Need help with a matter covered in this guide?Explore RERA and MahaRERA Legal Services#RERA#RealEstate#Compliance#RedevelopmentSPWritten ByAdv. Sojan PaulManaging Partner, Paul Legal AssociatesHave a question about property law?Schedule a confidential consultation with our advocates to discuss your legal options.Schedule a ConsultationCall +91 7977063567← Back to All Insights"
+      },
+      {
+        "url": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+        "status": 200,
+        "h1Count": 1,
+        "canonical": "https://paullegalassociates.com/insights/commercial-vessel-acquisition-legal-due-diligence/",
+        "robots": "noindex, follow",
+        "heldArticle": true
+      }
+    ],
+    "robots": {
+      "status": 200,
+      "content": "# ====================================================================\n# Robots.txt for Paul Legal Associates (https://paullegalassociates.com)\n# ====================================================================\n\nUser-agent: *\n\n# Public presentation routes - Explicitly allowed for safe indexing\nAllow: /\nAllow: /about\nAllow: /expertise\nAllow: /partners\nAllow: /insights\nAllow: /contact\n\n# Point all crawlers to the static site architecture map\nSitemap: https://paullegalassociates.com/sitemap.xml"
+    },
+    "sitemap": {
+      "status": 200,
+      "urls": 239,
+      "dated": 18,
+      "sha256": "829adfee35bb117f5c94df0c62161cdb2e73141172e9c8eb041716f2f5a95f9a"
+    },
+    "indexNowKey": {
+      "status": 200,
+      "content": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb"
+    },
+    "bundle": {
+      "path": "/static/js/main.9845e90e.js",
+      "status": 200,
+      "bytes": 579794,
+      "gzipBytes": 153325,
+      "sha256": "947dfdb092d447fc44c0b31f6bae6e5879b3284ea67f604fe2739cd2875f7919"
+    }
+  }
+}

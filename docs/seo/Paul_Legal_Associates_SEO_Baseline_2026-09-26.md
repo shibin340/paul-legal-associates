@@ -1,5 +1,32 @@
 # Paul Legal Associates — SEO baseline and execution register
 
+## Continuing execution — 7 October 2026 IST
+
+Started from main commit 98b258f (PR #30) and current repository registers. Current public verification finds all 18 commercial landings HTTP 200 with static content/self-canonicals, Home/Contact paths, the 239-URL sitemap and the existing IndexNow key. Google indexation/performance refresh is blocked by GSC Wizard payment_required; historical 3/18 and through-2-Oct figures are not current measurements. No tracker was recreated and no unchanged URL was submitted.
+
+The scoped property-support release corrects the existing purchase due-diligence and developer RERA checklists, adds primary resource paths and advances only their genuine modification dates. Validation: npm ci; build/SEO verifier passes 247 routes,239 sitemap URLs,8101 internal links and12 hydration/navigation/Contact checks. Post-deployment checks are pending. [Cycle evidence](evidence/Cycle_2026-10-07.json) contains per-commercial-URL crawl-path evidence, source limitations and exact access unblocks. Existing growth, monthly and health schedules were resumed unchanged; no duplicate automation.
+
+### Trust-claim evidence register
+
+Published wording is evidence that a claim is displayed, not independent substantiation. No claims below are labelled false solely because the supporting records are absent. Do not invent documentary evidence, change a founding date from a directory, add client identities to analytics or infer specialist certification from a practice description. The firm's authorised evidence owner must provide the records before these can be marked VERIFIED.
+
+| Claim | Page/source | Supporting evidence currently available | Evidence owner | Verified status | Disposition / exact evidence needed |
+|---|---|---|---|---|---|
+| 30+ years / more than three decades; firm founded 1991 | Home, About, CredentialsBar, Polachan profile; STATS/MILESTONES/TEAM_MEMBERS | Repeated owned-site assertions only; no founding or enrolment record retrieved | Managing Partner / Adv. P. P. Polachan | UNVERIFIED | Retain pending evidence; distinguish firm age from advocate experience using establishment/enrolment records. |
+| 1,400+ cases completed | Home; STATS | No case register, counting method or cut-off date available | Managing Partner / practice administration | UNVERIFIED | Retain pending substantiation; require aggregate case log and a defined meaning of completed, without publishing confidential matter details. |
+| Property Law Experts / Admiralty & Maritime experts | Shared credentials and relevant profiles | Visible service descriptions support areas offered; specialist status not independently substantiated | Relevant partner | UNVERIFIED specialist wording | Retain pending practice-history evidence; qualify to factual practice-area wording if evidence cannot support the descriptor. |
+| Bombay High Court / Supreme Court practice | About, shared credentials, Polachan profile, service copy | Own-site biographies; Supreme Court service copy already distinguishes coordination with AOR/Senior Advocates | Relevant advocate / Managing Partner | UNVERIFIED representation history | Retain pending matter/appearance evidence and accurate role; do not infer AOR status or Court affiliation. |
+| 1993 Armilan Dyeing/MSFC 240-day trial participation | About milestones; Polachan profile/article narratives | Own-site statements only; no judgment/record confirming role and duration retrieved | Adv. P. P. Polachan | UNVERIFIED | Retain pending citation and role/duration records; no new case-result claim. |
+| Sojan 10+ years; Sonam 8+ years | Partner profiles | Own-site biographical figures only | Named partner / Managing Partner | UNVERIFIED | Retain pending enrolment/employment chronology and relevant as-of date. |
+| Sonam: BBSR & Associates / Ernst & Young experience | Sonam profile, labour article, testimonial | Owned-site biography only; no employment/role record retrieved | Adv. Sonam Paul | UNVERIFIED | Retain pending employment/role evidence; do not describe former employment as current endorsement. |
+| Rajesh Sharma redevelopment testimonial | Home / TESTIMONIALS t1 | Published testimonial text; no original communication or publication consent retrieved | Managing Partner / client relationship owner | UNVERIFIED authenticity/consent | Retain pending original feedback, identity/matter validation and consent; no invented evidence or review markup. |
+| Meena Iyer property-dispute testimonial | Home / TESTIMONIALS t2 | Published testimonial text only | Managing Partner / client relationship owner | UNVERIFIED authenticity/consent | Same documentary/consent verification; retain pending evidence. |
+| Vikram Desai compliance/EY testimonial | Home / TESTIMONIALS t3 | Published testimonial text only | Managing Partner / client relationship owner | UNVERIFIED authenticity/consent | Same documentary/consent verification plus accuracy of role and background; retain pending evidence. |
+| RERA article: March 2022 label with over-seven-year operation/over-decade practice narrative | /insights/rera-compliance-checklist-developers/ | Original source chronology inconsistent; no need to infer any partner's experience | Managing Partner / article owner | QUALIFIED in this release | Replace dated duration assertions with evergreen project-preparation context; preserve original publication date/author. |
+| Certifications/awards | Shared credentials, About and three profiles checked | No explicit firm certification or award found in reviewed sources | Managing Partner | NOT OBSERVED in sampled sources | Do not invent one or infer certification from expertise wording; review any future actual claim. |
+| Office hours | Contact / OFFICE_HOURS and local-citation ledger | Website publishes Mon–Fri10–20, Sat10–18, Sun appointment; external discrepancies recorded | Office administration / Managing Partner | TRUE CURRENT HOURS unconfirmed | Retain current source pending office confirmation; then align schema, GBP and owned citations together. |
+
+
 ## Current execution checkpoint — 5 October 2026
 
 This section and the [remaining-work ledger](Paul_Legal_Associates_SEO_Remaining_Work_2026-10-05.md) supersede historical current-state statements below. Current source includes PRs #25–29. The existing prerender architecture and eight held maritime exclusions are preserved.
