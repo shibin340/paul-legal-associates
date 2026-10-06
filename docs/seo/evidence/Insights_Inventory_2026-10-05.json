@@ -4173,21 +4173,25 @@
       "title": "POSH Compliance, Internal Committee and Workplace Inquiry Services",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain distinct existing employer-governance or complaint-process intent after targeted source corrections; no merger or new URL justified.",
+      "currentLawReview": "Targeted POSH Act/Rules passages and applicable 2025 company-reporting amendment checked 7 October IST; scope and source retrieval limits in Cycle_2026-10-07.json. No named-advocate review or full case-specific legal approval asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 405,
-      "sections": 9,
-      "primarySources": [],
+      "wordEvidence": 826,
+      "sections": 8,
+      "primarySources": [
+        "https://www.patnahighcourt.gov.in/POSH/pdf/posh%20act.pdf",
+        "https://wcd.gujarat.gov.in/uploads/pdf/CircularNotificationWtBoVX5NlXzOw_gPu0vs0NGS3_PUvCep.pdf",
+        "https://wcd.gov.in/women/legislations"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current inspection/performance unavailable: GSC Wizard payment_required on 7 October IST. Public HTTP 200 is not a Google indexing verdict.",
       "gsc": [],
       "preferredService": "/expertise/posh-compliance-internal-committee/",
       "tierASupport": [
@@ -4206,9 +4210,9 @@
         "/partners/sojan-paul/",
         "/expertise/posh-compliance-internal-committee/",
         "/contact/",
+        "/insights/posh-compliance-employers-mumbai-navi-mumbai/",
         "/insights/labour-code-readiness-2026/",
-        "/insights/pf-esic-factory-contract-labour-compliance/",
-        "/insights/posh-compliance-employers-mumbai-navi-mumbai/"
+        "/insights/pf-esic-factory-contract-labour-compliance/"
       ],
       "cta": {
         "phone": true,
@@ -4217,7 +4221,13 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "June 26, 2026",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "build": "PASS:247 routes;239 sitemap;8102 links;12 hydration/navigation and Contact checks",
+        "production": "Pending merge/deployment verification"
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/pf-esic-factory-contract-labour-compliance/",
@@ -6348,23 +6358,28 @@
       "title": "POSH Compliance for Employers in Mumbai & Navi Mumbai: A Practical Compliance Guide for 2026",
       "author": "Adv. Sonam Paul",
       "publicationDate": "August 15, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain distinct existing employer-governance or complaint-process intent after targeted source corrections; no merger or new URL justified.",
+      "currentLawReview": "Targeted POSH Act/Rules passages and applicable 2025 company-reporting amendment checked 7 October IST; scope and source retrieval limits in Cycle_2026-10-07.json. No named-advocate review or full case-specific legal approval asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 541,
-      "sections": 6,
-      "primarySources": [],
+      "wordEvidence": 821,
+      "sections": 7,
+      "primarySources": [
+        "https://www.patnahighcourt.gov.in/POSH/pdf/posh%20act.pdf",
+        "https://wcd.gujarat.gov.in/uploads/pdf/CircularNotificationWtBoVX5NlXzOw_gPu0vs0NGS3_PUvCep.pdf",
+        "https://egazette.gov.in/WriteReadData/2025/263619.pdf",
+        "https://wcd.gov.in/women/legislations"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current inspection/performance unavailable: GSC Wizard payment_required on 7 October IST. Public HTTP 200 is not a Google indexing verdict.",
       "gsc": [],
-      "preferredService": null,
+      "preferredService": "/expertise/posh-compliance-internal-committee/",
       "tierASupport": [
         "/expertise/posh-compliance-internal-committee/"
       ],
@@ -6382,8 +6397,8 @@
         "/expertise/posh-compliance-internal-committee/",
         "/contact/",
         "/insights/posh-compliance-internal-committee-services/",
-        "/insights/legal-audit-regulatory-compliance-services/",
-        "/insights/labour-employment-law-services/"
+        "/insights/labour-code-readiness-2026/",
+        "/insights/pf-esic-factory-contract-labour-compliance/"
       ],
       "cta": {
         "phone": true,
@@ -6392,7 +6407,13 @@
       "authorProfile": [
         "/partners/sonam-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "August 15, 2026",
+        "preservedAuthor": "Adv. Sonam Paul",
+        "build": "PASS:247 routes;239 sitemap;8102 links;12 hydration/navigation and Contact checks",
+        "production": "Pending merge/deployment verification"
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/starting-business-india-legal-compliance-checklist/",
@@ -7074,5 +7095,5 @@
       "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
     }
   ],
-  "lastUpdated": "2026-10-07 IST"
+  "lastUpdated": "2026-10-07"
 }

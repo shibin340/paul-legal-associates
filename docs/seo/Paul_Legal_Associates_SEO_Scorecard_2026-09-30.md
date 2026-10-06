@@ -93,6 +93,8 @@ Weekly/monthly process: append settled same-range snapshots and release dates; s
 
 | 7 Oct | [PR #31](https://github.com/shibin340/paul-legal-associates/pull/31): source-grounded title due-diligence and developer MahaRERA checklist corrections | CI/Pages passed; all18 commercial routes and8 holds verified; both guide→service→Contact paths work; exact bundle/sitemap/article content matches;2 changed URLs accepted once HTTP200 | Monitor useful guide-to-service discovery and confirmed enquiry progression after reporting access is restored; current Google outcomes remain unknown. |
 
+| 7 Oct continuation | POSH complaint-process and employer-reporting guide corrections; one preferred service CTA | Local npmci/build:247 routes,239 sitemap/22 dates,8102 links,12 hydration/navigation/Contact; source metadata preserved; production pending | Monitor actual POSH service discovery and qualified actions after reporting access is restored; no current Google/lead uplift claimed. |
+
 ## Weekly check
 
 On the next complete reporting period, append one row here using the same Search Console property and Web search type. Compare mature like-for-like periods; do not attribute immediate changes to a release on the day it ships.
@@ -101,7 +103,7 @@ On the next complete reporting period, append one row here using the same Search
 |---|---|---|---|---|---|---|---|---|
 | 27 Sep 2026 | 46 / 18,265 | 2/18 (29 Sep inspection) | Unknown | 44/46 | 0 in returned rows | Not classified completely | Unmeasured | Pre-PR18–22 baseline; tracker first check pending. |
 | 2 Oct 2026 | 41 / 18,210 | 3/18 (tracker through 5 Oct) | NAINA: Google crawl 30 Sep; other new crawls unknown | 40/41 | 0 in returned rows | Three disclosed, all Home; total unknown | Unmeasured | PR18–22 still maturing; PR23 shipped 5 Oct after this settled performance period. No causal conclusion. |
-| Refresh attempted 7 Oct IST | Unavailable: payment_required | Current unknown; 5 Oct 3/18 remains historical | Unknown | Unknown | Unknown | Unknown | Unknown | Restore access; continue safe public/source work. |
+| Refresh attempted and retried 7 Oct IST | Unavailable: payment_required | Current unknown; 5 Oct 3/18 remains historical | Unknown | Unknown | Unknown | Unknown | Unknown | Restore access; two property and two POSH guides corrected in successive scoped releases; outcomes remain unavailable. |
 
 ## Monthly commercial check
 
