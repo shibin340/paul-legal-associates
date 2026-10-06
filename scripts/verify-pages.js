@@ -253,7 +253,7 @@ for (const route of pagePaths) {
     assert(d.querySelector('nav[aria-label="Workplace and business guides"] a[href="/insights/posh-compliance-employers-mumbai-navi-mumbai/"]'), 'Employer POSH guide missing');
   }
   if (route === '/insights/posh-compliance-employers-mumbai-navi-mumbai/') {
-    assert(d.querySelector('nav[aria-label="Related POSH service"] a[href="/expertise/posh-compliance-internal-committee/"]'), 'POSH article service link missing');
+    assert.equal(d.querySelectorAll('article nav a[href="/expertise/posh-compliance-internal-committee/"]').length, 1, 'POSH article must have one preferred service prompt');
   }
   if (route.startsWith('/insights/') && route !== '/insights/') {
     assert(d.querySelector('main a[href="tel:+917977063567"]'), `${route}: article call path`);
