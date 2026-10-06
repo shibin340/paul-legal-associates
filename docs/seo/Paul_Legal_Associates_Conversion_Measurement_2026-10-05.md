@@ -29,3 +29,7 @@ For GBP website attribution, when owner access is available use `https://paulleg
 Configure phone, WhatsApp, email and handoff as separate intent actions. Do not sum correlated actions as unique leads. A qualified-enquiry/retained-matter metric requires a separate verified office follow-up process. Weekly reporting should compare organic/local landing sessions, action rate and qualified enquiries once collection is validated. Counts currently remain unknown.
 
 Primary guidance checked 5 October: [Google custom events](https://support.google.com/analytics/answer/12229021) and [event parameters](https://support.google.com/analytics/answer/13675006). Do not label this contract as a complete analytics installation.
+
+## Production checkpoint — 7 October 2026 IST
+
+Both revised guide→preferred service→Contact desktop browser paths pass. Telephone and decoded email destinations remain correct; the validated WhatsApp handoff form is visible. No live message or client details were submitted. The event contract is preserved; this cycle did not add a collector or infer any action/enquiry count. GSC Wizard reporting is additionally payment-blocked. Exact unblock: connect the existing actual GA4 property/GTM container or authorised direct measurement configuration, then verify one collector with network collect, Realtime/DebugView and the allowlisted landing/service/origin parameters. Keep intent actions, confirmed qualified enquiries and retained matters separate. Evidence is in [the existing cycle snapshot](evidence/Cycle_2026-10-07.json).

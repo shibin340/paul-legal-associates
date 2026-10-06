@@ -6,7 +6,7 @@
 
 The fresh Google read is blocked by GSC Wizard payment_required. Current Tier-A indexed percentage, new crawls and search performance are **unknown**. The 3/18 inspection result from 5 October and performance through 2 October below remain historical baselines. Public HTTP 200, canonical checks and a successful build do not refresh Google indexation. Existing tracker identity/configuration is preserved; no unchanged indexing request was made.
 
-This cycle verifies public access to all 18 commercial landings, corrects two existing property-support articles, records claim-evidence gaps and resumes the three original recurring tasks. Actual GBP actions, collected conversions/qualified enquiries, Bing indexation, verified AI crawler events and field CWV remain unavailable. See [cycle evidence](evidence/Cycle_2026-10-07.json) and [remaining work](Paul_Legal_Associates_SEO_Remaining_Work_2026-10-05.md).
+This cycle verifies public access to all18 commercial landings, deploys two existing property-support article corrections in [PR #31](https://github.com/shibin340/paul-legal-associates/pull/31), records claim-evidence gaps and resumes the three original recurring tasks. Public exact article/bundle/sitemap checks and both guide→service→Contact browser paths pass; all8 maritime holds remain noindex. One two-URL IndexNow batch returned HTTP200. Shared JS is579,919 raw /153,343 computed gzip bytes (Node24); same-method pre-cycle gzip was153,325. No field-CWV improvement is claimed. Actual GBP actions, collected conversions/qualified enquiries, Bing indexation, verified AI crawler events and field CWV remain unavailable. See [cycle evidence](evidence/Cycle_2026-10-07.json) and [remaining work](Paul_Legal_Associates_SEO_Remaining_Work_2026-10-05.md).
 
 ## Historical execution checkpoint — 5 October 2026
 
@@ -91,6 +91,8 @@ Weekly/monthly process: append settled same-range snapshots and release dates; s
 | 5 Oct | [PR #28](https://github.com/shibin340/paul-legal-associates/pull/28): two current-law updates, authority paths and real lastmod dates | 37 independent public fetches passed; article/profile paths and held exclusions verified; seven changed URLs notified | Improve useful current support and contextual service discovery. |
 | 5 Oct | [PR #29](https://github.com/shibin340/paul-legal-associates/pull/29): focused article recommendations and Finance breadcrumb | Full build and seven mobile routes passed; live content/bundle matched; Finance-only notification accepted | Keep readers and crawlers within relevant service topics. |
 
+| 7 Oct | [PR #31](https://github.com/shibin340/paul-legal-associates/pull/31): source-grounded title due-diligence and developer MahaRERA checklist corrections | CI/Pages passed; all18 commercial routes and8 holds verified; both guide→service→Contact paths work; exact bundle/sitemap/article content matches;2 changed URLs accepted once HTTP200 | Monitor useful guide-to-service discovery and confirmed enquiry progression after reporting access is restored; current Google outcomes remain unknown. |
+
 ## Weekly check
 
 On the next complete reporting period, append one row here using the same Search Console property and Web search type. Compare mature like-for-like periods; do not attribute immediate changes to a release on the day it ships.
@@ -99,7 +101,6 @@ On the next complete reporting period, append one row here using the same Search
 |---|---|---|---|---|---|---|---|---|
 | 27 Sep 2026 | 46 / 18,265 | 2/18 (29 Sep inspection) | Unknown | 44/46 | 0 in returned rows | Not classified completely | Unmeasured | Pre-PR18–22 baseline; tracker first check pending. |
 | 2 Oct 2026 | 41 / 18,210 | 3/18 (tracker through 5 Oct) | NAINA: Google crawl 30 Sep; other new crawls unknown | 40/41 | 0 in returned rows | Three disclosed, all Home; total unknown | Unmeasured | PR18–22 still maturing; PR23 shipped 5 Oct after this settled performance period. No causal conclusion. |
-
 | Refresh attempted 7 Oct IST | Unavailable: payment_required | Current unknown; 5 Oct 3/18 remains historical | Unknown | Unknown | Unknown | Unknown | Unknown | Restore access; continue safe public/source work. |
 
 ## Monthly commercial check
