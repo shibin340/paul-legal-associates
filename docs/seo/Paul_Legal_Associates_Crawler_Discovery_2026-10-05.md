@@ -41,3 +41,7 @@ PR #31 preserved the existing key/workflow and submitted one exact two-guide bat
 ## POSH continuation — 7 October 2026 IST
 
 PR33 accepted one exact two-guide IndexNow batch at20:17:24UTC with HTTP200. The live root key remains verified; receipt is not indexing. Runner checks returned403 with Rays `a467596979c81f56-LAX` and `a46759699afc34b4-LAX`;34 independent public checks and both desktop browser paths pass. Genuine Googlebot/Bingbot/OAI treatment remains unknown without zone logs and verified identity evidence. PR34’s unchanged manifest skipped notification; this documentation-only checkpoint must also skip it. No security rule or bot policy changed. Actual Bing crawl/index/query reports remain blocked by reporting access.
+
+## Contact trust release — 7 October 2026 IST
+
+PR36 notified only the substantively changed Contact URL once: HTTP200 at20:44:12UTC. The live root key remains verified. Its runner check returned403 with Ray `a46780af7c23687a-LAX`; independent public Contact/assets and cloud-browser checks passed. Genuine Google/Bing/OAI treatment still requires actual zone logs and verified identity evidence. The two already-notified POSH guides were not resubmitted. The following documentation-only checkpoint keeps the manifest unchanged and must skip notification. No current Bing crawl/index result is claimed.

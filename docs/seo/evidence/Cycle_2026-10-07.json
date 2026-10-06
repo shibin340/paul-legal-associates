@@ -4410,7 +4410,58 @@
         ]
       }
     },
-    "production": "Pending deployment",
+    "production": {
+      "checkedAtUTC": "2026-10-06T20:46:01.194Z",
+      "sourceMain": "1ad61c97d7679bc8d72733a2de47546cd338a9ed",
+      "contact": {
+        "url": "https://paullegalassociates.com/contact/",
+        "status": 200,
+        "canonical": "https://paullegalassociates.com/contact/",
+        "h1": "Let's Build a Stronger Legal Position",
+        "rawMainSha256": "ce38db7d621776389bd3b7bc3fe05c755e63536475db10cb80d98cbabc0596ae",
+        "normalizedMainSha256": "12d5b022bbf62afd1321c818f05e47d097b1ab209cc707ce3ce3a4704352f70c",
+        "normalizedEmails": 1,
+        "qualifiedWordingPresent": true,
+        "oldBlanketPromiseAbsent": true,
+        "messagePlaceholder": "Briefly state the type of matter and any deadline. Please avoid sensitive details.",
+        "phone": true,
+        "email": true,
+        "form": true,
+        "schemaModificationDate": "2026-10-06"
+      },
+      "bundle": {
+        "path": "/static/js/main.0fda0971.js",
+        "bytes": 579749,
+        "gzipBytes": 153318,
+        "sha256": "3a5d065b40a5551ed7b295f6771ede30ca10adf7dd92e89d86cd790b114b5b29",
+        "status": 200,
+        "matches": true
+      },
+      "sitemap": {
+        "urls": 239,
+        "dated": 22,
+        "sha256": "11269fcb47c12ab0cde67836c1ef775a8cd1938ee008f1411cd306c187f799d6",
+        "status": 200,
+        "matches": true
+      },
+      "indexNowKey": {
+        "status": 200,
+        "verified": true
+      },
+      "priorGuides": [
+        {
+          "url": "https://paullegalassociates.com/insights/posh-compliance-internal-committee-services/",
+          "status": 200,
+          "exactMainMatches": true
+        },
+        {
+          "url": "https://paullegalassociates.com/insights/posh-compliance-employers-mumbai-navi-mumbai/",
+          "status": 200,
+          "exactMainMatches": true
+        }
+      ],
+      "scope": "Contact public HTML/assets and two prior-guide regression checks. Earlier34-page cohort/holds proof is preserved;246 other local main hashes unchanged. Not Google indexing, field CWV or a real enquiry."
+    },
     "googleOutcome": null,
     "enquiryOutcome": null,
     "remainingOwnerEvidence": [
@@ -4418,6 +4469,47 @@
       "Actual response commitment",
       "True office hours",
       "Experience/case/testimonial records"
-    ]
+    ],
+    "release": {
+      "pr": 36,
+      "url": "https://github.com/shibin340/paul-legal-associates/pull/36",
+      "mergeSHA": "1ad61c97d7679bc8d72733a2de47546cd338a9ed",
+      "testedTree": "565b02b93892b880ea842f18f4ef3fbf8aecad76",
+      "deployment": {
+        "run": 37528436545,
+        "job": 112491305452,
+        "conclusion": "success",
+        "pagesRun": 37528696174,
+        "pagesHead": "16b25beb218f9f822e2854b2ce8a95eefacaf3ad",
+        "pagesConclusion": "success"
+      },
+      "indexNow": {
+        "status": 200,
+        "urls": 1,
+        "url": "https://paullegalassociates.com/contact/",
+        "acceptedAtUTC": "2026-10-06T20:44:12.7652964Z",
+        "runnerRay": "a46780af7c23687a-LAX",
+        "manualRepeat": false
+      },
+      "browser": {
+        "status": "passed",
+        "surface": "Cloud Chrome desktop",
+        "url": "https://paullegalassociates.com/contact/",
+        "qualifiedWordingVisible": true,
+        "helperVisible": true,
+        "phone": "tel:+917977063567",
+        "email": "mailto:info@paullegalassociates.com",
+        "directionsVisible": true,
+        "formVisible": true,
+        "formSubmitted": false,
+        "mobile": "No new mobile browser claim"
+      },
+      "measurement": {
+        "googleCurrent": null,
+        "qualifiedEnquiries": null,
+        "collector": "unconfigured"
+      }
+    },
+    "status": "Deployed and production verified; statutory blanket claim qualified. Firm handling and remaining owner evidence unverified."
   }
 }
