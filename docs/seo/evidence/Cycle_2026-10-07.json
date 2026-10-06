@@ -4364,5 +4364,60 @@
         "limitation": "One public requested-gzip asset response. Computed Node24 gzip is153273bytes; different from wire compression. This is not zone configuration, genuine-bot evidence or field CWV."
       }
     }
-  ]
+  ],
+  "trustClaimCorrection": {
+    "dateIST": "2026-10-07",
+    "editorialDateUTC": "2026-10-06",
+    "sourceMain": "d8ceeba79790af760e17ff43eb8494a1cdd7d07d",
+    "claim": "All communications/consultations privileged and strictly confidential from first contact",
+    "sourceEvidence": {
+      "url": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/20063/1/aa202347.pdf",
+      "publisher": "IndiaCode, national statute",
+      "edition": "As on6October2025",
+      "retrieval": "54-page primary PDF available through web reader; relevant sections132–134 on printed pages44–45 read. Direct CLI download timed out; no local valid-PDF hash claimed.",
+      "basis": "Statute defines professional-communication scope, express consent and specific exceptions; it does not support an unconditional all-communications promise. Do not equate advice defending a past offence with advice furthering an illegal purpose.",
+      "limit": "Narrow qualification only; no exhaustive current privilege/case-specific opinion or firm data-handling-policy verification asserted."
+    },
+    "change": "Qualify the universal promise; guide an initial enquiry to matter type/deadline and appropriate later document sharing. Existing contact mechanics/privacy-safe event hooks unchanged.",
+    "affectedURLs": [
+      "https://paullegalassociates.com/contact/"
+    ],
+    "validation": {
+      "build": "PASS247routes/239sitemap/8101links/12hydration-navigation plus Contact checks",
+      "contact": {
+        "canonical": "https://paullegalassociates.com/contact/",
+        "h1": "Let's Build a Stronger Legal Position",
+        "mainSha256": "12d5b022bbf62afd1321c818f05e47d097b1ab209cc707ce3ce3a4704352f70c",
+        "blanketPromiseAbsent": true,
+        "qualifiedWordingPresent": true,
+        "messagePlaceholder": "Briefly state the type of matter and any deadline. Please avoid sensitive details."
+      },
+      "sitemap": {
+        "urls": 239,
+        "dated": 22,
+        "sha256": "11269fcb47c12ab0cde67836c1ef775a8cd1938ee008f1411cd306c187f799d6"
+      },
+      "bundle": {
+        "path": "/static/js/main.0fda0971.js",
+        "bytes": 579749,
+        "gzipBytes": 153318,
+        "sha256": "3a5d065b40a5551ed7b295f6771ede30ca10adf7dd92e89d86cd790b114b5b29"
+      },
+      "mainPreservation": {
+        "unchanged": 246,
+        "changed": [
+          "contact/index.html"
+        ]
+      }
+    },
+    "production": "Pending deployment",
+    "googleOutcome": null,
+    "enquiryOutcome": null,
+    "remainingOwnerEvidence": [
+      "Firm data handling policy",
+      "Actual response commitment",
+      "True office hours",
+      "Experience/case/testimonial records"
+    ]
+  }
 }
