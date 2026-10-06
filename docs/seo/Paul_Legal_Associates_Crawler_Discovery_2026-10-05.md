@@ -33,3 +33,7 @@ The 30 September three-URL batch returned HTTP 202 pending key validation. Today
 Public asset evidence after PR #26: gzip compression observed; Cloudflare cache hit with `max-age=14400`. Long-lived immutable caching/Brotli settings are not verified through zone access. No cache/security change is inferred from a header.
 
 Measure real search crawler success/challenge rates, Bing first crawl/indexing and service queries once the corresponding account data is connected. AI referral counts require an actual analytics collector; no rows in GSC search appearance do not prove zero AI visibility.
+
+## Production checkpoint — 7 October 2026 IST
+
+PR #31 preserved the existing key/workflow and submitted one exact two-guide batch. [Build/deploy run](https://github.com/shibin340/paul-legal-associates/actions/runs/37518505768) succeeded; notification returned HTTP200 at19:24:45UTC. Runner HTML checks received403 with Rays `a4670c4f8d125e93-ATL` and `a4670c4fcbe0fb29-BNA`. Independent public fetches and the cloud browser returned complete200 content for both guides; all18 commercial routes and8 held articles also passed. This remains client-specific evidence, with genuine Google/Bing/OAI treatment unknown pending actual zone events. No security setting changed and no local repeat batch was sent. Bing Webmaster reporting is unavailable; acceptance is not indexing. The docs-only checkpoint leaves the manifest unchanged and must skip IndexNow. Exact evidence is in [the existing cycle snapshot](evidence/Cycle_2026-10-07.json).
