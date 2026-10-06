@@ -40,5 +40,6 @@ export const insightServiceLinks: Record<string, string> = {
   'labour-code-readiness-2026': 'labour-employment-hr-workplace-compliance',
   'pf-esic-factory-contract-labour-compliance': 'labour-employment-hr-workplace-compliance',
   'posh-compliance-internal-committee-services': 'posh-compliance-internal-committee',
+  'posh-compliance-employers-mumbai-navi-mumbai': 'posh-compliance-internal-committee',
   'gst-tax-litigation-advisory': 'taxation-gst-fiscal-litigation'
 };
