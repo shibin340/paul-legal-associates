@@ -104,7 +104,7 @@ ${form.message}
               Let's Start a <em className="not-italic italic text-gold">Conversation</em>
             </h2>
             <p className="font-serif-alt font-light text-muted leading-[1.8] text-[1.02rem] mb-8">
-              Contact us for a confidential, no-obligation first consultation. All communications are protected by attorney-client privilege.
+              Contact us to arrange an initial consultation and discuss the next step for your matter.
             </p>
 
             {/* Contact details */}
@@ -145,7 +145,7 @@ ${form.message}
             <div className="flex items-start gap-3 p-4 border border-gold/20 bg-gold/5" role="note">
               <span className="text-lg flex-shrink-0" aria-hidden="true">🔒</span>
               <p className="text-[0.82rem] text-muted leading-[1.6] italic">
-                All consultations are strictly confidential and protected by attorney-client privilege from the moment of first contact.
+                Legal professional privilege is subject to applicable law and its exceptions. Keep your initial enquiry brief; we can discuss an appropriate way to share documents.
               </p>
             </div>
           </AnimateIn>
@@ -196,7 +196,7 @@ ${form.message}
 
                   <div className="flex flex-col gap-1.5">
                     <label className="form-label" htmlFor="message">Your Message *</label>
-                    <textarea id="message" name="message" className={`${inputBase} ${errors.message ? inputErr : inputOk} min-h-[140px] resize-y`} placeholder="Please describe your legal matter briefly..." value={form.message} onChange={handleChange} />
+                    <textarea id="message" name="message" className={`${inputBase} ${errors.message ? inputErr : inputOk} min-h-[140px] resize-y`} placeholder="Briefly state the type of matter and any deadline. Please avoid sensitive details." value={form.message} onChange={handleChange} />
                     {errors.message && <span className="text-[0.75rem] text-red-500" role="alert">{errors.message}</span>}
                   </div>
 
@@ -209,7 +209,7 @@ ${form.message}
                       <span>📱</span>
                       Continue on WhatsApp
                     </button>
-                    <p className="text-[0.74rem] text-muted italic">* Required. All details kept strictly confidential.</p>
+                    <p className="text-[0.74rem] text-muted italic">* Required. Include the type of matter and any deadline; please avoid confidential evidence or sensitive case details here.</p>
                   </div>
                 </form>
               </div>
