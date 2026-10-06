@@ -1,8 +1,9 @@
 {
-  "date": "2026-10-05",
-  "reason": "Finance service adds a visible canonical breadcrumb and matching entity relationship. Topic recommendation code is corrected without resubmitting the recent unchanged article bodies.",
+  "date": "2026-10-06",
+  "reason": "Targeted primary-source corrections to the existing property title and developer RERA checklists; no unchanged service URL resubmission. Editorial dates use UTC; execution cycle is 7 October IST.",
   "keyFile": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb.txt",
   "urls": [
-    "https://paullegalassociates.com/finance-tax-regulatory-advisory/"
+    "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
+    "https://paullegalassociates.com/insights/rera-compliance-checklist-developers/"
   ]
 }

@@ -1790,49 +1790,77 @@ export const ARTICLES: Article[] = [
     tags: ["RERA", "Real Estate", "Compliance", "Redevelopment"],
     content: [
       {
-        paragraphs: [
-          "The Real Estate (Regulation and Development) Act, 2016 fundamentally changed how developers in Maharashtra structure, market and execute residential and commercial projects. Yet, more than seven years after MahaRERA became operational, we continue to see avoidable compliance lapses derail otherwise sound projects.",
-          "Having represented developers and builders before MahaRERA and the Bombay High Court & Supreme Court of India for over a decade, our redevelopment practice has distilled the most common pitfalls into a practical checklist. This is not an exhaustive legal treatise — it is the set of questions we ask every client before a single brick is laid.",
-        ],
+        "paragraphs": [
+          "A developer's compliance check should begin with the project and phase, sanctioned plans, title documents, promoter arrangements and registration status. The Real Estate (Regulation and Development) Act, 2016 and Maharashtra's implementing requirements must be read with current MahaRERA orders and the facts of the particular project."
+        ]
       },
       {
-        heading: "1. Registration Before Advertisement",
-        paragraphs: [
-          "The single most litigated issue we encounter is developers advertising, marketing or accepting bookings before obtaining a valid RERA registration number. Section 3 of the Act makes registration mandatory for any project where the land exceeds 500 square metres or involves more than eight apartments.",
-          "Before any marketing collateral is printed — brochures, hoardings, digital ads — confirm the registration certificate is in hand. Retrofitting compliance after the fact invites penalties under Section 59 and can taint otherwise valid sale agreements.",
-        ],
+        "heading": "1. Registration Before Advertisement",
+        "paragraphs": [
+          "Section 3 restricts advertising, marketing, booking, selling or offering a real estate project for sale without registration where the Act applies. Assess any exemption under section 3(2) on the actual land area, apartment count across phases, completion status and nature of the development. A simplified size threshold should not substitute for that assessment.",
+          "Keep the registration and any exemption analysis with the approved plans before launching advertisements or accepting bookings. Check the current requirements for the registration number, QR code and promotional disclosures against MahaRERA's official directions; do not rely on an old brochure template."
+        ]
       },
       {
-        heading: "2. The 70% Escrow Requirement",
-        paragraphs: [
-          "Seventy percent of amounts realised from allottees must be deposited in a separate RERA escrow account, to be used only for land and construction costs of that specific project. We routinely see developers commingle funds across projects — a practice that exposes promoters to both regulatory action and personal liability.",
+        "heading": "2. The Separate Account and Designated Banking Arrangement",
+        "paragraphs": [
+          "Section 4(2)(l)(D) requires seventy per cent of amounts realised from allottees to be placed in a separate scheduled-bank account for land and construction costs. Withdrawals must be proportionate to the percentage of completion of the project and backed by the prescribed engineer, architect and practising chartered-accountant certification; the annual account audit is also a separate obligation.",
+          "MahaRERA Order 56/2024 specifies designated collection, separate and transaction bank accounts. It expressly distinguishes the designated separate account from an escrow account. Check which arrangement applies to the project's registration date and promoter structure, including subsequent clarifications for landowners or multiple promoters. A label such as 'escrow' does not establish compliance."
         ],
-        list: [
-          "Maintain project-wise separate bank accounts from day one",
-          "Engage a chartered engineer, architect and CA to certify withdrawal requests",
-          "Reconcile escrow withdrawals against the percentage of construction completed",
-        ],
+        "list": [
+          "Reconcile allottee receipts with the designated accounts and applicable bank instructions.",
+          "Keep the required withdrawal certificates, project-cost records and bank statements together.",
+          "Check current reporting, audit and account-change requirements before moving funds or changing the bank arrangement."
+        ]
       },
       {
-        heading: "3. Quarterly Disclosures and the QPR",
-        paragraphs: [
-          "The Quarterly Progress Report is not a formality — MahaRERA actively cross-references QPR filings against complaint data and site inspections. Delayed or inaccurate QPRs are now one of the most common grounds for show-cause notices we handle.",
-        ],
+        "heading": "3. Quarterly Disclosures and Annual Records",
+        "paragraphs": [
+          "Section 11(1) requires quarterly updates of the prescribed project information. Reconcile bookings, approvals and construction status with the supporting records rather than simply repeating the previous quarter's return. Review current quarterly and annual filing requirements, portal status and any project-specific notice or order.",
+          "Maintain a responsibility list for the promoter, architect, engineer, accountant and registration team. A filed update is not evidence that every underlying approval, figure or representation is correct."
+        ]
       },
       {
-        heading: "4. Redevelopment-Specific Considerations",
-        paragraphs: [
-          "For societies undergoing redevelopment, RERA registration is required even where existing members are merely being rehoused, if any portion of the project is sold to third parties. We've represented several developers where this nuance was overlooked, leading to costly remediation.",
-          "Our recommendation: treat every redevelopment project as RERA-applicable unless your legal counsel has specifically confirmed an exemption applies.",
-        ],
+        "heading": "4. Redevelopment-Specific Considerations",
+        "paragraphs": [
+          "Section 3(2)(c) addresses renovation, repair or redevelopment that does not involve marketing, advertising, selling or new allotment. A redevelopment with a sale component must be assessed against the Act and any other applicable exemption; rehousing existing members does not by itself establish exemption.",
+          "Review the development agreement, society and member documents, sanctioned plans, sale inventory and promoter or landowner entitlements together. Record the basis for the registration decision and revisit it if the approved scope or sale arrangements change."
+        ]
       },
       {
-        heading: "Final Word",
-        paragraphs: [
-          "RERA compliance is not a one-time exercise — it is a discipline that must be embedded into a developer's operational rhythm. The cost of a compliance lapse, in penalties, reputational damage and allottee litigation, dwarfs the cost of proper legal structuring at the outset.",
-          "If you are planning a new project or redevelopment in Navi Mumbai or the wider MMR region, our property law team would be glad to walk through your specific structure before you proceed.",
+        "heading": "Documents for a Focused Compliance Review",
+        "list": [
+          "Project/phase registration details, approved plans, permissions and declared completion dates.",
+          "Title report, development agreement, promoter/landowner arrangements and encumbrance disclosures.",
+          "Draft allotment letter, agreement for sale and current advertising material.",
+          "Designated-account details, bank instructions, receipts, withdrawal certificates and annual audit records.",
+          "Recent quarterly/annual submissions and any notice, complaint or authority order."
         ],
+        "paragraphs": [
+          "Identify the immediate transaction or filing deadline when seeking advice. The review should establish missing records, inconsistent disclosures and practical corrective steps for that project. This checklist is general preparation guidance and does not certify a project's compliance."
+        ]
       },
+      {
+        "heading": "Primary Sources and Current Requirements",
+        "resources": [
+          {
+            "label": "India Code: Real Estate Act, sections 3, 4 and 11",
+            "href": "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2158/1/A201616.pdf"
+          },
+          {
+            "label": "MahaRERA Order 56/2024: designated project bank-account directions",
+            "href": "https://www.maharera.maharashtra.gov.in/sites/default/files/notice_board_files/Order_No_56_2024_compressed.pdf"
+          },
+          {
+            "label": "MahaRERA: current orders and project-specific clarifications",
+            "href": "https://www.maharera.maharashtra.gov.in/order"
+          },
+          {
+            "label": "MahaRERA: official project records and quarterly/annual update services",
+            "href": "https://www.maharera.maharashtra.gov.in/"
+          }
+        ]
+      }
     ],
   },
   {
@@ -2047,48 +2075,79 @@ export const ARTICLES: Article[] = [
     tags: ["Due Diligence", "Property Law", "Conveyancing"],
     content: [
       {
-        paragraphs: [
-          "In our property law practice, the disputes we are called to resolve almost always trace back to inadequate due diligence at the time of purchase. A clean, marketable title is the foundation of every property transaction — and verifying it properly requires more than a cursory document check.",
-        ],
+        "paragraphs": [
+          "Before committing to a flat, plot or land purchase, check whether the seller can lawfully transfer the rights being offered. A registered deed, revenue entry or bank approval answers only part of that question. The investigation should connect the ownership documents with encumbrances, permissions, possession and the proposed agreement."
+        ]
       },
       {
-        heading: "The 30-Year Title Chain",
-        paragraphs: [
-          "Maharashtra practice generally requires examining the chain of title for a minimum of 30 years, tracing every transfer — sale, gift, inheritance, partition — to confirm an unbroken and legally valid chain of ownership. Gaps or ambiguities in this chain are the single most common source of future litigation.",
-        ],
+        "heading": "The Title Chain and Search Period",
+        "paragraphs": [
+          "Identify the starting title document and follow every sale, gift, inheritance, partition or other transfer to the present seller. Record the search period and the offices and records examined. A 30-year search window does not make an unexplained earlier defect disappear: an older grant, lease, inheritance or disputed transfer may still need examination.",
+          "Ask for a written account of missing links, qualifications and documents that must be obtained before completion. The period searched is part of the scope of an investigation, rather than a guarantee of clear title."
+        ]
       },
       {
-        heading: "Essential Document Verification",
-        paragraphs: [
-          "Beyond the sale deed itself, a thorough due diligence exercise must verify several supporting documents, each of which can reveal encumbrances or defects not apparent from the title deed alone.",
+        "heading": "Essential Document Verification",
+        "paragraphs": [
+          "Match the survey or gat number, hissa, area, boundaries, flat particulars and party names across the documents. For Maharashtra land, distinguish a view-only online extract from an authenticated or digitally signed record and obtain the mutation entries and underlying orders where relevant."
         ],
-        list: [
-          "7/12 extract (or Property Card for urban areas) — confirms current revenue record ownership",
-          "Search report from the Sub-Registrar's office — reveals any registered encumbrances, mortgages or charges",
-          "Property tax receipts — confirms no outstanding municipal dues that could attach to the property",
-          "NA (Non-Agricultural) conversion order — essential where agricultural land is being purchased for non-agricultural use",
-          "Society NOC and share certificate — for apartment purchases, confirms the seller's standing with the society",
-          "Pending litigation search — confirms no civil suits, injunctions or attachment orders affect the property",
-        ],
+        "list": [
+          "Title deeds and registered instruments: obtain the complete documents and relevant Index II or certified copies; a registration summary is not a substitute for the deed.",
+          "7/12 extract or urban Property Card: examine recorded rights and mutation history. Revenue entries do not themselves confer ownership; the underlying title must be checked separately.",
+          "Encumbrances: examine registration records and relevant lender releases, security records and company charges where applicable. An office search cannot guarantee that every unregistered interest or undisclosed claim has been found.",
+          "Land use and planning: check the applicable use, reservation, acquisition notices, sanctioned plans and permissions for the specific parcel. Establish the relevant non-agricultural-use route rather than assume the same standalone order is required for every property.",
+          "Society or leasehold records: check membership, share certificate, conveyance or lease, dues and transfer conditions. Confirm whether a particular society or lessor consent is actually required.",
+          "Disputes and possession: search the relevant courts and authorities using available party and property details, review notices or orders and reconcile actual possession. A search result is limited by the records, identifiers and period examined."
+        ]
       },
       {
-        heading: "RERA-Specific Diligence for Under-Construction Property",
-        paragraphs: [
-          "For under-construction purchases, diligence must extend to the project's RERA registration status, the developer's track record on the RERA portal, and critically, confirmation that the specific unit being purchased is reflected accurately in the registered project plan. We have seen disputes arise where carpet area calculations or unit numbering changed between booking and registration.",
-        ],
+        "heading": "RERA-Specific Diligence for Under-Construction Property",
+        "paragraphs": [
+          "Verify the specific project and phase on the official MahaRERA portal, including its registration status, declared completion date, available updates and orders. Compare the proposed unit, carpet area, plans and payment terms with the documents being signed. RERA registration does not replace a separate title, approval or agreement review."
+        ]
       },
       {
-        heading: "Redevelopment and Society Properties",
-        paragraphs: [
-          "Where a property is part of a society undergoing or contemplating redevelopment, additional diligence is essential — confirming the society's conveyance status, any existing development agreement terms, and whether the specific unit carries any redevelopment-related restrictions on transfer.",
-        ],
+        "heading": "Redevelopment and Society Properties",
+        "paragraphs": [
+          "Check the society's conveyance or deemed-conveyance status, development agreement, member entitlements and any restrictions affecting transfer. For CIDCO leasehold property or land within a planning scheme, examine the relevant lease, authority record and scheme status alongside the title chain."
+        ]
       },
       {
-        heading: "Why Professional Diligence Pays for Itself",
-        paragraphs: [
-          "The cost of professional title due diligence is a small fraction of the property's value — yet it is the single most effective safeguard against the disputes, encumbrances and litigation that can otherwise consume years and far exceed that initial cost. We recommend engaging legal counsel before signing any agreement to sell, not merely before the final registration.",
+        "heading": "What to Bring Before Signing or Paying",
+        "list": [
+          "The draft agreement, proposed payment dates and any booking or token-payment document.",
+          "Available root and subsequent deeds, latest revenue/property-card records, mutation entries and registration particulars.",
+          "Known loan or charge documents, releases, planning or building approvals, society/lessor records and dispute papers.",
+          "A clear description of the property, current possession and any missing originals or inconsistencies already identified."
         ],
+        "paragraphs": [
+          "The resulting advice should distinguish verified facts, unresolved risks, further searches and conditions to satisfy before payment or completion. Due diligence reduces identifiable risk; it cannot promise that no concealed fact, forgery or future dispute will arise. Discuss the transaction before signing a binding commitment."
+        ]
       },
+      {
+        "heading": "Official Records and Legal Sources",
+        "paragraphs": [
+          "The Supreme Court reaffirmed in Karam Singh v. Amarjit Singh (2025 INSC 1238, paragraph 16) that mutation entries serve a fiscal purpose and do not confer title. Use the official record services below with the complete transaction papers."
+        ],
+        "resources": [
+          {
+            "label": "Supreme Court: Karam Singh v. Amarjit Singh, 2025 INSC 1238, paragraph 16",
+            "href": "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf"
+          },
+          {
+            "label": "Maharashtra land-record services: signed records, mutation and measurement",
+            "href": "https://mahabhumi.gov.in/mahabhumilink/"
+          },
+          {
+            "label": "IGR Maharashtra: official registration and document-search services",
+            "href": "https://igrmaharashtra.gov.in/Home"
+          },
+          {
+            "label": "MahaRERA: official project records and quarterly/annual update services",
+            "href": "https://www.maharera.maharashtra.gov.in/"
+          }
+        ]
+      }
     ],
   },
   {

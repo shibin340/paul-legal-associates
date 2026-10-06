@@ -9,21 +9,26 @@
       "title": "RERA Compliance: A Practical Checklist for Developers in Maharashtra",
       "author": "Adv. Sojan Paul",
       "publicationDate": "March 18, 2022",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain existing intent and URL after targeted primary-source accuracy corrections; no merger/redirect justified.",
+      "currentLawReview": "Targeted passages reviewed 7 October IST; source text/index evidence and retrieval limits recorded in Cycle_2026-10-07.json. Not a complete statutory/project opinion or named-advocate approval.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 431,
-      "sections": 6,
-      "primarySources": [],
+      "wordEvidence": 555,
+      "sections": 7,
+      "primarySources": [
+        "https://www.indiacode.nic.in/indiacode/bitstream/123456789/2158/1/A201616.pdf",
+        "https://www.maharera.maharashtra.gov.in/sites/default/files/notice_board_files/Order_No_56_2024_compressed.pdf",
+        "https://www.maharera.maharashtra.gov.in/order",
+        "https://www.maharera.maharashtra.gov.in/"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked 7 October IST by GSC Wizard payment_required; do not infer indexing from public HTTP 200.",
       "gsc": [],
       "preferredService": "/expertise/rera-maharera-legal-services/",
       "tierASupport": [
@@ -55,7 +60,11 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "March 18, 2022",
+        "preservedAuthor": "Adv. Sojan Paul"
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/labour-code-readiness-2026/",
@@ -249,21 +258,26 @@
       "title": "Title Due Diligence: The Non-Negotiables Before Any Property Purchase",
       "author": "Adv. Sojan Paul",
       "publicationDate": "December 8, 2025",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-06",
+      "disposition": "KEEP",
+      "reason": "Retain existing intent and URL after targeted primary-source accuracy corrections; no merger/redirect justified.",
+      "currentLawReview": "Targeted passages reviewed 7 October IST; source text/index evidence and retrieval limits recorded in Cycle_2026-10-07.json. Not a complete statutory/project opinion or named-advocate approval.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 366,
-      "sections": 6,
-      "primarySources": [],
+      "wordEvidence": 615,
+      "sections": 7,
+      "primarySources": [
+        "https://api.sci.gov.in/supremecourt/2022/32133/32133_2022_14_1502_65047_Judgement_15-Oct-2025.pdf",
+        "https://mahabhumi.gov.in/mahabhumilink/",
+        "https://igrmaharashtra.gov.in/Home",
+        "https://www.maharera.maharashtra.gov.in/"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked 7 October IST by GSC Wizard payment_required; do not infer indexing from public HTTP 200.",
       "gsc": [],
       "preferredService": "/expertise/property-title-verification-due-diligence/",
       "tierASupport": [
@@ -310,7 +324,11 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedPublicationDate": "December 8, 2025",
+        "preservedAuthor": "Adv. Sojan Paul"
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/mergers-acquisitions-legal-essentials/",
@@ -7055,5 +7073,6 @@
       ],
       "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
     }
-  ]
+  ],
+  "lastUpdated": "2026-10-07 IST"
 }
