@@ -1,0 +1,3585 @@
+{
+  "schemaVersion": 1,
+  "observedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+  "timezone": "Asia/Calcutta",
+  "sourceMain": "26799ca6d8f625b1a51b9f29903aefaf238b6689",
+  "latestMergedPRAtStart": 44,
+  "permanentScorecard": "../Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md",
+  "programmeStage": {
+    "achieved": null,
+    "next": "Stage 1: reconcile real office/profile/citations; not established from website delivery alone"
+  },
+  "production": [
+    {
+      "url": "https://paullegalassociates.com/",
+      "observedAtUTC": "2026-10-07T13:45:44.251597+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "bb70b31b3cc85a775ba0cd1298748ccc8780740b24183f54cf240a1e97f8b6b6",
+      "bytes": 60610,
+      "canonical": [
+        "https://paullegalassociates.com/"
+      ],
+      "h1Count": 1,
+      "phoneLinks": [
+        "tel:+917977063567"
+      ],
+      "bundle": [
+        "/static/js/main.282269f8.js"
+      ],
+      "firmEntities": [
+        {
+          "@type": "LegalService",
+          "@id": "https://paullegalassociates.com/#firm",
+          "name": "Paul Legal Associates (Advocates)",
+          "alternateName": "Paul Legal Associates",
+          "description": "Legal practice in Panvel and Navi Mumbai covering property law, compliance, commercial litigation, banking and land matters.",
+          "slogan": "Enduring Values. Delivering Results.",
+          "url": "https://paullegalassociates.com/",
+          "telephone": "+91-7977063567",
+          "email": "info@paullegalassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel",
+            "addressLocality": "Panvel, Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "410206",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 18.9894,
+            "longitude": 73.1175
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "18:00"
+            }
+          ],
+          "employee": [
+            {
+              "@id": "https://paullegalassociates.com/partners/pp-polachan/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sojan-paul/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sonam-paul/#person"
+            }
+          ]
+        }
+      ],
+      "hasCurrentOffice": true,
+      "hasDirections": false,
+      "hasCollector": false
+    },
+    {
+      "url": "https://paullegalassociates.com/contact/",
+      "observedAtUTC": "2026-10-07T13:45:44.252551+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "d81711ab28f9adcbe0df9751bfd7bbbeaa56dd0b3cd1d8f156bda1a874bffe2f",
+      "bytes": 30267,
+      "canonical": [
+        "https://paullegalassociates.com/contact/"
+      ],
+      "h1Count": 1,
+      "phoneLinks": [
+        "tel:+917977063567"
+      ],
+      "bundle": [
+        "/static/js/main.282269f8.js"
+      ],
+      "firmEntities": [
+        {
+          "@type": "LegalService",
+          "@id": "https://paullegalassociates.com/#firm",
+          "name": "Paul Legal Associates (Advocates)",
+          "alternateName": "Paul Legal Associates",
+          "description": "Legal practice in Panvel and Navi Mumbai covering property law, compliance, commercial litigation, banking and land matters.",
+          "slogan": "Enduring Values. Delivering Results.",
+          "url": "https://paullegalassociates.com/",
+          "telephone": "+91-7977063567",
+          "email": "info@paullegalassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel",
+            "addressLocality": "Panvel, Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "410206",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 18.9894,
+            "longitude": 73.1175
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "18:00"
+            }
+          ],
+          "employee": [
+            {
+              "@id": "https://paullegalassociates.com/partners/pp-polachan/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sojan-paul/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sonam-paul/#person"
+            }
+          ]
+        }
+      ],
+      "hasCurrentOffice": true,
+      "hasDirections": true,
+      "hasCollector": false
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "observedAtUTC": "2026-10-07T13:45:44.253201+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "2e73491e0be6f68722971252f4fef80c2e01038185c3527f04d5cc0e5df6b4a1",
+      "bytes": 31431,
+      "canonical": [
+        "https://paullegalassociates.com/expertise/property-real-estate/"
+      ],
+      "h1Count": 1,
+      "phoneLinks": [
+        "tel:+917977063567"
+      ],
+      "bundle": [
+        "/static/js/main.282269f8.js"
+      ],
+      "firmEntities": [
+        {
+          "@type": "LegalService",
+          "@id": "https://paullegalassociates.com/#firm",
+          "name": "Paul Legal Associates (Advocates)",
+          "alternateName": "Paul Legal Associates",
+          "description": "Legal practice in Panvel and Navi Mumbai covering property law, compliance, commercial litigation, banking and land matters.",
+          "slogan": "Enduring Values. Delivering Results.",
+          "url": "https://paullegalassociates.com/",
+          "telephone": "+91-7977063567",
+          "email": "info@paullegalassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel",
+            "addressLocality": "Panvel, Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "410206",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 18.9894,
+            "longitude": 73.1175
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "18:00"
+            }
+          ],
+          "employee": [
+            {
+              "@id": "https://paullegalassociates.com/partners/pp-polachan/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sojan-paul/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sonam-paul/#person"
+            }
+          ]
+        }
+      ],
+      "hasCurrentOffice": true,
+      "hasDirections": false,
+      "hasCollector": false
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "observedAtUTC": "2026-10-07T13:45:44.254231+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "55d938947a9682dd577f74da171b6969d5bbe2d8003636794fc44b0327c9bb36",
+      "bytes": 32450,
+      "canonical": [
+        "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/"
+      ],
+      "h1Count": 1,
+      "phoneLinks": [
+        "tel:+917977063567"
+      ],
+      "bundle": [
+        "/static/js/main.282269f8.js"
+      ],
+      "firmEntities": [
+        {
+          "@type": "LegalService",
+          "@id": "https://paullegalassociates.com/#firm",
+          "name": "Paul Legal Associates (Advocates)",
+          "alternateName": "Paul Legal Associates",
+          "description": "Legal practice in Panvel and Navi Mumbai covering property law, compliance, commercial litigation, banking and land matters.",
+          "slogan": "Enduring Values. Delivering Results.",
+          "url": "https://paullegalassociates.com/",
+          "telephone": "+91-7977063567",
+          "email": "info@paullegalassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel",
+            "addressLocality": "Panvel, Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "410206",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 18.9894,
+            "longitude": 73.1175
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "18:00"
+            }
+          ],
+          "employee": [
+            {
+              "@id": "https://paullegalassociates.com/partners/pp-polachan/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sojan-paul/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sonam-paul/#person"
+            }
+          ]
+        }
+      ],
+      "hasCurrentOffice": true,
+      "hasDirections": false,
+      "hasCollector": false
+    },
+    {
+      "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "observedAtUTC": "2026-10-07T13:45:44.254705+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "02b7d2ddb0ba36509ac15b7b3e04d533f8be81b5b7d1f62276f672d39c6091a5",
+      "bytes": 31600,
+      "canonical": [
+        "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/"
+      ],
+      "h1Count": 1,
+      "phoneLinks": [
+        "tel:+917977063567"
+      ],
+      "bundle": [
+        "/static/js/main.282269f8.js"
+      ],
+      "firmEntities": [
+        {
+          "@type": "LegalService",
+          "@id": "https://paullegalassociates.com/#firm",
+          "name": "Paul Legal Associates (Advocates)",
+          "alternateName": "Paul Legal Associates",
+          "description": "Legal practice in Panvel and Navi Mumbai covering property law, compliance, commercial litigation, banking and land matters.",
+          "slogan": "Enduring Values. Delivering Results.",
+          "url": "https://paullegalassociates.com/",
+          "telephone": "+91-7977063567",
+          "email": "info@paullegalassociates.com",
+          "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel",
+            "addressLocality": "Panvel, Navi Mumbai",
+            "addressRegion": "Maharashtra",
+            "postalCode": "410206",
+            "addressCountry": "IN"
+          },
+          "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 18.9894,
+            "longitude": 73.1175
+          },
+          "openingHoursSpecification": [
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": [
+                "Monday",
+                "Tuesday",
+                "Wednesday",
+                "Thursday",
+                "Friday"
+              ],
+              "opens": "10:00",
+              "closes": "20:00"
+            },
+            {
+              "@type": "OpeningHoursSpecification",
+              "dayOfWeek": "Saturday",
+              "opens": "10:00",
+              "closes": "18:00"
+            }
+          ],
+          "employee": [
+            {
+              "@id": "https://paullegalassociates.com/partners/pp-polachan/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sojan-paul/#person"
+            },
+            {
+              "@id": "https://paullegalassociates.com/partners/sonam-paul/#person"
+            }
+          ]
+        }
+      ],
+      "hasCurrentOffice": true,
+      "hasDirections": false,
+      "hasCollector": false
+    },
+    {
+      "url": "https://paullegalassociates.com/robots.txt",
+      "observedAtUTC": "2026-10-07T13:45:44.255288+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "162f0347ae184a6cc3b8f3d22883a1416542c6aad2d81476ad9d76c7dfe07d74",
+      "bytes": 501,
+      "body": "# ====================================================================\n# Robots.txt for Paul Legal Associates (https://paullegalassociates.com)\n# ====================================================================\n\nUser-agent: *\n\n# Public presentation routes - Explicitly allowed for safe indexing\nAllow: /\nAllow: /about\nAllow: /expertise\nAllow: /partners\nAllow: /insights\nAllow: /contact\n\n# Point all crawlers to the static site architecture map\nSitemap: https://paullegalassociates.com/sitemap.xml\n"
+    },
+    {
+      "url": "https://paullegalassociates.com/sitemap.xml",
+      "observedAtUTC": "2026-10-07T13:45:44.256166+00:00",
+      "method": "ordinary HTTP client; not a verified search crawler",
+      "status": 200,
+      "sha256": "cd8a990d2c822e9fdfb004c939e56311971f184f33e879fedaa84850dca28c40",
+      "bytes": 26074,
+      "sitemapURLCount": 239,
+      "datedURLCount": 32
+    }
+  ],
+  "availability": {
+    "semrush": {
+      "status": "UNAVAILABLE_IN_THIS_RUN",
+      "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+      "installed": false,
+      "callableTools": 0,
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "exactAccess": "Install/connect Semrush in this Work account/run; a Semrush web-account subscription alone does not expose reports here",
+      "existingSuggestionObserved": true
+    },
+    "gsc": {
+      "status": "PAYMENT_REQUIRED",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "exactAccess": "Restore existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription or connect an authorised alternative; retain the existing tracker"
+    },
+    "gbp": {
+      "status": "MANAGER_ACCESS_UNAVAILABLE",
+      "exactAccess": "Manager access to the existing PLA Business Profile, its actual profile/place ID, edit information and Performance reporting; no replacement profile"
+    },
+    "geoRankTracking": {
+      "status": "UNAVAILABLE",
+      "exactAccess": "Connected location-controlled Google Local Pack/Maps and organic tracking with engine, language, device, timestamps and verified coordinates"
+    },
+    "ga4gtm": {
+      "status": "COLLECTOR_NOT_CONFIGURED",
+      "exactAccess": "Actual existing GA4 property/measurement ID or GTM container and authorised configuration; verify one collector and DebugView before counting actions"
+    },
+    "bing": {
+      "status": "REPORTING_UNAVAILABLE",
+      "exactAccess": "Verified paullegalassociates.com Bing Webmaster reporting/API connection"
+    },
+    "cloudflare": {
+      "status": "VERIFIED_CRAWLER_LOGS_UNAVAILABLE",
+      "exactAccess": "Zone Security Events/verified-bot logs and WAF/Bot/Crawl Control read access"
+    },
+    "directories": {
+      "status": "OWNED_PROFILE_ACCESS_UNAVAILABLE",
+      "exactAccess": "Existing Justdial/GetLaw/Bdir correction ownership or verified editor route; LinkedIn remains user-owned"
+    },
+    "ownerFacts": {
+      "status": "HOURS_PIN_AND_CLAIMS_UNCONFIRMED",
+      "exactAccess": "Office administrator confirmation of current hours, exact entrance/pin, other live offices and phone ownership; managing-partner claim/testimonial evidence"
+    }
+  },
+  "semrushBaseline": {
+    "status": "NOT_MEASURED",
+    "databaseRequested": "in",
+    "scope": "India database; national volume must not be relabelled as Panvel demand",
+    "reportDate": null,
+    "organicKeywords": null,
+    "top3Keywords": null,
+    "top10Keywords": null,
+    "top20Keywords": null,
+    "estimatedOrganicTraffic": null,
+    "authorityScore": null,
+    "backlinks": null,
+    "referringDomains": null,
+    "newBacklinks": null,
+    "lostBacklinks": null,
+    "organicCompetitors": null,
+    "topPages": null,
+    "keywordGap": null,
+    "backlinkGap": null,
+    "rankingChanges": null,
+    "movement": "UNMEASURED; no comparable Semrush snapshots"
+  },
+  "keywords": [
+    {
+      "id": "local-001",
+      "keyword": "lawyer near me",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 10.6
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-002",
+      "keyword": "advocate near me",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "advocate near me"
+          ],
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0,
+          "position": 14.666666666666666
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-003",
+      "keyword": "law firm near me",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "law firm near me"
+          ],
+          "clicks": 0,
+          "impressions": 10,
+          "ctr": 0,
+          "position": 9
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "law firm near me"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 7
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-004",
+      "keyword": "legal services near me",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-005",
+      "keyword": "law firm Panvel",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-006",
+      "keyword": "lawyer Panvel",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "lawyer panvel"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 11
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-007",
+      "keyword": "advocate Panvel",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "advocate panvel"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 17
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-008",
+      "keyword": "law firm Navi Mumbai",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "law firm navi mumbai"
+          ],
+          "clicks": 1,
+          "impressions": 1,
+          "ctr": 100,
+          "position": 23
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "law firm navi mumbai"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 23
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-009",
+      "keyword": "lawyer Navi Mumbai",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-010",
+      "keyword": "advocate Navi Mumbai",
+      "queryFamily": "Local firm discovery / advocate Panvel / law firm Navi Mumbai",
+      "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-011",
+      "keyword": "property lawyer near me",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 16,
+          "ctr": 0,
+          "position": 5.75
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "property lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-012",
+      "keyword": "property lawyer Panvel",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-013",
+      "keyword": "property lawyer Navi Mumbai",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property lawyer navi mumbai"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 16.5
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-014",
+      "keyword": "real estate lawyer near me",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "real estate lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 5
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-015",
+      "keyword": "real estate lawyer Panvel",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-016",
+      "keyword": "CIDCO lawyer",
+      "queryFamily": "Property lawyer Panvel / Navi Mumbai",
+      "intent": "CIDCO property/allotment/leasehold/transfer intent; first distinguish property work from NAINA planning or acquisition.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "chinmay-chorghe",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-017",
+      "keyword": "property verification lawyer",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property verification lawyer"
+          ],
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-018",
+      "keyword": "title verification lawyer",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-019",
+      "keyword": "property due diligence lawyer",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-020",
+      "keyword": "property verification lawyer Panvel",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-021",
+      "keyword": "title verification lawyer Panvel",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-022",
+      "keyword": "property title verification lawyer Navi Mumbai",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-023",
+      "keyword": "property documents verification lawyers near me",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property documents verification lawyers near me"
+          ],
+          "clicks": 0,
+          "impressions": 7,
+          "ctr": 0,
+          "position": 1.4285714285714286
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-024",
+      "keyword": "property verification lawyers near me",
+      "queryFamily": "Property title verification / title search / due diligence",
+      "intent": "Ownership/record-review intent.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "pooja-gupta",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property verification lawyers near me"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-025",
+      "keyword": "conveyancing lawyer",
+      "queryFamily": "Property transactions / conveyancing lawyer",
+      "intent": "Transaction preparation and completion, distinct from the title report.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-026",
+      "keyword": "conveyancing lawyer Panvel",
+      "queryFamily": "Property transactions / conveyancing lawyer",
+      "intent": "Transaction preparation and completion, distinct from the title report.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-027",
+      "keyword": "property registration lawyer near me",
+      "queryFamily": "Property registration lawyer",
+      "intent": "Registration-stage documents and authority process.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-028",
+      "keyword": "property registration lawyers near me",
+      "queryFamily": "Property registration lawyer",
+      "intent": "Registration-stage documents and authority process.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "property registration lawyers near me"
+          ],
+          "clicks": 1,
+          "impressions": 2,
+          "ctr": 50,
+          "position": 7
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-029",
+      "keyword": "property registration lawyer Panvel",
+      "queryFamily": "Property registration lawyer",
+      "intent": "Registration-stage documents and authority process.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "the-counsel",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-030",
+      "keyword": "RERA lawyer",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-031",
+      "keyword": "MahaRERA lawyer",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-032",
+      "keyword": "RERA lawyer Navi Mumbai",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-033",
+      "keyword": "MahaRERA lawyer Navi Mumbai",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-034",
+      "keyword": "builder dispute lawyer",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-035",
+      "keyword": "real estate dispute lawyer",
+      "queryFamily": "MahaRERA lawyer / RERA advocate Navi Mumbai",
+      "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "chinmay-chorghe"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-036",
+      "keyword": "NAINA lawyer",
+      "queryFamily": "NAINA lawyer / town planning scheme / NAINA land issues",
+      "intent": "Town-planning scheme records and asset facts.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-037",
+      "keyword": "NAINA lawyer Panvel",
+      "queryFamily": "NAINA lawyer / town planning scheme / NAINA land issues",
+      "intent": "Town-planning scheme records and asset facts.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-038",
+      "keyword": "land acquisition lawyer",
+      "queryFamily": "Land acquisition lawyer / compensation Raigad or Panvel",
+      "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-039",
+      "keyword": "land compensation lawyer",
+      "queryFamily": "Land acquisition lawyer / compensation Raigad or Panvel",
+      "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-040",
+      "keyword": "land lawyer Raigad",
+      "queryFamily": "Land acquisition lawyer / compensation Raigad or Panvel",
+      "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+      "geographicModifier": "Raigad",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-041",
+      "keyword": "land acquisition lawyer Raigad",
+      "queryFamily": "Land acquisition lawyer / compensation Raigad or Panvel",
+      "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+      "geographicModifier": "Raigad",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-042",
+      "keyword": "airport land lawyer",
+      "queryFamily": "Navi Mumbai Airport land transactions / affected land matter",
+      "intent": "Specific airport-area land facts; identify notification/authority before promoting an acquisition remedy.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-043",
+      "keyword": "agricultural land lawyer",
+      "queryFamily": "Agricultural / non-agricultural land purchase due diligence",
+      "intent": "Land-use and purchase eligibility/document decision.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/agricultural-non-agricultural-land-purchase/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-044",
+      "keyword": "agricultural land lawyer Raigad",
+      "queryFamily": "Agricultural / non-agricultural land purchase due diligence",
+      "intent": "Land-use and purchase eligibility/document decision.",
+      "geographicModifier": "Raigad",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/agricultural-non-agricultural-land-purchase/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-045",
+      "keyword": "corporate lawyer near me",
+      "queryFamily": "Corporate lawyer / commercial advisory Navi Mumbai",
+      "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "corporate lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 5,
+          "ctr": 0,
+          "position": 3.4
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-046",
+      "keyword": "corporate lawyer Navi Mumbai",
+      "queryFamily": "Corporate lawyer / commercial advisory Navi Mumbai",
+      "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-047",
+      "keyword": "business lawyer near me",
+      "queryFamily": "Corporate lawyer / commercial advisory Navi Mumbai",
+      "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "business lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 1
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "business lawyer near me"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-048",
+      "keyword": "commercial lawyer",
+      "queryFamily": "Corporate lawyer / commercial advisory Navi Mumbai",
+      "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-049",
+      "keyword": "corporate lawyer Panvel",
+      "queryFamily": "Corporate lawyer / commercial advisory Navi Mumbai",
+      "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-050",
+      "keyword": "contract lawyer",
+      "queryFamily": "Commercial contracts / contract drafting / review / NDA",
+      "intent": "Specific document work; broad generic contract lawyer impressions alone are not a local-demand signal.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "contract lawyer"
+          ],
+          "clicks": 0,
+          "impressions": 2186,
+          "ctr": 0,
+          "position": 2.0182982616651417
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "contract lawyer"
+          ],
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0,
+          "position": 15
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-051",
+      "keyword": "contract drafting lawyer",
+      "queryFamily": "Commercial contracts / contract drafting / review / NDA",
+      "intent": "Specific document work; broad generic contract lawyer impressions alone are not a local-demand signal.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "hawelikar",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-052",
+      "keyword": "commercial litigation lawyer",
+      "queryFamily": "Commercial litigation lawyer / business dispute",
+      "intent": "Dispute diagnosis and forum options.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-053",
+      "keyword": "civil lawyer Panvel",
+      "queryFamily": "Commercial litigation lawyer / business dispute",
+      "intent": "Property or commercial civil disputes only; do not imply every civil specialism.",
+      "geographicModifier": "Panvel",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-054",
+      "keyword": "arbitration lawyer",
+      "queryFamily": "Arbitration / mediation / ADR lawyer",
+      "intent": "Chosen dispute-resolution process.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-055",
+      "keyword": "arbitration lawyer Navi Mumbai",
+      "queryFamily": "Arbitration / mediation / ADR lawyer",
+      "intent": "Chosen dispute-resolution process.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-056",
+      "keyword": "employment lawyer",
+      "queryFamily": "Labour law compliance / employment lawyer / HR records",
+      "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "employment lawyer"
+          ],
+          "clicks": 0,
+          "impressions": 1579,
+          "ctr": 0,
+          "position": 1.6839772007599747
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-057",
+      "keyword": "labour lawyer",
+      "queryFamily": "Labour law compliance / employment lawyer / HR records",
+      "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "labour lawyer"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-058",
+      "keyword": "labour compliance lawyer",
+      "queryFamily": "Labour law compliance / employment lawyer / HR records",
+      "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-059",
+      "keyword": "employment lawyer Navi Mumbai",
+      "queryFamily": "Labour law compliance / employment lawyer / HR records",
+      "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-060",
+      "keyword": "labour law advocate near me",
+      "queryFamily": "Labour law compliance / employment lawyer / HR records",
+      "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+      "geographicModifier": null,
+      "nearMe": true,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [
+        {
+          "keys": [
+            "https://paullegalassociates.com/",
+            "labour law advocate near me"
+          ],
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0,
+          "position": 2.5
+        },
+        {
+          "keys": [
+            "https://paullegalassociates.com/#/contact",
+            "labour law advocate near me"
+          ],
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0,
+          "position": 1
+        }
+      ],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-061",
+      "keyword": "POSH consultant",
+      "queryFamily": "POSH compliance / Internal Committee / external-member support",
+      "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates",
+        "hawelikar",
+        "regalwhiz"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-062",
+      "keyword": "POSH lawyer",
+      "queryFamily": "POSH compliance / Internal Committee / external-member support",
+      "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates",
+        "hawelikar",
+        "regalwhiz"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-063",
+      "keyword": "POSH compliance services",
+      "queryFamily": "POSH compliance / Internal Committee / external-member support",
+      "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates",
+        "hawelikar",
+        "regalwhiz"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-064",
+      "keyword": "POSH legal consultant Navi Mumbai",
+      "queryFamily": "POSH compliance / Internal Committee / external-member support",
+      "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "expert-jurist",
+        "singh-associates",
+        "hawelikar",
+        "regalwhiz"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P0",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "High within the stated service boundary",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-065",
+      "keyword": "banking lawyer",
+      "queryFamily": "Banking lawyer / debt restructuring / DRT / SARFAESI",
+      "intent": "Financing/security/enforcement facts.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-066",
+      "keyword": "finance lawyer",
+      "queryFamily": "Banking lawyer / debt restructuring / DRT / SARFAESI",
+      "intent": "Financing/security/enforcement facts.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-067",
+      "keyword": "debt recovery lawyer",
+      "queryFamily": "Debt recovery / unpaid invoices / MSME / cheque bounce",
+      "intent": "Commercial receivables and statutory notice/process.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-068",
+      "keyword": "debt recovery lawyer Navi Mumbai",
+      "queryFamily": "Debt recovery / unpaid invoices / MSME / cheque bounce",
+      "intent": "Commercial receivables and statutory notice/process.",
+      "geographicModifier": "Navi Mumbai",
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [
+        "singh-associates",
+        "hawelikar"
+      ],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-069",
+      "keyword": "GST lawyer",
+      "queryFamily": "GST notices / tax litigation / fiscal appeal lawyer",
+      "intent": "Legal notice/dispute route, distinct from routine operational tax/finance work.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-070",
+      "keyword": "tax litigation lawyer",
+      "queryFamily": "GST notices / tax litigation / fiscal appeal lawyer",
+      "intent": "Legal notice/dispute route, distinct from routine operational tax/finance work.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-071",
+      "keyword": "FEMA lawyer",
+      "queryFamily": "FEMA legal / international trade regulatory advisory",
+      "intent": "Legal-regulatory transaction issue.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/international-trade-fema-cross-border-business/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P1",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-072",
+      "keyword": "shipping lawyer",
+      "queryFamily": "Maritime / shipping / admiralty / vessel acquisition",
+      "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P2",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-073",
+      "keyword": "maritime lawyer",
+      "queryFamily": "Maritime / shipping / admiralty / vessel acquisition",
+      "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P2",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "local-074",
+      "keyword": "admiralty lawyer",
+      "queryFamily": "Maritime / shipping / admiralty / vessel acquisition",
+      "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+      "geographicModifier": null,
+      "nearMe": false,
+      "estimatedDemand": null,
+      "demandScope": null,
+      "demandSource": null,
+      "currentRanking": null,
+      "currentLandingURL": null,
+      "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "localPackPresence": null,
+      "organicPresence": null,
+      "difficulty": null,
+      "competitorCandidates": [],
+      "competitorBasis": "Relevant primary-site service overlap / public search discovery; no exact-query rank comparison",
+      "priority": "P2",
+      "priorityStatus": "PROVISIONAL_BUSINESS_RELEVANCE; realistic opportunity awaits local demand and competitiveness data",
+      "commercialImportance": "Supporting; qualify geography and matter type",
+      "historicalExactQueryRows": [],
+      "historicalSource": "GSC_Query_Pages_2026-10-05.json; disclosed query/page snapshot through 2026-10-02; range not re-inferred",
+      "action": "Measure India demand and local competition, then test preferred landing discovery; preserve current metadata/content until evidence identifies a gap"
+    },
+    {
+      "id": "excluded-075",
+      "keyword": "education near me",
+      "priority": "IRRELEVANT",
+      "priorityStatus": "EXCLUDED",
+      "preferredLandingURL": null,
+      "reason": "Non-legal intent outside the firm’s business; never target or add a category"
+    },
+    {
+      "id": "excluded-076",
+      "keyword": "restaurant near me",
+      "priority": "IRRELEVANT",
+      "priorityStatus": "EXCLUDED",
+      "preferredLandingURL": null,
+      "reason": "Non-legal intent outside the firm’s business; never target or add a category"
+    },
+    {
+      "id": "excluded-077",
+      "keyword": "doctor near me",
+      "priority": "IRRELEVANT",
+      "priorityStatus": "EXCLUDED",
+      "preferredLandingURL": null,
+      "reason": "Non-legal intent outside the firm’s business; never target or add a category"
+    }
+  ],
+  "competitors": [
+    {
+      "id": "hawelikar",
+      "name": "Hawelikar & Associates",
+      "domains": [
+        "hawelikar.com",
+        "reralawyer.in",
+        "poshlawyers.com"
+      ],
+      "location": "Owned homepage lists Kharghar, Fort and Koperkhairane; no Panvel office inferred from a Panvel headline",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "general",
+        "property",
+        "rera",
+        "corporate",
+        "workplace",
+        "finance"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://www.hawelikar.com/",
+        "https://reralawyer.in/"
+      ],
+      "observed": "Main site offers property, corporate, banking and POSH. RERA site identifies the same firm; POSH domain is an observed outbound brand link, not a separately fetched service.",
+      "action": "Treat domains as one competitor entity. Benchmark focused RERA/title and POSH routes; never copy superiority or result claims.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "expert-jurist",
+      "name": "Expert Jurist LLP",
+      "domains": [
+        "expertjurist.com"
+      ],
+      "location": "CBD Belapur Railway Station Complex, Navi Mumbai",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "general",
+        "property",
+        "rera",
+        "land",
+        "corporate",
+        "workplace",
+        "disputes"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://www.expertjurist.com/"
+      ],
+      "observed": "Clear corporate, real-estate/RERA, acquisition, POSH and ADR paths plus named service platforms.",
+      "action": "Compare relevant service coverage against existing PLA pages; a competitor platform is not evidence PLA needs a new tool or page.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "the-counsel",
+      "name": "The Counsel / Adv. Kiran H. Mulik",
+      "domains": [
+        "thecounselegal.com"
+      ],
+      "location": "Sector 15, CBD Belapur",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "property",
+        "corporate",
+        "disputes"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://www.thecounselegal.com/property-law.html",
+        "https://www.thecounselegal.com/contact.html"
+      ],
+      "observed": "Property page presents title/revenue/encumbrance/approval checks and CIDCO considerations; contact gives one office and direct phone/WhatsApp.",
+      "action": "PLA already supplies preparation guides. Prioritise consistent citations; do not adopt a universal title-search period or authority coverage claim.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "pooja-gupta",
+      "name": "Pooja Gupta & Associates / Advocatepooja",
+      "domains": [
+        "advocatepooja.com"
+      ],
+      "location": "Owned article footer gives Seawoods (E), Navi Mumbai; headline targets Panvel",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "property"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://advocatepooja.com/property-lawyer-in-panvel-navi-mumbai/"
+      ],
+      "observed": "Explains buying, leases, disputes, title work and consultation stages.",
+      "action": "Organic-content comparison only; do not equate a Panvel headline with proximity to a Panvel searcher.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "chinmay-chorghe",
+      "name": "Advocate Chinmay Chorghe",
+      "domains": [
+        "advchinmaychorghe.com"
+      ],
+      "location": "Navi Mumbai service coverage stated; exact current office not verified in this check",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "property",
+        "rera"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://advchinmaychorghe.com/property-lawyer-in-navi-mumbai/"
+      ],
+      "observed": "Issue-led builder, succession, encroachment and tenancy sections with a document matrix.",
+      "action": "Benchmark useful question/document structure; do not copy unverified remedy timelines or matter-outcome promises.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "singh-associates",
+      "name": "Singh & Associates / Adv. Ruchi Singh",
+      "domains": [
+        "singhnassociates.co.in"
+      ],
+      "location": "Satra Plaza, Vashi, Navi Mumbai",
+      "scope": "LOCAL_CANDIDATE",
+      "clusters": [
+        "corporate",
+        "workplace",
+        "finance",
+        "disputes"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://singhnassociates.co.in/"
+      ],
+      "observed": "Shows corporate, banking, recovery, POSH, labour and dispute services with a local office/phone.",
+      "action": "Benchmark corporate/workplace/finance coverage against PLA’s existing destinations; credentials and client-logo claims remain the competitor’s own assertions.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    },
+    {
+      "id": "regalwhiz",
+      "name": "Regalwhiz",
+      "domains": [
+        "regalwhiz.com"
+      ],
+      "location": "Mumbai-targeted POSH page lists Spencer Plaza, Chennai",
+      "scope": "ORGANIC_CONTENT_ONLY",
+      "clusters": [
+        "workplace"
+      ],
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sources": [
+        "https://regalwhiz.com/posh-compliance-mumbai/"
+      ],
+      "observed": "Employer assessment, committee, policy, training and reporting workflow with a checklist path.",
+      "action": "Keep as an organic-content comparator, exclude from the Panvel proximity/Maps competitor set unless independently observed there. Do not copy blanket deadlines or guarantees.",
+      "primaryGBPCategory": null,
+      "googleReviewCount": null,
+      "googleRating": null,
+      "reviewVelocity": null,
+      "organicKeywords": null,
+      "estimatedOrganicTraffic": null,
+      "referringDomains": null,
+      "authorityIndicator": null,
+      "strongBacklinks": null,
+      "rankingLandingPages": null,
+      "mapsPositions": null,
+      "firstMeasuredSnapshot": false,
+      "measurementStatus": "Public primary-page observation only; Semrush/GBP/geo-controlled ranks unavailable"
+    }
+  ],
+  "citations": [
+    {
+      "id": "getlaw",
+      "source": "GetLaw",
+      "url": "https://getlaw.in/lawyer/paul-legal-associates",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "PUBLIC_PAGE",
+      "observation": "701/R3 Moraj Riverside, Takka address; experience field 8 years; Mon–Sun 09:00–20:00 availability.",
+      "napStatus": "ADDRESS_CONFLICT",
+      "correctionRoute": "Existing profile login; publisher contact page https://getlaw.in/page/contact-us lists admin@getlaw.in",
+      "action": "Correct the existing office/contact facts; resolve hours and experience with firm records. Prepared correction text; no message sent.",
+      "status": "READY_AWAITING_PROFILE_ACCESS_OR_EXPLICIT_OUTREACH",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "bdir-property",
+      "source": "Bdir property",
+      "url": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "PUBLIC_PAGE",
+      "observation": "Moraj address; current website phone plus 9820765944; directory displays 4.9/97. Google link is an old-address text search, not a verified profile ID.",
+      "napStatus": "ADDRESS_CONFLICT_PHONE_UNCONFIRMED",
+      "action": "Factual existing-record correction only; verify additional phone ownership. Do not use copied rating as Google review baseline.",
+      "status": "READY_AWAITING_EDITOR_ROUTE_ACCESS",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "bdir-finance",
+      "source": "Bdir finance",
+      "url": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "PUBLIC_PAGE",
+      "observation": "Moraj address; additional phone; directory displays 4.8/97 and 800 completed cases. These do not substantiate current Google rating or firm case count.",
+      "napStatus": "ADDRESS_CONFLICT_PHONE_UNCONFIRMED",
+      "action": "Same factual correction; keep old case-count claim in trust-evidence queue, not a new website claim.",
+      "status": "READY_AWAITING_EDITOR_ROUTE_ACCESS",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "linkedin",
+      "source": "LinkedIn company",
+      "url": "https://in.linkedin.com/company/paullegalassociates",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "PUBLIC_PAGE",
+      "observation": "Primary 301 Om Sai location agrees with website. About still lists Kalina and Moraj offices, an older email and since-2000 wording; Founded field says 2001.",
+      "napStatus": "MIXED_CURRENT_LOCATION_STALE_ABOUT",
+      "action": "User-owned editing remains reserved. Supply factual current-office/About replacement without an invented founding year; owner to confirm any still-active Mumbai office.",
+      "status": "USER_OWNED_READY_TEXT",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "justdial-moraj",
+      "source": "Justdial former-office listing",
+      "url": "https://www.justdial.com/Navi-Mumbai/Paul-Legal-Associates-Near-Moraj-Riverside-Park-Panvel/022PXX22-XX22-200106135604-I4G4_BZDET",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "SEARCH_SNIPPET_AND_HISTORICAL_LEDGER",
+      "observation": "Existing listing still surfaced in public search; direct retrieval restricted. Current detailed fields not freshly confirmed.",
+      "napStatus": "HISTORICAL_CONFLICT_REQUIRES_OWNER_READ",
+      "action": "Reconcile existing owner records and current-office listing; preserve reviews and identity during a supported move/consolidation. Do not delete from a snippet.",
+      "status": "BLOCKED_OWNER_ACCESS",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "justdial-garden",
+      "source": "Justdial current-office candidate",
+      "url": "https://www.justdial.com/Navi-Mumbai/Paul-Legal-Associates-Near-Garden-Hotel-Panvel/022PXX22-XX22-181105011517-Z2G3_BZDET",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "SEARCH_SNIPPET_AND_HISTORICAL_LEDGER",
+      "observation": "Garden Hotel/Om Sai citation surfaced in a mobile search result; direct canonical record restricted. Do not infer current rating/hours.",
+      "napStatus": "CANDIDATE_MATCH_OWNER_READ_REQUIRED",
+      "action": "Verify canonical record, phone, pin, hours and duplication with manager access; no replacement listing.",
+      "status": "BLOCKED_OWNER_ACCESS",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "helptag",
+      "source": "Helptag previously identified entry",
+      "url": "https://www.helptag.org/explore/paul-legal-associates",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "evidenceType": "PUBLIC_PAGE_VERSUS_SEARCH_SNIPPET",
+      "observation": "Search snippet retains current office, but freshly opened page says NGO Not Found.",
+      "napStatus": "NOT_VERIFIABLE",
+      "action": "Downgrade from current consistency evidence; do not create a new profile or count this as a live acquired citation.",
+      "status": "OBSERVATION_ONLY",
+      "submittedAt": null,
+      "verifiedAt": null
+    }
+  ],
+  "preparedGBPServices": [
+    {
+      "name": "Property legal services",
+      "description": "Advice on property records, transactions and disputes based on the asset and available documents.",
+      "preferredURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Title verification and property due diligence",
+      "description": "Review of available title-chain documents, public records and transaction risks.",
+      "preferredURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Conveyancing and transaction documentation",
+      "description": "Preparation and review of property transaction documents and related completion requirements.",
+      "preferredURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Property registration support",
+      "description": "Document and procedural assistance for the applicable Maharashtra registration process.",
+      "preferredURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "MahaRERA legal services",
+      "description": "Legal advice on project, buyer, promoter and agent issues under the applicable RERA framework.",
+      "preferredURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "NAINA town planning matters",
+      "description": "Review of planning-scheme records, notices and property-specific questions within NAINA.",
+      "preferredURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Land acquisition and compensation matters",
+      "description": "Assessment of acquisition notices, awards and the remedy applicable to the particular notification.",
+      "preferredURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Corporate and commercial advisory",
+      "description": "Legal support for business structures, obligations and commercial decisions.",
+      "preferredURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Contract drafting and review",
+      "description": "Preparation and review of business agreements and transaction documentation.",
+      "preferredURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Commercial litigation",
+      "description": "Advice and representation on business disputes, subject to the applicable forum and engagement.",
+      "preferredURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Arbitration and mediation",
+      "description": "Advice on arbitration clauses, dispute-resolution procedure and available remedies.",
+      "preferredURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Employment and labour compliance",
+      "description": "Advice on workforce obligations, workplace documentation and applicable compliance requirements.",
+      "preferredURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "POSH compliance and Internal Committee support",
+      "description": "Employer support for policies, committee constitution, awareness and process obligations within an agreed scope.",
+      "preferredURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Banking and debt restructuring matters",
+      "description": "Advice on banking disputes, securities, debt restructuring and the applicable forum.",
+      "preferredURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Debt recovery and business payment disputes",
+      "description": "Advice on unpaid invoices, cheque matters and eligible MSME disputes.",
+      "preferredURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Tax and GST litigation",
+      "description": "Legal support on tax notices, disputes and appeals within the relevant jurisdiction.",
+      "preferredURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "FEMA and cross-border regulatory matters",
+      "description": "Legal advice on relevant foreign-exchange and cross-border business requirements.",
+      "preferredURL": "https://paullegalassociates.com/expertise/international-trade-fema-cross-border-business/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    },
+    {
+      "name": "Maritime and admiralty matters",
+      "description": "Advice on shipping, maritime contracts and admiralty matters where the firm’s practice and jurisdiction apply.",
+      "preferredURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+      "status": "PREPARED_NOT_PUBLISHED",
+      "genuineServiceBasis": "Existing website service and query-ownership record",
+      "gbpCategory": null,
+      "price": null
+    }
+  ],
+  "gbp": {
+    "profileId": null,
+    "profileURL": null,
+    "businessName": null,
+    "primaryCategory": null,
+    "secondaryCategories": null,
+    "address": null,
+    "pin": null,
+    "hours": null,
+    "holidayHours": null,
+    "serviceAreas": null,
+    "reviewCount": null,
+    "rating": null,
+    "newReviewsPerMonth": null,
+    "responseRate": null,
+    "reviewRecency": null,
+    "photos": null,
+    "duplicates": null,
+    "websiteUTMConfigured": false,
+    "changesMade": [],
+    "websiteReference": {
+      "name": "Paul Legal Associates",
+      "address": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206",
+      "phone": "+91 7977063567",
+      "email": "info@paullegalassociates.com",
+      "publishedHours": "Mon–Fri 10:00–20:00; Sat 10:00–18:00; Sunday by appointment",
+      "hoursOwnerConfirmed": false,
+      "schemaCoordinates": "18.9894, 73.1175; source assertion, not manager-verified entrance/pin"
+    }
+  },
+  "candidateObservationPoints": [
+    {
+      "label": "Genuine Panvel office entrance",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Old Panvel",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "New Panvel",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Khanda Colony",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Kamothe",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Kharghar",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "CBD Belapur",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Vashi (business-service queries)",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Raigad land catchment (choose matter-relevant point)",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    },
+    {
+      "label": "Mumbai (specialist jurisdiction queries only)",
+      "latitude": null,
+      "longitude": null,
+      "status": "NOT_MEASURED; verify coordinates and catchment before scheduling",
+      "officeClaim": false
+    }
+  ],
+  "localRankObservations": [],
+  "reviewObservations": [],
+  "qualifiedEnquiries": null,
+  "conversionActions": null,
+  "authority": [
+    {
+      "source": "Navi Mumbai Chamber of Business & Industries",
+      "url": "https://www.nmcbi.org/services",
+      "type": "BUSINESS_ASSOCIATION",
+      "relevance": "Navi Mumbai business and professional participation",
+      "eligibility": "Unconfirmed for PLA; committee participation subject to suitability",
+      "cost": null,
+      "status": "PRIMARY_SERVICES_RECHECKED; NO_MEMBERSHIP_OR_APPLICATION",
+      "classification": "HIGH_VALUE_REALISTIC_IF_ELIGIBLE; no Semrush authority metric",
+      "liveCitation": null,
+      "targetPage": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "referralEnquiries": null,
+      "action": "Assess genuine participation and actual membership terms before any spending or affiliation claim"
+    },
+    {
+      "source": "Lawzana Panvel directory",
+      "url": "https://lawzana.com/lawyers/panvel",
+      "type": "LEGAL_DIRECTORY",
+      "relevance": "Local legal-service discovery",
+      "eligibility": "Profile acceptance and terms unconfirmed",
+      "cost": null,
+      "status": "PUBLIC_DIRECTORY_OBSERVED; NO_PLA_LISTING_ACQUIRED",
+      "classification": "CANDIDATE; quality/backlink value unmeasured",
+      "liveCitation": null,
+      "targetPage": "https://paullegalassociates.com/",
+      "referralEnquiries": null,
+      "action": "Check factual profile eligibility/free terms; do not claim editorial endorsement or buy ranking links"
+    },
+    {
+      "source": "Existing GetLaw/Bdir/Justdial citations",
+      "url": "https://getlaw.in/lawyer/paul-legal-associates",
+      "type": "EXISTING_RECORD_CORRECTION",
+      "relevance": "Correct known entity contradictions",
+      "eligibility": "Existing records; owner/editor access needed",
+      "cost": null,
+      "status": "PREPARED_CORRECTIONS; NONE_SUBMITTED",
+      "classification": "PRIORITY_FACTUAL_CORRECTION; no backlink quality endorsement",
+      "liveCitation": null,
+      "targetPage": "https://paullegalassociates.com/contact/",
+      "referralEnquiries": null,
+      "action": "Use exact record URLs and current website facts; verify readback after submission"
+    }
+  ],
+  "backlinkOpportunityClasses": [
+    "HIGH_VALUE_REALISTIC",
+    "HIGH_VALUE_UNLIKELY",
+    "LOW_VALUE",
+    "SPAM_IGNORE"
+  ],
+  "backlinkGapStatus": "NO_SEMRUSH_REPORT; no competitor-link opportunity falsely labelled measured",
+  "ai": {
+    "robotsLayer": "Public 200 robots allows discovery; genuine bot WAF access remains unknown",
+    "directEngineTests": [],
+    "status": "NOT_RUN; this operator session and public web search are not independent ChatGPT/Copilot/Google AI answer tests",
+    "probePrompts": [
+      "Which property lawyers have a genuine office in Panvel? Cite the office source.",
+      "Which Navi Mumbai law firms handle NAINA town planning matters? Cite the service source.",
+      "Which Navi Mumbai lawyers assist with MahaRERA matters? Cite sources.",
+      "Who offers property title verification in Panvel? Cite sources.",
+      "Which Navi Mumbai legal practices provide employer POSH compliance support? Cite sources.",
+      "Which corporate lawyers serve Navi Mumbai businesses? Cite sources."
+    ],
+    "requiredObservationFields": [
+      "engine",
+      "exactPrompt",
+      "observedAtUTC",
+      "countryOrLocation",
+      "language",
+      "sessionContext",
+      "PLAappeared",
+      "competitors",
+      "citedURLs",
+      "evidenceFile"
+    ],
+    "next": "Repeat identical prompts in accessible independent engines with sources preserved; do not infer rank from one answer"
+  },
+  "sources": [
+    {
+      "url": "https://support.google.com/business/answer/7091?hl=en",
+      "purpose": "Local relevance, distance and prominence; accurate profile facts"
+    },
+    {
+      "url": "https://support.google.com/business/answer/3474122?hl=en",
+      "purpose": "Genuine voluntary feedback, link/QR and discreet replies"
+    },
+    {
+      "url": "https://support.google.com/contributionpolicy/answer/7400114?hl=en",
+      "purpose": "No incentives, positive-review selection, pressure, specified content or staff review quotas"
+    },
+    {
+      "url": "https://support.google.com/business/answer/7249669?hl=en",
+      "purpose": "Specific principal category; additional categories describe genuine business"
+    },
+    {
+      "url": "https://support.google.com/business/answer/3038177?hl=en",
+      "purpose": "Real-world name/address and minimal accurate categories; genuine profile identity"
+    },
+    {
+      "url": "https://support.google.com/business/answer/9455399?hl=en",
+      "purpose": "Factual service catalogue; publish only supported fields"
+    },
+    {
+      "url": "https://developers.google.com/search/docs/appearance/ai-features",
+      "purpose": "Ordinary Search eligibility; no special AI markup or new AI text file requirement"
+    },
+    {
+      "url": "https://developers.openai.com/api/docs/bots",
+      "purpose": "OAI-SearchBot discovery independent of GPTBot training and ChatGPT-User fetching"
+    }
+  ],
+  "execution": {
+    "citationCorrectionsSubmitted": 0,
+    "citationCorrectionsVerified": 0,
+    "newBacklinksAcquired": 0,
+    "newMemberships": 0,
+    "reviewRequestsSent": 0,
+    "reviewResponsesPublished": 0,
+    "websiteChanges": 0,
+    "indexNowNotifications": 0,
+    "ownerMessagesSent": 0,
+    "note": "Zero describes this run’s actions only; existing counts and external outcomes remain unknown"
+  },
+  "nextExecution": [
+    "Re-discover Semrush callable tools after connection; fetch PLA India positions/competitors/top pages and backlink/referring-domain metrics; retain report date and raw evidence",
+    "Verify existing GBP identity and current categories, pin, actual hours, reviews, services and Performance",
+    "Apply known citation corrections through genuine accounts; preserve existing listing identity/reviews",
+    "Use measured demand and local rank observations to validate provisional P0/P1 priorities; strengthen existing pages only for a demonstrated gap",
+    "Continue the pending agricultural-land/NRI-FEMA source review as a separate content queue; no partial source edits imported"
+  ]
+}
