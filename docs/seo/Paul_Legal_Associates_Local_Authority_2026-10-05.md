@@ -1,5 +1,16 @@
 # Local consistency, legitimate authority and SERP evidence — 5 October 2026
 
+## Latest authority terms and correction history — 7 October 2026 IST
+
+[Four public citation observations](evidence/Local_Search_Observations.json) preserve the freshly checked GetLaw, both Bdir and LinkedIn field contradictions. Every correction is still `not_submitted`; current website facts support the prepared text in [Local Operations](Paul_Legal_Associates_Local_Operations.md#exact-existing-citation-corrections). No publisher email, duplicate deletion, membership application or new listing was sent or created.
+
+| Source | Latest primary-source terms | Current disposition |
+|---|---|---|
+| [NMCBI](https://www.nmcbi.org/) | Publishes annual membership ₹3,000 and refund if not approved; PLA selection/eligibility, tax and renewal conditions unconfirmed | Assess genuine participation before application or spend. No membership/affiliation/link claimed |
+| [Lawzana registration](https://lawzana.com/register-law-firm) | Basic profile free; phone/website display needs a paid tier; comparison places do-follow backlink in highest paid tier | Lower priority as a free website/phone citation. Do not purchase a ranking link; no new PLA record acquired |
+
+This later follow-up resolves the initial snapshot's unknown publisher fee/display terms without changing that dated snapshot. [Execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) records the findings and exact next actions. Referring-domain counts, acquired links and referral/enquiry outcomes remain unmeasured; no authority score is inferred from membership branding.
+
 ## Highest-value public correction targets
 
 The current website identifies Office 301, 3rd Floor, Om Sai Building, Plot 101/3, Swami Nityanand Road, near Garden Hotel, Panvel/Navi Mumbai, Maharashtra 410206; +91 7977063567; info@paullegalassociates.com. Its visible hours are Monday–Friday 10:00–20:00 and Saturday 10:00–18:00. No alternate office, founding year, phone or rating is inferred from a directory.

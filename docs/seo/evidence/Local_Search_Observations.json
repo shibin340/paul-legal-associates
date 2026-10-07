@@ -1,0 +1,61 @@
+{
+  "schemaVersion": 1,
+  "observations": [
+    {
+      "id": "citation-getlaw-20261007",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sourceType": "public_directory",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "evidencePath": "docs/seo/evidence/Local_Search_2026-10-07.json",
+      "citationId": "getlaw",
+      "addressStatus": "conflict",
+      "phoneStatus": "not_observed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "citation-bdir-property-20261007",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "evidencePath": "docs/seo/evidence/Local_Search_2026-10-07.json",
+      "citationId": "bdir-property",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "citation-bdir-finance-20261007",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "evidencePath": "docs/seo/evidence/Local_Search_2026-10-07.json",
+      "citationId": "bdir-finance",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "id": "citation-linkedin-20261007",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "sourceType": "public_company_profile",
+      "sourceURL": "https://in.linkedin.com/company/paullegalassociates",
+      "evidencePath": "docs/seo/evidence/Local_Search_2026-10-07.json",
+      "citationId": "linkedin",
+      "addressStatus": "mixed",
+      "phoneStatus": "matches",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    }
+  ]
+}

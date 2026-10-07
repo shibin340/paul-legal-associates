@@ -1,0 +1,324 @@
+{
+  "schemaVersion": 1,
+  "programme": "Local Search / Maps / organic / reputation / authority / AI discovery",
+  "status": "VALIDATED_REPOSITORY_CHECKPOINT",
+  "originalMainAtRunStart": "26799ca6d8f625b1a51b9f29903aefaf238b6689",
+  "currentMainAtPreparation": "f46df1e8dd97e663991674c74d38345aaa0de6fb",
+  "latestMergedPRAtPreparation": 45,
+  "baselinePath": "docs/seo/evidence/Local_Search_2026-10-07.json",
+  "scorecardPath": "docs/seo/Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md",
+  "release45": {
+    "pr": 45,
+    "url": "https://github.com/shibin340/paul-legal-associates/pull/45",
+    "mergeSHA": "f46df1e8dd97e663991674c74d38345aaa0de6fb",
+    "treeSHA": "968cfda71fefcea2dc274553d605ce8c33735a13",
+    "workflow": [
+      {
+        "id": 37633826097,
+        "headSHA": "f46df1e8dd97e663991674c74d38345aaa0de6fb",
+        "status": "completed",
+        "conclusion": "success",
+        "url": "https://github.com/shibin340/paul-legal-associates/actions/runs/37633826097"
+      }
+    ],
+    "jobs": [
+      {
+        "id": 112834704812,
+        "conclusion": "success",
+        "steps": [
+          {
+            "name": "Set up job",
+            "conclusion": "success"
+          },
+          {
+            "name": "Run actions/checkout@v3",
+            "conclusion": "success"
+          },
+          {
+            "name": "Setup Node.js",
+            "conclusion": "success"
+          },
+          {
+            "name": "Install dependencies",
+            "conclusion": "success"
+          },
+          {
+            "name": "Build",
+            "conclusion": "success"
+          },
+          {
+            "name": "Ensure custom domain file exists",
+            "conclusion": "success"
+          },
+          {
+            "name": "Deploy to GitHub Pages",
+            "conclusion": "success"
+          },
+          {
+            "name": "Check whether the reviewed URL list changed",
+            "conclusion": "success"
+          },
+          {
+            "name": "Validate and notify IndexNow after production is reachable",
+            "conclusion": "skipped"
+          },
+          {
+            "name": "Post Setup Node.js",
+            "conclusion": "success"
+          },
+          {
+            "name": "Post Run actions/checkout@v3",
+            "conclusion": "success"
+          },
+          {
+            "name": "Complete job",
+            "conclusion": "success"
+          }
+        ]
+      }
+    ],
+    "reviewedURLManifestChanged": false,
+    "indexNow": "SKIPPED_UNCHANGED_MANIFEST",
+    "publicVerification": [
+      {
+        "url": "https://paullegalassociates.com/",
+        "observedAtUTC": "2026-10-07T14:19:06.607729+00:00",
+        "status": 200,
+        "sha256": "b849813e1e6e5f4a2ba5fca9f336eca15ed16d538e100f8a1d0fcabfc2279136",
+        "canonical": [
+          "https://paullegalassociates.com/"
+        ],
+        "h1Count": 1,
+        "bundle": [
+          "/static/js/main.282269f8.js"
+        ],
+        "phone": true,
+        "currentOffice": true,
+        "directions": false
+      },
+      {
+        "url": "https://paullegalassociates.com/contact/",
+        "observedAtUTC": "2026-10-07T14:19:18.968907+00:00",
+        "status": 200,
+        "sha256": "958ad4b73d4689cf3a071acfdf129b3ddcc51eb17cf1e4761cac25e8c1d3d2f8",
+        "canonical": [
+          "https://paullegalassociates.com/contact/"
+        ],
+        "h1Count": 1,
+        "bundle": [
+          "/static/js/main.282269f8.js"
+        ],
+        "phone": true,
+        "currentOffice": true,
+        "directions": true
+      },
+      {
+        "url": "https://paullegalassociates.com/sitemap.xml",
+        "observedAtUTC": "2026-10-07T14:19:31.681829+00:00",
+        "status": 200,
+        "sha256": "cd8a990d2c822e9fdfb004c939e56311971f184f33e879fedaa84850dca28c40",
+        "sitemapURLs": 239,
+        "datedURLs": 32
+      }
+    ]
+  },
+  "measurement": {
+    "validator": "scripts/local-search-records.py",
+    "checks": "scripts/test-local-search-records.py",
+    "keywordQueue": "docs/seo/evidence/Local_Keyword_Queue.csv",
+    "observationHistory": "docs/seo/evidence/Local_Search_Observations.json",
+    "candidateTerms": 77,
+    "relevantTerms": 74,
+    "excludedIntents": 3,
+    "priorityCounts": {
+      "P0": 39,
+      "P1": 32,
+      "P2": 3,
+      "IRRELEVANT": 3
+    },
+    "priorities": "PROVISIONAL_BUSINESS_RELEVANCE; local demand/rank/competitiveness not yet measured",
+    "publicCitationObservations": 4,
+    "actualRankObservations": 0,
+    "actualSemrushObservations": 0,
+    "actualGoogleReviewObservations": 0,
+    "independentAIAnswerObservations": 0,
+    "syntheticRecordsPersisted": 0,
+    "unknownMetricCells": "null in JSON; blank in CSV; never inferred as zero"
+  },
+  "automationUpdates": [
+    {
+      "id": "6ab7c12e40ec8191858d810b86261c88",
+      "title": "PLA SEO Ongoing Growth",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
+      "isEnabled": true,
+      "updatedAt": "2026-10-07T14:10:48.549876+00:00",
+      "scope": "Local-search/competitor/reputation/authority/AI programme; optional account metrics when accessible",
+      "oldSchedulePreserved": true,
+      "promptUpdated": true
+    },
+    {
+      "id": "6ab7c137a46481919c9d99d4296d7948",
+      "title": "PLA SEO Monthly Analysis",
+      "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
+      "isEnabled": true,
+      "updatedAt": "2026-10-07T14:10:49.228168+00:00",
+      "scope": "Local-search/competitor/reputation/authority/AI programme; optional account metrics when accessible",
+      "oldSchedulePreserved": true,
+      "promptUpdated": true
+    }
+  ],
+  "additionalAutomation": {
+    "title": "PLA Site Health Watch",
+    "action": "UNCHANGED",
+    "existingSchedulePreserved": true
+  },
+  "authorityFollowUp": [
+    {
+      "source": "Navi Mumbai Chamber of Business & Industries",
+      "sourceURL": "https://www.nmcbi.org/",
+      "type": "BUSINESS_ASSOCIATION",
+      "publisherStatedAnnualFeeINR": 3000,
+      "publisherRefundCondition": "Membership not approved",
+      "eligibility": "PLA eligibility/selection, tax and renewal details unconfirmed",
+      "status": "TERMS_RESEARCHED; NO_APPLICATION_PAYMENT_MEMBERSHIP_OR_LINK",
+      "liveCitation": null,
+      "targetPage": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+      "referralEnquiries": null,
+      "action": "Assess genuine participation and eligibility; no claim or spending without actual authorisation"
+    },
+    {
+      "source": "Lawzana",
+      "sourceURL": "https://lawzana.com/register-law-firm",
+      "type": "LEGAL_DIRECTORY",
+      "publisherBasicProfileFee": "free",
+      "publisherRestrictions": "Phone and website display require a paid tier; do-follow backlink appears in the highest paid tier",
+      "classification": "LOWER_PRIORITY_FREE_NAP_OPPORTUNITY; no link purchase",
+      "status": "TERMS_RESEARCHED; NO_PLA_LISTING_ACQUIRED",
+      "liveCitation": null,
+      "targetPage": "https://paullegalassociates.com/",
+      "referralEnquiries": null,
+      "action": "Retain existing correction priority; do not buy a link or adopt unverified reach/quality claims"
+    }
+  ],
+  "semrushAccessRecheck": {
+    "installed": false,
+    "callableTools": 0,
+    "source": "Connected Plugin Management discovery",
+    "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+    "existingSuggestionObserved": true,
+    "newDuplicateSuggestionSent": false,
+    "publicReportFallback": "PLA and Hawelikar public report retrieval inaccessible; no numeric fallback available",
+    "metrics": "UNAVAILABLE; NOT_ZERO"
+  },
+  "actualBusinessOutcomes": {
+    "localPackPositions": null,
+    "organicKeywordMovement": null,
+    "semrushKeywordMovement": null,
+    "googleReviewCount": null,
+    "googleReviewRating": null,
+    "newReviewsThisPeriod": null,
+    "qualifiedEnquiries": null,
+    "collectedEnquiryActions": null,
+    "aiAppearanceTrend": null,
+    "referringDomains": null,
+    "napCorrectionsSubmittedThisRun": 0,
+    "napCorrectionsVerifiedThisRun": 0,
+    "gbpChangesThisRun": 0,
+    "newLinksAcquiredThisRun": 0,
+    "reviewMessagesOrRepliesSentThisRun": 0
+  },
+  "preserved": [
+    "Existing 247 static routes / 239 sitemap URLs / 32 meaningful dates",
+    "Current website, metadata, entity graph, source content and seven enquiry-action hooks",
+    "IndexNow implementation and unchanged manifest",
+    "Eight held maritime articles",
+    "Separate agricultural-land / NRI-FEMA research queue",
+    "Historical GSC data and existing tracker"
+  ],
+  "nextExecution": [
+    "Read current main, the current scorecard section and this execution checkpoint; obtain final release SHA/workflow from the linked PR metadata rather than rerun the prior technical audit.",
+    "Re-check Semrush connectivity. Once callable, capture PLA and registered competitor India-domain organic positions/pages/competitors/backlinks/referring domains; validate complete totals before comparing like-for-like dates.",
+    "Obtain manager access to the genuine existing GBP and confirmed identity/hours/pin; read actual categories/reviews/Performance before applying prepared category/services/UTM decisions.",
+    "Correct existing GetLaw/Bdir/Justdial records through genuine account/editor access and verify live readback. LinkedIn remains reserved to the user's own editing. Send no publisher email without explicit sending instruction.",
+    "Collect repeated location-controlled rank observations and independent AI-engine answers through accessible systems, saving actual source evidence before append.",
+    "Connect one authorised GA4/GTM collector to the existing events, restore GSC reporting, and read Bing/Cloudflare evidence when available; keep metrics unknown until measured.",
+    "Continue safe public authority/citation research and factual entity consistency while account reports are blocked; do not default to bulk content or unrelated categories."
+  ],
+  "validation": {
+    "status": "PASS",
+    "observedAtUTC": "2026-10-07T14:29:07.432485+00:00",
+    "commands": [
+      {
+        "command": [
+          "python",
+          "scripts/local-search-records.py",
+          "check"
+        ],
+        "exitCode": 0,
+        "stdout": "{\"status\": \"PASS\", \"candidateTerms\": 77, \"observationsByKind\": {\"citation\": 4}, \"ledgerSHA256\": \"f05de122eca8f3a2fa6ec785075304fa62f6f797bb86ede24e076e8d2c206d5e\"}",
+        "stderr": ""
+      },
+      {
+        "command": [
+          "python",
+          "scripts/test-local-search-records.py"
+        ],
+        "exitCode": 0,
+        "stdout": "",
+        "stderr": "..........\n----------------------------------------------------------------------\nRan 10 tests in 0.028s\n\nOK"
+      }
+    ],
+    "keywordCSVRows": 77,
+    "unmeasuredCSVCells": "All required metrics blank",
+    "repositoryDocLinksChecked": 25,
+    "jsonFilesParsed": true,
+    "publicOutcomeClaims": "none; unmeasured outcome fields null",
+    "csvRecordSeparators": "LF; 77 unchanged rows",
+    "stagedDiffCheck": "PASS; all nine changed files"
+  },
+  "recordedAtUTC": "2026-10-07T14:24:54.822193+00:00",
+  "blockedAccounts": {
+    "semrush": {
+      "status": "UNAVAILABLE_IN_THIS_RUN",
+      "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+      "installed": false,
+      "callableTools": 0,
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "exactAccess": "Install/connect Semrush in this Work account/run; a Semrush web-account subscription alone does not expose reports here",
+      "existingSuggestionObserved": true
+    },
+    "gsc": {
+      "status": "PAYMENT_REQUIRED",
+      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
+      "exactAccess": "Restore existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription or connect an authorised alternative; retain the existing tracker"
+    },
+    "gbp": {
+      "status": "MANAGER_ACCESS_UNAVAILABLE",
+      "exactAccess": "Manager access to the existing PLA Business Profile, its actual profile/place ID, edit information and Performance reporting; no replacement profile"
+    },
+    "geoRankTracking": {
+      "status": "UNAVAILABLE",
+      "exactAccess": "Connected location-controlled Google Local Pack/Maps and organic tracking with engine, language, device, timestamps and verified coordinates"
+    },
+    "ga4gtm": {
+      "status": "COLLECTOR_NOT_CONFIGURED",
+      "exactAccess": "Actual existing GA4 property/measurement ID or GTM container and authorised configuration; verify one collector and DebugView before counting actions"
+    },
+    "bing": {
+      "status": "REPORTING_UNAVAILABLE",
+      "exactAccess": "Verified paullegalassociates.com Bing Webmaster reporting/API connection"
+    },
+    "cloudflare": {
+      "status": "VERIFIED_CRAWLER_LOGS_UNAVAILABLE",
+      "exactAccess": "Zone Security Events/verified-bot logs and WAF/Bot/Crawl Control read access"
+    },
+    "directories": {
+      "status": "OWNED_PROFILE_ACCESS_UNAVAILABLE",
+      "exactAccess": "Existing Justdial/GetLaw/Bdir correction ownership or verified editor route; LinkedIn remains user-owned"
+    },
+    "ownerFacts": {
+      "status": "HOURS_PIN_AND_CLAIMS_UNCONFIRMED",
+      "exactAccess": "Office administrator confirmation of current hours, exact entrance/pin, other live offices and phone ownership; managing-partner claim/testimonial evidence"
+    }
+  }
+}
