@@ -2,6 +2,32 @@
 
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Last successfully retrieved complete Search Console date (historical):** 2 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
+
+## Current Local Search Scorecard — 7 October 2026 IST
+
+This is the permanent scorecard for the Local Pack / local organic / reputation / authority / AI programme. This section supersedes older “current” delivery/access statements below; history is retained. Start main is `26799ca6d8f625b1a51b9f29903aefaf238b6689`, merged through PR #44. The earlier interrupted workspace is accessible again; a clean isolated checkout preserves the prior draft/checkpoint.
+
+[Dated local evidence and exact keyword rows](evidence/Local_Search_2026-10-07.json) record current production, provisional priorities, seven distinct competitor entities, seven citation observations, prepared GBP services, source URLs and exact missing access. Current Google figures remain unknown; the through-2-Oct GSC report is historical. Candidate geographic observation points have no invented coordinates or positions.
+
+| Dimension | Current dated evidence | Next measurable outcome |
+|---|---|---|
+| Local Pack / Maps / near-me | No location-controlled tracker or manager-connected profile; positions and pack presence unknown | Same keyword × verified point × engine/device/language observations; Top-3 share only within a fixed observed cohort |
+| Local organic | Existing query ownership preserved; exact historical GSC pairs attached separately to candidate terms | Fresh India query/landing data and location-aware organic positions; service landing share |
+| Semrush footprint / movement | Plugin discovery reports `installed:false`; no callable Semrush reports | India positions, Top 3/10/20 counts, top pages, organic competitors and comparable dated snapshots |
+| Backlinks / referring domains | No connected quantitative feed; no acquired links in this run | Dated referring-domain/new/lost-link comparison and qualified opportunity classification |
+| GBP completeness / actions | Actual profile identity/categories/pin/hours/service/photo/Performance state unknown; zero changes in this run | Verify the existing profile, then factual corrections and fixed UTM links; call/site/directions actions |
+| Reviews / recency / responses | Current Google count/rating/velocity unknown; Bdir’s conflicting ratings excluded | Verified profile snapshots, review-date counts and response coverage; staff process in Local Operations |
+| NAP corrections | GetLaw and both Bdir entries freshly show former office; LinkedIn About contradicts its current location. Justdial direct retrieval restricted | Submitted → live readback verified; one citation record per source; no duplicate or fake office |
+| Competitor monitoring | Seven primary-site entities; Hawelikar brand domains consolidated. Regalwhiz is an organic-content comparator with Chennai office | Same clusters/domains measured over time; Google review/proximity data only when actually observed |
+| Authority | NMCBI member-service opportunity rechecked; costs/eligibility and membership unconfirmed | Genuine eligibility/participation, live reference and referral evidence; no affiliation claim before it exists |
+| AI / ChatGPT / Copilot | Public robots allow discovery; no independent answer tests or verified crawler logs | Engine/prompt/date/location/cited-source records; genuine crawler access and qualified referrals |
+| Enquiry actions / actual leads | Existing seven event types retained; collector absent; phone/WhatsApp/directions paths verified at Contact | One authorised collector, deduplicated qualified enquiries and retained matters; handoff ≠ delivered enquiry |
+| Production | Five focus pages and robots/sitemap returned 200; one self-canonical/H1 per page, consistent firm entity/phone; 239 sitemap URLs / 32 meaningful dates | Preserve delivery while addressing the external entity and measurement gaps |
+
+Stages remain **unestablished**, not completed by this register: (1) consistent real entity, (2) repeated priority local/organic visibility, (3) more Top-10/pack appearances, (4) selected high-value Local Pack Top-3, (5) attributable qualified enquiries. No ranking guarantee. Unknown metrics stay null; absence of a disclosed query or engine test is not zero demand/visibility.
+
+At each existing growth run: read this section and current main, re-check access, measure an available gap, execute a safe evidenced correction, verify and append the observation. Preserve settled periods and source identity. Public provider search results are discovery evidence, not geo-controlled Google positions.
+
 ## Current measurement availability — 7 October 2026 IST
 
 The fresh Google read is blocked by GSC Wizard payment_required. Current Tier-A indexed percentage, new crawls and search performance are **unknown**. The 3/18 inspection result from 5 October and performance through 2 October below remain historical baselines. Public HTTP 200, canonical checks and a successful build do not refresh Google indexation. Existing tracker identity/configuration is preserved; no unchanged indexing request was made.

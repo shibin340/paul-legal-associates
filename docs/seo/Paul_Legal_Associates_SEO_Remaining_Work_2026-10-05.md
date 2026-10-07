@@ -24,6 +24,25 @@ Opened 5 October 2026 before source changes; refreshed after the execution cycle
 | Permanent outcome scorecard | Settled 28/90/180-day, devices/countries, tracker, releases and known/unknown outcome fields persisted | Existing named scorecard and evidence snapshots | P0 | Continue weekly settled snapshots and monthly commercial comparisons; actual leads remain blocked on collector | Named scorecard; docs/evidence | Persistent repository record; no unchanged URL notifications for docs-only release | Indexed cohort, local non-brand clicks, service share, actual leads and field UX | COMPLETE |
 | Irrelevant generic impressions | Bankruptcy/contract/employment generic impressions attributed mainly to Home/legacy hash | Current query×page and India-filtered observations | P1 | Segment generic from qualified local/service data; do not remove genuine services without a semantic reason | CTR/query registers | No unsupported semantic rewrite, title churn or useful-content deletion | Commercially qualified share and correct service landing distribution | COMPLETE |
 
+
+## Local-growth execution checkpoint — 7 October 2026 IST
+
+The active user scope is now local entity consistency, Maps/local organic discovery, reputation, authority, competitors and AI visibility. Current main at start is `26799ca6d8f625b1a51b9f29903aefaf238b6689` / PR #44; PRs #31–#43 source corrections and all existing website systems are preserved. This execution workspace is available again. Prior land/FEMA research remains a separate outstanding source queue; no unacknowledged draft is assumed deployed or silently discarded.
+
+Executable work completed in this cycle: current-register/history review; narrow live entity/contact/robots/sitemap verification; exact known-citation checks; primary-page competitor distinctions; exact-keyword mapping to existing preferred URLs with provisional priorities; dated Local Search Scorecard evidence; review and correction operations prepared for genuine use. No broad technical audit, page expansion, external correction, new review, backlink, membership or ranking gain is claimed.
+
+| Platform | Action needed | Exact missing access / evidence | Continue while blocked |
+|---|---|---|---|
+| Semrush | PLA India organic/competitor/keyword/backlink baseline and gaps | Discovery reports plugin uninstalled in this run; install/connect it so callable reports become available. Existing suggestion was observed; no duplicate suggestion | Public primary-page/citation observations and existing query ownership; quantitative metrics null |
+| GBP / Maps | Verify and optimise existing profile; measured local visibility and reviews | Existing profile manager access, exact profile/place ID and Performance; confirmed true hours/entrance/pin | Prepared service mapping, category decisions, fixed UTMs and review workflow |
+| GSC Wizard | Current indexation and qualified query/landing refresh | Subscription read returns `payment_required`; restore subscription or authorised alternative | Preserve existing tracker and historical data; no fabricated current refresh |
+| GA4 / GTM | Collect existing enquiry events | Real property/measurement ID or container, configuration rights; one collector verified in network/DebugView | Maintain source contract and private office lead qualification |
+| Existing citations | Correct known address/contact contradictions | Existing Justdial/GetLaw/Bdir owner/editor access; explicit outreach instruction for publisher email if used. LinkedIn is still user-owned | Exact correction texts and independent readback queue |
+| Bing / Cloudflare | Crawl/query/AI and verified-bot evidence | Existing Bing Webmaster reports/API; zone Security Events and verified-crawler/current rule access | Current public robots/HTTP evidence, without pretending it is verified-bot success |
+| AI engines / geo tracker | Repeat independent answer and fixed-point rank tests | Accessible independent engine answers and location-controlled tracking | Preserve exact prompt/point protocol with no guessed ranks |
+
+Immediate next executable work after this baseline is the review/citation operations and guarded observation tooling, then update the existing growth/monthly automation instructions to read the expanded permanent scorecard. As access appears, finish the external correction/report before returning to additional website content. Do not treat preparation as publication or a one-time baseline as movement.
+
 ## Execution/access checkpoint — 7 October 2026 IST
 
 GSC Wizard refused the initial list_sites read with payment_required. No fresh inspection, Google-selected canonical, first impression/click, mature performance, GA4/Bing account report or new indexed count is claimed. The exact unblock is to restore the existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription (or connect an authorised GSC reporting alternative). No purchase or duplicate tracker was made. Continue content/public work during this blocker.

@@ -44,3 +44,9 @@ Disclosed evidence is matched to the stated intent, not merely a shared word: in
 ## Implemented signal correction
 
 PR #28 changes the contract article’s preferred destination from the broad corporate hub to the existing contract-drafting service. The GST/tax article and its service now link reciprocally. The map does not justify mass title changes or redirects. Keep the four Tier-C overlap pages as supporting content while distinct content and crawl evidence are assessed.
+
+## Local exact-keyword execution list — 7 October 2026 IST
+
+[Local Search evidence](evidence/Local_Search_2026-10-07.json) expands the user’s relevant legal terms into exact rows using the existing family owners; it does not replace the 34-family map. Each relevant row holds intent/geography, preferred URL, provisional P0/P1/P2, source-matched historical query/page pairs, competitor candidates and action. Current rank/landing, demand, difficulty and Local Pack/organic presence remain null until actually measured. P0 currently means an execution candidate with high business relevance; realistic local opportunity is not established without demand/competition data. Terms with no disclosed exact query do not have zero demand.
+
+Property due diligence/title, registration, RERA, NAINA, employer POSH and broad firm discovery remain distinct. CIDCO generic intent must be qualified into property/allotment/leasehold work versus a planning/acquisition issue; civil intent is limited to the genuine property/commercial practice. Generic maritime/finance/contract volume must not be treated as Panvel “near me” demand. The three expressly unrelated education/restaurant/doctor terms are IRRELEVANT with no landing. No metadata rewrite, duplicate location page or “near me” padding was made.
