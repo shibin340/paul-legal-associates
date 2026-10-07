@@ -144,21 +144,25 @@
       "title": "Land Acquisition in Maharashtra: Understanding Your Compensation Rights",
       "author": "Adv. P. P. Polachan",
       "publicationDate": "January 30, 2025",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted NAINA scheme-stage and acquisition-remedy source review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 384,
-      "sections": 5,
-      "primarySources": [],
+      "wordEvidence": 992,
+      "sections": 7,
+      "primarySources": [
+        "https://dolr.gov.in/en/act-rules/",
+        "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/02/20240222103134857.pdf",
+        "https://lj.maharashtra.gov.in/en/document/right-to-fair-compensation-and-transparency-in-land-acquisition-rehabilitation-and-resettlement-maharashtra-amendment-act-2018/"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/land-acquisition-compensation-matters/",
       "tierASupport": [
@@ -193,7 +197,41 @@
       "authorProfile": [
         "/partners/pp-polachan/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. P. P. Polachan",
+        "preservedPublicationDate": "January 30, 2025",
+        "sourceEvidence": [
+          {
+            "url": "https://dolr.gov.in/en/act-rules/",
+            "read": "Official central Act/rules directory read; distinguish Act, expired historical ordinances, bills and rules. No current Maharashtra factor or project-wide exemption inferred."
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/02/20240222103134857.pdf",
+            "read": "Full45-page primary scanned Gazette downloaded/OCR extracted; sections15/26–31/64/80 and FirstSchedule read, pages11/17/26/37 visually checked for critical numerals, remedy and formula. IndiaCode direct retrieval timed out; DoLR primary copy used. Not a comprehensive current consolidated-law or particular award opinion.",
+            "sha256": "0ecf1ddd55bd92daa2e40c76e6842f90a612ad8c18d97f26ac5c73dc23714df1"
+          },
+          {
+            "url": "https://lj.maharashtra.gov.in/en/document/right-to-fair-compensation-and-transparency-in-land-acquisition-rehabilitation-and-resettlement-maharashtra-amendment-act-2018/",
+            "read": "Official page and full4-page Gazette downloaded/read; 10A notifications,23A agreed award,31A R&R,105A/FifthSchedule distinguished. No assertion every airport/highway/MRTP acquisition has one package.",
+            "sha256": "ca323aee397bfe59447b26640ce32ae1aa2664c938f85ea9b66d93f950206581"
+          },
+          {
+            "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/The-Maharashtra-Regional-Town-Planning-Final-Printing-05-08-2026.pdf",
+            "read": "Official Law/Judiciary index exposed current compilation: text as on28July2026. Full PDF downloaded/text extracted;60A/68A/71–74/86/88–91 read. Web PDF reader unavailable; valid local primary download used. Earlier10March2025 compilation superseded for current review.",
+            "sha256": "e0dd8e00a0aedac16b9bf607e1fe3e59256fcf085e5debdae46a958067e87778"
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/09/20250911108561559.pdf",
+            "read": "Full14-page Gazette downloaded/text extracted; amendment TPS sections8–33 read, including68A,72,86deemed-sanction/extensions,91replacement. Current compilation cross-checked. No deemed approval of an individual NAINA plot/scheme asserted.",
+            "sha256": "47e640dea7cebd0c7e87caa6cf5ff4fc79a6cb8b82d23347e160920b0313423f"
+          },
+          {
+            "url": "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
+            "read": "Current official TPS directory read; individual scheme document/stage distinctions, not a verification of every scheme boundary, plot entitlement, current FSI or financial return. Per-plot facts remain matter-specific."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/commercial-arbitration-vs-litigation/",
@@ -389,21 +427,25 @@
       "title": "NAINA Town Planning Scheme: Protecting the Rights of Landowners, Developers and Investors",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 24, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted NAINA scheme-stage and acquisition-remedy source review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 2986,
-      "sections": 27,
-      "primarySources": [],
+      "wordEvidence": 3288,
+      "sections": 28,
+      "primarySources": [
+        "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
+        "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/The-Maharashtra-Regional-Town-Planning-Final-Printing-05-08-2026.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/09/20250911108561559.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/naina-town-planning-scheme-services/",
       "tierASupport": [
@@ -434,7 +476,41 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "June 24, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://dolr.gov.in/en/act-rules/",
+            "read": "Official central Act/rules directory read; distinguish Act, expired historical ordinances, bills and rules. No current Maharashtra factor or project-wide exemption inferred."
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s3d69116f8b0140cdeb1f99a4d5096ffe4/uploads/2024/02/20240222103134857.pdf",
+            "read": "Full45-page primary scanned Gazette downloaded/OCR extracted; sections15/26–31/64/80 and FirstSchedule read, pages11/17/26/37 visually checked for critical numerals, remedy and formula. IndiaCode direct retrieval timed out; DoLR primary copy used. Not a comprehensive current consolidated-law or particular award opinion.",
+            "sha256": "0ecf1ddd55bd92daa2e40c76e6842f90a612ad8c18d97f26ac5c73dc23714df1"
+          },
+          {
+            "url": "https://lj.maharashtra.gov.in/en/document/right-to-fair-compensation-and-transparency-in-land-acquisition-rehabilitation-and-resettlement-maharashtra-amendment-act-2018/",
+            "read": "Official page and full4-page Gazette downloaded/read; 10A notifications,23A agreed award,31A R&R,105A/FifthSchedule distinguished. No assertion every airport/highway/MRTP acquisition has one package.",
+            "sha256": "ca323aee397bfe59447b26640ce32ae1aa2664c938f85ea9b66d93f950206581"
+          },
+          {
+            "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/The-Maharashtra-Regional-Town-Planning-Final-Printing-05-08-2026.pdf",
+            "read": "Official Law/Judiciary index exposed current compilation: text as on28July2026. Full PDF downloaded/text extracted;60A/68A/71–74/86/88–91 read. Web PDF reader unavailable; valid local primary download used. Earlier10March2025 compilation superseded for current review.",
+            "sha256": "e0dd8e00a0aedac16b9bf607e1fe3e59256fcf085e5debdae46a958067e87778"
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/09/20250911108561559.pdf",
+            "read": "Full14-page Gazette downloaded/text extracted; amendment TPS sections8–33 read, including68A,72,86deemed-sanction/extensions,91replacement. Current compilation cross-checked. No deemed approval of an individual NAINA plot/scheme asserted.",
+            "sha256": "47e640dea7cebd0c7e87caa6cf5ff4fc79a6cb8b82d23347e160920b0313423f"
+          },
+          {
+            "url": "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
+            "read": "Current official TPS directory read; individual scheme document/stage distinctions, not a verification of every scheme boundary, plot entitlement, current FSI or financial return. Per-plot facts remain matter-specific."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/due-diligence-agricultural-non-agricultural-land/",
@@ -4394,7 +4470,16 @@
             "url": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour",
             "read": "Official page and linked271-page draft read for draft identity. No final Maharashtra implementation claimed; current Gazette/appropriate-government check required."
           }
-        ]
+        ],
+        "production": {
+          "pr": 40,
+          "mergeSha": "873da1c4ae89495123074e8b24c32d8c93d8829f",
+          "checkedAt": "2026-10-07T05:27:45.894Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -6833,7 +6918,16 @@
             "url": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour",
             "read": "Official page and linked271-page draft read for draft identity. No final Maharashtra implementation claimed; current Gazette/appropriate-government check required."
           }
-        ]
+        ],
+        "production": {
+          "pr": 40,
+          "mergeSha": "873da1c4ae89495123074e8b24c32d8c93d8829f",
+          "checkedAt": "2026-10-07T05:27:45.894Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
