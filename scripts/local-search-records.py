@@ -158,7 +158,8 @@ def validate_record(row, baseline, root=ROOT):
         require(row['sourceType'] in {'google_profile', 'gbp_manager'}, 'Directory ratings are not Google review metrics')
         require(nonempty(row['profileId']) and public_url(row['profileURL']), 'Verified existing Google profile identity required')
         host = urlparse(row['profileURL']).hostname
-        require(host == 'g.page' or host == 'google.com' or host.endswith('.google.com'), 'A Google profile URL is required')
+        require(host in {'g.page', 'share.google', 'google.com'} or host.endswith('.google.com'),
+                'A Google profile URL is required')
         require(row['reviewCount'] is None or number(row['reviewCount'], integer=True), 'Invalid review count')
         require(row['rating'] is None or number(row['rating'], low=1, high=5), 'Invalid rating')
         require(row['responseCount'] is None or number(row['responseCount'], integer=True), 'Invalid response count')

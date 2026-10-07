@@ -320,5 +320,510 @@
       "status": "HOURS_PIN_AND_CLAIMS_UNCONFIRMED",
       "exactAccess": "Office administrator confirmation of current hours, exact entrance/pin, other live offices and phone ownership; managing-partner claim/testimonial evidence"
     }
-  }
+  },
+  "executionCycles": [
+    {
+      "id": "post-pr46-20261007-execution",
+      "startedAtUTC": "2026-10-07T16:35:59Z",
+      "recordedAtUTC": "2026-10-07T17:50:11.900040+00:00",
+      "sourceMain": "17012d34efaa6e4073f8b81b1f53cd882aa1c51e",
+      "latestMergedPRAtStart": 46,
+      "mainReverifiedThroughGitHub": true,
+      "publishingPR": {
+        "number": 47,
+        "url": "https://github.com/shibin340/paul-legal-associates/pull/47"
+      },
+      "scope": "Actual post-PR46 measurements and diagnostic results; existing keyword/operations framework preserved.",
+      "accessChecks": {
+        "semrush": {
+          "discovery": "Fresh installed-plugin search at start and again after independent measurements; registry name/description search returns no Semrush tools.",
+          "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
+          "status": "ENABLED",
+          "installationPolicy": "AVAILABLE",
+          "installed": false,
+          "callableReports": 0,
+          "existingConnectionSuggestion": true,
+          "duplicateSuggestionCreated": false,
+          "ownerAction": "Complete the existing Semrush install/connect card in this Work account/conversation. The web account alone does not expose the MCP reports here.",
+          "databaseRequested": "in",
+          "actualDatabaseUsed": null,
+          "reportsRetrieved": 0
+        },
+        "gsc": {
+          "toolsCalledOnceEach": [
+            "gsc_wizard_get_account_info",
+            "gsc_wizard_list_sites"
+          ],
+          "detailedError": "payment_required: Your GSC Wizard trial has ended or you have no active subscription.",
+          "genericWrapperErrorCode": "INVALID_ARGUMENT",
+          "rootCause": "GSC Wizard provider subscription/trial inactive; not demonstrated Google property permission failure.",
+          "ownerAction": "Restore the existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription, then refresh the existing property/tracker. No subscription purchase, duplicate property or OAuth reset performed.",
+          "repeatedRetries": false,
+          "propertyListingFixed": false
+        },
+        "gbp": "Public profile baseline obtained; no signed-in manager/Performance access or edit controls available.",
+        "geoRankTracking": "No connected location-controlled Local Pack/Maps grid reports; no rank rows or coordinates invented.",
+        "ga4gtm": "Existing website events retained; authorised collector/property/container still unavailable.",
+        "copilot": "Anonymous copilot.microsoft.com redirected to copilot.com and required sign-in; no completed answer and no absence count.",
+        "googleFurtherObservations": "Google unusual-traffic screening after the useful first AI/profile read. A single reload was rejected by automatic approval review as a possible anti-bot bypass. Block reported; no workaround or further Google interaction."
+      },
+      "keywordExecution": {
+        "relevantCandidatesRetained": 74,
+        "irrelevantIntentsRetained": 3,
+        "landingMappingsChanged": 0,
+        "semrushEvidenceAdded": 0,
+        "demandValidatedP0Set": null,
+        "reason": "No quantitative feed. Retain existing provisional relevance priorities rather than manufacture a 10–20-term demand-backed P0 set."
+      },
+      "publicGBP": {
+        "observedAtUTC": "2026-10-07T16:47:31.085Z",
+        "sourceType": "google_profile",
+        "name": "Paul Legal Associates",
+        "googleKnowledgeGraphId": "/g/11gxh4hy9j",
+        "featureId": "0x3be7e91d39806479:0x29a44e595f30b556",
+        "gbpManagerProfileId": null,
+        "displayedCategory": "Law firm",
+        "primaryCategoryManagerVerified": false,
+        "secondaryCategories": null,
+        "address": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Rd, near Garden Hotel, Nityanand Nagar, HOC Colony, Panvel, Maharashtra 410206, India",
+        "phone": "+917977063567",
+        "website": "https://paullegalassociates.com/",
+        "appointmentURL": "https://paullegalassociates.com/#/contact",
+        "shareURL": "https://share.google/SQIINX18BnXyxWyf8",
+        "shareLinkVerification": "Generated in the identified Google profile Share dialog. Navigation resolved to the same kgmid before Google unusual-traffic screening; full standalone share-page load unverified.",
+        "description": "Professional law firm specializing in property matters and civil litigation.",
+        "rating": 4.9,
+        "reviewCount": 172,
+        "responseCount": null,
+        "newReviews": null,
+        "latestReviewDate": null,
+        "publishedHours": {
+          "Monday": "09:00–21:00",
+          "Tuesday": "09:00–21:00",
+          "Wednesday": "09:00–21:00",
+          "Thursday": "09:00–21:00",
+          "Friday": "09:00–21:00",
+          "Saturday": "09:00–21:00",
+          "Sunday": "09:00–21:00"
+        },
+        "otherPublishedHours": {
+          "onlineServiceHours": "Open 24 hours",
+          "seniorHours": "09:00–11:30"
+        },
+        "websitePublishedHours": {
+          "Monday–Friday": "10:00–20:00",
+          "Saturday": "10:00–18:00",
+          "Sunday": "By appointment"
+        },
+        "ownerHoursConfirmation": "PENDING; owner selected confirmation pending in this run; no hour mutation.",
+        "pinCoordinatesVerified": false,
+        "serviceCataloguePresent": true,
+        "serviceCatalogueCount": null,
+        "serviceLabelsNeedingOwnerJurisdictionCheck": [
+          "Chapter 7 bankruptcy",
+          "Chapter 11 bankruptcy",
+          "Chapter 13 bankruptcy",
+          "Lemon law litigation",
+          "Federal criminal defense litigation",
+          "Three-strikes law litigation"
+        ],
+        "servicesDecision": "Read actual manager categories/catalogue first; reconcile the prepared 18 genuine services against existing entries rather than blindly add duplicates. These public service labels are not proof of secondary category IDs.",
+        "photoCount": null,
+        "qa": null,
+        "posts": null,
+        "performance": null,
+        "changesMade": []
+      },
+      "ownerFacts": {
+        "officeHours": "Confirmation pending",
+        "advocatePaulRelationship": "Separate advocate profile, expressly confirmed by owner in this run.",
+        "separateAdvocateCard": {
+          "source": "ChatGPT local-place card",
+          "name": "Advocate Paul",
+          "address": "101, R3, Moraj Riverside Park, Takka Colony, Panvel, Maharashtra 410206",
+          "phone": "+919820765944",
+          "website": "https://bit.ly/advpaul?utm_source=chatgpt.com",
+          "displayedCategory": "Real estate attorney"
+        },
+        "action": "Keep separate advocate entity distinct; no firm-profile merger/closure or assumption of current advocate-office status."
+      },
+      "citationResults": [
+        {
+          "id": "getlaw",
+          "observedAtUTC": "2026-10-07T16:45:42.046121+00:00",
+          "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+          "retrieval": "Public web source and independent ordinary HTTP200 readback",
+          "visibleAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai -410206, Near Garden Hotel",
+          "addressStatus": "matches",
+          "agreementScope": "Current building/road/postcode; suite/full plot not displayed. Not full field-level NAP verification.",
+          "formerMorajPresent": false,
+          "phoneStatus": "not_observed",
+          "visibleExperienceYears": 40,
+          "experienceVerified": false,
+          "visibleHours": "Monday–Sunday 09:00–21:00; owner confirmation pending",
+          "changeOrigin": "UNKNOWN; no correction was submitted by this operator. Prior PR46 observation retained.",
+          "publisherRoute": "https://getlaw.in/page/contact-us",
+          "publisherEmail": "admin@getlaw.in",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "nextAction": "Do not send obsolete Moraj correction; current building is aligned. Confirm suite, genuine experience and hours before any targeted update."
+        },
+        {
+          "id": "bdir-property",
+          "observedAtUTC": "2026-10-07T17:46:53.238Z",
+          "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+          "visibleAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "phones": [
+            "+917977063567",
+            "+919820765944"
+          ],
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null
+        },
+        {
+          "id": "bdir-finance",
+          "observedAtUTC": "2026-10-07T17:46:53.238Z",
+          "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+          "visibleAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "phones": [
+            "+917977063567",
+            "+919820765944"
+          ],
+          "unverifiedClaim": "800 cases remains unsupported; not adopted.",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null
+        },
+        {
+          "id": "linkedin",
+          "observedAtUTC": "2026-10-07T17:46:53.238Z",
+          "sourceURL": "https://in.linkedin.com/company/paullegalassociates",
+          "addressStatus": "mixed",
+          "phoneStatus": "matches",
+          "currentLocation": "Office301, Om Sai Building, near Garden Hotel, Panvel410206",
+          "contradictions": [
+            "About retains Kalina/Moraj offices",
+            "About older email",
+            "About since2000 versus Founded2001"
+          ],
+          "owner": "User reserved LinkedIn editing; no change made or office closure inferred.",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null
+        }
+      ],
+      "citationCorrectionRoute": {
+        "sourceURL": "https://bdir.in/p/contact",
+        "observedAtUTC": "2026-10-07T16:43:11.238515+00:00",
+        "httpStatus": 200,
+        "publisherContactEmails": [
+          "datagemba@gmail.com"
+        ],
+        "formCount": 0,
+        "claimOrLoginLinks": [],
+        "status": "CONTACT_ROUTE_VERIFIED; NO_CORRECTION_SENT"
+      },
+      "ai": {
+        "observations": [
+          {
+            "id": "ai-chatgpt-1-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Which property lawyers have a genuine office in Panvel? Cite the office source.",
+            "observedAtUTC": "2026-10-07T17:01:14.946Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": false,
+            "plaWebsiteCited": false,
+            "competitors": [
+              "ADV. AMIT CHAUDHARI & CO.",
+              "Advocate Sanjay Gangnaik",
+              "TAYADES LEGAL ASSOCIATES",
+              "P. S. Jhedu & Associates",
+              "ADV. P.P.WAGHMARE.",
+              "Advocate Paul",
+              "N. A. Shaikh Associates Advocate & Notary navi mumbai",
+              "Sarjil Associate"
+            ],
+            "citedURLs": [
+              "https://www.badavakeel.com/advocate/advocate-in-panvel?utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "Paul Legal Associates was absent. Advocate Paul appeared at Moraj with +919820765944 and a bit.ly website; owner confirmed this is a separate advocate profile. Its appearance is not counted as a PLA firm mention and its 3 reviews/5.0 rating are excluded from PLA metrics. Map rendering said data unavailable."
+          },
+          {
+            "id": "ai-chatgpt-2-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Which Navi Mumbai law firms handle NAINA town planning matters? Cite the service source.",
+            "observedAtUTC": "2026-10-07T17:36:44.585Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": true,
+            "plaWebsiteCited": true,
+            "competitors": [
+              "SIDDHIVINAYAK ASSOCIATE - REAL ESTATE LEGAL WORK",
+              "Kaleeyantey Law Firm",
+              "YourLawyer Law Firm - Adv. Yash Bangar",
+              "ADVOCATE KHOPADE AND COMPANY",
+              "Shirish Pawar and Associates, Advocate and Notary"
+            ],
+            "citedURLs": [
+              "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/?utm_source=chatgpt.com",
+              "https://paullegalassociates.com/expertise/?utm_source=chatgpt.com",
+              "https://cidco.maharashtra.gov.in/Page?Token=40A6ECB7373&utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "PLA explicitly identified for NAINA TPS work and its existing service page cited. Other local firms were qualified by the engine as requiring confirmation of specific NAINA experience."
+          },
+          {
+            "id": "ai-chatgpt-3-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Which Navi Mumbai lawyers assist with MahaRERA matters? Cite sources.",
+            "observedAtUTC": "2026-10-07T17:40:56.535Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": true,
+            "plaWebsiteCited": true,
+            "competitors": [
+              "RERA Lawyer - Hawelikar & Associates, Advocates",
+              "Acelegal",
+              "ABlaw and Associates",
+              "Advent Advocates LLP"
+            ],
+            "citedURLs": [
+              "https://paullegalassociates.com/expertise/?utm_source=chatgpt.com",
+              "https://acelegal.net.in/practise-areas?utm_source=chatgpt.com",
+              "https://ablawandassociates.in/RERA-matters-lawyer.php?utm_source=chatgpt.com",
+              "https://adventadvocates.com/practice-areas?utm_source=chatgpt.com",
+              "https://maharera.maharashtra.gov.in/sites/default/files/order_list/53369_Judgement.pdf?utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "PLA appeared and the practice index was cited for MahaRERA service relevance. This is an actual cited URL observation, not proof of a query-to-page defect or an organic ranking."
+          },
+          {
+            "id": "ai-chatgpt-4-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Who offers property title verification in Panvel? Cite sources.",
+            "observedAtUTC": "2026-10-07T17:41:22.615Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": true,
+            "plaWebsiteCited": true,
+            "competitors": [
+              "ADV. AMIT CHAUDHARI & CO.",
+              "S. J. Bondre",
+              "ADV. P.P.WAGHMARE.",
+              "Jaysing Shere & Associates",
+              "RSR Advocates",
+              "PropertyKawach"
+            ],
+            "citedURLs": [
+              "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/?utm_source=chatgpt.com",
+              "https://adv-amit-chaudhari-co.grexa.site/?utm_source=chatgpt.com",
+              "https://propertykawach.com/city/panvel/?utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "PLA appeared with the existing title-verification landing cited. Several other local entries were described as needing direct confirmation of their title-search services."
+          },
+          {
+            "id": "ai-chatgpt-5-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Which Navi Mumbai legal practices provide employer POSH compliance support? Cite sources.",
+            "observedAtUTC": "2026-10-07T17:42:19.796Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": true,
+            "plaWebsiteCited": true,
+            "competitors": [
+              "Intelliskillz",
+              "RLSPL",
+              "Prakash Gehani POSH Training",
+              "ATSCO Corporate Resources",
+              "Hawelikar & Associates",
+              "AK Shreem House Of Lawyer",
+              "Akansha Rathi and Associates",
+              "SAHAS LEGAL SERVICES"
+            ],
+            "citedURLs": [
+              "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/?utm_source=chatgpt.com",
+              "https://www.intelliskillz.com/services/posh-consulting?utm_source=chatgpt.com",
+              "https://rlspl.in/posh-page.html?utm_source=chatgpt.com",
+              "https://www.posh-training.com/?utm_source=chatgpt.com",
+              "https://atscocorporate.com/posh-employee-internal-committee-training/?utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "PLA appeared as an employer POSH service provider with its existing service landing cited. The engine separated documented POSH providers from local firms whose POSH-specific work was not established."
+          },
+          {
+            "id": "ai-chatgpt-6-20261007-execution",
+            "engine": "ChatGPT Search",
+            "prompt": "Which corporate lawyers serve Navi Mumbai businesses? Cite sources.",
+            "observedAtUTC": "2026-10-07T17:42:51.479Z",
+            "sourceURL": "https://chatgpt.com/",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+            "plaAppeared": false,
+            "plaWebsiteCited": false,
+            "competitors": [
+              "Kaleeyantey Law Firm",
+              "Singh & Associates",
+              "Kiran H. Mulik / The Counsel",
+              "Expert Jurist LLP",
+              "Ruchi Singh / Singh & Associates",
+              "Advocate Bindu Dubey",
+              "AVS Associates"
+            ],
+            "citedURLs": [
+              "https://threebestrated.in/corporate-lawyers-in-navi-mumbai-mh?utm_source=chatgpt.com",
+              "https://singhnassociates.co.in/?utm_source=chatgpt.com",
+              "https://www.thecounselegal.com/corporate-law.html?utm_source=chatgpt.com",
+              "https://www.expertjurist.com/practice-areas/corporate?utm_source=chatgpt.com",
+              "https://righttolaw.com/corporate/navi-mumbai-corporate/?utm_source=chatgpt.com",
+              "https://avsassociates.co.in/?utm_source=chatgpt.com"
+            ],
+            "answerComplete": true,
+            "observationNote": "PLA absent in this one answer. Sources include firm practice pages and independent directories. Firm/partner representations of Singh & Associates are one entity, not two competitors. No rewrite is justified solely by one omission."
+          },
+          {
+            "id": "ai-google-panvel-20261007-execution",
+            "engine": "Google AI Mode",
+            "prompt": "Which property lawyers have a genuine office in Panvel? Cite the office source.",
+            "observedAtUTC": "2026-10-07T16:44:56.418Z",
+            "sourceURL": "https://www.google.com/search?udm=50",
+            "sourceType": "independent_engine_answer",
+            "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point. Google result links exposed gl=us; no India/municipal point control was established.",
+            "language": "English",
+            "sessionContext": "Fresh anonymous Google AI Mode thread; unbranded registered prompt; no prior PLA context.",
+            "plaAppeared": true,
+            "plaWebsiteCited": false,
+            "competitors": [
+              "ADV. P.P. WAGHMARE",
+              "Adv G.V. Mukane & Notary Public",
+              "Advocate Amol Khillare",
+              "P. S. Jhedu & Associates",
+              "ADV. AMIT CHAUDHARI & CO.",
+              "Sarjil Associate"
+            ],
+            "citedURLs": [],
+            "answerComplete": true,
+            "observationNote": "PLA appeared in an AI answer with a Google local-business card and Om Sai office, 4.9/172. Business card separately opened and identified. No stable PLA website citation URL captured; no Local Pack/Maps position is assigned. Other visible business-card ratings/counts are not independent competitor-profile verification."
+          }
+        ],
+        "chatgptCompletedPrompts": 6,
+        "chatgptFirmMentions": 4,
+        "chatgptFirmWebsiteCitations": 4,
+        "googleAIModeCompletedPrompts": 1,
+        "googleAIModeFirmMentions": 1,
+        "trend": null,
+        "interpretation": "One answer per registered prompt/engine in an anonymous cloud browser. AI appearances are not Maps ranks, organic positions, local demand or guaranteed/stable recommendations.",
+        "contentDecision": "Existing NAINA/title/POSH landings and practice index actually cited. Preserve them. Repeat general/corporate observations and evaluate genuine external entity coverage before rewriting or adding URLs."
+      },
+      "authorityExecution": [
+        {
+          "source": "BadaVakeel",
+          "type": "CITATION / PROFILE",
+          "observedBusinessValue": "Actually cited for a competing Panvel advocate in the independent answer.",
+          "citationURL": "https://www.badavakeel.com/advocate/advocate-in-panvel?utm_source=chatgpt.com",
+          "addListingRoute": "https://www.badavakeel.com/user/create-listing",
+          "readback": "Unauthenticated Add Listing redirected to homepage.",
+          "publisherContactRoute": "https://www.badavakeel.com/contact-us",
+          "profileCost": null,
+          "status": "No account, profile or outreach created; free enquiry wording does not establish a free firm listing or editorial endorsement."
+        },
+        {
+          "source": "ThreeBestRated India",
+          "type": "EDITORIAL / CITATION",
+          "observedBusinessValue": "Corporate AI answer cited its Navi Mumbai corporate directory for competing firms.",
+          "citationURL": "https://threebestrated.in/corporate-lawyers-in-navi-mumbai-mh?utm_source=chatgpt.com",
+          "applicationURL": "https://threebestrated.in/submit-business?reason=new",
+          "publishedCost": "Free; manual evaluation, no guaranteed selection.",
+          "requiredOwnerInputs": [
+            "Truthful start year",
+            "Confirmed hours",
+            "Actual fee information",
+            "Genuine authorised recent feedback",
+            "Three authentic high-resolution images",
+            "Owner acceptance of Terms and Service Guarantee"
+          ],
+          "status": "Eligibility/application fields verified. No submission, endorsement, award or acquired link; required facts and owner commitment are unavailable."
+        }
+      ],
+      "conversionReadback": {
+        "observedAtUTC": "2026-10-07T17:43:29.402Z",
+        "sourceURL": "https://paullegalassociates.com/#/contact",
+        "resolvedURL": "https://paullegalassociates.com/contact/",
+        "h1": "Let's Build a Stronger Legal Position",
+        "currentPhoneVisible": true,
+        "legacyRedirectAlreadyImplemented": "src/index.tsx",
+        "utmPresent": false,
+        "action": "Use already documented fixed website/appointment UTMs when manager access permits; no redirect recreation or canonical change.",
+        "enquiriesSent": 0,
+        "collectedActions": null,
+        "qualifiedEnquiries": null
+      },
+      "actualActions": {
+        "gbpMutations": 0,
+        "citationSubmissions": 0,
+        "verifiedOperatorCitationCorrections": 0,
+        "reviewRequestsSent": 0,
+        "reviewResponsesPublished": 0,
+        "newBacklinksAcquired": 0,
+        "membershipApplications": 0,
+        "payments": 0,
+        "websiteContentChanges": 0,
+        "measurementCodeFix": "Accept exact Google-generated share.google profile URLs; reject lookalike hosts. Evidence-led fix to the existing review validator, not a new framework."
+      },
+      "resume": {
+        "baselineMain": "17012d34efaa6e4073f8b81b1f53cd882aa1c51e",
+        "baselinePR": 46,
+        "latestPublicReviews": {
+          "count": 172,
+          "rating": 4.9,
+          "observedAtUTC": "2026-10-07T16:47:31.085Z"
+        },
+        "latestLocalRankBaseline": null,
+        "latestSemrushBaseline": null,
+        "nextAction": "Connect Semrush through its existing Work install/connect card, then capture India-domain totals/positions/gaps and rescore the same74 candidates. Restore GSC Wizard subscription to refresh the existing properties/18 inspections. Obtain existing GBP manager access and owner hours; reconcile its actual service catalogue and apply fixed UTMs. Publisher corrections await account/sending access; LinkedIn stays user-owned. Repeat the same AI cohort, preserving separate Advocate Paul identity.",
+        "releaseIdentity": "Read final merge SHA, PR number and workflow from this cycle publishing PR/GitHub main; do not treat baseline main as a later release SHA.",
+        "publishingPR": 47
+      },
+      "validation": {
+        "measurementTests": 11,
+        "status": "PASS",
+        "candidateTerms": 77,
+        "observationCounts": {
+          "citation": 8,
+          "ai": 7,
+          "reviews": 1
+        },
+        "ledgerSHA256": "6fa88d991b28a9c904170b69565011e2b6a64d2bde1e8d5cad88f575be3510c4",
+        "localDocumentLinksChecked": 27,
+        "originalEvidenceAndKeywordFrameworkUnchanged": true,
+        "websiteAndIndexNowFilesChanged": false
+      }
+    }
+  ],
+  "latestExecutionCycleId": "post-pr46-20261007-execution"
 }

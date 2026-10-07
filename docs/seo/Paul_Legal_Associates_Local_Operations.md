@@ -8,7 +8,7 @@ Use the current website reference: **Paul Legal Associates**, Office No. 301, 3r
 
 With genuine manager access, first read and record the existing profile ID/URL, name, categories, address/pin, phone, website/contact links, hours/special hours, services/service areas, reviews/responses/Q&A, real photos and any duplicates. Record the previous values before a correction and read back the live values afterwards. Preserve the existing profile and review history. A directory search link containing the former address is not a verified GBP identifier.
 
-Google categories describe the business; services describe its work. The actual current category list is unknown. The following is a decision worksheet, **not a claim these categories are currently present**, and not a batch change instruction. Use only categories returned by the current India category picker/API.
+Google categories describe the business; services describe its work. The public profile now displays Law firm; its actual manager category IDs/secondary list remain unknown. The following is a decision worksheet, **not a claim these categories are currently present**, and not a batch change instruction. Use only categories returned by the current India category picker/API.
 
 | Candidate or earlier-reported category | Classification to investigate | Evidence needed / disposition |
 |---|---|---|
@@ -66,7 +66,7 @@ Obtain the review link/QR from the manager view of the **verified existing profi
 
 **Private office log and public scorecard**
 
-Keep any client-level request/opt-out log in the firm's private matter system, not GitHub or analytics. A minimal private record is internal client reference, milestone, request date/channel, reminder date and declined/not-requested status. Do not add legal facts or review text to the SEO repository. The public operator record stores only dated aggregate Google review count/rating, new-review dates/count by period, response coverage, recency and non-identifying themes. Current Google values remain unknown.
+Keep any client-level request/opt-out log in the firm's private matter system, not GitHub or analytics. A minimal private record is internal client reference, milestone, request date/channel, reminder date and declined/not-requested status. Do not add legal facts or review text to the SEO repository. The public operator record stores only dated aggregate Google review count/rating, new-review dates/count by period, response coverage, recency and non-identifying themes. First verified public Google profile snapshot: 172reviews/4.9 at7Oct2026 16:47:31UTC; new-review counts, recency and response coverage remain unknown.
 
 Measure velocity from review publication dates or successive verified profile snapshots; a count change alone can also reflect removals. Keep the same profile identity, period and provider. Bdir's 97 and conflicting ratings are excluded. Office administration reviews outstanding responses weekly and maintains a natural process without a review-number target.
 
@@ -84,13 +84,15 @@ Record drafted/submitted/live-verified status separately. No review request or r
 
 ## Exact existing-citation corrections
 
-Use the exact URLs in [the established authority ledger](Paul_Legal_Associates_Local_Authority_2026-10-05.md) and the dated evidence. GetLaw/Bdir freshly show the former Moraj address; LinkedIn mixes the current location with old About fields. Justdial requires a current account read before a duplicate decision. Do not delete records or reviews based on a public snippet. Do not assert an old Mumbai office is closed without owner confirmation.
+Use the exact URLs in [the established authority ledger](Paul_Legal_Associates_Local_Authority_2026-10-05.md) and the dated evidence. The original GetLaw observation showed Moraj; post-PR46 public and independentHTTP readback now show Om Sai building/road/postcode, origin unknown. Bdir still shows Moraj; LinkedIn mixes the current location with old About fields. Justdial requires a current account read before a duplicate decision. Do not delete records or reviews based on a public snippet. Do not assert an old Mumbai office is closed without owner confirmation.
+
+Do not send the obsolete former-address correction to GetLaw: that field is now aligned at building level. Its suite, experience and hours need factual owner review before any targeted request. The prepared address correction remains relevant to the two Bdir records.
 
 **GetLaw/Bdir factual correction text — prepared, not sent**
 
 Please update the existing Paul Legal Associates record at [exact record URL] to the firm's current published office and contact details: Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206; telephone +91 7977063567; email info@paullegalassociates.com; website https://paullegalassociates.com/. The current office details are available at https://paullegalassociates.com/contact/. Please preserve the existing record identity while correcting the former Moraj-office reference. Any additional phone, opening-hour, experience or case-count field should be resolved from the firm's verified records before publication.
 
-GetLaw's own contact page exposes `admin@getlaw.in`; this is a verified publisher route, not authorisation to send a message. Apply the correction directly through an existing genuine account when access is available. Publisher outreach requires an explicit sending instruction. For Bdir, verify the site's current editor/contact route before submission; do not create a replacement or purchase a listing.
+GetLaw's own contact page exposes `admin@getlaw.in`; this is a verified publisher route, not authorisation to send a message. Apply the correction directly through an existing genuine account when access is available. Publisher outreach requires an explicit sending instruction. Bdir's verified current contact route is https://bdir.in/p/contact, exposing datagemba@gmail.com; no claim/login/form route was found there. Submit the existing correction only with sending/account authorisation, then verify public readback; do not create a replacement or purchase a listing.
 
 **Justdial owner action — prepared, not performed**
 
@@ -123,7 +125,7 @@ python scripts/local-search-records.py export-keywords
 python scripts/test-local-search-records.py
 ```
 
-The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant candidates and three excluded intents. Blank metric cells mean unknown. Historical GSC query/page pairs have their own column; they never become a current Google rank. The [observation history](evidence/Local_Search_Observations.json) starts with four fresh public citation observations, zero submissions and no fabricated rank/review/Semrush/AI records. Re-importing the same observation is a no-op; a conflicting ID is rejected rather than overwriting history.
+The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant candidates and three excluded intents. Blank metric cells mean unknown. Historical GSC query/page pairs have their own column; they never become a current Google rank. The [observation history](evidence/Local_Search_Observations.json) retains its original four citation observations and now adds four readbacks, seven independent AI answers and one verified Google review snapshot. No rank/Semrush data is fabricated and zero corrections/review replies are submitted. Re-importing the same observation is a no-op; a conflicting ID is rejected rather than overwriting history.
 
 | Record | Required distinction |
 |---|---|
@@ -133,10 +135,18 @@ The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant c
 | AI | Independent engine answer, exact repeated prompt, location/language/session and saved answer/citations; operator/provider search rejected |
 | Citation | Existing record identity, field-level NAP state, prepared/submitted/live-verified dates kept distinct |
 
-Ten adversarial checks cover false location/rank, provider-average substitution, zero/not-found confusion, unrelated intent, pack-versus-Maps depth, missing landing/listing identity, copied directory ratings, truncated Semrush totals/national-local confusion, false AI tests, evidence/privacy fields, and duplicate/conflicting history. Synthetic fixtures exist only in temporary tests; no synthetic rank is persisted.
+Eleven adversarial checks cover false location/rank, provider-average substitution, zero/not-found confusion, unrelated intent, pack-versus-Maps depth, missing landing/listing identity, copied directory ratings, truncated Semrush totals/national-local confusion, false AI tests, evidence/privacy fields, and duplicate/conflicting history. The additional check accepts the exact Google-generated share.google host while rejecting lookalikes. Synthetic fixtures exist only in temporary tests; no synthetic rank is persisted.
 
 ## Authority terms follow-up — 7 October 2026 IST
 
 [NMCBI's homepage](https://www.nmcbi.org/) states an annual membership fee of ₹3,000 and a refund if membership is not approved. Its selection/acceptance for PLA, taxes, renewal conditions and actual participation remain unconfirmed. Evaluate genuine professional/business participation; this is not a purchased-backlink programme. No application, membership or payment was made.
 
 [Lawzana's own registration/pricing page](https://lawzana.com/register-law-firm) states that a Basic profile is free, while phone/website display needs a paid tier; its comparison table places a do-follow backlink in the highest paid tier. This materially reduces its value as a free website/phone citation opportunity. Keep it lower priority for this programme; do not buy placement or links for ranking. No new listing or licence verification is claimed. The publisher's promotional quality/reach claims are not independently adopted.
+
+## Actual profile checkpoint for the next office action
+
+Read the latest execution cycle before using the prepared services or review templates. Public PLA identity is `/g/11gxh4hy9j`, feature ID `0x3be7e91d39806479:0x29a44e595f30b556`; these are public Google identifiers, not a verified manager account/profile ID. Google generated https://share.google/SQIINX18BnXyxWyf8 in that profile's Share dialog; its standalone navigation hit unusual-traffic screening. It is not a manager-verified direct review-composer link or an office-tested QR. Obtain the genuine review link from the existing manager view and check on a second device before requesting feedback. Office rollout and review replies are still unperformed.
+
+The existing public service catalogue is extensive and includes jurisdiction-specific labels requiring factual review. Obtain manager categories and catalogue, confirm actual practice, then reconcile the18 prepared entries instead of blindly adding duplicates or removing genuine work. Google hours differ from the website; owner confirmation is pending, so leave hours unchanged. The public appointment link redirects successfully through the already implemented legacy Contact route; apply the existing fixed attribution links when editing becomes available. No website redirect rebuild is needed.
+
+The owner confirmed Advocate Paul at Moraj/+919820765944 is a separate advocate profile. Keep it separate; no firm-profile merger or closure is authorised by these observations. Public Google further reads stopped after unusual-traffic screening and automatic approval rejection of a reload. The completed independent answers remain useful; do not bypass that block.

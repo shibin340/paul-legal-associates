@@ -67,6 +67,15 @@ class MeasurementTests(unittest.TestCase):
                    responseCount=None, periodStart=None, periodEnd=None, newReviews=None)
         self.reject(row)
 
+    def test_google_generated_share_link_is_accepted_without_accepting_lookalikes(self):
+        row = dict(self.common, kind='reviews', sourceType='google_profile', profileId='fixture',
+                   profileURL='https://share.google/verified-profile-fixture', reviewCount=172, rating=4.9,
+                   responseCount=None, periodStart=None, periodEnd=None, newReviews=None)
+        records.validate_record(row, self.baseline, self.root)
+        for url in ['https://share.google.example.org/fixture', 'https://notshare.google/fixture',
+                    'https://google.com.example.org/fixture']:
+            self.reject(dict(row, profileURL=url))
+
     def test_truncated_semrush_export_cannot_supply_domain_totals(self):
         metrics = {key: None for key in records.COUNT_METRICS | records.ESTIMATE_METRICS}
         metrics['organicKeywords'] = 100
