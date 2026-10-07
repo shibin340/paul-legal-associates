@@ -111,3 +111,32 @@ Keep the existing growth and monthly schedules; update their instructions rather
 Google positions need an actual engine, point, coordinates, date/time, language and device. Keep organic position and Local Pack/Maps position distinct. Candidate Panvel/New Panvel/Khanda Colony/Kamothe/Kharghar/Belapur/Vashi and matter-relevant Raigad/Mumbai points are **measurement locations**, not additional offices. The source's schema coordinate alone does not establish the real entrance. Compare the same fixed cohort over time; unavailable tracking is not a zero position.
 
 Independent AI tests use the exact prompts recorded in the dated evidence. Preserve engine, full prompt, timestamp, location/language/session, citations and competitors. A source appearing in ordinary provider search or this operator's reply does not establish a ChatGPT/Copilot recommendation. Genuine Google/Bing/OAI bot access requires verified identity/logs, not a spoofed user agent. Keep useful existing content and primary legal sources; no special AI text file, fake authority or duplicate city pages.
+
+## Measurement records now implemented
+
+The dependency-free operator command validates dated candidate baselines and an append-only observation history. It never contacts an account, submits a citation or sends a message. Save a provider export or public observation under `docs/seo/evidence` first. Supply one JSON observation with a stable non-identifying ID, actual observation timestamp, source type/URL and evidence path; use the exact contract in `scripts/local-search-records.py`.
+
+```bash
+python scripts/local-search-records.py check
+python scripts/local-search-records.py record /absolute/path/to/actual-observation.json
+python scripts/local-search-records.py export-keywords
+python scripts/test-local-search-records.py
+```
+
+The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant candidates and three excluded intents. Blank metric cells mean unknown. Historical GSC query/page pairs have their own column; they never become a current Google rank. The [observation history](evidence/Local_Search_Observations.json) starts with four fresh public citation observations, zero submissions and no fabricated rank/review/Semrush/AI records. Re-importing the same observation is a no-op; a conflicting ID is rejected rather than overwriting history.
+
+| Record | Required distinction |
+|---|---|
+| Rank | Actual engine/surface/device/language and verified point/coordinates/depth; observed position or not-found within that depth; preserve actual organic landing or Maps listing identity |
+| Semrush | Actual provider report period, registered domain, India database, national scope, saved report and count basis; no domain totals from a truncated keyword export |
+| Reviews | Actual existing Google profile identity and source; explicit period for new-review counts; directory ratings rejected |
+| AI | Independent engine answer, exact repeated prompt, location/language/session and saved answer/citations; operator/provider search rejected |
+| Citation | Existing record identity, field-level NAP state, prepared/submitted/live-verified dates kept distinct |
+
+Ten adversarial checks cover false location/rank, provider-average substitution, zero/not-found confusion, unrelated intent, pack-versus-Maps depth, missing landing/listing identity, copied directory ratings, truncated Semrush totals/national-local confusion, false AI tests, evidence/privacy fields, and duplicate/conflicting history. Synthetic fixtures exist only in temporary tests; no synthetic rank is persisted.
+
+## Authority terms follow-up — 7 October 2026 IST
+
+[NMCBI's homepage](https://www.nmcbi.org/) states an annual membership fee of ₹3,000 and a refund if membership is not approved. Its selection/acceptance for PLA, taxes, renewal conditions and actual participation remain unconfirmed. Evaluate genuine professional/business participation; this is not a purchased-backlink programme. No application, membership or payment was made.
+
+[Lawzana's own registration/pricing page](https://lawzana.com/register-law-firm) states that a Basic profile is free, while phone/website display needs a paid tier; its comparison table places a do-follow backlink in the highest paid tier. This materially reduces its value as a free website/phone citation opportunity. Keep it lower priority for this programme; do not buy placement or links for ranking. No new listing or licence verification is claimed. The publisher's promotional quality/reach claims are not independently adopted.
