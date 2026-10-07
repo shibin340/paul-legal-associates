@@ -55,3 +55,5 @@ PR #40 runner evidence: IndexNow accepted exactly two materially changed workpla
 ## PR #41 runner/public comparison — 7 October 2026
 
 Workflow37577357706/job112649132935 deployed main0c8303a7574270419ace6c92603abab3818b50cd. Runner page checks returned403 for acquisition (Ray a46a921f9c9668e8-MSP) and NAINA (Ray a46a921fd92c90c6-ORD). Independent public curl checks of both changed guides and12 related/check routes returned200; current body, schema, canonicals, sitemap and bundle match. IndexNow200 accepted only two materially changed URLs. These clients do not establish genuine Googlebot/Bingbot/OAI-SearchBot treatment. Cloudflare owner must inspect these Ray events and verified crawler events; no security or robots changes justified.
+
+PR #42: source main821a5403986ce78b093c32afd7b58a3dc3f1424e, successful workflow37578596763/job112652939239. Independent public14-route/body/artifact verification passed. Runner403 Rays a46aa7ceec457e6b-ORD and a46aa7cf0b4bacdb-MSP remain Cloudflare log-review evidence, not proof of verified-bot blocking. Exact two changed URLs notified once/HTTP200 receipt; no unchanged service notification.
