@@ -56,6 +56,270 @@
       "correctionStatus": "not_submitted",
       "submittedAt": null,
       "verifiedAt": null
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Which property lawyers have a genuine office in Panvel? Cite the office source.",
+      "plaAppeared": false,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-1-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "ADV. AMIT CHAUDHARI & CO.",
+        "Advocate Sanjay Gangnaik",
+        "TAYADES LEGAL ASSOCIATES",
+        "P. S. Jhedu & Associates",
+        "ADV. P.P.WAGHMARE.",
+        "Advocate Paul",
+        "N. A. Shaikh Associates Advocate & Notary navi mumbai",
+        "Sarjil Associate"
+      ],
+      "citedURLs": [
+        "https://www.badavakeel.com/advocate/advocate-in-panvel?utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:01:14.946Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Which Navi Mumbai law firms handle NAINA town planning matters? Cite the service source.",
+      "plaAppeared": true,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-2-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "SIDDHIVINAYAK ASSOCIATE - REAL ESTATE LEGAL WORK",
+        "Kaleeyantey Law Firm",
+        "YourLawyer Law Firm - Adv. Yash Bangar",
+        "ADVOCATE KHOPADE AND COMPANY",
+        "Shirish Pawar and Associates, Advocate and Notary"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/?utm_source=chatgpt.com",
+        "https://paullegalassociates.com/expertise/?utm_source=chatgpt.com",
+        "https://cidco.maharashtra.gov.in/Page?Token=40A6ECB7373&utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:36:44.585Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Which Navi Mumbai lawyers assist with MahaRERA matters? Cite sources.",
+      "plaAppeared": true,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-3-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "RERA Lawyer - Hawelikar & Associates, Advocates",
+        "Acelegal",
+        "ABlaw and Associates",
+        "Advent Advocates LLP"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/?utm_source=chatgpt.com",
+        "https://acelegal.net.in/practise-areas?utm_source=chatgpt.com",
+        "https://ablawandassociates.in/RERA-matters-lawyer.php?utm_source=chatgpt.com",
+        "https://adventadvocates.com/practice-areas?utm_source=chatgpt.com",
+        "https://maharera.maharashtra.gov.in/sites/default/files/order_list/53369_Judgement.pdf?utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:40:56.535Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Who offers property title verification in Panvel? Cite sources.",
+      "plaAppeared": true,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-4-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "ADV. AMIT CHAUDHARI & CO.",
+        "S. J. Bondre",
+        "ADV. P.P.WAGHMARE.",
+        "Jaysing Shere & Associates",
+        "RSR Advocates",
+        "PropertyKawach"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/?utm_source=chatgpt.com",
+        "https://adv-amit-chaudhari-co.grexa.site/?utm_source=chatgpt.com",
+        "https://propertykawach.com/city/panvel/?utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:41:22.615Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Which Navi Mumbai legal practices provide employer POSH compliance support? Cite sources.",
+      "plaAppeared": true,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-5-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "Intelliskillz",
+        "RLSPL",
+        "Prakash Gehani POSH Training",
+        "ATSCO Corporate Resources",
+        "Hawelikar & Associates",
+        "AK Shreem House Of Lawyer",
+        "Akansha Rathi and Associates",
+        "SAHAS LEGAL SERVICES"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/?utm_source=chatgpt.com",
+        "https://www.intelliskillz.com/services/posh-consulting?utm_source=chatgpt.com",
+        "https://rlspl.in/posh-page.html?utm_source=chatgpt.com",
+        "https://www.posh-training.com/?utm_source=chatgpt.com",
+        "https://atscocorporate.com/posh-employee-internal-committee-training/?utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:42:19.796Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://chatgpt.com/",
+      "prompt": "Which corporate lawyers serve Navi Mumbai businesses? Cite sources.",
+      "plaAppeared": false,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-chatgpt-6-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "Kaleeyantey Law Firm",
+        "Singh & Associates",
+        "Kiran H. Mulik / The Counsel",
+        "Expert Jurist LLP",
+        "Ruchi Singh / Singh & Associates",
+        "Advocate Bindu Dubey",
+        "AVS Associates"
+      ],
+      "citedURLs": [
+        "https://threebestrated.in/corporate-lawyers-in-navi-mumbai-mh?utm_source=chatgpt.com",
+        "https://singhnassociates.co.in/?utm_source=chatgpt.com",
+        "https://www.thecounselegal.com/corporate-law.html?utm_source=chatgpt.com",
+        "https://www.expertjurist.com/practice-areas/corporate?utm_source=chatgpt.com",
+        "https://righttolaw.com/corporate/navi-mumbai-corporate/?utm_source=chatgpt.com",
+        "https://avsassociates.co.in/?utm_source=chatgpt.com"
+      ],
+      "engine": "ChatGPT Search",
+      "sessionContext": "Fresh anonymous ChatGPT conversation per prompt; English UI; no PLA name in prompt or prior conversation. Automatic business cards and external source citations observed; explicit Web search toggle not selected; model not exposed.",
+      "observedAtUTC": "2026-10-07T17:42:51.479Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "sourceURL": "https://www.google.com/search?udm=50",
+      "prompt": "Which property lawyers have a genuine office in Panvel? Cite the office source.",
+      "plaAppeared": true,
+      "sourceType": "independent_engine_answer",
+      "id": "ai-google-panvel-20261007-execution",
+      "language": "English",
+      "competitors": [
+        "ADV. P.P. WAGHMARE",
+        "Adv G.V. Mukane & Notary Public",
+        "Advocate Amol Khillare",
+        "P. S. Jhedu & Associates",
+        "ADV. AMIT CHAUDHARI & CO.",
+        "Sarjil Associate"
+      ],
+      "citedURLs": [],
+      "engine": "Google AI Mode",
+      "sessionContext": "Fresh anonymous Google AI Mode thread; unbranded registered prompt; no prior PLA context.",
+      "observedAtUTC": "2026-10-07T16:44:56.418Z",
+      "location": "Cloud browser; actual searcher location unverified; geographic intent comes from the Panvel/Navi Mumbai prompt, not a controlled observation point. Google result links exposed gl=us; no India/municipal point control was established.",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "kind": "ai"
+    },
+    {
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "reviews-gbp-public-20261007-execution",
+      "kind": "reviews",
+      "observedAtUTC": "2026-10-07T16:47:31.085Z",
+      "sourceType": "google_profile",
+      "sourceURL": "https://share.google/SQIINX18BnXyxWyf8",
+      "profileId": "/g/11gxh4hy9j",
+      "profileURL": "https://share.google/SQIINX18BnXyxWyf8",
+      "reviewCount": 172,
+      "rating": 4.9,
+      "responseCount": null,
+      "periodStart": null,
+      "periodEnd": null,
+      "newReviews": null
+    },
+    {
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "citation-getlaw-20261007-execution",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T16:45:42.046121+00:00",
+      "sourceType": "public_directory",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "citationId": "getlaw",
+      "addressStatus": "matches",
+      "phoneStatus": "not_observed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "citation-bdir-property-20261007-execution",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T17:46:53.238Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "citationId": "bdir-property",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "citation-bdir-finance-20261007-execution",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T17:46:53.238Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "citationId": "bdir-finance",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
+    },
+    {
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "citation-linkedin-20261007-execution",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-07T17:46:53.238Z",
+      "sourceType": "public_company_profile",
+      "sourceURL": "https://in.linkedin.com/company/paullegalassociates",
+      "citationId": "linkedin",
+      "addressStatus": "mixed",
+      "phoneStatus": "matches",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
     }
   ]
 }
