@@ -230,7 +230,16 @@
             "url": "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
             "read": "Current official TPS directory read; individual scheme document/stage distinctions, not a verification of every scheme boundary, plot entitlement, current FSI or financial return. Per-plot facts remain matter-specific."
           }
-        ]
+        ],
+        "production": {
+          "pr": 41,
+          "mergeSha": "0c8303a7574270419ace6c92603abab3818b50cd",
+          "checkedAt": "2026-10-07T05:44:19.804Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -239,26 +248,31 @@
       "title": "Commercial Arbitration vs. Litigation: Choosing the Right Forum",
       "author": "Adv. P. P. Polachan",
       "publicationDate": "January 12, 2021",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted Commercial arbitration forum, appointment and award review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 379,
-      "sections": 5,
-      "primarySources": [],
+      "wordEvidence": 844,
+      "sections": 7,
+      "primarySources": [
+        "https://www.wipo.int/wipolex/en/legislation/details/22984",
+        "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf",
+        "https://nalsa.gov.in/pre-instituion-mediation/",
+        "https://api.sci.gov.in/supremecourt/2021/21877/21877_2021_7_1501_37324_Judgement_17-Aug-2022.pdf",
+        "https://api.sci.gov.in/supremecourt/2021/7937/7937_2021_12_1501_61801_Judgement_15-May-2025.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/commercial-litigation-arbitration/",
       "tierASupport": [
-        "/expertise/commercial-litigation-arbitration/",
-        "/expertise/arbitration-mediation-adr/"
+        "/expertise/commercial-litigation-arbitration/"
       ],
       "internalIn": [
         "/expertise/arbitration-mediation-adr/",
@@ -288,7 +302,50 @@
       "authorProfile": [
         "/partners/pp-polachan/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. P. P. Polachan",
+        "preservedPublicationDate": "January 12, 2021",
+        "sourceEvidence": [
+          {
+            "url": "https://www.wipo.int/wipolex/en/legislation/details/22984",
+            "read": "WIPO primary statutory reproduction amended through2021 downloaded/read: sections2/7/9/11/12/17–21/31A/34/36/42A/43. IndiaCode direct downloads timed out; signed WIPO download URL not published. No assertion all2019 amendments commenced or an amendment Bill is law.",
+            "sha256": "215a66210e3cd1be429fa35334a179ea1b199ab5d4f3e6d754509a8ba97b71b9"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf",
+            "read": "Official full179-page judgment downloaded; majority paras168–170 read, prospective three-member limitation distinguished from dissent and sole appointments.",
+            "sha256": "713404d2407040c4257f4ecfaa0f392bf38bcd6542c24ccee507bff8218801ed"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/20788/20788_2021_1_1501_61506_Judgement_30-Apr-2025.pdf",
+            "read": "Official judgment downloaded; majority conclusion para85 read, limited severance/correction/interest/Article142 powers distinguished from dissent and merits appeal.",
+            "sha256": "ebe60d782ab9e030bfded1e01595ec2ecf7ed6013543c700653d214d35186f02"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/21877/21877_2021_7_1501_37324_Judgement_17-Aug-2022.pdf",
+            "read": "Official judgment downloaded; mandatory12A conclusion read. Historic application date not made into a new universal deadline.",
+            "sha256": "2d3fa24423676c70a900f78d8d3c9ba4a61171234a40bf5e43e931549fb30baf"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/7937/7937_2021_12_1501_61801_Judgement_15-May-2025.pdf",
+            "read": "Official court PDF web text read; urgency exception and mandatory12A analysis, including paras43–44/Yamini quotation. Merely demanding interim relief is not assumed to establish urgency."
+          },
+          {
+            "url": "https://nalsa.gov.in/pre-instituion-mediation/",
+            "read": "Current official guide, updated9July2026, section12A text read; mandatory mediation unless qualifying urgent interim relief."
+          },
+          {
+            "url": "https://nalsa.gov.in/the-commercial-courts-acts-rules/",
+            "read": "NALSA-linked statutory PDF downloaded/read sections10/12A. Copy as on3May2018; not used for stale territorial/evidence references or as a blanket current consolidated edition.",
+            "sha256": "59f536a97a79dcacd63860b60ca752a9f55dcdd5edd595615722eed390d841c8"
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296432&lang=2&reg=48",
+            "read": "Official7August2026 status confirms ongoing ADR framework and mandatory section12A. Policy descriptions do not establish commencement of every Mediation Act/2019 arbitration provision."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/due-diligence-property-transactions/",
@@ -509,7 +566,16 @@
             "url": "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
             "read": "Current official TPS directory read; individual scheme document/stage distinctions, not a verification of every scheme boundary, plot entitlement, current FSI or financial return. Per-plot facts remain matter-specific."
           }
-        ]
+        ],
+        "production": {
+          "pr": 41,
+          "mergeSha": "0c8303a7574270419ace6c92603abab3818b50cd",
+          "checkedAt": "2026-10-07T05:44:19.804Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -3609,25 +3675,29 @@
       "title": "Commercial Arbitration and Contract Dispute Resolution",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted Commercial arbitration forum, appointment and award review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 407,
+      "wordEvidence": 869,
       "sections": 9,
-      "primarySources": [],
+      "primarySources": [
+        "https://www.wipo.int/wipolex/en/legislation/details/22984",
+        "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf",
+        "https://nalsa.gov.in/the-commercial-courts-acts-rules/",
+        "https://api.sci.gov.in/supremecourt/2021/20788/20788_2021_1_1501_61506_Judgement_30-Apr-2025.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/arbitration-mediation-adr/",
       "tierASupport": [
-        "/expertise/commercial-litigation-arbitration/",
         "/expertise/arbitration-mediation-adr/"
       ],
       "internalIn": [
@@ -3655,7 +3725,50 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "June 26, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://www.wipo.int/wipolex/en/legislation/details/22984",
+            "read": "WIPO primary statutory reproduction amended through2021 downloaded/read: sections2/7/9/11/12/17–21/31A/34/36/42A/43. IndiaCode direct downloads timed out; signed WIPO download URL not published. No assertion all2019 amendments commenced or an amendment Bill is law.",
+            "sha256": "215a66210e3cd1be429fa35334a179ea1b199ab5d4f3e6d754509a8ba97b71b9"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf",
+            "read": "Official full179-page judgment downloaded; majority paras168–170 read, prospective three-member limitation distinguished from dissent and sole appointments.",
+            "sha256": "713404d2407040c4257f4ecfaa0f392bf38bcd6542c24ccee507bff8218801ed"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/20788/20788_2021_1_1501_61506_Judgement_30-Apr-2025.pdf",
+            "read": "Official judgment downloaded; majority conclusion para85 read, limited severance/correction/interest/Article142 powers distinguished from dissent and merits appeal.",
+            "sha256": "ebe60d782ab9e030bfded1e01595ec2ecf7ed6013543c700653d214d35186f02"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/21877/21877_2021_7_1501_37324_Judgement_17-Aug-2022.pdf",
+            "read": "Official judgment downloaded; mandatory12A conclusion read. Historic application date not made into a new universal deadline.",
+            "sha256": "2d3fa24423676c70a900f78d8d3c9ba4a61171234a40bf5e43e931549fb30baf"
+          },
+          {
+            "url": "https://api.sci.gov.in/supremecourt/2021/7937/7937_2021_12_1501_61801_Judgement_15-May-2025.pdf",
+            "read": "Official court PDF web text read; urgency exception and mandatory12A analysis, including paras43–44/Yamini quotation. Merely demanding interim relief is not assumed to establish urgency."
+          },
+          {
+            "url": "https://nalsa.gov.in/pre-instituion-mediation/",
+            "read": "Current official guide, updated9July2026, section12A text read; mandatory mediation unless qualifying urgent interim relief."
+          },
+          {
+            "url": "https://nalsa.gov.in/the-commercial-courts-acts-rules/",
+            "read": "NALSA-linked statutory PDF downloaded/read sections10/12A. Copy as on3May2018; not used for stale territorial/evidence references or as a blanket current consolidated edition.",
+            "sha256": "59f536a97a79dcacd63860b60ca752a9f55dcdd5edd595615722eed390d841c8"
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296432&lang=2&reg=48",
+            "read": "Official7August2026 status confirms ongoing ADR framework and mandatory section12A. Policy descriptions do not establish commencement of every Mediation Act/2019 arbitration provision."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/consumer-commission-court-services/",
