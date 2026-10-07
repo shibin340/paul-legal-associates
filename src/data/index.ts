@@ -5620,186 +5620,181 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a12",
-    slug: "property-registration-services",
-    title: "Property Registration Services Across Mumbai and Navi Mumbai",
-    category: "Legal Compliance",
-    excerpt: "Registration is far more than a clerical appointment. Explore the legal mechanics of stamp duty adjudication, Index II extractions, and critical pre-registration checklists across Maharashtra.",
-    coverIcon: "✍️",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "July 24, 2021",
-    readTime: "26 min read",
-    tags: ["Property Registration", "Stamp Duty", "Index II", "Conveyancing", "Sub-Registrar"],
-    content: [
-      {
-        paragraphs: [
-          "Registration is the formal legal process through which an instrument affecting immovable property is presented before the competent registering authority, admitted by its executants and incorporated into the public registration record.",
-          "In substantial property transactions, registration should never be regarded as a clerical appointment at the Sub-Registrar’s office. The act of registration is preceded by several legally significant stages: verification of title, identification of the correct instrument, determination of stamp duty, preparation of the operative covenants, confirmation of the registering office, collection of supporting documents and coordination of the parties’ execution and admission.",
-          "An error at any of these stages can delay registration, create an additional stamp-duty liability, expose the instrument to impounding, cause refusal by the registering officer or generate a future dispute over possession, consideration, boundaries, obligations or title.",
-          "Paul Legal Associates provides end-to-end legal assistance for property documentation, stamping, execution and registration before the competent Registrar and Sub-Registrar of Assurances offices across Mumbai, Mumbai Suburban District, Navi Mumbai, Thane, Panvel and Raigad.",
-          "Our registration practice includes residential, commercial, industrial, agricultural, leasehold, freehold, CIDCO, municipal, redevelopment and development-related property documents."
-        ]
-      },
-      {
-        heading: "Registration Is Not Merely a Formality",
-        paragraphs: [
-          "A registered instrument often becomes the principal documentary evidence of a property transaction. It records the identity of the parties, the nature of the transaction, the property description, consideration, possession terms and the rights and obligations created by the parties.",
-          "The consequences of defective drafting cannot ordinarily be avoided merely because the document has been registered.",
-          "A document may be registered and yet remain exposed to disputes concerning:"
-        ],
-        list: [
-          "The transferor’s title or authority;",
-          "Suppression of an encumbrance;",
-          "Incorrect property description;",
-          "Deficient stamp duty;",
-          "Absence of a required permission;",
-          "Misstatement of consideration;",
-          "Non-payment of contractual amounts;",
-          "Unauthorised execution through a Power of Attorney;",
-          "Pending litigation or attachment;",
-          "Breach of statutory restrictions;",
-          "Non-compliance with society, CIDCO or planning conditions; or",
-          "Fraud, impersonation, coercion or misrepresentation."
-        ]
-      },
-      {
-        paragraphs: [
-          "Registration places the document in the official record. It does not, by itself, cure a defective title or validate a transaction prohibited by law.",
-          "The transaction must therefore be legally scrutinised before the parties appear for registration."
-        ]
-      },
-      {
-        heading: "The Current Legal Position After the Omission of Section 213",
-        paragraphs: [
-          "Until 20 December 2025, Section 213 of the Indian Succession Act imposed a statutory restriction in specified cases by requiring the right of an executor or legatee to be established through Probate or Letters of Administration.",
-          "Section 213 has now been omitted.",
-          "The omission is a significant change in Indian succession law. It means that the former statutory bar cannot continue to be applied as though Probate were invariably mandatory for every Will executed in Mumbai or concerning property situated within the former Presidency Town limits.",
-          "The amendment must, however, be understood in its proper legal context.",
-          "It does not:"
-        ],
-        list: [
-          "Abolish the institution of Probate;",
-          "Take away the testamentary jurisdiction of the Bombay High Court;",
-          "Prevent an executor from applying for Probate;",
-          "Dispense with the need to prove a disputed Will;",
-          "Eliminate Letters of Administration;",
-          "Abolish Succession Certificate proceedings; or",
-          "Automatically compel every bank, depository, society or authority to accept a Will without further proof."
-        ]
-      },
-      {
-        paragraphs: [
-          "Probate continues to provide formal judicial recognition of a Will and of the representative authority of the executor. It may remain necessary or commercially prudent where the estate is substantial, the Will is disputed, several beneficiaries or jurisdictions are involved, immovable property requires administration, or an institution insists upon a recognised grant.",
-          "Whether a testamentary grant is required should therefore be determined after examining the Will, nature and location of the assets, identity of the heirs, institutional requirements and the existence of any competing claim."
-        ]
-      },
-      {
-        heading: "Which Instruments Require Strict Registration Mechanics?",
-        paragraphs: [
-          "Depending upon the dynamic structural nature of the property transaction, several specific statutory instruments must be drafted and registered to secure enforceability under the Maharashtra Stamp Act:"
-        ],
-        list: [
-          "Agreements for Sale and Sale Deeds;",
-          "Conveyance Deeds, Assignment Deeds and Exchange Deeds;",
-          "Gift Deeds, Release Deeds and Relinquishment Deeds;",
-          "Partition Deeds and Family Settlement Deeds;",
-          "Lease Deeds, Leave and Licence Agreements and Rent Agreements;",
-          "General, Special and Irrevocable Powers of Attorney;",
-          "Development Agreements, Redevelopment Agreements and Permanent Alternate Accommodation Agreements (PAAA);",
-          "Deeds of Rectification and Confirmation."
-        ]
-      },
-      {
-        heading: "Stamp Duty, Adjudication, and ASR Parameters",
-        paragraphs: [
-          "Stamp duty is imposed upon the instrument according to its legal substance, and a document cannot avoid the stamp duty applicable to its substantive transaction merely by being given a different title. ",
-          "The calculated duty values depend upon the Annual Statement of Rates (ASR), commonly known as the Ready Reckoner. Where the internal metrics of an arrangement are highly complex, an asset profile should undergo a formal stamp-duty adjudication before the competent collector.",
-          "An insufficiently stamped instrument may be objected to at registration, impounded, or subjected to intense deficit-duty penalties. All material consideration, deposits, premiums and benefits forming part of the transaction must be explicitly disclosed."
-        ]
-      },
-      {
-        heading: "Presentation Timelines and Personal Admission Rules",
-        paragraphs: [
-          "Property documents required to be registered must ordinarily be presented within the strict statutory timeline of four months from the date of execution. Delayed presentation beyond this sequence triggers severe administrative fines and requires special condonation.",
-          "During the final appointment before the competent Sub-Registrar of Assurances, all executants must provide biometric information, distinct digital signatures, and matching identification papers to admit execution. If any executing party resides outside India, the transaction demands specialized remote legal coordination:"
-        ],
-        list: [
-          "Execution before an authorised foreign officer or embassy notary;",
-          "Apostille processing and consular authentication;",
-          "Verification of the principal's alive status before using a Power of Attorney; and",
-          "Ancillary local stamping after the physical package arrives in India."
-        ]
-      },
-      {
-        heading: "Index II Records vs. Substantive Document Mutation",
-        paragraphs: [
-          "Upon successful execution, the department issues an Index II, which serves as a registration extract containing the key structural overview lines of the transaction. However, index documents are merely summary sheets and never act as a final replacement for complete certified copies or title certificates.",
-          "Furthermore, registration of a document and mutation of ownership records are entirely distinct processes under Maharashtra law. Following sub-registrar extraction, the transferee must immediately apply for administrative post-registration updates:"
-        ],
-        list: [
-          "Revenue mutation in the regional 7/12 Extract or Property Card;",
-          "Assessee adjustments in the municipal property-tax records;",
-          "Membership updates and share certificate endorsements inside Cooperative Housing Societies;",
-          "Lessor recognition and record mutations within CIDCO registries."
-        ]
-      },
-      {
-        heading: "Legal Services Provided by Paul Legal Associates",
-        paragraphs: [
-          "Paul Legal Associates provides end-to-end property registration assistance across Mumbai, Navi Mumbai, Thane, Panvel and Raigad. Our services include:"
-        ],
-        list: [
-          "Drafting and registration of Agreements for Sale and Sale Deeds;",
-          "Gift, Release, Relinquishment, Partition and Family Settlement Deeds;",
-          "Leave and Licence Agreements, Lease Deeds and Assignment Deeds;",
-          "Development Agreements, Redevelopment Agreements and Permanent Alternate Accommodation Agreements;",
-          "Property-related General and Special Powers of Attorney;",
-          "Deeds of Rectification and Confirmation;",
-          "Verification of registration jurisdiction, market value and ASR review;",
-          "Stamp-duty adjudication and registration-fee coordination;",
-          "Public Data Entry (PDE) and registration appointment management;",
-          "Execution, biometric and admission coordination before the Sub-Registrar;",
-          "Index II procurement and certified-copy applications;",
-          "Post-registration mutation, society transfer and CIDCO transfer support."
-        ]
-      },
-      {
-        heading: "Frequently Asked Questions",
-        paragraphs: [
-          "Is registration compulsory for a Sale Deed?",
-          "A Sale Deed transferring immovable property must ordinarily be registered in accordance with the Registration Act.",
-          "Can a property document be registered at any Sub-Registrar’s office?",
-          "The competent registering office must be determined according to the location of the property, statutory jurisdiction, document type and current administrative system.",
-          "How is stamp duty calculated?",
-          "Stamp duty depends upon the true nature of the instrument, consideration, market value, property location, relationship of parties and other statutory factors.",
-          "What is the normal time limit for registration?",
-          "A document must generally be presented within four months of execution, subject to the specific provisions and limited exceptions contained in the Registration Act.",
-          "Can a delayed document still be registered?",
-          "Limited relief may be available for unavoidable delay upon compliance with statutory conditions and payment of the prescribed fine.",
-          "Can registration be completed through a Power of Attorney?",
-          "A duly executed, stamped and legally recognisable Power of Attorney may permit an authorised agent to act, provided the authority covers the relevant execution, presentation and admission.",
-          "Does a registered document guarantee clear title?",
-          "No. Registration records execution of an instrument. It does not replace title verification or cure defects in ownership.",
-          "What is Index II?",
-          "Index II is an official registration extract containing key particulars of the registered document. It is not the complete instrument or a title certificate.",
-          "Can a registered document be cancelled unilaterally?",
-          "A completed transfer generally cannot be cancelled merely through a unilateral declaration. The legal remedy depends upon the instrument, consent of parties, vested rights and grounds for cancellation.",
-          "Is mutation necessary after registration?",
-          "Mutation does not replace the registered document, but relevant revenue, municipal, society, CIDCO or authority records should ordinarily be updated after registration."
-        ]
-      },
-      {
-        heading: "Conclusion",
-        paragraphs: [
-          "The registration of a property document is the culmination of a legal transaction, not the beginning of one. Before the parties appear before the Sub-Registrar, the title, instrument, stamp duty, consideration, authority, property schedule, permissions and possession terms should already have been settled with precision.",
-          "A registration completed without proper scrutiny may create an official record of a defective or commercially unworkable transaction. Conversely, a carefully drafted and correctly registered instrument provides clarity, preserves evidence and materially reduces the scope for future controversy.",
-          "Whether the transaction concerns a flat in Mumbai, a CIDCO property in Navi Mumbai, land in Panvel, a commercial premise in Thane or agricultural property in Raigad, the same principle applies: registration should follow due diligence, accurate drafting and informed legal scrutiny.",
-          "Disclaimer: This article is intended solely for general legal information and does not constitute a title certificate, legal opinion, tax advice or advice concerning any specific property transaction. Stamp duty, registration fees, jurisdiction, concessions and procedural requirements must be verified with reference to the instrument and the law prevailing on the date of execution."
-        ]
-      }
-    ]
-  },
+  "id": "a12",
+  "slug": "property-registration-services",
+  "title": "Property Registration Services Across Mumbai and Navi Mumbai",
+  "category": "Legal Compliance",
+  "excerpt": "Registration is far more than a clerical appointment. Explore the legal mechanics of stamp duty adjudication, Index II extractions, and critical pre-registration checklists across Maharashtra.",
+  "coverIcon": "✍️",
+  "author": "Adv. Sojan Paul",
+  "authorRole": "Managing Partner",
+  "date": "July 24, 2021",
+  "readTime": "26 min read",
+  "tags": [
+    "Property Registration",
+    "Stamp Duty",
+    "Index II",
+    "Conveyancing",
+    "Sub-Registrar"
+  ],
+  "content": [
+    {
+      "paragraphs": [
+        "Registration is the formal legal process through which an instrument affecting immovable property is presented before the competent registering authority, admitted by its executants and incorporated into the public registration record.",
+        "In substantial property transactions, registration should never be regarded as a clerical appointment at the Sub-Registrar’s office. The act of registration is preceded by several legally significant stages: verification of title, identification of the correct instrument, determination of stamp duty, preparation of the operative covenants, confirmation of the registering office, collection of supporting documents and coordination of the parties’ execution and admission.",
+        "An error at any of these stages can delay registration, create an additional stamp-duty liability, expose the instrument to impounding, cause refusal by the registering officer or generate a future dispute over possession, consideration, boundaries, obligations or title.",
+        "Paul Legal Associates provides end-to-end legal assistance for property documentation, stamping, execution and registration before the competent Registrar and Sub-Registrar of Assurances offices across Mumbai, Mumbai Suburban District, Navi Mumbai, Thane, Panvel and Raigad.",
+        "Our registration practice includes residential, commercial, industrial, agricultural, leasehold, freehold, CIDCO, municipal, redevelopment and development-related property documents."
+      ]
+    },
+    {
+      "heading": "Registration Is Not Merely a Formality",
+      "paragraphs": [
+        "A registered instrument often becomes the principal documentary evidence of a property transaction. It records the identity of the parties, the nature of the transaction, the property description, consideration, possession terms and the rights and obligations created by the parties.",
+        "The consequences of defective drafting cannot ordinarily be avoided merely because the document has been registered.",
+        "A document may be registered and yet remain exposed to disputes concerning:"
+      ],
+      "list": [
+        "The transferor’s title or authority;",
+        "Suppression of an encumbrance;",
+        "Incorrect property description;",
+        "Deficient stamp duty;",
+        "Absence of a required permission;",
+        "Misstatement of consideration;",
+        "Non-payment of contractual amounts;",
+        "Unauthorised execution through a Power of Attorney;",
+        "Pending litigation or attachment;",
+        "Breach of statutory restrictions;",
+        "Non-compliance with society, CIDCO or planning conditions; or",
+        "Fraud, impersonation, coercion or misrepresentation."
+      ]
+    },
+    {
+      "paragraphs": [
+        "Registration places the document in the official record. It does not, by itself, cure a defective title or validate a transaction prohibited by law.",
+        "The transaction must therefore be legally scrutinised before the parties appear for registration."
+      ]
+    },
+    {
+      "heading": "Identify the Instrument and Its Registration Requirement",
+      "paragraphs": [
+        "Compulsory registration is determined under section 17 of the Registration Act, 1908 and any applicable special or Maharashtra law; section 18 identifies documents whose registration is optional. Stamp-duty liability is a separate question under the Maharashtra Stamp Act. A document’s title alone does not determine either requirement.",
+        "A sale, gift, lease, agreement, family arrangement or power of attorney must be assessed by its actual legal effect. Do not assume every power of attorney or memorandum of a family arrangement must be registered merely because it concerns property. Check whether the document itself creates or transfers rights, records an earlier arrangement, or authorises another person to act."
+      ],
+      "list": [
+        "Agreements for Sale and Sale Deeds;",
+        "Conveyance Deeds, Assignment Deeds and Exchange Deeds;",
+        "Gift Deeds, Release Deeds and Relinquishment Deeds;",
+        "Partition Deeds and Family Settlement Deeds;",
+        "Lease Deeds, Leave and Licence Agreements and Rent Agreements;",
+        "General, Special and Irrevocable Powers of Attorney;",
+        "Development Agreements, Redevelopment Agreements and Permanent Alternate Accommodation Agreements (PAAA);",
+        "Deeds of Rectification and Confirmation."
+      ]
+    },
+    {
+      "heading": "Stamp Duty, Adjudication, and ASR Parameters",
+      "paragraphs": [
+        "Identify the applicable stamp-duty article and disclose the consideration and all facts affecting duty. For instruments charged on market value, examine the property particulars and applicable Annual Statement of Rates and valuation instructions; a generic percentage or an online estimate is not a completed assessment.",
+        "Section 31 of the Maharashtra Stamp Act provides a route to seek the Collector’s determination of proper duty. Section 32A addresses undervaluation of specified property instruments. Resolve a classification or valuation question before committing to a payment or execution date; registration fees and any separately applicable tax are distinct charges.",
+        "Check the current schedule, concessions and notifications for the instrument and execution date. Insufficient stamping can lead to a deficit-duty demand, impounding or other consequences under the applicable provisions; this guide does not quote a universal rate, penalty or exemption."
+      ]
+    },
+    {
+      "heading": "Presentation, Admission and Overseas Execution",
+      "paragraphs": [
+        "Section 23 of the Registration Act ordinarily requires presentation within four months of execution, subject to the Act’s exceptions. Section 25 is limited relief for urgent necessity or unavoidable accident: the additional delay cannot exceed four months, the Registrar must permit acceptance, and the fine can be up to ten times the proper registration fee. Paying a fine does not create an unlimited right to register an old document.",
+        "Section 26 separately addresses documents executed outside India and presentation within four months after arrival in India, subject to the registering officer’s satisfaction. Preserve evidence of execution and arrival; do not confuse that rule with the period for stamping an instrument first received in Maharashtra.",
+        "Sections 32–35 address who can present a document, recognised powers of attorney, identity and admission of execution. Confirm the applicable photographs/fingerprints and current office or electronic-process requirements. Every executant does not invariably require a separate digital signature merely because the department uses an electronic system.",
+        "Where a principal is outside India, section 33(1)(c) recognises specified authentication routes, including a Notary Public, Court, Judge, Magistrate, Indian Consul or Vice-Consul, or representative of the Central Government. Assess the particular power, authority, authentication and Maharashtra stamping requirements; apostille and consular authentication are not a universal sequence of cumulative steps. An agent’s authority to present/admit execution must be checked separately from authority to sign the transaction."
+      ]
+    },
+    {
+      "heading": "Index II Records vs. Substantive Document Mutation",
+      "paragraphs": [
+        "Upon successful execution, the department issues an Index II, which serves as a registration extract containing the key structural overview lines of the transaction. However, index documents are merely summary sheets and never act as a final replacement for complete certified copies or title certificates.",
+        "Registration and subsequent revenue, municipal, society or lessor record updates are distinct processes. Identify the records relevant to the actual property and submit the required updates with the supporting instrument. Not every flat or leasehold transaction involves every type of record below."
+      ],
+      "list": [
+        "Revenue mutation in the regional 7/12 Extract or Property Card;",
+        "Assessee adjustments in the municipal property-tax records;",
+        "Membership updates and share certificate endorsements inside Cooperative Housing Societies;",
+        "Lessor recognition and record mutations within CIDCO registries."
+      ]
+    },
+    {
+      "heading": "Legal Services Provided by Paul Legal Associates",
+      "paragraphs": [
+        "Paul Legal Associates provides end-to-end property registration assistance across Mumbai, Navi Mumbai, Thane, Panvel and Raigad. Our services include:"
+      ],
+      "list": [
+        "Drafting and registration of Agreements for Sale and Sale Deeds;",
+        "Gift, Release, Relinquishment, Partition and Family Settlement Deeds;",
+        "Leave and Licence Agreements, Lease Deeds and Assignment Deeds;",
+        "Development Agreements, Redevelopment Agreements and Permanent Alternate Accommodation Agreements;",
+        "Property-related General and Special Powers of Attorney;",
+        "Deeds of Rectification and Confirmation;",
+        "Verification of registration jurisdiction, market value and ASR review;",
+        "Stamp-duty adjudication and registration-fee coordination;",
+        "Public Data Entry (PDE) and registration appointment management;",
+        "Execution, biometric and admission coordination before the Sub-Registrar;",
+        "Index II procurement and certified-copy applications;",
+        "Post-registration mutation, society transfer and CIDCO transfer support."
+      ]
+    },
+    {
+      "heading": "Frequently Asked Questions",
+      "paragraphs": [
+        "Is registration compulsory for a Sale Deed?",
+        "A Sale Deed transferring immovable property must ordinarily be registered in accordance with the Registration Act.",
+        "Can a property document be registered at any Sub-Registrar’s office?",
+        "The competent registering office must be determined according to the location of the property, statutory jurisdiction, document type and current administrative system.",
+        "How is stamp duty calculated?",
+        "Stamp duty depends upon the true nature of the instrument, consideration, market value, property location, relationship of parties and other statutory factors.",
+        "What is the normal time limit for registration?",
+        "A document must generally be presented within four months of execution, subject to the specific provisions and limited exceptions contained in the Registration Act.",
+        "Can a delayed document still be registered?",
+        "Section 25 provides limited relief for urgent necessity or unavoidable accident, subject to its additional four-month limit, permission and fine. Overseas execution and other exceptions require separate assessment.",
+        "Can registration be completed through a Power of Attorney?",
+        "A duly executed, stamped and legally recognisable Power of Attorney may permit an authorised agent to act, provided the authority covers the relevant execution, presentation and admission.",
+        "Does a registered document guarantee clear title?",
+        "No. Registration records execution of an instrument. It does not replace title verification or cure defects in ownership.",
+        "What is Index II?",
+        "Index II is an official registration extract containing key particulars of the registered document. It is not the complete instrument or a title certificate.",
+        "Can a registered document be cancelled unilaterally?",
+        "A completed transfer generally cannot be cancelled merely through a unilateral declaration. The legal remedy depends upon the instrument, consent of parties, vested rights and grounds for cancellation.",
+        "Is mutation necessary after registration?",
+        "Mutation does not replace the registered document, but relevant revenue, municipal, society, CIDCO or authority records should ordinarily be updated after registration."
+      ]
+    },
+    {
+      "heading": "Conclusion",
+      "paragraphs": [
+        "The registration of a property document is the culmination of a legal transaction, not the beginning of one. Before the parties appear before the Sub-Registrar, the title, instrument, stamp duty, consideration, authority, property schedule, permissions and possession terms should already have been settled with precision.",
+        "A registration completed without proper scrutiny may create an official record of a defective or commercially unworkable transaction. Conversely, a carefully drafted and correctly registered instrument provides clarity, preserves evidence and materially reduces the scope for future controversy.",
+        "Whether the transaction concerns a flat in Mumbai, a CIDCO property in Navi Mumbai, land in Panvel, a commercial premise in Thane or agricultural property in Raigad, the same principle applies: registration should follow due diligence, accurate drafting and informed legal scrutiny.",
+        "Disclaimer: This article is intended solely for general legal information and does not constitute a title certificate, legal opinion, tax advice or advice concerning any specific property transaction. Stamp duty, registration fees, jurisdiction, concessions and procedural requirements must be verified with reference to the instrument and the law prevailing on the date of execution."
+      ]
+    },
+    {
+      "heading": "Official Registration and Stamp-Law Resources",
+      "resources": [
+        {
+          "label": "Registration Act, 1908 — India Code statutory text",
+          "href": "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf"
+        },
+        {
+          "label": "Maharashtra Stamp Act — official state compilation (8 April 2025); check later notifications",
+          "href": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf"
+        },
+        {
+          "label": "IGR Maharashtra — current registration, valuation and payment services",
+          "href": "https://igrmaharashtra.gov.in/Home"
+        }
+      ]
+    }
+  ]
+},
   {
     id: "a13",
     slug: "property-permissions-approvals-regulatory-compliance",
@@ -15807,99 +15802,97 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a30",
-    slug: "property-registration-stamp-duty-guidance",
-    title: "Property Registration and Stamp Duty Guidance in Maharashtra",
-    category: "Property Law",
-    excerpt: "Incorrect property valuation or presentation can delay registration and create lingering title challenges.",
-    coverIcon: "📜",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "June 26, 2026",
-    readTime: "6 min read",
-    tags: ["Stamp Duty", "Registration Act", "Index II", "Ready Reckoner"],
-    content: [
-      {
-        heading: "Registration Formalities",
-        paragraphs: [
-          "In Mumbai, Navi Mumbai, Panvel and Raigad, property registration and stamp duty lawyer requires both knowledge of the governing law and familiarity with the records, authorities and procedures through which the right must be established.",
-          "Property documentation is completed effectively only when the instrument is properly stamped, executed, admitted and registered before the competent authority. Incorrect valuation, execution or presentation can delay registration and create future evidentiary or title problems."
-        ]
-      },
-      {
-        heading: "Why Early Legal Assessment Is Important",
-        paragraphs: [
-          "Property rights in Maharashtra are rarely established by one paper alone. A reliable assessment ordinarily requires the chain of title, registered instruments, revenue entries, planning status, possession, authority permissions, litigation history and the terms of the proposed transaction to be read together."
-        ]
-      },
-      {
-        heading: "Frequent Client Concerns",
-        list: [
-          "Correct stamp-duty article and market value;",
-          "Registration jurisdiction, appointment and execution;",
-          "Short payment, adjudication, impounding or penalty;",
-          "TDS, payment proof, indexing and post-registration record updates."
-        ]
-      },
-      {
-        heading: "Scope of Professional Legal Assistance",
-        list: [
-          "Pre-registration document and valuation review;",
-          "Stamp-duty and registration-fee guidance;",
-          "Coordination for execution, admission and registration;",
-          "Certified copies, Index II and post-registration compliance."
-        ]
-      },
-      {
-        heading: "How the Assignment Is Ordinarily Handled",
-        list: [
-          "Initial consultation to identify the property, parties, transaction stage and immediate risk;",
-          "Collection and orderly review of title, revenue, registration, planning, society and authority records;",
-          "Independent searches and verification before the relevant Sub-Registrar, revenue, court, RERA, CIDCO, society or planning records, where required;",
-          "Identification of defects, missing links, encumbrances, restrictions, permissions and practical solutions;",
-          "Drafting, negotiation, registration support, representation or litigation according to the client’s objective."
-        ]
-      },
-      {
-        heading: "Records to Keep Ready",
-        list: [
-          "Identity and address documents of the concerned parties;",
-          "All available title deeds, agreements, receipts and registered instruments;",
-          "Latest tax, possession, authority and litigation-related records;",
-          "Final instrument and annexures;",
-          "Ready-reckoner and consideration details;",
-          "PAN, Aadhaar, photographs, authority papers and payment receipts."
-        ]
-      },
-      {
-        heading: "Mumbai–Navi Mumbai–Panvel–Raigad Context",
-        paragraphs: [
-          "Maharashtra uses location-specific ready-reckoner values and electronic registration systems. The applicable Sub-Registrar, authority NOC and society or CIDCO transfer step should be confirmed separately from the registration appointment."
-        ]
-      },
-      {
-        heading: "Important Laws and Regulations",
-        list: [
-          "Registration Act, 1908;",
-          "Maharashtra Stamp Act, 1958;",
-          "Income-tax provisions applicable to property transactions;",
-          "IGR Maharashtra rules, circulars and electronic procedures."
-        ]
-      },
-      {
-        heading: "Common Questions",
-        paragraphs: [
-          "Is one ownership document enough to clear a property?",
-          "Usually not. Title must ordinarily be assessed through the chain of documents, registration and revenue records, encumbrances, permissions, possession and litigation searches relevant to that property.",
-          "Can a lawyer guarantee that no future dispute will arise?",
-          "No. Legal due diligence reduces identifiable risk and records qualifications, but it cannot guarantee against concealed facts, forged records, later claims or future changes in law.",
-          "Does registration itself establish a clear title?",
-          "Registration gives public record and legal effect to the instrument as provided by law, but it does not cure an invalid transferor’s title, fraud, lack of authority or other defects in the underlying transaction.",
-          "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
-        ]
-      }
-    ]
-  },
+  "id": "a30",
+  "slug": "property-registration-stamp-duty-guidance",
+  "title": "Property Registration and Stamp Duty Guidance in Maharashtra",
+  "category": "Property Law",
+  "excerpt": "Incorrect property valuation or presentation can delay registration and create lingering title challenges.",
+  "coverIcon": "📜",
+  "author": "Adv. Sojan Paul",
+  "authorRole": "Managing Partner",
+  "date": "June 26, 2026",
+  "readTime": "6 min read",
+  "tags": [
+    "Stamp Duty",
+    "Registration Act",
+    "Index II",
+    "Ready Reckoner"
+  ],
+  "content": [
+    {
+      "heading": "Separate Duty, Registration and Title",
+      "paragraphs": [
+        "Before signing a property instrument in Maharashtra, establish three different matters: whether the seller can transfer the rights, what stamp duty applies to the actual instrument, and whether and how registration is required. A payment receipt or registration appointment does not resolve a defect in title.",
+        "This guide addresses the stamping and presentation checks. The detailed registration service linked below is the appropriate route for document and appointment assistance; title investigation remains a separate part of the transaction."
+      ]
+    },
+    {
+      "heading": "Check the Instrument Before Calculating Duty",
+      "paragraphs": [
+        "Read the operative clauses, consideration, possession terms, property description and parties’ relationship. Use the applicable article of the Maharashtra Stamp Act and current notifications rather than the document’s label or a single rate quoted for all Maharashtra properties.",
+        "For instruments charged on market value, use the correct valuation zone and property characteristics with the applicable Annual Statement of Rates and valuation instructions. Registration fees and separately applicable tax obligations must be assessed independently. Do not infer a concession without checking its legal conditions and execution date."
+      ]
+    },
+    {
+      "heading": "Adjudication and a Valuation Dispute",
+      "paragraphs": [
+        "Where the stamp-duty article or amount is uncertain, section 31 provides a route to seek the Collector’s determination. Section 32A addresses undervaluation of specified property instruments. Prepare the complete draft, valuation particulars and facts affecting duty; an informal estimate is not a Collector’s order.",
+        "If a deficit-duty, impounding or valuation notice has already been issued, preserve the notice, service date, payment receipts and instrument. Review the specific order and the current remedy and deadline promptly instead of assuming every stamp dispute uses the same appeal route."
+      ]
+    },
+    {
+      "heading": "Keep the Stamping and Registration Clocks Separate",
+      "paragraphs": [
+        "Section 17 of the Maharashtra Stamp Act addresses timing for instruments executed in the State, including its next-working-day provision. Section 18 addresses instruments executed only outside the State and the three-month period after first receipt in Maharashtra. Check the circumstances and applicable duty route before relying on either provision.",
+        "Section 23 of the Registration Act generally uses four months from execution for presentation. Limited relief under section 25 and the overseas-execution rule in section 26 are separate statutory questions. Booking an appointment does not itself extend a deadline or cure deficient stamping."
+      ]
+    },
+    {
+      "heading": "Prepare for the Correct Registering Office",
+      "list": [
+        "The final draft and annexures, accurate survey/CTS/flat particulars and the complete property schedule.",
+        "Relevant title documents, authority or lessor permissions and known loan/charge papers.",
+        "Identity and authority documents, including any power of attorney; confirm execution, presentation and admission authority.",
+        "Valuation working, applicable concessions or adjudication order, payment proof and proposed execution/presentation dates."
+      ],
+      "paragraphs": [
+        "Confirm jurisdiction and the department’s current procedure for the actual instrument. Society or CIDCO transfer requirements may be separate from registration. Obtain the completed instrument or certified copy as appropriate; Index II summarises registration particulars and is not a title certificate."
+      ]
+    },
+    {
+      "heading": "Questions Before Paying or Signing",
+      "paragraphs": [
+        "Does every agreement or power of attorney require registration?",
+        "No. Examine sections 17 and 18, the document’s legal effect and applicable special or Maharashtra law. Stamping and registration are distinct requirements.",
+        "Can a late document always be registered by paying a penalty?",
+        "No. Relief is limited by the relevant statutory conditions, time period and competent officer’s decision. Seek advice promptly if execution has already occurred.",
+        "Does registration guarantee ownership?",
+        "No. Registration does not cure lack of title or authority, fraud, a prohibited transfer or an unresolved encumbrance."
+      ]
+    },
+    {
+      "heading": "Official Sources and Scope",
+      "resources": [
+        {
+          "label": "Registration Act, 1908 — India Code statutory text",
+          "href": "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf"
+        },
+        {
+          "label": "Maharashtra Stamp Act — official state compilation (8 April 2025); check later notifications",
+          "href": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf"
+        },
+        {
+          "label": "IGR Maharashtra — current registration, valuation and payment services",
+          "href": "https://igrmaharashtra.gov.in/Home"
+        }
+      ],
+      "paragraphs": [
+        "GENERAL INFORMATION DISCLAIMER: This article provides general information, not advice for a particular transaction or dispute. Applicable law, notifications, procedure, jurisdiction and documents must be checked for the facts and date of advice.",
+        "The linked state compilation is dated 8 April 2025. Later amendments, notifications, current rates and local electronic procedures must be checked for a specific transaction; this guide does not publish a rate table or a universal appeal pathway."
+      ]
+    }
+  ]
+},
   {
     id: "a31",
     slug: "cidco-transfer-noc-leasehold-services",

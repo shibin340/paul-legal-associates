@@ -1,8 +1,9 @@
 {
-  "date": "2026-10-06",
-  "reason": "Qualify the Contact page's blanket legal-privilege promises against the official statute and clarify initial-enquiry information. Only the substantively changed Contact URL is eligible; the earlier POSH guides and commercial pages are unchanged. Editorial date uses UTC; execution cycle is 7 October IST.",
+  "date": "2026-10-07",
+  "reason": "cycle-A: targeted substantive source/procedure corrections to the listed existing Insights only. Unchanged service and previous release URLs are excluded.",
   "keyFile": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb.txt",
   "urls": [
-    "https://paullegalassociates.com/contact/"
+    "https://paullegalassociates.com/insights/property-registration-services/",
+    "https://paullegalassociates.com/insights/property-registration-stamp-duty-guidance/"
   ]
 }

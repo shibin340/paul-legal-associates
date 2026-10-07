@@ -660,26 +660,29 @@
       "title": "Property Registration Services Across Mumbai and Navi Mumbai",
       "author": "Adv. Sojan Paul",
       "publicationDate": "July 24, 2021",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted Property registration and stamp-duty source review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 1575,
-      "sections": 12,
-      "primarySources": [],
+      "wordEvidence": 1636,
+      "sections": 11,
+      "primarySources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf",
+        "https://igrmaharashtra.gov.in/Home"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/property-registration-services-mumbai-navi-mumbai/",
       "tierASupport": [
-        "/expertise/property-registration-services-mumbai-navi-mumbai/",
-        "/expertise/property-transactions-conveyancing/"
+        "/expertise/property-registration-services-mumbai-navi-mumbai/"
       ],
       "internalIn": [
         "/expertise/property-registration-services-mumbai-navi-mumbai/",
@@ -708,7 +711,26 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "July 24, 2021",
+        "sourceEvidence": [
+          {
+            "url": "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf",
+            "read": "Official IndiaCode indexed sections23–26,32A/33 and Act text identity corroborated; full PDF retrieval unavailable. No comprehensive Maharashtra-amendment opinion claimed."
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf",
+            "read": "Full78-page state statutory compilation downloaded and relevant sections17/18/28/31/32A read; edition8April2025; no current numerical rate or post2025 appeal claim.",
+            "sha256": "7525ea0549e43c320c5e20e24d4d05fd4c6934213f9630f9c8badac7d5b845cf"
+          },
+          {
+            "url": "https://igrmaharashtra.gov.in/Home",
+            "read": "Official operational resource; direct fetch timed out, so no specific current portal screen/fee asserted."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/property-permissions-approvals-regulatory-compliance/",
@@ -1540,24 +1562,30 @@
       "title": "Property Registration and Stamp Duty Guidance in Maharashtra",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted Property registration and stamp-duty source review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 466,
-      "sections": 9,
-      "primarySources": [],
+      "wordEvidence": 693,
+      "sections": 7,
+      "primarySources": [
+        "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf",
+        "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf",
+        "https://igrmaharashtra.gov.in/Home"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
-      "preferredService": null,
-      "tierASupport": [],
+      "preferredService": "/expertise/property-registration-services-mumbai-navi-mumbai/",
+      "tierASupport": [
+        "/expertise/property-registration-services-mumbai-navi-mumbai/"
+      ],
       "internalIn": [
         "/insights/court-marriage-registration-guidance/",
         "/insights/customs-import-export-law-advisory/",
@@ -1581,7 +1609,26 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "June 26, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://www.indiacode.nic.in/bitstream/123456789/2190/5/A1908-16.pdf",
+            "read": "Official IndiaCode indexed sections23–26,32A/33 and Act text identity corroborated; full PDF retrieval unavailable. No comprehensive Maharashtra-amendment opinion claimed."
+          },
+          {
+            "url": "https://cdnbbsr.s3waas.gov.in/s36a4cbdaedcbda0fa8ddc7ea32073c475/uploads/2025/11/20251113533056908.pdf",
+            "read": "Full78-page state statutory compilation downloaded and relevant sections17/18/28/31/32A read; edition8April2025; no current numerical rate or post2025 appeal claim.",
+            "sha256": "7525ea0549e43c320c5e20e24d4d05fd4c6934213f9630f9c8badac7d5b845cf"
+          },
+          {
+            "url": "https://igrmaharashtra.gov.in/Home",
+            "read": "Official operational resource; direct fetch timed out, so no specific current portal screen/fee asserted."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/cidco-transfer-noc-leasehold-services/",
