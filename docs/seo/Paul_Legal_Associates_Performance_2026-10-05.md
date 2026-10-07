@@ -36,3 +36,7 @@ One public asset-header observation at20:27:17UTC returned200, gzip155551wire by
 ## Contact trust release — 7 October 2026 IST
 
 PR36 changes Contact text and its real modification date. Current live shared bundle `/static/js/main.0fda0971.js` matches the tested build:579749raw/153318computedgzip bytes (Node24), SHA256`3a5d065b40a5551ed7b295f6771ede30ca10adf7dd92e89d86cd790b114b5b29`.246other main bodies are unchanged. The earlier delivery optimisation remains intact; no new lab/mobile/field-CWV improvement is inferred. Exact public Contact/bundle/sitemap and prior POSH guide comparisons are in the existing cycle evidence.
+
+## Recovery / registration release checkpoint — 7 October 2026 IST
+
+PR39 public referenced main.9dbf9e48.js matches579970 raw/153340 computed gzip bytes(Node24), SHA2569dc018e695f4816b44069c3737f83851bee24f3338c8979c350b8ba9c18e1e4f. Earlier CycleA unchanged-bundle assertion was a scratch verifier selection error: it selected a leftover asset. Referenced-HTML selection is corrected and actual matched measurements supersede it. Article-body splitting remains intact. No fieldLCP/INP/CLS/TTFB dataset or new lab result was obtained; no further performance source change justified.

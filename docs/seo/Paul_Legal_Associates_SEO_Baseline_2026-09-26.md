@@ -400,3 +400,7 @@ Use secure connection/sign-in methods. No password or API key should be pasted i
 | 1 | pp-polachan | `/partners/pp-polachan` |
 | 2 | sojan-paul | `/partners/sojan-paul` |
 | 3 | sonam-paul | `/partners/sonam-paul` |
+
+## Recovery / registration release checkpoint — 7 October 2026 IST
+
+Recovery-cycle evidence search of the existing repository/public records found published assertions and previous ledger entries, not original enrolment, founding, aggregate case logs or testimonial consent. Existing claim-register owners/dispositions remain OWNER EVIDENCE REQUIRED. No number, court role, certification or testimonial is invented or deemed verified; potentially true claims are retained under the existing evidence queue.
