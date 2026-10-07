@@ -2037,63 +2037,107 @@ export const ARTICLES: Article[] = [
   ]
 },
   {
-    id: "a4",
-    slug: "commercial-arbitration-vs-litigation",
-    title: "Commercial Arbitration vs. Litigation: Choosing the Right Forum",
-    category: "Litigation",
-    excerpt: "Drafting dispute resolution clauses without strategic thought is one of the most common — and costly — mistakes in commercial contracts. Here's our framework.",
-    coverIcon: "⚖️",
-    author: "Adv. P. P. Polachan",
-    authorRole: "Partner",
-    date: "January 12, 2021",
-    readTime: "25 min read",
-    tags: ["Arbitration", "Commercial Litigation", "Contracts"],
-    content: [
-      {
-        paragraphs: [
-          "Having argued matters before the Bombay High Court & Supreme Court of India for over three decades — including the 240-day trial in Armilan Dyeing Ltd. vs. Maharashtra State Financial Corporation — I have seen first-hand how the choice of dispute resolution forum, decided years earlier at the contract drafting stage, shapes the entire trajectory of a commercial dispute.",
-          "Too often, arbitration clauses are inserted as templated boilerplate, copied from a previous agreement without strategic consideration of whether arbitration actually serves the parties' interests in that specific commercial relationship.",
-        ],
-      },
-      {
-        heading: "When Arbitration Makes Sense",
-        paragraphs: [
-          "Arbitration is genuinely advantageous where confidentiality matters commercially, where the dispute is likely to involve technical or industry-specific evidence best assessed by a specialist arbitrator, or where the parties have an ongoing relationship that benefits from a less adversarial, more flexible process.",
-        ],
-        list: [
-          "Confidential commercial disputes (M&A disputes, IP licensing)",
-          "Disputes requiring technical/industry expertise in the decision-maker",
-          "Cross-border contracts where neutral forum selection matters",
-          "High-value disputes where procedural speed materially affects damages",
-        ],
-      },
-      {
-        heading: "When Litigation Remains Preferable",
-        paragraphs: [
-          "Despite arbitration's popularity, court litigation retains real advantages in specific scenarios. Where interim relief — injunctions, attachment before judgment — is critical, courts generally offer more robust and immediately enforceable remedies. Where a dispute involves third parties who aren't bound by the arbitration agreement, litigation may be unavoidable to achieve a complete resolution.",
-          "We have also found that for disputes primarily about documentary interpretation — straightforward breach of contract claims with limited factual complexity — the cost and time of arbitrator selection and procedural setup can exceed any speed advantage over a well-managed court process.",
-        ],
-      },
-      {
-        heading: "Drafting Recommendations",
-        paragraphs: [
-          "Whichever forum you choose, the clause itself deserves careful drafting attention. Vague or contradictory dispute resolution clauses — what practitioners call 'pathological clauses' — generate satellite litigation about the forum itself before the underlying dispute is ever addressed.",
-        ],
-        list: [
-          "Specify the seat and venue precisely, not just the governing law",
-          "Define the number of arbitrators and appointment mechanism unambiguously",
-          "Clarify whether institutional rules (e.g., MCIA, SIAC) apply or ad-hoc arbitration",
-          "Address interim relief — confirm courts retain jurisdiction for emergency relief pending arbitration",
-        ],
-      },
-      {
-        heading: "Our Approach",
-        paragraphs: [
-          "When we draft or review commercial agreements for clients, the dispute resolution clause receives the same strategic attention as the commercial terms themselves. It is, after all, the clause that determines how every other clause in the contract will ultimately be enforced.",
-        ],
-      },
-    ],
-  },
+  "id": "a4",
+  "slug": "commercial-arbitration-vs-litigation",
+  "title": "Commercial Arbitration vs. Litigation: Choosing the Right Forum",
+  "category": "Litigation",
+  "excerpt": "Drafting dispute resolution clauses without strategic thought is one of the most common — and costly — mistakes in commercial contracts. Here's our framework.",
+  "coverIcon": "⚖️",
+  "author": "Adv. P. P. Polachan",
+  "authorRole": "Partner",
+  "date": "January 12, 2021",
+  "readTime": "25 min read",
+  "tags": [
+    "Arbitration",
+    "Commercial Litigation",
+    "Contracts"
+  ],
+  "content": [
+    {
+      "paragraphs": [
+        "Having argued matters before the Bombay High Court & Supreme Court of India for over three decades — including the 240-day trial in Armilan Dyeing Ltd. vs. Maharashtra State Financial Corporation — I have seen first-hand how the choice of dispute resolution forum, decided years earlier at the contract drafting stage, shapes the entire trajectory of a commercial dispute.",
+        "Too often, arbitration clauses are inserted as templated boilerplate, copied from a previous agreement without strategic consideration of whether arbitration actually serves the parties' interests in that specific commercial relationship."
+      ]
+    },
+    {
+      "heading": "When Arbitration Makes Sense",
+      "paragraphs": [
+        "Arbitration can suit an arbitrable commercial dispute where a neutral forum, technical expertise or an agreed procedure matters. Check that a valid written arbitration agreement covers the dispute and the necessary participants; a contractual label does not make every statutory or third-party claim arbitrable.",
+        "Section 42A imposes confidentiality obligations on the arbitrator, institution and parties, with an exception for disclosure of the award needed for implementation and enforcement. Plan how commercially sensitive documents will be handled. Arbitration is not a promise that related court proceedings or every disclosure will remain private.",
+        "Compare arbitrator and institution fees, legal costs, appointment delay, evidence, possible court applications and enforcement. Arbitration is not automatically faster or cheaper; the appropriate process depends on the claim and the parties’ conduct."
+      ],
+      "list": [
+        "Technical or industry-specific commercial evidence;",
+        "Cross-border contracts requiring careful seat and enforcement planning;",
+        "Commercial relationships where an agreed procedure can help focus the dispute;",
+        "Confidential material requiring proportionate safeguards."
+      ]
+    },
+    {
+      "heading": "Interim Protection Does Not Require Abandoning Arbitration",
+      "paragraphs": [
+        "For an India-seated arbitration, section 9 permits court applications for specified interim protection before or during proceedings and after an award but before enforcement. Where a pre-arbitration order is made, section 9(2) ordinarily requires commencement within ninety days of that order or the further time the court determines.",
+        "Once the tribunal is constituted, section 9(3) limits court intervention unless the section 17 remedy would not be efficacious. Section 17 gives the tribunal interim-measure powers during proceedings; its orders are enforceable as court orders, subject to the statutory appeal provision. Identify the asset, threatened harm, evidence and effective forum rather than assume a court suit is always stronger."
+      ]
+    },
+    {
+      "heading": "When Litigation Remains Preferable",
+      "paragraphs": [
+        "Litigation may be appropriate where no applicable arbitration agreement exists, the subject matter is not arbitrable, or a complete remedy requires proceedings against participants who cannot properly be brought within the arbitration. Check the actual contractual and statutory position before choosing parallel proceedings.",
+        "For a commercial suit governed by section 12A of the Commercial Courts Act, pre-institution mediation is mandatory unless the suit contemplates urgent interim relief. The Supreme Court confirmed the mandatory requirement in Patil Automation and examined the urgency exception in Dhanbad Fuels. Merely inserting a prayer for an injunction is not a dependable shortcut; the court assesses the claim and urgency. A demand letter is not the statutory mediation process.",
+        "We have also found that for disputes primarily about documentary interpretation — straightforward breach of contract claims with limited factual complexity — the cost and time of arbitrator selection and procedural setup can exceed any speed advantage over a well-managed court process."
+      ]
+    },
+    {
+      "heading": "Drafting Recommendations",
+      "paragraphs": [
+        "Whichever forum you choose, the clause itself deserves careful drafting attention. Vague or contradictory dispute resolution clauses — what practitioners call 'pathological clauses' — generate satellite litigation about the forum itself before the underlying dispute is ever addressed.",
+        "The appointment mechanism must respect independence, impartiality and equal participation. In CORE (8 November 2024), the Supreme Court rejected unilateral sole-arbitrator appointment and mandatory selection by the other party from a PSU-curated panel. Its prospective direction concerns three-member appointments; it is not a universal rule validating earlier unilateral sole appointments. Section 12(5) ineligibility can be waived only by an express written agreement after the dispute arises."
+      ],
+      "list": [
+        "Identify the juridical seat, hearing venue and governing law separately;",
+        "State the number of arbitrators and a lawful, neutral appointment process;",
+        "Specify institutional rules or an ad hoc procedure and practical cost arrangements;",
+        "Provide for notices, contractual escalation and interim protection consistent with the Act;",
+        "Check the likely court, limitation and enforcement route before signing."
+      ]
+    },
+    {
+      "heading": "Our Approach",
+      "paragraphs": [
+        "When we draft or review commercial agreements for clients, the dispute resolution clause receives the same strategic attention as the commercial terms themselves. It is, after all, the clause that determines how every other clause in the contract will ultimately be enforced."
+      ]
+    },
+    {
+      "heading": "Primary Statutory and Court Resources",
+      "resources": [
+        {
+          "label": "Arbitration and Conciliation Act — WIPO Lex reproduction amended through 2021",
+          "href": "https://www.wipo.int/wipolex/en/legislation/details/22984"
+        },
+        {
+          "label": "Supreme Court — CORE, neutral appointments, 8 November 2024",
+          "href": "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf"
+        },
+        {
+          "label": "NALSA — pre-institution mediation under section 12A",
+          "href": "https://nalsa.gov.in/pre-instituion-mediation/"
+        },
+        {
+          "label": "Supreme Court — Patil Automation, 17 August 2022",
+          "href": "https://api.sci.gov.in/supremecourt/2021/21877/21877_2021_7_1501_37324_Judgement_17-Aug-2022.pdf"
+        },
+        {
+          "label": "Supreme Court — Dhanbad Fuels, urgency exception, 15 May 2025",
+          "href": "https://api.sci.gov.in/supremecourt/2021/7937/7937_2021_12_1501_61801_Judgement_15-May-2025.pdf"
+        }
+      ],
+      "paragraphs": [
+        "GENERAL INFORMATION DISCLAIMER: This article provides general information, not advice for a particular transaction or dispute. Applicable law, notifications, procedure, jurisdiction and documents must be checked for the facts and date of advice."
+      ]
+    }
+  ]
+},
   {
     id: "a5",
     slug: "due-diligence-property-transactions",
@@ -19866,98 +19910,113 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a74",
-    slug: "commercial-arbitration-contract-disputes",
-    title: "Commercial Arbitration and Contract Dispute Resolution",
-    category: "General Litigation",
-    excerpt: "Private arbitral tribunals offer procedural agility for commercial asset and infrastructure pacts.",
-    coverIcon: "⚖️",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "June 26, 2026",
-    readTime: "6 min read",
-    tags: ["Arbitration Act", "Tribunal Mandates", "Section 9 Orders", "Award Execution"],
-    content: [
-      {
-        heading: "Tribunal Dispute Management",
-        paragraphs: [
-          "Arbitration is a private adjudicatory process based on an arbitration agreement. Effective strategy begins with the clause, seat, venue, governing law, limitation, tribunal appointment and need for urgent interim protection."
-        ]
-      },
-      {
-        heading: "Why This Work Should Be Approached Carefully",
-        paragraphs: [
-          "The choice of forum is often as important as the merits. The same facts may involve contractual, statutory, consumer, banking, arbitration or criminal remedies, but overlapping proceedings must be planned carefully to avoid inconsistency and wasted cost."
-        ]
-      },
-      {
-        heading: "Issues Commonly Brought for Legal Advice",
-        list: [
-          "Breach of supply, service, construction or development contract;",
-          "Non-payment, delay, quality or termination dispute;",
-          "Appointment of arbitrator or challenge to jurisdiction;",
-          "Interim injunction, security, award challenge or enforcement."
-        ]
-      },
-      {
-        heading: "Work Commonly Involved",
-        list: [
-          "Arbitration-clause and claim assessment;",
-          "Notice invoking arbitration and tribunal appointment;",
-          "Statement of claim, defence, evidence and hearing representation;",
-          "Interim measures, award challenge and execution."
-        ]
-      },
-      {
-        heading: "A Practical Step-by-Step Approach",
-        list: [
-          "Review of contracts, notices, payment records and the complete chronology of default or deficiency;",
-          "Assessment of limitation, jurisdiction, contractual dispute-resolution clauses and recoverability;",
-          "Issue or response to a legally calibrated notice, without making admissions that may prejudice later proceedings;",
-          "Filing before the appropriate civil court, arbitral tribunal, consumer commission, DRT, regulator or ombudsman;",
-          "Pursuit of interim protection, adjudication, settlement, execution and recovery."
-        ]
-      },
-      {
-        heading: "Indicative Document Checklist",
-        list: [
-          "Contract, invoice, notice, correspondence and proof of payment;",
-          "A date-wise chronology of performance, default and follow-up;",
-          "Identity, account, product, service or security documents relevant to the transaction;",
-          "Complete contract and amendments;",
-          "Notices, invoices, performance and payment records;",
-          "Technical reports, correspondence and loss calculation."
-        ]
-      },
-      {
-        heading: "Location-Specific Points",
-        paragraphs: [
-          "Mumbai is a major arbitration seat and Board-approved applications may arise for appointments, interim measures, or award challenges before the Bombay High Court."
-        ]
-      },
-      {
-        heading: "Legal Provisions Commonly Considered",
-        list: [
-          "Arbitration and Conciliation Act, 1996;",
-          "Indian Contract Act, 1872;",
-          "Commercial Courts Act, 2015;",
-          "Code of Civil Procedure and evidence principles where applicable."
-        ]
-      },
-      {
-        heading: "Client FAQs",
-        paragraphs: [
-          "Is sending a legal notice compulsory in every case?",
-          "Not always. Some statutes or contracts require notice, while in other cases it is strategically useful. The need, wording and response period should be assessed before issue.",
-          "Can legal proceedings guarantee recovery of money?",
-          "No. A favourable order and actual recovery are different stages. Recoverability depends on evidence, limitation, assets, solvency, execution and competing claims.",
-          "Does an arbitration clause prevent approaching a court?",
-          "Courts retain limited statutory roles, including interim measures, appointment, challenges and enforcement. The merits are ordinarily decided by the tribunal where a valid clause applies.",
-          "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
-        ]
-      }
-    ]
-  },
+  "id": "a74",
+  "slug": "commercial-arbitration-contract-disputes",
+  "title": "Commercial Arbitration and Contract Dispute Resolution",
+  "category": "General Litigation",
+  "excerpt": "Private arbitral tribunals offer procedural agility for commercial asset and infrastructure pacts.",
+  "coverIcon": "⚖️",
+  "author": "Adv. Sojan Paul",
+  "authorRole": "Managing Partner",
+  "date": "June 26, 2026",
+  "readTime": "6 min read",
+  "tags": [
+    "Arbitration Act",
+    "Tribunal Mandates",
+    "Section 9 Orders",
+    "Award Execution"
+  ],
+  "content": [
+    {
+      "heading": "Tribunal Dispute Management",
+      "paragraphs": [
+        "Arbitration is a private adjudicatory process based on an arbitration agreement. For an India-seated commercial arbitration, assess the clause, claim, seat, limitation, lawful appointment and interim protection before invoking the process. An award and actual recovery are different stages. Foreign-seated arbitration and special statutory remedies require separate analysis."
+      ]
+    },
+    {
+      "heading": "Check the Clause and Preserve the Deadline",
+      "paragraphs": [
+        "Obtain the signed contract, amendments and any incorporated terms. Identify the disputes covered, the juridical seat, institutional rules, appointment mechanism and any negotiation or escalation steps. Check the proper respondent and authority to act for the business.",
+        "Under section 21, unless otherwise agreed, proceedings concerning a dispute commence when the respondent receives the request to refer that dispute to arbitration. Section 43 applies limitation law. Preserve the invocation and delivery evidence; an invoice reminder or ordinary legal notice is not automatically a valid invocation or an extension of limitation."
+      ]
+    },
+    {
+      "heading": "Appoint an Independent Tribunal",
+      "paragraphs": [
+        "Follow the valid agreed appointment procedure and identify the appropriate section 11 route if it fails. Obtain statutory disclosures and assess section 12(5) and the Seventh Schedule. A clause does not permit an interested party to bypass independence requirements.",
+        "The Supreme Court’s CORE judgment of 8 November 2024 confirms equal participation at appointment and rejects unilateral sole appointments and compulsory selection by the other party from a PSU-curated panel. The prospective direction is specific to three-member appointments. Any waiver of section 12(5) must be express, written and made after the dispute arises; ordinary pre-dispute boilerplate is insufficient."
+      ]
+    },
+    {
+      "heading": "Interim Protection and Preparation of the Claim",
+      "paragraphs": [
+        "Assess whether assets, goods, evidence or performance need protection. Section 9 provides the court route, with a commencement requirement following a pre-arbitration order. Once constituted, the tribunal ordinarily supplies section 17 protection; section 9(3) governs exceptional further court intervention. Tribunal orders under section 17 are enforceable as court orders subject to the statutory appeal provision.",
+        "Prepare a dated chronology, contractual breach analysis, loss calculation and supporting records for the statement of claim or defence. Identify counterclaims and jurisdictional objections promptly. Sections 18–19 require equal treatment and a fair opportunity to present the case while allowing an agreed or tribunal-directed procedure; evidence quality still matters."
+      ]
+    },
+    {
+      "heading": "Indicative Document Checklist",
+      "list": [
+        "Complete signed contract, amendments, incorporated rules and appointment correspondence;",
+        "Invocation, responses, delivery proof and a chronology of default and deadlines;",
+        "Invoices, performance certificates, payment records, technical reports and relevant communications;",
+        "Claim and counterclaim calculations with the underlying evidence;",
+        "Existing tribunal/court orders, award and evidence of its receipt, if already issued;",
+        "Available information about assets, solvency and competing recovery proceedings."
+      ]
+    },
+    {
+      "heading": "Which Court Handles a Mumbai or Navi Mumbai Matter?",
+      "paragraphs": [
+        "There is no general “Board-approved application” category. Identify the juridical seat, the application being made, whether the arbitration is international commercial arbitration and the statutory definition of Court. Section 11 appointment jurisdiction is distinct from sections 9, 34 and 36.",
+        "Section 10 of the Commercial Courts Act allocates qualifying commercial arbitration applications according to international/domestic status and the court in which they would otherwise lie. A Mumbai business address does not send every matter to the Bombay High Court. Territorial and pecuniary jurisdiction, the seat, specified value and existing competent court proceedings must be checked."
+      ]
+    },
+    {
+      "heading": "Award Challenge, Stay and Recovery",
+      "paragraphs": [
+        "Section 34 is a limited statutory challenge, not a general rehearing of the merits. For the Maharashtra matters addressed here, the ordinary period is three months from receipt of the award, or disposal of an applicable section 33 request; a further thirty days requires sufficient cause, but not thereafter. Verify receipt, the request and the precise calculation immediately.",
+        "Gayatri Balasamy (30 April 2025) recognises limited modification powers under sections 34 and 37, including severance and correction in the circumstances described by the majority. It does not create an unrestricted merits appeal or a general power to rewrite an award.",
+        "Filing a section 34 challenge does not itself stay enforcement. Section 36 requires a separately granted stay; assess its terms and the applicable enforcement stage. Recoverability depends on assets, solvency and competing claims. Costs are determined under the statutory regime, not guaranteed reimbursement of every expense."
+      ]
+    },
+    {
+      "heading": "Client FAQs",
+      "paragraphs": [
+        "Does an arbitration clause prevent approaching a court?",
+        "No. Courts retain statutory roles in appointment, interim protection, challenges and enforcement. The appropriate route depends on the clause, seat and application.",
+        "Should a commercial suit be filed instead?",
+        "Check arbitrability and any applicable arbitration agreement first. If a qualifying commercial suit is appropriate, assess section 12A pre-institution mediation and the genuine urgent-relief exception. Parallel proceedings can create inconsistent positions and extra cost.",
+        "Can a favourable award guarantee payment?",
+        "No. Consider enforcement, assets and solvency alongside the merits, and preserve evidence and deadlines from the outset."
+      ]
+    },
+    {
+      "heading": "Primary Statutory and Court Resources",
+      "resources": [
+        {
+          "label": "Arbitration and Conciliation Act — WIPO Lex reproduction amended through 2021",
+          "href": "https://www.wipo.int/wipolex/en/legislation/details/22984"
+        },
+        {
+          "label": "Supreme Court — CORE, neutral appointments, 8 November 2024",
+          "href": "https://api.sci.gov.in/supremecourt/2019/28531/28531_2019_1_1502_57055_Judgement_08-Nov-2024.pdf"
+        },
+        {
+          "label": "NALSA — Commercial Courts Act and rules",
+          "href": "https://nalsa.gov.in/the-commercial-courts-acts-rules/"
+        },
+        {
+          "label": "Supreme Court — Gayatri Balasamy, limited modification, 30 April 2025",
+          "href": "https://api.sci.gov.in/supremecourt/2021/20788/20788_2021_1_1501_61506_Judgement_30-Apr-2025.pdf"
+        }
+      ],
+      "paragraphs": [
+        "GENERAL INFORMATION DISCLAIMER: This article provides general information, not advice for a particular transaction or dispute. Applicable law, notifications, procedure, jurisdiction and documents must be checked for the facts and date of advice."
+      ]
+    }
+  ]
+},
   {
     id: "a75",
     slug: "consumer-commission-court-services",
