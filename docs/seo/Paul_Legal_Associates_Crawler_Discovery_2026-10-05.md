@@ -49,3 +49,5 @@ PR36 notified only the substantively changed Contact URL once: HTTP200 at20:44:1
 ## Recovery / registration release checkpoint — 7 October 2026 IST
 
 PR39 deploy: live key verified200; one reviewed2-guide batch returned200. Runner page checks were403 with Rays a46a688148c87720-LHR and a46a6881fc8dd8f8-LHR; independent public checks returned200. This is a client-specific result, not genuine-bot evidence. Exact unblock remains Cloudflare zone Security Events/WAF/Bot/Crawl Control read access for these Rays and verified Google/Bing/OAI identities. No security or robots change justified.
+
+PR #40 runner evidence: IndexNow accepted exactly two materially changed workplace guides once (HTTP200; notification receipt, not indexing). Runner public checks returned403 with Rays `a46a7d279cf52a3e-CDG` and `a46a7d282fd4cd64-LHR`; independent public checks returned200 and the exact guide bodies/bundle/sitemap match. Verified crawler identity/security-event access is still required; no broad security change is justified.
