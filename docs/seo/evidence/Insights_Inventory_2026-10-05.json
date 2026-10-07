@@ -1305,7 +1305,16 @@
           }
         ],
         "reviewScope": "IBC amendment section 51 / operative section 96(4), and commencement only",
-        "pendingReview": "Full current SARFAESI Act / Security Interest Enforcement Rules and other procedural text; primary retrieval limits in cycle evidence."
+        "pendingReview": "Full current SARFAESI Act / Security Interest Enforcement Rules and other procedural text; primary retrieval limits in cycle evidence.",
+        "production": {
+          "pr": 43,
+          "mergeSha": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb",
+          "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -4019,7 +4028,16 @@
             "read": "Full bilingual Gazette read: S.O.2625(E),22May2026/published25May, specified provisions operative26May2026 including section51 through48–59.",
             "sha256": "555845b6e8d068544fff4996d99945bf86b35b7dd95929cc1afc64258ed93bdc"
           }
-        ]
+        ],
+        "production": {
+          "pr": 43,
+          "mergeSha": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb",
+          "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {

@@ -4585,6 +4585,14 @@
         "testedTree": "5784df226a260daa125e87792e490b373b0971f0",
         "status": "Original source delta recovered; publication resumed against main through PR38."
       }
+    },
+    {
+      "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+      "error": "409 Conflict, environment_offline: Environment is not connected (exec-server capability query)",
+      "attempt": "Local Cycle F draft-file creation did not return acknowledgement; subsequent read/status command failed with environment_offline. No Cycle F PR, tested build or deployment is confirmed.",
+      "systemLimit": true,
+      "latestVerifiedSourcePR": 43,
+      "latestVerifiedSourceMain": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb"
     }
   ],
   "longRunCycles": [
@@ -8785,20 +8793,119 @@
         "currentPerformance": null
       },
       "release": {
-        "status": "Local validation complete; merge and public verification pending"
+        "status": "Merged/deployed and independently verified",
+        "pr": 43,
+        "mainSha": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb",
+        "workflowRun": 37579722609,
+        "workflowJob": 112656373624,
+        "publicVerification": {
+          "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+          "client": "Public curl and independent Chrome path; not verified search-bot identity",
+          "validation": {
+            "pass": true,
+            "errors": []
+          },
+          "pagesChecked": 14,
+          "status": "All 14 returned HTTP 200; exact target, Banking service and derived GST mains matched the tested build. Canonical/H1/static body/schema/source/date/prompt checks passed; eight holds remained noindex/follow and sitemap-excluded.",
+          "sitemap": {
+            "urls": 239,
+            "dated": 32,
+            "sha256": "cd8a990d2c822e9fdfb004c939e56311971f184f33e879fedaa84850dca28c40",
+            "publicMatch": true
+          },
+          "bundle": {
+            "path": "/static/js/main.282269f8.js",
+            "bytes": 580941,
+            "gzipBytes": 153430,
+            "sha256": "20bfda40fca03be313098c8c6d4b3a44ce5b3d646ddca47ca654e573a90bbb58",
+            "publicMatch": true
+          },
+          "indexNowKey": {
+            "status": 200,
+            "content": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb"
+          },
+          "browserPath": {
+            "checkedAtUTC": "2026-10-07T06:09:21.003Z",
+            "path": [
+              "/insights/banking-disputes-rbi-ombudsman-complaints/",
+              "/expertise/banking-finance-securities-debt-restructuring/",
+              "/contact/"
+            ],
+            "reciprocalGuidesVisible": true,
+            "phoneAndWhatsAppHandoffVisible": true,
+            "submittedEnquiry": false
+          },
+          "dataLimit": "Full raw public snapshot was written locally to cycle-E-production.json before workspace disconnection. This summary preserves returned verification results; recordedAtUTC is the persistence time, not the original public fetch start time. Google coverage, genuine crawler identity and enquiries were not measured."
+        },
+        "indexNow": {
+          "status": 200,
+          "urls": [
+            "https://paullegalassociates.com/insights/banking-finance-insolvency-debt-recovery/",
+            "https://paullegalassociates.com/insights/banking-disputes-rbi-ombudsman-complaints/"
+          ],
+          "meaning": "Exactly two changed URLs notified once; receipt only, not indexing"
+        },
+        "runnerRays": [
+          "a46abb356d8dcf0a-SJC",
+          "a46abb3578736c97-SJC"
+        ]
       },
       "measurementPlan": "Fresh tracker crawl/index transitions and preferred service query/landing share after authorised reporting access; enquiry intent actions remain distinct from qualified enquiries. Hold CTR experiments until indexed, mature same-query/page evidence."
     }
   ],
   "continuationCheckpoint": {
-    "latestMergedPR": 42,
-    "currentMainSha": "821a5403986ce78b093c32afd7b58a3dc3f1424e",
-    "lastVerifiedProduction": "2026-10-07T05:55:44.187Z",
+    "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+    "latestMergedSourcePR": 43,
+    "currentMainShaAtCheckpoint": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb",
+    "lastVerifiedProduction": {
+      "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+      "client": "Public curl and independent Chrome path; not verified search-bot identity",
+      "validation": {
+        "pass": true,
+        "errors": []
+      },
+      "pagesChecked": 14,
+      "status": "All 14 returned HTTP 200; exact target, Banking service and derived GST mains matched the tested build. Canonical/H1/static body/schema/source/date/prompt checks passed; eight holds remained noindex/follow and sitemap-excluded.",
+      "sitemap": {
+        "urls": 239,
+        "dated": 32,
+        "sha256": "cd8a990d2c822e9fdfb004c939e56311971f184f33e879fedaa84850dca28c40",
+        "publicMatch": true
+      },
+      "bundle": {
+        "path": "/static/js/main.282269f8.js",
+        "bytes": 580941,
+        "gzipBytes": 153430,
+        "sha256": "20bfda40fca03be313098c8c6d4b3a44ce5b3d646ddca47ca654e573a90bbb58",
+        "publicMatch": true
+      },
+      "indexNowKey": {
+        "status": 200,
+        "content": "f2e84d1fdd4cab54de4f0182229116d5d1ca00407b93e2fb"
+      },
+      "browserPath": {
+        "checkedAtUTC": "2026-10-07T06:09:21.003Z",
+        "path": [
+          "/insights/banking-disputes-rbi-ombudsman-complaints/",
+          "/expertise/banking-finance-securities-debt-restructuring/",
+          "/contact/"
+        ],
+        "reciprocalGuidesVisible": true,
+        "phoneAndWhatsAppHandoffVisible": true,
+        "submittedEnquiry": false
+      },
+      "dataLimit": "Full raw public snapshot was written locally to cycle-E-production.json before workspace disconnection. This summary preserves returned verification results; recordedAtUTC is the persistence time, not the original public fetch start time. Google coverage, genuine crawler identity and enquiries were not measured."
+    },
     "lastArticlesReviewed": [
-      "commercial-arbitration-vs-litigation",
-      "commercial-arbitration-contract-disputes"
+      "banking-finance-insolvency-debt-recovery",
+      "banking-disputes-rbi-ombudsman-complaints"
     ],
-    "next": "Cycle E: existing banking/debt and FEMA/cross-border supporting guides",
+    "nextArticles": [
+      "due-diligence-agricultural-non-agricultural-land",
+      "nri-property-compliance-fema"
+    ],
+    "nextWorkstream": "Cycle F current land transfer and NRI property review",
+    "draftState": "Attempted local file creation unacknowledged. Whether a file or edit survived is unknown; do not assume Cycle F completed. No new article dates or notifications released.",
     "blockedAccounts": [
       "GSC Wizard payment_required",
       "GBP/listing manager access and true hours",
@@ -8808,7 +8915,9 @@
       "reliable field CWV",
       "firm claim/testimonial records"
     ],
-    "nextExactNonBlockedAction": "Cycle E: existing banking/debt and FEMA/cross-border supporting guides"
+    "systemBlocker": "409 Conflict, environment_offline: Environment is not connected (exec-server capability query)",
+    "nextExactNonBlockedAction": "Reconnect execution workspace; inspect git status/diff and cycle-F-edit.cjs, cycle-F-definition.json and cycle-F-build.log on seo/land-fema-sources-20261007. Reconcile any partial draft with verified main. Finish the existing agricultural-land/NRI-FEMA corrections, run the established build/verifier, publish one coherent source PR, verify deployment/public bodies/canonicals/sitemap/holds/bundle and notify only the two materially changed Insights. Then continue corporate/startup/contract source review.",
+    "checkpointEvidence": "Persisted in the existing registers; the docs-only follow-up PR will carry its own final merge SHA in GitHub history/body."
   },
   "measurementRetries": [
     {
@@ -8818,6 +8927,66 @@
       "currentGoogleIndexation": null,
       "currentSearchPerformance": null,
       "unblock": "Restore the existing subscription or provide an authorised Search Console reporting alternative/export; then refresh the existing Tier-A tracker. No new tracker/submission."
+    },
+    {
+      "checkedAtUTC": "2026-10-07T06:10:52Z",
+      "timeMeaning": "Approximate checkpoint time of the observed tool response; not asserted API request-start time",
+      "platform": "GSC Wizard existing authorised route",
+      "result": "payment_required: trial ended or no active subscription",
+      "currentIndexation": null,
+      "currentPerformance": null,
+      "exactUnblockAction": "Restore existing subscription/reporting route or authorised direct Search Console access, then refresh all 18 Tier-A URLs in the existing tracker and mature query/page data. No purchase made."
     }
-  ]
+  ],
+  "pendingSourceResearch": {
+    "cycle": "Cycle F",
+    "recordedAtUTC": "2026-10-07T06:23:29.623Z",
+    "status": "Primary research read; source edits/build not confirmed",
+    "sourceMain": "3684d67002a29e9b7942c1dea4fc3a298bc4aedb",
+    "targets": [
+      "due-diligence-agricultural-non-agricultural-land",
+      "nri-property-compliance-fema"
+    ],
+    "scope": "Preserve 52-section agricultural diligence material; correct the general NA order assumption with current MLRC42/47, tenure and revenue-record distinctions. Read Tenancy43/63 with the 2026 amendment; no blanket transfer clearance. NRI guide: current NDI24–33, distinct purchase/gift/inheritance/payment/repatriation conditions; one Conveyancing service prompt and selected reciprocal reading. Preserve metadata, original dates and existing agricultural preferred service.",
+    "sources": [
+      {
+        "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/Mah-Act-No-41-of-1966-10-06-2026.pdf",
+        "edition": "Official text as on 21 May 2026, posted 10 June",
+        "read": "Sections42/47 and footnotes read",
+        "sha256": "adeea3f5a846e16b0fea87906d498572227b1850bec6f4f8c79b99edf9a54bc3"
+      },
+      {
+        "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/Mah-Act-No-LVIIof-2025.pdf",
+        "read": "Full three-page Gazette; substituted42/47, deleted42A–42D/44–46",
+        "sha256": "056177fbc303bb0a1fa1bae58389a88adb7379249af952971c47cb99e021e8b6"
+      },
+      {
+        "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/Act-No-67-of-1948_23_01_2026.pdf",
+        "edition": "Official base text as on27November2025, not an unamended current consolidation",
+        "read": "43/63/63-IA read with current amendment",
+        "sha256": "46f682d888228d050015f5ee3247d78aa3d085d2ea07805581dacfd294dbeec4"
+      },
+      {
+        "url": "https://old-lj.maharashtra.gov.in/Site/Upload/Acts/Mah_Act%20No_18_of_23-4-2026.pdf",
+        "read": "Current original Gazette18of2026, relevant43/63-IA amendments read and court reproduction cross-check",
+        "sha256": "c86c3a24f8a16786ebc13cf6605efafd5ccb806570a88ad28339a8aa95eaea98"
+      },
+      {
+        "url": "https://rbi.org.in/scripts/bs_viewcontent.aspx?Id=5083",
+        "edition": "NDI Rules updated through2September2026",
+        "read": "Relevant definitions/full ChapterIX24–33 read"
+      },
+      {
+        "url": "https://www.rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10196",
+        "edition": "Current posted property direction updated1September2022",
+        "read": "Definitions/PartII cross-checked against current2026NDI; not called2026updated"
+      },
+      {
+        "url": "https://rbi.org.in/Scripts/BS_ViewMasDirections.aspx?id=10197",
+        "edition": "Remittance of Assets updated29June2026",
+        "read": "Definitions,3.2,approval/tax conditions read with original4(2)"
+      }
+    ],
+    "retrievalLimits": "Direct Bombay High Court PDF curl returned HTML; original Maharashtra Gazette download and web text were readable. ED document list returned an error; current NDI rules obtained from RBI. No reliance on proposed rules. Article/survey/scheme-specific whole approval not asserted."
+  }
 }
