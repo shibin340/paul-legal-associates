@@ -329,7 +329,10 @@
       "sourceMain": "17012d34efaa6e4073f8b81b1f53cd882aa1c51e",
       "latestMergedPRAtStart": 46,
       "mainReverifiedThroughGitHub": true,
-      "publishingPR": null,
+      "publishingPR": {
+        "number": 47,
+        "url": "https://github.com/shibin340/paul-legal-associates/pull/47"
+      },
       "scope": "Actual post-PR46 measurements and diagnostic results; existing keyword/operations framework preserved.",
       "accessChecks": {
         "semrush": {
@@ -803,7 +806,8 @@
         "latestLocalRankBaseline": null,
         "latestSemrushBaseline": null,
         "nextAction": "Connect Semrush through its existing Work install/connect card, then capture India-domain totals/positions/gaps and rescore the same74 candidates. Restore GSC Wizard subscription to refresh the existing properties/18 inspections. Obtain existing GBP manager access and owner hours; reconcile its actual service catalogue and apply fixed UTMs. Publisher corrections await account/sending access; LinkedIn stays user-owned. Repeat the same AI cohort, preserving separate Advocate Paul identity.",
-        "releaseIdentity": "Read final merge SHA, PR number and workflow from this cycle publishing PR/GitHub main; do not treat baseline main as a later release SHA."
+        "releaseIdentity": "Read final merge SHA, PR number and workflow from this cycle publishing PR/GitHub main; do not treat baseline main as a later release SHA.",
+        "publishingPR": 47
       },
       "validation": {
         "measurementTests": 11,
