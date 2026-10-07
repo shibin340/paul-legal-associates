@@ -729,7 +729,16 @@
             "url": "https://igrmaharashtra.gov.in/Home",
             "read": "Official operational resource; direct fetch timed out, so no specific current portal screen/fee asserted."
           }
-        ]
+        ],
+        "production": {
+          "pr": 39,
+          "mergeSha": "e3de9ce39121685d6c1139043eddfc22b11cc837",
+          "checkedAt": "2026-10-07T05:12:41.005Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -1627,7 +1636,16 @@
             "url": "https://igrmaharashtra.gov.in/Home",
             "read": "Official operational resource; direct fetch timed out, so no specific current portal screen/fee asserted."
           }
-        ]
+        ],
+        "production": {
+          "pr": 39,
+          "mergeSha": "e3de9ce39121685d6c1139043eddfc22b11cc837",
+          "checkedAt": "2026-10-07T05:12:41.005Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -4282,21 +4300,31 @@
       "title": "PF, ESIC, Factory and Contract Labour Compliance",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted PF/ESI and principal-employer current-law review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 394,
-      "sections": 9,
-      "primarySources": [],
+      "wordEvidence": 978,
+      "sections": 7,
+      "primarySources": [
+        "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf",
+        "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf",
+        "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf",
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48",
+        "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf",
+        "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf",
+        "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf",
+        "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
       "preferredService": "/expertise/labour-employment-hr-workplace-compliance/",
       "tierASupport": [
@@ -4325,7 +4353,49 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "June 26, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48",
+            "read": "Official Ministry/EPFO announcement confirms the 2026 Scheme and legacy Act/Code treatment; primary scheme Gazette could not be downloaded (502), so no comprehensive paragraph/contribution-rate interpretation or exact scheme commencement date is asserted."
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48",
+            "read": "Official EPFO/Ministry release confirms Rs25000 ceiling effective17September2026 and S.O.5109(E); Gazette direct retrieval502. No historical reclassification, pension entitlement or mid-month payroll calculation asserted."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour",
+            "read": "Official page and linked271-page draft read for draft identity. No final Maharashtra implementation claimed; current Gazette/appropriate-government check required."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/trademark-registration-brand-protection-ip/",
@@ -6670,24 +6740,36 @@
       "title": "Contract Labour Compliance in Maharashtra: Why the Principal Employer Cannot Ignore the Contractor's Defaults",
       "author": "Adv. Sonam Paul",
       "publicationDate": "August 15, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted PF/ESI and principal-employer current-law review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 396,
-      "sections": 6,
-      "primarySources": [],
+      "wordEvidence": 932,
+      "sections": 7,
+      "primarySources": [
+        "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf",
+        "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf",
+        "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf",
+        "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour",
+        "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf",
+        "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf",
+        "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48",
+        "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48",
+        "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
-      "preferredService": null,
-      "tierASupport": [],
+      "preferredService": "/expertise/labour-employment-hr-workplace-compliance/",
+      "tierASupport": [
+        "/expertise/labour-employment-hr-workplace-compliance/"
+      ],
       "internalIn": [
         "/insights/labour-code-readiness-2026/",
         "/insights/labour-employment-law-services/",
@@ -6710,7 +6792,49 @@
       "authorProfile": [
         "/partners/sonam-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sonam Paul",
+        "preservedPublicationDate": "August 15, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48",
+            "read": "Official Ministry/EPFO announcement confirms the 2026 Scheme and legacy Act/Code treatment; primary scheme Gazette could not be downloaded (502), so no comprehensive paragraph/contribution-rate interpretation or exact scheme commencement date is asserted."
+          },
+          {
+            "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48",
+            "read": "Official EPFO/Ministry release confirms Rs25000 ceiling effective17September2026 and S.O.5109(E); Gazette direct retrieval502. No historical reclassification, pension entitlement or mid-month payroll calculation asserted."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf",
+            "read": "Official primary text read for the relevant provisions; scope recorded in review evidence."
+          },
+          {
+            "url": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour",
+            "read": "Official page and linked271-page draft read for draft identity. No final Maharashtra implementation claimed; current Gazette/appropriate-government check required."
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/legal-ehs-compliance-audit-warehouse-manufacturing/",

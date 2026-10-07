@@ -51,3 +51,7 @@ The deployed Contact experience still shows the current301 Om Sai/Panvel office,
 ## POSH continuation access checkpoint — 7 October 2026 IST
 
 Current Contact navigation still shows the same office/phone/email and published hours. Genuine current office hours and listing-manager access remain unavailable; no directory/GBP category or hours correction is claimed. The existing discrepancy table now explicitly retains submitted and verified-correction dates; both remain unset for all known records. Resolve those known owner-managed discrepancies first. No new citation, external reference, membership, review or outreach was acquired or sent.
+
+## Recovery / registration release checkpoint — 7 October 2026 IST
+
+PR39 browser Contact path still shows Office301OmSai/Panvel,+917977063567,info@paullegalassociates.com and published Mon–Fri10–20/Sat10–18/Sunappointment hours. Actual hours and GBP/listing-manager access remain unavailable. No known citation correction submitted or verified, no new authority acquired. Existing source-specific correction queue and exact access/owner actions remain the next local step; no broad directory hunt repeated.

@@ -22,6 +22,7 @@ export const serviceReading: Record<string, string[]> = {
 // One preferred service destination per selected article. This avoids a
 // generic contact-only ending while keeping the link relevant to the guide.
 export const insightServiceLinks: Record<string, string> = {
+  'contract-labour-compliance-principal-employer-maharashtra': 'labour-employment-hr-workplace-compliance',
   'property-registration-stamp-duty-guidance': 'property-registration-services-mumbai-navi-mumbai',
   'due-diligence-property-transactions': 'property-title-verification-due-diligence',
   'property-title-search-legal-due-diligence': 'property-title-verification-due-diligence',

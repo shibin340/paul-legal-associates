@@ -45,3 +45,7 @@ PR33 accepted one exact two-guide IndexNow batch at20:17:24UTC with HTTP200. The
 ## Contact trust release — 7 October 2026 IST
 
 PR36 notified only the substantively changed Contact URL once: HTTP200 at20:44:12UTC. The live root key remains verified. Its runner check returned403 with Ray `a46780af7c23687a-LAX`; independent public Contact/assets and cloud-browser checks passed. Genuine Google/Bing/OAI treatment still requires actual zone logs and verified identity evidence. The two already-notified POSH guides were not resubmitted. The following documentation-only checkpoint keeps the manifest unchanged and must skip notification. No current Bing crawl/index result is claimed.
+
+## Recovery / registration release checkpoint — 7 October 2026 IST
+
+PR39 deploy: live key verified200; one reviewed2-guide batch returned200. Runner page checks were403 with Rays a46a688148c87720-LHR and a46a6881fc8dd8f8-LHR; independent public checks returned200. This is a client-specific result, not genuine-bot evidence. Exact unblock remains Cloudflare zone Security Events/WAF/Bot/Crawl Control read access for these Rays and verified Google/Bing/OAI identities. No security or robots change justified.

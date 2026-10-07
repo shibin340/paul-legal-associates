@@ -21391,98 +21391,121 @@ export const ARTICLES: Article[] = [
   ]
 },
   {
-    id: "a91",
-    slug: "pf-esic-factory-contract-labour-compliance",
-    title: "PF, ESIC, Factory and Contract Labour Compliance",
-    category: "Corporate Retainership",
-    excerpt: "Auditing social security liabilities, contractor registers, and principal employer damages risks under state labor codes.",
-    coverIcon: "🏭",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "June 26, 2026",
-    readTime: "6 min read",
-    tags: ["Provident Fund", "ESIC Rules", "Contract Labour", "Factory Licences"],
-    content: [
-      {
-        heading: "Statutory Coverage Checks",
-        paragraphs: [
-          "Social-security and establishment compliance depends on coverage, workforce strength, wage components, contractor arrangements and the nature of operations. Records should reconcile payroll, attendance, returns, contractor bills and actual work performed."
-        ]
-      },
-      {
-        heading: "Why Early Legal Assessment Is Important",
-        paragraphs: [
-          "Commercial legal work should support business decisions rather than operate only after a dispute arises. Clear contracts, documented approvals, proportionate compliance and timely escalation reduce uncertainty and preserve negotiating leverage."
-        ]
-      },
-      {
-        heading: "Frequent Client Concerns",
-        list: [
-          "PF or ESIC coverage and contribution dispute;",
-          "Factory licence, health, safety or working-condition compliance;",
-          "Contract labour registration and principal-employer liability;",
-          "Inspection, show-cause, assessment, damages or prosecution."
-        ]
-      },
-      {
-        heading: "Scope of Professional Legal Assistance",
-        list: [
-          "Coverage and records audit;",
-          "Registration, policy and contractor-document review;",
-          "Inspection and notice response;",
-          "Appeal, adjudication and compliance-remediation support."
-        ]
-      },
-      {
-        heading: "How the Assignment Is Ordinarily Handled",
-        list: [
-          "Understanding the business model, ownership structure, workforce, regulatory footprint and commercial objective;",
-          "Legal audit of existing contracts, registrations, policies, approvals and dispute exposure;",
-          "Preparation or revision of transaction documents, compliance systems, notices and governance records;",
-          "Negotiation with counterparties, employees, investors, vendors or authorities;",
-          "Representation in arbitration, labour forums, commercial courts, NCLT or other competent proceedings where required."
-        ]
-      },
-      {
-        heading: "Records to Keep Ready",
-        list: [
-          "Entity, ownership and authorised-signatory records;",
-          "Existing agreements, policies, registrations, notices and correspondence;",
-          "Commercial, employment, compliance or intellectual-property records relevant to the assignment;",
-          "Employee and wage registers;",
-          "PF, ESIC, contractor and return records;",
-          "Factory, safety, licence and inspection documents."
-        ]
-      },
-      {
-        heading: "Mumbai–Navi Mumbai–Panvel–Raigad Context",
-        paragraphs: [
-          "Industrial zones around Navi Mumbai, Taloja and Raigad involve principal employers, contractors, warehouses and factories operating under overlapping state and central requirements. Labour-code transition should be verified through current notifications."
-        ]
-      },
-      {
-        heading: "Important Laws and Regulations",
-        list: [
-          "Employees’ Provident Funds and Miscellaneous Provisions Act, 1952;",
-          "Employees’ State Insurance Act, 1948;",
-          "Factories Act, 1948 and Contract Labour Act, 1970;",
-          "Applicable labour codes and Maharashtra rules to the extent in force."
-        ]
-      },
-      {
-        heading: "Common Questions",
-        paragraphs: [
-          "Can a standard internet template be used?",
-          "A template may provide a starting point, but it may not reflect the actual transaction, governing law, tax position, liability allocation, termination rights or dispute strategy.",
-          "Does legal compliance end after registrations are obtained?",
-          "No. Many obligations are continuing and require periodic filings, policy updates, records, training, committee action or event-based disclosures.",
-          "Can a principal employer rely entirely on the contractor for compliance?",
-          "No. Statutes may impose direct or contingent responsibility on the principal employer. Contractor registrations, wage and contribution records should be independently monitored.",
-          "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
-        ]
-      }
-    ]
-  },
+  "id": "a91",
+  "slug": "pf-esic-factory-contract-labour-compliance",
+  "title": "PF, ESIC, Factory and Contract Labour Compliance",
+  "category": "Corporate Retainership",
+  "excerpt": "Auditing social-security records, contractor payments and principal-employer obligations under current labour-law requirements.",
+  "coverIcon": "🏭",
+  "author": "Adv. Sojan Paul",
+  "authorRole": "Managing Partner",
+  "date": "June 26, 2026",
+  "readTime": "6 min read",
+  "tags": [
+    "Provident Fund",
+    "ESIC Rules",
+    "Contract Labour",
+    "Factory Licences"
+  ],
+  "content": [
+    {
+      "heading": "Use the Current Framework, Then Identify the Establishment",
+      "paragraphs": [
+        "An employer audit in Navi Mumbai, Taloja, Panvel or Raigad should start with the actual establishment, workforce and wage period. Map direct employees and contractor workers to the work they perform; reconcile attendance, payroll, contributions and contractor invoices. A registration certificate alone is not evidence that every worker is covered or every month paid.",
+        "The Labour Codes are in force; they should not be described as awaiting commencement. The OSH Code commenced on 21 November 2025. Social Security Code provisions were brought into force through notified stages. Final Social Security (Central) Rules and OSH (Central) Rules were published on 8 May 2026. Read the applicable Code, rules, schemes, notifications and saved requirements together, including the law relevant to earlier defaults. A list of the old EPF, ESI, Factories and Contract Labour Acts alone is no longer a sufficient current-law checklist."
+      ]
+    },
+    {
+      "heading": "Distinguish Coverage, Membership and Wage Calculation",
+      "paragraphs": [
+        "Establishment coverage and individual eligibility are different questions. The Social Security Code’s First Schedule uses 20 employees for the ordinary EPF establishment threshold and 10 persons for ESI, with exclusions, special coverage and notified implementation conditions. Existing coverage does not simply disappear when headcount falls. Assess exemptions and the actual facts before deciding that an establishment or worker is outside the framework.",
+        "EPFO’s official September 2026 announcement confirms a ₹25,000 monthly wage ceiling from 17 September 2026. Do not continue using ₹15,000 as the current general ceiling. Check the operative notification, membership history and applicable scheme provisions before processing a new joiner, an existing member or higher-wage/international-worker case; a CTC figure alone does not determine the answer.",
+        "The 2026 EPF Scheme and subsequent notifications must be checked for contributions, records and remittance. Do not assume a contractor’s historical spreadsheet or an old rate chart captures current membership and wage rules. Keep the EPF, pension and insurance allocations distinct."
+      ]
+    },
+    {
+      "heading": "Review Wage Components and ESI Records",
+      "paragraphs": [
+        "Map each payroll component to the statutory wages definition and current guidance. The add-back rule for specified exclusions is not a universal instruction that basic salary must equal 50% of CTC. Record the treatment of allowances, overtime and reimbursements, and verify the scheme and wage period before calculating contributions.",
+        "Rule 19 of the Social Security (Central) Rules, 2026 sets the standard ESI shares at 3.25% for the employer and 0.75% for the employee, with prescribed rounding and special provisions. First verify coverage, the ESI wage ceiling, contribution-period rules and any employee-share exemption. An EPF ceiling change must not automatically be copied into ESI payroll.",
+        "For insured workers, reconcile registration particulars, joiners/leavers, wages, contribution records and payment proof. A bulk challan without a worker-level reconciliation can conceal omitted employees or a wrong wage base."
+      ]
+    },
+    {
+      "heading": "Contract Labour and Factory Requirements Need Separate Checks",
+      "paragraphs": [
+        "Identify the appropriate Government and the rules applicable to the establishment. Central rules should not be treated as a universal replacement for every Maharashtra procedure. At this review date, the Maharashtra Labour Department’s linked 2026 OSH Labour Rules entry is labelled draft; verify the final Gazette and applicable transition before relying on proposed forms or thresholds.",
+        "Section 45 of the OSH Code contains a 50-contract-worker threshold for its contract-labour Part, measured against the preceding 12 months and subject to the statutory conditions. That threshold does not exempt a business from all social-security, wage or safety duties. A factory’s manufacturing process, use of power, workforce and applicable notifications require a separate coverage/licensing assessment.",
+        "Where the contract-labour Part applies, sections 53–55 address principal-employer welfare, use of a contractor requiring a licence, and unpaid or short-paid wages. Contractor indemnities cannot displace statutory obligations."
+      ]
+    },
+    {
+      "heading": "Build an Audit File That Can Explain Each Month",
+      "list": [
+        "Establishment identity, locations, activities, coverage/exemption orders and applicable registrations or licences.",
+        "Employee and deployed-contractor-worker lists, attendance, wage components, wage-payment evidence and joiner/leaver records.",
+        "Worker-level EPF/ESI returns, challans and payment reconciliation, including unexplained gaps or inconsistent identifiers.",
+        "Contractor agreements, licence scope, work orders, deployment/site records and a dated remediation log.",
+        "Safety, welfare, training, inspection and accident records relevant to the actual operation; notices and orders with their service dates."
+      ],
+      "paragraphs": [
+        "Request only the records needed for the audit through an agreed secure process. Avoid sending employee identifiers, payroll or medical information in the initial website enquiry."
+      ]
+    },
+    {
+      "heading": "Respond to a Notice Using the Correct Period and Remedy",
+      "paragraphs": [
+        "Preserve the complete notice/order, evidence of receipt, the period assessed and the authority’s calculation. Distinguish coverage, unpaid contributions, interest, damages and prosecution instead of treating every demand as the same liability. Identify the applicable response, review or appeal and any deposit requirement promptly; this guide does not provide a universal appeal deadline.",
+        "An initial consultation can identify the establishment, contractor arrangement, issue and deadline. The employment/workplace service below is the preferred route for a records-based compliance review."
+      ]
+    },
+    {
+      "heading": "Official Sources and Scope",
+      "resources": [
+        {
+          "label": "Labour-Code commencement notifications — official Maharashtra copy",
+          "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf"
+        },
+        {
+          "label": "Code on Social Security, 2020 — official statutory text",
+          "href": "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf"
+        },
+        {
+          "label": "Social Security (Central) Rules, 2026 — G.S.R. 344(E), 8 May 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf"
+        },
+        {
+          "label": "EPFO Ministry announcement — 2026 scheme and legacy compliance (PIB Mumbai)",
+          "href": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48"
+        },
+        {
+          "label": "EPFO Ministry announcement — revised wage ceiling effective 17 September 2026",
+          "href": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48"
+        },
+        {
+          "label": "Ministry of Labour — additional Labour-Code FAQs, 16 March 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf"
+        },
+        {
+          "label": "Occupational Safety, Health and Working Conditions Code, 2020 — official statutory text",
+          "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf"
+        },
+        {
+          "label": "OSH (Central) Rules, 2026 — G.S.R. 345(E), 8 May 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf"
+        },
+        {
+          "label": "Maharashtra Labour Department — 2026 OSH Labour Rules listed as draft",
+          "href": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour"
+        }
+      ],
+      "paragraphs": [
+        "GENERAL INFORMATION DISCLAIMER: This article provides general information, not advice for a particular transaction or dispute. Applicable law, notifications, procedure, jurisdiction and documents must be checked for the facts and date of advice.",
+        "This is an employer-audit guide, not a payroll calculator or a comprehensive opinion on a particular establishment. Scheme amendments, exemptions, notifications and Maharashtra procedures must be checked for the relevant period."
+      ]
+    }
+  ]
+},
   {
     id: "a92",
     slug: "trademark-registration-brand-protection-ip",
@@ -24628,73 +24651,138 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a145",
-    slug: "contract-labour-compliance-principal-employer-maharashtra",
-    title: "Contract Labour Compliance in Maharashtra: Why the Principal Employer Cannot Ignore the Contractor's Defaults",
-    category: "Legal Compliance",
-    excerpt: "Using contractors does not eliminate labour-law risk. Understand why principal employers should independently monitor contractor compliance in Maharashtra.",
-    coverIcon: "👥",
-    author: "Adv. Sonam Paul",
-    authorRole: "Partner",
-    date: "August 15, 2026",
-    readTime: "6 min read",
-    tags: ["Contract Labour", "Principal Employer", "Labour Law Audit", "Workforce Compliance"],
-    content: [
-      {
-        heading: "Outsourcing Work Does Not Necessarily Outsource Legal Risk",
-        paragraphs: [
-          "Manufacturing units, warehouses, logistics companies, construction businesses, hospitality organisations and large offices routinely engage manpower through contractors.",
-          "From an operational perspective this is convenient.",
-          "From a compliance perspective, it can create substantial blind spots.",
-          "A common assumption is that wages, statutory contributions, licences, attendance records and employee documentation are entirely the contractor's problem.",
-          "A well-governed principal employer should not work on that assumption."
-        ]
-      },
-      {
-        heading: "Contractor Onboarding Should Be a Legal Process",
-        paragraphs: [
-          "Vendor onboarding frequently concentrates on price, manpower availability and commercial terms while labour-compliance documentation is treated as secondary.",
-          "Before deployment, organisations should identify which registrations, licences, employee records, wage obligations, social-security requirements and statutory documentation are applicable to the arrangement.",
-          "Maharashtra's Labour Department continues to maintain specific procedures and forms dealing with registration of principal employers and licensing of contractors under the contract-labour framework, alongside inspection procedures under applicable labour legislation.",
-          "The exact requirements must be assessed against the establishment, workforce and nature of operations."
-        ]
-      },
-      {
-        heading: "Monthly Compliance Should Be Verified, Not Assumed",
-        paragraphs: [
-          "Receiving an invoice from a contractor is not compliance verification.",
-          "Organisations should establish a systematic process for reviewing the statutory documentation applicable to deployed manpower.",
-          "Where hundreds of contract employees work across several sites, seemingly small monthly omissions can accumulate into substantial financial and operational exposure.",
-          "The organisation should therefore know exactly which contractor employees are working at each establishment and which records substantiate compliance."
-        ]
-      },
-      {
-        heading: "The Contract Must Contain Proper Protection",
-        paragraphs: [
-          "Manpower and service contracts should clearly allocate statutory responsibilities.",
-          "However, an indemnity clause is not a substitute for compliance.",
-          "An organisation may have a contractual right to recover losses from a contractor and still face immediate regulatory, employee or operational consequences arising from the contractor's default.",
-          "The stronger model combines contractual protection with periodic verification."
-        ]
-      },
-      {
-        heading: "Conduct Contractor Compliance Audits",
-        paragraphs: [
-          "A contractor compliance audit should identify both documentation gaps and systemic weaknesses.",
-          "For example, an organisation may discover that individual records appear satisfactory but there is no central process for tracking licence expiry, establishment coverage, deployed headcount or corrective actions.",
-          "The audit should therefore produce a remediation plan rather than merely a list of deficiencies."
-        ]
-      },
-      {
-        heading: "Compliance Is Also a Governance Issue",
-        paragraphs: [
-          "Large clients, multinational companies, lenders and investors increasingly examine labour compliance during legal and operational due diligence.",
-          "Persistent contractor-management failures may therefore affect much more than a labour inspection. They can affect transactions, customer audits, ESG assessments and the overall risk profile of the organisation.",
-          "Paul Legal Associates advises organisations on labour-law compliance, contractor compliance, principal-employer obligations, HR documentation, compliance audits, legal due diligence and remediation frameworks across Maharashtra and multiple Indian jurisdictions."
-        ]
-      }
-    ]
-  },
+  "id": "a145",
+  "slug": "contract-labour-compliance-principal-employer-maharashtra",
+  "title": "Contract Labour Compliance in Maharashtra: Why the Principal Employer Cannot Ignore the Contractor's Defaults",
+  "category": "Legal Compliance",
+  "excerpt": "Using contractors does not eliminate labour-law risk. Understand why principal employers should independently monitor contractor compliance in Maharashtra.",
+  "coverIcon": "👥",
+  "author": "Adv. Sonam Paul",
+  "authorRole": "Partner",
+  "date": "August 15, 2026",
+  "readTime": "6 min read",
+  "tags": [
+    "Contract Labour",
+    "Principal Employer",
+    "Labour Law Audit",
+    "Workforce Compliance"
+  ],
+  "content": [
+    {
+      "heading": "Outsourcing Work Does Not Necessarily Outsource Legal Risk",
+      "paragraphs": [
+        "Manufacturing units, warehouses, logistics companies, construction businesses, hospitality organisations and large offices routinely engage manpower through contractors.",
+        "From an operational perspective this is convenient.",
+        "From a compliance perspective, it can create substantial blind spots.",
+        "A common assumption is that wages, statutory contributions, licences, attendance records and employee documentation are entirely the contractor's problem.",
+        "A well-governed principal employer should not work on that assumption."
+      ]
+    },
+    {
+      "heading": "Contractor Onboarding Should Be a Legal Process",
+      "paragraphs": [
+        "Vendor onboarding frequently concentrates on price, manpower availability and commercial terms while labour-compliance documentation is treated as secondary.",
+        "Before deployment, organisations should identify which registrations, licences, employee records, wage obligations, social-security requirements and statutory documentation are applicable to the arrangement.",
+        "The OSH Code is in force, and final Central Rules were published on 8 May 2026. Establish which Government is appropriate for the establishment and which rules apply. The Maharashtra Labour Department’s linked 2026 OSH Labour Rules entry is still labelled draft at this review date; a draft or an old portal form is not enough to establish the current legal requirement.",
+        "Section 45 uses 50 or more contract workers on any day in the preceding 12 months for the contract-labour Part’s establishment and manpower-supply-contractor coverage, subject to its exceptions. Apply the correct statutory definitions and look-back, then check licence scope, work order and deployment particulars. Falling below that threshold does not remove wage, social-security or safety obligations under other applicable provisions."
+      ],
+      "list": [
+        "Identify the actual contractor/subcontractor, work, establishment and historical deployed headcount.",
+        "Verify applicable coverage, registrations, licences, expiry/renewal and any transition or exemption evidence.",
+        "Check the work against section 57’s core-activity restriction and statutory exceptions; a contract label does not determine legality.",
+        "Agree access to worker-level wage/contribution proof, escalation, audit, remediation and recovery terms."
+      ]
+    },
+    {
+      "heading": "Monthly Compliance Should Be Verified, Not Assumed",
+      "paragraphs": [
+        "Receiving an invoice from a contractor is not compliance verification.",
+        "Organisations should establish a systematic process for reviewing the statutory documentation applicable to deployed manpower.",
+        "Where hundreds of contract employees work across several sites, seemingly small monthly omissions can accumulate into substantial financial and operational exposure.",
+        "The organisation should therefore know exactly which contractor employees are working at each establishment and which records substantiate compliance.",
+        "Use the current social-security schemes and notifications, including the September 2026 EPF ceiling revision, for the relevant period. The Code’s wage-component/add-back test is not a blanket 50%-of-CTC basic-salary rule. Verify ESI eligibility separately from EPF."
+      ],
+      "list": [
+        "Match the workers actually on site to attendance, payroll and the contractor’s declared deployment.",
+        "Compare wages due, electronic payment evidence and permitted deductions; flag short payment or unexplained delays.",
+        "Reconcile worker-level EPF/ESI records with the correct wage base, returns and paid challans; do not rely only on an aggregate receipt.",
+        "Track licence scope/expiry, work changes, welfare and safety responsibilities, exceptions and corrective-action closure."
+      ]
+    },
+    {
+      "heading": "The Contract Must Contain Proper Protection",
+      "paragraphs": [
+        "Manpower and service contracts should clearly allocate statutory responsibilities.",
+        "However, an indemnity clause is not a substitute for compliance.",
+        "An organisation may have a contractual right to recover losses from a contractor and still face immediate regulatory, employee or operational consequences arising from the contractor's default.",
+        "The stronger model combines contractual protection with periodic verification.",
+        "Where the OSH contract-labour Part applies, section 53 places the specified welfare responsibility on the principal employer. Under section 55, the contractor must pay wages; if the contractor defaults or pays short, the principal employer must meet the unpaid amount and can recover it from the contractor. Section 54 also addresses engaging a contractor who requires, but lacks, the requisite licence.",
+        "Social-security contribution responsibility and statutory recovery from contractors require a separate assessment under the Social Security Code and applicable schemes. A contractual indemnity does not permit recovery of the employer’s statutory contribution from workers’ wages."
+      ]
+    },
+    {
+      "heading": "Conduct Contractor Compliance Audits",
+      "paragraphs": [
+        "A contractor compliance audit should identify both documentation gaps and systemic weaknesses.",
+        "For example, an organisation may discover that individual records appear satisfactory but there is no central process for tracking licence expiry, establishment coverage, deployed headcount or corrective actions.",
+        "The audit should therefore produce a remediation plan rather than merely a list of deficiencies."
+      ]
+    },
+    {
+      "heading": "Compliance Is Also a Governance Issue",
+      "paragraphs": [
+        "Large clients, multinational companies, lenders and investors increasingly examine labour compliance during legal and operational due diligence.",
+        "Persistent contractor-management failures may therefore affect much more than a labour inspection. They can affect transactions, customer audits, ESG assessments and the overall risk profile of the organisation.",
+        "Paul Legal Associates advises organisations on labour-law compliance, contractor compliance, principal-employer obligations, HR documentation, compliance audits, legal due diligence and remediation frameworks across Maharashtra and multiple Indian jurisdictions."
+      ]
+    },
+    {
+      "heading": "Official Current-Law Resources",
+      "resources": [
+        {
+          "label": "Labour-Code commencement notifications — official Maharashtra copy",
+          "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes_0.pdf"
+        },
+        {
+          "label": "Occupational Safety, Health and Working Conditions Code, 2020 — official statutory text",
+          "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-09/osh_gazette_0.pdf"
+        },
+        {
+          "label": "OSH (Central) Rules, 2026 — G.S.R. 345(E), 8 May 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/05/ee246f790cad0b8e99c3828f34fa09a6.pdf"
+        },
+        {
+          "label": "Maharashtra Labour Department — 2026 OSH Labour Rules listed as draft",
+          "href": "https://labour.maharashtra.gov.in/en/labour-code/state-draft-rules-maharashtra-occupational-safety-health-and-working-conditions-labour"
+        },
+        {
+          "label": "Code on Social Security, 2020 — official statutory text",
+          "href": "https://www.labour.gov.in/static/uploads/2025/07/b0620548445580767b5c0d18c95c26f7.pdf"
+        },
+        {
+          "label": "Social Security (Central) Rules, 2026 — G.S.R. 344(E), 8 May 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/05/49aa9b62c2125499c37399b90e969d67.pdf"
+        },
+        {
+          "label": "EPFO Ministry announcement — 2026 scheme and legacy compliance (PIB Mumbai)",
+          "href": "https://www.pib.gov.in/PressReleaseIframePage.aspx?PRID=2291296&lang=2&reg=48"
+        },
+        {
+          "label": "EPFO Ministry announcement — revised wage ceiling effective 17 September 2026",
+          "href": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2313829&lang=2&reg=48"
+        },
+        {
+          "label": "Ministry of Labour — additional Labour-Code FAQs, 16 March 2026",
+          "href": "https://www.labour.gov.in/static/uploads/2026/03/a4ccf4c6d97c4f1f36a6d83f8c64213d.pdf"
+        }
+      ],
+      "paragraphs": [
+        "GENERAL INFORMATION DISCLAIMER: This article provides general information, not advice for a particular transaction or dispute. Applicable law, notifications, procedure, jurisdiction and documents must be checked for the facts and date of advice.",
+        "Preserve the notice, deadline and period if a default has already been alleged. This guide does not certify a contractor or prescribe one procedure for every Maharashtra establishment."
+      ]
+    }
+  ]
+},
   {
     id: "a146",
     slug: "legal-ehs-compliance-audit-warehouse-manufacturing",
