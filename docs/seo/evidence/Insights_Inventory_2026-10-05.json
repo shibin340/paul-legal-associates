@@ -344,7 +344,16 @@
             "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296432&lang=2&reg=48",
             "read": "Official7August2026 status confirms ongoing ADR framework and mandatory section12A. Policy descriptions do not establish commencement of every Mediation Act/2019 arbitration provision."
           }
-        ]
+        ],
+        "production": {
+          "pr": 42,
+          "mergeSha": "821a5403986ce78b093c32afd7b58a3dc3f1424e",
+          "checkedAt": "2026-10-07T05:55:44.187Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -1227,24 +1236,29 @@
       "title": "Banking, Finance, Insolvency and Debt Recovery Legal Services",
       "author": "Adv. P. P. Polachan",
       "publicationDate": "January 21, 2023",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted 2026 insolvency amendment and personal-guarantor filing check on 7 October 2026 IST. Full SARFAESI, auction and other statutory review remains pending primary-source retrieval. This KEEP disposition retains the useful article, not blanket legal approval.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 3263,
-      "sections": 36,
-      "primarySources": [],
+      "wordEvidence": 3387,
+      "sections": 38,
+      "primarySources": [
+        "https://ibbi.gov.in/uploads/legalframwork/2026-04-07-115842-i5nsk-7ed69ef2a4d23a8b0d472cc0fcd55e79.pdf",
+        "https://ibbi.gov.in/uploads/legalframwork/d31669ba7f826ee9ebefe58e85d652ec.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
-      "preferredService": null,
-      "tierASupport": [],
+      "preferredService": "/expertise/banking-finance-securities-debt-restructuring/",
+      "tierASupport": [
+        "/expertise/banking-finance-securities-debt-restructuring/"
+      ],
       "internalIn": [
         "/insights/money-recovery-dues-summary-suits/",
         "/insights/msme-delayed-payment-recovery-msefc/"
@@ -1264,7 +1278,35 @@
       "authorProfile": [
         "/partners/pp-polachan/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. P. P. Polachan",
+        "preservedPublicationDate": "January 21, 2023",
+        "sourceEvidence": [
+          {
+            "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCHEME16012026_A.pdf",
+            "read": "Original RBI full24-page2026 Scheme downloaded/text extracted: clauses1/3/8–17/20 read. Commencement, savings,90-day window, representation restriction, compensation and award-only appeals verified. RBI HTML FAQ served a JavaScript human check; no CAPTCHA bypass performed. Direct official publicly linked PDF readable.",
+            "sha256": "f119574982a073819d2286c3d016ef10e1fbeebed8e23864e40e885d950901b6"
+          },
+          {
+            "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf",
+            "read": "Original RBI FAQs downloaded/full text read; current framework cross-checked against the full Scheme, not used as legal authority in a proceeding.",
+            "sha256": "db923b0fe96466e98510a151404c3022b5d8e3a48b51e304c142e354ba0dca66"
+          },
+          {
+            "url": "https://ibbi.gov.in/uploads/legalframwork/2026-04-07-115842-i5nsk-7ed69ef2a4d23a8b0d472cc0fcd55e79.pdf",
+            "read": "IBBI official indexed Gazette downloaded/read relevant sections1/9/51. Current96(4) verified; no statement that all2026 procedures commenced.",
+            "sha256": "cb68d468bb78d8be08c3158eb67dc91316985857af98d2d11e57f4a7850685d5"
+          },
+          {
+            "url": "https://ibbi.gov.in/uploads/legalframwork/d31669ba7f826ee9ebefe58e85d652ec.pdf",
+            "read": "Full bilingual Gazette read: S.O.2625(E),22May2026/published25May, specified provisions operative26May2026 including section51 through48–59.",
+            "sha256": "555845b6e8d068544fff4996d99945bf86b35b7dd95929cc1afc64258ed93bdc"
+          }
+        ],
+        "reviewScope": "IBC amendment section 51 / operative section 96(4), and commencement only",
+        "pendingReview": "Full current SARFAESI Act / Security Interest Enforcement Rules and other procedural text; primary retrieval limits in cycle evidence."
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/wills-succession-estate-planning-services/",
@@ -3767,7 +3809,16 @@
             "url": "https://www.pib.gov.in/PressReleasePage.aspx?PRID=2296432&lang=2&reg=48",
             "read": "Official7August2026 status confirms ongoing ADR framework and mandatory section12A. Policy descriptions do not establish commencement of every Mediation Act/2019 arbitration provision."
           }
-        ]
+        ],
+        "production": {
+          "pr": 42,
+          "mergeSha": "821a5403986ce78b093c32afd7b58a3dc3f1424e",
+          "checkedAt": "2026-10-07T05:55:44.187Z",
+          "publicBodyMatchesBuild": true,
+          "sourceLinks": true,
+          "canonical": true,
+          "preferredServicePromptCount": 1
+        }
       }
     },
     {
@@ -3905,24 +3956,30 @@
       "title": "Banking Disputes and RBI Integrated Ombudsman Complaints",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-07",
+      "disposition": "KEEP",
+      "reason": "Retain the existing intent/route after targeted source and procedural corrections; no merge or redirect justified.",
+      "currentLawReview": "Targeted Current banking grievance and insolvency filing review on 7 October 2026 IST; primary evidence/retrieval limits below. No named-advocate review or comprehensive transaction-specific opinion asserted.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 428,
-      "sections": 9,
-      "primarySources": [],
+      "wordEvidence": 876,
+      "sections": 8,
+      "primarySources": [
+        "https://cms.rbi.org.in/",
+        "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCHEME16012026_A.pdf",
+        "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
-      "indexStatus": "Not individually refreshed; unknown",
+      "indexStatus": "Current refresh blocked by GSC Wizard payment_required; public HTTP200 is not indexing.",
       "gsc": [],
-      "preferredService": null,
-      "tierASupport": [],
+      "preferredService": "/expertise/banking-finance-securities-debt-restructuring/",
+      "tierASupport": [
+        "/expertise/banking-finance-securities-debt-restructuring/"
+      ],
       "internalIn": [],
       "internalOut": [
         "/",
@@ -3937,7 +3994,33 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": {
+        "targetedReviewDateIST": "2026-10-07",
+        "preservedAuthor": "Adv. Sojan Paul",
+        "preservedPublicationDate": "June 26, 2026",
+        "sourceEvidence": [
+          {
+            "url": "https://rbidocs.rbi.org.in/rdocs/content/pdfs/SCHEME16012026_A.pdf",
+            "read": "Original RBI full24-page2026 Scheme downloaded/text extracted: clauses1/3/8–17/20 read. Commencement, savings,90-day window, representation restriction, compensation and award-only appeals verified. RBI HTML FAQ served a JavaScript human check; no CAPTCHA bypass performed. Direct official publicly linked PDF readable.",
+            "sha256": "f119574982a073819d2286c3d016ef10e1fbeebed8e23864e40e885d950901b6"
+          },
+          {
+            "url": "https://www.rbi.org.in/commonman/Upload/English/FAQs/PDFs/RBIOS01072026.pdf",
+            "read": "Original RBI FAQs downloaded/full text read; current framework cross-checked against the full Scheme, not used as legal authority in a proceeding.",
+            "sha256": "db923b0fe96466e98510a151404c3022b5d8e3a48b51e304c142e354ba0dca66"
+          },
+          {
+            "url": "https://ibbi.gov.in/uploads/legalframwork/2026-04-07-115842-i5nsk-7ed69ef2a4d23a8b0d472cc0fcd55e79.pdf",
+            "read": "IBBI official indexed Gazette downloaded/read relevant sections1/9/51. Current96(4) verified; no statement that all2026 procedures commenced.",
+            "sha256": "cb68d468bb78d8be08c3158eb67dc91316985857af98d2d11e57f4a7850685d5"
+          },
+          {
+            "url": "https://ibbi.gov.in/uploads/legalframwork/d31669ba7f826ee9ebefe58e85d652ec.pdf",
+            "read": "Full bilingual Gazette read: S.O.2625(E),22May2026/published25May, specified provisions operative26May2026 including section51 through48–59.",
+            "sha256": "555845b6e8d068544fff4996d99945bf86b35b7dd95929cc1afc64258ed93bdc"
+          }
+        ]
+      }
     },
     {
       "url": "https://paullegalassociates.com/insights/insurance-claim-rejection-ombudsman-appeals/",
