@@ -2,6 +2,20 @@
 
 Opened 5 October 2026 before source changes; refreshed after the execution cycle. Current source/release references are below. Original working-register recovery is preserved in repository history. **COMPLETE means the stated implementation/system is verified; it never means Google/Bing indexing or leads are guaranteed.** Account-dependent outcomes and substantive law review remain explicitly unfinished.
 
+## Post-release results — 9 October 2026 IST
+
+Verified source main `9d576b43718e7a2ac08f13eb4e6708d3816a0a5c` / merged [PR #49](https://github.com/shibin340/paul-legal-associates/pull/49). [Deployment run 37847998164](https://github.com/shibin340/paul-legal-associates/actions/runs/37847998164) succeeded: 247 routes, 239 sitemap URLs, 8,112 links, 12 hydration/navigation checks, Contact validation and 17 measurement tests. IndexNow was skipped. Fresh production Home/Contact readbacks retain the current bundle, correct untagged canonicals, phone/email and Contact controls; no enquiry submitted.
+
+The native GSC seven-link sample identifies the actual pages behind its six linking sites. Current Magicpin readback shows 301 Om Sai, the correct phone and website, with an additional Khanda Colony locality label. Other inaccessible publisher pages are not assigned current NAP facts or a guessed link-quality rating. No acquired link or correction is claimed. The exact URLs and limitations are recorded in existing execution evidence and Local Authority.
+
+One genuinely free BrightLocal query used `property lawyer Panvel`, Panvel/Maharashtra/India, English and Google Maps. The live tool reported **1 of 10 daily searches used**, without an account, trial or payment, and generated localized Google links. Google Local Finder then returned an unusual-traffic CAPTCHA at 8 October 21:51:30 UTC before results. **Ranks and competitors remain UNKNOWN**, not “not found”. No CAPTCHA, reload or alternate route was attempted; this run stops automated Local Finder work. Precise searcher location was not independently verified.
+
+Both added service names/descriptions persisted in the manager at 21:44:01 UTC; explicit approval status was not visible and public publication remains unverified. Existing growth/monthly monitoring prompts were updated again to the verified PR #49 state and official review link; schedules/enabled state are unchanged.
+
+The official Copilot page requires sign-in in this session; no independent prompt or answer was obtained. Existing AI-answer history remains unchanged.
+
+The publishing results-continuation PR records the final merge/main SHA. Next execution is a sensible service/appointment/Bdir readback and settled same-cohort reporting. Owner-dependent implementation remains confirmed hours, exact category/catalogue cleanup and public-review replies, plus the correct free GA4 property. Do not reopen paid-unit requests or repeat the blocked local search.
+
 ## Latest execution checkpoint — 9 October 2026 IST
 
 Measured from main `4a3d0f424514b6da90e8ec990f176993a147b29f` / PR #48; PRs #45–48 are complete. [Current scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) and cycle `post-pr48-20261009-free-google-execution` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) record the actual results. Read publishing [PR #49](https://github.com/shibin340/paul-legal-associates/pull/49) metadata/body for the final merge SHA and production result. Dated instructions below are history; do not retry Semrush units, renew Wizard or repeat access verification.

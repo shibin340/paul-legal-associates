@@ -1101,7 +1101,7 @@
     {
       "id": "post-pr48-20261009-free-google-execution",
       "startedAtUTC": "2026-10-08T19:47:34.371Z",
-      "recordedAtUTC": "2026-10-08T21:31:58.014761Z",
+      "recordedAtUTC": "2026-10-08T21:55:16.763791Z",
       "timezone": "Asia/Kolkata",
       "sourceMain": "4a3d0f424514b6da90e8ec990f176993a147b29f",
       "latestMergedPRAtStart": 48,
@@ -3895,6 +3895,16 @@
             "observedAtUTC": "2026-10-08T21:26:11.188Z",
             "entranceAccuracyVerified": false,
             "searcherLocation": null
+          },
+          "subsequentServiceReadback": {
+            "observedAtUTC": "2026-10-08T21:44:01.780Z",
+            "profileId": "13821946754957392159",
+            "posh": "link \"POSH compliance and Internal Committee support\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/7dfba356-0a2b-4385-9d5b-69af957d8ada\n            - generic: POSH compliance and Internal Committee support\n            - generic: Employer support for policies, committee constitution, awareness and process obligations within an agreed scope.\n          - link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices,",
+            "tax": "link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices, disputes and appeals within the relevant jurisdiction.\n        - button \"Add more services for Law firm\":\n          - generic: add\n          - generic: Add more services\n      - region \"Lawyer\":\n        - heading \"Lawyer\" [level=2]\n        - generic: Additional category\n        - button \"Delete\":\n          - generic: Delete\n        - list:\n          - link \"Civil right",
+            "managerPersisted": true,
+            "publicPublicationVerified": false,
+            "explicitApprovalStateVisible": false,
+            "resubmitted": false
           }
         },
         "keywordDecisions": [
@@ -5042,7 +5052,70 @@
           "newLinks": null,
           "lostLinks": null,
           "competitorGap": null,
-          "limitation": "Google-reported links may be incomplete; not Semrush backlink totals, authority scores or movement."
+          "limitation": "Google-reported links may be incomplete; not Semrush backlink totals, authority scores or movement.",
+          "nativeExternalLinkSample": {
+            "source": "Official Search Console More sample links native CSV",
+            "property": "https://paullegalassociates.com/",
+            "observedAtUTC": "2026-10-08T21:38:41.149Z",
+            "archiveSHA256": "7de10681a4d060e0be8c16cbecb868809f672990bb4d0ac0efdd219811064073",
+            "rows": [
+              {
+                "Linking page": "https://bestcriminallawyerinmumbai.com/cheque-bounce-case-lawyers-in-mumbai/"
+              },
+              {
+                "Linking page": "https://in.linkedin.com/company/paullegalassociates"
+              },
+              {
+                "Linking page": "https://magicpin.in/Navi-Mumbai/Sector-15/Other/Paul-Legal-Associates/store/3258b7b"
+              },
+              {
+                "Linking page": "https://www.infobel.com/en/india/paul_legal_associates/panvel/IN145878156-07977063567/businessdetails.aspx"
+              },
+              {
+                "Linking page": "https://www.linkedin.com/pulse/regulatory-changes-time-pandemic-in-depth-study-paul-p-p"
+              },
+              {
+                "Linking page": "https://www.signalhire.com/companies/paul-legal-associates"
+              },
+              {
+                "Linking page": "https://www.sulekha.com/paul-legal-associates-navi-mumbai-mumbai-contact-address"
+              }
+            ],
+            "limitation": "Google sample links are incomplete coverage; first detection/lost-link dates, domain authority and competitor backlink gaps are not supplied.",
+            "additionalPublicReadback": {
+              "magicpin": "Current 301 Om Sai office, +917977063567 and website shown, with Sector 15/Khanda Colony locality appended. Publisher rating is not the Google review baseline. No operator correction submitted.",
+              "infobel": "Not accessible through current retrieval tool; no NAP assertion.",
+              "sulekha": "Retrieval returned 403 without an identified cause; no current NAP assertion.",
+              "bestcriminallawyerinmumbai": "Retrieval exposes a robot-verification page; no content/owner/link-quality assertion and no bypass."
+            }
+          },
+          "nativeInternalLinks": {
+            "reportedTotal": 40,
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "reportedCount": 25
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "reportedCount": 10
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/",
+                "reportedCount": 2
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/",
+                "reportedCount": 2
+              },
+              {
+                "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+                "reportedCount": 1
+              }
+            ],
+            "observedAtUTC": "2026-10-08T21:38:41.149Z",
+            "limitation": "Incomplete Google link reporting, not the verifier count of 8,112 crawlable link occurrences or a current broken-link finding."
+          }
         },
         "analytics": {
           "sourceType": "official_gsc_associations_ui",
@@ -5061,6 +5134,48 @@
             "action": "Escape did not dismiss. Preferences were not saved or altered; property selector unavailable behind the prompt.",
             "ownerAction": "Choose your preferred email communications and click Save, then identify the existing PLA property or explicitly authorise a free standard setup if none exists."
           }
+        },
+        "localRankingAvailability": {
+          "observedAtUTC": "2026-10-08T21:51:30Z",
+          "candidateId": "local-012",
+          "keyword": "property lawyer Panvel",
+          "requestedLocation": "Panvel, Maharashtra, India",
+          "locationVerified": false,
+          "country": "India",
+          "language": "English",
+          "device": "Work Cloud Chrome desktop",
+          "method": "BrightLocal Local Search Results Checker, Google Maps/Local Finder option",
+          "toolURL": "https://www.brightlocal.com/local-search-results-checker/",
+          "nativeFreeAllowanceLabel": "You have used 1 out of 10 daily searches.",
+          "usesThisRun": 1,
+          "accountCreated": false,
+          "trialStarted": false,
+          "payment": 0,
+          "generatedResultURL": "https://www.google.co.in/search?q=property+lawyer+Panvel&gl=in&hl=en&gws_rd=cr&pws=0&uule=w+CAIQICIaUGFudmVsLCBNYWhhcmFzaHRyYSwgSW5kaWE&tbm=lcl",
+          "result": "UNMEASURED_SECURITY_CHALLENGE",
+          "nativeGoogleMessage": "Our systems have detected unusual traffic from your computer network.",
+          "rank": null,
+          "competitors": null,
+          "captchaAttempted": false,
+          "reloaded": false,
+          "bypassed": false,
+          "continuation": "Stop automated Local Finder attempts in this run. Preserve measurements already obtained from native GSC/GBP; no paid rank tool or fake grid."
+        },
+        "copilotAvailability": {
+          "observedAtUTC": "2026-10-08T21:57:55.514Z",
+          "engine": "Copilot",
+          "sourceURL": "https://copilot.com/",
+          "state": "SIGN_IN_REQUIRED_IN_THIS_SESSION",
+          "nativeTitle": "Microsoft Copilot | Sign in",
+          "nativeHeading": "Sign into Copilot",
+          "promptSubmitted": false,
+          "answerObserved": false,
+          "plaAppeared": null,
+          "plaCited": null,
+          "accountCreated": false,
+          "subscriptionStarted": false,
+          "additionalExpenditureINR": 0,
+          "continuation": "An authorised existing free account is needed for this interface; do not use an alternate route or substitute provider search as a Copilot answer. Preserve the registered fixed prompts."
         }
       },
       "citationCorrectionAction": {
@@ -5165,7 +5280,9 @@
         "officialLiveURLTests": 2,
         "existingMonitoringPromptsUpdated": 2,
         "officialReviewLinkVerified": 1,
-        "gbpWebsiteUTMPubliclyVerified": 1
+        "gbpWebsiteUTMPubliclyVerified": 1,
+        "freeLocalCheckerUses": 1,
+        "gscExternalLinkSampleExports": 1
       },
       "noChangeJustified": {
         "websiteSnippetsContent": "Commercial sample small, existing Home/local service paths fit, two live tests fetch successfully. No speculative title churn, duplicate city pages or page expansion.",
@@ -5195,8 +5312,8 @@
         },
         {
           "platform": "Maps rank tracker",
-          "state": "NO_DEFENSIBLE_LOCATION_CONTROLLED_FREE_METHOD_AVAILABLE",
-          "action": "Keep ranks unmeasured; owner-provided point/date/device evidence or a verified genuinely free tracking allowance is needed."
+          "state": "GOOGLE_LOCAL_FINDER_UNUSUAL_TRAFFIC_CHALLENGE_IN_WORK_CLOUD",
+          "action": "BrightLocal generated one free Panvel Maps link (live allowance 1 of 10), but Google blocked it before results. No CAPTCHA attempt, reload, alternate Google route, account/trial or spend. Keep ranks UNKNOWN; future authorised point/device/date evidence is needed."
         },
         {
           "platform": "Cloudflare",
@@ -5207,6 +5324,11 @@
           "platform": "LinkedIn/Justdial",
           "state": "OWNER_RESERVED_OR_LISTING_MANAGER_ACCESS_UNAVAILABLE",
           "action": "Owner corrects confirmed existing profile details; preserve listing/review identity."
+        },
+        {
+          "platform": "Copilot independent answer monitoring",
+          "state": "SIGN_IN_REQUIRED_IN_THIS_SESSION",
+          "action": "The official free Copilot page opens a sign-in interface, not a public prompt. An owner-authorised existing free account is required; no prompt submitted, new account, subscription or alternative route."
         }
       ],
       "resume": {
@@ -5214,11 +5336,13 @@
         "latestMergedPRAtMeasurement": 48,
         "currentLocalRankingBaseline": null,
         "currentSemrushQuantitativeBaseline": null,
-        "nextHighestValueExecutableTask": "At the next sensible interval verify Google publication of the two submitted services and public appointment UTM propagation; check publisher reply/Bdir public readback without resending. Refresh the same 18 commercial URLs and 18 P0 terms from settled official Google data.",
+        "nextHighestValueExecutableTask": "At the next sensible interval check service approval, public appointment propagation and Bdir publisher/public correction without resending. Refresh the same settled Google cohorts. Do not repeat the blocked Local Finder search or paid-tool requests; apply owner-confirmed hours, exact catalogue/category cleanup or public replies only after confirmation.",
         "ownerDependentNextTask": "Owner-confirmed hours and explicit category/catalogue cleanup/review-reply permissions; identify the actual free GA4 property before collection.",
         "releaseIdentity": "Read PR #49 metadata/body for the final merge SHA and deployment verification; sourceMain remains the actual measurement checkpoint.",
         "publishingPR": 49,
-        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/49"
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/49",
+        "mainAtPostReleaseVerification": "9d576b43718e7a2ac08f13eb4e6708d3816a0a5c",
+        "latestMergedPRAtPostReleaseVerification": 49
       },
       "preserved": {
         "routes": 247,
@@ -5250,6 +5374,87 @@
         "rawExportPrivacy": "Only aggregate data and registered legal queries published; raw exports, mail IDs and tokens excluded",
         "websiteSourceChanged": false,
         "localNpmBuild": "Not run for evidence/script changes; existing deployment build/E2E verification required before claiming production success"
+      },
+      "postReleaseVerification": {
+        "sourceMain": "9d576b43718e7a2ac08f13eb4e6708d3816a0a5c",
+        "latestMergedPR": 49,
+        "workflowRunId": 37847998164,
+        "workflowJobId": 113553596075,
+        "workflowConclusion": "success",
+        "workflowUpdatedAtUTC": "2026-10-08T21:38:49Z",
+        "prerenderedRoutes": 247,
+        "sitemapURLs": 239,
+        "internalLinkOccurrences": 8112,
+        "hydrationNavigationChecks": 12,
+        "contactValidation": "PASS",
+        "measurementTests": 17,
+        "indexNow": "SKIPPED; reviewed changed-URL manifest unchanged",
+        "productionReadback": {
+          "mergedPR": 49,
+          "currentMainSHA": "9d576b43718e7a2ac08f13eb4e6708d3816a0a5c",
+          "home": {
+            "canonical": "https://paullegalassociates.com/",
+            "commercialPaths": [
+              "/expertise/",
+              "/expertise/property-real-estate/",
+              "/expertise/commercial-litigation-arbitration/",
+              "/expertise/legal-compliance-audit/",
+              "/expertise/banking-laws/",
+              "/expertise/corporate-commercial-advisory/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/agricultural-non-agricultural-land-purchase/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/navi-mumbai-airport-land-transactions/",
+              "/expertise/property-title-verification-due-diligence/",
+              "/expertise/rera-maharera-legal-services/",
+              "/expertise/naina-town-planning-scheme-services/",
+              "/expertise/land-acquisition-compensation-matters/",
+              "/expertise/corporate-commercial-advisory/",
+              "/expertise/labour-employment-hr-workplace-compliance/",
+              "/expertise/posh-compliance-internal-committee/",
+              "/finance-tax-regulatory-advisory/",
+              "/expertise/"
+            ],
+            "h1": [
+              "Property Law•Legal Compliance•Strategic Legal Advisory"
+            ],
+            "phoneLinks": [
+              "tel:+917977063567",
+              "tel:+917977063567"
+            ],
+            "scripts": [
+              "/static/js/main.282269f8.js"
+            ],
+            "title": "Property Lawyers in Panvel & Navi Mumbai | Paul Legal Associates",
+            "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+            "observedAtUTC": "2026-10-08T21:42:00.598Z"
+          },
+          "contact": {
+            "canonical": "https://paullegalassociates.com/contact/",
+            "emailLinks": [
+              "mailto:info@paullegalassociates.com",
+              "mailto:info@paullegalassociates.com"
+            ],
+            "formInputs": 3,
+            "h1": [
+              "Let's Build a Stronger Legal Position"
+            ],
+            "messageInputs": 1,
+            "phoneLinks": [
+              "tel:+917977063567",
+              "tel:+917977063567"
+            ],
+            "scripts": [
+              "/static/js/main.282269f8.js"
+            ],
+            "title": "Contact Our Law Firm in Panvel | Paul Legal Associates",
+            "whatsAppHandoffButton": "📱Continue on WhatsApp",
+            "url": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+            "observedAtUTC": "2026-10-08T21:42:17.706Z"
+          },
+          "noEnquirySubmitted": true,
+          "additionalExpenditureINR": 0
+        }
       }
     }
   ],
