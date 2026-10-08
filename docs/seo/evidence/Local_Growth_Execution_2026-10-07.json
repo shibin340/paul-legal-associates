@@ -279,18 +279,21 @@
   "recordedAtUTC": "2026-10-07T14:24:54.822193+00:00",
   "blockedAccounts": {
     "semrush": {
-      "status": "UNAVAILABLE_IN_THIS_RUN",
-      "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
-      "installed": false,
-      "callableTools": 0,
-      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
-      "exactAccess": "Install/connect Semrush in this Work account/run; a Semrush web-account subscription alone does not expose reports here",
-      "existingSuggestionObserved": true
+      "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
+      "installed": true,
+      "callableTools": 14,
+      "activeSubscriptionConfirmedByProvider": true,
+      "recordedAtUTC": "2026-10-08T19:00:47.503818Z",
+      "ownerAction": "Open https://www.semrush.com/mcp-access in the connected subscribed account, make API units available for MCP, then confirm units are available. No purchase was made by this operator.",
+      "retryPolicy": "Do not retry until the owner confirms API units are available; the provider explicitly reports retryable:false."
     },
     "gsc": {
-      "status": "PAYMENT_REQUIRED",
-      "checkedAtUTC": "2026-10-07T13:57:50.200315+00:00",
-      "exactAccess": "Restore existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription or connect an authorised alternative; retain the existing tracker"
+      "status": "GSC_WIZARD_RETIRED_BY_OWNER_OFFICIAL_ACCESS_OR_EXPORT_PENDING",
+      "providerCallsThisCycle": 0,
+      "ownerInstruction": "Do not renew or depend on GSC Wizard. Do not reload or bypass Google unusual-traffic screening or create a duplicate property.",
+      "officialApiCallableInThisSession": false,
+      "ownerAction": "In the existing official Search Console property, Performance > Search results, search type Web: export last 28 days and last 90 days, including Queries, Pages, Clicks, Impressions, CTR, Position, dates and selected filters. Export Page Indexing; supply current Sitemaps status. Share files through the Work conversation. Use an authorised official read-only API/OAuth connection if available.",
+      "afterReceipt": "Record actual property, date ranges, data freshness and filters; refresh the existing scorecard and 18-commercial-URL inspection cohort where practical. Historical 3/18 is not a current result."
     },
     "gbp": {
       "status": "MANAGER_ACCESS_UNAVAILABLE",
@@ -313,8 +316,10 @@
       "exactAccess": "Zone Security Events/verified-bot logs and WAF/Bot/Crawl Control read access"
     },
     "directories": {
-      "status": "OWNED_PROFILE_ACCESS_UNAVAILABLE",
-      "exactAccess": "Existing Justdial/GetLaw/Bdir correction ownership or verified editor route; LinkedIn remains user-owned"
+      "status": "BDIR_UNSENT_DRAFT_STAGED_OWNER_SEND_AUTHORISATION_PENDING",
+      "exactAccess": "Authorise sending this single existing draft from the connected firm mailbox to the verified publisher, or send the saved draft yourself. After sending, preserve submission date and verify both public records before marking any correction complete.",
+      "LinkedIn": "Editing remains reserved to owner",
+      "Justdial": "Existing listing-owner access and reconciliation required"
     },
     "ownerFacts": {
       "status": "HOURS_PIN_AND_CLAIMS_UNCONFIRMED",
@@ -823,7 +828,271 @@
         "originalEvidenceAndKeywordFrameworkUnchanged": true,
         "websiteAndIndexNowFilesChanged": false
       }
+    },
+    {
+      "id": "post-pr47-20261009-connected-access",
+      "recordedAtUTC": "2026-10-08T19:00:47.503818Z",
+      "timezone": "Asia/Calcutta",
+      "sourceMain": "81176596503291dbf428fd45e8851de7a13f2f21",
+      "latestMergedPRAtStart": 47,
+      "mainReverifiedThroughGitHub": true,
+      "scope": "Actual connection/report failures, two known citation readbacks, a genuine unsent Gmail correction draft, and removal of obsolete current GSC renewal instructions. No repeated framework or technical audit.",
+      "accessChecks": {
+        "semrush": {
+          "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
+          "installed": true,
+          "callableTools": 14,
+          "activeSubscriptionConfirmedByProvider": true,
+          "recordedAtUTC": "2026-10-08T19:00:47.503818Z",
+          "reportsRetrieved": 0,
+          "databaseQueried": null,
+          "requestedDatabaseWhenUnblocked": "in",
+          "databaseScopeWhenUnblocked": "India national organic database; local scope only if a verified campaign supports it",
+          "responses": [
+            {
+              "discovery": "domain_overview",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "0f3264aba4d317791c6f70e8c44ac5e7"
+            },
+            {
+              "discovery": "organic_research",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "5e668c39d0ba79d4d25e29a0ef7305e0"
+            },
+            {
+              "discovery": "keyword_research",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "1c15cfcef522529abbf52b1eaf8c18e5"
+            },
+            {
+              "discovery": "competitors_research",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "f4d2d12d8055283166bd50f26ab77259"
+            },
+            {
+              "discovery": "backlinks_research",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "bbc003c2b6c311a4077c9c7cff1da42c"
+            },
+            {
+              "discovery": "projects",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "c485a741d6a9a0f24f200bcf40114d7a"
+            },
+            {
+              "discovery": "position_tracking",
+              "code": "no_api_units",
+              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
+              "retryable": false,
+              "url": "https://www.semrush.com/mcp-access",
+              "trace_id": "ced2a965b850daa3e0ee13f2fcde1b1c"
+            }
+          ],
+          "ownerAction": "Open https://www.semrush.com/mcp-access in the connected subscribed account, make API units available for MCP, then confirm units are available. No purchase was made by this operator.",
+          "retryPolicy": "Do not retry until the owner confirms API units are available; the provider explicitly reports retryable:false.",
+          "nextReport": "Discover domain_overview, obtain its report schema, then capture the actual India PLA totals and complete organic positions before enriching the existing 74 candidates. Continue competitor, keyword and backlink gaps and inspect existing tracking projects."
+        },
+        "gsc": {
+          "status": "GSC_WIZARD_RETIRED_BY_OWNER_OFFICIAL_ACCESS_OR_EXPORT_PENDING",
+          "providerCallsThisCycle": 0,
+          "ownerInstruction": "Do not renew or depend on GSC Wizard. Do not reload or bypass Google unusual-traffic screening or create a duplicate property.",
+          "officialApiCallableInThisSession": false,
+          "ownerAction": "In the existing official Search Console property, Performance > Search results, search type Web: export last 28 days and last 90 days, including Queries, Pages, Clicks, Impressions, CTR, Position, dates and selected filters. Export Page Indexing; supply current Sitemaps status. Share files through the Work conversation. Use an authorised official read-only API/OAuth connection if available.",
+          "afterReceipt": "Record actual property, date ranges, data freshness and filters; refresh the existing scorecard and 18-commercial-URL inspection cohort where practical. Historical 3/18 is not a current result."
+        },
+        "gbp": {
+          "status": "MANAGER_ACCESS_PENDING",
+          "ownerHoursConfirmed": false,
+          "profileMutations": 0,
+          "baselinePreserved": "172 Google reviews / 4.9, observed 7 October 2026; no fresh manager or public Google count this cycle."
+        }
+      },
+      "keywordExecution": {
+        "relevantCandidateCount": 74,
+        "excludedIntentCount": 3,
+        "measuredEnrichmentRows": 0,
+        "demandBackedP0Selection": null,
+        "mappingChanged": false
+      },
+      "citationResults": [
+        {
+          "citationId": "bdir-property",
+          "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+          "observedAtUTC": "2026-10-08T18:57:49.052Z",
+          "oldAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "currentPhonePresent": "+91 7977063567",
+          "additionalPhoneUnconfirmed": "+91 9820765944",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "source": "Public webpage retrieval; source still displays the former address. Direct runner HTTP client separately received 403 and is not presented as a successful independent HTTP readback."
+        },
+        {
+          "citationId": "bdir-finance",
+          "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+          "observedAtUTC": "2026-10-08T18:57:49.052Z",
+          "oldAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "currentPhonePresent": "+91 7977063567",
+          "additionalPhoneUnconfirmed": "+91 9820765944",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "source": "Public webpage retrieval; source still displays the former address. Direct runner HTTP client separately received 403 and is not presented as a successful independent HTTP readback."
+        }
+      ],
+      "citationCorrectionAction": {
+        "platform": "Gmail",
+        "status": "UNSENT_DRAFT_CREATED_AND_READ_BACK",
+        "sender": "info@paullegalassociates.com",
+        "publisherRecipient": "datagemba@gmail.com",
+        "publisherRoute": "https://bdir.in/p/contact",
+        "recipientBasis": "Publisher address verified in the previous primary HTTP evidence; current contact webpage still exposes the email contact route. Exact-recipient correspondence search found no existing messages.",
+        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
+        "covers": [
+          "bdir-property",
+          "bdir-finance"
+        ],
+        "draftVerifiedAtUTC": "2026-10-08T19:00:47.503818Z",
+        "readback": "Gmail read confirms DRAFT label, intended From/To/subject/body and both record URLs. No send was performed.",
+        "privacy": "No private Gmail message, draft, thread or account IDs retained in the public repository. No client or matter information included.",
+        "correctDataSource": "https://paullegalassociates.com/contact/",
+        "fieldsRequested": [
+          "current office address",
+          "current principal phone",
+          "current public firm email",
+          "website"
+        ],
+        "ownerAction": "Authorise sending this single existing draft from the connected firm mailbox to the verified publisher, or send the saved draft yourself. After sending, preserve submission date and verify both public records before marking any correction complete."
+      },
+      "productionReadback": {
+        "publicWebpagesRetrieved": [
+          "https://paullegalassociates.com/",
+          "https://paullegalassociates.com/contact/"
+        ],
+        "currentOfficeAndPhoneVisible": true,
+        "directRunnerRead": [
+          {
+            "id": "production_home",
+            "requestedURL": "https://paullegalassociates.com/",
+            "observedAtUTC": "2026-10-08T18:54:08.559825Z",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "id": "production_contact",
+            "requestedURL": "https://paullegalassociates.com/contact/",
+            "observedAtUTC": "2026-10-08T18:54:08.561677Z",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "id": "bdir_contact",
+            "requestedURL": "https://bdir.in/p/contact",
+            "observedAtUTC": "2026-10-08T18:54:08.562450Z",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "id": "bdir_property",
+            "requestedURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+            "observedAtUTC": "2026-10-08T18:54:08.563222Z",
+            "error": "HTTP Error 403: Forbidden"
+          },
+          {
+            "id": "bdir_finance",
+            "requestedURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+            "observedAtUTC": "2026-10-08T18:54:08.564121Z",
+            "error": "HTTP Error 403: Forbidden"
+          }
+        ],
+        "limitation": "Runner HTTP403 is client-specific and not a measured site outage or verified-bot failure. Current public webpages were retrieved by the public web retrieval service. No new full build validation is claimed.",
+        "latestVerifiedRelease": {
+          "pr": 47,
+          "mainSHA": "81176596503291dbf428fd45e8851de7a13f2f21",
+          "workflowRun": 37663738677,
+          "prerenderedRoutes": 247,
+          "sitemapURLs": 239,
+          "internalLinks": 8112,
+          "hydrationNavigationChecks": 12
+        }
+      },
+      "preserved": {
+        "preparedGBPServices": 18,
+        "competitorEntities": 7,
+        "reviews": {
+          "count": 172,
+          "rating": 4.9,
+          "observedDateIST": "2026-10-07"
+        },
+        "ai": {
+          "ChatGPT": "4/6 mentioned and website-cited, 7 October",
+          "GoogleAIMode": "1/1 mentioned, 7 October",
+          "newIndependentAnswersThisCycle": 0
+        },
+        "keywordMapAndTechnicalSEO": "unchanged"
+      },
+      "actualActions": {
+        "unsentGmailDraftsCreated": 1,
+        "citationSubmissions": 0,
+        "verifiedCitationCorrections": 0,
+        "gbpEdits": 0,
+        "reviewRequestsSent": 0,
+        "reviewRepliesPublished": 0,
+        "newBacklinksAcquired": 0,
+        "membershipsClaimed": 0,
+        "websiteContentChanges": 0,
+        "analyticsCollectorChanges": 0,
+        "payments": 0
+      },
+      "resume": {
+        "currentMainAtMeasurement": "81176596503291dbf428fd45e8851de7a13f2f21",
+        "latestMergedPRAtMeasurement": 47,
+        "latestSemrushBaseline": null,
+        "localRankingBaseline": null,
+        "latestGBPState": "Public baseline retained from 7 October; manager fields and true hours still pending.",
+        "nextAction": "Discover domain_overview, obtain its report schema, then capture the actual India PLA totals and complete organic positions before enriching the existing 74 candidates. Continue competitor, keyword and backlink gaps and inspect existing tracking projects.",
+        "ownerDependencies": [
+          "Semrush MCP API units",
+          "true office hours",
+          "existing GBP manager view",
+          "official GSC exports/read-only OAuth",
+          "explicit publisher-email sending instruction"
+        ],
+        "historicalDataPolicy": "Preserve all previous cycles; this cycle supersedes old current installation and GSC-renewal instructions. No metrics or rankings fabricated."
+      },
+      "validation": {
+        "status": "PASS",
+        "checkedAtUTC": "2026-10-08T19:01:52.854266Z",
+        "measurementTestsPassed": 11,
+        "observationLedger": "PASS:18 records;10 citation,7 AI,1 review",
+        "original16ObservationsPreserved": true,
+        "keywordBaselineAndCSVByteIdentical": true,
+        "relativeDocLinksChecked": 24,
+        "privateMailIDsExcluded": true,
+        "gitDiffCheck": "PASS",
+        "websiteCodeChanged": false,
+        "newProductionBuildClaimed": false
+      }
     }
   ],
-  "latestExecutionCycleId": "post-pr46-20261007-execution"
+  "latestExecutionCycleId": "post-pr47-20261009-connected-access"
 }
