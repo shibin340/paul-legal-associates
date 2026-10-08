@@ -4,7 +4,7 @@ Opened 5 October 2026 before source changes; refreshed after the execution cycle
 
 ## Latest execution checkpoint — post-PR47, 9 October 2026 IST
 
-Current main verified through GitHub: `81176596503291dbf428fd45e8851de7a13f2f21`, merged PR47. Preserve completed PRs45–47. Read the [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) and latest cycle `post-pr47-20261009-connected-access` in [existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json).
+Current main verified through GitHub: `81176596503291dbf428fd45e8851de7a13f2f21`, merged PR47. Preserve completed PRs45–47. Read the [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) and latest cycle `post-pr47-20261009-connected-access` in [existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json). Publishing [PR #48](https://github.com/shibin340/paul-legal-associates/pull/48) records this cycle; resolve final merge SHA/deployment proof there and from current main.
 
 Semrush now is installed/connected with14 callable tools. Seven first discovery responses returned non-retryable `no_api_units`, confirming an active subscription but insufficient MCP API units. No reports/database/campaign data were retrieved. Exact owner step: https://www.semrush.com/mcp-access in the connected account, make units available and confirm completion. Do not retry before that confirmation or buy units on the owner's behalf. Then obtain India reports, enrich the same74 candidates, select10–20 actual P0 terms and execute gaps.
 

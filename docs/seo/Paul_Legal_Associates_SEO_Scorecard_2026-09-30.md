@@ -5,7 +5,7 @@
 
 ## Current Local Search Scorecard — 9 October 2026 IST, post-PR #47 execution
 
-Current main independently verified at `81176596503291dbf428fd45e8851de7a13f2f21`, merged [PR #47](https://github.com/shibin340/paul-legal-associates/pull/47). PRs #45–47 are complete. Actual cycle `post-pr47-20261009-connected-access` in [the existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the old current Semrush installation and GSC-renewal instructions; prior measured baselines remain dated history.
+Current main independently verified at `81176596503291dbf428fd45e8851de7a13f2f21`, merged [PR #47](https://github.com/shibin340/paul-legal-associates/pull/47). PRs #45–47 are complete. Actual cycle `post-pr47-20261009-connected-access` in [the existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the old current Semrush installation and GSC-renewal instructions; prior measured baselines remain dated history. Publishing [PR #48](https://github.com/shibin340/paul-legal-associates/pull/48) records this actual access/citation cycle; its metadata/body records the final release identity.
 
 Semrush is **installed, connected and callable (14 tools)**. Its seven initial discovery requests all returned `no_api_units`, confirming an active subscription with insufficient MCP API units. No report schema/data, India database or local tracking campaign could be queried. Owner action: open https://www.semrush.com/mcp-access in the connected account and make API units available; no purchase was made. Do not retry until units are available. All organic/keyword/backlink/authority values stay unknown, not zero.
 
