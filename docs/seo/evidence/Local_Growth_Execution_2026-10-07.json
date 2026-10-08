@@ -1097,7 +1097,4161 @@
         "url": "https://github.com/shibin340/paul-legal-associates/pull/48",
         "finalReleaseIdentity": "Resolve final merge SHA and deployment verification from PR48 metadata/body and current main."
       }
+    },
+    {
+      "id": "post-pr48-20261009-free-google-execution",
+      "startedAtUTC": "2026-10-08T19:47:34.371Z",
+      "recordedAtUTC": "2026-10-08T21:31:58.014761Z",
+      "timezone": "Asia/Kolkata",
+      "sourceMain": "4a3d0f424514b6da90e8ec990f176993a147b29f",
+      "latestMergedPRAtStart": 48,
+      "additionalExpenditureINR": 0,
+      "status": "ACTUAL_MEASUREMENT_AND_IMPLEMENTATION",
+      "officialGoogleMeasurement": {
+        "gscReports": [
+          {
+            "sourceType": "official_gsc_ui_csv",
+            "reportKind": "web",
+            "observedAtUTC": "2026-10-08T20:51:39.856Z",
+            "property": "https://paullegalassociates.com/",
+            "country": "All countries",
+            "device": "All devices",
+            "periodStart": "2026-09-09",
+            "periodEnd": "2026-10-06",
+            "completeDays": 28,
+            "nativeDateFilterLabel": "Last 28 days",
+            "archiveSHA256": "09d65508e0f1a184dc7c025be6bcde61d43795e919ad069f70646e2a3b17799d",
+            "totals": {
+              "impressions": 17395,
+              "clicks": 42,
+              "ctrPercentFromCounts": 0.2414486921529175,
+              "uiAveragePositionRounded": 2.5
+            },
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "impressions": 17369,
+                "clicks": 40,
+                "ctrPercent": 0.23,
+                "averagePosition": 2.47
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "impressions": 413,
+                "clicks": 1,
+                "ctrPercent": 0.24,
+                "averagePosition": 13.36
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "impressions": 12,
+                "clicks": 1,
+                "ctrPercent": 8.33,
+                "averagePosition": 6.42
+              },
+              {
+                "url": "https://paullegalassociates.com/contact/",
+                "impressions": 42,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.26
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/",
+                "impressions": 10,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 8.6
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/",
+                "impressions": 9,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.33
+              },
+              {
+                "url": "https://paullegalassociates.com/about/",
+                "impressions": 5,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.2
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.5
+              },
+              {
+                "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.5
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 25.0
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/sanctions-export-control-law/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.67
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.33
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.33
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/sonam-paul/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 10.0
+              }
+            ],
+            "countries": [
+              {
+                "country": "India",
+                "impressions": 17330,
+                "clicks": 41,
+                "ctrPercent": 0.24,
+                "averagePosition": 2.45
+              },
+              {
+                "country": "United Arab Emirates",
+                "impressions": 1,
+                "clicks": 1,
+                "ctrPercent": 100.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "United States",
+                "impressions": 30,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 10.33
+              },
+              {
+                "country": "United Kingdom",
+                "impressions": 11,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 19.27
+              },
+              {
+                "country": "Brazil",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.0
+              },
+              {
+                "country": "Singapore",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Netherlands",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.5
+              },
+              {
+                "country": "Spain",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Hong Kong",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Indonesia",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Pakistan",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Peru",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Ukraine",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.0
+              },
+              {
+                "country": "Kuwait",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "country": "New Zealand",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "country": "Cyprus",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.0
+              },
+              {
+                "country": "Romania",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "country": "Greece",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.0
+              },
+              {
+                "country": "Mexico",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 11.0
+              },
+              {
+                "country": "Australia",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 17.0
+              },
+              {
+                "country": "Israel",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.0
+              },
+              {
+                "country": "Belarus",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 26.0
+              }
+            ],
+            "devices": [
+              {
+                "device": "Mobile",
+                "impressions": 1031,
+                "clicks": 29,
+                "ctrPercent": 2.81,
+                "averagePosition": 7.54
+              },
+              {
+                "device": "Desktop",
+                "impressions": 16359,
+                "clicks": 13,
+                "ctrPercent": 0.08,
+                "averagePosition": 2.16
+              },
+              {
+                "device": "Tablet",
+                "impressions": 5,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              }
+            ],
+            "candidateQueries": [
+              {
+                "candidateId": "local-028",
+                "keyword": "property registration lawyers near me",
+                "impressions": 2,
+                "clicks": 1,
+                "ctrPercent": 50.0,
+                "averagePosition": 7.0
+              },
+              {
+                "candidateId": "local-008",
+                "keyword": "law firm Navi Mumbai",
+                "impressions": 1,
+                "clicks": 1,
+                "ctrPercent": 100.0,
+                "averagePosition": 23.0
+              },
+              {
+                "candidateId": "local-050",
+                "keyword": "contract lawyer",
+                "impressions": 2023,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.03
+              },
+              {
+                "candidateId": "local-056",
+                "keyword": "employment lawyer",
+                "impressions": 1557,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.83
+              },
+              {
+                "candidateId": "local-011",
+                "keyword": "property lawyer near me",
+                "impressions": 15,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.47
+              },
+              {
+                "candidateId": "local-001",
+                "keyword": "lawyer near me",
+                "impressions": 12,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 8.67
+              },
+              {
+                "candidateId": "local-003",
+                "keyword": "law firm near me",
+                "impressions": 11,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.09
+              },
+              {
+                "candidateId": "local-023",
+                "keyword": "property documents verification lawyers near me",
+                "impressions": 7,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.43
+              },
+              {
+                "candidateId": "local-017",
+                "keyword": "property verification lawyer",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-013",
+                "keyword": "property lawyer Navi Mumbai",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 16.5
+              },
+              {
+                "candidateId": "local-045",
+                "keyword": "corporate lawyer near me",
+                "impressions": 5,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.4
+              },
+              {
+                "candidateId": "local-047",
+                "keyword": "business lawyer near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-024",
+                "keyword": "property verification lawyers near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-060",
+                "keyword": "labour law advocate near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.5
+              },
+              {
+                "candidateId": "local-014",
+                "keyword": "real estate lawyer near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "candidateId": "local-002",
+                "keyword": "advocate near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 18.0
+              },
+              {
+                "candidateId": "local-007",
+                "keyword": "advocate Panvel",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 18.0
+              },
+              {
+                "candidateId": "local-057",
+                "keyword": "labour lawyer",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              }
+            ],
+            "limitations": [
+              "GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.",
+              "Query/page aggregates may differ from property totals; absent rows are unknown, not zero.",
+              "Raw exports remain private; only existing registered legal queries are published."
+            ],
+            "disclosedQueries": {
+              "rows": 257,
+              "clicks": 20,
+              "impressions": 16563,
+              "siteClicksNotInDisclosedQueries": 22,
+              "brandRule": "paul\\s+(?:legal|(?:and\\s+)?associates)|p\\s*\\.?\\s*p\\s*\\.?\\s*polachan|sojan\\s+paul|sonam\\s+paul",
+              "branded": {
+                "clicks": 15,
+                "impressions": 64
+              },
+              "nonBranded": {
+                "clicks": 5,
+                "impressions": 16499
+              }
+            },
+            "searchAppearance": [],
+            "sourceObservationBasis": "Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart."
+          },
+          {
+            "sourceType": "official_gsc_ui_csv",
+            "reportKind": "web",
+            "observedAtUTC": "2026-10-08T20:51:39.856Z",
+            "property": "https://paullegalassociates.com/",
+            "country": "All countries",
+            "device": "All devices",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "completeDays": 90,
+            "nativeDateFilterLabel": "Jul 9, 2026-Oct 6, 2026",
+            "archiveSHA256": "a697491003257bcc1f7b0b474f53c52ab8245924944556b54779efc542f72625",
+            "totals": {
+              "impressions": 48473,
+              "clicks": 144,
+              "ctrPercentFromCounts": 0.2970725971159202,
+              "uiAveragePositionRounded": 2.6
+            },
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "impressions": 48371,
+                "clicks": 135,
+                "ctrPercent": 0.28,
+                "averagePosition": 2.55
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "impressions": 934,
+                "clicks": 5,
+                "ctrPercent": 0.54,
+                "averagePosition": 12.75
+              },
+              {
+                "url": "https://paullegalassociates.com/about/",
+                "impressions": 139,
+                "clicks": 2,
+                "ctrPercent": 1.44,
+                "averagePosition": 7.9
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/",
+                "impressions": 77,
+                "clicks": 2,
+                "ctrPercent": 2.6,
+                "averagePosition": 17.18
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "impressions": 12,
+                "clicks": 1,
+                "ctrPercent": 8.33,
+                "averagePosition": 6.42
+              },
+              {
+                "url": "https://paullegalassociates.com/contact/",
+                "impressions": 95,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 11.36
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/",
+                "impressions": 15,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 10.6
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/",
+                "impressions": 9,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.33
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/sanctions-export-control-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.5
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.75
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.75
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.5
+              },
+              {
+                "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.5
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 25.0
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.67
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.33
+              },
+              {
+                "url": "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.33
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 8.67
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.5
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 8.0
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/sonam-paul/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.0
+              }
+            ],
+            "countries": [
+              {
+                "country": "India",
+                "impressions": 48059,
+                "clicks": 142,
+                "ctrPercent": 0.3,
+                "averagePosition": 2.56
+              },
+              {
+                "country": "United Kingdom",
+                "impressions": 19,
+                "clicks": 1,
+                "ctrPercent": 5.26,
+                "averagePosition": 12.95
+              },
+              {
+                "country": "United Arab Emirates",
+                "impressions": 4,
+                "clicks": 1,
+                "ctrPercent": 25.0,
+                "averagePosition": 2.5
+              },
+              {
+                "country": "United States",
+                "impressions": 313,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.54
+              },
+              {
+                "country": "Canada",
+                "impressions": 8,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.38
+              },
+              {
+                "country": "Nigeria",
+                "impressions": 8,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.5
+              },
+              {
+                "country": "Brazil",
+                "impressions": 5,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.2
+              },
+              {
+                "country": "France",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 16.75
+              },
+              {
+                "country": "Philippines",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.5
+              },
+              {
+                "country": "Singapore",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Germany",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.33
+              },
+              {
+                "country": "Kuwait",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.33
+              },
+              {
+                "country": "Cyprus",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.33
+              },
+              {
+                "country": "Australia",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 13.0
+              },
+              {
+                "country": "South Africa",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Peru",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.5
+              },
+              {
+                "country": "Netherlands",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.5
+              },
+              {
+                "country": "Chile",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "country": "Mexico",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 14.5
+              },
+              {
+                "country": "Spain",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Hong Kong",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Indonesia",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Italy",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Latvia",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Pakistan",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Saudi Arabia",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "country": "Poland",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.0
+              },
+              {
+                "country": "Ukraine",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.0
+              },
+              {
+                "country": "New Zealand",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 5.0
+              },
+              {
+                "country": "Qatar",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 6.0
+              },
+              {
+                "country": "Ghana",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "country": "Romania",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "country": "Iran",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 8.0
+              },
+              {
+                "country": "Greece",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.0
+              },
+              {
+                "country": "China",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 11.0
+              },
+              {
+                "country": "South Korea",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 20.0
+              },
+              {
+                "country": "Vietnam",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 20.0
+              },
+              {
+                "country": "Bangladesh",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.0
+              },
+              {
+                "country": "Israel",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.0
+              },
+              {
+                "country": "Belarus",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 26.0
+              },
+              {
+                "country": "Thailand",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 35.0
+              },
+              {
+                "country": "Nepal",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 37.0
+              },
+              {
+                "country": "Costa Rica",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 44.0
+              }
+            ],
+            "devices": [
+              {
+                "device": "Mobile",
+                "impressions": 3399,
+                "clicks": 96,
+                "ctrPercent": 2.82,
+                "averagePosition": 7.62
+              },
+              {
+                "device": "Desktop",
+                "impressions": 45055,
+                "clicks": 48,
+                "ctrPercent": 0.11,
+                "averagePosition": 2.2
+              },
+              {
+                "device": "Tablet",
+                "impressions": 19,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 11.68
+              }
+            ],
+            "candidateQueries": [
+              {
+                "candidateId": "local-011",
+                "keyword": "property lawyer near me",
+                "impressions": 34,
+                "clicks": 1,
+                "ctrPercent": 2.94,
+                "averagePosition": 5.65
+              },
+              {
+                "candidateId": "local-008",
+                "keyword": "law firm Navi Mumbai",
+                "impressions": 3,
+                "clicks": 1,
+                "ctrPercent": 33.33,
+                "averagePosition": 23.67
+              },
+              {
+                "candidateId": "local-028",
+                "keyword": "property registration lawyers near me",
+                "impressions": 2,
+                "clicks": 1,
+                "ctrPercent": 50.0,
+                "averagePosition": 7.0
+              },
+              {
+                "candidateId": "local-050",
+                "keyword": "contract lawyer",
+                "impressions": 5162,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.01
+              },
+              {
+                "candidateId": "local-056",
+                "keyword": "employment lawyer",
+                "impressions": 4242,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.74
+              },
+              {
+                "candidateId": "local-003",
+                "keyword": "law firm near me",
+                "impressions": 38,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.24
+              },
+              {
+                "candidateId": "local-001",
+                "keyword": "lawyer near me",
+                "impressions": 34,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.79
+              },
+              {
+                "candidateId": "local-013",
+                "keyword": "property lawyer Navi Mumbai",
+                "impressions": 15,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 17.6
+              },
+              {
+                "candidateId": "local-045",
+                "keyword": "corporate lawyer near me",
+                "impressions": 14,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.21
+              },
+              {
+                "candidateId": "local-002",
+                "keyword": "advocate near me",
+                "impressions": 12,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.08
+              },
+              {
+                "candidateId": "local-023",
+                "keyword": "property documents verification lawyers near me",
+                "impressions": 7,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.43
+              },
+              {
+                "candidateId": "local-017",
+                "keyword": "property verification lawyer",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-014",
+                "keyword": "real estate lawyer near me",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.0
+              },
+              {
+                "candidateId": "local-047",
+                "keyword": "business lawyer near me",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.67
+              },
+              {
+                "candidateId": "local-024",
+                "keyword": "property verification lawyers near me",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-006",
+                "keyword": "lawyer Panvel",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "candidateId": "local-060",
+                "keyword": "labour law advocate near me",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.0
+              },
+              {
+                "candidateId": "local-007",
+                "keyword": "advocate Panvel",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 16.33
+              },
+              {
+                "candidateId": "local-004",
+                "keyword": "legal services near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.5
+              },
+              {
+                "candidateId": "local-057",
+                "keyword": "labour lawyer",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-065",
+                "keyword": "banking lawyer",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.0
+              },
+              {
+                "candidateId": "local-009",
+                "keyword": "lawyer Navi Mumbai",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 78.0
+              }
+            ],
+            "limitations": [
+              "GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.",
+              "Query/page aggregates may differ from property totals; absent rows are unknown, not zero.",
+              "Raw exports remain private; only existing registered legal queries are published."
+            ],
+            "disclosedQueries": {
+              "rows": 661,
+              "clicks": 81,
+              "impressions": 45343,
+              "siteClicksNotInDisclosedQueries": 63,
+              "brandRule": "paul\\s+(?:legal|(?:and\\s+)?associates)|p\\s*\\.?\\s*p\\s*\\.?\\s*polachan|sojan\\s+paul|sonam\\s+paul",
+              "branded": {
+                "clicks": 68,
+                "impressions": 262
+              },
+              "nonBranded": {
+                "clicks": 13,
+                "impressions": 45081
+              }
+            },
+            "searchAppearance": [],
+            "sourceObservationBasis": "Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart."
+          },
+          {
+            "sourceType": "official_gsc_ui_csv",
+            "reportKind": "web",
+            "observedAtUTC": "2026-10-08T20:51:39.856Z",
+            "property": "https://paullegalassociates.com/",
+            "country": "India",
+            "device": "All devices",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "completeDays": 90,
+            "nativeDateFilterLabel": "Jul 9, 2026-Oct 6, 2026",
+            "archiveSHA256": "2daf9f36254e20fa5fa72d86446dd9190e9c92d8e1bae86f588ba1b8f0cb2316",
+            "totals": {
+              "impressions": 48059,
+              "clicks": 142,
+              "ctrPercentFromCounts": 0.29547015127239434,
+              "uiAveragePositionRounded": null
+            },
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "impressions": 45258,
+                "clicks": 77,
+                "ctrPercent": 0.17,
+                "averagePosition": 2.22
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "impressions": 713,
+                "clicks": 2,
+                "ctrPercent": 0.28,
+                "averagePosition": 14.1
+              },
+              {
+                "url": "https://paullegalassociates.com/about/",
+                "impressions": 91,
+                "clicks": 2,
+                "ctrPercent": 2.2,
+                "averagePosition": 8.29
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/",
+                "impressions": 28,
+                "clicks": 1,
+                "ctrPercent": 3.57,
+                "averagePosition": 15.5
+              },
+              {
+                "url": "https://paullegalassociates.com/contact/",
+                "impressions": 46,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 10.41
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.0
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.67
+              }
+            ],
+            "countries": [
+              {
+                "country": "India",
+                "impressions": 48059,
+                "clicks": 142,
+                "ctrPercent": 0.3,
+                "averagePosition": 2.56
+              }
+            ],
+            "devices": [
+              {
+                "device": "Mobile",
+                "impressions": 3332,
+                "clicks": 95,
+                "ctrPercent": 2.85,
+                "averagePosition": 7.61
+              },
+              {
+                "device": "Desktop",
+                "impressions": 44708,
+                "clicks": 47,
+                "ctrPercent": 0.11,
+                "averagePosition": 2.18
+              },
+              {
+                "device": "Tablet",
+                "impressions": 19,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 11.68
+              }
+            ],
+            "candidateQueries": [
+              {
+                "candidateId": "local-011",
+                "keyword": "property lawyer near me",
+                "impressions": 34,
+                "clicks": 1,
+                "ctrPercent": 2.94,
+                "averagePosition": 5.65
+              },
+              {
+                "candidateId": "local-008",
+                "keyword": "law firm Navi Mumbai",
+                "impressions": 3,
+                "clicks": 1,
+                "ctrPercent": 33.33,
+                "averagePosition": 23.67
+              },
+              {
+                "candidateId": "local-028",
+                "keyword": "property registration lawyers near me",
+                "impressions": 2,
+                "clicks": 1,
+                "ctrPercent": 50.0,
+                "averagePosition": 7.0
+              },
+              {
+                "candidateId": "local-050",
+                "keyword": "contract lawyer",
+                "impressions": 5162,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.01
+              },
+              {
+                "candidateId": "local-056",
+                "keyword": "employment lawyer",
+                "impressions": 4242,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.74
+              },
+              {
+                "candidateId": "local-003",
+                "keyword": "law firm near me",
+                "impressions": 38,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 9.24
+              },
+              {
+                "candidateId": "local-001",
+                "keyword": "lawyer near me",
+                "impressions": 34,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.79
+              },
+              {
+                "candidateId": "local-013",
+                "keyword": "property lawyer Navi Mumbai",
+                "impressions": 15,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 17.6
+              },
+              {
+                "candidateId": "local-045",
+                "keyword": "corporate lawyer near me",
+                "impressions": 14,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.21
+              },
+              {
+                "candidateId": "local-002",
+                "keyword": "advocate near me",
+                "impressions": 12,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 21.08
+              },
+              {
+                "candidateId": "local-023",
+                "keyword": "property documents verification lawyers near me",
+                "impressions": 7,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.43
+              },
+              {
+                "candidateId": "local-017",
+                "keyword": "property verification lawyer",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-014",
+                "keyword": "real estate lawyer near me",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.0
+              },
+              {
+                "candidateId": "local-047",
+                "keyword": "business lawyer near me",
+                "impressions": 6,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 4.67
+              },
+              {
+                "candidateId": "local-024",
+                "keyword": "property verification lawyers near me",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-006",
+                "keyword": "lawyer Panvel",
+                "impressions": 4,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.0
+              },
+              {
+                "candidateId": "local-060",
+                "keyword": "labour law advocate near me",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 2.0
+              },
+              {
+                "candidateId": "local-007",
+                "keyword": "advocate Panvel",
+                "impressions": 3,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 16.33
+              },
+              {
+                "candidateId": "local-004",
+                "keyword": "legal services near me",
+                "impressions": 2,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 7.5
+              },
+              {
+                "candidateId": "local-057",
+                "keyword": "labour lawyer",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 1.0
+              },
+              {
+                "candidateId": "local-065",
+                "keyword": "banking lawyer",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 3.0
+              },
+              {
+                "candidateId": "local-009",
+                "keyword": "lawyer Navi Mumbai",
+                "impressions": 1,
+                "clicks": 0,
+                "ctrPercent": 0.0,
+                "averagePosition": 78.0
+              }
+            ],
+            "limitations": [
+              "GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.",
+              "Query/page aggregates may differ from property totals; absent rows are unknown, not zero.",
+              "Raw exports remain private; only existing registered legal queries are published."
+            ],
+            "disclosedQueries": {
+              "rows": 652,
+              "clicks": 81,
+              "impressions": 45268,
+              "siteClicksNotInDisclosedQueries": 61,
+              "brandRule": "paul\\s+(?:legal|(?:and\\s+)?associates)|p\\s*\\.?\\s*p\\s*\\.?\\s*polachan|sojan\\s+paul|sonam\\s+paul",
+              "branded": {
+                "clicks": 68,
+                "impressions": 250
+              },
+              "nonBranded": {
+                "clicks": 13,
+                "impressions": 45018
+              }
+            },
+            "searchAppearance": [],
+            "sourceObservationBasis": "Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart."
+          },
+          {
+            "sourceType": "official_gsc_ui_csv",
+            "reportKind": "generative_ai",
+            "observedAtUTC": "2026-10-08T20:51:39.856Z",
+            "property": "https://paullegalassociates.com/",
+            "country": "All countries",
+            "device": "All devices",
+            "periodStart": "2026-09-09",
+            "periodEnd": "2026-10-06",
+            "completeDays": 28,
+            "nativeDateFilterLabel": "Last 28 days",
+            "archiveSHA256": "81b8a456cde8c4a9b4dfe9fb3c003f6b133f6e9c3f58e764ec12fcea34cd39c1",
+            "totals": {
+              "impressions": 204,
+              "clicks": null,
+              "ctrPercentFromCounts": null,
+              "uiAveragePositionRounded": null
+            },
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "impressions": 203
+              },
+              {
+                "url": "https://paullegalassociates.com/contact/",
+                "impressions": 2
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "impressions": 1
+              }
+            ],
+            "countries": [
+              {
+                "country": "India",
+                "impressions": 201
+              },
+              {
+                "country": "United States",
+                "impressions": 2
+              },
+              {
+                "country": "Indonesia",
+                "impressions": 1
+              }
+            ],
+            "devices": [
+              {
+                "device": "Desktop",
+                "impressions": 150
+              },
+              {
+                "device": "Mobile",
+                "impressions": 54
+              }
+            ],
+            "candidateQueries": [],
+            "limitations": [
+              "GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.",
+              "Query/page aggregates may differ from property totals; absent rows are unknown, not zero.",
+              "Raw exports remain private; only existing registered legal queries are published.",
+              "Google generative-AI feature impressions are not independent AI-answer citations or qualified enquiries."
+            ],
+            "sourceObservationBasis": "Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart."
+          },
+          {
+            "sourceType": "official_gsc_ui_csv",
+            "reportKind": "generative_ai",
+            "observedAtUTC": "2026-10-08T20:51:39.856Z",
+            "property": "https://paullegalassociates.com/",
+            "country": "All countries",
+            "device": "All devices",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "completeDays": 90,
+            "nativeDateFilterLabel": "Jul 9, 2026-Oct 6, 2026",
+            "archiveSHA256": "ae4436c89755ebd0b00cbba0098aec0dd76f624744cf62d8db5e0fff0c994911",
+            "totals": {
+              "impressions": 322,
+              "clicks": null,
+              "ctrPercentFromCounts": null,
+              "uiAveragePositionRounded": null
+            },
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "impressions": 309
+              },
+              {
+                "url": "https://paullegalassociates.com/contact/",
+                "impressions": 8
+              },
+              {
+                "url": "https://paullegalassociates.com/partners/",
+                "impressions": 5
+              },
+              {
+                "url": "https://paullegalassociates.com/about/",
+                "impressions": 4
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law",
+                "impressions": 1
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+                "impressions": 1
+              },
+              {
+                "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/",
+                "impressions": 1
+              }
+            ],
+            "countries": [
+              {
+                "country": "India",
+                "impressions": 316
+              },
+              {
+                "country": "United States",
+                "impressions": 2
+              },
+              {
+                "country": "United Kingdom",
+                "impressions": 1
+              },
+              {
+                "country": "Indonesia",
+                "impressions": 1
+              },
+              {
+                "country": "Singapore",
+                "impressions": 1
+              },
+              {
+                "country": "South Africa",
+                "impressions": 1
+              }
+            ],
+            "devices": [
+              {
+                "device": "Desktop",
+                "impressions": 214
+              },
+              {
+                "device": "Mobile",
+                "impressions": 108
+              }
+            ],
+            "candidateQueries": [],
+            "limitations": [
+              "GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.",
+              "Query/page aggregates may differ from property totals; absent rows are unknown, not zero.",
+              "Raw exports remain private; only existing registered legal queries are published.",
+              "Google generative-AI feature impressions are not independent AI-answer citations or qualified enquiries."
+            ],
+            "sourceObservationBasis": "Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart."
+          }
+        ],
+        "commercialInspectionFirstRead": {
+          "indexed": 3,
+          "discoveredNotIndexed": 13,
+          "unknownToGoogle": 2,
+          "archiveSHA256": "db87b8e18b1c5077e338eb07fc802cc6b7c380495e4acdbc76054e5db421558a"
+        },
+        "commercialInspections": [
+          {
+            "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "observedAtUTC": "2026-10-08T20:04:27.434Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "observedAtUTC": "2026-10-08T20:05:00.565Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "observedAtUTC": "2026-10-08T20:50:17.792Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "observedAtUTC": "2026-10-08T20:05:42.072Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "observedAtUTC": "2026-10-08T20:05:44.342Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "observedAtUTC": "2026-10-08T20:05:46.936Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "observedAtUTC": "2026-10-08T20:06:18.767Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "observedAtUTC": "2026-10-08T20:06:21.306Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "observedAtUTC": "2026-10-08T20:06:23.994Z",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "Sep 30, 2026, 12:52:09 AM",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "googleCanonical": "Inspected URL",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "observedAtUTC": "2026-10-08T20:07:12.916Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "observedAtUTC": "2026-10-08T20:07:15.625Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "observedAtUTC": "2026-10-08T20:07:18.385Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "observedAtUTC": "2026-10-08T20:09:56.868Z",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "Sep 29, 2026, 8:31:54 PM",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "googleCanonical": "Inspected URL",
+            "sitemapUIStatus": "Temporary processing error",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "observedAtUTC": "2026-10-08T20:10:00.496Z",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "Sep 30, 2026, 9:08:37 AM",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "googleCanonical": "Inspected URL",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "observedAtUTC": "2026-10-08T20:10:03.268Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "observedAtUTC": "2026-10-08T20:10:52.475Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "observedAtUTC": "2026-10-08T20:10:55.065Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "observedAtUTC": "2026-10-08T20:10:58.193Z",
+            "currentStatus": "not_indexed",
+            "coverageState": "URL is unknown to Google",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "info",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemapUIStatus": "No referring sitemaps detected",
+            "sitemapIncludedInCurrentProduction": true,
+            "sourceType": "official_gsc_url_inspection",
+            "requestIndexingSubmitted": false
+          }
+        ],
+        "commercialInspectionLatestCounts": {
+          "Discovered - currently not indexed": 14,
+          "Page is indexed": 3,
+          "URL is unknown to Google": 1
+        },
+        "commercialLiveTests": [
+          {
+            "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "observedAtUTC": "2026-10-08T20:47:01.082Z",
+            "pageCanBeIndexed": true,
+            "pageFetch": "Successful",
+            "crawlAllowed": "Yes",
+            "indexingAllowed": "Yes",
+            "crawler": "Google Inspection Tool smartphone",
+            "userCanonical": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "googleCanonical": "Only determined after indexing",
+            "indexedByThisTest": false,
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "observedAtUTC": "2026-10-08T20:50:17.792Z",
+            "pageCanBeIndexed": true,
+            "pageFetch": "Successful",
+            "crawlAllowed": "Yes",
+            "indexingAllowed": "Yes",
+            "crawler": "Google Inspection Tool smartphone",
+            "userCanonical": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "googleCanonical": "Only determined after indexing",
+            "indexedByThisTest": false,
+            "requestIndexingSubmitted": false
+          }
+        ],
+        "pageIndexing": {
+          "lastUpdatedDateNative": "2026-10-04",
+          "indexed": 27,
+          "notIndexed": 229,
+          "reasons": {
+            "Discovered - currently not indexed": 214,
+            "Crawled - currently not indexed": 1,
+            "Page with redirect": 5,
+            "Redirect error": 7,
+            "Not found (404)": 2
+          },
+          "scope": "Native property report; not identical to sitemap URL universe"
+        },
+        "sitemap": {
+          "url": "https://paullegalassociates.com/sitemap.xml",
+          "status": "Success",
+          "lastReadNativeDate": "2026-10-05",
+          "submittedNativeDate": "2026-08-15",
+          "discoveredPages": 239,
+          "discoveredVideos": 0,
+          "resubmittedThisCycle": false
+        },
+        "queryPages": [
+          {
+            "keyword": "property lawyer near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:24:20.755Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 1,
+                "impressions": 5,
+                "ctrPercent": 20.0,
+                "averagePositionRounded": 1.6
+              },
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 34,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 5.6
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "property registration lawyers near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:03.213Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 1,
+                "impressions": 2,
+                "ctrPercent": 50.0,
+                "averagePositionRounded": 7.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "law firm navi mumbai",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:06.426Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 1,
+                "impressions": 3,
+                "ctrPercent": 33.3,
+                "averagePositionRounded": 23.7
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 1,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 23.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "law firms in navi mumbai",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:09.212Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 1,
+                "impressions": 50,
+                "ctrPercent": 2.0,
+                "averagePositionRounded": 19.5
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 3,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 21.3
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "lawyer near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:51.147Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 34,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 7.8
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "law firm near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:52.828Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 38,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 9.2
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 3,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 8.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "property verification lawyer",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:25:54.659Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 6,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 1.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "corporate lawyer near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:27:29.839Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 14,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 4.2
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 2,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 1.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "contract lawyer",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:27:31.619Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 4,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 15.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          },
+          {
+            "keyword": "employment lawyer",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-08T20:27:33.301Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 2,
+                "ctrPercent": 0.0,
+                "averagePositionRounded": 15.0
+              }
+            ],
+            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+          }
+        ],
+        "queryPageArchiveSHA256": "395882aef3008c2c0cf4b16d0ae8fe149414370b45624a42b9fda44b0d900da5",
+        "queryPageVariantStatus": "law firms in navi mumbai is a family variant of local-008; it is not a new candidate",
+        "gbp": {
+          "observedAtUTC": "2026-10-08T20:12:54.828Z",
+          "profileId": "13821946754957392159",
+          "cid": "3000609397491676502",
+          "knowledgeGraphId": "/g/11gxh4hy9j",
+          "businessName": "Paul Legal Associates",
+          "primaryCategory": "Law firm",
+          "secondaryCategories": [
+            "Lawyer",
+            "Legal services",
+            "Trial Lawyer",
+            "District attorney",
+            "Civil law attorney",
+            "Bankruptcy Lawyer",
+            "Family Lawyer",
+            "Property lawyer",
+            "Criminal defence lawyer"
+          ],
+          "categoryClassifications": [
+            {
+              "name": "Law firm",
+              "classification": "CORE",
+              "basis": "Actual principal-business category"
+            },
+            {
+              "name": "Lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Legal representation; confirm whether the broad extra category is operationally useful"
+            },
+            {
+              "name": "Legal services",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Genuine advisory and legal services"
+            },
+            {
+              "name": "Trial Lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Existing litigation practice"
+            },
+            {
+              "name": "District attorney",
+              "classification": "QUESTIONABLE",
+              "basis": "Exact category observed; no evidence of that specific public-office role. Owner decision required"
+            },
+            {
+              "name": "Civil law attorney",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Property/commercial civil disputes"
+            },
+            {
+              "name": "Bankruptcy Lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Existing insolvency-bankruptcy-NCLT/NCLAT practice page; owner confirms current importance"
+            },
+            {
+              "name": "Family Lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Existing family-matrimonial practice page; not automatically unrelated"
+            },
+            {
+              "name": "Property lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Core commercial property/title/conveyancing work"
+            },
+            {
+              "name": "Criminal defence lawyer",
+              "classification": "USEFUL_SECONDARY",
+              "basis": "Existing criminal-defence-bail-cybercrime practice page and relevant GBP queries"
+            }
+          ],
+          "address": "Office 301, 3rd Floor, Om Sai Building, Plot 101/3, Swami Nityanand Road, near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206",
+          "phone": "+91 7977063567",
+          "pinStatus": "Google Maps place URL shows marker coordinates 18.9982252, 73.1093973; entrance/pin accuracy remains owner-unconfirmed.",
+          "websiteBefore": "https://paullegalassociates.com/",
+          "appointmentBefore": "https://paullegalassociates.com/#/contact",
+          "businessHoursObserved": "Monday–Sunday 09:00–21:00",
+          "onlineServiceHoursObserved": "Monday–Friday 24 hours; Saturday/Sunday 09:00–17:00",
+          "seniorHoursObserved": "Monday–Wednesday 09:00–11:30; other days unset",
+          "trueHoursOwnerConfirmed": false,
+          "hoursChanged": false,
+          "specialHours": "Not set in visible manager view",
+          "openingDateObserved": "1986-05-19",
+          "openingDateOwnerConfirmed": false,
+          "description": "We at Paul Legal Associates are determined to comply with the letter and spirit of law. Our firm conducts intensive research, case study and forward-looking development activity to create new value for its customers. We realize that not everyone knows to use their voice and how difficult it is for an individual standing up for them self. We want to represent individuals so their voices can finally be heard; we are attorneys you can actually speak with, we emphasis on transparency and client communication. At the end of the day it’s the clients’ satisfaction we focus on and the clients’ overall experience so the attorney can properly step into the shoes of the client and bring the fight that their client could not bring alone.",
+          "serviceCatalogueBefore": {
+            "total": 704,
+            "byCategory": [
+              {
+                "category": "Law firm",
+                "count": 308
+              },
+              {
+                "category": "Lawyer",
+                "count": 19
+              },
+              {
+                "category": "Legal services",
+                "count": 232
+              },
+              {
+                "category": "Trial Lawyer",
+                "count": 4
+              },
+              {
+                "category": "District attorney",
+                "count": 13
+              },
+              {
+                "category": "Civil law attorney",
+                "count": 1
+              },
+              {
+                "category": "Bankruptcy Lawyer",
+                "count": 11
+              },
+              {
+                "category": "Family Lawyer",
+                "count": 19
+              },
+              {
+                "category": "Property lawyer",
+                "count": 49
+              },
+              {
+                "category": "Criminal defence lawyer",
+                "count": 48
+              }
+            ]
+          },
+          "serviceCatalogueAfterPendingSubmission": {
+            "total": 706,
+            "primaryCategoryCount": 310,
+            "status": "Two additions pending Google review"
+          },
+          "catalogueIssues": {
+            "status": "OWNER_SCOPE_REVIEW_REQUIRED; no bulk removal",
+            "examples": [
+              "Lemon law litigation",
+              "Chapter 7 / 11 / 13 bankruptcy",
+              "Three-strikes law litigation",
+              "Federal criminal defense litigation"
+            ],
+            "preparedServicesAlreadyRepresented": 16,
+            "missingPreparedServicesSubmitted": [
+              "POSH compliance and Internal Committee support",
+              "Tax and GST litigation"
+            ],
+            "causalCategoryDilutionOrRankingEffect": "NOT_ESTABLISHED"
+          },
+          "photos": {
+            "visibleOwnerGridPhotoCells": 22,
+            "logoVisible": true,
+            "coverPrompt": "Add a cover photo",
+            "recency": null,
+            "photosAdded": 0
+          },
+          "qAndA": "Not fully observable in available manager controls",
+          "duplicateAssessment": "No duplicate established; owner-confirmed separate Advocate Paul profile remains separate",
+          "performance": {
+            "periodStart": "2026-09-01",
+            "periodEnd": "2026-09-30",
+            "periodComplete": true,
+            "interactions": 115,
+            "calls": 33,
+            "directions": 54,
+            "websiteClicks": 28,
+            "bookings": 0,
+            "views": 1324,
+            "searches": 164,
+            "viewsBySurfaceDevice": {
+              "Search mobile": 952,
+              "Search desktop": 190,
+              "Maps mobile": 163,
+              "Maps desktop": 19
+            },
+            "disclosedQueries": [
+              {
+                "query": "कायदेशीर",
+                "reportedCount": 60,
+                "nativeCountLabel": "60",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "law",
+                "reportedCount": 50,
+                "nativeCountLabel": "50",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "legal",
+                "reportedCount": 28,
+                "nativeCountLabel": "28",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "lawyer",
+                "reportedCount": 26,
+                "nativeCountLabel": "26",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "advocate",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "advocate in panvel",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "advocate near me",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "bank litigation lawyer near me",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "bond paper vendor near me",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "IRRELEVANT_DO_NOT_OPTIMISE"
+              },
+              {
+                "query": "corporate firm in pnvel",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "corporate lawyer",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "employment lawyer",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "employment litigation",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "labour licence consultant",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "law firm",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "law firms in navi mumbai",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "litigation lawyer",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "property advocate in panvel",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "property lawyer in panvel",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "property lawyer navi mumbai",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "property lawyer near me",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "property title due diligence law firms",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "SERVICE_FIT_REVIEW"
+              },
+              {
+                "query": "stamp paper vendor near me",
+                "reportedCount": null,
+                "nativeCountLabel": "less than 15",
+                "countBasis": "GBP September discovery reporting, not keyword search volume",
+                "action": "IRRELEVANT_DO_NOT_OPTIMISE"
+              }
+            ],
+            "limitation": "Interactions are intent actions, not unique prospects, confirmed enquiries or retained matters."
+          },
+          "partialExtendedPerformance": {
+            "nativePeriodLabel": "May–October 2026; October incomplete",
+            "interactions": 583,
+            "views": 6702,
+            "searches": 520,
+            "monthlyInteractions": {
+              "May": 90,
+              "June": 135,
+              "July": 142,
+              "August": 96,
+              "September": 115,
+              "OctoberPartial": 5
+            }
+          },
+          "actualChanges": [
+            {
+              "field": "website",
+              "before": "https://paullegalassociates.com/",
+              "after": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+              "changedAtUTC": "2026-10-08T20:31:42.154Z",
+              "status": "SAVED_MANAGER_READBACK_AND_PUBLIC_MAPS_LINK_VERIFIED",
+              "evidence": "- heading \"Website\" [level=3]\n        - button \"Edit Website\":\n        - list:\n          - generic \"https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website\":\n            - generic: https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website\n      - region:\n        ",
+              "publicReadbackAtUTC": "2026-10-08T21:27:14.479Z"
+            },
+            {
+              "field": "appointmentURL",
+              "before": "https://paullegalassociates.com/#/contact",
+              "after": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+              "changedAtUTC": "2026-10-08T20:33:13.591Z",
+              "status": "SAVED_MANAGER_REOPENED_READBACK",
+              "publicReadbackAtUTC": "2026-10-08T21:27:14.479Z",
+              "publicStatus": "OLD_HASH_CONTACT_LINK_STILL_PUBLIC; await propagation"
+            },
+            {
+              "field": "service",
+              "name": "POSH compliance and Internal Committee support",
+              "description": "Employer support for policies, committee constitution, awareness and process obligations within an agreed scope.",
+              "status": "SUBMITTED_PENDING_GOOGLE_REVIEW",
+              "managerDescriptionReadbackAtUTC": "2026-10-08T20:43:12.774Z",
+              "price": "No price"
+            },
+            {
+              "field": "service",
+              "name": "Tax and GST litigation",
+              "description": "Legal support on tax notices, disputes and appeals within the relevant jurisdiction.",
+              "status": "SUBMITTED_PENDING_GOOGLE_REVIEW",
+              "managerDescriptionReadbackAtUTC": "2026-10-08T20:43:12.774Z",
+              "price": "No price"
+            }
+          ],
+          "publicUTMPropagationVerified": false,
+          "destinationVerification": [
+            {
+              "kind": "appointment",
+              "observedAtUTC": "2026-10-08T20:49:18.471Z",
+              "url": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+              "dom": {
+                "canonical": "https://paullegalassociates.com/contact/",
+                "formInputs": 3,
+                "h1": "Let's Build a Stronger Legal Position",
+                "mainScripts": [
+                  "/static/js/main.282269f8.js"
+                ],
+                "phone": "tel:+917977063567",
+                "title": "Contact Our Law Firm in Panvel | Paul Legal Associates"
+              }
+            },
+            {
+              "kind": "website",
+              "observedAtUTC": "2026-10-08T20:49:18.927Z",
+              "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+              "dom": {
+                "canonical": "https://paullegalassociates.com/",
+                "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
+                "mainScripts": [
+                  "/static/js/main.282269f8.js"
+                ],
+                "phone": "tel:+917977063567",
+                "title": "Property Lawyers in Panvel & Navi Mumbai | Paul Legal Associates"
+              }
+            }
+          ],
+          "reviewAggregate": {
+            "observedAtUTC": "2026-10-08T21:05:40.711Z",
+            "profileId": "13821946754957392159",
+            "rating": 4.9,
+            "reviewCount": 172,
+            "sourceLines": [
+              "    - img \"Rated 4.9 out of 5,\"",
+              "    - button \"172 Google reviews\"",
+              "    - generic \"You manage this Business Profile\":",
+              "      - generic: You manage this Business Profile"
+            ],
+            "loadedReviewSample": {
+              "all": 99,
+              "replied": 32,
+              "unreplied": 67,
+              "complete": false
+            },
+            "monthlyNewReviews": null,
+            "responseRate": null,
+            "reviewRepliesPublished": 0,
+            "reviewInvitationsSent": 0
+          },
+          "sourceBaselineArchiveSHA256": "e70de9fe97893f168790e942b63a07275b746cd124ef4310184a7620f8484eb3",
+          "serviceAreasObserved": [
+            "Kharghar",
+            "Seawoods",
+            "Mumbai Central",
+            "Shilphata",
+            "CBD Belapur",
+            "Kamothe",
+            "Kalamboli",
+            "Karanjade",
+            "TTC MIDC Pawne",
+            "Thane",
+            "Mumbai",
+            "Raigad",
+            "Jui",
+            "Navi Mumbai",
+            "Fort",
+            "Ulwe",
+            "Uran",
+            "Vashi",
+            "Panvel",
+            "Taloja"
+          ],
+          "reviewLinkVerification": {
+            "observedAtUTC": "2026-10-08T21:26:11.188Z",
+            "profileID": "13821946754957392159",
+            "reviewLink": "https://g.page/r/CVa1MF9ZTqQpEBM/review",
+            "nativeManagerSource": "Get more reviews panel on the existing managed Paul Legal Associates profile",
+            "qrTarget": "https://g.page/r/CVa1MF9ZTqQpEBM/review?utm_source=gbp&utm_medium=reviews&utm_campaign=qr",
+            "verifiedDestinationURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1068224,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+            "destinationName": "Paul Legal Associates",
+            "destinationPlaceID": "ChIJeWSAOR3p5zsRVrUwX1lOpCk",
+            "verification": "Opened the manager-provided review link. It displayed the Paul Legal Associates review composer. Cancelled without entering a review or posting.",
+            "officeAdoption": "Owner must test on a second device before printing or sharing through the existing appropriate-client procedure.",
+            "reviewInvitationsSent": 0,
+            "reviewRepliesPublished": 0,
+            "operatorReviewPosted": false
+          },
+          "publicLinkReadback": {
+            "observedAtUTC": "2026-10-08T21:27:14.479Z",
+            "profileID": "13821946754957392159",
+            "sourceURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1068224,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+            "website": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+            "appointment": "https://paullegalassociates.com/#/contact",
+            "websiteTaggedPublicly": true,
+            "appointmentTaggedPublicly": false,
+            "statement": "The owner-signed Maps listing exposes the updated website UTM. The booking link still shows the old hash Contact URL, despite the saved manager change; public propagation remains pending."
+          },
+          "publicUTMPropagationStatus": {
+            "website": "VERIFIED_PUBLIC_MAPS_LINK",
+            "appointment": "PENDING_PUBLIC_PROPAGATION"
+          },
+          "mapPinObserved": {
+            "latitude": 18.9982252,
+            "longitude": 73.1093973,
+            "source": "Official Google Maps place URL after opening the manager review link",
+            "observedAtUTC": "2026-10-08T21:26:11.188Z",
+            "entranceAccuracyVerified": false,
+            "searcherLocation": null
+          }
+        },
+        "keywordDecisions": [
+          {
+            "candidateId": "local-001",
+            "keyword": "lawyer near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 34 impressions, average position 7.79; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-002",
+            "keyword": "advocate near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 12 impressions, average position 21.08; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-003",
+            "keyword": "law firm near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 38 impressions, average position 9.24; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-004",
+            "keyword": "legal services near me",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 2 impressions, average position 7.5; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-005",
+            "keyword": "law firm Panvel",
+            "priority": "P0",
+            "basis": "Relevant local firm family appears in the owned GBP; exact candidate not returned in India GSC. Commercial/local fit supports monitoring; volume and competitive difficulty unknown.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-006",
+            "keyword": "lawyer Panvel",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 4 impressions, average position 7.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-007",
+            "keyword": "advocate Panvel",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 3 impressions, average position 16.33; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-008",
+            "keyword": "law firm Navi Mumbai",
+            "priority": "P0",
+            "basis": "India GSC exact query: 1 click / 3 impressions, average position 23.67; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-009",
+            "keyword": "lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 1 impressions, average position 78.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-010",
+            "keyword": "advocate Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/",
+            "intent": "Firm/entity discovery; do not force broad firm searches onto one specialist service.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor fixed local cohort and existing landing discovery; current Home snippet/path already fits broad firm intent."
+          },
+          {
+            "candidateId": "local-011",
+            "keyword": "property lawyer near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 1 click / 34 impressions, average position 5.65; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-012",
+            "keyword": "property lawyer Panvel",
+            "priority": "P0",
+            "basis": "GBP September discloses property lawyer in panvel (<15). Exact GSC candidate not returned; this is family evidence, not measured keyword volume.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-013",
+            "keyword": "property lawyer Navi Mumbai",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 15 impressions, average position 17.6; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-014",
+            "keyword": "real estate lawyer near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 6 impressions, average position 4.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-015",
+            "keyword": "real estate lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "General asset/legal decision; title, registration and disputes get narrower destinations. Intellectual-property searches are excluded.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-016",
+            "keyword": "CIDCO lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "intent": "CIDCO property/allotment/leasehold/transfer intent; first distinguish property work from NAINA planning or acquisition.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-017",
+            "keyword": "property verification lawyer",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 6 impressions, average position 1.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-018",
+            "keyword": "title verification lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-019",
+            "keyword": "property due diligence lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-020",
+            "keyword": "property verification lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-021",
+            "keyword": "title verification lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-022",
+            "keyword": "property title verification lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-023",
+            "keyword": "property documents verification lawyers near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 7 impressions, average position 1.43; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-024",
+            "keyword": "property verification lawyers near me",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 4 impressions, average position 1.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "intent": "Ownership/record-review intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-025",
+            "keyword": "conveyancing lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "intent": "Transaction preparation and completion, distinct from the title report.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-026",
+            "keyword": "conveyancing lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "intent": "Transaction preparation and completion, distinct from the title report.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-027",
+            "keyword": "property registration lawyer near me",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "intent": "Registration-stage documents and authority process.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-028",
+            "keyword": "property registration lawyers near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 1 click / 2 impressions, average position 7.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "intent": "Registration-stage documents and authority process.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-029",
+            "keyword": "property registration lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "intent": "Registration-stage documents and authority process.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-030",
+            "keyword": "RERA lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-031",
+            "keyword": "MahaRERA lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-032",
+            "keyword": "RERA lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-033",
+            "keyword": "MahaRERA lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-034",
+            "keyword": "builder dispute lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-035",
+            "keyword": "real estate dispute lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "intent": "Project/buyer/promoter/agent legal issue; preferred focused landing.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-036",
+            "keyword": "NAINA lawyer",
+            "priority": "P0",
+            "basis": "The existing NAINA landing is indexed and has 1 click / 12 impressions in the complete GSC periods; the prior independent NAINA answer cites PLA. Exact query volume and position remain unmeasured.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "intent": "Town-planning scheme records and asset facts.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Use the already indexed NAINA landing; compare its next settled query/page performance and genuine authority sources."
+          },
+          {
+            "candidateId": "local-037",
+            "keyword": "NAINA lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "intent": "Town-planning scheme records and asset facts.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-038",
+            "keyword": "land acquisition lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-039",
+            "keyword": "land compensation lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-040",
+            "keyword": "land lawyer Raigad",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-041",
+            "keyword": "land acquisition lawyer Raigad",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "intent": "Acquisition notice/award/compensation route, not a generic personal-injury compensation search.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-042",
+            "keyword": "airport land lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "intent": "Specific airport-area land facts; identify notification/authority before promoting an acquisition remedy.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-043",
+            "keyword": "agricultural land lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/agricultural-non-agricultural-land-purchase/",
+            "intent": "Land-use and purchase eligibility/document decision.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-044",
+            "keyword": "agricultural land lawyer Raigad",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/agricultural-non-agricultural-land-purchase/",
+            "intent": "Land-use and purchase eligibility/document decision.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-045",
+            "keyword": "corporate lawyer near me",
+            "priority": "P0",
+            "basis": "India GSC exact query: 0 clicks / 14 impressions, average position 4.21; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-046",
+            "keyword": "corporate lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-047",
+            "keyword": "business lawyer near me",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 6 impressions, average position 4.67; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-048",
+            "keyword": "commercial lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-049",
+            "keyword": "corporate lawyer Panvel",
+            "priority": "P0",
+            "basis": "GBP September discloses corporate firm in pnvel and corporate lawyer (<15 each). Exact GSC candidate not returned; prioritised for genuine service/location fit.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "intent": "Broad business legal decision; drafting/M&A/disputes narrow below.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-050",
+            "keyword": "contract lawyer",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 5162 impressions, average position 2.01; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+            "intent": "Specific document work; broad generic contract lawyer impressions alone are not a local-demand signal.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-051",
+            "keyword": "contract drafting lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/contract-drafting-vetting-transaction-documentation/",
+            "intent": "Specific document work; broad generic contract lawyer impressions alone are not a local-demand signal.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-052",
+            "keyword": "commercial litigation lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "intent": "Dispute diagnosis and forum options.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-053",
+            "keyword": "civil lawyer Panvel",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "intent": "Property or commercial civil disputes only; do not imply every civil specialism.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-054",
+            "keyword": "arbitration lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "intent": "Chosen dispute-resolution process.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-055",
+            "keyword": "arbitration lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "intent": "Chosen dispute-resolution process.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-056",
+            "keyword": "employment lawyer",
+            "priority": "P0",
+            "basis": "India GSC reports4242impressions/0 clicks; GBP also discloses employment lawyer/employment litigation (<15). Large generic impressions alone are not local demand.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Preserve the successful live-tested employment landing; separate generic Home impressions from qualified workplace enquiries."
+          },
+          {
+            "candidateId": "local-057",
+            "keyword": "labour lawyer",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 1 impressions, average position 1.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-058",
+            "keyword": "labour compliance lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-059",
+            "keyword": "employment lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-060",
+            "keyword": "labour law advocate near me",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 3 impressions, average position 2.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "intent": "Workforce facts and applicable law; broad unrelated employment impressions are segmented separately.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-061",
+            "keyword": "POSH consultant",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-062",
+            "keyword": "POSH lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-063",
+            "keyword": "POSH compliance services",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-064",
+            "keyword": "POSH legal consultant Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "intent": "Employer policy/committee/process support; not generic employment dispute intent.",
+            "commercialImportance": "High within the stated service boundary",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-065",
+            "keyword": "banking lawyer",
+            "priority": "P1",
+            "basis": "India GSC exact query: 0 clicks / 1 impressions, average position 3.0; service fit and period visibility support prioritisation, not a Maps rank.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "intent": "Financing/security/enforcement facts.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-066",
+            "keyword": "finance lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "intent": "Financing/security/enforcement facts.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-067",
+            "keyword": "debt recovery lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+            "intent": "Commercial receivables and statutory notice/process.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-068",
+            "keyword": "debt recovery lawyer Navi Mumbai",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/debt-recovery-cheque-bounce-msme-disputes/",
+            "intent": "Commercial receivables and statutory notice/process.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-069",
+            "keyword": "GST lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "intent": "Legal notice/dispute route, distinct from routine operational tax/finance work.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-070",
+            "keyword": "tax litigation lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "intent": "Legal notice/dispute route, distinct from routine operational tax/finance work.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-071",
+            "keyword": "FEMA lawyer",
+            "priority": "P1",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/international-trade-fema-cross-border-business/",
+            "intent": "Legal-regulatory transaction issue.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Monitor the preferred existing service landing crawl/indexation and query routing; no duplicate page or speculative snippet rewrite."
+          },
+          {
+            "candidateId": "local-072",
+            "keyword": "shipping lawyer",
+            "priority": "P2",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Maintain genuine maritime service and held-article policy; long-term supporting visibility only until local/commercial evidence improves."
+          },
+          {
+            "candidateId": "local-073",
+            "keyword": "maritime lawyer",
+            "priority": "P2",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Maintain genuine maritime service and held-article policy; long-term supporting visibility only until local/commercial evidence improves."
+          },
+          {
+            "candidateId": "local-074",
+            "keyword": "admiralty lawyer",
+            "priority": "P2",
+            "basis": "No exact disclosed India GSC row; demand is unknown. Retain genuine service mapping and use supporting evidence before expansion.",
+            "preferredLandingURL": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "intent": "Core existing service; eight held acquisition articles remain noindex until substantive review.",
+            "commercialImportance": "Supporting; qualify geography and matter type",
+            "keywordVolume": null,
+            "keywordDifficulty": null,
+            "localPackPosition": null,
+            "competitorsMeasured": null,
+            "nextAction": "Maintain genuine maritime service and held-article policy; long-term supporting visibility only until local/commercial evidence improves."
+          }
+        ],
+        "p0CandidateIds": [
+          "local-001",
+          "local-002",
+          "local-003",
+          "local-005",
+          "local-006",
+          "local-007",
+          "local-008",
+          "local-011",
+          "local-012",
+          "local-013",
+          "local-014",
+          "local-017",
+          "local-023",
+          "local-028",
+          "local-036",
+          "local-045",
+          "local-049",
+          "local-056"
+        ],
+        "keywordEvidenceCoverage": {
+          "relevantCandidates": 74,
+          "exactIndia90DayQueryMatches": 22,
+          "notReturnedUnknown": 52,
+          "priorityCounts": {
+            "P0": 18,
+            "P1": 53,
+            "P2": 3
+          },
+          "preferredURLsChanged": 0,
+          "basis": "Working18term operational P0 cohort from first-party visibility, genuine business fit and indexed landing evidence. Competition/demand/proximity are not fully measured."
+        },
+        "crawlStats": {
+          "nativeLastUpdated": "2026-10-06",
+          "nativePeriodLabel": "Last 90 days",
+          "totalRequests": 943,
+          "downloadBytes": 35097486,
+          "averageResponseTimeMs": 110,
+          "hostStatus": "Host had no problems in the last 90 days",
+          "responsePercentagesRounded": {
+            "200": 64,
+            "other4XX": 23,
+            "404": 7,
+            "301": 4,
+            "304": 2
+          },
+          "other4XX": {
+            "requests": 219,
+            "exampleRows": 216,
+            "exportPeriodStart": "2026-07-10",
+            "exportPeriodEnd": "2026-10-06",
+            "exportDayRows": 89,
+            "nonzeroReportingDays": [
+              {
+                "date": "2026-09-28",
+                "requests": 219
+              }
+            ],
+            "latestExampleTimeDisplayed": "9/29/26, 10:14 AM",
+            "exampleTimeZone": "NOT_LABELLED_IN_UI",
+            "selectedCommercialExample": {
+              "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+              "timeDisplayed": "9/29/26, 7:38 AM",
+              "purpose": "Discovery",
+              "googlebotType": "Other agent type",
+              "response": "Other client error (4XX)"
+            },
+            "archiveSHA256": "7d8bd5409444f10c60a20f0a380cd1f6e414060f7bb01b457a8b0f047ff1aaf8",
+            "currentBlockEstablished": false,
+            "securityChangesMade": false,
+            "limitation": "The daily chart puts all219requests on28Sep; UI example times show29Sep without a timezone label. No later nonzero 4XX day through6Oct is present. Current live tests pass. Do not infer a specific current WAF cause or primary Googlebot blockade without verified zone events."
+          }
+        },
+        "links": {
+          "sourceType": "official_gsc_links_ui",
+          "externalLinksReported": 7,
+          "linkingSitesReported": 6,
+          "topLinkedPage": "https://paullegalassociates.com/",
+          "sites": [
+            {
+              "domain": "linkedin.com",
+              "links": 2
+            },
+            {
+              "domain": "bestcriminallawyerinmumbai.com",
+              "links": 1
+            },
+            {
+              "domain": "infobel.com",
+              "links": 1
+            },
+            {
+              "domain": "magicpin.in",
+              "links": 1
+            },
+            {
+              "domain": "signalhire.com",
+              "links": 1
+            },
+            {
+              "domain": "sulekha.com",
+              "links": 1
+            }
+          ],
+          "newLinks": null,
+          "lostLinks": null,
+          "competitorGap": null,
+          "limitation": "Google-reported links may be incomplete; not Semrush backlink totals, authority scores or movement."
+        },
+        "analytics": {
+          "sourceType": "official_gsc_associations_ui",
+          "associatedServices": 0,
+          "pendingRequests": 0,
+          "nativeMessage": "No eligible Google Analytics property found for the signed-in firm account",
+          "ga4PropertyVerified": false,
+          "collectorChanged": false,
+          "websiteEventHooksPreserved": true,
+          "qualifiedEnquiries": null,
+          "retainedMatters": null,
+          "nativeAnalyticsUI": {
+            "accountIdObserved": "130147436",
+            "propertyIdVerified": null,
+            "screen": "My email communications preference modal",
+            "action": "Escape did not dismiss. Preferences were not saved or altered; property selector unavailable behind the prompt.",
+            "ownerAction": "Choose your preferred email communications and click Save, then identify the existing PLA property or explicitly authorise a free standard setup if none exists."
+          }
+        }
+      },
+      "citationCorrectionAction": {
+        "submittedBy": "OWNER",
+        "status": "SENT_VERIFIED_PENDING_PUBLIC_CORRECTION",
+        "sender": "info@paullegalassociates.com",
+        "recipient": "datagemba@gmail.com",
+        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
+        "submittedAtUTC": "2026-10-08T19:46:14Z",
+        "submittedAtIST": "2026-10-09T01:16:14+05:30",
+        "source": "Connected firm mailbox Sent message readback; owner explicitly confirmed sending. Private mail IDs/client data excluded.",
+        "covers": [
+          "bdir-property",
+          "bdir-finance"
+        ],
+        "messagesSentByOperator": 0,
+        "publicCorrectionsVerified": 0,
+        "resendNeeded": false
+      },
+      "citationReadbacks": [
+        {
+          "citationId": "bdir-property",
+          "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+          "observedAtUTC": "2026-10-08T21:06:40.680Z",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null,
+          "readback": "Still701/R3Moraj; principal phone present plus unconfirmed additional phone. Publisher response/public update pending."
+        },
+        {
+          "citationId": "bdir-finance",
+          "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+          "observedAtUTC": "2026-10-08T21:06:40.680Z",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null,
+          "readback": "Still701/R3Moraj; public correction not yet visible."
+        },
+        {
+          "citationId": "getlaw",
+          "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+          "observedAtUTC": "2026-10-08T21:06:40.680Z",
+          "addressStatus": "matches",
+          "phoneStatus": "not_observed",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "readback": "OmSai building/road/postcode match; suite absent;40years and9–21hours unconfirmed. This external change is not credited to the operator."
+        },
+        {
+          "citationId": "linkedin",
+          "sourceURL": "https://in.linkedin.com/company/paullegalassociates",
+          "observedAtUTC": "2026-10-08T21:06:40.680Z",
+          "addressStatus": "mixed",
+          "phoneStatus": "matches",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "readback": "Primary301OmSai matches; About retainsMoraj/Kalina and founding statements conflict. Editing remains owner-reserved."
+        }
+      ],
+      "automationUpdates": [
+        {
+          "id": "6ab7c12e40ec8191858d810b86261c88",
+          "title": "PLA SEO Ongoing Growth",
+          "verified": true,
+          "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
+          "isEnabled": true,
+          "updatedAtUTC": "2026-10-08T21:02:57.005386+00:00"
+        },
+        {
+          "id": "6ab7c137a46481919c9d99d4296d7948",
+          "title": "PLA SEO Monthly Analysis",
+          "verified": true,
+          "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
+          "isEnabled": true,
+          "updatedAtUTC": "2026-10-08T21:03:00.854721+00:00"
+        }
+      ],
+      "actualActions": {
+        "gbpWebsiteUTMSaved": 1,
+        "gbpAppointmentUTMSaved": 1,
+        "gbpServicesSubmittedPendingReview": 2,
+        "gbpCategoryChanges": 0,
+        "businessHoursChanges": 0,
+        "reviewRequestsSent": 0,
+        "reviewRepliesPublished": 0,
+        "ownerCitationEmailSubmissionsVerified": 1,
+        "citationRecordsCovered": 2,
+        "publicCitationCorrectionsVerified": 0,
+        "newBacklinksAcquired": 0,
+        "membershipsClaimed": 0,
+        "websiteContentChanges": 0,
+        "analyticsCollectorChanges": 0,
+        "payments": 0,
+        "officialGSCReportsImported": 5,
+        "commercialURLInspections": 18,
+        "officialLiveURLTests": 2,
+        "existingMonitoringPromptsUpdated": 2,
+        "officialReviewLinkVerified": 1,
+        "gbpWebsiteUTMPubliclyVerified": 1
+      },
+      "noChangeJustified": {
+        "websiteSnippetsContent": "Commercial sample small, existing Home/local service paths fit, two live tests fetch successfully. No speculative title churn, duplicate city pages or page expansion.",
+        "securityArchitecture": "The historical 4XX reporting day does not establish a current specific rule failure. No Cloudflare security weakening.",
+        "indexNow": "No website source or reviewed changed-URL manifest changed. Skip unchanged notifications."
+      },
+      "blockedAccounts": [
+        {
+          "platform": "Semrush",
+          "state": "CONNECTED_NO_API_UNITS",
+          "action": "No retry, purchase or paid-unit request; use native free Google evidence."
+        },
+        {
+          "platform": "GBP factual/permission fields",
+          "state": "OWNER_CONFIRMATION_PENDING",
+          "action": "Confirm true Mon–Fri/Saturday/Sunday/out-of-hours appointment policy; approve exact category/service cleanup and review replies before those edits."
+        },
+        {
+          "platform": "GA4",
+          "state": "NO_ELIGIBLE_PROPERTY_FOUND_IN_GSC_ASSOCIATIONS; correct property/collector unverified",
+          "action": "Owner identifies existing standard property/measurement ID and grants appropriate access, or explicitly authorises one free standard setup if none exists; do not guess or duplicate."
+        },
+        {
+          "platform": "Bing Webmaster",
+          "state": "UNSIGNED",
+          "action": "Owner signs into existing verified website through approved authentication; no paid connector."
+        },
+        {
+          "platform": "Maps rank tracker",
+          "state": "NO_DEFENSIBLE_LOCATION_CONTROLLED_FREE_METHOD_AVAILABLE",
+          "action": "Keep ranks unmeasured; owner-provided point/date/device evidence or a verified genuinely free tracking allowance is needed."
+        },
+        {
+          "platform": "Cloudflare",
+          "state": "ZONE_READ_ACCESS_UNAVAILABLE",
+          "action": "Inspect verified current crawler/security events if failures recur; no broad security change from historical errors."
+        },
+        {
+          "platform": "LinkedIn/Justdial",
+          "state": "OWNER_RESERVED_OR_LISTING_MANAGER_ACCESS_UNAVAILABLE",
+          "action": "Owner corrects confirmed existing profile details; preserve listing/review identity."
+        }
+      ],
+      "resume": {
+        "mainAtMeasurement": "4a3d0f424514b6da90e8ec990f176993a147b29f",
+        "latestMergedPRAtMeasurement": 48,
+        "currentLocalRankingBaseline": null,
+        "currentSemrushQuantitativeBaseline": null,
+        "nextHighestValueExecutableTask": "At the next sensible interval verify Google publication of the two submitted services and public appointment UTM propagation; check publisher reply/Bdir public readback without resending. Refresh the same 18 commercial URLs and 18 P0 terms from settled official Google data.",
+        "ownerDependentNextTask": "Owner-confirmed hours and explicit category/catalogue cleanup/review-reply permissions; identify the actual free GA4 property before collection.",
+        "releaseIdentity": "Read PR #49 metadata/body for the final merge SHA and deployment verification; sourceMain remains the actual measurement checkpoint.",
+        "publishingPR": 49,
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/49"
+      },
+      "preserved": {
+        "routes": 247,
+        "sitemapURLs": 239,
+        "practicePages": 83,
+        "insights": 154,
+        "maritimeHolds": 8,
+        "keywordCandidates": 74,
+        "excludedIntents": 3,
+        "preparedGBPServices": 18,
+        "competitorEntities": 7,
+        "technicalSEOAndWebsiteEventHooks": "UNCHANGED",
+        "independentAIHistory": "7October ChatGPT4/6 and GoogleAI Mode1/1 retained; no new independent answer or permanent ranking claim"
+      },
+      "budgetVerification": {
+        "additionalExpenditureINR": 0,
+        "repositoryVisibilityVerified": "public",
+        "existingWorkflowRunner": "ubuntu-latest",
+        "newWorkflowJobs": 0,
+        "paidAPIsOrServicesActivated": false,
+        "standardRunnerFreeBasis": "https://docs.github.com/en/actions/reference/runners/github-hosted-runners",
+        "change": "Add dependency-free evidence validation inside the existing standard public-repository deploy job; no extra artifact/cache/paid runner."
+      },
+      "validation": {
+        "recordValidation": "PASS; five official GSC reports and 23 dated observations",
+        "measurementTests": "17 passed",
+        "gitDiffCheck": "PASS",
+        "existingKeywordsAndPreferredURLs": "77 rows unchanged: 74 relevant / 3 excluded",
+        "rawExportPrivacy": "Only aggregate data and registered legal queries published; raw exports, mail IDs and tokens excluded",
+        "websiteSourceChanged": false,
+        "localNpmBuild": "Not run for evidence/script changes; existing deployment build/E2E verification required before claiming production success"
+      }
     }
   ],
-  "latestExecutionCycleId": "post-pr47-20261009-connected-access"
+  "latestExecutionCycleId": "post-pr48-20261009-free-google-execution"
 }

@@ -8,27 +8,28 @@ Use the current website reference: **Paul Legal Associates**, Office No. 301, 3r
 
 With genuine manager access, first read and record the existing profile ID/URL, name, categories, address/pin, phone, website/contact links, hours/special hours, services/service areas, reviews/responses/Q&A, real photos and any duplicates. Record the previous values before a correction and read back the live values afterwards. Preserve the existing profile and review history. A directory search link containing the former address is not a verified GBP identifier.
 
-Google categories describe the business; services describe its work. The public profile now displays Law firm; its actual manager category IDs/secondary list remain unknown. The following is a decision worksheet, **not a claim these categories are currently present**, and not a batch change instruction. Use only categories returned by the current India category picker/API.
+Google categories describe the business; services describe its work. **Actual manager baseline — 9 October IST:** primary Law firm and nine secondaries below. No category was changed. Practice pages establish that family/criminal/insolvency work exists; those categories are not automatically unrelated. Owner confirms current principal work and exact cleanup before edits. No category dilution/ranking effect has been established.
 
-| Candidate or earlier-reported category | Classification to investigate | Evidence needed / disposition |
+| Actual category | Classification | Evidence / disposition |
 |---|---|---|
-| Law firm | CORE primary candidate | The owned site represents a multi-practice law firm. Check available category and genuine existing profile before selecting it. |
-| Lawyer / attorney equivalent | CORE alternative | Consider when it is the closest supported principal-business category; not an extra keyword slot. |
-| Real estate attorney equivalent | SUPPORTING candidate | Existing property/title/conveyancing/RERA work supports consideration. Verify actual important work and the available category. |
-| Corporate / employment / tax / estate-planning equivalents | SUPPORTING candidates | Choose only genuinely important work demonstrated by current practice and qualified discovery evidence; do not add every service as a category. |
-| Bankruptcy attorney | QUESTIONABLE until verified | Insolvency/NCLT service exists. Confirm actual work and relevant enquiries before retaining or changing an earlier-reported category. |
-| Criminal justice attorney | QUESTIONABLE until verified | Confirm the firm's current criminal practice and enquiry relevance; do not remove solely because the growth focus is property/corporate. |
-| Family law attorney | QUESTIONABLE until verified | Confirm genuinely offered family work and useful enquiries before a decision. |
-| District attorney | QUESTIONABLE | Verify the exact live category, its meaning and factual fit. The reviewed website does not establish that specific public-office role. No automatic removal. |
-| Education, restaurant, doctor or other non-legal business | IRRELEVANT if actually present | No genuine business fit; document a live observation before a correction. Never add for traffic. |
+| Law firm | CORE | Actual principal-business category |
+| Lawyer | USEFUL_SECONDARY | Legal representation; confirm whether the broad extra category is operationally useful |
+| Legal services | USEFUL_SECONDARY | Genuine advisory and legal services |
+| Trial Lawyer | USEFUL_SECONDARY | Existing litigation practice |
+| District attorney | QUESTIONABLE | Exact category observed; no evidence of that specific public-office role. Owner decision required |
+| Civil law attorney | USEFUL_SECONDARY | Property/commercial civil disputes |
+| Bankruptcy Lawyer | USEFUL_SECONDARY | Existing insolvency-bankruptcy-NCLT/NCLAT practice page; owner confirms current importance |
+| Family Lawyer | USEFUL_SECONDARY | Existing family-matrimonial practice page; not automatically unrelated |
+| Property lawyer | USEFUL_SECONDARY | Core commercial property/title/conveyancing work |
+| Criminal defence lawyer | USEFUL_SECONDARY | Existing criminal-defence-bail-cybercrime practice page and relevant GBP queries |
 
-No category dilution or ranking effect has been established. Save the reason for a change and compare qualified discovery afterwards. Current [Google category guidance](https://support.google.com/business/answer/7249669?hl=en) and [business-representation guidance](https://support.google.com/business/answer/3038177?hl=en) support a specific principal category and few accurate additional categories.
+Manager shows 9 AM–9 PM every day, plus different online/senior hours. Website hours differ. True hours and map entrance/pin are owner-unconfirmed; no hours/pin edit was made. Current [Google category guidance](https://support.google.com/business/answer/7249669?hl=en) and [business representation](https://support.google.com/business/answer/3038177?hl=en) remain the factual policy references.
 
 ## Services and fixed attribution
 
-The dated evidence contains **18 prepared service names/descriptions**, each mapped to its existing preferred website destination: property, title/due diligence, conveyancing, registration, MahaRERA, NAINA, acquisition, corporate, contracts, litigation, ADR, employment, POSH, banking, debt, tax, FEMA and maritime. Publish only genuinely offered services supported by the live profile interface. These are prepared records, not published GBP services. Do not paste unverified prices, superlatives, deadlines or client results. A destination map is internal guidance; do not force a per-service URL into a field that does not support it. [Google services guidance](https://support.google.com/business/answer/9455399?hl=en).
+The dated evidence contains **18 prepared service names/descriptions**, each mapped to its existing preferred website destination: property, title/due diligence, conveyancing, registration, MahaRERA, NAINA, acquisition, corporate, contracts, litigation, ADR, employment, POSH, banking, debt, tax, FEMA and maritime. Publish only genuinely offered services supported by the live profile interface. The 18 prepared records are preserved. Manager reconciliation found 704 existing entries; 16 prepared services were already represented. Only missing POSH/Internal Committee and Tax/GST entries were submitted and reopened on 9 October IST, with no prices. Google review is pending; the manager shows 706 entries. No duplicate set of 18 additions or bulk removal was made. Do not paste unverified prices, superlatives, deadlines or client results. A destination map is internal guidance; do not force a per-service URL into a field that does not support it. [Google services guidance](https://support.google.com/business/answer/9455399?hl=en).
 
-Use the existing conversion contract's exact fixed links when editing is possible:
+Both existing fixed links below were saved and reopened/read back on 9 October IST. Tagged destinations preserve their untagged canonicals. Maps now exposes the website UTM; its appointment link still shows old hash Contact:
 
 - Website: `https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website`
 - Appointment/contact, where genuinely supported: `https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment`
@@ -41,32 +42,32 @@ Office administration can offer the same voluntary feedback opportunity after an
 
 Keep the request separate from fees, services, settlement or continuing representation. Use actual client interactions only; no employee/friend reviews manufactured for ranking, payments, discounts, benefits, scripted keywords or star requests. Let the client choose whether and what to write. Do not require a review on the premises or watch the client submit it. One optional reminder after 7–10 days is sufficient if the person has not declined and the firm's ordinary communication process permits it; stop afterwards. No message has been sent by this run.
 
-**WhatsApp request — ready text once the real profile link is verified**
+**WhatsApp request — existing prepared text; recipient selection still required**
 
-Hello [Name], thank you for your time. If you would like to share your experience with Paul Legal Associates, you can leave your own feedback here: [manager-verified Google review link]. This is entirely voluntary. Please avoid including case details, documents or anyone's private information. Thank you, Team PLA.
+Hello [Name], thank you for your time. If you would like to share your experience with Paul Legal Associates, you can leave your own feedback here: https://g.page/r/CVa1MF9ZTqQpEBM/review. This is entirely voluntary. Please avoid including case details, documents or anyone's private information. Thank you, Team PLA.
 
-**Email request — ready text once the real profile link is verified**
+**Email request — existing prepared text; recipient selection still required**
 
 Subject: Your feedback on Paul Legal Associates
 
 Dear [Name],
 
-Thank you for your time. If you wish, you may share your experience with Paul Legal Associates on Google using this link: [manager-verified Google review link]. Please write in your own words and keep case details, documents and personal information private. Feedback is voluntary and does not affect the services we provide.
+Thank you for your time. If you wish, you may share your experience with Paul Legal Associates on Google using this link: https://g.page/r/CVa1MF9ZTqQpEBM/review. Please write in your own words and keep case details, documents and personal information private. Feedback is voluntary and does not affect the services we provide.
 
 Regards,
 Team Paul Legal Associates
 
 **Optional reminder**
 
-Hello [Name], sharing the optional feedback link once more in case it is useful: [manager-verified Google review link]. Please feel free to disregard this message. Thank you, Team PLA.
+Hello [Name], sharing the optional feedback link once more in case it is useful: https://g.page/r/CVa1MF9ZTqQpEBM/review. Please feel free to disregard this message. Thank you, Team PLA.
 
 **Link and QR workflow**
 
-Obtain the review link/QR from the manager view of the **verified existing profile**. Open it on a second device and confirm it names the real PLA business and genuine office. Record the verified URL/profile ID and check date in the evidence register. Create/use a QR only for that verified URL; test scanning before placing it on a receipt or optional feedback card. The present run has no verified review link, so it creates no QR and inserts no guessed place ID. A passive optional card is not permission to pressure clients while on site. [Google review/link guidance](https://support.google.com/business/answer/3474122?hl=en) and [content policy](https://support.google.com/contributionpolicy/answer/7400114?hl=en).
+The existing profile's native “Get more reviews” panel supplies `https://g.page/r/CVa1MF9ZTqQpEBM/review` and a QR. At 8 October 21:26:11 UTC, the link opened the Paul Legal Associates review composer for the same place identity. It was cancelled without entering or posting a review. The native panel screenshot is saved privately; separate QR download was unsuccessful, so no downloadable QR file is claimed. Office administration must scan/test the native QR on a second device before optional use. No client has been contacted and office adoption is not yet verified. A passive optional card must not become pressure to review on the premises. [Google review/link guidance](https://support.google.com/business/answer/3474122?hl=en) and [content policy](https://support.google.com/contributionpolicy/answer/7400114?hl=en).
 
 **Private office log and public scorecard**
 
-Keep any client-level request/opt-out log in the firm's private matter system, not GitHub or analytics. A minimal private record is internal client reference, milestone, request date/channel, reminder date and declined/not-requested status. Do not add legal facts or review text to the SEO repository. The public operator record stores only dated aggregate Google review count/rating, new-review dates/count by period, response coverage, recency and non-identifying themes. First verified public Google profile snapshot: 172reviews/4.9 at7Oct2026 16:47:31UTC; new-review counts, recency and response coverage remain unknown.
+Keep any client-level request/opt-out log in the firm's private matter system, not GitHub or analytics. A minimal private record is internal client reference, milestone, request date/channel, reminder date and declined/not-requested status. Do not add legal facts or review text to the SEO repository. The public operator record stores only dated aggregate Google review count/rating, new-review dates/count by period, response coverage, recency and non-identifying themes. Fresh manager aggregate: 172 reviews / 4.9 at 8 October 2026 21:05:40.711 UTC (9 October IST), retaining the 7 October baseline. A loaded sample of 99 reviews has 32 replied / 67 unreplied; more remain available. Full response coverage, monthly velocity and exact publication dates are unknown.
 
 Measure velocity from review publication dates or successive verified profile snapshots; a count change alone can also reflect removals. Keep the same profile identity, period and provider. Bdir's 97 and conflicting ratings are excluded. Office administration reviews outstanding responses weekly and maintains a natural process without a review-number target.
 
@@ -88,11 +89,11 @@ Use the exact URLs in [the established authority ledger](Paul_Legal_Associates_L
 
 Do not send the obsolete former-address correction to GetLaw: that field is now aligned at building level. Its suite, experience and hours need factual owner review before any targeted request. The prepared address correction remains relevant to the two Bdir records.
 
-**GetLaw/Bdir factual correction text — prepared, not sent**
+**Existing factual correction text — Bdir owner-sent 9 October, GetLaw old-address request obsolete**
 
 Please update the existing Paul Legal Associates record at [exact record URL] to the firm's current published office and contact details: Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206; telephone +91 7977063567; email info@paullegalassociates.com; website https://paullegalassociates.com/. The current office details are available at https://paullegalassociates.com/contact/. Please preserve the existing record identity while correcting the former Moraj-office reference. Any additional phone, opening-hour, experience or case-count field should be resolved from the firm's verified records before publication.
 
-GetLaw's own contact page exposes `admin@getlaw.in`; this is a verified publisher route, not authorisation to send a message. Apply the correction directly through an existing genuine account when access is available. Publisher outreach requires an explicit sending instruction. Bdir's verified current contact route is https://bdir.in/p/contact, exposing datagemba@gmail.com; no claim/login/form route was found there. Submit the existing correction only with sending/account authorisation, then verify public readback; do not create a replacement or purchase a listing.
+GetLaw's own contact page exposes `admin@getlaw.in`; this is a verified publisher route, not authorisation to send a message. Apply the correction directly through an existing genuine account when access is available. Publisher outreach requires an explicit sending instruction. Bdir's verified current contact route is https://bdir.in/p/contact, exposing datagemba@gmail.com; no claim/login/form route was found there. The owner sent the single correction covering both records; Sent-mail verified. Both public pages still show Moraj. Await the publisher and verify readback; do not resend or create a replacement.
 
 **Justdial owner action — prepared, not performed**
 
@@ -145,11 +146,13 @@ Eleven adversarial checks cover false location/rank, provider-average substituti
 
 ## Current access and office execution — 9 October 2026 IST
 
-Semrush installation is complete:14 callable tools, active subscription, actual `no_api_units` responses. Do not repeat install advice or report current installed:false. Owner provides MCP API units at https://www.semrush.com/mcp-access before the next report attempt. GSC Wizard renewal is no longer part of execution: use official read-only OAuth/API or owner28/90day Web performance exports plus Page Indexing/Sitemaps from the existing property. Do not reload/bypass Google screening or create another property.
+Official GSC/ownedGBP were used. Semrush remainsknownno_api_units with no retry/purchase/requestforpaidunits; GSCWizard permanentlyretired. Five native GSCexports,18commercial inspections, two liveGoogletests, currentGBPbaseline/SeptemberPerformance and fouractualGBPchanges are recorded in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Raw source archives remainprivate; only registeredlegal query matches and aggregatefacts are public.
 
-The existing Bdir correction text is now staged as one actual unsent Gmail draft in info@paullegalassociates.com to the verified publisher datagemba@gmail.com, subject “Correction of current office details — Paul Legal Associates (two existing Bdir records)”. Readback verified DRAFT status, sender/recipient/body and both URLs. No sending instruction has been received; no publisher email or citation correction is submitted. Owner may authorise sending this exact draft or send it from the firm mailbox; the operator then records submission and checks both public records. Keep private mail/client identifiers out of GitHub.
+Owner sent the existing Bdir email covering bothrecords9October01:16:14IST; Sent readback verified. Publicpages stillMoraj:SUBMITTED/PENDING, not corrected. Do not resend or request the obsolete sendingpermission. LinkedIn remainsowner-reserved.
 
-For GBP, owner opens the existing firm's manager view in their own authorised browser; supply its actual business-information baseline and confirmed Mon–Fri/Saturday/Sunday hours before edits. The actual service catalogue must be reconciled against the18 prepared services; do not infer a manager category from public service labels. Existing172/4.9review baseline remains7October and the prepared feedback process is not yet adopted. Existing fixed UTMs and privacy-safe enquiry hooks are unchanged.
+Website andappointmentUTMs saved/read back;two missingpreparedservices/descriptions submittedpendingGoogle. Categories/hours/othercatalogueentries/reviewreplies unchanged. Owner must confirmtruehours, exactcategory/servicecleanup and review-responsepermission; no automaticclient invitations. GA4property remainsunverified (GSCfoundnoeligibleproperty/association); do not install a guessedID. Bingunsigned; Mapslocation-controlledranks unavailable.
+
+The existing operator now imports official privateCSVZIPs into an existing executioncycle, preserving dates/country, anonymous-query gaps and non-additive pages. It publishes only exact registeredlegalqueries, keeps GSCaverages separate fromMapsrank/volume, and labels unreturnedrowsunknown. Existing growth/monthly instructions are updated without schedule changes. No duplicate dashboard or paidAPI dependency.
 
 ## Actual profile checkpoint for the next office action
 

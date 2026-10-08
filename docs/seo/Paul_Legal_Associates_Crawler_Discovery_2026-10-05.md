@@ -2,6 +2,14 @@
 
 The live robots file allows `User-agent: *`, has no Disallow, and references the apex sitemap. This permits Googlebot, Bingbot and OAI-SearchBot at the robots layer. Successful public curl/cloud-browser HTML fetches are recorded with release evidence. **These clients are not verified search crawlers**, and a user-agent label alone would not prove crawler identity.
 
+## Official Google crawler evidence — 9 October 2026 IST
+
+Native GSC crawl stats, updated 6 October: 943 requests, 35,097,486 bytes, 110 ms average, no host problems in its 90-day window. Other-4XX export: 219 requests on the chart date 28 September, with 216 example URLs. UI example times show 29 September without a timezone label. No later nonzero 4XX chart day appears through 6 October. A Corporate advisory example is Discovery / Other agent type; no exact current WAF cause is established.
+
+Official live Employment and Airport tests both fetch successfully under Google Inspection Tool smartphone, permit crawling/indexing and show correct self-canonicals and breadcrumbs. Live eligibility does not index the page or prove access by every Google/Bing/OAI crawler. No Cloudflare, robots or unchanged indexing/IndexNow action was justified.
+
+Google generative-AI beta reports 204 impressions over 28 days / 322 over 90 days, without click or rank metrics. Independent 7 October AI-answer observations remain separate dated history. Bing is unsigned. [Actual evidence](evidence/Local_Growth_Execution_2026-10-07.json); raw exports stay private.
+
 ## Actual limitations and security evidence
 
 GitHub Actions HTML checks received Cloudflare 403 while independent public clients received HTTP 200 and complete content. PR #27 Contact Ray: `a45b5e6ea915f27a-IAD` at 09:23 UTC. PR #28 employment-article Ray: `a45c08a75b35c07e-IAD` at 11:19 UTC; other changed-URL Rays are in run 37302030413. PR #29 Ray: `a45c2ae6deddd300-ORD` at 11:43 UTC, independently verified against HTTP 200 and the deployed bundle. This is a client-specific restriction, not a confirmed site outage or proof that Googlebot/Bingbot/OAI-SearchBot is blocked.

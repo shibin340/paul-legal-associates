@@ -1,38 +1,83 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
-**Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Last successfully retrieved complete Search Console date (historical):** 2 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
+**Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
 
-## Current Local Search Scorecard — 9 October 2026 IST, post-PR #47 execution
+## Current Local Search Scorecard — 9 October 2026 IST
 
-Current main independently verified at `81176596503291dbf428fd45e8851de7a13f2f21`, merged [PR #47](https://github.com/shibin340/paul-legal-associates/pull/47). PRs #45–47 are complete. Actual cycle `post-pr47-20261009-connected-access` in [the existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the old current Semrush installation and GSC-renewal instructions; prior measured baselines remain dated history. Publishing [PR #48](https://github.com/shibin340/paul-legal-associates/pull/48) records this actual access/citation cycle; its metadata/body records the final release identity.
+Measurement source main: `4a3d0f424514b6da90e8ec990f176993a147b29f` / merged PR #48. PRs #45–48 are complete. The actual cycle `post-pr48-20261009-free-google-execution` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the dated access-only instructions below. Publishing [PR #49](https://github.com/shibin340/paul-legal-associates/pull/49) records its final merge SHA and deployment result in its metadata/body. **Additional expenditure: ₹0.** Semrush is connected but has `no_api_units`; no retries or purchases. GSC Wizard is retired.
 
-Semrush is **installed, connected and callable (14 tools)**. Its seven initial discovery requests all returned `no_api_units`, confirming an active subscription with insufficient MCP API units. No report schema/data, India database or local tracking campaign could be queried. Owner action: open https://www.semrush.com/mcp-access in the connected account and make API units available; no purchase was made. Do not retry until units are available. All organic/keyword/backlink/authority values stay unknown, not zero.
+### Official Search Console
 
-The existing [observation history](evidence/Local_Search_Observations.json) has 18 records after two current Bdir readbacks: ten citation reads, seven independent AI answers and one Google review snapshot. The 74 relevant keywords, three exclusions, preferred URLs, 18 proposed GBP services and seven competitor entities are unchanged.
+| Complete period; all countries and devices | Clicks | Impressions | CTR from counts | Native UI average position, rounded |
+|---|---:|---:|---:|---:|
+| 9 September–6 October 2026; 28 days | 42 | 17,395 | 0.241% | 2.5 |
+| 9 July–6 October 2026; 90 days | 144 | 48,473 | 0.297% | 2.6 |
 
-| Dimension | Actual latest state | Exact remaining dependency/action |
+The exact 90-day India report gives 142 clicks and 48,059 impressions. Native exports, including Countries, Devices and Search appearance, were imported with source hashes; raw query strings and mail identifiers stay private. A three-month preset was not substituted for 90 days.
+
+The 257 disclosed 28-day queries contain 15 branded and 5 non-branded clicks; 22 site clicks are absent from query rows. The 661 disclosed 90-day queries contain 68 branded and 13 non-branded clicks; 63 site clicks are absent. The firm/partner classification rule is recorded in evidence. These incomplete rows cannot establish the full site's non-branded share.
+
+Home has 40 of 42 site clicks over 28 days and 135 of 144 over 90 days, a 95.2% and 93.8% comparison. Page metrics are not additive with property totals: 90-day page clicks sum to 145. NAINA has 1 click and 12 impressions in both overlapping periods; other returned commercial rows have no clicks. Unreturned pages remain UNKNOWN. Over 90 days, mobile has 96 clicks / 3,399 impressions and desktop 48 / 45,055. Search appearance returns no rows; this does not mean zero AI visibility.
+
+### Commercial indexation and crawler evidence
+
+All 18 commercial URLs were freshly inspected. The latest result is **3 indexed / 14 discovered, not indexed / 1 unknown**. Corporate/M&A, Finance advisory and NAINA are indexed. The [existing tracker](evidence/Tier_A_Inspection_2026-10-05.json) retains earlier observations and current crawl/canonical/sitemap fields; Home and Contact's older rows are not presented as fresh inspections.
+
+Official live tests of Employment and Airport land both fetch successfully, allow crawling/indexing and show the expected self-canonical. This establishes test eligibility, not indexing or access by every crawler. No unchanged Request indexing or IndexNow submission was made. Page Indexing, updated 4 October, reports 27 indexed / 229 not indexed: 214 discovered, 1 crawled but not indexed, 7 redirect errors, 5 redirects and 2 not found. The sitemap reports Success, 239 discovered pages and a 5 October last read. Finance's page-level temporary sitemap error coexists with indexed status and the successful overall sitemap.
+
+Crawl stats, updated 6 October, report 943 requests and no host problems in the native 90-day window. The 4XX export has 219 requests on one reporting day, 28 September, and none on later chart dates through 6 October. Example times show 29 September without a timezone label. A commercial example is labelled Discovery / Other agent type. These dated errors do not identify a current WAF cause; no security change was justified.
+
+### Current 18-term P0 cohort
+
+The [existing CSV](evidence/Local_Keyword_Queue.csv) retains all 74 relevant candidates, 3 excluded intents and their original preferred URLs. `measuredPriority` records the current working decision; `priority` preserves the provisional baseline. There are 22 exact India query matches and 52 rows not returned. Volume, difficulty, competitor positions and Maps ranks remain unknown. The 18-term working cohort uses first-party visibility, genuine service fit and indexed-landing evidence; competition and proximity are not fully measured.
+
+| P0 keyword | Existing preferred page | India 90-day clicks / impressions / average position | Basis |
+|---|---|---|---|
+| lawyer near me | [/](https://paullegalassociates.com/) | 0 / 34 / 7.79 | Exact India GSC row; genuine service fit |
+| advocate near me | [/](https://paullegalassociates.com/) | 0 / 12 / 21.08 | Exact India GSC row; genuine service fit |
+| law firm near me | [/](https://paullegalassociates.com/) | 0 / 38 / 9.24 | Exact India GSC row; genuine service fit |
+| law firm Panvel | [/](https://paullegalassociates.com/) | UNKNOWN — exact row not returned | GBP local-family evidence |
+| lawyer Panvel | [/](https://paullegalassociates.com/) | 0 / 4 / 7.0 | Exact India GSC row; genuine service fit |
+| advocate Panvel | [/](https://paullegalassociates.com/) | 0 / 3 / 16.33 | Exact India GSC row; genuine service fit |
+| law firm Navi Mumbai | [/](https://paullegalassociates.com/) | 1 / 3 / 23.67 | Exact India GSC row; genuine service fit |
+| property lawyer near me | [/expertise/property-real-estate/](https://paullegalassociates.com/expertise/property-real-estate/) | 1 / 34 / 5.65 | Exact India GSC row; genuine service fit |
+| property lawyer Panvel | [/expertise/property-real-estate/](https://paullegalassociates.com/expertise/property-real-estate/) | UNKNOWN — exact row not returned | GBP local-family evidence |
+| property lawyer Navi Mumbai | [/expertise/property-real-estate/](https://paullegalassociates.com/expertise/property-real-estate/) | 0 / 15 / 17.6 | Exact India GSC row; genuine service fit |
+| real estate lawyer near me | [/expertise/property-real-estate/](https://paullegalassociates.com/expertise/property-real-estate/) | 0 / 6 / 4.0 | Exact India GSC row; genuine service fit |
+| property verification lawyer | [/expertise/property-title-verification-due-diligence/](https://paullegalassociates.com/expertise/property-title-verification-due-diligence/) | 0 / 6 / 1.0 | Exact India GSC row; genuine service fit |
+| property documents verification lawyers near me | [/expertise/property-title-verification-due-diligence/](https://paullegalassociates.com/expertise/property-title-verification-due-diligence/) | 0 / 7 / 1.43 | Exact India GSC row; genuine service fit |
+| property registration lawyers near me | [/expertise/property-registration-services-mumbai-navi-mumbai/](https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/) | 1 / 2 / 7.0 | Exact India GSC row; genuine service fit |
+| NAINA lawyer | [/expertise/naina-town-planning-scheme-services/](https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/) | UNKNOWN — exact row not returned | Indexed NAINA landing: 1 click / 12 impressions; prior independent citation |
+| corporate lawyer near me | [/expertise/corporate-commercial-advisory/](https://paullegalassociates.com/expertise/corporate-commercial-advisory/) | 0 / 14 / 4.21 | Exact India GSC row; genuine service fit |
+| corporate lawyer Panvel | [/expertise/corporate-commercial-advisory/](https://paullegalassociates.com/expertise/corporate-commercial-advisory/) | UNKNOWN — exact row not returned | GBP local-family evidence |
+| employment lawyer | [/expertise/labour-employment-hr-workplace-compliance/](https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/) | 0 / 4242 / 1.74 | Exact India GSC row; genuine service fit |
+
+
+These positions are country-filtered period averages, **not Maps ranks or keyword search volumes**. Ten query-by-page checks show Home and legacy hash Contact carrying commercial queries rather than their preferred services. The property-near-me click went to legacy Contact; the registration click went to Home. Contract lawyer has 5,162 India impressions and no clicks, a P1 diagnostic. The small commercial sample and successful live tests do not justify speculative title, URL or content changes.
+
+### GBP, reputation, authority and conversions
+
+| Dimension | Actual result | Limitation / next action |
 |---|---|---|
-| Semrush baseline / movement | Connection verified; `no_api_units`, active subscription; no quantitative reports retrieved | Owner provides MCP API units; then India domain totals/full positions, competitors, keyword and referring-domain gaps |
-| P0 / local organic | Original mappings and provisional business priorities retained; zero measured enrichment rows | Use actual demand/competition/positions to select 10–20 P0 terms; no new keyword universe |
-| Maps / Local Pack / near-me | No controlled rank observations; Semrush project/tracking discovery also blocked by units | Inspect genuine existing campaign/subscription capability when reports work; no fabricated grid or Top-3 count |
-| GBP changes / baseline | Zero edits; current manager ID/categories/pin/services/Performance still unavailable | Owner opens the existing profile manager; capture baseline before reconciling actual categories/catalogue and fixed UTMs |
-| Business hours | Owner confirmation still pending; website and Google hours conflict | Owner supplies genuine Mon–Fri, Saturday and Sunday hours before any edit |
-| Reviews | **172 / 4.9**, observed 7 October; retained, not remeasured. Zero requests/replies sent | Manager review dates/responses and verified review link; owner office adoption of existing voluntary workflow |
-| Citations | Both Bdir records still show Moraj. **One genuine unsent Gmail draft** covering both records created in the connected firm mailbox and read back; zero submissions/verified corrections | Owner authorises sending to verified publisher or sends saved draft; record submission, then verify both public pages. GetLaw's Om Sai change remains externally observed; LinkedIn remains owner-edited |
-| Competitor / authority / backlinks | Existing real AI source evidence retained; no quantitative gap and no new link/membership acquired | Semrush API units for measured gaps; owner facts/photos/terms before any editorial application or paid membership |
-| AI visibility | Retain 7 October ChatGPT4/6 website-cited and Google AI Mode1/1 mentioned; no new independent answer this cycle | Repeat the exact fixed prompts at the existing sensible interval; single answers are not rankings/trends |
-| Search Console | GSC Wizard retired by explicit owner instruction; **no Wizard calls or renewal this cycle**. Official API not exposed; no new Google metrics/inspections | Existing official property: export Web last28days and last90days Queries/Pages with Clicks, Impressions, CTR, Position/date filters; Page Indexing export and Sitemaps status. Use authorised official read-only API/OAuth if available; never bypass unusual-traffic screening or create a duplicate property |
-| Conversions | Existing enquiry hooks/UTM scheme preserved; no collector configuration or measured actions/leads | Authorised actual GA4/GTM property/container, one collector and DebugView verification |
-| Production / preservation | Current Home/Contact publicly retrieved; Om Sai address/phone visible. Runner HTTP403 recorded separately, not claimed as outage or bot result. No website or technical framework changes | PR47 remains latest verified build:247routes/239sitemapURLs/8112links/12navigation checks; no new build or IndexNow submission claimed |
+| Profile | Existing Om Sai profile ID `13821946754957392159`; Law firm primary and 9 secondary categories | District attorney is QUESTIONABLE. Genuine family/criminal/insolvency pages exist. Categories unchanged pending exact owner confirmation |
+| Attribution | Website and appointment UTMs saved and reopened; website UTM also observed on Maps | Public appointment still shows legacy hash Contact. Await propagation; live tagged destinations preserve their untagged canonicals |
+| Services | 16 prepared services were already represented among 704 entries. Only missing POSH/Internal Committee and Tax/GST entries were submitted; manager now shows 706 | Google review pending. No prices, duplicate set of 18 additions or bulk deletion. Inapplicable catalogue examples require owner scope review |
+| Hours / pin / visuals | Manager shows 09:00–21:00 daily, conflicting with website hours. Map marker coordinates observed; 22 visible photo cells and logo | True hours, entrance/pin accuracy and genuine photos need owner confirmation. None changed |
+| September Performance | 115 interactions: 33 call interactions, 54 directions, 28 website clicks and 0 bookings; 1,324 views / 164 searches | Native intent actions, not connected calls, unique prospects or enquiries. Small search counts remain `<15` |
+| Reviews | Fresh 9 October IST: 172 reviews / 4.9. Loaded sample: 99 reviews, 32 replied / 67 unreplied. Official review link opens the correct PLA composer | Full response rate and monthly velocity unknown. Composer cancelled without posting. No replies or invitations sent; second-device QR test and office adoption pending |
+| Citations | Owner's single Bdir email, covering two records, sent 9 October 01:16:14 IST and independently verified in Sent mail | Both pages still show Moraj: SUBMITTED / PENDING, zero verified corrections. Do not resend. GetLaw shows Om Sai; LinkedIn About remains mixed and owner-reserved |
+| Links / competitors | GSC reports 7 external links from 6 sites, all to Home; existing seven competitors retained | Incomplete Google link coverage. No quantitative backlink gap, new/lost trend or acquired link |
+| AI | Official Google generative-AI beta: 204 impressions over 28 days and 322 over 90 days | No click or position metric. Separate from dated 7 October ChatGPT 4/6 and Google AI Mode 1/1 observations; no new independent answer/rank claim |
+| Analytics / enquiries | GSC finds no associated service or eligible Analytics property for the signed-in account. Analytics is blocked by an email-preference prompt | Correct GA4 property/collector unverified. No preferences or tracking changed. Website actions, qualified enquiries and retained matters UNKNOWN |
+| Maps ranks | No defensible free location-controlled method obtained | UNMEASURED; no grid or Top-3 claim |
+| Monitoring | Existing growth/monthly prompts updated and read back, schedules and enabled state retained | Free Google evidence and same cohorts; Site Health Watch unchanged |
 
-Next execution: once the owner confirms MCP units, capture the actual India reports and use them on the existing cohort. Send the staged publisher correction only with explicit sending authority, then verify public readback. Obtain true hours and the existing GBP manager baseline; use official GSC exports/read-only OAuth. Keep pending counts/positions unknown and prior review/AI observations dated. No prepared or unsent item is reported as an implemented external correction.
+**Next execution:** check service approval and public appointment propagation at a sensible interval; check Bdir's public correction/publisher response without resending. Compare the same 18 P0 terms and commercial pages in settled free reports. Owner-dependent work is true hours, exact category/catalogue cleanup and review-reply permission, the actual free GA4 property, and existing Bing sign-in. Website source, routes, sitemap, event hooks and eight held articles are unchanged.
 
-## Current measurement availability — 7 October 2026 IST
+## Historical measurement availability — 7 October 2026 IST
 
-The post-PR46 account and property-list diagnostics are blocked by GSC Wizard payment_required (inactive provider trial/subscription), despite the generic INVALID_ARGUMENT wrapper. This does not establish a Google property-permission failure. Current Tier-A indexed percentage, new crawls and search performance are **unknown**. The 3/18 inspection result from 5 October and performance through 2 October below remain historical baselines. Public HTTP 200, canonical checks and a successful build do not refresh Google indexation. Existing tracker identity/configuration is preserved; no unchanged indexing request was made.
-
-Historical source-release checkpoint: [PR #39](https://github.com/shibin340/paul-legal-associates/pull/39), main `e3de9ce39121685d6c1139043eddfc22b11cc837`. The recovered registration/stamp guides are live and eight targeted article reviews are deployed. Independent30-route checks cover all18 commercial landings, Home/Contact, two changed guides and eight holds; article/static metadata/source/service/date checks pass. Sitemap239/24 truthful dates, root key and referenced bundle match. Shared JS579970 raw /153340 computed gzip bytes(Node24); the split optimisation is preserved. One selective2-URL IndexNow batch returned200. This is delivery evidence, not Google/Bing indexing or leads. The PF/ESI/principal-employer source review is now locally validated and queued for release. GSC retry at this boundary still returns payment_required; GBP, actual GA4/GTM collector, Cloudflare zone events, Bing reports, fieldCWV and owner claim/hour records remain unavailable. Detailed release evidence and next queue are in the existing cycle and remaining-work records.
+The following historical availability statements are superseded by the current9October official-Google section above. Preserve their dated source history; do not carry forward paid-unit, Wizard-renewal or no-Google-access instructions.
 
 ## Historical execution checkpoint — 5 October 2026
 
