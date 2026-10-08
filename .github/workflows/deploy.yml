@@ -20,6 +20,11 @@ jobs:
         with:
           node-version: '18'
 
+      - name: Validate local-search evidence
+        run: |
+          python3 scripts/local-search-records.py check
+          python3 scripts/test-local-search-records.py
+
       - name: Install dependencies
         run: npm install
 

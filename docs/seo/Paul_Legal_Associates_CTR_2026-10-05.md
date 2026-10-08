@@ -1,5 +1,13 @@
 # Paul Legal Associates — CTR decision register
 
+## Current decision — 9 October 2026 IST
+
+**NO CHANGE JUSTIFIED.** India 90-day property lawyer near me has 1 click / 34 impressions; registration has 1 / 2. The law-firms-in-Navi-Mumbai family variant has 1 / 50 on Home. Contract lawyer and employment lawyer have 5,162 and 4,242 impressions with no clicks. These generic impressions are not local keyword demand; GSC averages are not Maps ranks.
+
+Only 3 of 18 commercial pages are indexed; two current live tests pass. Preserve existing titles, preferred URLs and the legacy handler. Prioritise landing discovery, confirmed entity facts and genuine authority before a snippet experiment. No title/content/date change shipped. [Actual evidence](evidence/Local_Growth_Execution_2026-10-07.json).
+
+## Historical decision — 5 October 2026
+
 5 October 2026. **No metadata experiment deployed in this cycle.** Meaningful high-intent local service/query evidence is too limited, and many intended landings are not yet indexed. The largest disclosed local firm query has 22 impressions; its 1 click and position 14.36 are a small sample. Generic Home terms have thousands of zero-click impressions but are not a sound commercial optimisation target.
 
 Recent titles/descriptions remain stable. Reassess from settled data around 19 October, conditional on fresh crawls and adequate same-query/page observations. A date alone does not make the sample adequate. [Current title/description baselines](evidence/Query_Ownership_2026-10-05.json) are preserved for every preferred landing. New title/description and deployment date are null until a justified experiment is actually shipped.

@@ -1,5 +1,11 @@
 # Enquiry measurement contract — 5 October 2026
 
+## Actual attribution and interactions — 9 October 2026 IST
+
+Website and appointment GBP UTMs were saved and reopened. Maps now exposes the tagged website; its appointment still shows the old hash Contact link. Tagged Home/Contact load the current bundle and preserve their untagged canonicals. September native GBP Performance reports 33 call interactions, 54 directions, 28 website clicks and 0 bookings, totaling 115 interactions. These pre-change intent actions are not GA4 events or unique qualified leads.
+
+GSC finds no eligible Analytics property for the signed-in firm account. Analytics opens to an email-preference prompt that Escape does not dismiss. No preference, property, collector or event hook was changed. Owner must save their own preferences and identify the actual free PLA property before collection. Website actions, qualified enquiries and retained matters remain UNKNOWN. [Evidence](evidence/Local_Growth_Execution_2026-10-07.json).
+
 ## Implemented source behaviour
 
 Document-level click handling emits one `dataLayer` custom event and a `pla:enquiry-action` browser event. The contact form emits a validated WhatsApp handoff, including keyboard submission. A handoff is not proof of a sent WhatsApp message, received enquiry, qualified call or retained matter. There is no server form delivery.
@@ -20,11 +26,11 @@ Parameters are limited to known `page_path`, `landing_page_path`, coarse `traffi
 
 Source tests verify one phone event, one directions event, no handoff for an invalid form, exactly one handoff for a valid form, prevention of form GET submission, and absence of test personal data from event payloads. Mobile/browser tests and production checks are recorded in the release evidence.
 
-**GA4/GTM collection is BLOCKED, not complete.** Source/production inspection found no GA4/GTM tag or measurement ID. The connected GSC Wizard account has Search Console consent but no GA4 scope or selected GA4 property. There is no connected Tag Manager account. Cloudflare's own public beacon is present; it does not establish GA4 lead reporting. Nothing is sent to a new third-party analytics collector by these hooks.
+**GA4/GTM collection is BLOCKED, not complete.** Source/production inspection found no GA4/GTM tag or measurement ID. GSC Wizard is retired. Current official GSC Associations finds no associated services and no eligible Google Analytics property for the signed-in firm account; the correct GA4 property remains unverified. There is no connected Tag Manager account. Cloudflare's own public beacon is present; it does not establish GA4 lead reporting. Nothing is sent to a new third-party analytics collector by these hooks.
 
 Required external configuration: connect the firm's existing GA4 account/property (or an authorised administrator must create/select a web property), and expose its GA4 measurement ID or GTM container. Configure one collector for the event contract above; avoid installing both direct gtag and GTM copies. In GTM use a custom-event trigger matching this allowlist and GA4 event parameters from the corresponding data-layer variables. Set a sanitised page URL/referrer rather than forwarding sensitive query strings. Inspect DebugView/Realtime and an actual collect request before marking collection complete.
 
-For GBP website attribution, when owner access is available use `https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website`; appointment/contact attribution uses `/contact/` with the same fixed campaign and `utm_content=appointment`. No GBP setting has been changed.
+For GBP website attribution use the manager-verified fixed campaign `https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website`; appointment attribution uses `/contact/` with `utm_content=appointment`. Both were saved; the website tag is now observed on Maps. Public appointment propagation remains pending. This does not establish GA4 collection.
 
 Configure phone, WhatsApp, email and handoff as separate intent actions. Do not sum correlated actions as unique leads. A qualified-enquiry/retained-matter metric requires a separate verified office follow-up process. Weekly reporting should compare organic/local landing sessions, action rate and qualified enquiries once collection is validated. Counts currently remain unknown.
 

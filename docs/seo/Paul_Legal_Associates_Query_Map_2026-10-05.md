@@ -2,6 +2,8 @@
 
 5 October 2026; current source PR #29. One preferred existing landing per distinct intent. **These are routing decisions, not invented keyword volumes or rank claims.** [Full query/metadata evidence](evidence/Query_Ownership_2026-10-05.json) includes the 296-row disclosed GSC query×page report through 2 October. No service-versus-service cannibalisation is established by this dataset. Broad Home/legacy hash Contact impressions dominate; preserve the existing legacy handler.
 
+**Fresh measurement — 9 October 2026 IST:** the same 74 candidates, three excluded intents and preferred URLs are preserved. The [existing CSV](evidence/Local_Keyword_Queue.csv) adds 22 exact India 90-day matches, 52 unknown rows and 18 working P0 decisions, distinct from historical provisional fields. Ten query-by-page checks show Home/legacy Contact concentration; no service-versus-service cannibalisation or owner-URL change was established. Volume, difficulty, competitor positions and Maps ranks remain unknown. [Actual cycle](evidence/Local_Growth_Execution_2026-10-07.json).
+
 Disclosed evidence is matched to the stated intent, not merely a shared word: intellectual-property queries are excluded from real estate; specialist queries are excluded from generic firm discovery; land acquisition is separate from M&A. Generic terms still require qualification before being used as commercial demand.
 
 | Query family | Preferred existing landing | Intent boundary | Current disclosed evidence |

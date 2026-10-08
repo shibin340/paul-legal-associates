@@ -1,10 +1,14 @@
 """Adversarial measurement checks: reject evidence that would misstate local outcomes."""
 import copy
 import importlib.util
+import csv
+import io
 import json
 import tempfile
 import unittest
 import sys
+import zipfile
+from datetime import date, timedelta
 from pathlib import Path
 
 sys.dont_write_bytecode = True
@@ -106,6 +110,84 @@ class MeasurementTests(unittest.TestCase):
         saved = records.read_ledger(self.root)['observations']
         self.assertEqual(len(saved), 1)
         self.assertEqual(saved[0]['position'], 2)
+
+    def gsc_fixture(self, days=28, filters=None, ai=False, page='https://paullegalassociates.com/'):
+        """Synthetic private export; no real client/query or ranking fixture is saved."""
+        metric = {'Impressions': '10'} if ai else {'Clicks': '1', 'Impressions': '10', 'CTR': '10%', 'Position': '4'}
+        chart = [{'Date': str(date(2026, 8, 1) + timedelta(days=n)), **metric} for n in range(days)]
+        tables = {'Chart.csv': chart,
+                  'Pages.csv': [{'Top pages': page, **metric}],
+                  'Countries.csv': [{'Country': 'India', **metric}],
+                  'Devices.csv': [{'Device': 'Mobile', **metric}],
+                  'Filters.csv': filters or [{'Filter': 'Search type', 'Value': 'Web'}, {'Filter': 'Date', 'Value': 'Custom synthetic period'}]}
+        if not ai:
+            tables.update({'Queries.csv': [{'Top queries': 'lawyer near me', **metric},
+                                          {'Top queries': 'Synthetic unrelated private query', **metric}],
+                           'Search appearance.csv': []})
+        path = self.root / 'private-native-export.zip'
+        with zipfile.ZipFile(path, 'w') as archive:
+            for name, rows in tables.items():
+                text = io.StringIO()
+                writer = csv.DictWriter(text, fieldnames=list(rows[0]) if rows else ['Search Appearance', *metric])
+                writer.writeheader()
+                writer.writerows(rows)
+                archive.writestr(name, text.getvalue())
+        return path
+
+    def test_native_gsc_keeps_registered_queries_and_anonymous_gap(self):
+        report = records.read_gsc_export(self.gsc_fixture(), self.baseline, '2026-10-08T20:00:00Z', 28)
+        self.assertEqual(report['totals']['clicks'], 28)
+        self.assertEqual(report['disclosedQueries']['siteClicksNotInDisclosedQueries'], 26)
+        self.assertEqual(len(report['candidateQueries']), 1)
+        self.assertNotIn('Synthetic unrelated private query', json.dumps(report))
+        self.assertNotIn('currentRanking', json.dumps(report))
+
+    def test_native_gsc_rejects_wrong_period_country_and_filtered_scope(self):
+        for days in (27, 29, 92):
+            with self.assertRaises(ValueError):
+                records.read_gsc_export(self.gsc_fixture(days=days), self.baseline, '2026-12-01T20:00:00Z', 28)
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(), self.baseline, '2026-10-08T20:00:00Z', 28, country='India')
+        filters = [{'Filter': 'Search type', 'Value': 'Web'}, {'Filter': 'Date', 'Value': 'Custom'},
+                   {'Filter': 'Query', 'Value': 'lawyer near me'}]
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(filters=filters), self.baseline, '2026-10-08T20:00:00Z', 28)
+
+    def test_native_gsc_rejects_incomplete_day_and_public_url_parameters(self):
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(), self.baseline, '2026-08-28T20:00:00Z', 28)
+        for page in ('https://example.org/', 'https://paullegalassociates.com/?client=synthetic'):
+            with self.assertRaises(ValueError):
+                records.read_gsc_export(self.gsc_fixture(page=page), self.baseline, '2026-10-08T20:00:00Z', 28)
+
+    def test_native_ai_impressions_cannot_be_organic_clicks_or_positions(self):
+        report = records.read_gsc_export(self.gsc_fixture(ai=True), self.baseline, '2026-10-08T20:00:00Z', 28, report_kind='generative_ai')
+        self.assertEqual(report['totals']['impressions'], 280)
+        self.assertIsNone(report['totals']['clicks'])
+        self.assertIsNone(report['totals']['uiAveragePositionRounded'])
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(ai=True), self.baseline, '2026-10-08T20:00:00Z', 28, report_kind='generative_ai', ui_position=2)
+
+    def test_native_gsc_import_preserves_history_and_is_idempotent(self):
+        report = records.read_gsc_export(self.gsc_fixture(), self.baseline, '2026-10-08T20:00:00Z', 28)
+        target = self.root / records.EXECUTION
+        target.write_text(json.dumps({'executionCycles': [{'id': 'actual-cycle'}]}))
+        self.assertTrue(records.import_gsc(report, 'actual-cycle', self.root))
+        self.assertFalse(records.import_gsc(report, 'actual-cycle', self.root))
+        changed = copy.deepcopy(report)
+        changed['observedAtUTC'] = '2026-10-09T20:00:00Z'
+        with self.assertRaises(ValueError):
+            records.import_gsc(changed, 'actual-cycle', self.root)
+        self.assertEqual(len(json.loads(target.read_text())['executionCycles'][0]['officialGoogleMeasurement']['gscReports']), 1)
+
+    def test_saved_gsc_rejects_private_queries_and_maps_rank_fields(self):
+        report = records.read_gsc_export(self.gsc_fixture(), self.baseline, '2026-10-08T20:00:00Z', 28)
+        records.validate_gsc_report(report, self.baseline)
+        for key, value in [('keyword', 'Synthetic private query'), ('localPackRank', 2)]:
+            changed = copy.deepcopy(report)
+            changed['candidateQueries'][0][key] = value
+            with self.assertRaises(ValueError):
+                records.validate_gsc_report(changed, self.baseline)
 
 
 if __name__ == '__main__':

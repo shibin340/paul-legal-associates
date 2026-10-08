@@ -348,6 +348,78 @@
       "correctionStatus": "not_submitted",
       "submittedAt": null,
       "verifiedAt": null
+    },
+    {
+      "id": "reviews-gbp-manager-20261009",
+      "kind": "reviews",
+      "observedAtUTC": "2026-10-08T21:05:40.711Z",
+      "sourceType": "gbp_manager",
+      "sourceURL": "https://share.google/SQIINX18BnXyxWyf8",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "profileId": "13821946754957392159",
+      "profileURL": "https://share.google/SQIINX18BnXyxWyf8",
+      "reviewCount": 172,
+      "rating": 4.9,
+      "responseCount": null,
+      "periodStart": null,
+      "periodEnd": null,
+      "newReviews": null
+    },
+    {
+      "observedAtUTC": "2026-10-08T21:06:40.680Z",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "citationId": "bdir-property",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null,
+      "id": "citation-bdir-property-20261009-owner-submission",
+      "kind": "citation",
+      "sourceType": "public_directory",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
+    },
+    {
+      "observedAtUTC": "2026-10-08T21:06:40.680Z",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "citationId": "bdir-finance",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null,
+      "id": "citation-bdir-finance-20261009-owner-submission",
+      "kind": "citation",
+      "sourceType": "public_directory",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
+    },
+    {
+      "observedAtUTC": "2026-10-08T21:06:40.680Z",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "citationId": "getlaw",
+      "addressStatus": "matches",
+      "phoneStatus": "not_observed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null,
+      "id": "citation-getlaw-20261009-owner-submission",
+      "kind": "citation",
+      "sourceType": "public_directory",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
+    },
+    {
+      "observedAtUTC": "2026-10-08T21:06:40.680Z",
+      "sourceURL": "https://in.linkedin.com/company/paullegalassociates",
+      "citationId": "linkedin",
+      "addressStatus": "mixed",
+      "phoneStatus": "matches",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null,
+      "id": "citation-linkedin-20261009-owner-submission",
+      "kind": "citation",
+      "sourceType": "public_company_profile",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
     }
   ]
 }

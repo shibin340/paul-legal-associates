@@ -3,17 +3,21 @@
 import argparse
 import csv
 import hashlib
+import io
 import json
 import math
 import re
+import zipfile
 from collections import Counter
-from datetime import datetime
+from datetime import datetime, timedelta
 from pathlib import Path
 from urllib.parse import urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 EVIDENCE = Path('docs/seo/evidence')
 LEDGER = EVIDENCE / 'Local_Search_Observations.json'
+EXECUTION = EVIDENCE / 'Local_Growth_Execution_2026-10-07.json'
+BRAND_QUERY = re.compile(r'paul\s+(?:legal|(?:and\s+)?associates)|p\s*\.?\s*p\s*\.?\s*polachan|sojan\s+paul|sonam\s+paul', re.I)
 COUNT_METRICS = {'organicKeywords', 'top3Keywords', 'top10Keywords', 'top20Keywords',
                  'backlinks', 'referringDomains', 'newBacklinks', 'lostBacklinks'}
 ESTIMATE_METRICS = {'estimatedOrganicTraffic', 'authorityScore'}
@@ -226,16 +230,205 @@ def append_record(row, root=ROOT):
     return True
 
 
-def export_keywords(baseline, target):
+def read_gsc_export(path, baseline, observed_at, days, country=None, report_kind='web', ui_position=None):
+    """Read an official CSV ZIP without publishing undisclosed/private query strings.
+
+    Exported impressions measure PLA visibility, not keyword volume or Maps rank.
+    Native generative-AI exports have impressions only and must be labelled explicitly.
+    """
+    timestamp(observed_at)
+    require(days in {28, 90}, 'Use an exact complete 28- or 90-day period')
+    require(country in {None, 'India'}, 'Use all countries or the native India filter')
+    require(report_kind in {'web', 'generative_ai'}, 'Actual native report kind required')
+    raw = path.read_bytes()
+    require(len(raw) <= 10_000_000, 'Export exceeds the supported private input size')
+    with zipfile.ZipFile(io.BytesIO(raw)) as archive:
+        names = archive.namelist()
+        require(len(names) == len(set(names)), 'Duplicate export members')
+        require(sum(item.file_size for item in archive.infolist()) <= 20_000_000, 'Expanded export too large')
+        required = {'Chart.csv', 'Pages.csv', 'Countries.csv', 'Devices.csv', 'Filters.csv'}
+        if report_kind == 'web':
+            required |= {'Queries.csv', 'Search appearance.csv'}
+        require(required <= set(names), 'Official export tables are missing')
+        tables = {name: list(csv.DictReader(io.StringIO(archive.read(name).decode('utf-8-sig'))))
+                  for name in required}
+    filters = {row['Filter']: row['Value'] for row in tables['Filters.csv']}
+    require(set(filters) <= {'Search type', 'Date', 'Country'} and
+            filters.get('Search type') == 'Web' and nonempty(filters.get('Date')),
+            'Unsupported search type or query/page/device filter; do not mislabel a filtered report')
+    require(filters.get('Country') == country, 'Requested country disagrees with the native filter')
+    chart = tables['Chart.csv']
+    require(len(chart) == days, 'Preset three months is not necessarily 90 days')
+    dates = [datetime.strptime(row['Date'], '%Y-%m-%d').date() for row in chart]
+    require(dates == [dates[0] + timedelta(days=n) for n in range(days)], 'Dates must be unique, ordered and contiguous')
+    require(dates[-1] < datetime.fromisoformat(observed_at.replace('Z', '+00:00')).date(),
+            'Do not include the current incomplete reporting day')
+
+    def metric(row):
+        result = {'impressions': int(row['Impressions'])}
+        require(number(result['impressions'], integer=True), 'Invalid impression count')
+        if report_kind == 'web':
+            result.update(clicks=int(row['Clicks']), ctrPercent=float(row['CTR'].rstrip('%')),
+                          averagePosition=float(row['Position']))
+            require(number(result['clicks'], integer=True, high=result['impressions']) and
+                    number(result['ctrPercent'], high=100) and number(result['averagePosition'], low=1),
+                    'Invalid click, CTR or average-position value')
+        return result
+
+    totals = {'impressions': sum(metric(row)['impressions'] for row in chart)}
+    if report_kind == 'web':
+        totals['clicks'] = sum(metric(row)['clicks'] for row in chart)
+        totals['ctrPercentFromCounts'] = totals['clicks'] / totals['impressions'] * 100 if totals['impressions'] else None
+        require(ui_position is None or number(ui_position, low=1), 'Invalid native UI average position')
+        totals['uiAveragePositionRounded'] = ui_position
+    else:
+        require(ui_position is None, 'AI impressions are not organic position or click metrics')
+        totals.update(clicks=None, ctrPercentFromCounts=None, uiAveragePositionRounded=None)
+
+    candidates = {r['keyword'].casefold(): r['id'] for r in baseline['keywords'] if r['priority'] != 'IRRELEVANT'}
+    queries = tables.get('Queries.csv', [])
+    query_keys = [r['Top queries'].casefold() for r in queries]
+    require(len(query_keys) == len(set(query_keys)), 'Duplicate disclosed query rows')
+    brand_rows = [r for r in queries if BRAND_QUERY.search(r['Top queries'])]
+    nonbrand_rows = [r for r in queries if not BRAND_QUERY.search(r['Top queries'])]
+    disclosed_clicks = sum(metric(r)['clicks'] for r in queries) if queries else 0
+    if report_kind == 'web':
+        require(disclosed_clicks <= totals['clicks'], 'Query clicks exceed the site aggregate; verify export scope')
+    allowed_queries = [{'candidateId': candidates[r['Top queries'].casefold()],
+                        'keyword': next(b['keyword'] for b in baseline['keywords'] if b['id'] == candidates[r['Top queries'].casefold()]),
+                        **metric(r)} for r in queries if r['Top queries'].casefold() in candidates]
+
+    pages = []
+    for row in tables['Pages.csv']:
+        url = row['Top pages']
+        parsed = urlparse(url)
+        require(parsed.scheme == 'https' and parsed.hostname == 'paullegalassociates.com' and
+                not parsed.query and not parsed.username and not parsed.password and
+                (not parsed.fragment or parsed.fragment.startswith('/')),
+                'Do not publish foreign URLs, credentials or page query parameters')
+        pages.append({'url': url, **metric(row)})
+    result = {'sourceType': 'official_gsc_ui_csv', 'reportKind': report_kind,
+              'observedAtUTC': observed_at, 'property': 'https://paullegalassociates.com/',
+              'country': country or 'All countries', 'device': 'All devices',
+              'periodStart': str(dates[0]), 'periodEnd': str(dates[-1]), 'completeDays': days,
+              'nativeDateFilterLabel': filters['Date'], 'archiveSHA256': hashlib.sha256(raw).hexdigest(),
+              'sourceObservationBasis': 'Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart.',
+              'totals': totals, 'pages': pages,
+              'countries': [{'country': r['Country'], **metric(r)} for r in tables['Countries.csv']],
+              'devices': [{'device': r['Device'], **metric(r)} for r in tables['Devices.csv']],
+              'candidateQueries': allowed_queries,
+              'limitations': ['GSC averages are reporting-period observations, not Maps/local ranks or keyword demand.',
+                              'Query/page aggregates may differ from property totals; absent rows are unknown, not zero.',
+                              'Raw exports remain private; only existing registered legal queries are published.']}
+    if report_kind == 'web':
+        result['disclosedQueries'] = {
+            'rows': len(queries), 'clicks': disclosed_clicks,
+            'impressions': sum(metric(r)['impressions'] for r in queries),
+            'siteClicksNotInDisclosedQueries': totals['clicks'] - disclosed_clicks,
+            'brandRule': BRAND_QUERY.pattern,
+            'branded': {'clicks': sum(metric(r)['clicks'] for r in brand_rows), 'impressions': sum(metric(r)['impressions'] for r in brand_rows)},
+            'nonBranded': {'clicks': sum(metric(r)['clicks'] for r in nonbrand_rows), 'impressions': sum(metric(r)['impressions'] for r in nonbrand_rows)}}
+        result['searchAppearance'] = [{'appearance': r['Search Appearance'], **metric(r)} for r in tables['Search appearance.csv']]
+    else:
+        result['limitations'].append('Google generative-AI feature impressions are not independent AI-answer citations or qualified enquiries.')
+    return result
+
+
+def validate_gsc_report(report, baseline):
+    require(report['sourceType'] == 'official_gsc_ui_csv' and report['property'] == 'https://paullegalassociates.com/',
+            'Official existing-property source required')
+    timestamp(report['observedAtUTC'])
+    require(report['reportKind'] in {'web', 'generative_ai'} and report['country'] in {'All countries', 'India'} and
+            report['device'] == 'All devices', 'Keep the native report kind and geographic scope')
+    start = datetime.strptime(report['periodStart'], '%Y-%m-%d').date()
+    end = datetime.strptime(report['periodEnd'], '%Y-%m-%d').date()
+    require(report['completeDays'] in {28, 90} and (end - start).days + 1 == report['completeDays'], 'Invalid complete period')
+    require(bool(re.fullmatch(r'[a-f0-9]{64}', report['archiveSHA256'])), 'Private source export hash required')
+    require(number(report['totals']['impressions'], integer=True), 'Invalid total impressions')
+    if report['reportKind'] == 'generative_ai':
+        require(all(report['totals'][key] is None for key in ['clicks', 'ctrPercentFromCounts', 'uiAveragePositionRounded']) and
+                not report['candidateQueries'] and 'disclosedQueries' not in report,
+                'Do not convert Google AI impressions into clicks, queries or rankings')
+    else:
+        require(number(report['totals']['clicks'], integer=True), 'Invalid total clicks')
+        disclosed = report['disclosedQueries']
+        require(disclosed['branded']['clicks'] + disclosed['nonBranded']['clicks'] == disclosed['clicks'] and
+                disclosed['siteClicksNotInDisclosedQueries'] == report['totals']['clicks'] - disclosed['clicks'] and
+                number(disclosed['siteClicksNotInDisclosedQueries'], integer=True), 'Do not conceal anonymous query clicks')
+    relevant = {r['id']: r['keyword'] for r in baseline['keywords'] if r['priority'] != 'IRRELEVANT'}
+    require(len({r['candidateId'] for r in report['candidateQueries']}) == len(report['candidateQueries']), 'Duplicate measured candidate')
+    for row in report['candidateQueries']:
+        require(row['candidateId'] in relevant and row['keyword'] == relevant[row['candidateId']] and
+                set(row) == {'candidateId', 'keyword', 'clicks', 'impressions', 'ctrPercent', 'averagePosition'},
+                'Publish only the existing registered legal query fields, never private query rows or local ranks')
+        require(number(row['clicks'], integer=True) and number(row['impressions'], integer=True) and
+                number(row['ctrPercent'], high=100) and number(row['averagePosition'], low=1), 'Invalid candidate metrics')
+    return report
+
+
+def import_gsc(report, cycle_id, root=ROOT):
+    validate_gsc_report(report, load_baseline(root))
+    path = root / EXECUTION
+    data = json.loads(path.read_text())
+    cycles = [r for r in data['executionCycles'] if r['id'] == cycle_id]
+    require(len(cycles) == 1, 'Use the existing actual execution cycle, not a parallel scorecard')
+    reports = cycles[0].setdefault('officialGoogleMeasurement', {}).setdefault('gscReports', [])
+    for saved in reports:
+        if saved['archiveSHA256'] == report['archiveSHA256']:
+            require(saved == report, 'Conflicting export metadata; preserve the earlier import')
+            return False
+        require((saved['reportKind'], saved['country'], saved['periodStart'], saved['periodEnd']) !=
+                (report['reportKind'], report['country'], report['periodStart'], report['periodEnd']),
+                'Conflicting report for the same settled period')
+    reports.append(report)
+    temporary = path.with_suffix('.json.tmp')
+    temporary.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n')
+    temporary.replace(path)
+    return True
+
+
+def export_keywords(baseline, target, execution=None):
     columns = ['id', 'keyword', 'priority', 'priorityStatus', 'intent', 'geographicModifier', 'nearMe',
                'estimatedDemand', 'demandScope', 'currentRanking', 'currentLandingURL', 'preferredLandingURL',
                'localPackPresence', 'organicPresence', 'difficulty', 'commercialImportance', 'action',
                'historicalExactQueryRows', 'historicalSource', 'competitorCandidates']
+    measured_columns = ['measuredPriority', 'measuredPriorityBasis', 'gscReportPeriod', 'gscCountry',
+                        'gscClicks', 'gscImpressions', 'gscCTRPercent', 'gscAveragePosition',
+                        'gscQueryRowStatus', 'gscObservedLandingURLs', 'measuredNextAction', 'measurementEvidence']
+    measurements = {}
+    if execution:
+        cycle = next((c for c in execution['executionCycles'] if c['id'] == execution['latestExecutionCycleId']), {})
+        google = cycle.get('officialGoogleMeasurement', {})
+        reports = [r for r in google.get('gscReports', []) if r['reportKind'] == 'web' and r['country'] == 'India' and r['completeDays'] == 90]
+        if reports:
+            report = reports[-1]
+            priorities = {r['candidateId']: r for r in google.get('keywordDecisions', [])}
+            rows = {r['candidateId']: r for r in report['candidateQueries']}
+            landings = {r['keyword'].casefold(): [p['url'] for p in r['pages']]
+                        for r in google.get('queryPages', [])}
+            for row in baseline['keywords']:
+                if row['priority'] == 'IRRELEVANT':
+                    continue
+                actual, decision = rows.get(row['id']), priorities.get(row['id'], {})
+                measurements[row['id']] = {
+                    'measuredPriority': decision.get('priority'), 'measuredPriorityBasis': decision.get('basis'),
+                    'gscReportPeriod': report['periodStart'] + '/' + report['periodEnd'], 'gscCountry': 'India',
+                    'gscClicks': actual['clicks'] if actual else None,
+                    'gscImpressions': actual['impressions'] if actual else None,
+                    'gscCTRPercent': actual['ctrPercent'] if actual else None,
+                    'gscAveragePosition': actual['averagePosition'] if actual else None,
+                    'gscQueryRowStatus': 'DISCLOSED_EXACT_MATCH' if actual else 'NOT_RETURNED_UNKNOWN',
+                    'gscObservedLandingURLs': json.dumps(landings[row['keyword'].casefold()], separators=(',', ':')) if row['keyword'].casefold() in landings else None,
+                    'measuredNextAction': decision.get('nextAction'),
+                    'measurementEvidence': str(EXECUTION)}
+    if measurements:
+        columns += measured_columns
     with target.open('w', newline='', encoding='utf-8') as handle:
         writer = csv.DictWriter(handle, fieldnames=columns, lineterminator='\n')
         writer.writeheader()
         for row in baseline['keywords']:
             output = {key: row.get(key) for key in columns}
+            output.update(measurements.get(row['id'], {}))
             for key in ['historicalExactQueryRows', 'competitorCandidates']:
                 output[key] = json.dumps(output[key] or [], ensure_ascii=False, separators=(',', ':'))
             writer.writerow(output)
@@ -249,6 +442,14 @@ def main():
     record.add_argument('input', type=Path, help='One public/aggregate observation JSON; never client-level data')
     export = sub.add_parser('export-keywords')
     export.add_argument('--output', type=Path, default=EVIDENCE / 'Local_Keyword_Queue.csv')
+    gsc = sub.add_parser('import-gsc', help='Sanitise an official private CSV ZIP into an existing execution cycle')
+    gsc.add_argument('input', type=Path)
+    gsc.add_argument('--cycle', required=True)
+    gsc.add_argument('--observed-at', required=True)
+    gsc.add_argument('--days', type=int, choices=[28, 90], required=True)
+    gsc.add_argument('--country', choices=['India'])
+    gsc.add_argument('--report-kind', choices=['web', 'generative_ai'], default='web')
+    gsc.add_argument('--ui-position', type=float)
     args = parser.parse_args()
     try:
         baseline = load_baseline()
@@ -258,18 +459,33 @@ def main():
             print(json.dumps({'id': row['id'], 'added': added, 'ledger': str(LEDGER)}))
         elif args.command == 'export-keywords':
             target = args.output if args.output.is_absolute() else ROOT / args.output
-            export_keywords(baseline, target)
+            execution = json.loads((ROOT / EXECUTION).read_text()) if (ROOT / EXECUTION).is_file() else None
+            export_keywords(baseline, target, execution)
             print(json.dumps({'output': str(target), 'rows': len(baseline['keywords']), 'unknownMetricCells': 'blank; never zero'}))
+        elif args.command == 'import-gsc':
+            report = read_gsc_export(args.input, baseline, args.observed_at, args.days,
+                                     args.country, args.report_kind, args.ui_position)
+            added = import_gsc(report, args.cycle)
+            print(json.dumps({'added': added, 'reportKind': report['reportKind'], 'period': [report['periodStart'], report['periodEnd']],
+                              'country': report['country'], 'totals': report['totals'], 'candidateMatches': len(report['candidateQueries'])}))
         else:
             for path in baseline_files(ROOT):
                 validate_baseline(json.loads(path.read_text()))
             ledger = read_ledger()
             for row in ledger['observations']:
                 validate_record(row, baseline)
+            reports = []
+            if (ROOT / EXECUTION).is_file():
+                execution = json.loads((ROOT / EXECUTION).read_text())
+                for cycle in execution['executionCycles']:
+                    for report in cycle.get('officialGoogleMeasurement', {}).get('gscReports', []):
+                        validate_gsc_report(report, baseline)
+                        reports.append(report)
             print(json.dumps({'status': 'PASS', 'candidateTerms': len(baseline['keywords']),
+                              'officialGSCReports': len(reports),
                               'observationsByKind': dict(Counter(r['kind'] for r in ledger['observations'])),
                               'ledgerSHA256': hashlib.sha256(json.dumps(ledger, sort_keys=True).encode()).hexdigest()}))
-    except (ValueError, KeyError, TypeError, OSError) as error:
+    except (ValueError, KeyError, TypeError, OSError, zipfile.BadZipFile, UnicodeError) as error:
         parser.exit(1, str(error) + '\n')
 
 
