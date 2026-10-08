@@ -5,7 +5,7 @@
 
 ## Current Local Search Scorecard — 9 October 2026 IST
 
-Measurement source main: `4a3d0f424514b6da90e8ec990f176993a147b29f` / merged PR #48. PRs #45–48 are complete. The actual cycle `post-pr48-20261009-free-google-execution` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the dated access-only instructions below. The publishing PR metadata/body records its final merge SHA and deployment result. **Additional expenditure: ₹0.** Semrush is connected but has `no_api_units`; no retries or purchases. GSC Wizard is retired.
+Measurement source main: `4a3d0f424514b6da90e8ec990f176993a147b29f` / merged PR #48. PRs #45–48 are complete. The actual cycle `post-pr48-20261009-free-google-execution` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) supersedes the dated access-only instructions below. Publishing [PR #49](https://github.com/shibin340/paul-legal-associates/pull/49) records its final merge SHA and deployment result in its metadata/body. **Additional expenditure: ₹0.** Semrush is connected but has `no_api_units`; no retries or purchases. GSC Wizard is retired.
 
 ### Official Search Console
 

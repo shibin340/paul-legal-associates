@@ -5216,7 +5216,9 @@
         "currentSemrushQuantitativeBaseline": null,
         "nextHighestValueExecutableTask": "At the next sensible interval verify Google publication of the two submitted services and public appointment UTM propagation; check publisher reply/Bdir public readback without resending. Refresh the same 18 commercial URLs and 18 P0 terms from settled official Google data.",
         "ownerDependentNextTask": "Owner-confirmed hours and explicit category/catalogue cleanup/review-reply permissions; identify the actual free GA4 property before collection.",
-        "releaseIdentity": "Resolve publishing PR merge SHA and deployment proof from its GitHub metadata/body and current main; this source SHA is the measurement checkpoint."
+        "releaseIdentity": "Read PR #49 metadata/body for the final merge SHA and deployment verification; sourceMain remains the actual measurement checkpoint.",
+        "publishingPR": 49,
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/49"
       },
       "preserved": {
         "routes": 247,
