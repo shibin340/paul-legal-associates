@@ -5667,7 +5667,9 @@
         "publishingBranch": "seo/local-propagation-20261009",
         "nextHighestValueExecutableTask": "After Google authentication is restored, inspect the existing manager approval state and the saved appointment field without duplicate additions or unchanged resubmission. At a sensible interval verify public appointment/service propagation and publisher correction.",
         "ownerDependentNextTask": "Secure Google sign-in, true office hours, exact catalogue/category-cleanup and public-reply permission, actual free GA4 property.",
-        "releaseIdentity": "Read the publishing PR metadata/body for final merge SHA, deployment and production proof."
+        "releaseIdentity": "Read PR #51 metadata/body for the final merge SHA, deployment and production proof; sourceMain remains the actual measurement checkpoint.",
+        "publishingPR": 51,
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/51"
       }
     }
   ],
