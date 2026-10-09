@@ -7,20 +7,37 @@ const { loadSource } = require('./load-source');
 const build = path.resolve(__dirname, '../build');
 const origin = 'https://paullegalassociates.com';
 const readPage = route => fs.readFileSync(path.join(build, route.slice(1), 'index.html'), 'utf8');
+const legacyRedirects = require('../src/legacy-redirects.json');
 const pagePaths = [];
+const redirectPaths = [];
 function walk(dir) {
   for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
     const filename = path.join(dir, entry.name);
     if (entry.isDirectory()) walk(filename);
     else if (entry.name === 'index.html') {
       const relative = path.relative(build, path.dirname(filename));
-      pagePaths.push(relative ? `/${relative}/` : '/');
+      const route = relative ? `/${relative}/` : '/';
+      if (Object.prototype.hasOwnProperty.call(legacyRedirects, route)) redirectPaths.push(route);
+      else pagePaths.push(route);
     }
   }
 }
 walk(build);
 const routes = new Set(pagePaths);
 const sitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<loc>(.*?)<\/loc>/g)].map(m => m[1]);
+assert.equal(pagePaths.length, 247, 'Unexpected change to the reviewed content inventory');
+assert.deepEqual(redirectPaths.sort(), Object.keys(legacyRedirects).sort(), 'Missing legacy redirect artifact');
+for (const [oldRoute, targetRoute] of Object.entries(legacyRedirects)) {
+  assert(routes.has(targetRoute), `${oldRoute}: redirect target is not an existing canonical page`);
+  assert(!Object.prototype.hasOwnProperty.call(legacyRedirects, targetRoute), `${oldRoute}: chained redirect`);
+  assert(!sitemap.includes(origin + oldRoute), `${oldRoute}: legacy URL leaked into sitemap`);
+  const d = new JSDOM(readPage(oldRoute), { url: origin + oldRoute }).window.document;
+  assert.equal(d.querySelector('meta[http-equiv="refresh"]')?.content, `0; url=${origin + targetRoute}`, `${oldRoute}: missing instant permanent redirect`);
+  assert.equal(d.querySelectorAll('link[rel="canonical"]').length, 1, `${oldRoute}: canonical count`);
+  assert.equal(d.querySelector('link[rel="canonical"]').href, origin + targetRoute, `${oldRoute}: wrong canonical target`);
+  assert(d.querySelector(`a[href="${targetRoute}"]`), `${oldRoute}: missing accessible fallback link`);
+  assert.equal(d.querySelectorAll('script').length, 0, `${oldRoute}: redirect must work without JavaScript`);
+}
 const pageUpdates = require('../src/pageUpdates.json');
 const datedSitemap = [...fs.readFileSync(path.join(build, 'sitemap.xml'), 'utf8').matchAll(/<url><loc>(.*?)<\/loc><lastmod>(.*?)<\/lastmod><\/url>/g)];
 assert.equal(datedSitemap.length, Object.keys(pageUpdates).length, 'Missing or manufactured sitemap dates');
@@ -377,5 +394,5 @@ async function verifyHydration(route) {
   for (const route of ['/', '/about/', '/expertise/', '/contact/', '/insights/', '/partners/', '/finance-tax-regulatory-advisory/', '/expertise/property-title-verification-due-diligence/', '/expertise/posh-compliance-internal-committee/', '/insights/naina-town-planning-scheme-rights/', '/insights/posh-compliance-employers-mumbai-navi-mumbai/', '/partners/sojan-paul/']) {
     await verifyHydration(route);
   }
-  console.log(`PASS: ${pagePaths.length} initial HTML pages, ${links} internal link occurrences, ${sitemap.length} sitemap URLs; 12 hydration/navigation checks and contact validation.`);
+  console.log(`PASS: ${pagePaths.length} initial HTML pages, ${links} internal link occurrences, ${sitemap.length} sitemap URLs; 12 hydration/navigation checks and contact validation; ${redirectPaths.length} legacy redirect checked.`);
 })().catch(error => { console.error(error); process.exitCode = 1; });

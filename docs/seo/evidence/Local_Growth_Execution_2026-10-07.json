@@ -147,7 +147,7 @@
   },
   "automationUpdates": [
     {
-      "id": "6ab7c12e40ec8191858d810b86261c88",
+      "id": "OWNER_PRIVATE_REFERENCE",
       "title": "PLA SEO Ongoing Growth",
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
       "isEnabled": true,
@@ -157,7 +157,7 @@
       "promptUpdated": true
     },
     {
-      "id": "6ab7c137a46481919c9d99d4296d7948",
+      "id": "OWNER_PRIVATE_REFERENCE",
       "title": "PLA SEO Monthly Analysis",
       "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
       "isEnabled": true,
@@ -201,14 +201,7 @@
     }
   ],
   "semrushAccessRecheck": {
-    "installed": false,
-    "callableTools": 0,
-    "source": "Connected Plugin Management discovery",
-    "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
-    "existingSuggestionObserved": true,
-    "newDuplicateSuggestionSent": false,
-    "publicReportFallback": "PLA and Hawelikar public report retrieval inaccessible; no numeric fallback available",
-    "metrics": "UNAVAILABLE; NOT_ZERO"
+    "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
   },
   "actualBusinessOutcomes": {
     "localPackPositions": null,
@@ -276,55 +269,9 @@
     "csvRecordSeparators": "LF; 77 unchanged rows",
     "stagedDiffCheck": "PASS; all nine changed files"
   },
-  "recordedAtUTC": "2026-10-09T08:46:15.921029Z",
+  "recordedAtUTC": "2026-10-09T17:00:55.828129+00:00",
   "blockedAccounts": {
-    "semrush": {
-      "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
-      "installed": true,
-      "callableTools": 14,
-      "activeSubscriptionConfirmedByProvider": true,
-      "recordedAtUTC": "2026-10-08T19:00:47.503818Z",
-      "ownerAction": "Open https://www.semrush.com/mcp-access in the connected subscribed account, make API units available for MCP, then confirm units are available. No purchase was made by this operator.",
-      "retryPolicy": "Do not retry until the owner confirms API units are available; the provider explicitly reports retryable:false."
-    },
-    "gsc": {
-      "status": "GSC_WIZARD_RETIRED_BY_OWNER_OFFICIAL_ACCESS_OR_EXPORT_PENDING",
-      "providerCallsThisCycle": 0,
-      "ownerInstruction": "Do not renew or depend on GSC Wizard. Do not reload or bypass Google unusual-traffic screening or create a duplicate property.",
-      "officialApiCallableInThisSession": false,
-      "ownerAction": "In the existing official Search Console property, Performance > Search results, search type Web: export last 28 days and last 90 days, including Queries, Pages, Clicks, Impressions, CTR, Position, dates and selected filters. Export Page Indexing; supply current Sitemaps status. Share files through the Work conversation. Use an authorised official read-only API/OAuth connection if available.",
-      "afterReceipt": "Record actual property, date ranges, data freshness and filters; refresh the existing scorecard and 18-commercial-URL inspection cohort where practical. Historical 3/18 is not a current result."
-    },
-    "gbp": {
-      "status": "MANAGER_ACCESS_UNAVAILABLE",
-      "exactAccess": "Manager access to the existing PLA Business Profile, its actual profile/place ID, edit information and Performance reporting; no replacement profile"
-    },
-    "geoRankTracking": {
-      "status": "UNAVAILABLE",
-      "exactAccess": "Connected location-controlled Google Local Pack/Maps and organic tracking with engine, language, device, timestamps and verified coordinates"
-    },
-    "ga4gtm": {
-      "status": "COLLECTOR_NOT_CONFIGURED",
-      "exactAccess": "Actual existing GA4 property/measurement ID or GTM container and authorised configuration; verify one collector and DebugView before counting actions"
-    },
-    "bing": {
-      "status": "REPORTING_UNAVAILABLE",
-      "exactAccess": "Verified paullegalassociates.com Bing Webmaster reporting/API connection"
-    },
-    "cloudflare": {
-      "status": "VERIFIED_CRAWLER_LOGS_UNAVAILABLE",
-      "exactAccess": "Zone Security Events/verified-bot logs and WAF/Bot/Crawl Control read access"
-    },
-    "directories": {
-      "status": "BDIR_UNSENT_DRAFT_STAGED_OWNER_SEND_AUTHORISATION_PENDING",
-      "exactAccess": "Authorise sending this single existing draft from the connected firm mailbox to the verified publisher, or send the saved draft yourself. After sending, preserve submission date and verify both public records before marking any correction complete.",
-      "LinkedIn": "Editing remains reserved to owner",
-      "Justdial": "Existing listing-owner access and reconciliation required"
-    },
-    "ownerFacts": {
-      "status": "HOURS_PIN_AND_CLAIMS_UNCONFIRMED",
-      "exactAccess": "Office administrator confirmation of current hours, exact entrance/pin, other live offices and phone ownership; managing-partner claim/testimonial evidence"
-    }
+    "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
   },
   "executionCycles": [
     {
@@ -340,37 +287,7 @@
       },
       "scope": "Actual post-PR46 measurements and diagnostic results; existing keyword/operations framework preserved.",
       "accessChecks": {
-        "semrush": {
-          "discovery": "Fresh installed-plugin search at start and again after independent measurements; registry name/description search returns no Semrush tools.",
-          "pluginId": "plugin_connector_691fa57b709c8191b61c48b1f78dce21",
-          "status": "ENABLED",
-          "installationPolicy": "AVAILABLE",
-          "installed": false,
-          "callableReports": 0,
-          "existingConnectionSuggestion": true,
-          "duplicateSuggestionCreated": false,
-          "ownerAction": "Complete the existing Semrush install/connect card in this Work account/conversation. The web account alone does not expose the MCP reports here.",
-          "databaseRequested": "in",
-          "actualDatabaseUsed": null,
-          "reportsRetrieved": 0
-        },
-        "gsc": {
-          "toolsCalledOnceEach": [
-            "gsc_wizard_get_account_info",
-            "gsc_wizard_list_sites"
-          ],
-          "detailedError": "payment_required: Your GSC Wizard trial has ended or you have no active subscription.",
-          "genericWrapperErrorCode": "INVALID_ARGUMENT",
-          "rootCause": "GSC Wizard provider subscription/trial inactive; not demonstrated Google property permission failure.",
-          "ownerAction": "Restore the existing GSC Wizard subscription at https://tool.gscwizard.com/settings/subscription, then refresh the existing property/tracker. No subscription purchase, duplicate property or OAuth reset performed.",
-          "repeatedRetries": false,
-          "propertyListingFixed": false
-        },
-        "gbp": "Public profile baseline obtained; no signed-in manager/Performance access or edit controls available.",
-        "geoRankTracking": "No connected location-controlled Local Pack/Maps grid reports; no rank rows or coordinates invented.",
-        "ga4gtm": "Existing website events retained; authorised collector/property/container still unavailable.",
-        "copilot": "Anonymous copilot.microsoft.com redirected to copilot.com and required sign-in; no completed answer and no absence count.",
-        "googleFurtherObservations": "Google unusual-traffic screening after the useful first AI/profile read. A single reload was rejected by automatic approval review as a possible anti-bot bypass. Block reported; no workaround or further Google interaction."
+        "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
       },
       "keywordExecution": {
         "relevantCandidatesRetained": 74,
@@ -468,7 +385,7 @@
           "visibleHours": "Monday–Sunday 09:00–21:00; owner confirmation pending",
           "changeOrigin": "UNKNOWN; no correction was submitted by this operator. Prior PR46 observation retained.",
           "publisherRoute": "https://getlaw.in/page/contact-us",
-          "publisherEmail": "admin@getlaw.in",
+          "publisherEmail": "OWNER_PRIVATE_EMAIL",
           "correctionStatus": "not_submitted",
           "submittedAt": null,
           "verifiedAt": null,
@@ -528,7 +445,7 @@
         "observedAtUTC": "2026-10-07T16:43:11.238515+00:00",
         "httpStatus": 200,
         "publisherContactEmails": [
-          "datagemba@gmail.com"
+          "OWNER_PRIVATE_EMAIL"
         ],
         "formCount": 0,
         "claimOrLoginLinks": [],
@@ -838,92 +755,7 @@
       "mainReverifiedThroughGitHub": true,
       "scope": "Actual connection/report failures, two known citation readbacks, a genuine unsent Gmail correction draft, and removal of obsolete current GSC renewal instructions. No repeated framework or technical audit.",
       "accessChecks": {
-        "semrush": {
-          "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
-          "installed": true,
-          "callableTools": 14,
-          "activeSubscriptionConfirmedByProvider": true,
-          "recordedAtUTC": "2026-10-08T19:00:47.503818Z",
-          "reportsRetrieved": 0,
-          "databaseQueried": null,
-          "requestedDatabaseWhenUnblocked": "in",
-          "databaseScopeWhenUnblocked": "India national organic database; local scope only if a verified campaign supports it",
-          "responses": [
-            {
-              "discovery": "domain_overview",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "0f3264aba4d317791c6f70e8c44ac5e7"
-            },
-            {
-              "discovery": "organic_research",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "5e668c39d0ba79d4d25e29a0ef7305e0"
-            },
-            {
-              "discovery": "keyword_research",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "1c15cfcef522529abbf52b1eaf8c18e5"
-            },
-            {
-              "discovery": "competitors_research",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "f4d2d12d8055283166bd50f26ab77259"
-            },
-            {
-              "discovery": "backlinks_research",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "bbc003c2b6c311a4077c9c7cff1da42c"
-            },
-            {
-              "discovery": "projects",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "c485a741d6a9a0f24f200bcf40114d7a"
-            },
-            {
-              "discovery": "position_tracking",
-              "code": "no_api_units",
-              "message": "The user has an active Semrush subscription, but does not have enough API units to complete this request.",
-              "retryable": false,
-              "url": "https://www.semrush.com/mcp-access",
-              "trace_id": "ced2a965b850daa3e0ee13f2fcde1b1c"
-            }
-          ],
-          "ownerAction": "Open https://www.semrush.com/mcp-access in the connected subscribed account, make API units available for MCP, then confirm units are available. No purchase was made by this operator.",
-          "retryPolicy": "Do not retry until the owner confirms API units are available; the provider explicitly reports retryable:false.",
-          "nextReport": "Discover domain_overview, obtain its report schema, then capture the actual India PLA totals and complete organic positions before enriching the existing 74 candidates. Continue competitor, keyword and backlink gaps and inspect existing tracking projects."
-        },
-        "gsc": {
-          "status": "GSC_WIZARD_RETIRED_BY_OWNER_OFFICIAL_ACCESS_OR_EXPORT_PENDING",
-          "providerCallsThisCycle": 0,
-          "ownerInstruction": "Do not renew or depend on GSC Wizard. Do not reload or bypass Google unusual-traffic screening or create a duplicate property.",
-          "officialApiCallableInThisSession": false,
-          "ownerAction": "In the existing official Search Console property, Performance > Search results, search type Web: export last 28 days and last 90 days, including Queries, Pages, Clicks, Impressions, CTR, Position, dates and selected filters. Export Page Indexing; supply current Sitemaps status. Share files through the Work conversation. Use an authorised official read-only API/OAuth connection if available.",
-          "afterReceipt": "Record actual property, date ranges, data freshness and filters; refresh the existing scorecard and 18-commercial-URL inspection cohort where practical. Historical 3/18 is not a current result."
-        },
-        "gbp": {
-          "status": "MANAGER_ACCESS_PENDING",
-          "ownerHoursConfirmed": false,
-          "profileMutations": 0,
-          "baselinePreserved": "172 Google reviews / 4.9, observed 7 October 2026; no fresh manager or public Google count this cycle."
-        }
+        "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
       },
       "keywordExecution": {
         "relevantCandidateCount": 74,
@@ -965,8 +797,8 @@
       "citationCorrectionAction": {
         "platform": "Gmail",
         "status": "UNSENT_DRAFT_CREATED_AND_READ_BACK",
-        "sender": "info@paullegalassociates.com",
-        "publisherRecipient": "datagemba@gmail.com",
+        "sender": "OWNER_PRIVATE_REFERENCE",
+        "publisherRecipient": "OWNER_PRIVATE_EMAIL",
         "publisherRoute": "https://bdir.in/p/contact",
         "recipientBasis": "Publisher address verified in the previous primary HTTP evidence; current contact webpage still exposes the email contact route. Exact-recipient correspondence search found no existing messages.",
         "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
@@ -3394,8 +3226,8 @@
         "queryPageVariantStatus": "law firms in navi mumbai is a family variant of local-008; it is not a new candidate",
         "gbp": {
           "observedAtUTC": "2026-10-08T20:12:54.828Z",
-          "profileId": "13821946754957392159",
-          "cid": "3000609397491676502",
+          "profileId": "OWNER_PRIVATE_REFERENCE",
+          "cid": "OWNER_PRIVATE_REFERENCE",
           "knowledgeGraphId": "/g/11gxh4hy9j",
           "businessName": "Paul Legal Associates",
           "primaryCategory": "Law firm",
@@ -3816,7 +3648,7 @@
           ],
           "reviewAggregate": {
             "observedAtUTC": "2026-10-08T21:05:40.711Z",
-            "profileId": "13821946754957392159",
+            "profileId": "OWNER_PRIVATE_REFERENCE",
             "rating": 4.9,
             "reviewCount": 172,
             "sourceLines": [
@@ -3861,7 +3693,7 @@
           ],
           "reviewLinkVerification": {
             "observedAtUTC": "2026-10-08T21:26:11.188Z",
-            "profileID": "13821946754957392159",
+            "profileID": "OWNER_PRIVATE_REFERENCE",
             "reviewLink": "https://g.page/r/CVa1MF9ZTqQpEBM/review",
             "nativeManagerSource": "Get more reviews panel on the existing managed Paul Legal Associates profile",
             "qrTarget": "https://g.page/r/CVa1MF9ZTqQpEBM/review?utm_source=gbp&utm_medium=reviews&utm_campaign=qr",
@@ -3876,7 +3708,7 @@
           },
           "publicLinkReadback": {
             "observedAtUTC": "2026-10-08T21:27:14.479Z",
-            "profileID": "13821946754957392159",
+            "profileID": "OWNER_PRIVATE_REFERENCE",
             "sourceURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1068224,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
             "website": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
             "appointment": "https://paullegalassociates.com/#/contact",
@@ -3898,9 +3730,9 @@
           },
           "subsequentServiceReadback": {
             "observedAtUTC": "2026-10-08T21:44:01.780Z",
-            "profileId": "13821946754957392159",
-            "posh": "link \"POSH compliance and Internal Committee support\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/7dfba356-0a2b-4385-9d5b-69af957d8ada\n            - generic: POSH compliance and Internal Committee support\n            - generic: Employer support for policies, committee constitution, awareness and process obligations within an agreed scope.\n          - link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices,",
-            "tax": "link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=3000609397491676502&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices, disputes and appeals within the relevant jurisdiction.\n        - button \"Add more services for Law firm\":\n          - generic: add\n          - generic: Add more services\n      - region \"Lawyer\":\n        - heading \"Lawyer\" [level=2]\n        - generic: Additional category\n        - button \"Delete\":\n          - generic: Delete\n        - list:\n          - link \"Civil right",
+            "profileId": "OWNER_PRIVATE_REFERENCE",
+            "posh": "link \"POSH compliance and Internal Committee support\":\n            - /url: https://local.google.com/place?id=OWNER_PRIVATE_REFERENCE&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/7dfba356-0a2b-4385-9d5b-69af957d8ada\n            - generic: POSH compliance and Internal Committee support\n            - generic: Employer support for policies, committee constitution, awareness and process obligations within an agreed scope.\n          - link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=OWNER_PRIVATE_REFERENCE&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices,",
+            "tax": "link \"Tax and GST litigation\":\n            - /url: https://local.google.com/place?id=OWNER_PRIVATE_REFERENCE&use=srp&hl=en#mpd=editprofile/services/sections/gcid:law_firm/items/6590d4b4-7c1f-4d54-bc1b-7e3bf24b97c3\n            - generic: Tax and GST litigation\n            - generic: Legal support on tax notices, disputes and appeals within the relevant jurisdiction.\n        - button \"Add more services for Law firm\":\n          - generic: add\n          - generic: Add more services\n      - region \"Lawyer\":\n        - heading \"Lawyer\" [level=2]\n        - generic: Additional category\n        - button \"Delete\":\n          - generic: Delete\n        - list:\n          - link \"Civil right",
             "managerPersisted": true,
             "publicPublicationVerified": false,
             "explicitApprovalStateVisible": false,
@@ -5128,7 +4960,7 @@
           "qualifiedEnquiries": null,
           "retainedMatters": null,
           "nativeAnalyticsUI": {
-            "accountIdObserved": "130147436",
+            "accountIdObserved": "OWNER_PRIVATE_REFERENCE",
             "propertyIdVerified": null,
             "screen": "My email communications preference modal",
             "action": "Escape did not dismiss. Preferences were not saved or altered; property selector unavailable behind the prompt.",
@@ -5181,8 +5013,8 @@
       "citationCorrectionAction": {
         "submittedBy": "OWNER",
         "status": "SENT_VERIFIED_PENDING_PUBLIC_CORRECTION",
-        "sender": "info@paullegalassociates.com",
-        "recipient": "datagemba@gmail.com",
+        "sender": "OWNER_PRIVATE_REFERENCE",
+        "recipient": "OWNER_PRIVATE_EMAIL",
         "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
         "submittedAtUTC": "2026-10-08T19:46:14Z",
         "submittedAtIST": "2026-10-09T01:16:14+05:30",
@@ -5243,7 +5075,7 @@
       ],
       "automationUpdates": [
         {
-          "id": "6ab7c12e40ec8191858d810b86261c88",
+          "id": "OWNER_PRIVATE_REFERENCE",
           "title": "PLA SEO Ongoing Growth",
           "verified": true,
           "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
@@ -5251,7 +5083,7 @@
           "updatedAtUTC": "2026-10-08T21:02:57.005386+00:00"
         },
         {
-          "id": "6ab7c137a46481919c9d99d4296d7948",
+          "id": "OWNER_PRIVATE_REFERENCE",
           "title": "PLA SEO Monthly Analysis",
           "verified": true,
           "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
@@ -5289,48 +5121,9 @@
         "securityArchitecture": "The historical 4XX reporting day does not establish a current specific rule failure. No Cloudflare security weakening.",
         "indexNow": "No website source or reviewed changed-URL manifest changed. Skip unchanged notifications."
       },
-      "blockedAccounts": [
-        {
-          "platform": "Semrush",
-          "state": "CONNECTED_NO_API_UNITS",
-          "action": "No retry, purchase or paid-unit request; use native free Google evidence."
-        },
-        {
-          "platform": "GBP factual/permission fields",
-          "state": "OWNER_CONFIRMATION_PENDING",
-          "action": "Confirm true Mon–Fri/Saturday/Sunday/out-of-hours appointment policy; approve exact category/service cleanup and review replies before those edits."
-        },
-        {
-          "platform": "GA4",
-          "state": "NO_ELIGIBLE_PROPERTY_FOUND_IN_GSC_ASSOCIATIONS; correct property/collector unverified",
-          "action": "Owner identifies existing standard property/measurement ID and grants appropriate access, or explicitly authorises one free standard setup if none exists; do not guess or duplicate."
-        },
-        {
-          "platform": "Bing Webmaster",
-          "state": "UNSIGNED",
-          "action": "Owner signs into existing verified website through approved authentication; no paid connector."
-        },
-        {
-          "platform": "Maps rank tracker",
-          "state": "GOOGLE_LOCAL_FINDER_UNUSUAL_TRAFFIC_CHALLENGE_IN_WORK_CLOUD",
-          "action": "BrightLocal generated one free Panvel Maps link (live allowance 1 of 10), but Google blocked it before results. No CAPTCHA attempt, reload, alternate Google route, account/trial or spend. Keep ranks UNKNOWN; future authorised point/device/date evidence is needed."
-        },
-        {
-          "platform": "Cloudflare",
-          "state": "ZONE_READ_ACCESS_UNAVAILABLE",
-          "action": "Inspect verified current crawler/security events if failures recur; no broad security change from historical errors."
-        },
-        {
-          "platform": "LinkedIn/Justdial",
-          "state": "OWNER_RESERVED_OR_LISTING_MANAGER_ACCESS_UNAVAILABLE",
-          "action": "Owner corrects confirmed existing profile details; preserve listing/review identity."
-        },
-        {
-          "platform": "Copilot independent answer monitoring",
-          "state": "SIGN_IN_REQUIRED_IN_THIS_SESSION",
-          "action": "The official free Copilot page opens a sign-in interface, not a public prompt. An owner-authorised existing free account is required; no prompt submitted, new account, subscription or alternative route."
-        }
-      ],
+      "blockedAccounts": {
+        "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
+      },
       "resume": {
         "mainAtMeasurement": "4a3d0f424514b6da90e8ec990f176993a147b29f",
         "latestMergedPRAtMeasurement": 48,
@@ -5467,51 +5260,14 @@
       "additionalExpenditureINR": 0,
       "status": "PUBLIC_READBACK_VERIFIED; MEASUREMENT_EXPORT_FIX_VALIDATED; PRIVATE_GOOGLE_SIGN_IN_REQUIRED",
       "accessReview": {
-        "officialGSC": {
-          "state": "SIGN_IN_REQUIRED_IN_THIS_BROWSER",
-          "sourceURL": "https://search.google.com/search-console/about",
-          "nativeSignal": "Start now links to Google sign-in; no property report available.",
-          "newInspections": 0,
-          "freshPerformanceRetrieved": false,
-          "ownerAction": "Use the secure Google sign-in flow in an interactive Work session for associatespaullegal@gmail.com, then verify the existing PLA property and manager profile."
-        },
-        "gbpManager": {
-          "state": "SIGN_IN_REQUIRED_IN_THIS_BROWSER",
-          "nativeSignal": "Public Maps offers Sign in; no manager controls.",
-          "publicListingReadable": true,
-          "managerEdits": 0,
-          "serviceApproval": "UNKNOWN; limited public view does not establish publication or rejection."
-        },
-        "semrush": {
-          "state": "CONNECTED_NO_API_UNITS_LAST_VERIFIED",
-          "retried": false,
-          "ownerAction": "No purchase or paid-unit request under the INR 0 allowance."
-        },
-        "gscWizard": {
-          "state": "RETIRED",
-          "called": false
-        },
-        "analytics": {
-          "state": "ACTUAL_PROPERTY_AND_COLLECTION_UNVERIFIED",
-          "newCollectorConfigured": false,
-          "ownerAction": "Identify the existing free PLA GA4 property after owner email-preference selection; no guessed ID, duplicate collector or billing activation."
-        },
-        "bing": {
-          "state": "LAST_KNOWN_UNSIGNED; NOT_REFRESHED",
-          "indexing": null
-        },
-        "cloudflare": {
-          "state": "NO_CONNECTED_ZONE_READ_ACCESS",
-          "verifiedCrawlerLogs": null,
-          "securityChanges": 0
-        }
+        "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
       },
       "publicGBP": {
         "observedAtUTC": "2026-10-09T03:20:45.772Z",
         "sourceURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1093973,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
         "sourceType": "google_profile",
-        "profileId": "13821946754957392159",
-        "placeCID": "3000609397491676502",
+        "profileId": "OWNER_PRIVATE_REFERENCE",
+        "placeCID": "OWNER_PRIVATE_REFERENCE",
         "name": "Paul Legal Associates",
         "primaryCategory": "Law firm",
         "address": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Rd, near Garden Hotel, Nityanand Nagar, HOC Colony, Panvel, Maharashtra 410206, India",
@@ -5682,49 +5438,13 @@
       "additionalExpenditureINR": 0,
       "status": "AUTHENTICATED_GOOGLE_MEASUREMENT_VERIFIED; PUBLIC_APPOINTMENT_UTM_PROPAGATED; ANALYTICS_OWNER_PREFERENCE_SELECTION_REQUIRED",
       "accessReview": {
-        "officialGSC": {
-          "state": "EXISTING_PROPERTY_SIGNED_IN",
-          "property": "https://paullegalassociates.com/",
-          "identityVerified": true,
-          "newInspections": 2
-        },
-        "gbpManager": {
-          "state": "EXISTING_PROFILE_MANAGED",
-          "profileId": "13821946754957392159",
-          "nativeSignal": "You manage this Business Profile",
-          "managerEdits": 0
-        },
-        "semrush": {
-          "state": "CONNECTED_NO_API_UNITS_LAST_VERIFIED",
-          "retried": false,
-          "paidUnitsRequested": false
-        },
-        "gscWizard": {
-          "state": "RETIRED",
-          "called": false
-        },
-        "analytics": {
-          "state": "EMAIL_PREFERENCE_MODAL_BLOCKS_PROPERTY_VERIFICATION",
-          "propertyVerified": false,
-          "emailPreferencesChanged": false,
-          "newCollectorConfigured": false,
-          "ownerAction": "In the already signed-in Analytics tab, choose the desired email preferences and press Save; then Work will inspect the actual existing PLA property before changing collection."
-        },
-        "bing": {
-          "state": "LAST_KNOWN_UNSIGNED; NOT_REFRESHED",
-          "indexing": null
-        },
-        "cloudflare": {
-          "state": "NO_CONNECTED_ZONE_READ_ACCESS",
-          "verifiedCrawlerLogs": null,
-          "securityChanges": 0
-        }
+        "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
       },
       "publicGBP": {
         "observedAtUTC": "2026-10-09T07:59:56.590Z",
         "sourceMethod": "Native managed Google business panel; published owned-link hrefs read directly from the visible DOM",
-        "profileId": "13821946754957392159",
-        "placeCID": "3000609397491676502",
+        "profileId": "OWNER_PRIVATE_REFERENCE",
+        "placeCID": "OWNER_PRIVATE_REFERENCE",
         "reviewCount": 172,
         "rating": 4.9,
         "responseCount": null,
@@ -5863,7 +5583,7 @@
         "gbpPerformance": {
           "observedDate": "2026-10-09",
           "sourceMethod": "Native owner-visible Performance tabs and monthly tables on the existing managed profile",
-          "profileId": "13821946754957392159",
+          "profileId": "OWNER_PRIVATE_REFERENCE",
           "periodStart": "2026-07-01",
           "periodEnd": "2026-09-30",
           "periodComplete": true,
@@ -6118,7 +5838,7 @@
       },
       "automationUpdates": [
         {
-          "automationId": "6ab7c12e40ec8191858d810b86261c88",
+          "automationId": "OWNER_PRIVATE_REFERENCE",
           "updatedAtUTC": "2026-10-09T08:52:50.743499+00:00",
           "enabled": true,
           "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
@@ -6127,7 +5847,7 @@
           "currentCheckpoint": "Publishing PR #52; authenticated measurement from main a75f382818b02ca25e8b4f0e75c64ac4d91a2d40; final release read from PR metadata/body"
         },
         {
-          "automationId": "6ab7c137a46481919c9d99d4296d7948",
+          "automationId": "OWNER_PRIVATE_REFERENCE",
           "updatedAtUTC": "2026-10-09T08:52:53.386261+00:00",
           "enabled": true,
           "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
@@ -6136,7 +5856,203 @@
           "currentCheckpoint": "Publishing PR #52; authenticated measurement from main a75f382818b02ca25e8b4f0e75c64ac4d91a2d40; final release read from PR metadata/body"
         }
       ]
+    },
+    {
+      "id": "post-pr52-20261009-legacy-team-correction",
+      "recordedAtUTC": "2026-10-09T17:00:55.828129+00:00",
+      "timezone": "Asia/Calcutta",
+      "sourceMain": "2c5f070443bc9e98c2d576345d45302a79ef719f",
+      "latestMergedPRAtStart": 52,
+      "additionalExpenditureINR": 0,
+      "status": "SOURCE_IMPLEMENTED_AND_LOCAL_BUILD_VERIFIED; RELEASE_READBACK_PENDING",
+      "officialGoogleMeasurement": {
+        "source": "Native existing Google Search Console property; observed 9 October 2026 before the browser session ended",
+        "coverage": {
+          "reportLastUpdated": "2026-10-04",
+          "indexed": 27,
+          "notIndexed": 229,
+          "reasons": {
+            "discoveredNotIndexed": 214,
+            "crawledNotIndexed": 1,
+            "redirectError": 7,
+            "notFound404": 2,
+            "pageWithRedirect": 5
+          },
+          "redirectErrorExamples": [
+            {
+              "url": "https://paullegalassociates.com/partners/sonam-paul",
+              "lastCrawlDate": "2026-08-15",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/partners/pp-polachan",
+              "lastCrawlDate": "2026-08-15",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/partners/sojan-paul",
+              "lastCrawlDate": "2026-08-15",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/insights",
+              "lastCrawlDate": "2026-08-15",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/about",
+              "lastCrawlDate": "2026-06-19",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/team",
+              "lastCrawlDate": "2026-06-19",
+              "currentFailureConfirmed": null
+            },
+            {
+              "url": "https://paullegalassociates.com/contact",
+              "lastCrawlDate": "2026-06-18",
+              "currentFailureConfirmed": null
+            }
+          ],
+          "notFoundExamples": [
+            {
+              "url": "https://paullegalassociates.com/team/",
+              "lastCrawlDate": "2026-07-17"
+            },
+            {
+              "url": "https://paullegalassociates.com/expertise",
+              "lastCrawlDate": "2026-07-15"
+            }
+          ]
+        },
+        "performancePresetReadback": {
+          "startDate": "2026-07-07",
+          "endDate": "2026-10-06",
+          "days": 92,
+          "scope": "Web; all countries and devices; three-month UI preset",
+          "clicks": 148,
+          "impressionsDisplay": "50.6K",
+          "impressionsExact": null,
+          "ctrDisplay": "0.3%",
+          "averagePositionDisplay": "2.6",
+          "queryRowCount": 671,
+          "exact90DayExport": false,
+          "newExportImported": false,
+          "movementClaimed": false
+        },
+        "legacyTeamLiveTest": {
+          "url": "https://paullegalassociates.com/team/",
+          "testTimeDisplay": "9 October 2026 4:05:54 PM",
+          "testTimezoneDisplayed": false,
+          "agent": "Google Inspection Tool smartphone",
+          "crawlAllowed": true,
+          "pageFetch": "Failed: Not found (404)",
+          "availableToGoogle": false,
+          "userDeclaredCanonical": null,
+          "googleCanonical": "Only determined after indexing",
+          "requestIndexingClicked": false,
+          "privateScreenshotRetained": true
+        },
+        "legacyTeamIndexedRecord": {
+          "lastCrawlDisplay": "17 July 2026 1:17:48 AM",
+          "timezoneDisplayed": false,
+          "agent": "Googlebot smartphone",
+          "pageFetch": "Failed: Not found (404)",
+          "crawlAllowed": true
+        },
+        "bareExpertiseInspection": {
+          "url": "https://paullegalassociates.com/expertise",
+          "historicalLastCrawlDisplay": "15 July 2026 8:43:47 AM",
+          "historicalFetch": "Not found (404)",
+          "liveTestStarted": true,
+          "liveResult": "UNKNOWN; not captured before the browser session ended",
+          "requestIndexingClicked": false
+        },
+        "previousExactReportsPreserved": true,
+        "lastPreviouslyExportedCompleteDate": "2026-10-06",
+        "commercial18CohortReinspected": false
+      },
+      "implementation": {
+        "source": "src/legacy-redirects.json and existing generation/verifier scripts",
+        "obsoleteRoute": "/team/",
+        "preferredExistingTarget": "/partners/",
+        "method": "Instant HTML meta refresh; target canonical and accessible fallback; no JavaScript",
+        "http301Claimed": false,
+        "aliasIncludedInSitemap": false,
+        "primaryGuidance": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
+        "deploymentVerified": false,
+        "productionVerified": false,
+        "indexingOrRankingUpliftClaimed": false
+      },
+      "httpClientLimit": {
+        "attemptedRoutes": 7,
+        "result": "All seven returned HTTP 403 with no current redirect/canonical evidence",
+        "botDetectionConfirmed": false,
+        "publicOutageConfirmed": false,
+        "headersOrNetworkPathAltered": false,
+        "retries": 0
+      },
+      "keywordDecisions": {
+        "newRescoring": false,
+        "relevantCandidatesPreserved": 74,
+        "irrelevantCandidatesPreserved": 3,
+        "workingP0Preserved": 18,
+        "preferredUrlsPreserved": true,
+        "keywordCsvSHA256": "c20f23b025d8d7ff36da90c3a8dbf83ce4efb3f57f7358d2da7f535a05ec9103",
+        "mapsPositions": null
+      },
+      "actualChangesThisCycle": {
+        "websiteLegacyRedirectAdded": true,
+        "newCommercialOrCityPages": 0,
+        "pageContentRewritten": false,
+        "googleProfileEdits": 0,
+        "reviewReplies": 0,
+        "reviewInvitations": 0,
+        "citationSubmissions": 0,
+        "newAuthorityLinks": 0,
+        "independentAIAnswers": 0,
+        "indexNowSubmitted": false,
+        "analyticsCollectorCreated": false
+      },
+      "noChangeJustified": {
+        "commercialPages": "The dated discovered cohort and old redirect examples do not justify bulk content or canonical changes. One current official live 404 supports only the obsolete team URL correction.",
+        "hoursCategoriesAndReviews": "Owner factual confirmation and exact permissions remain outstanding.",
+        "paidServices": "Semrush units and GSC Wizard were not called; no paid dependency, trial or billing added."
+      },
+      "analyticsContinuation": {
+        "previousPreferencePromptResolved": true,
+        "existingGA4PropertyVerified": false,
+        "newPropertyCreated": false,
+        "ownerActionIfNewPropertyNeeded": "Confirm the genuine employee-count range and authorise one standard no-cost property; any legally binding terms require action-time owner confirmation."
+      },
+      "validation": {
+        "build": "PASS",
+        "contentPages": 247,
+        "sitemapUrls": 239,
+        "internalLinkOccurrences": 8112,
+        "hydrationNavigationChecks": 12,
+        "contactValidation": "PASS",
+        "legacyRedirectArtifacts": 1,
+        "legacyRedirectValidation": "PASS",
+        "sharedBundle": "main.282269f8.js",
+        "measurementTests": 19,
+        "recordValidator": "PASS; 77 candidates, five official reports, 17 citation / 7 AI / 4 review observations",
+        "keywordExportBytePreservation": "Existing CSV unchanged by SHA256; temporary re-export preserves all 77 rows, measured values, priorities and URLs. Twenty-nine integer/decimal display differences are numerically equivalent.",
+        "standardPublicRepositoryRunnerVerified": true,
+        "newOrPaidWorkflowAdded": false,
+        "temporaryExportNumericFormattingDifferences": 29
+      },
+      "resume": {
+        "mainAtMeasurement": "2c5f070443bc9e98c2d576345d45302a79ef719f",
+        "latestMergedPRAtMeasurement": 52,
+        "publishingBranch": "seo/legacy-team-redirect-20261009",
+        "releaseIdentity": "Publishing PR metadata/body records final merged main SHA, existing deployment and public readback.",
+        "nextHighestValueExecutableTask": "Verify deployed /team/ reaches the existing /partners/; when official reporting is available, perform one live test of this materially changed URL. Continue settled P0/commercial measurements and authorised entity corrections.",
+        "ownerDependentNextTask": "Restore the genuinely ended reporting session once; confirm true hours and exact category/catalogue/review permission; provide employee-count range and permission before any new free GA4 property."
+      }
     }
   ],
-  "latestExecutionCycleId": "post-pr51-20261009-authenticated-readback"
+  "latestExecutionCycleId": "post-pr52-20261009-legacy-team-correction",
+  "publicPrivacyNote": "Account identities, detailed authentication records and connected-service identifiers are omitted from this public record; original values are retained only in owner-private evidence. Quantitative SEO reports, dates, commercial decisions and implementation history are preserved."
 }

@@ -18,6 +18,7 @@ const { getServiceMetadata } = loadSource(path.resolve(__dirname, '../src/servic
 const { createSeoGraph } = loadSource(path.resolve(__dirname, '../src/seoGraph.ts'));
 
 const core = require('../src/seo-core.json');
+const legacyRedirects = require('../src/legacy-redirects.json');
 
 const servicePages = PRACTICE_AREAS.map(area => ({
   route: `/expertise/${area.slug}`,
@@ -132,6 +133,38 @@ for (const page of pages) {
   ));
 }
 
+// Preserve the existing content inventory while recovering a documented old URL.
+// GitHub Pages is static hosting: Google supports an instant HTML refresh as a
+// permanent redirect when an HTTP redirect cannot be configured here.
+for (const [oldRoute, targetRoute] of Object.entries(legacyRedirects)) {
+  const targetPage = pages.find(page => canonical(page.route) === ORIGIN + targetRoute);
+  if (!/^\/[a-z0-9-]+(?:\/[a-z0-9-]+)*\/$/.test(oldRoute) ||
+      !targetPage || seen.has(oldRoute.slice(0, -1)) ||
+      Object.prototype.hasOwnProperty.call(legacyRedirects, targetRoute)) {
+    throw new Error(`Invalid or chained legacy redirect: ${oldRoute} -> ${targetRoute}`);
+  }
+  const destination = path.join(buildDir, oldRoute.slice(1), 'index.html');
+  fs.mkdirSync(path.dirname(destination), { recursive: true });
+  const targetUrl = canonical(targetPage.route);
+  fs.writeFileSync(destination, [
+    '<!doctype html>',
+    '<html lang="en">',
+    '<head>',
+    '<meta charset="utf-8">',
+    '<meta name="viewport" content="width=device-width, initial-scale=1">',
+    `<meta http-equiv="refresh" content="0; url=${escapeHtml(targetUrl)}">`,
+    `<link rel="canonical" href="${escapeHtml(targetUrl)}">`,
+    `<title>${escapeHtml(targetPage.title)}</title>`,
+    '</head>',
+    '<body><main>',
+    `<h1>${escapeHtml(targetPage.title)}</h1>`,
+    `<p><a href="${escapeHtml(targetRoute)}">Meet our advocates and partners</a></p>`,
+    '</main></body>',
+    '</html>',
+    ''
+  ].join('\n'));
+}
+
 const sitemapPages = pages.filter(page => !awaitingArticleReview.has(page.route));
 const sitemap = [
   '<?xml version="1.0" encoding="UTF-8"?>',
@@ -145,4 +178,4 @@ const sitemap = [
   ''
 ].join('\n');
 fs.writeFileSync(path.join(buildDir, 'sitemap.xml'), sitemap);
-console.log(`Pre-rendered ${pages.length} complete pages and ${sitemapPages.length} apex sitemap URLs.`);
+console.log(`Pre-rendered ${pages.length} complete pages and ${sitemapPages.length} apex sitemap URLs; ${Object.keys(legacyRedirects).length} legacy redirect.`);
