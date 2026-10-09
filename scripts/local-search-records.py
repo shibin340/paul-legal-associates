@@ -397,11 +397,14 @@ def export_keywords(baseline, target, execution=None):
                         'gscQueryRowStatus', 'gscObservedLandingURLs', 'measuredNextAction', 'measurementEvidence']
     measurements = {}
     if execution:
-        cycle = next((c for c in execution['executionCycles'] if c['id'] == execution['latestExecutionCycleId']), {})
-        google = cycle.get('officialGoogleMeasurement', {})
-        reports = [r for r in google.get('gscReports', []) if r['reportKind'] == 'web' and r['country'] == 'India' and r['completeDays'] == 90]
+        # A newer public/citation checkpoint does not supersede a verified Google report.
+        # Keep its original reporting dates and source-matched decisions/landing evidence.
+        reports = [(report, cycle['officialGoogleMeasurement'])
+                   for cycle in execution['executionCycles']
+                   for report in cycle.get('officialGoogleMeasurement', {}).get('gscReports', [])
+                   if report['reportKind'] == 'web' and report['country'] == 'India' and report['completeDays'] == 90]
         if reports:
-            report = reports[-1]
+            report, google = max(reports, key=lambda item: (item[0]['periodEnd'], item[0]['observedAtUTC']))
             priorities = {r['candidateId']: r for r in google.get('keywordDecisions', [])}
             rows = {r['candidateId']: r for r in report['candidateQueries']}
             landings = {r['keyword'].casefold(): [p['url'] for p in r['pages']]

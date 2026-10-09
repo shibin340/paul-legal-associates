@@ -2,6 +2,10 @@
 
 The live robots file allows `User-agent: *`, has no Disallow, and references the apex sitemap. This permits Googlebot, Bingbot and OAI-SearchBot at the robots layer. Successful public curl/cloud-browser HTML fetches are recorded with release evidence. **These clients are not verified search crawlers**, and a user-agent label alone would not prove crawler identity.
 
+## Reporting access follow-up — 9 October 2026 IST
+
+The official Search Console entry currently requires Google sign-in in this browser. No new private crawl report, URL inspection or current WAF evidence was retrieved in the morning follow-up. Keep the dated official results below; do not present them as a new fetch, bot verification or fresh inspection. Public Home/Contact are healthy after PR #50, and the old Maps appointment URL reaches canonical Contact. No robots/WAF/rate-limit/IndexNow change or unchanged Google request was made. Semrush was not retried and GSC Wizard remains retired. Exact unblock: secure owner authentication for the existing Google property; Cloudflare zone logs remain separately unavailable.
+
 ## Official Google crawler evidence — 9 October 2026 IST
 
 Native GSC crawl stats, updated 6 October: 943 requests, 35,097,486 bytes, 110 ms average, no host problems in its 90-day window. Other-4XX export: 219 requests on the chart date 28 September, with 216 example URLs. UI example times show 29 September without a timezone label. No later nonzero 4XX chart day appears through 6 October. A Corporate advisory example is Discovery / Other agent type; no exact current WAF cause is established.

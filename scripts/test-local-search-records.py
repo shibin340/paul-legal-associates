@@ -189,6 +189,53 @@ class MeasurementTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 records.validate_gsc_report(changed, self.baseline)
 
+    def test_public_only_checkpoint_preserves_last_verified_keyword_measurements(self):
+        filters = [{'Filter': 'Search type', 'Value': 'Web'}, {'Filter': 'Date', 'Value': 'Custom'},
+                   {'Filter': 'Country', 'Value': 'India'}]
+        report = records.read_gsc_export(self.gsc_fixture(days=90, filters=filters), self.baseline,
+                                        '2026-12-01T20:00:00Z', 90, country='India')
+        candidate = report['candidateQueries'][0]
+        google_cycle = {'id': 'google-measured', 'officialGoogleMeasurement': {
+            'gscReports': [report],
+            'keywordDecisions': [{'candidateId': candidate['candidateId'], 'priority': 'P0',
+                                  'basis': 'Synthetic source-backed decision', 'nextAction': 'Monitor'}],
+            'queryPages': [{'keyword': 'lawyer near me', 'pages': [{'url': 'https://paullegalassociates.com/'}]}]}}
+        execution = {'executionCycles': [google_cycle], 'latestExecutionCycleId': 'google-measured'}
+        before = self.root / 'before.csv'
+        after = self.root / 'after.csv'
+        records.export_keywords(self.baseline, before, execution)
+        execution['executionCycles'].append({'id': 'public-readback', 'accountAccess': 'SIGN_IN_REQUIRED'})
+        execution['latestExecutionCycleId'] = 'public-readback'
+        records.export_keywords(self.baseline, after, execution)
+        self.assertEqual(before.read_bytes(), after.read_bytes())
+        rows = list(csv.DictReader(io.StringIO(after.read_text())))
+        measured = next(row for row in rows if row['id'] == candidate['candidateId'])
+        self.assertEqual(measured['measuredPriority'], 'P0')
+        self.assertEqual(measured['gscReportPeriod'], report['periodStart'] + '/' + report['periodEnd'])
+        self.assertTrue(all(row['currentRanking'] == '' for row in rows))
+
+    def test_later_historical_or_all_country_import_cannot_replace_latest_india_period(self):
+        filters = [{'Filter': 'Search type', 'Value': 'Web'}, {'Filter': 'Date', 'Value': 'Custom'},
+                   {'Filter': 'Country', 'Value': 'India'}]
+        report = records.read_gsc_export(self.gsc_fixture(days=90, filters=filters), self.baseline,
+                                        '2026-12-01T20:00:00Z', 90, country='India')
+        execution = {'executionCycles': [{'id': 'current-india', 'officialGoogleMeasurement': {
+            'gscReports': [report]}}], 'latestExecutionCycleId': 'current-india'}
+        before = self.root / 'before.csv'
+        after = self.root / 'after.csv'
+        records.export_keywords(self.baseline, before, execution)
+        older = copy.deepcopy(report)
+        older.update(periodStart='2026-07-23', periodEnd='2026-10-20', observedAtUTC='2026-12-02T20:00:00Z')
+        older['candidateQueries'][0]['clicks'] = 2
+        all_country = copy.deepcopy(report)
+        all_country.update(country=None, periodStart='2026-08-08', periodEnd='2026-11-05')
+        all_country['candidateQueries'][0]['clicks'] = 3
+        execution['executionCycles'].append({'id': 'later-import', 'officialGoogleMeasurement': {
+            'gscReports': [older, all_country]}})
+        execution['latestExecutionCycleId'] = 'later-import'
+        records.export_keywords(self.baseline, after, execution)
+        self.assertEqual(before.read_bytes(), after.read_bytes())
+
 
 if __name__ == '__main__':
     unittest.main()
