@@ -478,6 +478,22 @@
       "periodStart": null,
       "periodEnd": null,
       "newReviews": null
+    },
+    {
+      "id": "reviews-google-profile-20261009-authenticated-readback",
+      "kind": "reviews",
+      "observedAtUTC": "2026-10-09T07:59:56.590Z",
+      "sourceType": "google_profile",
+      "sourceURL": "https://business.google.com/",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "profileId": "13821946754957392159",
+      "profileURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1093973,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+      "reviewCount": 172,
+      "rating": 4.9,
+      "responseCount": null,
+      "periodStart": null,
+      "periodEnd": null,
+      "newReviews": null
     }
   ]
 }

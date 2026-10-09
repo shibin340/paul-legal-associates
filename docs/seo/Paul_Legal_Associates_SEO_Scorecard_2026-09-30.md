@@ -3,6 +3,29 @@
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
 
+## Authenticated Google results — 9 October 2026 IST
+
+Source main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. Publishing [PR #52](https://github.com/shibin340/paul-legal-associates/pull/52) records the final merge/main SHA and production proof. The owner's new sign-in restores the existing GSC property and managed profile `13821946754957392159`; no replacement property/profile or paid dependency was created. Actual results are in cycle `post-pr51-20261009-authenticated-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Prior dated access/propagation observations below remain history. **Additional expenditure: ₹0.**
+
+At 07:59:56 UTC the profile still shows **172 reviews / 4.9**, and **both fixed website and appointment UTMs are publicly visible**. At 08:35:17 UTC the published tagged appointment destination reaches Contact with its untagged self-canonical, correct phone/email and form/WhatsApp controls. No enquiry was submitted. The previously added POSH/Internal Committee and Tax/GST service names/descriptions persist in the manager; explicit approval/public publication remains UNKNOWN. No duplicate service or other profile edit occurred.
+
+### Native GBP complete quarter, 1 July–30 September 2026
+
+| Month | Profile interactions | Call-button interactions | Directions | Website clicks | Tracked bookings |
+|---|---:|---:|---:|---:|---:|
+| July | 142 | 31 | 82 | 29 | 0 |
+| August | 96 | 30 | 53 | 13 | 0 |
+| September | 115 | 33 | 54 | 28 | 0 |
+| Complete quarter | **353** | **94** | **189** | **70** | **0** |
+
+Native views: **4,220**; searches showing the profile: **443**. Search/mobile 3,003; Search/desktop 584; Maps/mobile 546; Maps/desktop 87. These retrospective figures predate October's edits and are intent actions, not unique prospects or confirmed/qualified enquiries. Zero tracked bookings does not establish zero actual appointments. Native rounded year-on-year labels are retained in evidence without deriving prior counts or claiming causation.
+
+The default May–October display is **partial**: 583 interactions, 6,702 views and 520 searches; October contributes 5 interactions so far. Of 114 loaded query rows, eight exactly match existing candidates: advocate near me, corporate lawyer near me, employment lawyer, law firm Navi Mumbai, law firm near me, lawyer near me, property lawyer Navi Mumbai and property lawyer near me. Every match is censored `<15`; completeness is unknown. These are profile-discovery terms, not market volumes or Maps positions. The existing 18 working P0 terms and mapped destinations remain unchanged.
+
+GSC's latest complete date remains 6 October. Native 28-day UI for 9 September–6 October shows 42 clicks, **17.4K rounded** impressions, 0.2% rounded CTR and 2.5 rounded average position; no duplicate export was imported. The five prior exact official reports retain their dates. Fresh Employment inspection at 08:09:10 UTC changes from unknown to **Discovered—currently not indexed**, with the sitemap recognised. Title verification at 08:11:49 UTC remains discovered/not indexed. Neither has a recorded crawl/canonical yet. Latest-per-URL commercial summary is **3 indexed / 15 discovered**, combining these two fresh checks with sixteen dated 8 October checks; it is not a new inspection of all 18. No indexing request or speculative page rewrite occurred.
+
+Bdir's two records still show Moraj; the owner's single correction remains SUBMITTED/PENDING and no matching publisher reply was found in the restricted incoming-mail query. No resend, review reply, new backlink, independent AI test or local-rank measurement occurred. GA4's email-preference modal still blocks correct-property verification; the owner must choose preferences and Save before property/collector work. True office hours and exact category/catalogue/review permissions remain owner-dependent. Next: resolve that one Analytics screen, then verify the actual free PLA property and stream without duplicating tracking. The publishing PR records the final merged checkpoint and production verification.
+
 ## Public follow-up and measurement continuity — 9 October 2026 IST
 
 Source main `3c8207df2bee91f259942704fa251d32004a9f34` / merged [PR #50](https://github.com/shibin340/paul-legal-associates/pull/50). [Deployment 37878744392](https://github.com/shibin340/paul-legal-associates/actions/runs/37878744392) passed the 247-route, 239-sitemap-URL, 8,112-link and 12 hydration/navigation checks, Contact validation and 17 measurement tests. Live Home/Contact retain `main.282269f8.js`, untagged canonicals and phone/email/WhatsApp paths. The public legacy appointment URL successfully reaches `/contact/`; no enquiry was submitted.
