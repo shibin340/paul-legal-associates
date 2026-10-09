@@ -2,6 +2,18 @@
 
 Opened 5 October 2026 before source changes; refreshed after the execution cycle. Current source/release references are below. Original working-register recovery is preserved in repository history. **COMPLETE means the stated implementation/system is verified; it never means Google/Bing indexing or leads are guaranteed.** Account-dependent outcomes and substantive law review remain explicitly unfinished.
 
+## Google live repair verified and keyword landing evidence corrected — 9 October 2026
+
+Verified main `24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85` / merged [PR #53](https://github.com/shibin340/paul-legal-associates/pull/53). Existing deployment/public verification is complete: 247 content pages, 239 sitemap URLs, 8,112 links, 12 hydration/navigation checks, Contact/alias checks and 19 measurement tests. **₹0 additional expenditure.**
+
+After restored native access, Google's live `/team/` test reports **Successful fetch**, crawling/indexing allowed and canonical `/partners/`. Test label: 9 October 11:06:15 PM, time zone not displayed; evidence observed at 17:36:52 UTC. Bare `/expertise` also succeeds, canonical `/expertise/`, test label 11:15:09 PM. These replace the current live-failure/unknown observations; the old July index records remain historical. Existing 404 validation started 19 August: **2 pending / 0 failed**. No validation restart, indexing request or new source fix was needed.
+
+Performance still ends at 6 October; the five exact exports remain unchanged. Four fresh exact India/Web query-to-page readbacks use 9 July–6 October. Employment's complete page sample now includes Home: 4,242 impressions / zero clicks; the old Contact fragment has two impressions. Previously only that fragment was recorded. `property lawyer Navi Mumbai` resolves to Home: 15 impressions / zero clicks. These two observed-landing fields are corrected in the existing CSV; the previous employment sample remains in history. Counts, priorities, 74 relevant candidates, three exclusions and 18 P0/preferred destinations are preserved. This is evidence correction, not ranking movement.
+
+Home already has static Property, Title and Employment links. No content, title or duplicate-city-page rewrite is justified by these observations. The commercial tracker retains its inspection dates; no fresh cohort-wide indexing claim. No GBP edit, review reply/invitation, citation resend, acquired link, AI retest or GA4 collector occurred. Dated GBP/review/AI baselines and the owner-submitted pending Bdir correction remain preserved.
+
+See cycle `post-pr53-20261009-google-live-verification` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json); the publishing PR records its final merged checkpoint. **Next:** monitor the existing validation and the next settled exact 28/90-day P0/commercial cohort at a sensible interval; do not repeat successful live tests or unchanged indexing requests. Owner facts/permissions remain true hours, exact category/catalogue corrections and public-review replies. Any new free standard GA4 property needs permission and the real employee range, followed by binding-terms confirmation at submission. The previously blocked Google profile-detail route is not retried.
+
 ## Verified legacy team error and correction — 9 October 2026 IST
 
 Source main `2c5f070443bc9e98c2d576345d45302a79ef719f` / merged PR #52. Cycle `post-pr52-20261009-legacy-team-correction` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) records the diagnosis and source fix. Publishing PR metadata/body is the release readback for the final merge SHA, deployment and public verification. **₹0 additional expenditure.**
