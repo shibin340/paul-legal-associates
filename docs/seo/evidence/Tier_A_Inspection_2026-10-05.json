@@ -933,7 +933,7 @@
     "coverageState": "Discovered - currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:04:27.434Z",
+    "lastCheckAt": "2026-10-09T08:11:49.719Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
@@ -961,13 +961,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "lastCheckAt": "2026-10-09T08:11:49.719Z",
+        "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+        "observedAtUTC": "2026-10-09T08:11:49.719Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered - currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "sitemapIncludedInCurrentProduction": true,
+        "requestIndexingSubmitted": false
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
-      "observedAtUTC": "2026-10-08T20:04:27.434Z",
+      "observedAtUTC": "2026-10-09T08:11:49.719Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
       "coverageState": "Discovered - currently not indexed",
       "lastCrawlDisplay": "N/A",
@@ -978,9 +1001,11 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
       "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
@@ -1004,10 +1029,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
     "currentStatus": "not_indexed",
-    "coverageState": "URL is unknown to Google",
+    "coverageState": "Discovered - currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:10:58.193Z",
+    "lastCheckAt": "2026-10-09T08:09:10.702Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
@@ -1035,26 +1060,49 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "lastCheckAt": "2026-10-09T08:09:10.702Z",
+        "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+        "observedAtUTC": "2026-10-09T08:09:10.702Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered - currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "sitemapIncludedInCurrentProduction": true,
+        "requestIndexingSubmitted": false
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
-      "observedAtUTC": "2026-10-08T20:10:58.193Z",
+      "observedAtUTC": "2026-10-09T08:09:10.702Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "URL is unknown to Google",
+      "coverageState": "Discovered - currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
       "crawlAllowed": "N/A",
       "pageFetch": "N/A",
-      "indexingAllowed": "info",
+      "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "No referring sitemaps detected",
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
       "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"

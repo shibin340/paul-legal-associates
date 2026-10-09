@@ -2,6 +2,18 @@
 
 Opened 5 October 2026 before source changes; refreshed after the execution cycle. Current source/release references are below. Original working-register recovery is preserved in repository history. **COMPLETE means the stated implementation/system is verified; it never means Google/Bing indexing or leads are guaranteed.** Account-dependent outcomes and substantive law review remain explicitly unfinished.
 
+## Authenticated continuation — 9 October 2026 IST
+
+Measurement main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. Existing Google access is restored; do not request another sign-in unless a new session genuinely loses it. Cycle `post-pr51-20261009-authenticated-readback` in [execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) and the [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) contain the new results. Prior access/propagation instructions below are dated history. ₹0 extra spent.
+
+**Resolved:** both GBP owned links now publicly contain their fixed UTMs; the appointment Contact destination has an untagged canonical and correct controls. **Measured:** complete July–September GBP performance (353 interactions: 94 call-button, 189 directions, 70 website; 4,220 views/443 searches), plus monthly figures and a separately labelled partial May–October query sample. **Fresh indexing:** Employment now discovered via sitemap, title verification remains discovered; latest-per-URL cohort 3 indexed/15 discovered combines two 9 October checks with sixteen 8 October checks. GSC latest settled date remains 6 October; the existing five exact exports and 18 measured P0 choices are preserved, not recreated. Reviews remain 172/4.9 at 07:59:56 UTC.
+
+No new profile edit, duplicate service, indexing request, citation submission/resend, review message or backlink acquisition. Both Bdir corrections remain pending public readback. POSH/Tax entries persist; explicit service approval is unknown. Maps ranks remain unmeasured; the earlier Google Local Finder security boundary is not retried. Fixed independent AI history remains dated. No website defect justified a rewrite.
+
+**Exact next owner screen:** the already signed-in Google Analytics tab shows “My email communications”. Owner selects the desired email preferences and presses Save. Work then verifies the existing PLA standard GA4 property and stream before connecting one collector; no new property, email subscription choice, guessed tracking ID or billing activation is made meanwhile. Remaining factual permissions: genuine Mon–Fri/Saturday/Sunday hours and online/senior variants; exact category/catalogue cleanup and public-review replies. Bing remains unsigned. Semrush units and Wizard renewal remain permanently outside the ₹0 programme.
+
+Publishing PR metadata/body records its final merge SHA, existing deployment checks and production verification; resume from that merged result and the highest-value unblocked property/measurement task rather than re-auditing.
+
 ## Public follow-up and measurement continuity — 9 October 2026 IST
 
 Source main `3c8207df2bee91f259942704fa251d32004a9f34` / merged [PR #50](https://github.com/shibin340/paul-legal-associates/pull/50). [Deployment 37878744392](https://github.com/shibin340/paul-legal-associates/actions/runs/37878744392) passed the 247-route, 239-sitemap-URL, 8,112-link and 12 hydration/navigation checks, Contact validation and 17 measurement tests. Live Home/Contact retain `main.282269f8.js`, untagged canonicals and phone/email/WhatsApp paths. The public legacy appointment URL successfully reaches `/contact/`; no enquiry was submitted.

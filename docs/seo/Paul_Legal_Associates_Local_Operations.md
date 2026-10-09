@@ -2,6 +2,10 @@
 
 Prepared 7 October 2026 IST from current main through PR #44 and the existing query, citation, conversion and claim registers. This is the office execution procedure, not proof that a profile, review, citation or collector has been changed. The [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) remains the one outcome record; [dated source evidence](evidence/Local_Search_2026-10-07.json) contains the exact observations and blockers.
 
+## Current operational readback — 9 October 2026 IST
+
+The existing GSC property and GBP manager are signed in again. No profile replacement or duplicate additions. POSH/Internal Committee and Tax/GST service descriptions persist; no explicit approval status is visible, so public publication remains unverified. The original 704→706 reconciliation is dated history, not a fresh full catalogue count. Native complete July–September performance and the 172/4.9 review readback are in the existing scorecard. Analytics awaits the owner's email-preference selection; do not choose subscriptions, create a property or install a collector until resolved and identity verified. Category decisions and actual conflicting hours remain as recorded below, without a speculative edit.
+
 ## Office reference and first profile action
 
 Use the current website reference: **Paul Legal Associates**, Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206; **+91 7977063567**; **info@paullegalassociates.com**; **https://paullegalassociates.com/**. Its published hours are Mon–Fri 10:00–20:00, Sat 10:00–18:00, Sunday by appointment. True current hours and the precise entrance/pin still need office-administration confirmation. Website schema coordinates are a source assertion, not independently verified map-pin evidence.
@@ -29,7 +33,7 @@ Manager shows 9 AM–9 PM every day, plus different online/senior hours. Website
 
 The dated evidence contains **18 prepared service names/descriptions**, each mapped to its existing preferred website destination: property, title/due diligence, conveyancing, registration, MahaRERA, NAINA, acquisition, corporate, contracts, litigation, ADR, employment, POSH, banking, debt, tax, FEMA and maritime. Publish only genuinely offered services supported by the live profile interface. The 18 prepared records are preserved. Manager reconciliation found 704 existing entries; 16 prepared services were already represented. Only missing POSH/Internal Committee and Tax/GST entries were submitted and reopened on 9 October IST, with no prices. Google review is pending; the manager shows 706 entries. No duplicate set of 18 additions or bulk removal was made. Do not paste unverified prices, superlatives, deadlines or client results. A destination map is internal guidance; do not force a per-service URL into a field that does not support it. [Google services guidance](https://support.google.com/business/answer/9455399?hl=en).
 
-Both existing fixed links below were saved and reopened/read back on 9 October IST. Tagged destinations preserve their untagged canonicals. Maps now exposes the website UTM; its appointment link still shows old hash Contact:
+Both existing fixed links below were saved and reopened/read back on 9 October IST. At 9 October 07:59:56 UTC both fixed UTMs are publicly visible in the managed business panel. At 08:35:17 UTC the published appointment link reaches Contact with its untagged canonical and correct phone/email/form controls. The earlier pending old-hash observation is preserved as history; no enquiry was submitted:
 
 - Website: `https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website`
 - Appointment/contact, where genuinely supported: `https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment`

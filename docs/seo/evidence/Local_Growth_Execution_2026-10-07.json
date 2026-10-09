@@ -276,7 +276,7 @@
     "csvRecordSeparators": "LF; 77 unchanged rows",
     "stagedDiffCheck": "PASS; all nine changed files"
   },
-  "recordedAtUTC": "2026-10-09T03:30:45.360161Z",
+  "recordedAtUTC": "2026-10-09T08:46:15.921029Z",
   "blockedAccounts": {
     "semrush": {
       "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
@@ -1153,120 +1153,120 @@
                 "url": "https://paullegalassociates.com/contact/",
                 "impressions": 42,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.26
               },
               {
                 "url": "https://paullegalassociates.com/partners/",
                 "impressions": 10,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 8.6
               },
               {
                 "url": "https://paullegalassociates.com/expertise/",
                 "impressions": 9,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 6.33
               },
               {
                 "url": "https://paullegalassociates.com/about/",
                 "impressions": 5,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.2
               },
               {
                 "url": "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 6.5
               },
               {
                 "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 25.0
+                "ctrPercent": 0,
+                "averagePosition": 25
               },
               {
                 "url": "https://paullegalassociates.com/insights/sanctions-export-control-law/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "url": "https://paullegalassociates.com/insights/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 3.67
               },
               {
                 "url": "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.33
               },
               {
                 "url": "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.33
               },
               {
                 "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "url": "https://paullegalassociates.com/partners/sonam-paul/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 6.0
+                "ctrPercent": 0,
+                "averagePosition": 6
               },
               {
                 "url": "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "url": "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 9.0
+                "ctrPercent": 0,
+                "averagePosition": 9
               },
               {
                 "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 10.0
+                "ctrPercent": 0,
+                "averagePosition": 10
               }
             ],
             "countries": [
@@ -1281,148 +1281,148 @@
                 "country": "United Arab Emirates",
                 "impressions": 1,
                 "clicks": 1,
-                "ctrPercent": 100.0,
-                "averagePosition": 1.0
+                "ctrPercent": 100,
+                "averagePosition": 1
               },
               {
                 "country": "United States",
                 "impressions": 30,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 10.33
               },
               {
                 "country": "United Kingdom",
                 "impressions": 11,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 19.27
               },
               {
                 "country": "Brazil",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 3.0
+                "ctrPercent": 0,
+                "averagePosition": 3
               },
               {
                 "country": "Singapore",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Netherlands",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.5
               },
               {
                 "country": "Spain",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Hong Kong",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Indonesia",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Pakistan",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Peru",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Ukraine",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 4.0
+                "ctrPercent": 0,
+                "averagePosition": 4
               },
               {
                 "country": "Kuwait",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "country": "New Zealand",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "country": "Cyprus",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 6.0
+                "ctrPercent": 0,
+                "averagePosition": 6
               },
               {
                 "country": "Romania",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "country": "Greece",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 9.0
+                "ctrPercent": 0,
+                "averagePosition": 9
               },
               {
                 "country": "Mexico",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 11.0
+                "ctrPercent": 0,
+                "averagePosition": 11
               },
               {
                 "country": "Australia",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 17.0
+                "ctrPercent": 0,
+                "averagePosition": 17
               },
               {
                 "country": "Israel",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 21.0
+                "ctrPercent": 0,
+                "averagePosition": 21
               },
               {
                 "country": "Belarus",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 26.0
+                "ctrPercent": 0,
+                "averagePosition": 26
               }
             ],
             "devices": [
@@ -1444,8 +1444,8 @@
                 "device": "Tablet",
                 "impressions": 5,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               }
             ],
             "candidateQueries": [
@@ -1454,23 +1454,23 @@
                 "keyword": "property registration lawyers near me",
                 "impressions": 2,
                 "clicks": 1,
-                "ctrPercent": 50.0,
-                "averagePosition": 7.0
+                "ctrPercent": 50,
+                "averagePosition": 7
               },
               {
                 "candidateId": "local-008",
                 "keyword": "law firm Navi Mumbai",
                 "impressions": 1,
                 "clicks": 1,
-                "ctrPercent": 100.0,
-                "averagePosition": 23.0
+                "ctrPercent": 100,
+                "averagePosition": 23
               },
               {
                 "candidateId": "local-050",
                 "keyword": "contract lawyer",
                 "impressions": 2023,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.03
               },
               {
@@ -1478,7 +1478,7 @@
                 "keyword": "employment lawyer",
                 "impressions": 1557,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.83
               },
               {
@@ -1486,7 +1486,7 @@
                 "keyword": "property lawyer near me",
                 "impressions": 15,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 6.47
               },
               {
@@ -1494,7 +1494,7 @@
                 "keyword": "lawyer near me",
                 "impressions": 12,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 8.67
               },
               {
@@ -1502,7 +1502,7 @@
                 "keyword": "law firm near me",
                 "impressions": 11,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 9.09
               },
               {
@@ -1510,7 +1510,7 @@
                 "keyword": "property documents verification lawyers near me",
                 "impressions": 7,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.43
               },
               {
@@ -1518,15 +1518,15 @@
                 "keyword": "property verification lawyer",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-013",
                 "keyword": "property lawyer Navi Mumbai",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 16.5
               },
               {
@@ -1534,7 +1534,7 @@
                 "keyword": "corporate lawyer near me",
                 "impressions": 5,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 3.4
               },
               {
@@ -1542,23 +1542,23 @@
                 "keyword": "business lawyer near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-024",
                 "keyword": "property verification lawyers near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-060",
                 "keyword": "labour law advocate near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.5
               },
               {
@@ -1566,32 +1566,32 @@
                 "keyword": "real estate lawyer near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "candidateId": "local-002",
                 "keyword": "advocate near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 18.0
+                "ctrPercent": 0,
+                "averagePosition": 18
               },
               {
                 "candidateId": "local-007",
                 "keyword": "advocate Panvel",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 18.0
+                "ctrPercent": 0,
+                "averagePosition": 18
               },
               {
                 "candidateId": "local-057",
                 "keyword": "labour lawyer",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               }
             ],
             "limitations": [
@@ -1675,127 +1675,127 @@
                 "url": "https://paullegalassociates.com/contact/",
                 "impressions": 95,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 11.36
               },
               {
                 "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal/",
                 "impressions": 15,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 10.6
               },
               {
                 "url": "https://paullegalassociates.com/expertise/",
                 "impressions": 9,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 6.33
               },
               {
                 "url": "https://paullegalassociates.com/insights/sanctions-export-control-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.75
               },
               {
                 "url": "https://paullegalassociates.com/expertise/customs-foreign-trade-import-export-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.75
               },
               {
                 "url": "https://paullegalassociates.com/expertise/healthcare-hospital-clinical-establishment-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 6.5
               },
               {
                 "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/aviation-airport-aeronautical-law/",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 25.0
+                "ctrPercent": 0,
+                "averagePosition": 25
               },
               {
                 "url": "https://paullegalassociates.com/insights/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 3.67
               },
               {
                 "url": "https://paullegalassociates.com/expertise/pharmaceutical-drugs-cosmetics-medical-devices-law/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.33
               },
               {
                 "url": "https://paullegalassociates.com/insights/media-sports-influencer-law-advisory/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.33
               },
               {
                 "url": "https://paullegalassociates.com/expertise/senior-citizens-elder-law-maintenance-tribunal",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 8.67
               },
               {
                 "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure/",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 5.5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 8.0
+                "ctrPercent": 0,
+                "averagePosition": 8
               },
               {
                 "url": "https://paullegalassociates.com/partners/sonam-paul/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "url": "https://paullegalassociates.com/expertise/mining-minerals-quarrying-royalty-law/",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 9.0
+                "ctrPercent": 0,
+                "averagePosition": 9
               },
               {
                 "url": "https://paullegalassociates.com/expertise/renewable-energy-electric-mobility-infrastructure",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 9.0
+                "ctrPercent": 0,
+                "averagePosition": 9
               }
             ],
             "countries": [
@@ -1817,288 +1817,288 @@
                 "country": "United Arab Emirates",
                 "impressions": 4,
                 "clicks": 1,
-                "ctrPercent": 25.0,
+                "ctrPercent": 25,
                 "averagePosition": 2.5
               },
               {
                 "country": "United States",
                 "impressions": 313,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 3.54
               },
               {
                 "country": "Canada",
                 "impressions": 8,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.38
               },
               {
                 "country": "Nigeria",
                 "impressions": 8,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.5
               },
               {
                 "country": "Brazil",
                 "impressions": 5,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 3.2
               },
               {
                 "country": "France",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 16.75
               },
               {
                 "country": "Philippines",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 21.5
               },
               {
                 "country": "Singapore",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Germany",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.33
               },
               {
                 "country": "Kuwait",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.33
               },
               {
                 "country": "Cyprus",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 5.33
               },
               {
                 "country": "Australia",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 13.0
+                "ctrPercent": 0,
+                "averagePosition": 13
               },
               {
                 "country": "South Africa",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Peru",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.5
               },
               {
                 "country": "Netherlands",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.5
               },
               {
                 "country": "Chile",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "country": "Mexico",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 14.5
               },
               {
                 "country": "Spain",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Hong Kong",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Indonesia",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Italy",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Latvia",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Pakistan",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Saudi Arabia",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "country": "Poland",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 4.0
+                "ctrPercent": 0,
+                "averagePosition": 4
               },
               {
                 "country": "Ukraine",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 4.0
+                "ctrPercent": 0,
+                "averagePosition": 4
               },
               {
                 "country": "New Zealand",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 5.0
+                "ctrPercent": 0,
+                "averagePosition": 5
               },
               {
                 "country": "Qatar",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 6.0
+                "ctrPercent": 0,
+                "averagePosition": 6
               },
               {
                 "country": "Ghana",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "country": "Romania",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "country": "Iran",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 8.0
+                "ctrPercent": 0,
+                "averagePosition": 8
               },
               {
                 "country": "Greece",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 9.0
+                "ctrPercent": 0,
+                "averagePosition": 9
               },
               {
                 "country": "China",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 11.0
+                "ctrPercent": 0,
+                "averagePosition": 11
               },
               {
                 "country": "South Korea",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 20.0
+                "ctrPercent": 0,
+                "averagePosition": 20
               },
               {
                 "country": "Vietnam",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 20.0
+                "ctrPercent": 0,
+                "averagePosition": 20
               },
               {
                 "country": "Bangladesh",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 21.0
+                "ctrPercent": 0,
+                "averagePosition": 21
               },
               {
                 "country": "Israel",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 21.0
+                "ctrPercent": 0,
+                "averagePosition": 21
               },
               {
                 "country": "Belarus",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 26.0
+                "ctrPercent": 0,
+                "averagePosition": 26
               },
               {
                 "country": "Thailand",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 35.0
+                "ctrPercent": 0,
+                "averagePosition": 35
               },
               {
                 "country": "Nepal",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 37.0
+                "ctrPercent": 0,
+                "averagePosition": 37
               },
               {
                 "country": "Costa Rica",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 44.0
+                "ctrPercent": 0,
+                "averagePosition": 44
               }
             ],
             "devices": [
@@ -2120,7 +2120,7 @@
                 "device": "Tablet",
                 "impressions": 19,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 11.68
               }
             ],
@@ -2146,15 +2146,15 @@
                 "keyword": "property registration lawyers near me",
                 "impressions": 2,
                 "clicks": 1,
-                "ctrPercent": 50.0,
-                "averagePosition": 7.0
+                "ctrPercent": 50,
+                "averagePosition": 7
               },
               {
                 "candidateId": "local-050",
                 "keyword": "contract lawyer",
                 "impressions": 5162,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.01
               },
               {
@@ -2162,7 +2162,7 @@
                 "keyword": "employment lawyer",
                 "impressions": 4242,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.74
               },
               {
@@ -2170,7 +2170,7 @@
                 "keyword": "law firm near me",
                 "impressions": 38,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 9.24
               },
               {
@@ -2178,7 +2178,7 @@
                 "keyword": "lawyer near me",
                 "impressions": 34,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.79
               },
               {
@@ -2186,7 +2186,7 @@
                 "keyword": "property lawyer Navi Mumbai",
                 "impressions": 15,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 17.6
               },
               {
@@ -2194,7 +2194,7 @@
                 "keyword": "corporate lawyer near me",
                 "impressions": 14,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.21
               },
               {
@@ -2202,7 +2202,7 @@
                 "keyword": "advocate near me",
                 "impressions": 12,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 21.08
               },
               {
@@ -2210,7 +2210,7 @@
                 "keyword": "property documents verification lawyers near me",
                 "impressions": 7,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.43
               },
               {
@@ -2218,23 +2218,23 @@
                 "keyword": "property verification lawyer",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-014",
                 "keyword": "real estate lawyer near me",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 4.0
+                "ctrPercent": 0,
+                "averagePosition": 4
               },
               {
                 "candidateId": "local-047",
                 "keyword": "business lawyer near me",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.67
               },
               {
@@ -2242,31 +2242,31 @@
                 "keyword": "property verification lawyers near me",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-006",
                 "keyword": "lawyer Panvel",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "candidateId": "local-060",
                 "keyword": "labour law advocate near me",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 2.0
+                "ctrPercent": 0,
+                "averagePosition": 2
               },
               {
                 "candidateId": "local-007",
                 "keyword": "advocate Panvel",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 16.33
               },
               {
@@ -2274,7 +2274,7 @@
                 "keyword": "legal services near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.5
               },
               {
@@ -2282,24 +2282,24 @@
                 "keyword": "labour lawyer",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-065",
                 "keyword": "banking lawyer",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 3.0
+                "ctrPercent": 0,
+                "averagePosition": 3
               },
               {
                 "candidateId": "local-009",
                 "keyword": "lawyer Navi Mumbai",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 78.0
+                "ctrPercent": 0,
+                "averagePosition": 78
               }
             ],
             "limitations": [
@@ -2376,21 +2376,21 @@
                 "url": "https://paullegalassociates.com/contact/",
                 "impressions": 46,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 10.41
               },
               {
                 "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 3.0
+                "ctrPercent": 0,
+                "averagePosition": 3
               },
               {
                 "url": "https://paullegalassociates.com/expertise/",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 9.67
               }
             ],
@@ -2422,7 +2422,7 @@
                 "device": "Tablet",
                 "impressions": 19,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 11.68
               }
             ],
@@ -2448,15 +2448,15 @@
                 "keyword": "property registration lawyers near me",
                 "impressions": 2,
                 "clicks": 1,
-                "ctrPercent": 50.0,
-                "averagePosition": 7.0
+                "ctrPercent": 50,
+                "averagePosition": 7
               },
               {
                 "candidateId": "local-050",
                 "keyword": "contract lawyer",
                 "impressions": 5162,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 2.01
               },
               {
@@ -2464,7 +2464,7 @@
                 "keyword": "employment lawyer",
                 "impressions": 4242,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.74
               },
               {
@@ -2472,7 +2472,7 @@
                 "keyword": "law firm near me",
                 "impressions": 38,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 9.24
               },
               {
@@ -2480,7 +2480,7 @@
                 "keyword": "lawyer near me",
                 "impressions": 34,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.79
               },
               {
@@ -2488,7 +2488,7 @@
                 "keyword": "property lawyer Navi Mumbai",
                 "impressions": 15,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 17.6
               },
               {
@@ -2496,7 +2496,7 @@
                 "keyword": "corporate lawyer near me",
                 "impressions": 14,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.21
               },
               {
@@ -2504,7 +2504,7 @@
                 "keyword": "advocate near me",
                 "impressions": 12,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 21.08
               },
               {
@@ -2512,7 +2512,7 @@
                 "keyword": "property documents verification lawyers near me",
                 "impressions": 7,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 1.43
               },
               {
@@ -2520,23 +2520,23 @@
                 "keyword": "property verification lawyer",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-014",
                 "keyword": "real estate lawyer near me",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 4.0
+                "ctrPercent": 0,
+                "averagePosition": 4
               },
               {
                 "candidateId": "local-047",
                 "keyword": "business lawyer near me",
                 "impressions": 6,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 4.67
               },
               {
@@ -2544,31 +2544,31 @@
                 "keyword": "property verification lawyers near me",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-006",
                 "keyword": "lawyer Panvel",
                 "impressions": 4,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 7.0
+                "ctrPercent": 0,
+                "averagePosition": 7
               },
               {
                 "candidateId": "local-060",
                 "keyword": "labour law advocate near me",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 2.0
+                "ctrPercent": 0,
+                "averagePosition": 2
               },
               {
                 "candidateId": "local-007",
                 "keyword": "advocate Panvel",
                 "impressions": 3,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 16.33
               },
               {
@@ -2576,7 +2576,7 @@
                 "keyword": "legal services near me",
                 "impressions": 2,
                 "clicks": 0,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePosition": 7.5
               },
               {
@@ -2584,24 +2584,24 @@
                 "keyword": "labour lawyer",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 1.0
+                "ctrPercent": 0,
+                "averagePosition": 1
               },
               {
                 "candidateId": "local-065",
                 "keyword": "banking lawyer",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 3.0
+                "ctrPercent": 0,
+                "averagePosition": 3
               },
               {
                 "candidateId": "local-009",
                 "keyword": "lawyer Navi Mumbai",
                 "impressions": 1,
                 "clicks": 0,
-                "ctrPercent": 0.0,
-                "averagePosition": 78.0
+                "ctrPercent": 0,
+                "averagePosition": 78
               }
             ],
             "limitations": [
@@ -3186,14 +3186,14 @@
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 1,
                 "impressions": 5,
-                "ctrPercent": 20.0,
+                "ctrPercent": 20,
                 "averagePositionRounded": 1.6
               },
               {
                 "url": "https://paullegalassociates.com/",
                 "clicks": 0,
                 "impressions": 34,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePositionRounded": 5.6
               }
             ],
@@ -3211,8 +3211,8 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 1,
                 "impressions": 2,
-                "ctrPercent": 50.0,
-                "averagePositionRounded": 7.0
+                "ctrPercent": 50,
+                "averagePositionRounded": 7
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3236,8 +3236,8 @@
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 1,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 23.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 23
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3254,14 +3254,14 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 1,
                 "impressions": 50,
-                "ctrPercent": 2.0,
+                "ctrPercent": 2,
                 "averagePositionRounded": 19.5
               },
               {
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 3,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePositionRounded": 21.3
               }
             ],
@@ -3279,7 +3279,7 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 0,
                 "impressions": 34,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePositionRounded": 7.8
               }
             ],
@@ -3297,15 +3297,15 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 0,
                 "impressions": 38,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePositionRounded": 9.2
               },
               {
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 3,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 8.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 8
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3322,8 +3322,8 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 0,
                 "impressions": 6,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 1.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 1
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3340,15 +3340,15 @@
                 "url": "https://paullegalassociates.com/",
                 "clicks": 0,
                 "impressions": 14,
-                "ctrPercent": 0.0,
+                "ctrPercent": 0,
                 "averagePositionRounded": 4.2
               },
               {
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 2,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 1.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 1
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3365,8 +3365,8 @@
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 4,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 15.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 15
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -3383,8 +3383,8 @@
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
                 "impressions": 2,
-                "ctrPercent": 0.0,
-                "averagePositionRounded": 15.0
+                "ctrPercent": 0,
+                "averagePositionRounded": 15
               }
             ],
             "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
@@ -4986,10 +4986,10 @@
           "hostStatus": "Host had no problems in the last 90 days",
           "responsePercentagesRounded": {
             "200": 64,
-            "other4XX": 23,
-            "404": 7,
             "301": 4,
-            "304": 2
+            "304": 2,
+            "404": 7,
+            "other4XX": 23
           },
           "other4XX": {
             "requests": 219,
@@ -5671,7 +5671,450 @@
         "publishingPR": 51,
         "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/51"
       }
+    },
+    {
+      "id": "post-pr51-20261009-authenticated-readback",
+      "startedAtUTC": "2026-10-09T07:57:52Z",
+      "recordedAtUTC": "2026-10-09T08:46:15.921029Z",
+      "timezone": "Asia/Kolkata",
+      "sourceMain": "a75f382818b02ca25e8b4f0e75c64ac4d91a2d40",
+      "latestMergedPRAtStart": 51,
+      "additionalExpenditureINR": 0,
+      "status": "AUTHENTICATED_GOOGLE_MEASUREMENT_VERIFIED; PUBLIC_APPOINTMENT_UTM_PROPAGATED; ANALYTICS_OWNER_PREFERENCE_SELECTION_REQUIRED",
+      "accessReview": {
+        "officialGSC": {
+          "state": "EXISTING_PROPERTY_SIGNED_IN",
+          "property": "https://paullegalassociates.com/",
+          "identityVerified": true,
+          "newInspections": 2
+        },
+        "gbpManager": {
+          "state": "EXISTING_PROFILE_MANAGED",
+          "profileId": "13821946754957392159",
+          "nativeSignal": "You manage this Business Profile",
+          "managerEdits": 0
+        },
+        "semrush": {
+          "state": "CONNECTED_NO_API_UNITS_LAST_VERIFIED",
+          "retried": false,
+          "paidUnitsRequested": false
+        },
+        "gscWizard": {
+          "state": "RETIRED",
+          "called": false
+        },
+        "analytics": {
+          "state": "EMAIL_PREFERENCE_MODAL_BLOCKS_PROPERTY_VERIFICATION",
+          "propertyVerified": false,
+          "emailPreferencesChanged": false,
+          "newCollectorConfigured": false,
+          "ownerAction": "In the already signed-in Analytics tab, choose the desired email preferences and press Save; then Work will inspect the actual existing PLA property before changing collection."
+        },
+        "bing": {
+          "state": "LAST_KNOWN_UNSIGNED; NOT_REFRESHED",
+          "indexing": null
+        },
+        "cloudflare": {
+          "state": "NO_CONNECTED_ZONE_READ_ACCESS",
+          "verifiedCrawlerLogs": null,
+          "securityChanges": 0
+        }
+      },
+      "publicGBP": {
+        "observedAtUTC": "2026-10-09T07:59:56.590Z",
+        "sourceMethod": "Native managed Google business panel; published owned-link hrefs read directly from the visible DOM",
+        "profileId": "13821946754957392159",
+        "placeCID": "3000609397491676502",
+        "reviewCount": 172,
+        "rating": 4.9,
+        "responseCount": null,
+        "newReviewsThisReadbackVsPriorCount": 0,
+        "website": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+        "websiteTaggedPublicly": true,
+        "appointment": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+        "appointmentTaggedPublicly": true,
+        "appointmentStatus": "PUBLIC_UTM_PROPAGATION_VERIFIED",
+        "previousAppointmentObservationPreserved": "2026-10-09T03:20:45.772Z: old hash Contact link, pending propagation",
+        "appointmentDestinationVerification": {
+          "canonical": "https://paullegalassociates.com/contact/",
+          "emailLinks": [
+            "mailto:info@paullegalassociates.com",
+            "mailto:info@paullegalassociates.com"
+          ],
+          "h1": "Let's Build a Stronger Legal Position",
+          "handoffButton": "📱\nCONTINUE ON WHATSAPP",
+          "inputCount": 3,
+          "phoneLinks": [
+            "tel:+917977063567",
+            "tel:+917977063567"
+          ],
+          "textareaCount": 1,
+          "title": "Contact Our Law Firm in Panvel | Paul Legal Associates",
+          "observedAtUTC": "2026-10-09T08:35:17.898Z",
+          "publishedHref": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+          "finalURL": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
+          "enquirySubmitted": false
+        },
+        "rank": null,
+        "rankMethod": "No location-controlled rank obtained. Managed branded results and past-activity region labels are not rank measurements.",
+        "serviceApprovalStatus": "UNKNOWN_NO_EXPLICIT_STATUS",
+        "managerServiceReadback": {
+          "observedAtUTC": "2026-10-09T08:01:08.276Z",
+          "poshPresent": true,
+          "taxPresent": true,
+          "descriptionsPersist": true,
+          "approvalStatus": "UNKNOWN_NO_EXPLICIT_STATUS",
+          "publicPublicationVerified": false
+        },
+        "currentCategoriesUnchanged": {
+          "primary": "Law firm",
+          "secondary": [
+            "Lawyer",
+            "Legal services",
+            "Trial Lawyer",
+            "District attorney",
+            "Civil law attorney",
+            "Bankruptcy Lawyer",
+            "Family Lawyer",
+            "Property lawyer",
+            "Criminal defence lawyer"
+          ]
+        },
+        "hours": {
+          "ownerConfirmed": false,
+          "manager": "Daily 09:00–21:00; different online/senior hours also shown",
+          "website": "Mon–Fri 10:00–20:00; Sat 10:00–18:00; Sun by appointment",
+          "changed": false
+        },
+        "categoryCataloguePinPhotoOrReviewEdits": 0,
+        "reviewInvitationsSent": 0
+      },
+      "officialGoogleMeasurement": {
+        "gscReports": [],
+        "nativeGSCReadback": {
+          "start": "2026-09-09",
+          "end": "2026-10-06",
+          "clicks": 42,
+          "impressionsDisplay": "17.4K",
+          "ctrDisplay": "0.2%",
+          "positionDisplay": "2.5",
+          "queryRows": 257,
+          "newExportObtained": false,
+          "observedDate": "2026-10-09",
+          "latestCompleteDate": "2026-10-06",
+          "searchType": "Web",
+          "country": "All countries",
+          "device": "All devices",
+          "limitations": "UI values are rounded; no duplicate ZIP imported. Exact prior reports through 6 October remain the quantitative baseline. Native default three months is 92 days, not the defined 90-day cohort."
+        },
+        "commercialURLInspections": [
+          {
+            "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "observedAtUTC": "2026-10-09T08:09:10.702Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "sitemapIncludedInCurrentProduction": true,
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "observedAtUTC": "2026-10-09T08:11:49.719Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered - currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "sitemapIncludedInCurrentProduction": true,
+            "requestIndexingSubmitted": false
+          }
+        ],
+        "tierACohortLatestPerURL": {
+          "urls": 18,
+          "indexed": 3,
+          "discoveredCurrentlyNotIndexed": 15,
+          "unknown": 0,
+          "freshInspectionsInThisCycle": 2,
+          "remainingRowsDate": "2026-10-08",
+          "limitation": "Latest-per-URL summary combines two fresh 9 October inspections with sixteen dated 8 October inspections; not a fresh inspection of all 18 URLs."
+        },
+        "indexingRequestsSubmitted": 0,
+        "gbpPerformance": {
+          "observedDate": "2026-10-09",
+          "sourceMethod": "Native owner-visible Performance tabs and monthly tables on the existing managed profile",
+          "profileId": "13821946754957392159",
+          "periodStart": "2026-07-01",
+          "periodEnd": "2026-09-30",
+          "periodComplete": true,
+          "interactions": 353,
+          "profileViews": 4220,
+          "searchesShowingProfile": 443,
+          "callButtonInteractions": 94,
+          "directionRequests": 189,
+          "websiteClicks": 70,
+          "trackedBookings": 0,
+          "monthly": [
+            {
+              "month": "2026-07",
+              "interactions": 142,
+              "callButtonInteractions": 31,
+              "directionRequests": 82,
+              "websiteClicks": 29,
+              "trackedBookings": 0
+            },
+            {
+              "month": "2026-08",
+              "interactions": 96,
+              "callButtonInteractions": 30,
+              "directionRequests": 53,
+              "websiteClicks": 13,
+              "trackedBookings": 0
+            },
+            {
+              "month": "2026-09",
+              "interactions": 115,
+              "callButtonInteractions": 33,
+              "directionRequests": 54,
+              "websiteClicks": 28,
+              "trackedBookings": 0
+            }
+          ],
+          "platformDeviceViews": {
+            "googleSearchMobile": 3003,
+            "googleSearchDesktop": 584,
+            "googleMapsMobile": 546,
+            "googleMapsDesktop": 87
+          },
+          "nativeRoundedYearOnYearLabels": {
+            "comparison": "Jul 2025–Sep 2025",
+            "interactions": "+9.0%",
+            "profileViews": "+15.6%",
+            "searchesShowingProfile": "+38.4%",
+            "callButtonInteractions": "+20.5%",
+            "directionRequests": "+4.4%",
+            "websiteClicks": "+7.7%"
+          },
+          "nativeTopFiveQueries": [
+            {
+              "query": "law",
+              "count": 134
+            },
+            {
+              "query": "कायदेशीर",
+              "count": 128
+            },
+            {
+              "query": "lawyer",
+              "count": 87
+            },
+            {
+              "query": "legal",
+              "count": 77
+            },
+            {
+              "query": "attorney",
+              "count": 17
+            }
+          ],
+          "limitations": "Retrospective July–September baseline predates the 8 October profile changes. Actions are not unique people, received enquiries, qualified enquiries or retained matters. Zero tracked bookings does not establish zero actual office appointments. Rounded year-on-year labels are native provider comparisons; prior exact counts were not derived."
+        },
+        "gbpDefaultPartialPeriod": {
+          "observedDate": "2026-10-09",
+          "nativePeriodLabel": "May 2026–Oct 2026",
+          "periodComplete": false,
+          "interactions": 583,
+          "profileViews": 6702,
+          "searchesShowingProfile": 520,
+          "monthlyInteractions": {
+            "2026-05": 90,
+            "2026-06": 135,
+            "2026-07": 142,
+            "2026-08": 96,
+            "2026-09": 115,
+            "2026-10": 5
+          },
+          "queryRowsLoaded": 114,
+          "queryCompleteness": "UNKNOWN; Load more remains available",
+          "existingCandidateExactMatches": [
+            {
+              "keywordId": "local-002",
+              "keyword": "advocate near me",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-045",
+              "keyword": "corporate lawyer near me",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-056",
+              "keyword": "employment lawyer",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-008",
+              "keyword": "law firm Navi Mumbai",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-003",
+              "keyword": "law firm near me",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-001",
+              "keyword": "lawyer near me",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-013",
+              "keyword": "property lawyer Navi Mumbai",
+              "nativeCountLabel": "< 15",
+              "count": null
+            },
+            {
+              "keywordId": "local-011",
+              "keyword": "property lawyer near me",
+              "nativeCountLabel": "< 15",
+              "count": null
+            }
+          ],
+          "limitations": "October is partial. These eight exact existing-candidate matches come from May–October, not the complete July–September period. Native <15 thresholds remain censored/null, not zero or absolute market search volumes. Raw non-candidate queries are retained privately only."
+        }
+      },
+      "citationReadbacks": [
+        {
+          "citationId": "bdir-property",
+          "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+          "observedDate": "2026-10-09",
+          "observedAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "observedPhones": [
+            "7977063567",
+            "9820765944"
+          ],
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null
+        },
+        {
+          "citationId": "bdir-finance",
+          "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+          "observedDate": "2026-10-09",
+          "observedAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "observedPhones": [
+            "7977063567",
+            "9820765944"
+          ],
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null
+        }
+      ],
+      "publisherReplySearch": {
+        "observedDate": "2026-10-09",
+        "source": "Connected Gmail incoming search restricted to the known Bdir publisher since 8 October",
+        "matchingIncomingMessages": 0,
+        "limitation": "No matching reply from that sender in this connected-mailbox query; not proof of all publisher communications.",
+        "messagesSent": 0
+      },
+      "keywordDecisions": {
+        "workingP0Count": 18,
+        "workingP0Terms": [
+          "lawyer near me",
+          "advocate near me",
+          "law firm near me",
+          "law firm Panvel",
+          "lawyer Panvel",
+          "advocate Panvel",
+          "law firm Navi Mumbai",
+          "property lawyer near me",
+          "property lawyer Panvel",
+          "property lawyer Navi Mumbai",
+          "real estate lawyer near me",
+          "property verification lawyer",
+          "property documents verification lawyers near me",
+          "property registration lawyers near me",
+          "NAINA lawyer",
+          "corporate lawyer near me",
+          "corporate lawyer Panvel",
+          "employment lawyer"
+        ],
+        "changed": false,
+        "newKeywordUniverseCreated": false,
+        "newGoogleMarketVolumeOrDifficulty": null,
+        "limitation": "Eight existing candidates also occur in the partial native GBP search breakdown. Existing measured India GSC priorities/landing owners are preserved; native GBP counts are not Google market volumes or Maps ranks."
+      },
+      "actualChangesThisCycle": {
+        "googleProfileEdits": 0,
+        "reviewReplies": 0,
+        "reviewInvitations": 0,
+        "citationSubmissions": 0,
+        "newAuthorityLinks": 0,
+        "websiteContentOrArchitectureChanged": false,
+        "indexNowSubmitted": false,
+        "dataRecorded": [
+          "Authenticated existing Google access",
+          "Published appointment UTM propagation and canonical destination",
+          "Two fresh commercial inspections",
+          "Complete-quarter and monthly GBP performance",
+          "Partial-period existing-candidate GBP query observations",
+          "Fresh review count",
+          "Pending publisher correction readback"
+        ]
+      },
+      "noChangeJustified": {
+        "websiteContent": "Employment is now discovered and has no recorded crawl; title verification is also discovered. Current evidence does not identify a source defect or justify bulk content, canonical or navigation changes. Earlier successful live checks remain dated; no unchanged URL resubmitted.",
+        "services": "Previously added POSH and Tax/GST names/descriptions persist; absent explicit approval status is not proof of publication. No duplicate addition.",
+        "hoursAndCategories": "Facts/permissions are unconfirmed; no speculative changes.",
+        "aiAndMaps": "No new independent AI answer or location-controlled Maps ranking observed. Fixed AI history and the earlier Local Finder security boundary are preserved."
+      },
+      "validation": {
+        "recordValidator": "PASS; 77 candidate rows, five existing exact official GSC reports, 17 citation/7 AI/4 review observations",
+        "measurementTests": 19,
+        "keywordExportBytePreservation": "PASS; latest authenticated cycle preserves original India measurement columns, all 18 working P0 decisions and mapped URLs",
+        "keywordCsvSHA256": "c20f23b025d8d7ff36da90c3a8dbf83ce4efb3f57f7358d2da7f535a05ec9103",
+        "quarterMonthlyActionReconciliation": "PASS; 94 calls + 189 directions + 70 website + 0 tracked bookings = 353 interactions"
+      },
+      "resume": {
+        "mainAtMeasurement": "a75f382818b02ca25e8b4f0e75c64ac4d91a2d40",
+        "latestMergedPRAtMeasurement": 51,
+        "publishingBranch": "seo/authenticated-google-readback-20261009",
+        "nextHighestValueExecutableTask": "After the owner resolves the current Analytics email-preference modal, verify the existing PLA free GA4 property and measurement stream; connect one collector only after authorised property identity is confirmed. At a sensible interval compare the settled Google cohort and service/publisher approval.",
+        "ownerDependentNextTask": "Analytics email preferences; true office hours including online/senior variants; exact category/catalogue cleanup and public-review reply permission. Bing sign-in remains separate.",
+        "releaseIdentity": "The publishing PR metadata/body will record its final merge SHA, existing deployment checks and production result."
+      }
     }
   ],
-  "latestExecutionCycleId": "post-pr50-20261009-propagation-readback"
+  "latestExecutionCycleId": "post-pr51-20261009-authenticated-readback"
 }

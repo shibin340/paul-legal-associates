@@ -1,5 +1,9 @@
 # Local consistency, legitimate authority and SERP evidence — 5 October 2026
 
+## Authenticated-cycle publisher readback — 9 October 2026 IST
+
+Both known Bdir publisher pages still show Office 701/R3, Moraj Riverside Park and the additional unconfirmed phone alongside the correct primary phone. The owner's one sent correction remains **SUBMITTED / PENDING**, with **zero verified corrections**. No matching incoming reply from the known publisher was returned by the restricted connected-mailbox search; other senders/channels are not covered. No resend, new profile, application, membership or acquired link occurred. Google manager access is restored and both fixed owned-link UTMs are publicly verified; this resolves attribution propagation, not a directory correction or backlink. Current complete-quarter performance and review data are in the existing scorecard. LinkedIn's owner-reserved editing and the existing genuine citation account requirements remain unchanged.
+
 ## Latest correction execution — 9 October 2026 IST
 
 The owner sent the existing Bdir email from info@paullegalassociates.com to publisher datagemba@gmail.com at 9 October 01:16:14 IST (`2026-10-08T19:46:14Z`). Subject: “Correction of current office details — Paul Legal Associates (two existing Bdir records)”. Sent-mail readback independently verifies submission. One email covers both records; no operator resend or private mail identifiers are published.
