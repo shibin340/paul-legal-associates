@@ -10,6 +10,10 @@ Official GSC reports 7 external links from 6 sites, all to Home: LinkedIn (2), b
 
 Previously verified authority terms, observed 7 October, remain unchanged: Lawzana Basic is free but website/phone and backlink benefits require paid tiers; NMCBI publishes annual membership fees and requires genuine eligibility. Neither was applied for or purchased under the ₹0 budget.
 
+## Publisher follow-up — 9 October 2026, 03:26:56 UTC
+
+Both known Bdir pages retain the Moraj address. The single owner-sent correction from 01:16 IST remains SUBMITTED/PENDING, with zero verified corrections. The connected mailbox returned no incoming reply from the publisher since 8 October; this does not establish all publisher/account activity. No resend, new profile or acquired link occurred. GetLaw still shows Om Sai at building/road/postcode level; suite, experience and hours remain owner-dependent. Existing LinkedIn ownership and Justdial account requirements are preserved. The dated readbacks were appended through the existing record command and saved in the existing execution evidence.
+
 ## Official Google linking-page sample — 9 October 2026 IST
 
 Native “More sample links” export contains these seven source URLs, observed at 8 October 21:38:41 UTC. All link to Home in the GSC summary. This is existing Google-observed coverage, not acquired backlinks or a competitor gap. The full sample hash and publisher readback limitations are in existing execution evidence.

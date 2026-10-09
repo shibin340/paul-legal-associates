@@ -2,6 +2,20 @@
 
 Opened 5 October 2026 before source changes; refreshed after the execution cycle. Current source/release references are below. Original working-register recovery is preserved in repository history. **COMPLETE means the stated implementation/system is verified; it never means Google/Bing indexing or leads are guaranteed.** Account-dependent outcomes and substantive law review remain explicitly unfinished.
 
+## Public follow-up and measurement continuity — 9 October 2026 IST
+
+Source main `3c8207df2bee91f259942704fa251d32004a9f34` / merged [PR #50](https://github.com/shibin340/paul-legal-associates/pull/50). [Deployment 37878744392](https://github.com/shibin340/paul-legal-associates/actions/runs/37878744392) passed the 247-route, 239-sitemap-URL, 8,112-link and 12 hydration/navigation checks, Contact validation and 17 measurement tests. Live Home/Contact retain `main.282269f8.js`, untagged canonicals and phone/email/WhatsApp paths. The public legacy appointment URL successfully reaches `/contact/`; no enquiry was submitted.
+
+At 9 October 03:20:45 UTC (08:50 IST), the existing public Maps profile still shows **172 reviews / 4.9**, Om Sai and the current phone. Website UTM remains visible; appointment still shows the old hash Contact link without its new UTM. This is pending attribution propagation, not a broken Contact route. Service approval remains UNKNOWN in the limited public view. No manager edit, duplicate service, review reply or invitation occurred.
+
+At 03:26:56 UTC both Bdir pages still show Moraj: the owner's prior correction remains SUBMITTED/PENDING. Connected Gmail returned no matching incoming publisher reply. GetLaw's building/road/postcode remain aligned; correction origin and its experience/hour claims remain unverified. No message was resent and no acquired backlink is claimed.
+
+**Fresh access boundary:** this browser opens official Search Console's sign-in entry and public Maps offers Sign in. Private GSC/GBP cannot be refreshed here. The preceding official 6 October settled reports and 18-URL inspections retain their dates; they are not today's fresh private evidence. Semrush `no_api_units` was not retried, GSC Wizard remains retired, actual GA4 collection/Bing indexing/Cloudflare verified-crawler logs remain unverified. Additional expenditure: **₹0**.
+
+A reproducible keyword-export defect was corrected: a later public-only checkpoint previously erased the measured keyword columns and working P0 decisions. Export now retains the latest verified complete 90-day India Web report across cycles, including its original period and associated decisions/landings. Nineteen tests pass, including public-only continuation and later historical/all-country imports. All 77 CSV rows, 74 relevant candidates, 18 current P0 terms and preferred URLs are preserved; no fresh demand, Maps rank or lead metric is invented. See `post-pr50-20261009-propagation-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Publishing [PR #51](https://github.com/shibin340/paul-legal-associates/pull/51) records its final merge/deployment proof.
+
+Next: restore secure Google authentication for `associatespaullegal@gmail.com`, then inspect service approval and the saved appointment field; recheck public propagation/publisher correction at a sensible interval. True hours, exact catalogue/category cleanup, public-review replies and the actual free GA4 property remain owner-dependent.
+
 ## Post-release results — 9 October 2026 IST
 
 Verified source main `9d576b43718e7a2ac08f13eb4e6708d3816a0a5c` / merged [PR #49](https://github.com/shibin340/paul-legal-associates/pull/49). [Deployment run 37847998164](https://github.com/shibin340/paul-legal-associates/actions/runs/37847998164) succeeded: 247 routes, 239 sitemap URLs, 8,112 links, 12 hydration/navigation checks, Contact validation and 17 measurement tests. IndexNow was skipped. Fresh production Home/Contact readbacks retain the current bundle, correct untagged canonicals, phone/email and Contact controls; no enquiry submitted.

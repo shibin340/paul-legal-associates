@@ -126,7 +126,9 @@ python scripts/local-search-records.py export-keywords
 python scripts/test-local-search-records.py
 ```
 
-The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant candidates and three excluded intents. Blank metric cells mean unknown. Historical GSC query/page pairs have their own column; they never become a current Google rank. The [observation history](evidence/Local_Search_Observations.json) retains its original four citation observations and now adds four readbacks, seven independent AI answers and one verified Google review snapshot. No rank/Semrush data is fabricated and zero corrections/review replies are submitted. Re-importing the same observation is a no-op; a conflicting ID is rejected rather than overwriting history.
+As of the 9 October public follow-up, `export-keywords` selects the latest verified complete 90-day India Web report across saved cycles, by reporting end date and observation timestamp. A newer public-only or account-blocked checkpoint keeps those original reporting dates, priorities and landing evidence. It does not make old data current. Later historical or all-country imports cannot replace the latest India period. Nineteen adversarial checks now include both continuation regressions.
+
+The [keyword queue](evidence/Local_Keyword_Queue.csv) has 77 rows: 74 relevant candidates and three excluded intents. Blank metric cells mean unknown. Historical GSC query/page pairs have their own column; they never become a current Google rank. The [observation history](evidence/Local_Search_Observations.json) now retains 17 citation observations, seven independent AI answers and three dated Google review snapshots. Their original dates and source distinctions remain intact; no rank/Semrush data is fabricated. The owner’s single Bdir correction remains submitted/pending; no operator resend or public review reply occurred. Re-importing the same observation is a no-op; a conflicting ID is rejected rather than overwriting history.
 
 | Record | Required distinction |
 |---|---|

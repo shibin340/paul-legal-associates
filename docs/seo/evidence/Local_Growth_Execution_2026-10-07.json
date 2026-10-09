@@ -236,13 +236,13 @@
     "Historical GSC data and existing tracker"
   ],
   "nextExecution": [
-    "Read current main, the current scorecard section and this execution checkpoint; obtain final release SHA/workflow from the linked PR metadata rather than rerun the prior technical audit.",
-    "Re-check Semrush connectivity. Once callable, capture PLA and registered competitor India-domain organic positions/pages/competitors/backlinks/referring domains; validate complete totals before comparing like-for-like dates.",
-    "Obtain manager access to the genuine existing GBP and confirmed identity/hours/pin; read actual categories/reviews/Performance before applying prepared category/services/UTM decisions.",
-    "Correct existing GetLaw/Bdir/Justdial records through genuine account/editor access and verify live readback. LinkedIn remains reserved to the user's own editing. Send no publisher email without explicit sending instruction.",
-    "Collect repeated location-controlled rank observations and independent AI-engine answers through accessible systems, saving actual source evidence before append.",
-    "Connect one authorised GA4/GTM collector to the existing events, restore GSC reporting, and read Bing/Cloudflare evidence when available; keep metrics unknown until measured.",
-    "Continue safe public authority/citation research and factual entity consistency while account reports are blocked; do not default to bulk content or unrelated categories."
+    "Read current main, latestExecutionCycleId and the publishing PR final release proof. Export the latest verified India report with its original period even when the latest checkpoint is public-only.",
+    "Use official free Google reports after secure owner authentication is restored. Keep latest private observations dated and unknown until refreshed; do not use the retired GSC Wizard or retry Semrush no_api_units.",
+    "Read the existing GBP manager service approval and saved appointment URL. Await public propagation; do not duplicate the two additions or repeatedly resave unchanged links.",
+    "Verify the pending owner-sent Bdir correction and publisher reply at a sensible interval without resending. GetLaw building/road/postcode agree; LinkedIn remains owner-reserved. Existing Justdial correction needs manager access.",
+    "Apply true hours, exact catalogue/category cleanup or review replies only after the required owner confirmation; retain profile/review history.",
+    "Connect one actual authorised free GA4 collector after its property is identified. Read Bing/Cloudflare evidence when genuinely accessible; do not guess metrics or weaken security.",
+    "Keep Maps ranks and new AI-answer measurements unknown without a defensible authorised observation. Do not repeat the blocked Local Finder path or copy provider-search order as rank."
   ],
   "validation": {
     "status": "PASS",
@@ -276,7 +276,7 @@
     "csvRecordSeparators": "LF; 77 unchanged rows",
     "stagedDiffCheck": "PASS; all nine changed files"
   },
-  "recordedAtUTC": "2026-10-07T14:24:54.822193+00:00",
+  "recordedAtUTC": "2026-10-09T03:30:45.360161Z",
   "blockedAccounts": {
     "semrush": {
       "status": "CONNECTED_REPORTS_BLOCKED_NO_API_UNITS",
@@ -5456,7 +5456,222 @@
           "additionalExpenditureINR": 0
         }
       }
+    },
+    {
+      "id": "post-pr50-20261009-propagation-readback",
+      "startedAtUTC": "2026-10-09T03:15:20Z",
+      "recordedAtUTC": "2026-10-09T03:30:45.360161Z",
+      "timezone": "Asia/Kolkata",
+      "sourceMain": "3c8207df2bee91f259942704fa251d32004a9f34",
+      "latestMergedPRAtStart": 50,
+      "additionalExpenditureINR": 0,
+      "status": "PUBLIC_READBACK_VERIFIED; MEASUREMENT_EXPORT_FIX_VALIDATED; PRIVATE_GOOGLE_SIGN_IN_REQUIRED",
+      "accessReview": {
+        "officialGSC": {
+          "state": "SIGN_IN_REQUIRED_IN_THIS_BROWSER",
+          "sourceURL": "https://search.google.com/search-console/about",
+          "nativeSignal": "Start now links to Google sign-in; no property report available.",
+          "newInspections": 0,
+          "freshPerformanceRetrieved": false,
+          "ownerAction": "Use the secure Google sign-in flow in an interactive Work session for associatespaullegal@gmail.com, then verify the existing PLA property and manager profile."
+        },
+        "gbpManager": {
+          "state": "SIGN_IN_REQUIRED_IN_THIS_BROWSER",
+          "nativeSignal": "Public Maps offers Sign in; no manager controls.",
+          "publicListingReadable": true,
+          "managerEdits": 0,
+          "serviceApproval": "UNKNOWN; limited public view does not establish publication or rejection."
+        },
+        "semrush": {
+          "state": "CONNECTED_NO_API_UNITS_LAST_VERIFIED",
+          "retried": false,
+          "ownerAction": "No purchase or paid-unit request under the INR 0 allowance."
+        },
+        "gscWizard": {
+          "state": "RETIRED",
+          "called": false
+        },
+        "analytics": {
+          "state": "ACTUAL_PROPERTY_AND_COLLECTION_UNVERIFIED",
+          "newCollectorConfigured": false,
+          "ownerAction": "Identify the existing free PLA GA4 property after owner email-preference selection; no guessed ID, duplicate collector or billing activation."
+        },
+        "bing": {
+          "state": "LAST_KNOWN_UNSIGNED; NOT_REFRESHED",
+          "indexing": null
+        },
+        "cloudflare": {
+          "state": "NO_CONNECTED_ZONE_READ_ACCESS",
+          "verifiedCrawlerLogs": null,
+          "securityChanges": 0
+        }
+      },
+      "publicGBP": {
+        "observedAtUTC": "2026-10-09T03:20:45.772Z",
+        "sourceURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1093973,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j?entry=ttu&g_ep=EgoyMDI2MTAwNi4wIKXMDSoASAFQAw%3D%3D",
+        "sourceType": "google_profile",
+        "profileId": "13821946754957392159",
+        "placeCID": "3000609397491676502",
+        "name": "Paul Legal Associates",
+        "primaryCategory": "Law firm",
+        "address": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Rd, near Garden Hotel, Nityanand Nagar, HOC Colony, Panvel, Maharashtra 410206, India",
+        "phone": "tel:+917977063567",
+        "reviewCount": 172,
+        "rating": 4.9,
+        "responseCount": null,
+        "newReviews": null,
+        "website": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+        "websiteTaggedPublicly": true,
+        "appointment": "https://paullegalassociates.com/#/contact",
+        "appointmentTaggedPublicly": false,
+        "appointmentStatus": "PENDING_PUBLIC_PROPAGATION",
+        "serviceApprovalStatus": "UNKNOWN",
+        "viewLimitation": "Google states that this is a limited public Maps view; About did not expose service approval. No manager access or approval inferred.",
+        "rank": null,
+        "rankMethod": "No Local Finder query, BrightLocal retry or CAPTCHA attempt. An existing listing readback is not a rank observation.",
+        "hoursOrPinChanged": false,
+        "reviewsOrInvitationsSent": 0
+      },
+      "citationReadbacks": [
+        {
+          "citationId": "bdir-property",
+          "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+          "observedAtUTC": "2026-10-09T03:26:56Z",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null,
+          "observedAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "phoneLimitation": "Current primary 7977063567 appears with an additional unconfirmed phone; complete phone agreement is not established.",
+          "sourceMethod": "Public publisher-page readback; no operator submission or resend."
+        },
+        {
+          "citationId": "bdir-finance",
+          "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+          "observedAtUTC": "2026-10-09T03:26:56Z",
+          "addressStatus": "conflict",
+          "phoneStatus": "unconfirmed",
+          "correctionStatus": "submitted",
+          "submittedAt": "2026-10-08T19:46:14Z",
+          "verifiedAt": null,
+          "observedAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+          "phoneLimitation": "Current primary 7977063567 appears with an additional unconfirmed phone; complete phone agreement is not established.",
+          "sourceMethod": "Public publisher-page readback; no operator submission or resend."
+        },
+        {
+          "citationId": "getlaw",
+          "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+          "observedAtUTC": "2026-10-09T03:26:56Z",
+          "addressStatus": "matches",
+          "phoneStatus": "not_observed",
+          "correctionStatus": "not_submitted",
+          "submittedAt": null,
+          "verifiedAt": null,
+          "observedAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai - 410206 (Near Garden Hotel), Mumbai",
+          "limitation": "Building/road/postcode agree; suite not supplied. Published 40-year experience and daily 9 AM–9 PM hours require owner records; correction origin unknown.",
+          "sourceMethod": "Public publisher-page readback; no operator edit or obsolete Moraj correction sent."
+        }
+      ],
+      "publisherReplySearch": {
+        "source": "Connected Gmail search for incoming publisher replies since 8 October",
+        "matchingIncomingMessages": 0,
+        "limitation": "No matching incoming reply in the connected mailbox at this check; not proof of all publisher/account activity. No mail ID, message content or client record published.",
+        "messagesSent": 0
+      },
+      "productionVerification": {
+        "mergedPR": 50,
+        "mergeSHA": "3c8207df2bee91f259942704fa251d32004a9f34",
+        "workflowRunId": 37878744392,
+        "workflowJobId": 113653266684,
+        "workflowConclusion": "success",
+        "prerenderedRoutes": 247,
+        "sitemapURLs": 239,
+        "internalLinkOccurrences": 8112,
+        "hydrationNavigationChecks": 12,
+        "contactValidation": "PASS",
+        "measurementTests": 17,
+        "indexNow": "SKIPPED; unchanged reviewed list",
+        "home": {
+          "observedAtUTC": "2026-10-09T03:25:28.483Z",
+          "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
+          "canonical": "https://paullegalassociates.com/",
+          "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
+          "phoneLinks": [
+            "tel:+917977063567",
+            "tel:+917977063567"
+          ],
+          "bundle": "/static/js/main.282269f8.js"
+        },
+        "contact": {
+          "observedAtUTC": "2026-10-09T03:26:02.858Z",
+          "requestedURL": "https://paullegalassociates.com/#/contact",
+          "finalURL": "https://paullegalassociates.com/contact/",
+          "canonical": "https://paullegalassociates.com/contact/",
+          "h1": "Let's Build a Stronger Legal Position",
+          "phoneLinks": [
+            "tel:+917977063567",
+            "tel:+917977063567"
+          ],
+          "emailLinks": [
+            "mailto:info@paullegalassociates.com",
+            "mailto:info@paullegalassociates.com"
+          ],
+          "bundle": "/static/js/main.282269f8.js",
+          "formInputs": 3,
+          "messageInputs": 1,
+          "whatsAppHandoffButton": "Continue on WhatsApp",
+          "legacyAppointmentRouteWorks": true
+        },
+        "enquiriesSubmitted": 0
+      },
+      "implemented": {
+        "hypothesis": "A public-only or account-blocked checkpoint must not erase the latest verified India keyword measurements and their source-matched priorities.",
+        "defectReproduced": "Before the fix, appending a public-readback cycle removed the measured CSV columns and P0 decisions. A workflow-level regression failed before the correction.",
+        "change": "export-keywords selects the latest complete 90-day India Web report across saved cycles by reporting end date and observation timestamp, retaining its own decisions, query-page evidence and original period.",
+        "files": [
+          "scripts/local-search-records.py",
+          "scripts/test-local-search-records.py"
+        ],
+        "tests": 19,
+        "historicalCsvSHA256": "c20f23b025d8d7ff36da90c3a8dbf83ce4efb3f57f7358d2da7f535a05ec9103",
+        "googleReportsAdded": 0,
+        "keywordDemandOrMapsRankClaimed": false,
+        "websiteSourceChanged": false
+      },
+      "commercialMeasurement": {
+        "newSearchConsoleMetrics": null,
+        "newGBPPerformance": null,
+        "websiteCollectedLeadActions": null,
+        "qualifiedEnquiries": null,
+        "lastVerifiedGooglePeriodEnd": "2026-10-06",
+        "lastVerifiedTierACohort": "3 indexed / 14 discovered not indexed / 1 unknown, measured in the preceding official Google cycle; not refreshed in this browser."
+      },
+      "preserved": {
+        "routes": 247,
+        "sitemapURLs": 239,
+        "practicePages": 83,
+        "insights": 154,
+        "maritimeHolds": 8,
+        "keywordCandidates": 74,
+        "excludedIntents": 3,
+        "workingP0Terms": 18,
+        "competitorEntities": 7,
+        "preferredQueryOwners": "UNCHANGED",
+        "websiteContentMetadataDatesEventHooksIndexNow": "UNCHANGED",
+        "independentAIHistory": "Dated 7 October observations retained; no new independent answer obtained."
+      },
+      "resume": {
+        "mainAtMeasurement": "3c8207df2bee91f259942704fa251d32004a9f34",
+        "latestMergedPRAtMeasurement": 50,
+        "publishingBranch": "seo/local-propagation-20261009",
+        "nextHighestValueExecutableTask": "After Google authentication is restored, inspect the existing manager approval state and the saved appointment field without duplicate additions or unchanged resubmission. At a sensible interval verify public appointment/service propagation and publisher correction.",
+        "ownerDependentNextTask": "Secure Google sign-in, true office hours, exact catalogue/category-cleanup and public-reply permission, actual free GA4 property.",
+        "releaseIdentity": "Read PR #51 metadata/body for the final merge SHA, deployment and production proof; sourceMain remains the actual measurement checkpoint.",
+        "publishingPR": 51,
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/51"
+      }
     }
   ],
-  "latestExecutionCycleId": "post-pr48-20261009-free-google-execution"
+  "latestExecutionCycleId": "post-pr50-20261009-propagation-readback"
 }
