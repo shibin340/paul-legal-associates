@@ -3,6 +3,25 @@
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
 
+## Official repair verification and P0 landing readback — 9 October 2026
+
+Verified source main `24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85` / merged [PR #53](https://github.com/shibin340/paul-legal-associates/pull/53); existing deployment and production are healthy. Cycle `post-pr53-20261009-google-live-verification` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json) records actual results. **₹0 added spend.** Publishing PR metadata/body provides the final merged resume checkpoint.
+
+Google's post-repair live `/team/` test now reports **Successful** fetch, crawling/indexing allowed and canonical `/partners/` (9 October 11:06:15 PM; time zone not displayed; captured 17:36:52 UTC). Bare `/expertise` also succeeds with `/expertise/` canonical (11:15:09 PM). The old July 404 index records remain. Existing validation started 19 August and shows **2 pending / 0 failed**; it was not restarted. No new indexing request or guaranteed recrawl/ranking is claimed.
+
+Four exact India/Web readbacks use the existing **9 July–6 October, 90-day** period. Positions below are native rounded reporting averages, not local/Maps ranks. Page-row impressions are not additive with query/property totals.
+
+| Existing P0 query | Actual reported page rows: clicks / impressions / rounded position | Recorded outcome |
+|---|---|---|
+| property lawyer near me | Home 0 / 34 / 5.6; old Contact fragment 1 / 5 / 1.6 | Previous complete sample confirmed; preferred Property page preserved |
+| employment lawyer | Home 0 / 4,242 / 1.7; old Contact fragment 0 / 2 / 15.0 | Incomplete prior sample corrected; prior fragment-only observation retained in history. Search appearance returns no data |
+| property lawyer Navi Mumbai | Home 0 / 15 / 17.6 | Fresh landing evidence added to the existing keyword row |
+| corporate lawyer near me | Home 0 / 14 / 4.2; old Contact fragment 0 / 2 / 1.0 | Previous complete sample confirmed; preferred Corporate page preserved |
+
+Only two CSV observed-landing cells change. All keyword counts, exact query metrics, priorities, 74 relevant candidates, three exclusions and 18 P0/preferred URLs remain intact. The five native exports through 6 October are unchanged; no newer settled period or movement. The dated commercial cohort remains 3 indexed / 15 discovered, not reinspected wholesale in this cycle.
+
+Existing Home has crawlable Property, Title and Employment paths; no new content/snippet/technical defect justifies rewriting those pages. No GBP/category/hour/service edit, review message, citation resend, new referring domain, independent AI test or GA4 collection. Dated 172/4.9 review and July–September GBP baselines remain; Maps positions and qualified enquiries remain UNKNOWN. Next: monitor the existing validation and next settled same-cohort measurements; proceed with genuine owner-confirmed entity/review/collector changes when facts and permissions arrive. Account identities stay private.
+
 ## Measured legacy error and narrow implementation — 9 October 2026 IST
 
 Source main `2c5f070443bc9e98c2d576345d45302a79ef719f` / merged PR #52; cycle `post-pr52-20261009-legacy-team-correction` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). The publishing PR records final release identity and public verification. **Additional expenditure: ₹0.**

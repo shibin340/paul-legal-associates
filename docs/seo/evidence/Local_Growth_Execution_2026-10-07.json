@@ -269,7 +269,7 @@
     "csvRecordSeparators": "LF; 77 unchanged rows",
     "stagedDiffCheck": "PASS; all nine changed files"
   },
-  "recordedAtUTC": "2026-10-09T17:00:55.828129+00:00",
+  "recordedAtUTC": "2026-10-09T17:49:07.329285+00:00",
   "blockedAccounts": {
     "publicSummary": "Detailed account identities, connected-service identifiers and account-specific authentication records are retained in owner-private evidence. SEO measurements and outcome limitations remain in this register and the scorecard."
   },
@@ -295,7 +295,7 @@
         "landingMappingsChanged": 0,
         "semrushEvidenceAdded": 0,
         "demandValidatedP0Set": null,
-        "reason": "No quantitative feed. Retain existing provisional relevance priorities rather than manufacture a 10–20-term demand-backed P0 set."
+        "reason": "No quantitative feed. Retain existing provisional relevance priorities rather than manufacture a 10\u201320-term demand-backed P0 set."
       },
       "publicGBP": {
         "observedAtUTC": "2026-10-07T16:47:31.085Z",
@@ -320,21 +320,21 @@
         "newReviews": null,
         "latestReviewDate": null,
         "publishedHours": {
-          "Monday": "09:00–21:00",
-          "Tuesday": "09:00–21:00",
-          "Wednesday": "09:00–21:00",
-          "Thursday": "09:00–21:00",
-          "Friday": "09:00–21:00",
-          "Saturday": "09:00–21:00",
-          "Sunday": "09:00–21:00"
+          "Monday": "09:00\u201321:00",
+          "Tuesday": "09:00\u201321:00",
+          "Wednesday": "09:00\u201321:00",
+          "Thursday": "09:00\u201321:00",
+          "Friday": "09:00\u201321:00",
+          "Saturday": "09:00\u201321:00",
+          "Sunday": "09:00\u201321:00"
         },
         "otherPublishedHours": {
           "onlineServiceHours": "Open 24 hours",
-          "seniorHours": "09:00–11:30"
+          "seniorHours": "09:00\u201311:30"
         },
         "websitePublishedHours": {
-          "Monday–Friday": "10:00–20:00",
-          "Saturday": "10:00–18:00",
+          "Monday\u2013Friday": "10:00\u201320:00",
+          "Saturday": "10:00\u201318:00",
           "Sunday": "By appointment"
         },
         "ownerHoursConfirmation": "PENDING; owner selected confirmation pending in this run; no hour mutation.",
@@ -382,7 +382,7 @@
           "phoneStatus": "not_observed",
           "visibleExperienceYears": 40,
           "experienceVerified": false,
-          "visibleHours": "Monday–Sunday 09:00–21:00; owner confirmation pending",
+          "visibleHours": "Monday\u2013Sunday 09:00\u201321:00; owner confirmation pending",
           "changeOrigin": "UNKNOWN; no correction was submitted by this operator. Prior PR46 observation retained.",
           "publisherRoute": "https://getlaw.in/page/contact-us",
           "publisherEmail": "OWNER_PRIVATE_EMAIL",
@@ -801,7 +801,7 @@
         "publisherRecipient": "OWNER_PRIVATE_EMAIL",
         "publisherRoute": "https://bdir.in/p/contact",
         "recipientBasis": "Publisher address verified in the previous primary HTTP evidence; current contact webpage still exposes the email contact route. Exact-recipient correspondence search found no existing messages.",
-        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
+        "subject": "Correction of current office details \u2014 Paul Legal Associates (two existing Bdir records)",
         "covers": [
           "bdir-property",
           "bdir-finance"
@@ -3208,9 +3208,16 @@
             "country": "India",
             "periodStart": "2026-07-09",
             "periodEnd": "2026-10-06",
-            "observedAtUTC": "2026-10-08T20:27:33.301Z",
+            "observedAtUTC": "2026-10-09T17:40:39.895Z",
             "sourceType": "official_gsc_query_pages_ui",
             "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 4242,
+                "ctrPercent": 0,
+                "averagePositionRounded": 1.7
+              },
               {
                 "url": "https://paullegalassociates.com/#/contact",
                 "clicks": 0,
@@ -3219,7 +3226,57 @@
                 "averagePositionRounded": 15
               }
             ],
-            "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+            "propertyAggregate": {
+              "clicks": 0,
+              "impressions": 4242,
+              "averagePositionRounded": 1.7
+            },
+            "searchAppearance": "No data returned for this exact India/Web query and period",
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry.",
+            "priorReadbacks": [
+              {
+                "keyword": "employment lawyer",
+                "country": "India",
+                "periodStart": "2026-07-09",
+                "periodEnd": "2026-10-06",
+                "observedAtUTC": "2026-10-08T20:27:33.301Z",
+                "sourceType": "official_gsc_query_pages_ui",
+                "pages": [
+                  {
+                    "url": "https://paullegalassociates.com/#/contact",
+                    "clicks": 0,
+                    "impressions": 2,
+                    "ctrPercent": 0,
+                    "averagePositionRounded": 15
+                  }
+                ],
+                "limitation": "Page-level metrics are not additive with query/site totals and are not location-controlled rankings."
+              }
+            ]
+          },
+          {
+            "keyword": "property lawyer Navi Mumbai",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-09T17:42:49.383Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 15,
+                "ctrPercent": 0,
+                "averagePositionRounded": 17.6
+              }
+            ],
+            "propertyAggregate": {
+              "clicks": 0,
+              "impressions": 15,
+              "averagePositionRounded": 17.6
+            },
+            "searchAppearance": null,
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry."
           }
         ],
         "queryPageArchiveSHA256": "395882aef3008c2c0cf4b16d0ae8fe149414370b45624a42b9fda44b0d900da5",
@@ -3299,15 +3356,15 @@
           "pinStatus": "Google Maps place URL shows marker coordinates 18.9982252, 73.1093973; entrance/pin accuracy remains owner-unconfirmed.",
           "websiteBefore": "https://paullegalassociates.com/",
           "appointmentBefore": "https://paullegalassociates.com/#/contact",
-          "businessHoursObserved": "Monday–Sunday 09:00–21:00",
-          "onlineServiceHoursObserved": "Monday–Friday 24 hours; Saturday/Sunday 09:00–17:00",
-          "seniorHoursObserved": "Monday–Wednesday 09:00–11:30; other days unset",
+          "businessHoursObserved": "Monday\u2013Sunday 09:00\u201321:00",
+          "onlineServiceHoursObserved": "Monday\u2013Friday 24 hours; Saturday/Sunday 09:00\u201317:00",
+          "seniorHoursObserved": "Monday\u2013Wednesday 09:00\u201311:30; other days unset",
           "trueHoursOwnerConfirmed": false,
           "hoursChanged": false,
           "specialHours": "Not set in visible manager view",
           "openingDateObserved": "1986-05-19",
           "openingDateOwnerConfirmed": false,
-          "description": "We at Paul Legal Associates are determined to comply with the letter and spirit of law. Our firm conducts intensive research, case study and forward-looking development activity to create new value for its customers. We realize that not everyone knows to use their voice and how difficult it is for an individual standing up for them self. We want to represent individuals so their voices can finally be heard; we are attorneys you can actually speak with, we emphasis on transparency and client communication. At the end of the day it’s the clients’ satisfaction we focus on and the clients’ overall experience so the attorney can properly step into the shoes of the client and bring the fight that their client could not bring alone.",
+          "description": "We at Paul Legal Associates are determined to comply with the letter and spirit of law. Our firm conducts intensive research, case study and forward-looking development activity to create new value for its customers. We realize that not everyone knows to use their voice and how difficult it is for an individual standing up for them self. We want to represent individuals so their voices can finally be heard; we are attorneys you can actually speak with, we emphasis on transparency and client communication. At the end of the day it\u2019s the clients\u2019 satisfaction we focus on and the clients\u2019 overall experience so the attorney can properly step into the shoes of the client and bring the fight that their client could not bring alone.",
           "serviceCatalogueBefore": {
             "total": 704,
             "byCategory": [
@@ -3401,7 +3458,7 @@
             },
             "disclosedQueries": [
               {
-                "query": "कायदेशीर",
+                "query": "\u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930",
                 "reportedCount": 60,
                 "nativeCountLabel": "60",
                 "countBasis": "GBP September discovery reporting, not keyword search volume",
@@ -3565,7 +3622,7 @@
             "limitation": "Interactions are intent actions, not unique prospects, confirmed enquiries or retained matters."
           },
           "partialExtendedPerformance": {
-            "nativePeriodLabel": "May–October 2026; October incomplete",
+            "nativePeriodLabel": "May\u2013October 2026; October incomplete",
             "interactions": 583,
             "views": 6702,
             "searches": 520,
@@ -3637,7 +3694,7 @@
               "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
               "dom": {
                 "canonical": "https://paullegalassociates.com/",
-                "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
+                "h1": "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory",
                 "mainScripts": [
                   "/static/js/main.282269f8.js"
                 ],
@@ -4835,7 +4892,7 @@
                 "requests": 219
               }
             ],
-            "latestExampleTimeDisplayed": "9/29/26, 10:14 AM",
+            "latestExampleTimeDisplayed": "9/29/26, 10:14\u202fAM",
             "exampleTimeZone": "NOT_LABELLED_IN_UI",
             "selectedCommercialExample": {
               "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
@@ -5015,7 +5072,7 @@
         "status": "SENT_VERIFIED_PENDING_PUBLIC_CORRECTION",
         "sender": "OWNER_PRIVATE_REFERENCE",
         "recipient": "OWNER_PRIVATE_EMAIL",
-        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
+        "subject": "Correction of current office details \u2014 Paul Legal Associates (two existing Bdir records)",
         "submittedAtUTC": "2026-10-08T19:46:14Z",
         "submittedAtIST": "2026-10-09T01:16:14+05:30",
         "source": "Connected firm mailbox Sent message readback; owner explicitly confirmed sending. Private mail IDs/client data excluded.",
@@ -5059,7 +5116,7 @@
           "correctionStatus": "not_submitted",
           "submittedAt": null,
           "verifiedAt": null,
-          "readback": "OmSai building/road/postcode match; suite absent;40years and9–21hours unconfirmed. This external change is not credited to the operator."
+          "readback": "OmSai building/road/postcode match; suite absent;40years and9\u201321hours unconfirmed. This external change is not credited to the operator."
         },
         {
           "citationId": "linkedin",
@@ -5209,7 +5266,7 @@
               "/expertise/"
             ],
             "h1": [
-              "Property Law•Legal Compliance•Strategic Legal Advisory"
+              "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory"
             ],
             "phoneLinks": [
               "tel:+917977063567",
@@ -5241,7 +5298,7 @@
               "/static/js/main.282269f8.js"
             ],
             "title": "Contact Our Law Firm in Panvel | Paul Legal Associates",
-            "whatsAppHandoffButton": "📱Continue on WhatsApp",
+            "whatsAppHandoffButton": "\ud83d\udcf1Continue on WhatsApp",
             "url": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
             "observedAtUTC": "2026-10-08T21:42:17.706Z"
           },
@@ -5325,7 +5382,7 @@
           "submittedAt": null,
           "verifiedAt": null,
           "observedAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai - 410206 (Near Garden Hotel), Mumbai",
-          "limitation": "Building/road/postcode agree; suite not supplied. Published 40-year experience and daily 9 AM–9 PM hours require owner records; correction origin unknown.",
+          "limitation": "Building/road/postcode agree; suite not supplied. Published 40-year experience and daily 9 AM\u20139 PM hours require owner records; correction origin unknown.",
           "sourceMethod": "Public publisher-page readback; no operator edit or obsolete Moraj correction sent."
         }
       ],
@@ -5352,7 +5409,7 @@
           "observedAtUTC": "2026-10-09T03:25:28.483Z",
           "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
           "canonical": "https://paullegalassociates.com/",
-          "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
+          "h1": "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory",
           "phoneLinks": [
             "tel:+917977063567",
             "tel:+917977063567"
@@ -5462,7 +5519,7 @@
             "mailto:info@paullegalassociates.com"
           ],
           "h1": "Let's Build a Stronger Legal Position",
-          "handoffButton": "📱\nCONTINUE ON WHATSAPP",
+          "handoffButton": "\ud83d\udcf1\nCONTINUE ON WHATSAPP",
           "inputCount": 3,
           "phoneLinks": [
             "tel:+917977063567",
@@ -5502,8 +5559,8 @@
         },
         "hours": {
           "ownerConfirmed": false,
-          "manager": "Daily 09:00–21:00; different online/senior hours also shown",
-          "website": "Mon–Fri 10:00–20:00; Sat 10:00–18:00; Sun by appointment",
+          "manager": "Daily 09:00\u201321:00; different online/senior hours also shown",
+          "website": "Mon\u2013Fri 10:00\u201320:00; Sat 10:00\u201318:00; Sun by appointment",
           "changed": false
         },
         "categoryCataloguePinPhotoOrReviewEdits": 0,
@@ -5627,7 +5684,7 @@
             "googleMapsDesktop": 87
           },
           "nativeRoundedYearOnYearLabels": {
-            "comparison": "Jul 2025–Sep 2025",
+            "comparison": "Jul 2025\u2013Sep 2025",
             "interactions": "+9.0%",
             "profileViews": "+15.6%",
             "searchesShowingProfile": "+38.4%",
@@ -5641,7 +5698,7 @@
               "count": 134
             },
             {
-              "query": "कायदेशीर",
+              "query": "\u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930",
               "count": 128
             },
             {
@@ -5657,11 +5714,11 @@
               "count": 17
             }
           ],
-          "limitations": "Retrospective July–September baseline predates the 8 October profile changes. Actions are not unique people, received enquiries, qualified enquiries or retained matters. Zero tracked bookings does not establish zero actual office appointments. Rounded year-on-year labels are native provider comparisons; prior exact counts were not derived."
+          "limitations": "Retrospective July\u2013September baseline predates the 8 October profile changes. Actions are not unique people, received enquiries, qualified enquiries or retained matters. Zero tracked bookings does not establish zero actual office appointments. Rounded year-on-year labels are native provider comparisons; prior exact counts were not derived."
         },
         "gbpDefaultPartialPeriod": {
           "observedDate": "2026-10-09",
-          "nativePeriodLabel": "May 2026–Oct 2026",
+          "nativePeriodLabel": "May 2026\u2013Oct 2026",
           "periodComplete": false,
           "interactions": 583,
           "profileViews": 6702,
@@ -5726,7 +5783,7 @@
               "count": null
             }
           ],
-          "limitations": "October is partial. These eight exact existing-candidate matches come from May–October, not the complete July–September period. Native <15 thresholds remain censored/null, not zero or absolute market search volumes. Raw non-candidate queries are retained privately only."
+          "limitations": "October is partial. These eight exact existing-candidate matches come from May\u2013October, not the complete July\u2013September period. Native <15 thresholds remain censored/null, not zero or absolute market search volumes. Raw non-candidate queries are retained privately only."
         }
       },
       "citationReadbacks": [
@@ -5864,7 +5921,7 @@
       "sourceMain": "2c5f070443bc9e98c2d576345d45302a79ef719f",
       "latestMergedPRAtStart": 52,
       "additionalExpenditureINR": 0,
-      "status": "SOURCE_IMPLEMENTED_AND_LOCAL_BUILD_VERIFIED; RELEASE_READBACK_PENDING",
+      "status": "MERGED_AND_PRODUCTION_VERIFIED; SUBSEQUENT_OFFICIAL_LIVE_FETCH_SUCCESS",
       "officialGoogleMeasurement": {
         "source": "Native existing Google Search Console property; observed 9 October 2026 before the browser session ended",
         "coverage": {
@@ -5981,8 +6038,8 @@
         "http301Claimed": false,
         "aliasIncludedInSitemap": false,
         "primaryGuidance": "https://developers.google.com/search/docs/crawling-indexing/301-redirects",
-        "deploymentVerified": false,
-        "productionVerified": false,
+        "deploymentVerified": true,
+        "productionVerified": true,
         "indexingOrRankingUpliftClaimed": false
       },
       "httpClientLimit": {
@@ -6050,9 +6107,298 @@
         "releaseIdentity": "Publishing PR metadata/body records final merged main SHA, existing deployment and public readback.",
         "nextHighestValueExecutableTask": "Verify deployed /team/ reaches the existing /partners/; when official reporting is available, perform one live test of this materially changed URL. Continue settled P0/commercial measurements and authorised entity corrections.",
         "ownerDependentNextTask": "Restore the genuinely ended reporting session once; confirm true hours and exact category/catalogue/review permission; provide employee-count range and permission before any new free GA4 property."
+      },
+      "releaseReadback": {
+        "mergedPR": 53,
+        "mainSHA": "24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85",
+        "prURL": "https://github.com/shibin340/paul-legal-associates/pull/53",
+        "deploymentRunId": 37964608766,
+        "workflowStatus": "success",
+        "publicTeamTarget": "https://paullegalassociates.com/partners/",
+        "publicReadbackAtUTC": "2026-10-09T17:16:49.092Z",
+        "bareTeamReadbackAtUTC": "2026-10-09T17:17:47.570Z",
+        "bareExpertiseReadbackAtUTC": "2026-10-09T17:17:48.191Z",
+        "contentPages": 247,
+        "sitemapURLs": 239,
+        "measurementTests": 19,
+        "indexNowSubmitted": false,
+        "limitation": "Verified public implementation; subsequent Google live tests are recorded separately. No indexing or ranking guarantee."
+      }
+    },
+    {
+      "id": "post-pr53-20261009-google-live-verification",
+      "startedAtUTC": "2026-10-09T17:31:03Z",
+      "recordedAtUTC": "2026-10-09T17:49:07.329285+00:00",
+      "timezone": "Asia/Kolkata",
+      "sourceMain": "24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85",
+      "latestMergedPRAtStart": 53,
+      "additionalExpenditureINR": 0,
+      "status": "OFFICIAL_GOOGLE_LIVE_REPAIR_VERIFIED; SAME_PERIOD_P0_LANDING_EVIDENCE_COMPLETED",
+      "accessReview": {
+        "publicSummary": "The restored session opens the existing verified native Search Console property. Account identities remain owner-private; no duplicate property, paid service or new authentication permission was created."
+      },
+      "officialGoogleMeasurement": {
+        "gscReports": [],
+        "latestSettledPerformanceDate": "2026-10-06",
+        "newPeriodOrMovementClaimed": false,
+        "priorExact28And90DayExportsPreserved": true,
+        "native90DayIndiaReadback": {
+          "periodStart": "2026-07-09",
+          "periodEnd": "2026-10-06",
+          "clicks": 142,
+          "impressionsExactCountryRow": 48059,
+          "newExportImported": false,
+          "limitations": "Same settled report as the existing baseline; no new period or movement."
+        },
+        "legacyTeamLiveTest": {
+          "observedAtUTC": "2026-10-09T17:36:52.170Z",
+          "source": "Official Google Search Console URL Inspection; existing verified property",
+          "property": "https://paullegalassociates.com/",
+          "testedURL": "https://paullegalassociates.com/team/",
+          "testTimeDisplay": "9 October 2026 11:06:15 PM",
+          "testTimezoneDisplayed": false,
+          "agent": "Google Inspection Tool smartphone",
+          "crawlAllowed": true,
+          "pageFetch": "Successful",
+          "indexingAllowed": true,
+          "availability": "URL is available to Google",
+          "userDeclaredCanonical": "https://paullegalassociates.com/partners/",
+          "googleSelectedCanonical": "Only determined after indexing",
+          "preRepairLiveFetch": "Failed: Not found (404)",
+          "historicalIndexedRecordLastCrawl": "17 July 2026 1:17:48 AM",
+          "indexingRequestSubmitted": false,
+          "retestsAfterSuccess": 0,
+          "implementationPR": 53,
+          "verifiedMain": "24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85",
+          "newRankingOrIndexingClaimed": false,
+          "screenshot": "GSC_Team_Live_Success_2026-10-09.jpg",
+          "limitation": "Successful live fetch and correct target canonical verify the repair. The historical Google index record still reports July 404; recrawl, canonical selection and rankings are not established by a live test."
+        },
+        "bareExpertiseLiveTest": {
+          "sourceType": "official_gsc_url_inspection_live",
+          "observedAtUTC": "2026-10-09T17:46:33.930Z",
+          "url": "https://paullegalassociates.com/expertise",
+          "testTimeDisplay": "9 October 2026 11:15:09 PM",
+          "testTimezoneDisplayed": false,
+          "agent": "Google Inspection Tool smartphone",
+          "crawlAllowed": true,
+          "pageFetch": "Successful",
+          "indexingAllowed": true,
+          "availability": "URL is available to Google",
+          "userDeclaredCanonical": "https://paullegalassociates.com/expertise/",
+          "googleSelectedCanonical": "Only determined after indexing",
+          "historicalLastCrawlDisplay": "15 July 2026 8:43:47 AM",
+          "historicalPageFetch": "Failed: Not found (404)",
+          "requestIndexingSubmitted": false,
+          "sourceChangeJustified": false,
+          "limitation": "Fresh live fetch replaces the previous uncaptured test with an observed success. It does not update the historical indexed record or establish Google indexing/rank."
+        },
+        "notFoundValidationReadback": {
+          "observedAtUTC": "2026-10-09T17:47:50.235Z",
+          "sourceType": "official_gsc_page_indexing_validation",
+          "issue": "Not found (404)",
+          "reportLastUpdated": "2026-10-04",
+          "validationState": "Started",
+          "validationStartedDate": "2026-08-19",
+          "pending": 2,
+          "failed": 0,
+          "scope": "All known pages",
+          "pendingURLs": [
+            "https://paullegalassociates.com/team/",
+            "https://paullegalassociates.com/expertise"
+          ],
+          "bothExamplesFreshLiveFetchSuccessful": true,
+          "newValidationRequestSubmitted": false,
+          "indexingRequestsSubmitted": 0,
+          "limitation": "This is an existing validation started in August, still pending. Live-test success is not validation completion or Google indexing."
+        },
+        "queryPages": [
+          {
+            "keywordId": "local-011",
+            "keyword": "property lawyer near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-09T17:39:43.744Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 1,
+                "impressions": 5,
+                "ctrPercent": 20,
+                "averagePositionRounded": 1.6
+              },
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 34,
+                "ctrPercent": 0,
+                "averagePositionRounded": 5.6
+              }
+            ],
+            "propertyAggregate": {
+              "clicks": 1,
+              "impressions": 34,
+              "averagePositionRounded": 5.6
+            },
+            "searchAppearance": null,
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry."
+          },
+          {
+            "keywordId": "local-056",
+            "keyword": "employment lawyer",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-09T17:40:39.895Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 4242,
+                "ctrPercent": 0,
+                "averagePositionRounded": 1.7
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 2,
+                "ctrPercent": 0,
+                "averagePositionRounded": 15
+              }
+            ],
+            "propertyAggregate": {
+              "clicks": 0,
+              "impressions": 4242,
+              "averagePositionRounded": 1.7
+            },
+            "searchAppearance": "No data returned for this exact India/Web query and period",
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry."
+          },
+          {
+            "keywordId": "local-013",
+            "keyword": "property lawyer Navi Mumbai",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-09T17:42:49.383Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 15,
+                "ctrPercent": 0,
+                "averagePositionRounded": 17.6
+              }
+            ],
+            "propertyAggregate": {
+              "clicks": 0,
+              "impressions": 15,
+              "averagePositionRounded": 17.6
+            },
+            "searchAppearance": null,
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry."
+          },
+          {
+            "keywordId": "local-045",
+            "keyword": "corporate lawyer near me",
+            "country": "India",
+            "periodStart": "2026-07-09",
+            "periodEnd": "2026-10-06",
+            "observedAtUTC": "2026-10-09T17:44:15.804Z",
+            "sourceType": "official_gsc_query_pages_ui",
+            "pages": [
+              {
+                "url": "https://paullegalassociates.com/",
+                "clicks": 0,
+                "impressions": 14,
+                "ctrPercent": 0,
+                "averagePositionRounded": 4.2
+              },
+              {
+                "url": "https://paullegalassociates.com/#/contact",
+                "clicks": 0,
+                "impressions": 2,
+                "ctrPercent": 0,
+                "averagePositionRounded": 1
+              }
+            ],
+            "propertyAggregate": {
+              "clicks": 0,
+              "impressions": 14,
+              "averagePositionRounded": 4.2
+            },
+            "searchAppearance": null,
+            "limitation": "Exact India/Web query, same settled 90-day period. Page-level metrics are not additive with query/property totals; average positions are not location-controlled Maps ranks. No inference of market demand or received enquiry."
+          }
+        ],
+        "commercial18CohortReinspected": false,
+        "latestCommercialCohortReference": "Three indexed / fifteen discovered; two 9 October morning inspections plus sixteen 8 October inspections. No new commercial indexing claim."
+      },
+      "keywordEvidenceCorrection": {
+        "keywords": [
+          "local-056",
+          "local-013"
+        ],
+        "employmentPreviousPageSampleIncomplete": true,
+        "previousEmploymentSamplePreserved": "priorReadbacks on the source-matched queryPages entry in post-pr48-20261009-free-google-execution",
+        "employmentCompleteReadback": "Home: 0 clicks / 4242 impressions / rounded position 1.7; old Contact fragment: 0 / 2 / 15.0",
+        "propertyNaviMumbaiNewLandingEvidence": "Home: 0 clicks / 15 impressions / rounded position 17.6",
+        "exactCountryAndPeriodMatched": true,
+        "relevantCandidatesPreserved": 74,
+        "irrelevantExclusionsPreserved": 3,
+        "workingP0Preserved": 18,
+        "preferredURLsChanged": false,
+        "clicksImpressionsAndPriorityChanged": false,
+        "rankingAndMapsPositionsInvented": false
+      },
+      "actualImplementationThisCycle": {
+        "priorWebsiteRepairVerifiedByGoogle": true,
+        "keywordLandingEvidenceCorrected": true,
+        "websiteContentEdits": 0,
+        "googleBusinessProfileEdits": 0,
+        "newValidationRequests": 0,
+        "indexingRequests": 0,
+        "reviewReplies": 0,
+        "reviewInvitations": 0,
+        "citationSubmissionsOrResends": 0,
+        "newAuthorityLinks": 0,
+        "independentAIAnswers": 0,
+        "analyticsCollectorInstalled": false,
+        "indexNowSubmitted": false
+      },
+      "noChangeJustified": {
+        "homepageAndServices": "Fresh query/page evidence favours Home and legacy Contact. Existing static Home has crawlable Property, Title and Employment links; no missing path, fetch failure or new intent conflict proves a content or metadata rewrite is needed. Preserve preferred service destinations and monitor discovery/crawl.",
+        "validation": "The 404 validation already started 19 August and shows two pending, zero failed; do not restart it or claim completion.",
+        "paidServices": "Semrush no_api_units and retired Wizard were not retried. No subscription, billing, API purchase or new paid tool."
+      },
+      "ongoingExternalState": {
+        "reviews": "172 / 4.9 at 9 October 07:59:56 UTC; not remeasured in this cycle",
+        "gbpQuarter": "July-September: 353 interactions / 94 call-button / 189 directions / 70 website; no new performance period",
+        "bdir": "One owner-submitted correction; evening 9 October readbacks still Moraj. Pending; no resend or verified correction in this cycle.",
+        "mapsPositions": null,
+        "ga4CollectorVerified": false,
+        "qualifiedEnquiries": null,
+        "independentAIHistory": "7 October: ChatGPT 4/6; Google AI Mode 1/1. Dated independent observations, not rankings; not retested here."
+      },
+      "ownerDependencies": {
+        "hours": "Confirm genuine Mon-Fri, Saturday, Sunday and any online/senior variants before edits.",
+        "profileAndReviews": "Exact category/catalogue correction and public-review reply permissions remain required; no automatic client invitations.",
+        "freeGA4": "If creating a new standard no-cost property, owner must authorise it and supply genuine employee range; binding terms still require action-time owner confirmation.",
+        "bing": "Owner sign-in not completed.",
+        "googleProfileDetail": "Previously observed cloud unusual-traffic boundary not retried; native GSC reporting works separately."
+      },
+      "resume": {
+        "latestVerifiedReleaseAtMeasurement": 53,
+        "verifiedMainAtMeasurement": "24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85",
+        "publishingPR": "Publishing PR metadata/body records final merged SHA and unchanged production verification.",
+        "nextExecutableTask": "At a sensible interval, check this existing 404 validation and the next settled exact 28/90-day India/P0/commercial cohort; do not repeat successful live tests or unchanged indexing submissions. Continue owner-confirmed factual entity/review/collector tasks when facts and permissions arrive."
       }
     }
   ],
-  "latestExecutionCycleId": "post-pr52-20261009-legacy-team-correction",
+  "latestExecutionCycleId": "post-pr53-20261009-google-live-verification",
   "publicPrivacyNote": "Account identities, detailed authentication records and connected-service identifiers are omitted from this public record; original values are retained only in owner-private evidence. Quantitative SEO reports, dates, commercial decisions and implementation history are preserved."
 }
