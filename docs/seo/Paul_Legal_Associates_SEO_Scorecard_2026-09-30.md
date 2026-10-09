@@ -5,7 +5,7 @@
 
 ## Authenticated Google results — 9 October 2026 IST
 
-Source main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. The owner's new sign-in restores the existing GSC property and managed profile `13821946754957392159`; no replacement property/profile or paid dependency was created. Actual results are in cycle `post-pr51-20261009-authenticated-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Prior dated access/propagation observations below remain history. **Additional expenditure: ₹0.**
+Source main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. Publishing [PR #52](https://github.com/shibin340/paul-legal-associates/pull/52) records the final merge/main SHA and production proof. The owner's new sign-in restores the existing GSC property and managed profile `13821946754957392159`; no replacement property/profile or paid dependency was created. Actual results are in cycle `post-pr51-20261009-authenticated-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Prior dated access/propagation observations below remain history. **Additional expenditure: ₹0.**
 
 At 07:59:56 UTC the profile still shows **172 reviews / 4.9**, and **both fixed website and appointment UTMs are publicly visible**. At 08:35:17 UTC the published tagged appointment destination reaches Contact with its untagged self-canonical, correct phone/email and form/WhatsApp controls. No enquiry was submitted. The previously added POSH/Internal Committee and Tax/GST service names/descriptions persist in the manager; explicit approval/public publication remains UNKNOWN. No duplicate service or other profile edit occurred.
 

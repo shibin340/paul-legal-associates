@@ -6112,8 +6112,30 @@
         "publishingBranch": "seo/authenticated-google-readback-20261009",
         "nextHighestValueExecutableTask": "After the owner resolves the current Analytics email-preference modal, verify the existing PLA free GA4 property and measurement stream; connect one collector only after authorised property identity is confirmed. At a sensible interval compare the settled Google cohort and service/publisher approval.",
         "ownerDependentNextTask": "Analytics email preferences; true office hours including online/senior variants; exact category/catalogue cleanup and public-review reply permission. Bing sign-in remains separate.",
-        "releaseIdentity": "The publishing PR metadata/body will record its final merge SHA, existing deployment checks and production result."
-      }
+        "releaseIdentity": "The publishing PR metadata/body will record its final merge SHA, existing deployment checks and production result.",
+        "publishingPR": 52,
+        "publishingPRURL": "https://github.com/shibin340/paul-legal-associates/pull/52"
+      },
+      "automationUpdates": [
+        {
+          "automationId": "6ab7c12e40ec8191858d810b86261c88",
+          "updatedAtUTC": "2026-10-09T08:52:50.743499+00:00",
+          "enabled": true,
+          "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20260928T080000\nRRULE:FREQ=WEEKLY;BYDAY=MO,FR\nEND:VEVENT",
+          "scheduleUnchanged": true,
+          "duplicateCreated": false,
+          "currentCheckpoint": "Publishing PR #52; authenticated measurement from main a75f382818b02ca25e8b4f0e75c64ac4d91a2d40; final release read from PR metadata/body"
+        },
+        {
+          "automationId": "6ab7c137a46481919c9d99d4296d7948",
+          "updatedAtUTC": "2026-10-09T08:52:53.386261+00:00",
+          "enabled": true,
+          "schedule": "BEGIN:VEVENT\nDTSTART;TZID=Asia/Calcutta:20261001T090000\nRRULE:FREQ=MONTHLY;BYMONTHDAY=1\nEND:VEVENT",
+          "scheduleUnchanged": true,
+          "duplicateCreated": false,
+          "currentCheckpoint": "Publishing PR #52; authenticated measurement from main a75f382818b02ca25e8b4f0e75c64ac4d91a2d40; final release read from PR metadata/body"
+        }
+      ]
     }
   ],
   "latestExecutionCycleId": "post-pr51-20261009-authenticated-readback"
