@@ -10,6 +10,22 @@ Official GSC reports 7 external links from 6 sites, all to Home: LinkedIn (2), b
 
 Previously verified authority terms, observed 7 October, remain unchanged: Lawzana Basic is free but website/phone and backlink benefits require paid tiers; NMCBI publishes annual membership fees and requires genuine eligibility. Neither was applied for or purchased under the ₹0 budget.
 
+## Official Google linking-page sample — 9 October 2026 IST
+
+Native “More sample links” export contains these seven source URLs, observed at 8 October 21:38:41 UTC. All link to Home in the GSC summary. This is existing Google-observed coverage, not acquired backlinks or a competitor gap. The full sample hash and publisher readback limitations are in existing execution evidence.
+
+| Existing linking page | Source type / actual readback | Action status |
+|---|---|---|
+| https://in.linkedin.com/company/paullegalassociates | Company profile; current office field and mixed About previously verified | Owner-reserved factual correction; no operator edit |
+| https://www.linkedin.com/pulse/regulatory-changes-time-pandemic-in-depth-study-paul-p-p | Google-observed professional article | Article content/claims not re-reviewed; no new editorial link claimed |
+| https://magicpin.in/Navi-Mumbai/Sector-15/Other/Paul-Legal-Associates/store/3258b7b | Citation shows 301 Om Sai, +917977063567 and website; appends Sector 15/Khanda Colony locality. Its 24 ratings are not Google's 172 | Existing citation observed; no correction or listing claim submitted. Generic voucher text does not establish a firm offer |
+| https://www.infobel.com/en/india/paul_legal_associates/panvel/IN145878156-07977063567/businessdetails.aspx | Google-observed directory link; current page unavailable to retrieval tool | NAP unverified; no account or new profile |
+| https://www.signalhire.com/companies/paul-legal-associates | Google-observed company-information page | Current content not re-reviewed; no authority or NAP assertion |
+| https://www.sulekha.com/paul-legal-associates-navi-mumbai-mumbai-contact-address | Google-observed directory link; retrieval returns 403, cause unclassified | Current NAP unverified; no browser workaround or correction |
+| https://bestcriminallawyerinmumbai.com/cheque-bounce-case-lawyers-in-mumbai/ | Google-observed legal-service page; retrieval shows robot verification | Ownership/relevance/quality unverified; no bypass or spam label inferred |
+
+Native GSC reports 40 internal links across five returned pages. This incomplete report is not the website verifier's 8,112 crawlable link occurrences and does not justify rebuilding navigation.
+
 ## Highest-value public correction targets
 
 The current website identifies Office 301, 3rd Floor, Om Sai Building, Plot 101/3, Swami Nityanand Road, near Garden Hotel, Panvel/Navi Mumbai, Maharashtra 410206; +91 7977063567; info@paullegalassociates.com. Its visible hours are Monday–Friday 10:00–20:00 and Saturday 10:00–18:00. No alternate office, founding year, phone or rating is inferred from a directory.
