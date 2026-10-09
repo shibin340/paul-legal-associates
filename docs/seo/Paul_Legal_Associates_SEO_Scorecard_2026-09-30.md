@@ -3,9 +3,30 @@
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
 
+## Measured legacy error and narrow implementation — 9 October 2026 IST
+
+Source main `2c5f070443bc9e98c2d576345d45302a79ef719f` / merged PR #52; cycle `post-pr52-20261009-legacy-team-correction` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). The publishing PR records final release identity and public verification. **Additional expenditure: ₹0.**
+
+| Measurement / action | Actual result | Limit / next verification |
+|---|---|---|
+| Official live `/team/` test | Google reports crawl allowed but fetch failed, Not found (404); test label 9 October 4:05:54 PM, time zone not displayed | Confirms a current obsolete URL defect; does not change the commercial indexing cohort |
+| Website implementation | One static instant redirect from `/team/` to the existing `/partners/`, target canonical, fallback link, no JavaScript | Local build verified; deployment/public readback pending in publishing PR. Not an HTTP 301 claim |
+| Preserved technical baseline | 247 content pages / 239 sitemap URLs / 8,112 internal links / 12 hydration-navigation checks / Contact pass; one alias check; `main.282269f8.js` unchanged | All 19 measurement tests and evidence validation pass; measured keywords and priorities retained. Alias excluded from sitemap; no new practice/city page, content date or IndexNow batch |
+| GSC coverage report | Last updated 4 October: 27 indexed / 229 not indexed; 214 discovered, 1 crawled-not-indexed, 7 redirect errors, 2 404s, 5 redirects | Examples retain June–August crawl dates. Bare `/expertise` live result was not obtained; UNKNOWN |
+| GSC performance readback | Three-month preset 7 July–6 October: 148 clicks / 50.6K rounded impressions / 0.3% rounded CTR / 2.6 rounded average position | 92 days, not the exact 90-day export; no duplicate import or claimed movement |
+| Keyword / commercial tracker | Existing 74 relevant candidates, 18 working P0 terms and preferred destinations retained | Exact 28/90-day reports through 6 October and the dated 18-URL tracker remain preserved |
+| Analytics | Earlier preference prompt resolved; no GA4 property verified in the checked pickers; no property, stream or collector created | Owner permission and real employee-count range are required for one new no-cost standard property if needed |
+| External outcomes | No new citation submission, review reply/invitation, backlink, independent AI answer or location-controlled Maps position | Bdir remains previously submitted/pending; earlier GBP/review/AI measurements retain their dates |
+
+Seven ordinary client HTTP checks returned 403 and could not establish current redirect chains. This alone does not identify a bot block or public outage. Google profile detail controls subsequently presented an unusual-traffic warning in this cloud browser; that route was stopped without bypass or retry. No factual profile change or security weakening followed. Native reporting must be restored before further private Google readbacks; do not replace missing measurements with zero.
+
+Account identities and connected-service identifiers are omitted from the public records, with original references retained privately; quantitative evidence is preserved.
+
+**Next executable task:** complete release/public verification, then one official changed-URL live test when available; continue settled P0/service measurement and authorised local entity corrections. Genuine hours, exact category/catalogue cleanup and review-reply permission remain owner-dependent. The publishing PR provides the final merged resume checkpoint.
+
 ## Authenticated Google results — 9 October 2026 IST
 
-Source main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. Publishing [PR #52](https://github.com/shibin340/paul-legal-associates/pull/52) records the final merge/main SHA and production proof. The owner's new sign-in restores the existing GSC property and managed profile `13821946754957392159`; no replacement property/profile or paid dependency was created. Actual results are in cycle `post-pr51-20261009-authenticated-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Prior dated access/propagation observations below remain history. **Additional expenditure: ₹0.**
+Source main `a75f382818b02ca25e8b4f0e75c64ac4d91a2d40` / merged PR #51. Publishing [PR #52](https://github.com/shibin340/paul-legal-associates/pull/52) records the final merge/main SHA and production proof. The owner's new sign-in restores the existing GSC property and managed profile `OWNER_PRIVATE_REFERENCE`; no replacement property/profile or paid dependency was created. Actual results are in cycle `post-pr51-20261009-authenticated-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Prior dated access/propagation observations below remain history. **Additional expenditure: ₹0.**
 
 At 07:59:56 UTC the profile still shows **172 reviews / 4.9**, and **both fixed website and appointment UTMs are publicly visible**. At 08:35:17 UTC the published tagged appointment destination reaches Contact with its untagged self-canonical, correct phone/email and form/WhatsApp controls. No enquiry was submitted. The previously added POSH/Internal Committee and Tax/GST service names/descriptions persist in the manager; explicit approval/public publication remains UNKNOWN. No duplicate service or other profile edit occurred.
 
@@ -38,7 +59,7 @@ At 03:26:56 UTC both Bdir pages still show Moraj: the owner's prior correction r
 
 A reproducible keyword-export defect was corrected: a later public-only checkpoint previously erased the measured keyword columns and working P0 decisions. Export now retains the latest verified complete 90-day India Web report across cycles, including its original period and associated decisions/landings. Nineteen tests pass, including public-only continuation and later historical/all-country imports. All 77 CSV rows, 74 relevant candidates, 18 current P0 terms and preferred URLs are preserved; no fresh demand, Maps rank or lead metric is invented. See `post-pr50-20261009-propagation-readback` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Publishing [PR #51](https://github.com/shibin340/paul-legal-associates/pull/51) records its final merge/deployment proof.
 
-Next: restore secure Google authentication for `associatespaullegal@gmail.com`, then inspect service approval and the saved appointment field; recheck public propagation/publisher correction at a sensible interval. True hours, exact catalogue/category cleanup, public-review replies and the actual free GA4 property remain owner-dependent.
+Next: restore secure Google authentication for `OWNER_PRIVATE_EMAIL`, then inspect service approval and the saved appointment field; recheck public propagation/publisher correction at a sensible interval. True hours, exact catalogue/category cleanup, public-review replies and the actual free GA4 property remain owner-dependent.
 
 ## Post-release results — 9 October 2026 IST
 
@@ -111,7 +132,7 @@ These positions are country-filtered period averages, **not Maps ranks or keywor
 
 | Dimension | Actual result | Limitation / next action |
 |---|---|---|
-| Profile | Existing Om Sai profile ID `13821946754957392159`; Law firm primary and 9 secondary categories | District attorney is QUESTIONABLE. Genuine family/criminal/insolvency pages exist. Categories unchanged pending exact owner confirmation |
+| Profile | Existing Om Sai profile ID `OWNER_PRIVATE_REFERENCE`; Law firm primary and 9 secondary categories | District attorney is QUESTIONABLE. Genuine family/criminal/insolvency pages exist. Categories unchanged pending exact owner confirmation |
 | Attribution | Website and appointment UTMs saved and reopened; website UTM also observed on Maps | Public appointment still shows legacy hash Contact. Await propagation; live tagged destinations preserve their untagged canonicals |
 | Services | 16 prepared services were already represented among 704 entries. Only missing POSH/Internal Committee and Tax/GST entries were submitted; manager now shows 706 | Google review pending. No prices, duplicate set of 18 additions or bulk deletion. Inapplicable catalogue examples require owner scope review |
 | Hours / pin / visuals | Manager shows 09:00–21:00 daily, conflicting with website hours. Map marker coordinates observed; 22 visible photo cells and logo | True hours, entrance/pin accuracy and genuine photos need owner confirmation. None changed |
