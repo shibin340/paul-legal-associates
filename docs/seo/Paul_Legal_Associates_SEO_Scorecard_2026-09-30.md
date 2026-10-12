@@ -2,6 +2,14 @@
 
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
+## Public local follow-up and access checkpoint — 12 October 2026 IST
+
+Verified source main `0287fc83fe8c270d05883601be61b6955978e934` / merged PR #54. The public Home and Contact pages remain readable with their main content and phone/email/WhatsApp/directions paths. The existing Google profile still displays the correct Om Sai office, primary phone, **172 reviews / 4.9**, and both fixed website and appointment UTMs; the appointment URL now visibly targets `/contact/` with attribution. This is a public readback, not a profile edit or a claim about manager-side service approval, Maps rank, enquiries or retained matters.
+
+The two already-submitted Bdir corrections remain **SUBMITTED / PENDING**: both public records still display the former Moraj address and an additional unverified phone. A restricted incoming-mail check returned zero messages from the known publisher sender since 8 October; it does not cover other sender identities or channels. GetLaw still aligns at Om Sai building/road/postcode level, while its suite, experience and hours remain unverified. No resend, review reply/invitation, new profile, link, paid service or listing edit occurred.
+
+The exact Search Console property URL redirects this browser to Google's public sign-in entry. Therefore no newer GSC export, validation result, URL inspection or indexation movement is claimed. The settled 6 October reports and dated **3 indexed / 15 discovered** commercial cohort remain the latest evidence. Exact unblock: securely sign in to the existing Google account and reopen the existing `sc-domain:paullegalassociates.com` property; do not create a replacement property. Semrush was not called under the known `no_api_units` state. Bing, Cloudflare verified-crawler logs and GA4 collection remain unverified. See cycle `post-pr54-20261012-public-local-followup` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json).
+
 
 ## Official repair verification and P0 landing readback — 9 October 2026
 

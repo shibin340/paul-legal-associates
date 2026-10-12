@@ -2,6 +2,10 @@
 
 The live robots file allows `User-agent: *`, has no Disallow, and references the apex sitemap. This permits Googlebot, Bingbot and OAI-SearchBot at the robots layer. Successful public curl/cloud-browser HTML fetches are recorded with release evidence. **These clients are not verified search crawlers**, and a user-agent label alone would not prove crawler identity.
 
+## Access continuity — 12 October 2026 IST
+
+Public Home and Contact fetches succeed and expose main content plus contact paths. The exact Search Console property URL is signed out in this browser, so no current Google crawl stats, validation state, URL inspection or verified-crawler evidence was obtained. Preserve the settled evidence through 6 October and the successful 9 October live tests; do not relabel them as current. Exact unblock: securely sign in to the existing Google account and reopen `sc-domain:paullegalassociates.com`. Cloudflare zone Security Events, Bing Webmaster and GA4 collection remain unavailable; no WAF, robots, rate-limit, IndexNow or analytics change was made.
+
 ## Reporting access follow-up — 9 October 2026 IST
 
 The official Search Console entry currently requires Google sign-in in this browser. No new private crawl report, URL inspection or current WAF evidence was retrieved in the morning follow-up. Keep the dated official results below; do not present them as a new fetch, bot verification or fresh inspection. Public Home/Contact are healthy after PR #50, and the old Maps appointment URL reaches canonical Contact. No robots/WAF/rate-limit/IndexNow change or unchanged Google request was made. Semrush was not retried and GSC Wizard remains retired. Exact unblock: secure owner authentication for the existing Google property; Cloudflare zone logs remain separately unavailable.

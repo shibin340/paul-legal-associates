@@ -2,6 +2,14 @@
 
 Opened 5 October 2026 before source changes; refreshed after the execution cycle. Current source/release references are below. Original working-register recovery is preserved in repository history. **COMPLETE means the stated implementation/system is verified; it never means Google/Bing indexing or leads are guaranteed.** Account-dependent outcomes and substantive law review remain explicitly unfinished.
 
+## Current continuation checkpoint — 12 October 2026 IST
+
+Source main remains `0287fc83fe8c270d05883601be61b6955978e934` / merged PR #54. Public Home, Contact and the existing Google profile are healthy; firm identity, Om Sai address, phone and both owned UTMs remain aligned. Aggregate reviews remain **172 / 4.9**. No profile field, review, website source, IndexNow list or metadata was changed.
+
+**Blocked — current Google measurement:** the exact existing Search Console property URL now opens the public sign-in entry in this browser. Owner action: securely sign in to the existing Google account and reopen `sc-domain:paullegalassociates.com`; do not create a new property. Until then, the five reports through 6 October and the dated 3-indexed/15-discovered cohort are preserved without a movement claim. Bing reporting, Cloudflare verified-bot events, field CWV and live GA4 collection remain unavailable for the reasons already recorded.
+
+**In progress — existing citation correction:** both Bdir pages still publish Moraj after the single owner submission. No known-publisher reply was returned by the restricted mailbox query. Do not resend; recheck later. GetLaw's current building/road/postcode is aligned, but suite, experience and hours need factual owner confirmation before any correction. Hours, review replies/invitations and LinkedIn remain untouched under the owner's restrictions. Cycle: `post-pr54-20261012-public-local-followup` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json).
+
 ## Google live repair verified and keyword landing evidence corrected — 9 October 2026
 
 Verified main `24e5e71f184154e6ef4d6b93f3fe9e8e88ec0b85` / merged [PR #53](https://github.com/shibin340/paul-legal-associates/pull/53). Existing deployment/public verification is complete: 247 content pages, 239 sitemap URLs, 8,112 links, 12 hydration/navigation checks, Contact/alias checks and 19 measurement tests. **₹0 additional expenditure.**

@@ -2,6 +2,12 @@
 
 Prepared 7 October 2026 IST from current main through PR #44 and the existing query, citation, conversion and claim registers. This is the office execution procedure, not proof that a profile, review, citation or collector has been changed. The [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) remains the one outcome record; [dated source evidence](evidence/Local_Search_2026-10-07.json) contains the exact observations and blockers.
 
+## Current access and execution boundary — 12 October 2026 IST
+
+Public profile access confirms current identity, Om Sai address, phone, 172 / 4.9 aggregate reviews and both fixed UTMs. Manager-only settings are not accessible in this browser, and Search Console is signed out. No category, service, hour, photo, review, post, website, citation or analytics setting was changed. Resume private Google work only after a secure owner sign-in to the existing accounts; never create a duplicate profile or replacement Search Console property.
+
+The two Bdir corrections remain pending and must not be resent. GetLaw's location is broadly aligned, but its suite, experience and hours are not verified. Review replies and invitations remain prohibited; LinkedIn remains owner-reserved; true hours remain unconfirmed. The next safe private action is the next settled same-scope GSC export/validation readback after sign-in. The next safe public action is a later readback of the existing Bdir submissions.
+
 ## Current operational readback — 9 October 2026 IST
 
 The existing GSC property and GBP manager are signed in again. No profile replacement or duplicate additions. POSH/Internal Committee and Tax/GST service descriptions persist; no explicit approval status is visible, so public publication remains unverified. The original 704→706 reconciliation is dated history, not a fresh full catalogue count. Native complete July–September performance and the 172/4.9 review readback are in the existing scorecard. Analytics awaits the owner's email-preference selection; do not choose subscriptions, create a property or install a collector until resolved and identity verified. Category decisions and actual conflicting hours remain as recorded below, without a speculative edit.
