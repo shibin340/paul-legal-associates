@@ -1,5 +1,11 @@
 # Local consistency, legitimate authority and SERP evidence — 5 October 2026
 
+## Public citation readback — 12 October 2026 IST
+
+Both owner-submitted Bdir records still display Office 701/R3, Moraj Riverside Park and an additional unverified phone. Their status remains **SUBMITTED / PENDING**, with zero verified corrections. The restricted connected-mailbox query found no incoming message from the known publisher sender after 8 October; this does not cover other senders or channels. No resend, duplicate submission or new profile was made.
+
+GetLaw currently displays Om Sai Building, Swami Nityanand Road and postcode 410206, aligned at building/road/postcode level; suite, displayed experience and hours remain unverified. The public Google profile still displays the exact Om Sai office, current primary phone and both owned UTMs. Aggregate Google reputation remains 172 / 4.9; this is observation only, with no reply, invitation or reviewer contact. No acquired link, membership, authority-score change or competitor gap is claimed. Dated observations are in the [existing ledger](evidence/Local_Search_Observations.json) and cycle `post-pr54-20261012-public-local-followup`.
+
 ## Authenticated-cycle publisher readback — 9 October 2026 IST
 
 Both known Bdir publisher pages still show Office 701/R3, Moraj Riverside Park and the additional unconfirmed phone alongside the correct primary phone. The owner's one sent correction remains **SUBMITTED / PENDING**, with **zero verified corrections**. No matching incoming reply from the known publisher was returned by the restricted connected-mailbox search; other senders/channels are not covered. No resend, new profile, application, membership or acquired link occurred. Google manager access is restored and both fixed owned-link UTMs are publicly verified; this resolves attribution propagation, not a directory correction or backlink. Current complete-quarter performance and review data are in the existing scorecard. LinkedIn's owner-reserved editing and the existing genuine citation account requirements remain unchanged.
