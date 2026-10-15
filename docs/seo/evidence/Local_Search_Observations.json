@@ -552,6 +552,88 @@
       "periodStart": null,
       "periodEnd": null,
       "newReviews": null
+    },
+    {
+      "observedAtUTC": "2026-10-15T12:53:23.676Z",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "citationId": "bdir-property",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null,
+      "id": "citation-bdir-property-20261015-readback",
+      "kind": "citation",
+      "sourceType": "public_directory"
+    },
+    {
+      "observedAtUTC": "2026-10-15T12:53:23.676Z",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "citationId": "bdir-finance",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null,
+      "id": "citation-bdir-finance-20261015-readback",
+      "kind": "citation",
+      "sourceType": "public_directory"
+    },
+    {
+      "observedAtUTC": "2026-10-15T12:53:23.676Z",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "citationId": "getlaw",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "addressStatus": "matches",
+      "phoneStatus": "not_observed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null,
+      "id": "citation-getlaw-20261015-readback",
+      "kind": "citation",
+      "sourceType": "public_directory"
+    },
+    {
+      "observedAtUTC": "2026-10-15T12:53:23.676Z",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "reviews-google-profile-20261015-readback",
+      "kind": "reviews",
+      "sourceType": "google_profile",
+      "sourceURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1068224,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j",
+      "profileId": "13821946754957392159",
+      "profileURL": "https://www.google.com/maps/place/Paul+Legal+Associates/@18.9982252,73.1068224,17z/data=!3m1!4b1!4m6!3m5!1s0x3be7e91d39806479:0x29a44e595f30b556!8m2!3d18.9982252!4d73.1093973!16s%2Fg%2F11gxh4hy9j",
+      "reviewCount": 172,
+      "rating": 4.9,
+      "responseCount": null,
+      "periodStart": null,
+      "periodEnd": null,
+      "newReviews": null
+    },
+    {
+      "observedAtUTC": "2026-10-15T12:53:23.676Z",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "id": "ai-chatgpt-naina-20261015-independent",
+      "kind": "ai",
+      "sourceType": "independent_engine_answer",
+      "sourceURL": "https://chatgpt.com/",
+      "engine": "ChatGPT",
+      "prompt": "Which Navi Mumbai law firms handle NAINA town planning matters? Cite the service source.",
+      "location": "Actual searcher location unverified; Navi Mumbai intent supplied only by the registered prompt",
+      "language": "English",
+      "sessionContext": "Fresh unsigned independent public ChatGPT thread; no prior PLA context or PLA name in prompt. Completed response cited PLA. Explicit Search toggle not selected; forced search mode unverified.",
+      "plaAppeared": true,
+      "competitors": [
+        "Adv. Amit Chaudhari & Co.",
+        "NKS Legal",
+        "Advocate Dipti Nikhade & Associates"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+        "https://paullegalassociates.com/expertise/",
+        "https://cidco.maharashtra.gov.in/"
+      ]
     }
   ]
 }

@@ -1,5 +1,10 @@
 # Paul Legal Associates — CTR decision register
 
+## Settled continuation — 15 October 2026
+
+**Hold existing snippets.** Fresh exact exports end 13 October and retain the native Web (text-based) label. All-country 28-day results: 41 clicks / 16,424 impressions; Home 36 clicks and NAINA service 1 click / 17 impressions. India 90-day `employment lawyer`:3,648 impressions / 0 clicks. Current query-page rows remain Home 3,590/tagged Home 58/legacy Contact 2 impressions, zero clicks. The preferred Employment service is currently unknown to Google. These samples support discovery/authority follow-up and correct landing measurement, not a title experiment or inferred Maps rank. Preserve 18 P0 priorities and prior dated evidence. Today's two guide corrections postdate this performance period. India page-table gaps remain explicit and cannot be interpreted as service zeros.
+
+
 ## Current decision — 9 October 2026 IST
 
 **NO CHANGE JUSTIFIED.** India 90-day property lawyer near me has 1 click / 34 impressions; registration has 1 / 2. The law-firms-in-Navi-Mumbai family variant has 1 / 50 on Home. Contract lawyer and employment lawyer have 5,162 and 4,242 impressions with no clicks. These generic impressions are not local keyword demand; GSC averages are not Maps ranks.

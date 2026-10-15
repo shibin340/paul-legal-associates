@@ -1,5 +1,10 @@
 # Local consistency, legitimate authority and SERP evidence — 5 October 2026
 
+## Current citation readback — 15 October 2026
+
+Both existing Bdir records still show **701/R3 Moraj Riverside Park**. The owner's already-sent correction remains **SUBMITTED/PENDING**, with zero verified corrections and no resend. The scoped incoming mailbox query covering the known publisher sender/domain after 8 October returned zero messages; other senders/channels/accounts are outside that check. GetLaw still shows **Om Sai Building / Swami Nityanand Road /410206**; suite, experience and hours remain unconfirmed. No obsolete address request was sent to GetLaw. No new citation, acquired backlink, membership or outreach is claimed. Current evidence is in cycle `post-pr56-20261015-settled-google-local` and appended rows in the existing observation ledger.
+
+
 ## Public citation readback — 12 October 2026 IST
 
 Both owner-submitted Bdir records still display Office 701/R3, Moraj Riverside Park and an additional unverified phone. Their status remains **SUBMITTED / PENDING**, with zero verified corrections. The restricted connected-mailbox query found no incoming message from the known publisher sender after 8 October; this does not cover other senders or channels. No resend, duplicate submission or new profile was made.

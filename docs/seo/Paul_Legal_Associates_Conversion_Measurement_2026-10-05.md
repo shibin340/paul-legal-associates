@@ -1,5 +1,10 @@
 # Enquiry measurement contract — 5 October 2026
 
+## Collector access readback — 15 October 2026
+
+The checked signed-in Analytics account opens the new-account welcome flow; no existing property is verified there. An authorised unsubmitted account/property draft was prepared, with optional data sharing unchecked. The reporting-country selector renders no options after one close/reopen recovery, so country/timezone/currency were not invented. Actual mandatory employee range remains unknown. No account/property/stream was created, no terms accepted and no collector installed; Realtime/DebugView and actual received/qualified enquiries remain unmeasured. Existing website hooks are preserved. Current GBP manager account separately lists 0 businesses; public profile remains live with both fixed tags. This is an account-access limitation, not evidence a replacement profile/property is required. ₹0 spent; no billing or paid integration.
+
+
 ## Actual attribution and interactions — 9 October 2026 IST
 
 Website and appointment GBP UTMs were saved and reopened. Maps now exposes the tagged website; its appointment still shows the old hash Contact link. Tagged Home/Contact load the current bundle and preserve their untagged canonicals. September native GBP Performance reports 33 call interactions, 54 directions, 28 website clicks and 0 bookings, totaling 115 interactions. These pre-change intent actions are not GA4 events or unique qualified leads.

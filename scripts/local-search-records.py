@@ -18,6 +18,13 @@ EVIDENCE = Path('docs/seo/evidence')
 LEDGER = EVIDENCE / 'Local_Search_Observations.json'
 EXECUTION = EVIDENCE / 'Local_Growth_Execution_2026-10-07.json'
 BRAND_QUERY = re.compile(r'paul\s+(?:legal|(?:and\s+)?associates)|p\s*\.?\s*p\s*\.?\s*polachan|sojan\s+paul|sonam\s+paul', re.I)
+NATIVE_WEB_LABELS = {'Web', 'Web (text-based)'}
+# Only the two public, fixed profile links already verified in Local Operations.
+# Arbitrary query strings can contain client data and must remain rejected.
+PUBLIC_GBP_PAGE_URLS = {
+    'https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website',
+    'https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment',
+}
 COUNT_METRICS = {'organicKeywords', 'top3Keywords', 'top10Keywords', 'top20Keywords',
                  'backlinks', 'referringDomains', 'newBacklinks', 'lostBacklinks'}
 ESTIMATE_METRICS = {'estimatedOrganicTraffic', 'authorityScore'}
@@ -58,6 +65,14 @@ def timestamp(value):
 
 def public_url(value):
     return isinstance(value, str) and urlparse(value).scheme == 'https' and bool(urlparse(value).hostname)
+
+
+def public_gsc_page_url(value):
+    parsed = urlparse(value)
+    return (parsed.scheme == 'https' and parsed.hostname in {'paullegalassociates.com', 'www.paullegalassociates.com'} and
+            not parsed.username and not parsed.password and
+            (not parsed.fragment or parsed.fragment.startswith('/')) and
+            (not parsed.query or value in PUBLIC_GBP_PAGE_URLS))
 
 
 def evidence_file(root, value):
@@ -180,7 +195,7 @@ def validate_record(row, baseline, root=ROOT):
 
     elif kind == 'ai':
         require(row['sourceType'] == 'independent_engine_answer', 'Operator/provider search is not an AI answer test')
-        require(row['engine'] in {'ChatGPT Search', 'Copilot', 'Google AI Mode', 'Google AI Overviews'}, 'Actual independent engine required')
+        require(row['engine'] in {'ChatGPT', 'ChatGPT Search', 'Copilot', 'Google AI Mode', 'Google AI Overviews'}, 'Actual independent engine required')
         require(row['prompt'] in baseline['ai']['probePrompts'], 'Use the registered repeated prompt cohort')
         require(all(nonempty(row[x]) for x in ['location', 'language', 'sessionContext']), 'AI test location/language/session required')
         require(isinstance(row['plaAppeared'], bool), 'PLA appearance must be explicitly observed')
@@ -254,7 +269,7 @@ def read_gsc_export(path, baseline, observed_at, days, country=None, report_kind
                   for name in required}
     filters = {row['Filter']: row['Value'] for row in tables['Filters.csv']}
     require(set(filters) <= {'Search type', 'Date', 'Country'} and
-            filters.get('Search type') == 'Web' and nonempty(filters.get('Date')),
+            filters.get('Search type') in NATIVE_WEB_LABELS and nonempty(filters.get('Date')),
             'Unsupported search type or query/page/device filter; do not mislabel a filtered report')
     require(filters.get('Country') == country, 'Requested country disagrees with the native filter')
     chart = tables['Chart.csv']
@@ -301,17 +316,15 @@ def read_gsc_export(path, baseline, observed_at, days, country=None, report_kind
     pages = []
     for row in tables['Pages.csv']:
         url = row['Top pages']
-        parsed = urlparse(url)
-        require(parsed.scheme == 'https' and parsed.hostname == 'paullegalassociates.com' and
-                not parsed.query and not parsed.username and not parsed.password and
-                (not parsed.fragment or parsed.fragment.startswith('/')),
-                'Do not publish foreign URLs, credentials or page query parameters')
+        require(public_gsc_page_url(url),
+                'Only public site URLs and the two fixed GBP tags are allowed; no private parameters')
         pages.append({'url': url, **metric(row)})
     result = {'sourceType': 'official_gsc_ui_csv', 'reportKind': report_kind,
               'observedAtUTC': observed_at, 'property': 'https://paullegalassociates.com/',
               'country': country or 'All countries', 'device': 'All devices',
               'periodStart': str(dates[0]), 'periodEnd': str(dates[-1]), 'completeDays': days,
-              'nativeDateFilterLabel': filters['Date'], 'archiveSHA256': hashlib.sha256(raw).hexdigest(),
+              'nativeDateFilterLabel': filters['Date'], 'nativeSearchType': filters['Search type'],
+              'archiveSHA256': hashlib.sha256(raw).hexdigest(),
               'sourceObservationBasis': 'Official native exports obtained in this run; parsed and verified at the recorded UTC time. Period boundaries are copied from the export daily chart.',
               'totals': totals, 'pages': pages,
               'countries': [{'country': r['Country'], **metric(r)} for r in tables['Countries.csv']],
@@ -321,6 +334,14 @@ def read_gsc_export(path, baseline, observed_at, days, country=None, report_kind
                               'Query/page aggregates may differ from property totals; absent rows are unknown, not zero.',
                               'Raw exports remain private; only existing registered legal queries are published.']}
     if report_kind == 'web':
+        page_clicks = sum(row['clicks'] for row in pages)
+        result['pageTableDisclosure'] = {
+            'rows': len(pages), 'clicks': page_clicks,
+            'propertyClicksMinusPageRows': totals['clicks'] - page_clicks,
+            'reconcilesToPropertyClicks': page_clicks == totals['clicks'],
+            'limitation': 'Native page rows and property totals are retained separately. A missing page row is not zero traffic; do not assign the undisclosed difference to Home or services.'}
+        if filters['Search type'] != 'Web':
+            result['limitations'].append('The native export now labels this scope Web (text-based). Preserve this label; it does not establish identical historical multimodal coverage or explain a period change.')
         result['disclosedQueries'] = {
             'rows': len(queries), 'clicks': disclosed_clicks,
             'impressions': sum(metric(r)['impressions'] for r in queries),
@@ -338,6 +359,10 @@ def validate_gsc_report(report, baseline):
     require(report['sourceType'] == 'official_gsc_ui_csv' and report['property'] == 'https://paullegalassociates.com/',
             'Official existing-property source required')
     timestamp(report['observedAtUTC'])
+    require(report.get('nativeSearchType', 'Web') in NATIVE_WEB_LABELS,
+            'Preserve the verified native search scope; do not relabel another search type')
+    require(all(public_gsc_page_url(row['url']) for row in report['pages']),
+            'Saved page URLs must not contain private parameters or credentials')
     require(report['reportKind'] in {'web', 'generative_ai'} and report['country'] in {'All countries', 'India'} and
             report['device'] == 'All devices', 'Keep the native report kind and geographic scope')
     start = datetime.strptime(report['periodStart'], '%Y-%m-%d').date()

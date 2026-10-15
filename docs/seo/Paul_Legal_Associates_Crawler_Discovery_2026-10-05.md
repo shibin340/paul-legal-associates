@@ -1,5 +1,14 @@
 # Search/AI crawler and Bing evidence — 5 October 2026
 
+## Changed-guide crawl verification — 15 October 2026
+
+PR #56 recovered and published the two existing employment guides. Google smartphone live tests now show **HTTP200 OK, successful fetch, crawling/indexing allowed**, self-canonicals and all resources loaded for each. Both actual indexing requests were accepted once after the substantive revisions. Existing IndexNow workflow separately accepted exactly those two URLs with HTTP 200. Receipt/queue acceptance is not indexation. Browser source/guide-service-Contact navigation is verified; 14 published artifact blobs match the tested build, including sitemap, robots and eight holds.
+
+Google's sitemap status is Success, 239 discovered, last read 5 October; no resubmission. Employment service currently reports unknown to Google, while both changed guides report discovered before today's requests. Current all-known-pages coverage is 35 indexed / 255 not indexed (12 October update); not a fresh commercial-cohort count. Existing 404 validation is 17 pending / 0 failed with August www/non-slash examples, not 17 newly observed live errors. The Actions runner's Cloudflare 403 remains a separate machine-access observation; native Google live fetches succeeded. No security configuration weakened, old successful /team/ or /expertise tests repeated, or validation restarted.
+
+One fresh unsigned ChatGPT NAINA probe mentions PLA and links its existing service and Expertise pages. Explicit Search toggle was not selected; recorded as ChatGPT with mode/location limitations. No permanent AI ranking is claimed. Exact prompt and cited URLs are in the existing observation ledger/current execution cycle.
+
+
 The live robots file allows `User-agent: *`, has no Disallow, and references the apex sitemap. This permits Googlebot, Bingbot and OAI-SearchBot at the robots layer. Successful public curl/cloud-browser HTML fetches are recorded with release evidence. **These clients are not verified search crawlers**, and a user-agent label alone would not prove crawler identity.
 
 ## Access continuity — 12 October 2026 IST

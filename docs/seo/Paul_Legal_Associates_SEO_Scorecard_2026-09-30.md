@@ -1,5 +1,23 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Current measured continuation — 15 October 2026
+
+Recovery is published in PR #56 / main `84e6ffde3ecdd85b284a02f3222933403cb7c91e`; both corrected guides pass live browser/navigation and Google smartphone **HTTP200** tests. Exactly two changed-guide indexing requests accepted; IndexNow receipt is separate. Baseline: **247 pages / 239 sitemap URLs / 8 maritime holds / 154 article metadata records** preserved.
+
+| Scope, ending 13 October 2026 | Clicks | Impressions |
+|---|---:|---:|
+| All countries, exact 28 days | 41 | 16,424 |
+| All countries, exact 90 days | 132 | 42,204 |
+| India, exact 28 days | 41 | 16,347 |
+| India, exact 90 days | 130 | 41,774 |
+
+Exports now explicitly label **Web (text-based)**. Raw files remain private; registered terms and aggregate/public page records are retained. India page tables do not reconcile to property clicks, so absent service rows remain unknown. Home has 36/41 all-country 28-day clicks before separately tagged Home; NAINA service has 1 click /17 impressions. Neither proves qualified local demand or today's release impact. Employment: 3,648 India 90-day query impressions/0 clicks; native query-page readback is Home 3,590, tagged Home 58, legacy Contact 2, all zero clicks. Query/page totals are not additive. Employment service currently unknown to Google; the two guides remain discovered before the accepted fresh requests. No new 18-page cohort count.
+
+Current property indexing (12 October report): 35 indexed/255 not indexed. Existing 404 validation 17 pending/0 failed; August examples and original 15 August start retained. GBP 172/4.9, Om Sai/phone/both UTMs verified; no profile edits or replies. Checked manager account has no businesses. Both Bdir corrections remain pending; scoped incoming reply count 0; GetLaw building/road/postcode match. Free GA4 uncreated: empty country selector, factual employee range still unknown, no collector. One fresh unsigned independent ChatGPT NAINA answer mentions/cites the existing PLA service; explicit search mode unverified, not a ranking. Maps positions and qualified enquiries remain unmeasured.
+
+Importer compatibility and disclosure safeguards: **23 tests pass**. Preserve 74 relevant keywords/three exclusions/18 P0 priorities and existing service owners. Existing schedules remain enabled with cadence preserved; final prompt readback is recorded in the publishing PR. See existing cycle `post-pr56-20261015-settled-google-local`. **₹0 additional expenditure.**
+
+
 ## Employment-guide recovery — 15 October 2026
 
 GitHub main `774aec54e0acba8434bd1fd243e18403f3baf09a` / PR #55 remains the verified start. No open PR or newer employment branch was present. The previous workspace retained the unpublished corrections and passing build log; they were recovered and reconciled, not recreated from a chat summary. All 154 article metadata records and the other 152 article bodies are unchanged.
