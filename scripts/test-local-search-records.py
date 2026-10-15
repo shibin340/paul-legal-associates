@@ -160,6 +160,35 @@ class MeasurementTests(unittest.TestCase):
             with self.assertRaises(ValueError):
                 records.read_gsc_export(self.gsc_fixture(page=page), self.baseline, '2026-10-08T20:00:00Z', 28)
 
+    def test_current_native_web_label_and_only_fixed_gbp_urls_are_preserved(self):
+        filters = [{'Filter': 'Search type', 'Value': 'Web (text-based)'},
+                   {'Filter': 'Date', 'Value': 'Custom'}]
+        for page in records.PUBLIC_GBP_PAGE_URLS:
+            report = records.read_gsc_export(self.gsc_fixture(filters=filters, page=page),
+                                             self.baseline, '2026-10-15T12:00:00Z', 28)
+            self.assertEqual(report['nativeSearchType'], 'Web (text-based)')
+            self.assertEqual(report['pages'][0]['url'], page)
+            records.validate_gsc_report(report, self.baseline)
+        for page in (page + '&client=synthetic', page.replace('organic', 'private'),
+                     page.replace('paullegalassociates.com', 'example.org')):
+            with self.assertRaises(ValueError):
+                records.read_gsc_export(self.gsc_fixture(filters=filters, page=page),
+                                        self.baseline, '2026-10-15T12:00:00Z', 28)
+        filters[0]['Value'] = 'Image'
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(filters=filters), self.baseline,
+                                    '2026-10-15T12:00:00Z', 28)
+
+    def test_page_disclosure_does_not_assign_missing_clicks_to_home(self):
+        report = records.read_gsc_export(self.gsc_fixture(), self.baseline,
+                                         '2026-10-15T12:00:00Z', 28)
+        self.assertEqual(report['pageTableDisclosure']['propertyClicksMinusPageRows'], 27)
+        self.assertFalse(report['pageTableDisclosure']['reconcilesToPropertyClicks'])
+        self.assertEqual(report['pages'][0]['clicks'], 1)
+        report['pages'][0]['url'] += '?client=synthetic'
+        with self.assertRaises(ValueError):
+            records.validate_gsc_report(report, self.baseline)
+
     def test_native_ai_impressions_cannot_be_organic_clicks_or_positions(self):
         report = records.read_gsc_export(self.gsc_fixture(ai=True), self.baseline, '2026-10-08T20:00:00Z', 28, report_kind='generative_ai')
         self.assertEqual(report['totals']['impressions'], 280)
