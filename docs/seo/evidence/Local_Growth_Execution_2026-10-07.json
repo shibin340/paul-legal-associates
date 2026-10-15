@@ -295,7 +295,7 @@
         "landingMappingsChanged": 0,
         "semrushEvidenceAdded": 0,
         "demandValidatedP0Set": null,
-        "reason": "No quantitative feed. Retain existing provisional relevance priorities rather than manufacture a 10\u201320-term demand-backed P0 set."
+        "reason": "No quantitative feed. Retain existing provisional relevance priorities rather than manufacture a 10–20-term demand-backed P0 set."
       },
       "publicGBP": {
         "observedAtUTC": "2026-10-07T16:47:31.085Z",
@@ -320,21 +320,21 @@
         "newReviews": null,
         "latestReviewDate": null,
         "publishedHours": {
-          "Monday": "09:00\u201321:00",
-          "Tuesday": "09:00\u201321:00",
-          "Wednesday": "09:00\u201321:00",
-          "Thursday": "09:00\u201321:00",
-          "Friday": "09:00\u201321:00",
-          "Saturday": "09:00\u201321:00",
-          "Sunday": "09:00\u201321:00"
+          "Monday": "09:00–21:00",
+          "Tuesday": "09:00–21:00",
+          "Wednesday": "09:00–21:00",
+          "Thursday": "09:00–21:00",
+          "Friday": "09:00–21:00",
+          "Saturday": "09:00–21:00",
+          "Sunday": "09:00–21:00"
         },
         "otherPublishedHours": {
           "onlineServiceHours": "Open 24 hours",
-          "seniorHours": "09:00\u201311:30"
+          "seniorHours": "09:00–11:30"
         },
         "websitePublishedHours": {
-          "Monday\u2013Friday": "10:00\u201320:00",
-          "Saturday": "10:00\u201318:00",
+          "Monday–Friday": "10:00–20:00",
+          "Saturday": "10:00–18:00",
           "Sunday": "By appointment"
         },
         "ownerHoursConfirmation": "PENDING; owner selected confirmation pending in this run; no hour mutation.",
@@ -382,7 +382,7 @@
           "phoneStatus": "not_observed",
           "visibleExperienceYears": 40,
           "experienceVerified": false,
-          "visibleHours": "Monday\u2013Sunday 09:00\u201321:00; owner confirmation pending",
+          "visibleHours": "Monday–Sunday 09:00–21:00; owner confirmation pending",
           "changeOrigin": "UNKNOWN; no correction was submitted by this operator. Prior PR46 observation retained.",
           "publisherRoute": "https://getlaw.in/page/contact-us",
           "publisherEmail": "OWNER_PRIVATE_EMAIL",
@@ -801,7 +801,7 @@
         "publisherRecipient": "OWNER_PRIVATE_EMAIL",
         "publisherRoute": "https://bdir.in/p/contact",
         "recipientBasis": "Publisher address verified in the previous primary HTTP evidence; current contact webpage still exposes the email contact route. Exact-recipient correspondence search found no existing messages.",
-        "subject": "Correction of current office details \u2014 Paul Legal Associates (two existing Bdir records)",
+        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
         "covers": [
           "bdir-property",
           "bdir-finance"
@@ -3356,15 +3356,15 @@
           "pinStatus": "Google Maps place URL shows marker coordinates 18.9982252, 73.1093973; entrance/pin accuracy remains owner-unconfirmed.",
           "websiteBefore": "https://paullegalassociates.com/",
           "appointmentBefore": "https://paullegalassociates.com/#/contact",
-          "businessHoursObserved": "Monday\u2013Sunday 09:00\u201321:00",
-          "onlineServiceHoursObserved": "Monday\u2013Friday 24 hours; Saturday/Sunday 09:00\u201317:00",
-          "seniorHoursObserved": "Monday\u2013Wednesday 09:00\u201311:30; other days unset",
+          "businessHoursObserved": "Monday–Sunday 09:00–21:00",
+          "onlineServiceHoursObserved": "Monday–Friday 24 hours; Saturday/Sunday 09:00–17:00",
+          "seniorHoursObserved": "Monday–Wednesday 09:00–11:30; other days unset",
           "trueHoursOwnerConfirmed": false,
           "hoursChanged": false,
           "specialHours": "Not set in visible manager view",
           "openingDateObserved": "1986-05-19",
           "openingDateOwnerConfirmed": false,
-          "description": "We at Paul Legal Associates are determined to comply with the letter and spirit of law. Our firm conducts intensive research, case study and forward-looking development activity to create new value for its customers. We realize that not everyone knows to use their voice and how difficult it is for an individual standing up for them self. We want to represent individuals so their voices can finally be heard; we are attorneys you can actually speak with, we emphasis on transparency and client communication. At the end of the day it\u2019s the clients\u2019 satisfaction we focus on and the clients\u2019 overall experience so the attorney can properly step into the shoes of the client and bring the fight that their client could not bring alone.",
+          "description": "We at Paul Legal Associates are determined to comply with the letter and spirit of law. Our firm conducts intensive research, case study and forward-looking development activity to create new value for its customers. We realize that not everyone knows to use their voice and how difficult it is for an individual standing up for them self. We want to represent individuals so their voices can finally be heard; we are attorneys you can actually speak with, we emphasis on transparency and client communication. At the end of the day it’s the clients’ satisfaction we focus on and the clients’ overall experience so the attorney can properly step into the shoes of the client and bring the fight that their client could not bring alone.",
           "serviceCatalogueBefore": {
             "total": 704,
             "byCategory": [
@@ -3458,7 +3458,7 @@
             },
             "disclosedQueries": [
               {
-                "query": "\u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930",
+                "query": "कायदेशीर",
                 "reportedCount": 60,
                 "nativeCountLabel": "60",
                 "countBasis": "GBP September discovery reporting, not keyword search volume",
@@ -3622,7 +3622,7 @@
             "limitation": "Interactions are intent actions, not unique prospects, confirmed enquiries or retained matters."
           },
           "partialExtendedPerformance": {
-            "nativePeriodLabel": "May\u2013October 2026; October incomplete",
+            "nativePeriodLabel": "May–October 2026; October incomplete",
             "interactions": 583,
             "views": 6702,
             "searches": 520,
@@ -3694,7 +3694,7 @@
               "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
               "dom": {
                 "canonical": "https://paullegalassociates.com/",
-                "h1": "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory",
+                "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
                 "mainScripts": [
                   "/static/js/main.282269f8.js"
                 ],
@@ -4892,7 +4892,7 @@
                 "requests": 219
               }
             ],
-            "latestExampleTimeDisplayed": "9/29/26, 10:14\u202fAM",
+            "latestExampleTimeDisplayed": "9/29/26, 10:14 AM",
             "exampleTimeZone": "NOT_LABELLED_IN_UI",
             "selectedCommercialExample": {
               "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
@@ -5072,7 +5072,7 @@
         "status": "SENT_VERIFIED_PENDING_PUBLIC_CORRECTION",
         "sender": "OWNER_PRIVATE_REFERENCE",
         "recipient": "OWNER_PRIVATE_EMAIL",
-        "subject": "Correction of current office details \u2014 Paul Legal Associates (two existing Bdir records)",
+        "subject": "Correction of current office details — Paul Legal Associates (two existing Bdir records)",
         "submittedAtUTC": "2026-10-08T19:46:14Z",
         "submittedAtIST": "2026-10-09T01:16:14+05:30",
         "source": "Connected firm mailbox Sent message readback; owner explicitly confirmed sending. Private mail IDs/client data excluded.",
@@ -5116,7 +5116,7 @@
           "correctionStatus": "not_submitted",
           "submittedAt": null,
           "verifiedAt": null,
-          "readback": "OmSai building/road/postcode match; suite absent;40years and9\u201321hours unconfirmed. This external change is not credited to the operator."
+          "readback": "OmSai building/road/postcode match; suite absent;40years and9–21hours unconfirmed. This external change is not credited to the operator."
         },
         {
           "citationId": "linkedin",
@@ -5266,7 +5266,7 @@
               "/expertise/"
             ],
             "h1": [
-              "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory"
+              "Property Law•Legal Compliance•Strategic Legal Advisory"
             ],
             "phoneLinks": [
               "tel:+917977063567",
@@ -5298,7 +5298,7 @@
               "/static/js/main.282269f8.js"
             ],
             "title": "Contact Our Law Firm in Panvel | Paul Legal Associates",
-            "whatsAppHandoffButton": "\ud83d\udcf1Continue on WhatsApp",
+            "whatsAppHandoffButton": "📱Continue on WhatsApp",
             "url": "https://paullegalassociates.com/contact/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=appointment",
             "observedAtUTC": "2026-10-08T21:42:17.706Z"
           },
@@ -5382,7 +5382,7 @@
           "submittedAt": null,
           "verifiedAt": null,
           "observedAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai - 410206 (Near Garden Hotel), Mumbai",
-          "limitation": "Building/road/postcode agree; suite not supplied. Published 40-year experience and daily 9 AM\u20139 PM hours require owner records; correction origin unknown.",
+          "limitation": "Building/road/postcode agree; suite not supplied. Published 40-year experience and daily 9 AM–9 PM hours require owner records; correction origin unknown.",
           "sourceMethod": "Public publisher-page readback; no operator edit or obsolete Moraj correction sent."
         }
       ],
@@ -5409,7 +5409,7 @@
           "observedAtUTC": "2026-10-09T03:25:28.483Z",
           "url": "https://paullegalassociates.com/?utm_source=google&utm_medium=organic&utm_campaign=gbp&utm_content=website",
           "canonical": "https://paullegalassociates.com/",
-          "h1": "Property Law\u2022Legal Compliance\u2022Strategic Legal Advisory",
+          "h1": "Property Law•Legal Compliance•Strategic Legal Advisory",
           "phoneLinks": [
             "tel:+917977063567",
             "tel:+917977063567"
@@ -5519,7 +5519,7 @@
             "mailto:info@paullegalassociates.com"
           ],
           "h1": "Let's Build a Stronger Legal Position",
-          "handoffButton": "\ud83d\udcf1\nCONTINUE ON WHATSAPP",
+          "handoffButton": "📱\nCONTINUE ON WHATSAPP",
           "inputCount": 3,
           "phoneLinks": [
             "tel:+917977063567",
@@ -5559,8 +5559,8 @@
         },
         "hours": {
           "ownerConfirmed": false,
-          "manager": "Daily 09:00\u201321:00; different online/senior hours also shown",
-          "website": "Mon\u2013Fri 10:00\u201320:00; Sat 10:00\u201318:00; Sun by appointment",
+          "manager": "Daily 09:00–21:00; different online/senior hours also shown",
+          "website": "Mon–Fri 10:00–20:00; Sat 10:00–18:00; Sun by appointment",
           "changed": false
         },
         "categoryCataloguePinPhotoOrReviewEdits": 0,
@@ -5684,7 +5684,7 @@
             "googleMapsDesktop": 87
           },
           "nativeRoundedYearOnYearLabels": {
-            "comparison": "Jul 2025\u2013Sep 2025",
+            "comparison": "Jul 2025–Sep 2025",
             "interactions": "+9.0%",
             "profileViews": "+15.6%",
             "searchesShowingProfile": "+38.4%",
@@ -5698,7 +5698,7 @@
               "count": 134
             },
             {
-              "query": "\u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930",
+              "query": "कायदेशीर",
               "count": 128
             },
             {
@@ -5714,11 +5714,11 @@
               "count": 17
             }
           ],
-          "limitations": "Retrospective July\u2013September baseline predates the 8 October profile changes. Actions are not unique people, received enquiries, qualified enquiries or retained matters. Zero tracked bookings does not establish zero actual office appointments. Rounded year-on-year labels are native provider comparisons; prior exact counts were not derived."
+          "limitations": "Retrospective July–September baseline predates the 8 October profile changes. Actions are not unique people, received enquiries, qualified enquiries or retained matters. Zero tracked bookings does not establish zero actual office appointments. Rounded year-on-year labels are native provider comparisons; prior exact counts were not derived."
         },
         "gbpDefaultPartialPeriod": {
           "observedDate": "2026-10-09",
-          "nativePeriodLabel": "May 2026\u2013Oct 2026",
+          "nativePeriodLabel": "May 2026–Oct 2026",
           "periodComplete": false,
           "interactions": 583,
           "profileViews": 6702,
@@ -5783,7 +5783,7 @@
               "count": null
             }
           ],
-          "limitations": "October is partial. These eight exact existing-candidate matches come from May\u2013October, not the complete July\u2013September period. Native <15 thresholds remain censored/null, not zero or absolute market search volumes. Raw non-candidate queries are retained privately only."
+          "limitations": "October is partial. These eight exact existing-candidate matches come from May–October, not the complete July–September period. Native <15 thresholds remain censored/null, not zero or absolute market search volumes. Raw non-candidate queries are retained privately only."
         }
       },
       "citationReadbacks": [
@@ -6532,8 +6532,79 @@
         "publishingPR": "The scoped publishing PR records the final merged SHA and validation result.",
         "nextExecutableTask": "After secure owner sign-in, reopen the existing Search Console property and obtain the next settled same-scope 28/90-day reports plus existing validation/indexation readbacks. Separately recheck the two already-submitted Bdir corrections at a sensible interval; do not resend."
       }
+    },
+    {
+      "id": "post-pr55-20261015-employment-recovery",
+      "recordedAtUTC": "2026-10-15T12:23:15.052745+00:00",
+      "sourceMain": "774aec54e0acba8434bd1fd243e18403f3baf09a",
+      "scope": "Recover the two unpublished employment-guide corrections from the previous accessible workspace, reconcile against current main, independently verify current official law, publish and verify live.",
+      "recovery": {
+        "status": "RECOVERED_ACCESSIBLE_WORKSPACE",
+        "latestMergedPRAtStart": 55,
+        "openPRsAtStart": 0,
+        "remoteEmploymentRecoveryBranchFound": false,
+        "alreadyDeployed": false,
+        "originalBuildEvidence": "247 pages / 239 sitemap URLs / 8118 internal links / 12 hydration-navigation checks; prior publication never completed",
+        "articleSlugs": [
+          "labour-employment-law-services",
+          "wrongful-termination-unpaid-salary-claims"
+        ],
+        "all154ArticleMetadataPreserved": true,
+        "other152BodiesPreserved": true
+      },
+      "legalVerification": {
+        "checkedAtUTC": "2026-10-15T12:23:15.052745+00:00",
+        "commencement": "S.O. 5320(E) and 5322(E), 21 November 2025; relevant Code provisions verified in Gazette, rather than erroneous explanatory dates on the State landing page.",
+        "amendment": "Industrial Relations Code (Amendment) Act, 2026, deemed effective 21 November 2025: express repeal and continuity of existing tribunals/statutory authorities. Base 2020 PDF alone is not consolidated current section 104.",
+        "ruleStatus": "Final Central Rules, 2026 separately verified; Maharashtra directory continues to label its State rule entries draft. Applicability depends on appropriate Government and Gazette/savings; no claim every State rule is final.",
+        "sources": [
+          "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes.pdf",
+          "https://www.labour.gov.in/static/uploads/2026/02/91ef39e2096112f8b798e6c45c732e2f.pdf",
+          "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-code-on-wages-2019-no-29-of-2019_0.pdf",
+          "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-industrial-relations-code-2020-no-35-of-2020.pdf",
+          "https://labour.maharashtra.gov.in/sites/default/files/2026-05/industrial-relations-central-rules-2026.pdf",
+          "https://labour.maharashtra.gov.in/sites/default/files/2026-05/code-on-wages-central-rules-2026.pdf",
+          "https://labour.maharashtra.gov.in/en/publication/new-labour-code"
+        ]
+      },
+      "implementation": {
+        "newRoutes": 0,
+        "substantiveModificationDate": "2026-10-15",
+        "publicationDatesAndAuthorsPreserved": true,
+        "employmentServiceSelectedReading": "Retain the existing Labour Code and PF/ESI guides, add the two recovered guides. Each recovered body links the existing service and paired guide.",
+        "wageTiming": "Section 17(2), read with (3) and (4), distinguished from all full-and-final components.",
+        "reviewedIndexNowURLs": 2,
+        "noUnchangedGoogleSubmission": true
+      },
+      "validation": {
+        "npmCi": "PASS",
+        "npmBuild": "PASS",
+        "npmVerifySEO": "PASS",
+        "pages": 247,
+        "sitemapURLs": 239,
+        "internalLinkOccurrences": 8118,
+        "hydrationNavigationChecks": 12,
+        "legacyRedirects": 1,
+        "measurementTests": 19,
+        "measurementRecordsCheck": "PASS",
+        "maritimeHolds": 8,
+        "indexNowCheck": "PASS: exactly two eligible changed URLs"
+      },
+      "release": {
+        "status": "PENDING_MERGE_AND_LIVE_VERIFICATION",
+        "proofLocation": "Publishing PR description will record final merge SHA, Actions run, live HTML/content/canonical/schema/navigation and IndexNow receipt separately from indexing."
+      },
+      "ownerPolicy": {
+        "reviewReplies": 0,
+        "reviewInvitations": 0,
+        "hoursChanged": false,
+        "employeeCountGuessed": false,
+        "bdirResends": 0,
+        "additionalExpenditureINR": 0
+      },
+      "nextExecution": "Complete production proof before declaring recovery complete. Then refresh settled official Search Console data when authenticated, inspect existing GBP catalogue/category approval, recheck existing citations without resend, advance one free GA4 collector only after verified property/stream and factual setup requirements; preserve existing monitoring schedules."
     }
   ],
-  "latestExecutionCycleId": "post-pr54-20261012-public-local-followup",
+  "latestExecutionCycleId": "post-pr55-20261015-employment-recovery",
   "publicPrivacyNote": "Account identities, detailed authentication records and connected-service identifiers are omitted from this public record; original values are retained only in owner-private evidence. Quantitative SEO reports, dates, commercial decisions and implementation history are preserved."
 }
