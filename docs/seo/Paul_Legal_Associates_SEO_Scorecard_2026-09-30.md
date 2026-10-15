@@ -1,5 +1,16 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Employment-guide recovery — 15 October 2026
+
+GitHub main `774aec54e0acba8434bd1fd243e18403f3baf09a` / PR #55 remains the verified start. No open PR or newer employment branch was present. The previous workspace retained the unpublished corrections and passing build log; they were recovered and reconciled, not recreated from a chat summary. All 154 article metadata records and the other 152 article bodies are unchanged.
+
+The two existing guides `/insights/labour-employment-law-services/` and `/insights/wrongful-termination-unpaid-salary-claims/` now give role/workplace/date/document preparation, meaningful FAQs, current Code and wage-timing distinctions, and direct links to the existing Employment service and each other. Existing Labour Code/PF/ESI selected reading is preserved. A fresh official-source check adds the 2026 section 104 amendment on repeal/tribunal continuity and distinguishes final Central Rules from Maharashtra draft listings and applicable saved procedures. Original URLs, publication dates, authors and titles are retained; only these two substantive updates receive **15 October 2026** modification dates and reviewed IndexNow eligibility.
+
+`npm ci`, build, SEO and IndexNow checks pass: **247 pages / 239 sitemap URLs / 8,118 internal links / 12 hydration-navigation checks / Contact / one legacy redirect**. Nineteen measurement tests pass. Eight maritime holds remain noindex and excluded. Merge/deployment/live proof is pending at commit preparation and will be recorded in the publishing PR description. Receipt of a notification is not indexing. Cycle `post-pr55-20261015-employment-recovery` in the existing execution evidence records scope, sources and exact continuation.
+
+**Next:** finish live guide → Employment → Contact checks before declaring recovery complete, then continue authenticated Search Console/GBP work or other available local/authority measurement. Existing 6 October settled exports and dated 3-indexed/15-discovered cohort remain historical until actually refreshed. No review replies/invitations, guessed hours/employee count, Bdir resend or paid service is authorised. **₹0 additional expenditure.**
+
+
 **Established:** 30 September 2026 IST. **Property:** `https://paullegalassociates.com/`. **Latest complete Search Console date:** 6 October 2026, in Google's reporting time zone. Keep a settled date range and a release annotation with each comparison. [URL ledger](Paul_Legal_Associates_SEO_URL_Ledger_2026-09-30.md) has the 83 practice-page rows and source links.
 
 ## Public local follow-up and access checkpoint — 12 October 2026 IST

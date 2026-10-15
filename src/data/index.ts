@@ -21170,187 +21170,238 @@ export const ARTICLES: Article[] = [
     ]
   },
   {
-    id: "a87",
-    slug: "labour-employment-law-services",
-    title: "Labour and Employment Law Services for Employers and Employees",
-    category: "Corporate Retainership",
-    excerpt: "Assessing employment relationships under central wage codes, state establishment rules, and standing orders.",
-    coverIcon: "👥",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "June 26, 2026",
-    readTime: "6 min read",
-    tags: ["Labour Law", "Employment Contracts", "Industrial Disputes", "Workforce Compliance"],
-    content: [
+    "id": "a87",
+    "slug": "labour-employment-law-services",
+    "title": "Labour and Employment Law Services for Employers and Employees",
+    "category": "Corporate Retainership",
+    "excerpt": "Assessing employment relationships under central wage codes, state establishment rules, and standing orders.",
+    "coverIcon": "👥",
+    "author": "Adv. Sojan Paul",
+    "authorRole": "Managing Partner",
+    "date": "June 26, 2026",
+    "readTime": "6 min read",
+    "tags": [
+      "Labour Law",
+      "Employment Contracts",
+      "Industrial Disputes",
+      "Workforce Compliance"
+    ],
+    "content": [
       {
-        heading: "Workforce Regulation Management",
-        paragraphs: [
-          "Employment disputes are shaped by the worker’s status, establishment, contract, standing orders, wage records, misconduct procedure and applicable central or Maharashtra labour law. The correct remedy may lie before a labour authority, industrial forum, civil court or contractual process."
+        "heading": "Identify the Employment Question and the Workplace",
+        "paragraphs": [
+          "An employment enquiry may concern an employer’s contracts and compliance, an individual wage or separation dispute, or industrial relations. State whether you are the employer, employee or contractor, where the work takes place, the issue and any notice or hearing date. These details help identify the appropriate review.",
+          "For workplaces in Panvel, Navi Mumbai or Raigad, retain the exact establishment address and employer’s legal name. The firm’s office location alone does not determine the authority or forum for an employment claim."
         ]
       },
       {
-        heading: "Why Specialised Legal Review Matters",
-        paragraphs: [
-          "Commercial legal work should support business decisions rather than operate only after a dispute arises. Clear contracts, documented approvals, proportionate compliance and timely escalation reduce uncertainty and preserve negotiating leverage."
+        "heading": "Current Law and Earlier Disputes",
+        "paragraphs": [
+          "The Industrial Relations Code, 2020 and the relevant Code on Wages, 2019 provisions commenced on 21 November 2025. Use the applicable Code framework for current issues; assess earlier events, accrued rights and saved actions separately.",
+          "The Industrial Relations Code (Amendment) Act, 2026, effective from 21 November 2025, clarifies repeal of the Industrial Disputes Act, 1947 and the other two central enactments listed in section 104. Existing tribunals and statutory authorities continue until the corresponding Code bodies function. Savings and transition provisions require review before choosing a procedure or treating an existing claim as ended.",
+          "Identify whether the Central or State Government is the appropriate Government for the establishment. The final Central Rules, 2026 and the Maharashtra draft rules listed by the State Labour Department have different status. Central rules are not automatically the procedure for every Maharashtra workplace. Check applicable Gazette notifications, saved rules and the relevant authority before using a form or filing route."
         ]
       },
       {
-        heading: "Common Situations in Which Assistance Is Required",
-        list: [
-          "Appointment, transfer, wages or service-condition dispute;",
-          "Termination, retrenchment, resignation or abandonment;",
-          "Industrial dispute, union issue or settlement;",
-          "Policy, standing order and workforce compliance."
+        "heading": "Employer Compliance and Employee Claims Need Different Records",
+        "list": [
+          "Employers: establishment details, workforce categories, contracts, workplace policies, payroll and social-security records, and any inspection or dispute papers.",
+          "Employees: appointment terms, actual duties, wage slips and payment records, relevant policies, and the notice, resignation, termination or settlement papers.",
+          "Contractor arrangements: identify the contracting entities, work location, agreement and records showing who engages, supervises and pays the workforce."
         ]
       },
       {
-        heading: "How Legal Assistance May Help",
-        list: [
-          "Employment contract and policy advice;",
-          "Disciplinary, termination and separation documentation;",
-          "Conciliation, labour-court and industrial-forum representation;",
-          "Employer compliance audit and employee claim assessment."
+        "heading": "Prepare a Short Timeline and the Complete Documents",
+        "list": [
+          "List the joining date, disputed wage periods, relevant decisions, communications and any pending response date.",
+          "Retain the complete contract and amendments, notices and correspondence rather than selected excerpts.",
+          "Separate agreed facts, disputed facts, amounts claimed and the outcome you wish to discuss.",
+          "For the initial enquiry, describe the matter and deadline briefly. Arrange an appropriate document-sharing method before sending personnel files or sensitive evidence."
         ]
       },
       {
-        heading: "Typical Legal Process",
-        list: [
-          "Understanding the business model, ownership structure, workforce, regulatory footprint and commercial objective;",
-          "Legal audit of existing contracts, registrations, policies, approvals and dispute exposure;",
-          "Preparation or revision of transaction documents, compliance systems, notices and governance records;",
-          "Negotiation with counterparties, employees, investors, vendors or authorities;",
-          "Representation in arbitration, labour forums, commercial courts, NCLT or other competent proceedings where required."
+        "heading": "How the Initial Review Proceeds",
+        "list": [
+          "Identify the establishment, relationship, actual duties and law relevant to the dates of the issue.",
+          "Review the contract, wage or compliance records and any notice or proceeding.",
+          "Consider whether documentation, a response, negotiation or a statutory or contractual remedy is appropriate.",
+          "Discuss the proposed scope, urgent dates and further information required. A consultation does not guarantee a claim, remedy or result."
         ]
       },
       {
-        heading: "Documents Commonly Required",
-        list: [
-          "Entity, ownership and authorised-signatory records;",
-          "Existing agreements, policies, registrations, notices and correspondence;",
-          "Commercial, employment, compliance or intellectual-property records relevant to the assignment;",
-          "Appointment letter, policies and wage records;",
-          "Attendance, appraisal, warning and inquiry papers;",
-          "Termination, resignation, settlement and statutory records."
-        ]
-      },
-      {
-        heading: "Local Considerations",
-        paragraphs: [
-          "Navi Mumbai, Taloja, TTC, JNPT-influenced and Panvel industrial areas include factories, logistics and service establishments with different compliance profiles. Labour-code commencement and transitional notifications should be checked on the date of advice."
-        ]
-      },
-      {
-        heading: "Principal Legal Framework",
-        list: [
-          "Industrial Disputes Act, 1947 and applicable legacy labour statutes;",
-          "Applicable labour codes to the extent brought into force;",
-          "Maharashtra Shops and Establishments Act, 2017;",
-          "Standing orders, wage, social-security and contract law."
-        ]
-      },
-      {
-        heading: "Frequently Asked Questions",
-        paragraphs: [
-          "Can a standard internet template be used?",
-          "A template may provide a starting point, but it may not reflect the actual transaction, governing law, tax position, liability allocation, termination rights or dispute strategy.",
-          "Does legal compliance end after registrations are obtained?",
-          "No. Many obligations are continuing and require periodic filings, policy updates, records, training, committee action or event-based disclosures.",
-          "Does every employee have the same labour-court remedy?",
-          "No. The legal definition of workman or worker, role, duties, establishment and nature of claim affect forum and remedy. Senior managerial and contractual claims may follow a different route.",
+        "heading": "Common Employment Questions",
+        "paragraphs": [
+          "Does every salaried employee use the same industrial-dispute route?",
+          "No. The Industrial Relations Code distinguishes employees from workers and excludes certain managerial, administrative and supervisory roles from the ordinary worker definition. Actual duties, statutory status, establishment and the nature of the claim require review.",
+          "Which papers should I keep ready for a wage or termination enquiry?",
+          "Keep the appointment terms, wage and payment records, relevant communications and separation papers, with a short dated timeline. Employer compliance enquiries also require the establishment and workforce records relevant to the issue.",
+          "Where can a business prepare for workplace-compliance advice?",
+          "The linked Employment and HR compliance service explains contracts, policies, payroll and workplace records to prepare. Its scope differs from assuming one forum or remedy for every individual dispute.",
           "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
+        ]
+      },
+      {
+        "heading": "Related Employment Preparation",
+        "resources": [
+          {
+            "label": "Employment and HR compliance: prepare for an initial business discussion",
+            "href": "/expertise/labour-employment-hr-workplace-compliance/"
+          },
+          {
+            "label": "Termination and unpaid-salary documents and distinctions",
+            "href": "/insights/wrongful-termination-unpaid-salary-claims/"
+          }
+        ]
+      },
+      {
+        "heading": "Official Sources",
+        "resources": [
+          {
+            "label": "Gazette commencement notifications: S.O. 5320(E) and S.O. 5322(E), 21 November 2025",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes.pdf"
+          },
+          {
+            "label": "Industrial Relations Code, 2020: definitions and repeal/savings",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-industrial-relations-code-2020-no-35-of-2020.pdf"
+          },
+          {
+            "label": "Industrial Relations Code (Amendment) Act, 2026: repeal and tribunal continuity",
+            "href": "https://www.labour.gov.in/static/uploads/2026/02/91ef39e2096112f8b798e6c45c732e2f.pdf"
+          },
+          {
+            "label": "Code on Wages, 2019: official statutory text",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-code-on-wages-2019-no-29-of-2019_0.pdf"
+          },
+          {
+            "label": "Maharashtra Labour Department: Codes, State draft rules and Central Rules",
+            "href": "https://labour.maharashtra.gov.in/en/publication/new-labour-code"
+          },
+          {
+            "label": "Industrial Relations (Central) Rules, 2026: final Gazette rules",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-05/industrial-relations-central-rules-2026.pdf"
+          },
+          {
+            "label": "Code on Wages (Central) Rules, 2026: final Gazette rules",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-05/code-on-wages-central-rules-2026.pdf"
+          }
         ]
       }
     ]
   },
   {
-    id: "a88",
-    slug: "wrongful-termination-unpaid-salary-claims",
-    title: "Wrongful Termination, Unpaid Salary and Employment Claims",
-    category: "Corporate Retainership",
-    excerpt: "Ensuring legally compliant severance processing, full-and-final settlements, and constructive dismissal defenses.",
-    coverIcon: "📝",
-    author: "Adv. Sojan Paul",
-    authorRole: "Managing Partner",
-    date: "June 26, 2026",
-    readTime: "6 min read",
-    tags: ["Wrongful Termination", "Severance Agreements", "Constructive Dismissal", "Unpaid Wages"],
-    content: [
+    "id": "a88",
+    "slug": "wrongful-termination-unpaid-salary-claims",
+    "title": "Wrongful Termination, Unpaid Salary and Employment Claims",
+    "category": "Corporate Retainership",
+    "excerpt": "Ensuring legally compliant severance processing, full-and-final settlements, and constructive dismissal defenses.",
+    "coverIcon": "📝",
+    "author": "Adv. Sojan Paul",
+    "authorRole": "Managing Partner",
+    "date": "June 26, 2026",
+    "readTime": "6 min read",
+    "tags": [
+      "Wrongful Termination",
+      "Severance Agreements",
+      "Constructive Dismissal",
+      "Unpaid Wages"
+    ],
+    "content": [
       {
-        heading: "Termination Risk Audits",
-        paragraphs: [
-          "An employment separation should be assessed through the appointment terms, actual duties, performance record, reason, notice, statutory protection and final settlement. Employees and employers both benefit from a documented and proportionate process."
+        "heading": "Start With the Separation Date and the Amounts in Dispute",
+        "paragraphs": [
+          "A dismissal, resignation, disputed salary or final settlement can involve different facts and obligations. Identify the employer, work location, actual duties, relevant dates and the precise payment or decision being challenged. Keep the complete separation papers and any response deadline.",
+          "For a Panvel, Navi Mumbai or Raigad workplace, the establishment and applicable law determine the relevant authority. A job title or the office where advice is obtained does not settle jurisdiction."
         ]
       },
       {
-        heading: "Why Early Legal Assessment Is Important",
-        paragraphs: [
-          "Commercial legal work should support business decisions rather than operate only after a dispute arises. Clear contracts, documented approvals, proportionate compliance and timely escalation reduce uncertainty and preserve negotiating leverage."
+        "heading": "Separate Wages From Other Settlement Components",
+        "paragraphs": [
+          "Section 17(2) of the Code on Wages provides a two-working-day rule for wages payable on the listed separation events. Read it with subsections (3) and (4), which address other Government-prescribed and statutory time limits. It is not a universal deadline for every component of a full-and-final settlement.",
+          "List unpaid wages, notice pay, incentive, leave encashment, gratuity and other claimed amounts separately, with the period, calculation and supporting terms. Whether each item is payable and the applicable process require assessment."
         ]
       },
       {
-        heading: "Frequent Client Concerns",
-        list: [
-          "Sudden termination without notice or hearing;",
-          "Salary, incentive, gratuity or final settlement unpaid;",
-          "Forced resignation, constructive dismissal or relieving-letter issue;",
-          "Breach of confidentiality, notice period or post-employment obligation."
+        "heading": "Check Status, Dates and the Proper Route",
+        "paragraphs": [
+          "The Industrial Relations Code and relevant Code on Wages provisions commenced on 21 November 2025. The 2026 amendment to section 104 clarifies repeal of the Industrial Disputes Act and continuity of existing tribunals and authorities until Code replacements function. Earlier events, saved actions and pending proceedings need separate review.",
+          "An industrial-dispute remedy depends on statutory status and the dispute; the Code on Wages has its own claims-authority framework under section 45. Do not assume a managerial role removes every wage remedy or that every employee has the same termination remedy. Check the appropriate Government, applicable Central or Maharashtra rules, any saved procedure and the competent authority. A Maharashtra draft rule is not a final filing requirement."
         ]
       },
       {
-        heading: "Scope of Professional Legal Assistance",
-        list: [
-          "Contract and employee-status assessment;",
-          "Demand, response and settlement negotiation;",
-          "Labour, civil or contractual proceedings;",
-          "Full-and-final, release and separation documentation."
+        "heading": "Documents to Keep Ready",
+        "list": [
+          "Appointment letter, amendments, actual job duties and the applicable workplace policy or standing orders.",
+          "Salary slips, relevant bank payment records, attendance and the wage periods or components in dispute.",
+          "Warnings, show-cause papers, responses, enquiry records and the complete resignation or termination communication, where relevant.",
+          "Full-and-final calculations, settlement or release proposals and earlier demands or responses.",
+          "A concise timeline, any pending hearing or response date and the outcome you wish to discuss."
         ]
       },
       {
-        heading: "How the Assignment Is Ordinarily Handled",
-        list: [
-          "Understanding the business model, ownership structure, workforce, regulatory footprint and commercial objective;",
-          "Legal audit of existing contracts, registrations, policies, approvals and dispute exposure;",
-          "Preparation or revision of transaction documents, compliance systems, notices and governance records;",
-          "Negotiation with counterparties, employees, investors, vendors or authorities;",
-          "Representation in arbitration, labour forums, commercial courts, NCLT or other competent proceedings where required."
+        "heading": "What an Initial Legal Review Can Address",
+        "list": [
+          "Compare the stated reason and process with the contract, actual duties and applicable law.",
+          "Check the basis and calculation of each disputed amount rather than use one undifferentiated settlement total.",
+          "Consider an appropriate response, negotiation or proceeding and the dates relevant to that route.",
+          "Review the effect of any proposed settlement or release before treating it as routine paperwork."
         ]
       },
       {
-        heading: "Records to Keep Ready",
-        list: [
-          "Entity, ownership and authorised-signatory records;",
-          "Existing agreements, policies, registrations, notices and correspondence;",
-          "Commercial, employment, compliance or intellectual-property records relevant to the assignment;",
-          "Appointment, salary and appraisal records;",
-          "Emails, warnings, resignation or termination letter;",
-          "Attendance, incentive, benefit and settlement calculations."
-        ]
-      },
-      {
-        heading: "Mumbai–Navi Mumbai–Panvel–Raigad Context",
-        paragraphs: [
-          "Forum depends on role and statutory status. A claim by a workman may differ from a senior executive’s contractual claim. Current Maharashtra and central wage or labour-code notifications should be verified."
-        ]
-      },
-      {
-        heading: "Important Laws and Regulations",
-        list: [
-          "Applicable labour and wage statutes;",
-          "Maharashtra Shops and Establishments Act, 2017;",
-          "Indian Contract Act, 1872;",
-          "Payment of Gratuity and social-security law where applicable."
-        ]
-      },
-      {
-        heading: "Common Questions",
-        paragraphs: [
-          "Can a standard internet template be used?",
-          "A template may provide a starting point, but it may not reflect the actual transaction, governing law, tax position, liability allocation, termination rights or dispute strategy.",
-          "Does legal compliance end after registrations are obtained?",
-          "No. Many obligations are continuing and require periodic filings, policy updates, records, training, committee action or event-based disclosures.",
-          "Can an employer terminate during probation without any process?",
-          "Probation terms may permit simplified termination, but the actual reason, contract, statutory protection, stigma, discrimination and compliance with applicable law remain relevant.",
+        "heading": "Common Questions About Termination and Unpaid Salary",
+        "paragraphs": [
+          "Does the two-working-day rule cover my entire final settlement?",
+          "It concerns wages under section 17(2), read with the rest of section 17. Other claimed benefits or contractual amounts need separate assessment; the label “full-and-final” does not determine the legal deadline for every item.",
+          "Does being on probation automatically decide whether a termination is lawful?",
+          "No. Review the appointment terms, actual duties, reason and procedure, applicable protections and relevant communications. A probation label alone does not answer every question.",
+          "Should I send my personnel file through the initial contact form?",
+          "Start with the type of issue, work location and urgent date. Arrange an appropriate sharing method for sensitive personnel records and evidence after the initial discussion.",
           "GENERAL INFORMATION DISCLAIMER: This article is for legal awareness only and does not constitute legal advice, solicitation, an advocate–client relationship or a guarantee of outcome. Law, procedure, jurisdiction and documentary requirements must be verified for the facts and date of advice."
+        ]
+      },
+      {
+        "heading": "Related Employment Preparation",
+        "resources": [
+          {
+            "label": "Employment and HR compliance: prepare for an initial business discussion",
+            "href": "/expertise/labour-employment-hr-workplace-compliance/"
+          },
+          {
+            "label": "Employment relationships, records and current-law context",
+            "href": "/insights/labour-employment-law-services/"
+          }
+        ]
+      },
+      {
+        "heading": "Official Sources",
+        "resources": [
+          {
+            "label": "Code on Wages, 2019: sections 2, 17 and 45",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-code-on-wages-2019-no-29-of-2019_0.pdf"
+          },
+          {
+            "label": "Industrial Relations Code, 2020: employee/worker definitions and savings",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-04/the-industrial-relations-code-2020-no-35-of-2020.pdf"
+          },
+          {
+            "label": "Industrial Relations Code (Amendment) Act, 2026: repeal and tribunal continuity",
+            "href": "https://www.labour.gov.in/static/uploads/2026/02/91ef39e2096112f8b798e6c45c732e2f.pdf"
+          },
+          {
+            "label": "Gazette commencement notifications of 21 November 2025",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2025-11/implementation-of-labour-codes.pdf"
+          },
+          {
+            "label": "Maharashtra Labour Department: applicable Codes and rule publications",
+            "href": "https://labour.maharashtra.gov.in/en/publication/new-labour-code"
+          },
+          {
+            "label": "Industrial Relations (Central) Rules, 2026: final Gazette rules",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-05/industrial-relations-central-rules-2026.pdf"
+          },
+          {
+            "label": "Code on Wages (Central) Rules, 2026: final Gazette rules",
+            "href": "https://labour.maharashtra.gov.in/sites/default/files/2026-05/code-on-wages-central-rules-2026.pdf"
+          }
         ]
       }
     ]

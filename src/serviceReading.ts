@@ -13,7 +13,7 @@ export const serviceReading: Record<string, string[]> = {
   'navi-mumbai-airport-land-transactions': ['cidco-naina-airport-land-acquisition-services', 'due-diligence-agricultural-non-agricultural-land'],
   'corporate-commercial-advisory': ['starting-business-india-legal-compliance-checklist', 'contract-drafting-agreement-review-mou-nda'],
   'commercial-litigation-arbitration': ['commercial-arbitration-vs-litigation', 'commercial-arbitration-contract-disputes'],
-  'labour-employment-hr-workplace-compliance': ['labour-code-readiness-2026', 'pf-esic-factory-contract-labour-compliance'],
+  'labour-employment-hr-workplace-compliance': ['labour-code-readiness-2026', 'pf-esic-factory-contract-labour-compliance', 'labour-employment-law-services', 'wrongful-termination-unpaid-salary-claims'],
   'posh-compliance-internal-committee': ['posh-compliance-employers-mumbai-navi-mumbai', 'posh-compliance-internal-committee-services'],
   'corporate-commercial-ma-startup-law': ['mergers-acquisitions-legal-essentials', 'starting-business-india-legal-compliance-checklist'],
   'arbitration-mediation-adr': ['commercial-arbitration-vs-litigation', 'commercial-arbitration-contract-disputes'],
