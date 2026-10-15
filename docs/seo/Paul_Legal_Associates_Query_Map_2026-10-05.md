@@ -1,5 +1,10 @@
 # Paul Legal Associates — preferred query-to-page map
 
+## Exact Employment landing refresh — 15 October 2026
+
+Retain the existing Employment preferred destination and 18 P0 map. New official India/Web (text-based) window 16 July–13 October has `employment lawyer`:0 clicks / 3,648 impressions. Exact-query Pages tab returns untagged Home 0 clicks / 3,590 impressions / rounded position 1.7, fixed tagged Home 0 / 58 / 2.0 and legacy Contact fragment 0 / 2 / 15.0. The preferred Employment page is absent, not assigned a measured zero; current URL Inspection says unknown to Google. Query/property and page totals are not additive. Prior 4,242-impression evidence keeps its original period. Generic query visibility remains unverified local enquiry demand. All-country NAINA service now has 1 click / 17 impressions in the settled 28-day period; query/country/day and enquiry qualification remain next-step measurements, with no causal attribution to today's guide release.
+
+
 5 October 2026; current source PR #29. One preferred existing landing per distinct intent. **These are routing decisions, not invented keyword volumes or rank claims.** [Full query/metadata evidence](evidence/Query_Ownership_2026-10-05.json) includes the 296-row disclosed GSC query×page report through 2 October. No service-versus-service cannibalisation is established by this dataset. Broad Home/legacy hash Contact impressions dominate; preserve the existing legacy handler.
 
 **Fresh measurement — 9 October 2026 IST:** the same 74 candidates, three excluded intents and preferred URLs are preserved. The [existing CSV](evidence/Local_Keyword_Queue.csv) adds 22 exact India 90-day matches, 52 unknown rows and 18 working P0 decisions, distinct from historical provisional fields. Ten query-by-page checks show Home/legacy Contact concentration; no service-versus-service cannibalisation or owner-URL change was established. Volume, difficulty, competitor positions and Maps ranks remain unknown. [Actual cycle](evidence/Local_Growth_Execution_2026-10-07.json).

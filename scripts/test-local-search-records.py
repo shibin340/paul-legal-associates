@@ -102,6 +102,15 @@ class MeasurementTests(unittest.TestCase):
         self.reject(dict(self.rank, evidencePath='../../outside.json'))
         self.reject(dict(self.rank, clientName='Synthetic private client'))
 
+    def test_independent_chatgpt_answer_need_not_claim_verified_search_mode(self):
+        row = dict(self.common, kind='ai', sourceType='independent_engine_answer', engine='ChatGPT',
+                   prompt=self.baseline['ai']['probePrompts'][0], location='Actual searcher location unverified',
+                   language='English', sessionContext='Fresh unsigned conversation; search mode unverified',
+                   plaAppeared=True, competitors=[], citedURLs=['https://paullegalassociates.com/'])
+        records.validate_record(row, self.baseline, self.root)
+        row['sourceType'] = 'operator_search'
+        self.reject(row)
+
     def test_reimport_is_idempotent_and_conflict_preserves_history(self):
         self.assertTrue(records.append_record(self.rank, self.root))
         self.assertFalse(records.append_record(self.rank, self.root))
@@ -188,6 +197,16 @@ class MeasurementTests(unittest.TestCase):
         report['pages'][0]['url'] += '?client=synthetic'
         with self.assertRaises(ValueError):
             records.validate_gsc_report(report, self.baseline)
+
+    def test_native_same_property_www_history_keeps_its_exact_url(self):
+        page = 'https://www.paullegalassociates.com/insights/sanctions-export-control-law'
+        report = records.read_gsc_export(self.gsc_fixture(page=page), self.baseline,
+                                         '2026-10-15T12:00:00Z', 28)
+        self.assertEqual(report['pages'][0]['url'], page)
+        records.validate_gsc_report(report, self.baseline)
+        with self.assertRaises(ValueError):
+            records.read_gsc_export(self.gsc_fixture(page=page + '?client=synthetic'),
+                                    self.baseline, '2026-10-15T12:00:00Z', 28)
 
     def test_native_ai_impressions_cannot_be_organic_clicks_or_positions(self):
         report = records.read_gsc_export(self.gsc_fixture(ai=True), self.baseline, '2026-10-08T20:00:00Z', 28, report_kind='generative_ai')

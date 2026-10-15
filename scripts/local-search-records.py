@@ -69,7 +69,7 @@ def public_url(value):
 
 def public_gsc_page_url(value):
     parsed = urlparse(value)
-    return (parsed.scheme == 'https' and parsed.hostname == 'paullegalassociates.com' and
+    return (parsed.scheme == 'https' and parsed.hostname in {'paullegalassociates.com', 'www.paullegalassociates.com'} and
             not parsed.username and not parsed.password and
             (not parsed.fragment or parsed.fragment.startswith('/')) and
             (not parsed.query or value in PUBLIC_GBP_PAGE_URLS))
@@ -195,7 +195,7 @@ def validate_record(row, baseline, root=ROOT):
 
     elif kind == 'ai':
         require(row['sourceType'] == 'independent_engine_answer', 'Operator/provider search is not an AI answer test')
-        require(row['engine'] in {'ChatGPT Search', 'Copilot', 'Google AI Mode', 'Google AI Overviews'}, 'Actual independent engine required')
+        require(row['engine'] in {'ChatGPT', 'ChatGPT Search', 'Copilot', 'Google AI Mode', 'Google AI Overviews'}, 'Actual independent engine required')
         require(row['prompt'] in baseline['ai']['probePrompts'], 'Use the registered repeated prompt cohort')
         require(all(nonempty(row[x]) for x in ['location', 'language', 'sessionContext']), 'AI test location/language/session required')
         require(isinstance(row['plaAppeared'], bool), 'PLA appearance must be explicitly observed')
