@@ -1,5 +1,11 @@
 # PLA local-search operations
 
+## Genuine manager access and saved corrections — 16 October 2026
+
+The genuine verified Om Sai listing is accessible through the restored manager account. No new profile was created. District attorney was removed from the secondary categories while Law firm remains primary. The description now states factual location/practice areas. Existing Employment, NAINA and Title Verification items use the already prepared names/descriptions; other covered areas were not bulk duplicated. Saved manager readbacks and exact text are in cycle `post-pr58-20261016-commercial-gbp-analytics` in [existing evidence](evidence/Local_Growth_Execution_2026-10-07.json). Verify public propagation separately; do not equate a saved field with an independently observed public change.
+
+October 2026 is an incomplete reporting month: 4 call actions, 49 direction requests, 2 website clicks and 0 bookings, viewed 16 October; exact provider cutoff is not displayed. These pre-edit intent actions are not answered calls, unique leads or effects of today's changes. Aggregate public reviews remain 172 / 4.9; no replies or invitations. Actual hours and several legacy foreign-jurisdiction service labels still need factual scope confirmation; neither was guessed or bulk changed. Both fixed tracking links and genuine phone/address are preserved. Read publishing [PR #59](https://github.com/shibin340/paul-legal-associates/pull/59) for release/collection proof. **₹0 spend.**
+
 Prepared 7 October 2026 IST from current main through PR #44 and the existing query, citation, conversion and claim registers. This is the office execution procedure, not proof that a profile, review, citation or collector has been changed. The [permanent scorecard](Paul_Legal_Associates_SEO_Scorecard_2026-09-30.md) remains the one outcome record; [dated source evidence](evidence/Local_Search_2026-10-07.json) contains the exact observations and blockers.
 
 ## Current access and execution boundary — 12 October 2026 IST

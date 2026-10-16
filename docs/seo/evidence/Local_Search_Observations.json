@@ -676,6 +676,43 @@
       "correctionStatus": "not_submitted",
       "submittedAt": null,
       "verifiedAt": null
+    },
+    {
+      "id": "ai-chatgpt-search-posh-20261016-independent",
+      "kind": "ai",
+      "observedAtUTC": "2026-10-16T11:25:26.271Z",
+      "sourceType": "independent_engine_answer",
+      "sourceURL": "https://chatgpt.com/",
+      "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+      "engine": "ChatGPT Search",
+      "prompt": "Which Navi Mumbai legal practices provide employer POSH compliance support? Cite sources.",
+      "location": "Prompt specifies Navi Mumbai; actual searcher location unverified, cloud browser session",
+      "language": "English",
+      "sessionContext": "Fresh unsigned independent conversation; Web search visibly enabled before send and after completed answer; no PLA seed or operator context. PLA included in starting shortlist with service-page citations; one answer is not a rank or quality endorsement.",
+      "plaAppeared": true,
+      "competitors": [
+        "RLSPL",
+        "Advocate Manissh Assarkar, Assarkar & Co",
+        "Akansha Rathi and Associates (ARACS)",
+        "Shweta Gokarn & Co",
+        "Expert Jurist LLP",
+        "APS Law",
+        "Prakash Gehani / posh-training.com",
+        "SVMS"
+      ],
+      "citedURLs": [
+        "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/?utm_source=chatgpt.com",
+        "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/?utm_source=chatgpt.com",
+        "https://www.rlspl.in/posh-page.html?utm_source=chatgpt.com",
+        "https://www.google.com/search?q=Advocate+Manissh+Assarkar+Assarkar+%26+Co+Navi+Mumbai+POSH&utm_source=chatgpt.com",
+        "https://www.google.com/search?q=Akansha+Rathi+and+Associates+ARACS+POSH+Navi+Mumbai&utm_source=chatgpt.com",
+        "https://www.google.com/search?q=Shweta+Gokarn+%26+Co+POSH+compliance+Vashi&utm_source=chatgpt.com",
+        "https://www.google.com/search?q=Expert+Jurist+LLP+POSHGuard+Navi+Mumbai&utm_source=chatgpt.com",
+        "https://apslaw.co.in/blog/posh-act-mumbai-employer-compliance?utm_source=chatgpt.com",
+        "https://www.posh-training.com/?utm_source=chatgpt.com",
+        "https://vinmgt.in/services/posh-compliance/?utm_source=chatgpt.com",
+        "https://www.indiacode.nic.in/?utm_source=chatgpt.com"
+      ]
     }
   ]
 }
