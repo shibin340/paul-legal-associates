@@ -1,5 +1,14 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Actual implementation and measurement — 16 October 2026
+
+Publishing [PR #59](https://github.com/shibin340/paul-legal-associates/pull/59) and cycle `post-pr58-20261016-commercial-gbp-analytics` in [existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) are the continuation checkpoint. Its final release description supplies merge/deployment and live collection verification.
+
+- **Commercial:** MahaRERA newly observed indexed; successful 14 October crawl and matching canonical. NAINA indexed. Employment, Title Verification and Registration discovered with no crawl. Employment's sitemap/static/internal discovery is sound: WAIT FOR GOOGLE. Fresh 16 October cohort: **4/18 indexed, 12 discovered, 2 unknown** (Property / Real Estate and Airport Land Transactions). No unchanged submissions.
+- **GBP:** actual manager access restored; inaccurate District attorney category removed; factual description and three existing priority service entries saved/read back. No hours/review changes. October partial actions: 4 calls, 49 directions, 2 website clicks, 0 bookings; not unique/qualified enquiries or post-edit gains.
+- **Measurement:** one genuine standard GA4 property/stream created; owner fact supplied. One consent-based collector in PR #59, 23 privacy/collector checks plus 23 existing tests. Actual live event proof must be read in its release description, not inferred from creation. 247 pages / 239 sitemap URLs / eight holds and all article bodies preserved.
+- **AI:** one new unsigned ChatGPT Search POSH answer with explicit Search enabled mentions, shortlists and cites PLA's POSH and Employment pages. One sample, not a lasting rank. Maps grid remains UNKNOWN. No new citation correction or authority acquisition claimed; PR #58 remains current for citations. **₹0 spend.**
+
 ## Public local readback — 16 October 2026
 
 Current GitHub main at check: `9614d8178ac2069e451b141341c47850d8e5964d` (PR #57). The existing observation validator passes after three dated public-directory readbacks. Both owner-submitted Bdir corrections **remain pending**: the property and finance records each still publish 701/R3 Moraj, so verified corrections remain **0/2**. Their additional phone remains unconfirmed; no repeat message was sent. GetLaw still agrees with the firm's current office at building/road/postcode level, but its suite, experience and hours remain unverified. [Exact public evidence](evidence/Local_Public_Followup_2026-10-16.json) and the append-only observation history retain the URLs and timestamp.

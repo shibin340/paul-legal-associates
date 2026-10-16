@@ -3,6 +3,7 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import { TAGLINE, CREDENTIALS, NAV_LINKS, CONTACT_INFO } from "../../data/site";
 import { PRACTICE_AREAS } from "../../practiceAreas";
+import AnalyticsPreferences from '../AnalyticsPreferences';
 
 const Footer: React.FC = () => {
   const [isMounted, setIsMounted] = useState(false);
@@ -112,7 +113,8 @@ const Footer: React.FC = () => {
         {/* Bottom */}
         <div className="flex flex-col sm:flex-row items-center justify-between gap-3 text-[0.75rem] text-cream/40">
           <p>© {year} Paul Legal Associates (Advocates). All rights reserved.</p>
-          <div className="flex gap-6">
+          <div className="flex flex-wrap gap-6">
+            <AnalyticsPreferences />
             {["Privacy Policy", "Terms of Use", "Disclaimer"].map(l => (
               <span key={l}>{l}</span>
             ))}

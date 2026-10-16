@@ -6,12 +6,12 @@ type EventName = 'phone_click' | 'whatsapp_click' | 'email_click' | 'consultatio
 type LinkLocation = 'header' | 'footer' | 'main' | 'contact_form' | 'other';
 type TrafficOrigin = 'gbp' | 'organic_search' | 'ai_referral' | 'referral' | 'direct_or_unknown';
 const knownPaths = new Set(['/', '/about/', '/contact/', '/expertise/', '/partners/', '/insights/', '/finance-tax-regulatory-advisory/', ...PRACTICE_AREAS.map(a => `/expertise/${a.slug}/`), ...ARTICLES.map(a => `/insights/${a.slug}/`), ...TEAM_MEMBERS.map(a => `/partners/${a.slug}/`)]);
-const safePath = (path: string) => {
+export const safePath = (path: string) => {
   const canonical = path === '/' ? '/' : `${path.replace(/\/+$/, '')}/`;
   return knownPaths.has(canonical) ? canonical : '/unknown/';
 };
 let landing: { path: string; origin: TrafficOrigin } | undefined;
-function landingContext() {
+export function landingContext() {
   if (landing) return landing;
   let origin: TrafficOrigin = 'direct_or_unknown';
   const params = new URLSearchParams(window.location.search);

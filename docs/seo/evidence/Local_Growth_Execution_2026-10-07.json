@@ -9877,8 +9877,626 @@
         "searchModeVerified": false,
         "limitations": "Public answer cites PLA service and practice pages. Explicit Web search toggle was not selected, so recorded as ChatGPT, not a confirmed forced-Search-mode test. Actual searcher location unverified; no permanent ranking or verified competitor expertise claim."
       }
+    },
+    {
+      "id": "post-pr58-20261016-commercial-gbp-analytics",
+      "recordedAtUTC": "2026-10-16T11:28:04.127Z",
+      "sourceMain": "cb90e642e56dac7a11a28f690fe09e3bb9023491",
+      "scope": "Employment discovery diagnosis, due priority URL Inspection, genuine GBP configuration corrections, one standard GA4 stream and consent-based existing enquiry-event collection, independent ChatGPT Search POSH observation.",
+      "officialGoogleMeasurement": {
+        "inspections": [
+          {
+            "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+            "observedAtUTC": "2026-10-16T10:27:16.516Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "None detected",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "observedAtUTC": "2026-10-16T10:37:40.334Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "4 Oct 2026, 08:19:18",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+            "googleCanonical": "Inspected URL",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+            "observedAtUTC": "2026-10-16T10:37:40.334Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "observedAtUTC": "2026-10-16T11:26:23.919Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "14 Oct 2026, 22:29:12",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+            "googleCanonical": "Inspected URL",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+            "observedAtUTC": "2026-10-16T11:29:16.377Z",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "URL is unknown to Google",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [],
+            "referringPage": "None detected URL might be known from other sources that are currently not reported",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "13 Oct 2026, 22:07:25",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+            "googleCanonical": "Inspected URL",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "None detected",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "indexed",
+            "coverageState": "Page is indexed",
+            "lastCrawlDisplay": "14 Oct 2026, 04:18:23",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "Googlebot smartphone",
+            "crawlAllowed": "Yes",
+            "pageFetch": "Successful",
+            "indexingAllowed": "Yes",
+            "userCanonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+            "googleCanonical": "Inspected URL",
+            "sitemaps": [],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "URL is unknown to Google",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [],
+            "referringPage": "None detected URL might be known from other sources that are currently not reported",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          },
+          {
+            "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+            "sourceType": "official_gsc_url_inspection",
+            "currentStatus": "not_indexed",
+            "coverageState": "Discovered – currently not indexed",
+            "lastCrawlDisplay": "N/A",
+            "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+            "crawledAs": "N/A",
+            "crawlAllowed": "N/A",
+            "pageFetch": "N/A",
+            "indexingAllowed": "N/A",
+            "userCanonical": "N/A",
+            "googleCanonical": "N/A",
+            "sitemaps": [
+              "https://paullegalassociates.com/sitemap.xml"
+            ],
+            "referringPage": "https://paullegalassociates.com/sitemap.xml",
+            "requestIndexingSubmitted": false,
+            "observedAtUTC": "2026-10-16T11:38:50.472Z"
+          }
+        ],
+        "gscReports": [],
+        "performancePolicy": "Nine previously committed exact exports through 13 October are preserved; no repeat performance export. The 18-page commercial cohort was actually inspected on 16 October. MahaRERA newly observed indexed; its crawl predates this execution.",
+        "gbpPerformance": {
+          "recordedAtUTC": "2026-10-16T11:24:06.078Z",
+          "sourceType": "official_gbp_native_ui",
+          "periodLabel": "Oct 2026–Oct 2026",
+          "periodStart": "2026-10-01",
+          "partialCurrentMonth": true,
+          "observedOn": "2026-10-16",
+          "exactDataCutoff": "Not displayed; later/future day rows must not be treated as settled zero activity",
+          "interactions": 55,
+          "callActions": 4,
+          "directionRequests": 49,
+          "websiteClicks": 2,
+          "bookings": 0,
+          "interpretation": "Dated profile intent-action baseline, not answered calls, unique visitors, received/qualified enquiries or effects of 16 October edits; no ranking claim"
+        },
+        "commercialCohort": {
+          "observedOn": "2026-10-16",
+          "total": 18,
+          "indexed": 4,
+          "coverageCounts": {
+            "Discovered – currently not indexed": 12,
+            "Page is indexed": 4,
+            "URL is unknown to Google": 2
+          },
+          "indexationRequestsSubmitted": 0,
+          "basis": "One due weekly native URL Inspection pass; excludes Home/Contact; all 18 existing commercial cohort URLs, no repeated unchanged submission."
+        },
+        "targetedLiveTest": {
+          "observedAtUTC": "2026-10-16T11:43:21.287Z",
+          "sourceType": "official_gsc_live_test",
+          "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+          "testDisplay": "16 Oct 2026, 17:10:42",
+          "displayTimezone": "NOT_LABELLED_IN_UI",
+          "status": "URL is available to Google; Page can be indexed",
+          "crawledAs": "Google Inspection Tool smartphone",
+          "crawlAllowed": "Yes",
+          "pageFetch": "Successful",
+          "indexingAllowed": "Yes",
+          "userCanonical": "https://paullegalassociates.com/expertise/property-real-estate/",
+          "googleCanonical": "Only determined after indexing",
+          "httpResponse": "200 OK",
+          "contentType": "text/html",
+          "resources": "All resources were loaded",
+          "javascriptConsole": "No messages",
+          "requestIndexingSubmitted": false,
+          "interpretation": "Current live availability is distinct from its unknown index record; no newly proven fetch defect or indexation outcome."
+        },
+        "unknownURLStaticChecks": [
+          {
+            "url": "/expertise/property-real-estate/",
+            "sitemap": true,
+            "selfCanonical": true,
+            "singleH1": true,
+            "robots": "index, follow",
+            "staticMainChars": 2796,
+            "selectedIncomingLinkOccurrences": 8
+          },
+          {
+            "url": "/expertise/navi-mumbai-airport-land-transactions/",
+            "sitemap": true,
+            "selfCanonical": true,
+            "singleH1": true,
+            "robots": "index, follow",
+            "staticMainChars": 4088,
+            "selectedIncomingLinkOccurrences": 6
+          }
+        ]
+      },
+      "employmentDiagnosis": {
+        "classification": "GOOGLE_PROCESSING_TIME; WAIT_FOR_GOOGLE",
+        "staticVerified": true,
+        "sitemapVerified": true,
+        "selfCanonicalVerified": true,
+        "singleH1": true,
+        "robots": "index, follow",
+        "discoveryLinks": [
+          "Home priority-matter link",
+          "Complete Expertise directory",
+          "Adv. Sonam Paul profile",
+          "Both 15 October corrected guides",
+          "Labour Code readiness, PF/ESIC and contract-labour guides"
+        ],
+        "contentDifferentiation": "Existing service defines employer/client preparation and engagement; supporting guides explain particular legal questions. No concrete duplication/canonical or missing-discovery defect found.",
+        "timing": "Corrected supporting guides were published only one day before this investigation. Google has no service crawl recorded. The service was also discovered on 9 October, unknown on 15 October and discovered again now; this is not a first-ever discovery or indexed outcome.",
+        "action": "No service rewrite, title change or repeat submission."
+      },
+      "gbp": {
+        "access": {
+          "observedAtUTC": "2026-10-16T10:37:40.334Z",
+          "state": "EXISTING_GENUINE_PROFILE_MANAGER_RESTORED",
+          "businessCount": 1,
+          "verifiedCount": 1,
+          "address": "Office No. 301, 3rd Floor, Om Sai Building, Plot No.101/3, Swami Nityanand Road, Near Garden Hotel, Panvel, Navi Mumbai, Maharashtra 410206, India",
+          "route": "Secure owner-selected account switch; canonical Business Profile Manager",
+          "profileCreated": false
+        },
+        "configuration": {
+          "observedAtUTC": "2026-10-16T10:59:05.676Z",
+          "category": {
+            "removed": "District attorney",
+            "primary": "Law firm",
+            "remainingAdditional": [
+              "Lawyer",
+              "Legal services",
+              "Trial Lawyer",
+              "Civil law attorney",
+              "Bankruptcy Lawyer",
+              "Family Lawyer",
+              "Property lawyer",
+              "Criminal defence lawyer"
+            ],
+            "status": "SAVED_AND_VERIFIED_IN_MANAGER"
+          },
+          "description": {
+            "text": "Paul Legal Associates is a law firm based in Panvel, Navi Mumbai. Its areas of practice include property title verification, conveyancing and registration, MahaRERA, NAINA town planning, land acquisition, corporate and commercial law, employment and POSH compliance, banking, debt recovery, arbitration and litigation. The office is at Om Sai Building, Swami Nityanand Road, Panvel.",
+            "status": "SAVED_AND_VERIFIED_IN_MANAGER; public propagation not yet verified"
+          },
+          "hoursChanged": false,
+          "reviewActions": 0,
+          "websiteAndPhoneChanged": false
+        },
+        "services": {
+          "observedAtUTC": "2026-10-16T11:20:20.632Z",
+          "basis": "Existing 18 prepared genuine service descriptions reused in existing profile items; no duplicate catalogue generated",
+          "changes": [
+            {
+              "previousName": "Employment",
+              "name": "Employment and labour compliance",
+              "description": "Advice on workforce obligations, workplace documentation and applicable compliance requirements.",
+              "status": "SAVED_REOPENED_IN_MANAGER"
+            },
+            {
+              "previousName": "Navi Mumbai Airport Influence Notified Area (NAINA)",
+              "name": "NAINA town planning matters",
+              "description": "Review of planning-scheme records, notices and property-specific questions within NAINA.",
+              "status": "SAVED_REOPENED_IN_MANAGER"
+            },
+            {
+              "previousName": "Property Verification / Due Diligence",
+              "name": "Title verification and property due diligence",
+              "description": "Review of available title-chain documents, public records and transaction risks.",
+              "status": "SAVED_REOPENED_IN_MANAGER"
+            }
+          ],
+          "otherPreparedAreas": "Existing genuine coverage present; not bulk-added",
+          "unresolved": "Some legacy foreign-jurisdiction service labels require scope reconciliation; no bulk removals or new unsupported claims"
+        },
+        "publicPropagation": "Saved and read back in manager; verify public propagation separately. Identity, Om Sai location, phone and fixed website/appointment links preserved.",
+        "aggregateReviews": {
+          "observedOn": "2026-10-16",
+          "count": 172,
+          "rating": 4.9,
+          "repliesPosted": 0,
+          "invitationsSent": 0
+        },
+        "hours": "Unconfirmed; not edited. No bulk confirmation of unrelated profile facts."
+      },
+      "analytics": {
+        "standardFreePropertyCreated": true,
+        "singleWebStreamCreated": true,
+        "publicMeasurementId": "G-41YDS7LDYY",
+        "ownerSuppliedRequiredEmployeeBand": true,
+        "reportingTimeZone": "India GMT+05:30",
+        "currency": "INR",
+        "existingAnalyticsAccountReused": true,
+        "newAccountCreated": false,
+        "additionalTermsAcceptancePresented": false,
+        "enhancedMeasurement": false,
+        "connectedSiteTags": 0,
+        "emailRedactionActive": true,
+        "billingOrAdsActivated": false,
+        "sourceBehaviour": "One consent-gated direct Google tag forwards the existing seven allowlisted enquiry types, one manual view per eligible route and sanitised attribution. No tag before opt-in; withdrawal stops collection. Form contents, raw URLs/referrers/queries and arbitrary campaign values excluded; ads/signals off; held/unknown/preview routes excluded.",
+        "collectionStatus": "Source tested; actual deployed Realtime/DebugView proof belongs in publishing PR #59 final release description. Do not equate stream creation with collection or QA actions with enquiries."
+      },
+      "independentAI": {
+        "id": "ai-chatgpt-search-posh-20261016-independent",
+        "kind": "ai",
+        "observedAtUTC": "2026-10-16T11:25:26.271Z",
+        "sourceType": "independent_engine_answer",
+        "sourceURL": "https://chatgpt.com/",
+        "evidencePath": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json",
+        "engine": "ChatGPT Search",
+        "prompt": "Which Navi Mumbai legal practices provide employer POSH compliance support? Cite sources.",
+        "location": "Prompt specifies Navi Mumbai; actual searcher location unverified, cloud browser session",
+        "language": "English",
+        "sessionContext": "Fresh unsigned independent conversation; Web search visibly enabled before send and after completed answer; no PLA seed or operator context. PLA included in starting shortlist with service-page citations; one answer is not a rank or quality endorsement.",
+        "plaAppeared": true,
+        "competitors": [
+          "RLSPL",
+          "Advocate Manissh Assarkar, Assarkar & Co",
+          "Akansha Rathi and Associates (ARACS)",
+          "Shweta Gokarn & Co",
+          "Expert Jurist LLP",
+          "APS Law",
+          "Prakash Gehani / posh-training.com",
+          "SVMS"
+        ],
+        "citedURLs": [
+          "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/?utm_source=chatgpt.com",
+          "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/?utm_source=chatgpt.com",
+          "https://www.rlspl.in/posh-page.html?utm_source=chatgpt.com",
+          "https://www.google.com/search?q=Advocate+Manissh+Assarkar+Assarkar+%26+Co+Navi+Mumbai+POSH&utm_source=chatgpt.com",
+          "https://www.google.com/search?q=Akansha+Rathi+and+Associates+ARACS+POSH+Navi+Mumbai&utm_source=chatgpt.com",
+          "https://www.google.com/search?q=Shweta+Gokarn+%26+Co+POSH+compliance+Vashi&utm_source=chatgpt.com",
+          "https://www.google.com/search?q=Expert+Jurist+LLP+POSHGuard+Navi+Mumbai&utm_source=chatgpt.com",
+          "https://apslaw.co.in/blog/posh-act-mumbai-employer-compliance?utm_source=chatgpt.com",
+          "https://www.posh-training.com/?utm_source=chatgpt.com",
+          "https://vinmgt.in/services/posh-compliance/?utm_source=chatgpt.com",
+          "https://www.indiacode.nic.in/?utm_source=chatgpt.com"
+        ],
+        "plaMentioned": true,
+        "plaRecommendedInShortlist": true,
+        "plaCited": true,
+        "explicitSearchModeVerified": true,
+        "limitation": "One unsigned answer, not a permanent AI or Google rank. Several other-provider citations are Google search links, not verified primary practice pages.",
+        "primaryCompetitorSourceChecked": {
+          "url": "https://rlspl.in/posh-page.html",
+          "observation": "Its own Ghansoli/Navi Mumbai page describes policy, IC, awareness/training, records and reporting support. Service-quality claims were not independently assessed."
+        }
+      },
+      "validation": {
+        "npmCi": "PASS",
+        "build": "PASS",
+        "contentPages": 247,
+        "sitemapURLs": 239,
+        "internalLinkOccurrences": 8118,
+        "hydrationNavigationChecks": 12,
+        "contactValidation": "PASS",
+        "legacyRedirects": 1,
+        "analyticsChecks": 23,
+        "existingMeasurementTests": 23,
+        "evidenceValidation": "PASS",
+        "all154ArticleMetadataAndBodiesUnchanged": true,
+        "pageUpdatesUnchanged": true,
+        "indexnowBatchUnchanged": true,
+        "heldArticles": 8
+      },
+      "release": {
+        "pullRequest": 59,
+        "url": "https://github.com/shibin340/paul-legal-associates/pull/59",
+        "testedSourceTree": "603085493b15aeb30baac04b5c8df3f8519d7336",
+        "durableSourceCommit": "f97d6d8bb166747a03de50beb2d67bb8fece36c6",
+        "statusAtRecord": "TESTED_SOURCE; publication and production/collection readback follow in the same publishing PR's final description",
+        "finalReleaseProofAuthority": "Read PR #59 final description and current main/workflow before continuing. Do not repeat setup."
+      },
+      "unchangedWorkstreams": {
+        "citations": "PR #58 earlier today is current citation follow-up. No Bdir resend/recheck or new claimed correction/authority acquisition.",
+        "mapsRank": "UNKNOWN; no reliable location-controlled free grid acquired; signed-in US-hosted management/search UI is not a Panvel rank grid.",
+        "legalContent": "No new legal content edited. Recovered employment guides not rewritten.",
+        "restrictions": "No review replies/invitations, guessed hours, client data, paid tools/APIs/trials, Ads or billing. Semrush and GSC Wizard not called."
+      },
+      "nextExecution": "Complete the same PR's live consent, navigation and Realtime/DebugView checks; then measure actual consented landing-to-action data at a sensible interval, keep QA separate, and follow due commercial crawl queues without repeat unchanged submissions.",
+      "additionalCostINR": 0
     }
   ],
-  "latestExecutionCycleId": "post-pr56-20261015-settled-google-local",
+  "latestExecutionCycleId": "post-pr58-20261016-commercial-gbp-analytics",
   "publicPrivacyNote": "Account identities, detailed authentication records and connected-service identifiers are omitted from this public record; original values are retained only in owner-private evidence. Quantitative SEO reports, dates, commercial decisions and implementation history are preserved."
 }

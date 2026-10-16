@@ -2,10 +2,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:05:00.565Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
@@ -33,15 +33,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/arbitration-mediation-adr/",
-      "observedAtUTC": "2026-10-08T20:05:00.565Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -50,20 +71,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "URL is unknown to Google",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:50:17.792Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
@@ -91,15 +114,34 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "URL is unknown to Google",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [],
+        "referringPage": "None detected URL might be known from other sources that are currently not reported",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/navi-mumbai-airport-land-transactions/",
-      "observedAtUTC": "2026-10-08T20:50:17.792Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "URL is unknown to Google",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -108,20 +150,20 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [],
+      "referringPage": "None detected URL might be known from other sources that are currently not reported",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:05:42.072Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
@@ -149,15 +191,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/maritime-shipping-admiralty-law/",
-      "observedAtUTC": "2026-10-08T20:05:42.072Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -166,20 +229,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:05:44.342Z",
+    "lastCheckAt": "2026-10-16T11:29:16.377Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
@@ -207,15 +272,37 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
+        "observedAtUTC": "2026-10-16T11:29:16.377Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "lastCheckAt": "2026-10-16T11:29:16.377Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/property-registration-services-mumbai-navi-mumbai/",
-      "observedAtUTC": "2026-10-08T20:05:44.342Z",
+      "observedAtUTC": "2026-10-16T11:29:16.377Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -224,9 +311,10 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
@@ -234,10 +322,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:05:46.936Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
@@ -265,15 +353,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/property-transactions-conveyancing/",
-      "observedAtUTC": "2026-10-08T20:05:46.936Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -282,20 +391,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:06:18.767Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
@@ -323,15 +434,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/taxation-gst-fiscal-litigation/",
-      "observedAtUTC": "2026-10-08T20:06:18.767Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -340,20 +472,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:06:21.306Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
@@ -381,15 +515,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/banking-finance-securities-debt-restructuring/",
-      "observedAtUTC": "2026-10-08T20:06:21.306Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -398,10 +553,12 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
@@ -411,7 +568,7 @@
     "coverageState": "Page is indexed",
     "indexingState": "INDEXING_ALLOWED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:06:23.994Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
@@ -439,16 +596,37 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "indexed",
+        "coverageState": "Page is indexed",
+        "lastCrawlDisplay": "13 Oct 2026, 22:07:25",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "Googlebot smartphone",
+        "crawlAllowed": "Yes",
+        "pageFetch": "Successful",
+        "indexingAllowed": "Yes",
+        "userCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
+        "googleCanonical": "Inspected URL",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "None detected",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
-    "lastCrawlDisplay": "Sep 30, 2026, 12:52:09 AM",
+    "lastCrawlDisplay": "13 Oct 2026, 22:07:25",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
-      "observedAtUTC": "2026-10-08T20:06:23.994Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "indexed",
       "coverageState": "Page is indexed",
-      "lastCrawlDisplay": "Sep 30, 2026, 12:52:09 AM",
+      "lastCrawlDisplay": "13 Oct 2026, 22:07:25",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "Googlebot smartphone",
       "crawlAllowed": "Yes",
@@ -456,20 +634,22 @@
       "indexingAllowed": "Yes",
       "userCanonical": "https://paullegalassociates.com/expertise/corporate-commercial-ma-startup-law/",
       "googleCanonical": "Inspected URL",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "None detected",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:07:12.916Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
@@ -497,15 +677,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/commercial-litigation-arbitration/",
-      "observedAtUTC": "2026-10-08T20:07:12.916Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -514,20 +715,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
-    "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
-    "indexingState": "INDEXING_STATE_UNSPECIFIED",
+    "currentStatus": "indexed",
+    "coverageState": "Page is indexed",
+    "indexingState": "INDEXING_ALLOWED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:07:15.625Z",
+    "lastCheckAt": "2026-10-16T11:26:23.919Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
@@ -555,26 +758,49 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+        "observedAtUTC": "2026-10-16T11:26:23.919Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "indexed",
+        "coverageState": "Page is indexed",
+        "lastCrawlDisplay": "14 Oct 2026, 22:29:12",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "Googlebot smartphone",
+        "crawlAllowed": "Yes",
+        "pageFetch": "Successful",
+        "indexingAllowed": "Yes",
+        "userCanonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+        "googleCanonical": "Inspected URL",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "lastCheckAt": "2026-10-16T11:26:23.919Z"
       }
     ],
-    "lastCrawlDisplay": "N/A",
+    "lastCrawlDisplay": "14 Oct 2026, 22:29:12",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
-      "observedAtUTC": "2026-10-08T20:07:15.625Z",
-      "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
-      "lastCrawlDisplay": "N/A",
-      "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
-      "crawledAs": "N/A",
-      "crawlAllowed": "N/A",
-      "pageFetch": "N/A",
-      "indexingAllowed": "N/A",
-      "userCanonical": "N/A",
-      "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
+      "observedAtUTC": "2026-10-16T11:26:23.919Z",
       "sourceType": "official_gsc_url_inspection",
+      "currentStatus": "indexed",
+      "coverageState": "Page is indexed",
+      "lastCrawlDisplay": "14 Oct 2026, 22:29:12",
+      "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+      "crawledAs": "Googlebot smartphone",
+      "crawlAllowed": "Yes",
+      "pageFetch": "Successful",
+      "indexingAllowed": "Yes",
+      "userCanonical": "https://paullegalassociates.com/expertise/rera-maharera-legal-services/",
+      "googleCanonical": "Inspected URL",
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
@@ -582,10 +808,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:07:18.385Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
@@ -613,15 +839,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/land-acquisition-compensation-matters/",
-      "observedAtUTC": "2026-10-08T20:07:18.385Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -630,10 +877,12 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
@@ -643,7 +892,7 @@
     "coverageState": "Page is indexed",
     "indexingState": "INDEXING_ALLOWED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:09:56.868Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
@@ -671,16 +920,35 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "indexed",
+        "coverageState": "Page is indexed",
+        "lastCrawlDisplay": "14 Oct 2026, 04:18:23",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "Googlebot smartphone",
+        "crawlAllowed": "Yes",
+        "pageFetch": "Successful",
+        "indexingAllowed": "Yes",
+        "userCanonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
+        "googleCanonical": "Inspected URL",
+        "sitemaps": [],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
-    "lastCrawlDisplay": "Sep 29, 2026, 8:31:54 PM",
+    "lastCrawlDisplay": "14 Oct 2026, 04:18:23",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
-      "observedAtUTC": "2026-10-08T20:09:56.868Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "indexed",
       "coverageState": "Page is indexed",
-      "lastCrawlDisplay": "Sep 29, 2026, 8:31:54 PM",
+      "lastCrawlDisplay": "14 Oct 2026, 04:18:23",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "Googlebot smartphone",
       "crawlAllowed": "Yes",
@@ -688,10 +956,10 @@
       "indexingAllowed": "Yes",
       "userCanonical": "https://paullegalassociates.com/finance-tax-regulatory-advisory/",
       "googleCanonical": "Inspected URL",
-      "sitemapUIStatus": "Temporary processing error",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
@@ -701,7 +969,7 @@
     "coverageState": "Page is indexed",
     "indexingState": "INDEXING_ALLOWED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:10:00.496Z",
+    "lastCheckAt": "2026-10-16T10:37:40.334Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
@@ -729,16 +997,38 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+        "observedAtUTC": "2026-10-16T10:37:40.334Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "indexed",
+        "coverageState": "Page is indexed",
+        "lastCrawlDisplay": "4 Oct 2026, 08:19:18",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "Googlebot smartphone",
+        "crawlAllowed": "Yes",
+        "pageFetch": "Successful",
+        "indexingAllowed": "Yes",
+        "userCanonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
+        "googleCanonical": "Inspected URL",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "lastCheckAt": "2026-10-16T10:37:40.334Z"
       }
     ],
-    "lastCrawlDisplay": "Sep 30, 2026, 9:08:37 AM",
+    "lastCrawlDisplay": "4 Oct 2026, 08:19:18",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
-      "observedAtUTC": "2026-10-08T20:10:00.496Z",
+      "observedAtUTC": "2026-10-16T10:37:40.334Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "indexed",
       "coverageState": "Page is indexed",
-      "lastCrawlDisplay": "Sep 30, 2026, 9:08:37 AM",
+      "lastCrawlDisplay": "4 Oct 2026, 08:19:18",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "Googlebot smartphone",
       "crawlAllowed": "Yes",
@@ -746,9 +1036,10 @@
       "indexingAllowed": "Yes",
       "userCanonical": "https://paullegalassociates.com/expertise/naina-town-planning-scheme-services/",
       "googleCanonical": "Inspected URL",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
@@ -756,10 +1047,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/property-real-estate/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "URL is unknown to Google",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:10:03.268Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/property-real-estate/",
@@ -787,15 +1078,34 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-real-estate/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "URL is unknown to Google",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [],
+        "referringPage": "None detected URL might be known from other sources that are currently not reported",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/property-real-estate/",
-      "observedAtUTC": "2026-10-08T20:10:03.268Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "URL is unknown to Google",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -804,20 +1114,20 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [],
+      "referringPage": "None detected URL might be known from other sources that are currently not reported",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:10:52.475Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
@@ -845,15 +1155,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/corporate-commercial-advisory/",
-      "observedAtUTC": "2026-10-08T20:10:52.475Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -862,20 +1193,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-08T20:10:55.065Z",
+    "lastCheckAt": "2026-10-16T11:38:50.472Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
@@ -903,15 +1236,36 @@
         "sitemapIncludedInCurrentProduction": true,
         "sourceType": "official_gsc_url_inspection",
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "observedAtUTC": "2026-10-16T11:38:50.472Z",
+        "lastCheckAt": "2026-10-16T11:38:50.472Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/posh-compliance-internal-committee/",
-      "observedAtUTC": "2026-10-08T20:10:55.065Z",
+      "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -920,20 +1274,22 @@
       "indexingAllowed": "N/A",
       "userCanonical": "N/A",
       "googleCanonical": "N/A",
-      "sitemapUIStatus": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
-      "sourceType": "official_gsc_url_inspection",
-      "requestIndexingSubmitted": false
+      "sitemaps": [
+        "https://paullegalassociates.com/sitemap.xml"
+      ],
+      "referringPage": "https://paullegalassociates.com/sitemap.xml",
+      "requestIndexingSubmitted": false,
+      "observedAtUTC": "2026-10-16T11:38:50.472Z"
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
   },
   {
     "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-09T08:11:49.719Z",
+    "lastCheckAt": "2026-10-16T10:37:40.334Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
@@ -983,16 +1339,37 @@
         "referringPage": "https://paullegalassociates.com/sitemap.xml",
         "sitemapIncludedInCurrentProduction": true,
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
+        "observedAtUTC": "2026-10-16T10:37:40.334Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "https://paullegalassociates.com/sitemap.xml",
+        "requestIndexingSubmitted": false,
+        "lastCheckAt": "2026-10-16T10:37:40.334Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/property-title-verification-due-diligence/",
-      "observedAtUTC": "2026-10-09T08:11:49.719Z",
+      "observedAtUTC": "2026-10-16T10:37:40.334Z",
       "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -1005,7 +1382,6 @@
         "https://paullegalassociates.com/sitemap.xml"
       ],
       "referringPage": "https://paullegalassociates.com/sitemap.xml",
-      "sitemapIncludedInCurrentProduction": true,
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
@@ -1029,10 +1405,10 @@
   {
     "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
     "currentStatus": "not_indexed",
-    "coverageState": "Discovered - currently not indexed",
+    "coverageState": "Discovered – currently not indexed",
     "indexingState": "INDEXING_STATE_UNSPECIFIED",
     "lastCrawlTime": null,
-    "lastCheckAt": "2026-10-09T08:09:10.702Z",
+    "lastCheckAt": "2026-10-16T10:27:16.516Z",
     "history": [
       {
         "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
@@ -1081,16 +1457,37 @@
         ],
         "sitemapIncludedInCurrentProduction": true,
         "requestIndexingSubmitted": false
+      },
+      {
+        "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
+        "observedAtUTC": "2026-10-16T10:27:16.516Z",
+        "sourceType": "official_gsc_url_inspection",
+        "currentStatus": "not_indexed",
+        "coverageState": "Discovered – currently not indexed",
+        "lastCrawlDisplay": "N/A",
+        "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
+        "crawledAs": "N/A",
+        "crawlAllowed": "N/A",
+        "pageFetch": "N/A",
+        "indexingAllowed": "N/A",
+        "userCanonical": "N/A",
+        "googleCanonical": "N/A",
+        "sitemaps": [
+          "https://paullegalassociates.com/sitemap.xml"
+        ],
+        "referringPage": "None detected",
+        "requestIndexingSubmitted": false,
+        "lastCheckAt": "2026-10-16T10:27:16.516Z"
       }
     ],
     "lastCrawlDisplay": "N/A",
     "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
     "latestGoogleInspection": {
       "url": "https://paullegalassociates.com/expertise/labour-employment-hr-workplace-compliance/",
-      "observedAtUTC": "2026-10-09T08:09:10.702Z",
+      "observedAtUTC": "2026-10-16T10:27:16.516Z",
       "sourceType": "official_gsc_url_inspection",
       "currentStatus": "not_indexed",
-      "coverageState": "Discovered - currently not indexed",
+      "coverageState": "Discovered – currently not indexed",
       "lastCrawlDisplay": "N/A",
       "lastCrawlTimezone": "NOT_LABELLED_IN_UI",
       "crawledAs": "N/A",
@@ -1102,7 +1499,7 @@
       "sitemaps": [
         "https://paullegalassociates.com/sitemap.xml"
       ],
-      "sitemapIncludedInCurrentProduction": true,
+      "referringPage": "None detected",
       "requestIndexingSubmitted": false
     },
     "measurementEvidence": "docs/seo/evidence/Local_Growth_Execution_2026-10-07.json"
