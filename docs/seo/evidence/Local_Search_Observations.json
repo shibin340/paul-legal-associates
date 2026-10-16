@@ -634,6 +634,48 @@
         "https://paullegalassociates.com/expertise/",
         "https://cidco.maharashtra.gov.in/"
       ]
+    },
+    {
+      "id": "citation-bdir-property-20261016-readback",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-16T02:57:02Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "evidencePath": "docs/seo/evidence/Local_Public_Followup_2026-10-16.json",
+      "citationId": "bdir-property",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null
+    },
+    {
+      "id": "citation-bdir-finance-20261016-readback",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-16T02:57:02Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "evidencePath": "docs/seo/evidence/Local_Public_Followup_2026-10-16.json",
+      "citationId": "bdir-finance",
+      "addressStatus": "conflict",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "submitted",
+      "submittedAt": "2026-10-08T19:46:14Z",
+      "verifiedAt": null
+    },
+    {
+      "id": "citation-getlaw-20261016-readback",
+      "kind": "citation",
+      "observedAtUTC": "2026-10-16T02:57:02Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "evidencePath": "docs/seo/evidence/Local_Public_Followup_2026-10-16.json",
+      "citationId": "getlaw",
+      "addressStatus": "matches",
+      "phoneStatus": "not_observed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
     }
   ]
 }

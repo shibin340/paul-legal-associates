@@ -1,0 +1,35 @@
+{
+  "observedAtUTC": "2026-10-16T02:57:02Z",
+  "sourceMain": "9614d8178ac2069e451b141341c47850d8e5964d",
+  "method": "Direct public web retrieval of the three exact existing directory URLs; Search Console access checked separately in the cloud browser",
+  "readbacks": [
+    {
+      "citationId": "bdir-property",
+      "sourceURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU=",
+      "visibleAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+      "visiblePhones": ["+91-79770-63567", "+91-9820765944-"],
+      "assessment": "Old Moraj address persists; additional phone remains unconfirmed. Owner's single 9 October correction remains submitted, not publicly verified."
+    },
+    {
+      "citationId": "bdir-finance",
+      "sourceURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM=",
+      "visibleAddress": "701, R3, Moraj Riverside Park, Takka Colony, Panvel, Navi Mumbai, MH 410206",
+      "visiblePhones": ["+91-79770-63567", "+91-98207-65944-"],
+      "assessment": "Old Moraj address persists; additional phone remains unconfirmed. Same owner-sent correction remains submitted, not publicly verified."
+    },
+    {
+      "citationId": "getlaw",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "visibleAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai - 410206 (Near Garden Hotel)",
+      "assessment": "Building, road and postcode align with the owned Contact page; suite is absent. Displayed 40-year experience and daily 9 AM–9 PM availability are not owner-verified. No correction was submitted."
+    }
+  ],
+  "accountAccess": {
+    "searchConsole": "Existing property URL redirected to the public Search Console about/sign-in entry in this browser; no newer private Google data was read",
+    "googleBusinessProfileManager": "Not retried through a different account; 15 October manager mismatch remains unresolved",
+    "semrush": "Known no_api_units; not called",
+    "bingAndCloudflare": "No authorised private reporting or zone-event read in this cycle"
+  },
+  "actions": "Read-only public checks. No citation resend, review reply/invitation, account edit, website change, IndexNow notification, paid service or local-rank claim.",
+  "measurement": "0 of 2 owner-submitted Bdir corrections publicly verified as of this readback. GetLaw current building/road/postcode agreement persists; full NAP and hours are unverified."
+}
