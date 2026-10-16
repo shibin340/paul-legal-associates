@@ -1,5 +1,11 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Public local readback — 16 October 2026
+
+Current GitHub main at check: `9614d8178ac2069e451b141341c47850d8e5964d` (PR #57). The existing observation validator passes after three dated public-directory readbacks. Both owner-submitted Bdir corrections **remain pending**: the property and finance records each still publish 701/R3 Moraj, so verified corrections remain **0/2**. Their additional phone remains unconfirmed; no repeat message was sent. GetLaw still agrees with the firm's current office at building/road/postcode level, but its suite, experience and hours remain unverified. [Exact public evidence](evidence/Local_Public_Followup_2026-10-16.json) and the append-only observation history retain the URLs and timestamp.
+
+The existing Search Console property opened the public sign-in/about entry in this browser. No new 18-URL indexation inspection, settled export, service-page click, Maps position or enquiry measurement was obtained. The **13 October-ended** 28/90-day reports and PR #57's guide eligibility/notification receipts remain the latest verified evidence, not a 16 October gain. The genuine GBP manager mismatch, missing GA4 collector, unsigned Bing reporting and unavailable Cloudflare zone events remain open; Semrush's known `no_api_units` state was not retried. No GBP, review, citation, website, indexing, security or analytics setting was changed. Additional expenditure: **₹0**. Next evidence-led step: use the genuine existing Google property/manager session for a later settled Employment/NAINA and guide-crawl readback, and verify publisher correction rather than resending it.
+
 ## Current measured continuation — 15 October 2026
 
 Recovery is published in PR #56 / main `84e6ffde3ecdd85b284a02f3222933403cb7c91e`; both corrected guides pass live browser/navigation and Google smartphone **HTTP200** tests. Exactly two changed-guide indexing requests accepted; IndexNow receipt is separate. Baseline: **247 pages / 239 sitemap URLs / 8 maritime holds / 154 article metadata records** preserved.
