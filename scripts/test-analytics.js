@@ -1,6 +1,7 @@
 const assert = require('node:assert/strict');
 const path = require('node:path');
 const { JSDOM, VirtualConsole } = require('jsdom');
+const originalNavigator = Object.getOwnPropertyDescriptor(globalThis, 'navigator');
 let passed = 0;
 
 function fixture(url = 'https://paullegalassociates.com/', referrer) {
@@ -8,6 +9,7 @@ function fixture(url = 'https://paullegalassociates.com/', referrer) {
   global.window = dom.window; global.document = dom.window.document;
   global.CustomEvent = dom.window.CustomEvent; global.Element = dom.window.Element;
   global.HTMLElement = dom.window.HTMLElement; global.IS_REACT_ACT_ENVIRONMENT = true;
+  Object.defineProperty(globalThis, 'navigator', { configurable: true, value: dom.window.navigator });
   delete require.cache[require.resolve('./load-source')];
   const { loadSource } = require('./load-source');
   const analytics = loadSource(path.resolve(__dirname, '../src/analytics.ts'));
@@ -21,7 +23,12 @@ function fixture(url = 'https://paullegalassociates.com/', referrer) {
 
 function test(name, fn) {
   try { fn(); passed++; console.log(`PASS: ${name}`); }
-  finally { if (global.window) window.close(); delete global.window; delete global.document; }
+  finally {
+    if (global.window) window.close();
+    delete global.window; delete global.document;
+    if (originalNavigator) Object.defineProperty(globalThis, 'navigator', originalNavigator);
+    else delete globalThis.navigator;
+  }
 }
 
 test('server rendering does not require browser APIs', () => {

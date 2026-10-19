@@ -1,5 +1,9 @@
 # Paul Legal Associates — remaining-work ledger
 
+## Node 18 analytics test follow-up — 19 October 2026
+
+PR #60 / main `2ed55202ff897a84271ae101149531921cc20551` fixed the missing generated-data prerequisite, but [run 39193741722](https://github.com/shibin340/paul-legal-associates/actions/runs/39193741722) then failed only at the final jsdom rendered-preferences test: `navigator is not defined` under runner Node 18. Status: **IN PROGRESS**. A scoped harness correction provides jsdom's navigator and restores the original global after each test. Verify under a Node 18-equivalent environment, then require green Pages deployment and production/GA4 readbacks before closing. No source page, consent rule, URL list, metadata or indexation change is part of this repair.
+
 ## Failed analytics release and repair — 19 October 2026
 
 Source main at diagnosis: `c59a68c1ac81cde98fd39daf30eae282431c846c` / PR #59. [Run 38895956351](https://github.com/shibin340/paul-legal-associates/actions/runs/38895956351) failed before build/deploy: `verify:analytics` imported `src/practiceAreas.ts`, which needs generated `src/data/site.ts`; that file exists only after `prepare-browser-data.js`. Status: **IN PROGRESS** until the scoped repair PR deploys and production plus actual GA4 collection are verified. The repair adds a `preverify:analytics` generation hook without changing website copy, privacy/event rules, sitemap, IndexNow or maritime holds. Clean-checkout local analytics, build/SEO and observation-ledger checks pass. Do not call the new collector live from source/GA4 property creation alone. After deployment, verify the optional consent path and actual collection before reporting any action counts. Existing 16 October cohort **4 indexed / 12 discovered / 2 unknown** and 13 October-ended Search Console exports retain their dates. No fresh Maps rank or qualified enquiry is claimed. **₹0 added spend.**
