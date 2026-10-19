@@ -1,5 +1,9 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Node 18 release follow-up — 19 October 2026
+
+PR #60 merged as `2ed55202ff897a84271ae101149531921cc20551`. [Run 39193741722](https://github.com/shibin340/paul-legal-associates/actions/runs/39193741722) confirms the generated-data prerequisite now works and the first 22 analytics tests pass, but its final rendered-preferences test failed because the Node 18 runner lacks a global `navigator`. Build/deployment were again skipped; the GA4 collector remains unverified in production. The scoped follow-up supplies jsdom's navigator to the test and restores the original global afterwards. Its publishing PR must record final deployment and live collection evidence. Search/GBP/lead figures below retain their original dates; no new movement is inferred.
+
 ## Analytics release recovery — 19 October 2026
 
 Current source main at diagnosis: `c59a68c1ac81cde98fd39daf30eae282431c846c` (merged PR #59). [Pages run 38895956351](https://github.com/shibin340/paul-legal-associates/actions/runs/38895956351) failed at the new analytics verification step because it ran before `prebuild` generated `src/data/site.ts`; build and deploy were skipped. PR #59's GA4 collector therefore **must not be counted as live collection** on that run. This repair makes the existing data preparation a prerequisite of standalone analytics verification. From a clean checkout, `npm ci`, all 23 analytics checks, the production build/SEO checks (247 pages, 239 sitemap URLs, 8,118 links, 12 hydration/navigation checks) and the existing local-search record validation pass. The publishing repair PR must supply its final deployment and production/GA4 readback. No new Google indexing, GBP action, citation correction, qualified enquiry or ranking change is inferred; the 16 October commercial cohort remains the latest inspection. Additional spend: **₹0**.
