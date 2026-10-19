@@ -1,5 +1,9 @@
 # Paul Legal Associates — organic discovery and enquiry scorecard
 
+## Analytics release recovery — 19 October 2026
+
+Current source main at diagnosis: `c59a68c1ac81cde98fd39daf30eae282431c846c` (merged PR #59). [Pages run 38895956351](https://github.com/shibin340/paul-legal-associates/actions/runs/38895956351) failed at the new analytics verification step because it ran before `prebuild` generated `src/data/site.ts`; build and deploy were skipped. PR #59's GA4 collector therefore **must not be counted as live collection** on that run. This repair makes the existing data preparation a prerequisite of standalone analytics verification. From a clean checkout, `npm ci`, all 23 analytics checks, the production build/SEO checks (247 pages, 239 sitemap URLs, 8,118 links, 12 hydration/navigation checks) and the existing local-search record validation pass. The publishing repair PR must supply its final deployment and production/GA4 readback. No new Google indexing, GBP action, citation correction, qualified enquiry or ranking change is inferred; the 16 October commercial cohort remains the latest inspection. Additional spend: **₹0**.
+
 ## Actual implementation and measurement — 16 October 2026
 
 Publishing [PR #59](https://github.com/shibin340/paul-legal-associates/pull/59) and cycle `post-pr58-20261016-commercial-gbp-analytics` in [existing execution evidence](evidence/Local_Growth_Execution_2026-10-07.json) are the continuation checkpoint. Its final release description supplies merge/deployment and live collection verification.

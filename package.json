@@ -27,6 +27,7 @@
     "build": "react-scripts build",
     "postbuild": "node scripts/generate-routes.js && node scripts/verify-pages.js",
     "verify:seo": "node scripts/verify-pages.js",
+    "preverify:analytics": "node scripts/prepare-browser-data.js",
     "verify:analytics": "node scripts/test-analytics.js",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
