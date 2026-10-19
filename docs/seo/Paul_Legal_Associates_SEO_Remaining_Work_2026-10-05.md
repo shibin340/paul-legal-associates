@@ -1,5 +1,9 @@
 # Paul Legal Associates — remaining-work ledger
 
+## Failed analytics release and repair — 19 October 2026
+
+Source main at diagnosis: `c59a68c1ac81cde98fd39daf30eae282431c846c` / PR #59. [Run 38895956351](https://github.com/shibin340/paul-legal-associates/actions/runs/38895956351) failed before build/deploy: `verify:analytics` imported `src/practiceAreas.ts`, which needs generated `src/data/site.ts`; that file exists only after `prepare-browser-data.js`. Status: **IN PROGRESS** until the scoped repair PR deploys and production plus actual GA4 collection are verified. The repair adds a `preverify:analytics` generation hook without changing website copy, privacy/event rules, sitemap, IndexNow or maritime holds. Clean-checkout local analytics, build/SEO and observation-ledger checks pass. Do not call the new collector live from source/GA4 property creation alone. After deployment, verify the optional consent path and actual collection before reporting any action counts. Existing 16 October cohort **4 indexed / 12 discovered / 2 unknown** and 13 October-ended Search Console exports retain their dates. No fresh Maps rank or qualified enquiry is claimed. **₹0 added spend.**
+
 ## Commercial discovery, genuine GBP edits and GA4 — 16 October 2026
 
 Source at preparation: PR #58 / `cb90e642e56dac7a11a28f690fe09e3bb9023491`. Publishing [PR #59](https://github.com/shibin340/paul-legal-associates/pull/59) records final merge, deployment and actual collection proof; read its final description before continuing setup.
