@@ -18,6 +18,7 @@ export const serviceReading: Record<string, string[]> = {
   'corporate-commercial-ma-startup-law': ['mergers-acquisitions-legal-essentials', 'starting-business-india-legal-compliance-checklist'],
   'arbitration-mediation-adr': ['commercial-arbitration-vs-litigation', 'commercial-arbitration-contract-disputes'],
   'taxation-gst-fiscal-litigation': ['gst-tax-litigation-advisory'],
+  'international-trade-fema-cross-border-business': ['nri-property-compliance-fema'],
 };
 
 // One preferred service destination per selected article. This avoids a
@@ -46,5 +47,6 @@ export const insightServiceLinks: Record<string, string> = {
   'pf-esic-factory-contract-labour-compliance': 'labour-employment-hr-workplace-compliance',
   'posh-compliance-internal-committee-services': 'posh-compliance-internal-committee',
   'posh-compliance-employers-mumbai-navi-mumbai': 'posh-compliance-internal-committee',
-  'gst-tax-litigation-advisory': 'taxation-gst-fiscal-litigation'
+  'gst-tax-litigation-advisory': 'taxation-gst-fiscal-litigation',
+  'nri-property-compliance-fema': 'international-trade-fema-cross-border-business'
 };
