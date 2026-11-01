@@ -713,6 +713,20 @@
         "https://vinmgt.in/services/posh-compliance/?utm_source=chatgpt.com",
         "https://www.indiacode.nic.in/?utm_source=chatgpt.com"
       ]
+    },
+    {
+      "id": "citation-getlaw-20261101-readback",
+      "kind": "citation",
+      "observedAtUTC": "2026-11-01T04:18:03Z",
+      "sourceType": "public_directory",
+      "sourceURL": "https://getlaw.in/lawyer/paul-legal-associates",
+      "evidencePath": "docs/seo/evidence/Local_Public_Followup_2026-11-01.json",
+      "citationId": "getlaw",
+      "addressStatus": "matches",
+      "phoneStatus": "unconfirmed",
+      "correctionStatus": "not_submitted",
+      "submittedAt": null,
+      "verifiedAt": null
     }
   ]
 }

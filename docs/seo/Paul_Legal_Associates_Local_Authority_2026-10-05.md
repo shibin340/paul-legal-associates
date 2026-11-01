@@ -1,5 +1,11 @@
 # Local consistency, legitimate authority and SERP evidence — 5 October 2026
 
+## Direct GetLaw and blocked Bdir follow-up — 1 November 2026 IST
+
+The current direct [GetLaw page](https://getlaw.in/lawyer/paul-legal-associates) still publishes Om Sai Building / Swami Nityanand Road / 410206 and the firm's primary phone. It omits Office 301 / Plot 101/3 and additionally shows `7977063476`, `associatespaullegal@gmail.com`, “40 years” and Mon–Sun 9:00–21:00. The second phone, legacy email, experience and actual hours are owner-unverified; no correction was submitted. The [dated readback](evidence/Local_Public_Followup_2026-11-01.json) and appended citation record preserve this as core-address agreement, not full field-level agreement.
+
+Direct Bdir property/finance reads could not establish a fresh live state: the public fetch returned 403 and this browser showed the publisher's Cloudflare verification screen. Search snapshots crawled roughly four days and one day before this check still showed Moraj, but a search snapshot is **not** publisher-side verification. Retain the owner's single 9 October correction as **SUBMITTED/PENDING** and the last direct **0/2 corrected** count dated 16 October; do not resend or bypass the security screen. No new backlink, membership, citation correction or publisher contact occurred. The known seven competitor entities are unchanged; no fresh like-for-like visibility or authority comparison was available. Additional spend **₹0**.
+
 ## Known-publisher follow-up — 16 October 2026
 
 Both Bdir listings still display the old 701/R3 Moraj address and an additional unconfirmed phone after the owner's single 9 October correction. They remain **submitted/pending**, with no publicly verified correction and no resend. GetLaw retains Om Sai Building / Swami Nityanand Road / 410206; its suite is absent and its experience/hours are not verified by firm records. No new listing, backlink, membership or outbound publisher contact occurred. [Three exact dated readbacks](evidence/Local_Public_Followup_2026-10-16.json) were appended to the existing observation ledger through its validated record command. Next: allow publisher processing and verify an actual corrected public page; only the owner can reconcile unconfirmed phone/hours/experience and the owner-reserved LinkedIn fields.
