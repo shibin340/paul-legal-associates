@@ -1,0 +1,37 @@
+{
+  "observedAtUTC": "2026-11-01T04:18:03Z",
+  "sourceMainBeforeChange": "2984a604a975d76eba88439fc40702a57f818fd6",
+  "method": "Direct public browser readback after a successful public web-search result; no account edit or form submission",
+  "getlaw": {
+    "url": "https://getlaw.in/lawyer/paul-legal-associates",
+    "visibleAddress": "Om Sai Building, Swami Nityanand Road, Panvel, Navi Mumbai - 410206 (Near Garden Hotel)",
+    "addressAssessment": "Core building, road and postcode agree with the current firm office; suite/plot detail is absent, so full address agreement is not established.",
+    "visiblePrimaryPhone": "+917977063567",
+    "visibleAdditionalPhone": "7977063476",
+    "additionalPhoneAssessment": "Ownership/current routing unconfirmed; no removal request submitted.",
+    "visibleEmail": "associatespaullegal@gmail.com",
+    "emailAssessment": "Not the website's published info@paullegalassociates.com; whether the legacy address remains monitored is unconfirmed.",
+    "visibleExperience": "40 years",
+    "visibleHours": "Mon - Sun 9:00 am - 9:00 pm",
+    "hoursAndExperienceAssessment": "Require owner records before correction; no speculative change.",
+    "correctionStatus": "Not submitted; no verified publisher-editor or owner session."
+  },
+  "bdir": {
+    "propertyURL": "https://bdir.in/p/best/in/property-case-lawyers-in-navi-mumbai-mh/MTQxMDU%3D",
+    "financeURL": "https://bdir.in/p/best/in/financial-case-lawyers-in-navi-mumbai-mh/MTQwOTM%3D",
+    "directPublicReadback": "Unavailable: public web fetch returned 403 and cloud browser displayed a site-served Cloudflare security-verification page. No challenge was attempted or bypassed.",
+    "indexedSearchSnapshot": "Search results crawled approximately four days ago for property and one day ago for finance still displayed the prior Moraj address. These are not a live publisher readback or proof that the existing correction request was rejected.",
+    "correctionStatus": "Owner's 9 October submission remains pending; publicly verified corrections stay 0/2 at the last direct 16 October readback. No resend."
+  },
+  "accountAccess": {
+    "searchConsole": "Existing domain-property URL opened Google's public Search Console about/sign-in page; current reports and URL inspection unavailable in this browser.",
+    "analytics": "Analytics opened a Google account chooser with relevant saved accounts marked signed out; Realtime and DebugView unavailable in this browser.",
+    "semrush": "Known no_api_units. No report call, payment or new subscription.",
+    "mapsRank": "No fixed-location controlled Local Pack/Maps observation available; not measured."
+  },
+  "website": {
+    "home": "https://paullegalassociates.com/",
+    "contact": "https://paullegalassociates.com/contact/",
+    "publicReadback": "Both public pages returned readable initial HTML in a fresh web retrieval on 1 November; Home retained main service content and the Contact route; Contact retained office, phone, email, directions and WhatsApp-form content. No enquiry submitted."
+  }
+}
