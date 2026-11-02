@@ -427,3 +427,20 @@ SYSTEM BLOCKER: 409 Conflict, environment_offline: Environment is not connected 
 LAST REVIEWED: `banking-finance-insolvency-debt-recovery` and `banking-disputes-rbi-ombudsman-complaints`. NEXT EXACT ACTION: Reconnect execution workspace; inspect git status/diff and cycle-F-edit.cjs, cycle-F-definition.json and cycle-F-build.log on seo/land-fema-sources-20261007. Reconcile any partial draft with verified main. Finish the existing agricultural-land/NRI-FEMA corrections, run the established build/verifier, publish one coherent source PR, verify deployment/public bodies/canonicals/sitemap/holds/bundle and notify only the two materially changed Insights. Then continue corporate/startup/contract source review.
 
 The following evidence-only PR changes no website source, manifest or dates. Its final merge SHA is recorded in its GitHub body/history; resolve current main from GitHub before resuming, rather than treating this source-deployment SHA as a later docs commit.
+
+## Scorecard checkpoint — 26 October 2026 IST
+
+| KPI | Current evidence | Change / interpretation |
+|---|---|---|
+| Google commercial indexation | Fresh account-side read unavailable because the available Google surface is signed out | Preserve the dated 16 October cohort; do not present it as current or resubmit unchanged URLs |
+| Google performance | No new settled export in this cycle | Preserve the exact 13 October-ending 28/90-day exports; no movement claim |
+| Insight source review | 16 production-verified targeted checks; 2 further targeted checks implemented and locally validated for release | Becomes 18/154 only after deployment/public verification; 136 remain unapproved |
+| Local / GBP | No authenticated manager access in this cycle | No category, service, hour, review or profile change; public Maps rank remains unmeasured |
+| Analytics | Consent-based GA4 collector from PR #61 remains deployed | Live collection, Realtime, key events and qualified enquiries remain unverified while Google is signed out |
+| Bing / IndexNow | Reviewed changed-URL list contains only the two updated Insights and one affected service page | Submission receipt must come from the deployment workflow; it is not proof of Bing indexing |
+| Search / AI crawlers | Public Home and Contact remained available in independent checks; no Cloudflare zone evidence | No WAF weakening and no verified-bot claim |
+| Rankings / enquiries | No new defensible Maps rank, AI rank or qualified lead record | Zero movement is asserted; continue measuring intended service landing → action → qualified enquiry |
+
+Commercial hypothesis: clearer current-law guidance and an explicit NRI guide ↔ FEMA service relationship should improve usefulness, topical authority flow and conversion relevance for genuine agricultural-land and NRI property enquiries. Measure subsequent crawl/index status, qualified query impressions/clicks to the intended pages and privacy-safe phone/WhatsApp/contact actions; do not use site-wide average position as the success criterion.
+
+Local release evidence: 247 prerendered pages, 239 sitemap URLs / 37 truthful lastmod entries, 8,123 internal-link occurrences, 12 hydration/navigation and Contact checks, 23 analytics checks, 23 local-record tests and three reviewed changed URLs. This verifies the candidate build only; production and external outcomes remain pending.

@@ -593,17 +593,23 @@
       "title": "Purchase and Acquisition of Agricultural and Non-Agricultural Land in NAINA, Panvel, Navi Mumbai and Raigad",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 25, 2020",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-26",
+      "disposition": "KEEP",
+      "reason": "Retain the distinct high-intent land-due-diligence guide after targeted current-statute, transferability and official-record corrections; no merger or redirect justified.",
+      "currentLawReview": "Targeted Maharashtra agricultural-transfer and official-record passages reviewed 26 October 2026 IST against current official sources. This is not a complete plot-specific title opinion or named-advocate approval.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 4068,
-      "sections": 52,
-      "primarySources": [],
+      "wordEvidence": 4276,
+      "sections": 53,
+      "primarySources": [
+        "https://lj.maharashtra.gov.in/en/document/the-maharashtra-tenancy-and-agricultural-lands-act-text-as-on-27th-november-2025-2/",
+        "https://lj.maharashtra.gov.in/en/document/the-maharashtra-land-revenue-code-1966-text-as-on-2nd-april-2025/",
+        "https://bhulekh.mahabhumi.gov.in/",
+        "https://igrmaharashtra.gov.in/Home/esearch_about",
+        "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
@@ -650,7 +656,7 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": "Targeted source correction is locally implemented; production release remains to be verified. Static HTML, H1, canonical, schema and held-exclusion checks are enforced by the build; this is not blanket substantive legal approval."
     },
     {
       "url": "https://paullegalassociates.com/insights/land-acquisition-compensation-guide/",
@@ -2516,23 +2522,29 @@
       "title": "NRI Property Legal Services in Mumbai, Navi Mumbai and Raigad",
       "author": "Adv. Sojan Paul",
       "publicationDate": "June 26, 2026",
-      "meaningfulUpdate": null,
-      "disposition": "UPDATE",
-      "reason": "Verify current-law accuracy and explicit primary sources before further promotion",
-      "currentLawReview": "Pending substantive law/source review",
+      "meaningfulUpdate": "2026-10-26",
+      "disposition": "KEEP",
+      "reason": "Retain the distinct NRI/OCI property-compliance intent after targeted FEMA, banking, repatriation, tax and remote-execution corrections; no merger or redirect justified.",
+      "currentLawReview": "Targeted RBI FEMA, Income Tax and Maharashtra registration-procedure passages reviewed 26 October 2026 IST against current official sources. This is not a transaction-specific FEMA, tax or title opinion or named-advocate approval.",
       "originality": {
         "exactDuplicateBodyWith": [],
         "externalOriginality": "Not established by automated inventory"
       },
-      "wordEvidence": 447,
-      "sections": 9,
-      "primarySources": [],
+      "wordEvidence": 1240,
+      "sections": 11,
+      "primarySources": [
+        "https://www.rbi.org.in/commonman/English/Scripts/FAQs.aspx?Id=1855",
+        "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=10196",
+        "https://www.incometaxindia.gov.in/w/tds-from-sum-paid-to-buy-an-immovable-property",
+        "https://www.incometaxindia.gov.in/w/certificate-of-lower/no-deduction-of-tax-at-source",
+        "https://igrmaharashtra.gov.in/Home/checklist"
+      ],
       "overlapCandidates": [],
       "indexable": true,
       "sitemap": true,
       "indexStatus": "Not individually refreshed; unknown",
       "gsc": [],
-      "preferredService": null,
+      "preferredService": "/expertise/international-trade-fema-cross-border-business/",
       "tierASupport": [],
       "internalIn": [
         "/insights/notary-notarisation-guidance-services/",
@@ -2553,7 +2565,7 @@
       "authorProfile": [
         "/partners/sojan-paul/"
       ],
-      "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
+      "verification": "Targeted source correction and reciprocal FEMA service path are locally implemented; production release remains to be verified. Static HTML, H1, canonical, schema and held-exclusion checks are enforced by the build; this is not blanket substantive legal approval."
     },
     {
       "url": "https://paullegalassociates.com/insights/property-notices-title-disputes/",
@@ -7574,5 +7586,5 @@
       "verification": "Static HTML, H1, canonical, schema and held-exclusion checks passed; automated inventory is not substantive legal approval"
     }
   ],
-  "lastUpdated": "2026-10-07"
+  "lastUpdated": "2026-10-26"
 }

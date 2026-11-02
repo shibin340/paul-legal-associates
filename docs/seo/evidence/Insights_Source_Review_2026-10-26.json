@@ -1,0 +1,113 @@
+{
+  "dateIST": "2026-10-26",
+  "sourceMainAtStart": "2984a604a975d76eba88439fc40702a57f818fd6",
+  "scope": "Targeted current-source review of two existing high-value Insights; no new URL, title experiment or mass content expansion.",
+  "articles": [
+    {
+      "url": "https://paullegalassociates.com/insights/due-diligence-agricultural-non-agricultural-land/",
+      "slug": "due-diligence-agricultural-non-agricultural-land",
+      "disposition": "KEEP",
+      "materialChanges": [
+        "Qualified the general section 63 agricultural-transfer restriction against Collector permission and the conditional section 63(1C) planning/municipal exception.",
+        "Clarified that registration does not cure a prohibited or conditional transfer.",
+        "Clarified that online revenue and registration records are starting points rather than a complete title certificate.",
+        "Added five current official resources while retaining the original title, author and publication date."
+      ],
+      "sources": [
+        {
+          "url": "https://lj.maharashtra.gov.in/en/document/the-maharashtra-tenancy-and-agricultural-lands-act-text-as-on-27th-november-2025-2/",
+          "authority": "Maharashtra Law and Judiciary Department",
+          "use": "Current official Act text; sections 63, 63(1C) and 63-IA checked."
+        },
+        {
+          "url": "https://lj.maharashtra.gov.in/en/document/the-maharashtra-land-revenue-code-1966-text-as-on-2nd-april-2025/",
+          "authority": "Maharashtra Law and Judiciary Department",
+          "use": "Current official Maharashtra Land Revenue Code source."
+        },
+        {
+          "url": "https://bhulekh.mahabhumi.gov.in/",
+          "authority": "Mahabhumi, Government of Maharashtra",
+          "use": "Official access point for 7/12, 8A and Property Card records."
+        },
+        {
+          "url": "https://igrmaharashtra.gov.in/Home/esearch_about",
+          "authority": "Inspector General of Registration, Maharashtra",
+          "use": "Official e-Search scope and coverage limitations."
+        },
+        {
+          "url": "https://cidco.maharashtra.gov.in/Page?Token=23AC47CB383",
+          "authority": "CIDCO",
+          "use": "Official NAINA Town Planning Scheme records directory."
+        }
+      ],
+      "limitations": "Targeted source/procedure correction only; not a plot-specific title opinion and not attributed to a fresh named-advocate review."
+    },
+    {
+      "url": "https://paullegalassociates.com/insights/nri-property-compliance-fema/",
+      "slug": "nri-property-compliance-fema",
+      "disposition": "KEEP",
+      "materialChanges": [
+        "Replaced a thin overview with practical NRI/OCI acquisition, transfer, payment, repatriation, tax, power-of-attorney and Maharashtra property checks.",
+        "Distinguished FEMA status from income-tax residence and section 194-IA from section 195 treatment for a non-resident seller.",
+        "Added five official resources and a reciprocal link to the existing FEMA/cross-border service owner while retaining the original title, author and publication date."
+      ],
+      "sources": [
+        {
+          "url": "https://www.rbi.org.in/commonman/English/Scripts/FAQs.aspx?Id=1855",
+          "authority": "Reserve Bank of India",
+          "use": "Current FAQ on NRI/OCI acquisition, transfer and inheritance of immovable property."
+        },
+        {
+          "url": "https://www.rbi.org.in/scripts/FS_Notification.aspx?Id=10196",
+          "authority": "Reserve Bank of India",
+          "use": "Master Direction 12 on acquisition/transfer, payment and repatriation under FEMA."
+        },
+        {
+          "url": "https://www.incometaxindia.gov.in/w/tds-from-sum-paid-to-buy-an-immovable-property",
+          "authority": "Income Tax Department",
+          "use": "Official distinction between section 194-IA and section 195 for a non-resident seller."
+        },
+        {
+          "url": "https://www.incometaxindia.gov.in/w/certificate-of-lower/no-deduction-of-tax-at-source",
+          "authority": "Income Tax Department",
+          "use": "Official lower or nil deduction certificate guidance."
+        },
+        {
+          "url": "https://igrmaharashtra.gov.in/Home/checklist",
+          "authority": "Inspector General of Registration, Maharashtra",
+          "use": "Official Sub-Registrar checklist for a power-of-attorney holder."
+        }
+      ],
+      "limitations": "Targeted current-source correction only; not a transaction-specific FEMA, tax or title opinion and not attributed to a fresh named-advocate review."
+    }
+  ],
+  "accountState": {
+    "google": "Signed out in the available account surface; no fresh GSC URL Inspection, GBP or GA4 account-side result is claimed.",
+    "semrush": "Known no_api_units state preserved; no call or purchase attempted.",
+    "bing": "No connected Bing Webmaster evidence available in this cycle.",
+    "cloudflare": "No zone Security Events access available in this cycle; no WAF change made."
+  },
+  "localValidation": {
+    "npmCi": "PASS",
+    "prerenderedPages": 247,
+    "sitemapURLs": 239,
+    "truthfulLastmodEntries": 37,
+    "internalLinkOccurrences": 8123,
+    "hydrationNavigationAndContactChecks": 12,
+    "analyticsChecks": 23,
+    "localRecordTests": 23,
+    "reviewedIndexNowURLs": 3,
+    "affectedPageChecks": "Each of the two Insights and the FEMA service page has one H1, a self-canonical, index/follow HTML, the intended reciprocal/source content and a 2026-10-26 structured-data date.",
+    "sharedBundle": {
+      "file": "main.e1f321c5.js",
+      "bytes": 587817,
+      "sha256": "82d409e5ae79c1636bdb14d960c5a7d205f61045bfc868772ec196ab747e11da"
+    }
+  },
+  "measurement": {
+    "tierAIndexation": "Latest recorded cohort remains the dated 16 October 2026 snapshot; it is not presented as current.",
+    "rankings": "No Google Search, Maps or AI ranking movement claimed.",
+    "enquiries": "No call, WhatsApp, contact handoff or retained-matter uplift claimed.",
+    "next": "After verified deployment, monitor first crawl/indexation and qualified query-to-service landings without resubmitting unchanged URLs."
+  }
+}
